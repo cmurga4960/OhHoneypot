@@ -18,7 +18,6 @@ its in our name.
 import argparse
 from OsSpoofer import OsSpoofer
 from ServiceSpoofer import ServiceSpoofer
-
 from colorama import Fore, Back, Style
 import sys
 import time
@@ -27,7 +26,15 @@ import time
 class OhHoney:
     description = "OhHoney is a python based honeypot designed to fool nmap -O -sV scans."
 
-    def __init__(self, interface_list, os_id=None, service_list=None, ignore=None, log_file=None):
+    def __init__(self, interface_list, os_id='', service_list='', ignore='', log_file=''):
+        if os_id == None:
+            os_id = ''
+        if service_list == None:
+            service_list = ''
+        if ignore == None:
+            ignore = ''
+        if log_file == None:
+            log_file = ''
         self.interface_list = interface_list.split(',')
         self.os_id = os_id
         self.service_list = service_list
@@ -54,7 +61,7 @@ class OhHoney:
         if self.service_spoofer:
             self.service_spoofer.start()
 
-        '''
+        #'''
         # Normal mode
         while True:
             try:
@@ -63,7 +70,7 @@ class OhHoney:
                 break
         # '''
 
-        #'''
+        '''
         # Testing mode
         time.sleep(5)
         OhHoney.scpNmap(self.os_spoofer, True, self.log_file)
@@ -181,6 +188,5 @@ if __name__ == "__main__":
     if not args.i:
         print("Please provide -i")
         sys.exit(0)
-    print(args)
     OhHoney.printArt()
     honeypot = OhHoney(args.i, args.o, args.s, args.ignore, args.l)
