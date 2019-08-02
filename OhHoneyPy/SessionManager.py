@@ -1,5 +1,8 @@
 import random
 from collections import Mapping
+import socket
+import fcntl
+import struct
 
 
 # Singleton
@@ -26,6 +29,12 @@ class SessionManager:
         if ip not in self.ip_to_session:
             self.ip_to_session[ip] = Session(ip)
         return self.ip_to_session[ip].getValue(test, attribute, value)
+
+    @staticmethod
+    def getIpAddress(interface):
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        return socket.inet_ntoa(fcntl.ioctl(
+            s.fileno(), 0x8915, struct.pack('256s', bytes(interface[:15],'utf-8')))[20:24])
 
 
 class Fingerprint(Mapping):

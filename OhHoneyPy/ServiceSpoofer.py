@@ -2,9 +2,9 @@ import os
 import rstr
 import time
 import threading
-import netifaces as ni
 from scapy.all import *
 from ScapyServer import ScapyServer
+from SessionManager import SessionManager
 from colorama import Fore, Back, Style
 
 # Interacts with a client by going through the three-way handshake.
@@ -80,7 +80,7 @@ class ServiceSpoofer(ScapyServer):
 		self.ip_addrs = []
 		self.ip_filter = ""
 		for interface in self.interfaces:
-			addr = ni.ifaddresses(interface)[ni.AF_INET][0]['addr']
+			addr = SessionManager.getIpAddress(interface)
 			self.ip_addrs.append(addr)
 			if self.ip_filter:
 				self.ip_filter += " or "
