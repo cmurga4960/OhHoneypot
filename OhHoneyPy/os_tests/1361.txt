@@ -1,0 +1,61 @@
+Fingerprint: FreeBSD 10.3-RELEASE
+Class: FreeBSD | FreeBSD | 10.X | general purpose
+CPE: cpe:/o:freebsd:freebsd:10.3 auto
+seq(sp=f9-103%gcd=1-6%isr=106-110%ti=ri%ts=22%ii=%ci=)
+ops(o1=m556nw6st11%o2=m556nw6st11%o3=m280nw6nnt11%o4=m564nw6st11%o5=m218nw6st11%o6=m109st11)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=ffff%o=m556nw6sll%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+Fingerprint: FreeBSD 10.3-RELEASE (97%), FreeBSD 9.0-RELEASE - 10.3-RELEASE (92%), FreeBSD 9.1-RELEASE or 10.1-RELEASE (92%), VMware ESXi 4.1.0 (91%), FreeBSD 8.1-RELEASE (91%), FreeBSD 8.2-RELEASE (91%), VMware ESXi 5.1 (91%), VMware ESXi 4.1 (91%), FreeBSD 10.1-RELEASE (90%), FreeBSD 7.0-RELEASE (90%)
+seq(sp=ea%gcd=1%isr=e1)
+ops(o1=m556nw6st11%o2=m556nw6st11%o3=m280nw6nnt11%o4=m564nw6st11%o5=m218nw6st11%o6=m109st11)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=40%w=ffff%o=m556nw6sll%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m556nw6st11%o2=m556nw6st11%o3=m280nw6nnt11%o4=m564nw6st11%o5=m218nw6st11%o6=m109st11)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=y%w=ffff%o=m556nw6sll%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=f9-103%gcd=1-6%isr=106-110%ti=ri%ts=22%ii=%ci=)
+FingerB:seq(sp=ea%gcd=1%isr=e1)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

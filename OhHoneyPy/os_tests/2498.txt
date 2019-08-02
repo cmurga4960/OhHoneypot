@@ -1,0 +1,60 @@
+Fingerprint: Linux 2.6.15 - 2.6.26 (likely embedded)
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6 auto
+seq(sp=b2-d0%gcd=1-6%isr=b8-d6%ti=z%ii=i%ts=7|8%ci=)
+ops(o1=m5b4st11nw1|m5b4st11nw2|m5b4st11nw4|m5b4st11nw5|m5b4st11nw6|m5b4st11nw7%o2=m5b4st11nw1|m5b4st11nw2|m5b4st11nw4|m5b4st11nw5|m5b4st11nw6|m5b4st11nw7%o3=m5b4nnt11nw1|m5b4nnt11nw2|m5b4nnt11nw4|m5b4nnt11nw5|m5b4nnt11nw6|m5b4nnt11nw7%o4=m5b4st11nw1|m5b4st11nw2|m5b4st11nw4|m5b4st11nw5|m5b4st11nw6|m5b4st11nw7%o5=m5b4st11nw1|m5b4st11nw2|m5b4st11nw4|m5b4st11nw5|m5b4st11nw6|m5b4st11nw7%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw1|m5b4nnsnw2|m5b4nnsnw4|m5b4nnsnw5|m5b4nnsnw6|m5b4nnsnw7%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: HP Onboard Administrator 2.04 (94%), Linux 2.6.15 - 2.6.26 (likely embedded) (94%), Linux 2.6.9 - 2.6.27 (94%), Tomato 1.28 (Linux 2.6.22) (94%), AXIS 211A Network Camera (Linux 2.6.20) (94%), Tomato 1.28 (Linux 2.4.20) (94%), Asus RT-AC66U router (Linux 2.6) (93%), AVM FRITZ!Box FON WLAN 7170 WAP (93%), Cymphonix EX550 firewall (93%), Dell Integrated Remote Access Controller (iDRAC) (93%)
+seq(ii=i)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nnsnw1%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=y%w=16d0%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=b2-d0%gcd=1-6%isr=b8-d6%ti=z%ts=7|8%ci=)
+FingerA:ecn(t=3b-45%tg=40%o=m5b4nnsnw1|m5b4nnsnw2|m5b4nnsnw4|m5b4nnsnw5|m5b4nnsnw6|m5b4nnsnw7)
+FingerB:ecn(t=40%o=m5b4nnsnw1)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b4st11nw1|m5b4st11nw2|m5b4st11nw4|m5b4st11nw5|m5b4st11nw6|m5b4st11nw7%o2=m5b4st11nw1|m5b4st11nw2|m5b4st11nw4|m5b4st11nw5|m5b4st11nw6|m5b4st11nw7%o3=m5b4nnt11nw1|m5b4nnt11nw2|m5b4nnt11nw4|m5b4nnt11nw5|m5b4nnt11nw6|m5b4nnt11nw7%o4=m5b4st11nw1|m5b4st11nw2|m5b4st11nw4|m5b4st11nw5|m5b4st11nw6|m5b4st11nw7%o5=m5b4st11nw1|m5b4st11nw2|m5b4st11nw4|m5b4st11nw5|m5b4st11nw6|m5b4st11nw7%o6=m5b4st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

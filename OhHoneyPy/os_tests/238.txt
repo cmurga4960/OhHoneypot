@@ -1,0 +1,77 @@
+Fingerprint: Apple iPod touch audio player (iPhone OS 2.2)
+Class: Apple | iPhone OS | 2.X | media device
+CPE: cpe:/o:apple:iphone_os:2.2 auto
+seq(r=n%ii=%ti=%ci=)
+ops(o1=%o2=%o3=%o4=%o5=%o6=)
+win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+ecn(r=y%df=n%t=3b-45%tg=40%w=0%o=%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=z%a=s+%f=ar%rd=0%q=)
+t2(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Apple iPod touch audio player (iPhone OS 2.2) (98%), FreeBSD 5.4-STABLE (96%), IBM AIX 5.3 (94%), Apple Mac OS X 10.7.2 (Lion) (Darwin 11.2.0) (93%), Ricoh Aficio MP C4501 printer (91%), Avaya P130 workgroup switch (90%), FreeBSD 4.7-STABLE (90%), Cisco CSS 11501 switch (89%), Aastra 57i VoIP phone (89%), Brother DCP-L2540DN printer (89%)
+seq(sp=0%gcd=1%isr=1b%ci=i%ts=u)
+ops(o1=%o2=%o3=%o4=%o5=%o6=)
+win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+ecn(r=y%df=n%t=40%w=0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=z%a=s+%f=ar%rd=0%q=)
+t2(r=y%df=y%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=%o2=%o3=%o4=%o5=%o6=)
+FingerAB:win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+FingerAB:ecn(r=y%df=n%w=0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=z%a=s+%f=ar%rd=0%q=)
+FingerAB:t2(r=y%df=y%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(r=n%ii=%ti=%ci=)
+FingerB:seq(ci=i%sp=0%gcd=1%isr=1b%ts=u)
+
+FingerA:ecn(t=3b-45%tg=40%o=)
+FingerB:ecn(t=40%o=m5b4)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=3b-45%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

@@ -1,0 +1,82 @@
+Fingerprint: Dell 3000 printer
+Class: Dell | embedded || printer
+CPE: cpe:/h:dell:3000 auto
+seq(r=n%ii=%ti=%ci=)
+ops(o1=m5b4%o2=|m5b4%o3=%o4=%o5=%o6=)
+win(w1=3000%w2=3000%w3=3000%w4=3000%w5=3000%w6=3000)
+ecn(r=y%df=n%t=19-23%tg=20%w=3000%o=%cc=n%q=)
+t1(r=y%df=n%t=19-23%tg=20%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=19-23%tg=20%w=3000%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=19-23%tg=20%w=3000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=19-23%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=19-23%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=19-23%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=4e4%rid=g%ripck=z%ruck=g%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Dell 3000 printer (99%), Fuji Xerox DocuPrint C525 A printer (96%), Dell 3110cn printer (91%), Xerox Phaser 6180N printer (91%), Dell 3100cn-series or Xerox Phaser 6180DN printer (89%)
+Class: Dell embedded (99%), Fuji Xerox embedded (96%), Xerox embedded (91%)
+CPE: cpe:/h:dell:3000 cpe:/h:fujixerox:docuprint_c525_a cpe:/h:xerox:phaser_6180n
+seq(sp=108%gcd=1%isr=ff%ci=i%ts=u)
+ops(o1=m5b4%o2=%o3=%o4=%o5=%o6=)
+win(w1=3000%w2=3000%w3=3000%w4=3000%w5=3000%w6=3000)
+ecn(r=y%df=n%t=20%w=3000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=20%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=20%w=3000%s=z%a=s+%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=20%w=3000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=4e4%rid=g%ripck=z%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4%o3=%o4=%o5=%o6=)
+FingerAB:win(w1=3000%w2=3000%w3=3000%w4=3000%w5=3000%w6=3000)
+FingerAB:ecn(r=y%df=n%w=3000%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=3000%s=z%a=s+%f=ar%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=3000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=4e4%rid=g%ripck=z%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(r=n%ii=%ti=%ci=)
+FingerB:seq(ci=i%sp=108%gcd=1%isr=ff%ts=u)
+
+FingerA:ops(o2=|m5b4)
+FingerB:ops(o2=)
+
+FingerA:ecn(t=19-23%tg=20%o=)
+FingerB:ecn(t=20%o=m5b4)
+
+FingerA:t1(t=19-23%tg=20%a=o|s+)
+FingerB:t1(t=20%a=o)
+
+FingerA:t3(t=19-23%tg=20%o=)
+FingerB:t3(t=20%o=m5b4)
+
+FingerA:t4(t=19-23%tg=20)
+FingerB:t4(t=20)
+
+FingerA:t5(t=19-23%tg=20)
+FingerB:t5(t=20)
+
+FingerA:t6(t=19-23%tg=20)
+FingerB:t6(t=20)
+
+FingerA:t7(t=19-23%tg=20)
+FingerB:t7(t=20)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

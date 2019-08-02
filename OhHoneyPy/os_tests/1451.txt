@@ -1,0 +1,82 @@
+Fingerprint: FreeBSD 7.0-RELEASE
+Class: FreeBSD | FreeBSD | 7.X | general purpose
+CPE: cpe:/o:freebsd:freebsd:7.0
+seq(sp=fa-104%gcd=1-6%isr=102-10c%ti=rd%ii=ri%ts=21%ci=)
+ops(o1=m5b4nw3st11%o2=m578nw3st11%o3=m280nw3nnt11%o4=m5b4nw3st11%o5=m218nw3st11%o6=m109st11)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=ffff%o=m5b4nw3sln%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=o%f=ar%o=%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: FreeBSD 7.0-RELEASE (97%), FreeBSD 7.2-RELEASE (95%), FreeBSD 7.0-RELEASE-p1 (94%), FreeBSD 10.3-RELEASE (92%), FreeBSD 9.0-RELEASE (91%), FreeBSD 7.0-BETA4 (89%), OpenBSD 4.4 (89%), FreeBSD 7.1-PRERELEASE - 7.3-RELEASE (88%), FreeBSD 8.0-STABLE (88%), FreeBSD 7.0-RELEASE-p1 - 10.0-CURRENT (87%)
+Class: FreeBSD 7.X|10.X|9.X|8.X (97%), OpenBSD 4.X (89%)
+CPE: cpe:/o:freebsd:freebsd:7.0 cpe:/o:freebsd:freebsd:10.3 cpe:/o:freebsd:freebsd:9.0 cpe:/o:openbsd:openbsd:4.4 cpe:/o:freebsd:freebsd:8.0
+seq(sp=105%gcd=1%isr=fc%ci=i)
+ops(o1=m5b4nw3st11%o2=m578nw3st11%o3=m280nw3nnt11%o4=m5b4nw3st11%o5=m218nw3st11%o6=m109st11)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=40%w=ffff%o=m5b4nw3sln%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%t=40%w=0%s=a%a=o%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw3st11%o2=m578nw3st11%o3=m280nw3nnt11%o4=m5b4nw3st11%o5=m218nw3st11%o6=m109st11)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=y%w=ffff%o=m5b4nw3sln%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=y%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=y%w=0%s=a%a=o%f=ar%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fa-104%gcd=1-6%isr=102-10c%ti=rd%ii=ri%ts=21%ci=)
+FingerB:seq(sp=105%gcd=1%isr=fc%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=3b-45%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=3b-45%tg=40%o=)
+FingerB:t3(t=40%o=m5b4)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

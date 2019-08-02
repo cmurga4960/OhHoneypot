@@ -1,0 +1,72 @@
+Fingerprint: Excito Bubba Two file server (Linux 2.6.32)
+Class: Linux | Linux | 2.6.X | general purpose
+Class: Excito | embedded || storage-misc
+CPE: cpe:/o:linux:linux_kernel:2.6.32 auto
+CPE: cpe:/h:excito:bubba_two
+seq(sp=b9-c3%gcd=1-6%isr=c8-d2%ti=z%ii=i%ts=8%ci=)
+ops(o1=m5b4st11nw4%o2=m5b4st11nw4%o3=m5b4nnt11nw4%o4=m5b4st11nw4%o5=m5b4st11nw4%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw4%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw4%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Excito Bubba Two file server (Linux 2.6.32) (95%), Cisco RV320 router (Linux 2.6.32) (93%), Linux 2.6.32 (92%), Linux 2.6.35 (92%), DD-WRT (Linux 2.4.36) (92%), Synology DS209 NAS device (Linux 2.6.32) or Polycom HDX 7000 Touch Control (91%), ASUS RT-N56U WAP (Linux 3.4) (90%), Linux 2.6.36 (90%), Excito B3 file server (Linux 2.6.39) (90%), Linux 2.6.37 (90%)
+Class: Linux 2.6.X|2.4.X|3.X (95%), Excito embedded (95%), Cisco embedded (93%), Synology DiskStation Manager 3.X (91%), Polycom embedded (91%), Asus embedded (90%)
+CPE: cpe:/o:linux:linux_kernel:2.6.32 cpe:/h:excito:bubba_two cpe:/h:cisco:rv320 cpe:/o:linux:linux_kernel:2.4.36 cpe:/a:synology:diskstation:3.2 cpe:/h:asus:rt-n56u cpe:/o:linux:linux_kernel:3.4
+seq(ci=i)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nnsnw4%cc=y%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw4%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nnsnw4%cc=y%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw4%rd=0%q=)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=b9-c3%gcd=1-6%isr=c8-d2%ti=z%ii=i%ts=8%ci=)
+FingerB:seq(ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b4st11nw4%o2=m5b4st11nw4%o3=m5b4nnt11nw4%o4=m5b4st11nw4%o5=m5b4st11nw4%o6=m5b4st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerA:t6(r=n)
+
+

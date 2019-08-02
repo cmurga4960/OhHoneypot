@@ -1,0 +1,67 @@
+Fingerprint: Alvarion BreezeACCESS II broadband wireless access system 4.5.17
+Class: Alvarion | embedded || WAP
+seq(sp=47-51%gcd=1-6%isr=65-6f%ti=i%ii=i%ss=o|s%ts=u%ci=)
+ops(o1=%o2=%o3=%o4=%o5=%o6=)
+win(w1=5dc%w2=5dc%w3=5dc%w4=5dc%w5=5dc%w6=5dc)
+ecn(r=n)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=5dc%s=o%a=o|s+%f=as%o=%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=y%t=3b-45%tg=40%ipl=38%un=6b33|ad02|d0c3%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Alvarion BreezeACCESS II broadband wireless access system 4.5.17 (97%), Crestron XPanel control system (93%), Vodavi XTS-IP PBX (89%)
+Class: Alvarion embedded (97%), Crestron 2-Series (93%), Vodavi embedded (89%)
+CPE: cpe:/o:crestron:2_series cpe:/h:vodavi:xts-ip
+seq(sp=102%gcd=1%isr=f9%ci=i%ts=u)
+ops(o1=%o2=%o3=%o4=%o5=%o6=)
+win(w1=5dc%w2=5dc%w3=5dc%w4=5dc%w5=5dc%w6=5dc)
+ecn(r=n)
+t1(r=y%df=y%tg=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%tg=40%w=5dc%s=o%a=o%f=as%o=%rd=0%q=)
+t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=%o2=%o3=%o4=%o5=%o6=)
+FingerAB:win(w1=5dc%w2=5dc%w3=5dc%w4=5dc%w5=5dc%w6=5dc)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=y%tg=40%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%tg=40%w=5dc%s=o%f=as%o=%rd=0%q=)
+FingerAB:t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+--- Diff Values ---
+FingerA:seq(sp=47-51%gcd=1-6%isr=65-6f%ti=i%ii=i%ss=o|s%ci=)
+FingerB:seq(sp=102%gcd=1%isr=f9%ci=i)
+
+FingerA:t1(t=3b-45%a=o|s+)
+FingerB:t1(a=o)
+
+FingerA:t3(t=3b-45%a=o|s+)
+FingerB:t3(a=o)
+
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:t7(t=3b-45)
+FingerA:u1(df=y%t=3b-45%tg=40%ipl=38%un=6b33|ad02|d0c3%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

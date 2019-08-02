@@ -1,0 +1,64 @@
+Fingerprint: Linux 2.6.18
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6.18 auto
+seq(sp=101-10b%gcd=1-6%isr=103-10d%ti=z%ci=z%ts=a|c%ii=)
+ops(o1=m5b4st11nw4%o2=m5b4st11nw4%o3=m5b4nnt11nw4%o4=m5b4st11nw4%o5=m5b4st11nw4%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw4%cc=n)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t7(r=n)
+u1(r=n)
+ie(r=n)
+********************************************************
+Fingerprint: Linux 2.6.24 (97%), HP MSL4048 tape library (97%), Asus RT-N66U WAP (Linux 2.6) (96%), Asus RT-AC66U router (Linux 2.6) (95%), Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (95%), Asus RT-N16 WAP (Linux 2.6) (95%), Tomato 1.28 (Linux 2.6.22) (95%), AXIS 211A Network Camera (Linux 2.6.20) (95%), Linux 2.6.16 (95%), Lexmark 1400-series printer (94%)
+Class: Linux 2.6.X (97%), HP embedded (97%), Asus embedded (96%), AXIS embedded (95%), Lexmark embedded (94%), Crestron embedded (92%)
+CPE: cpe:/o:linux:linux_kernel:2.6.24 cpe:/h:hp:storageworks_msl4048 cpe:/o:linux:linux_kernel:2.6 cpe:/h:asus:rt-n66u cpe:/h:asus:rt-ac66u cpe:/h:axis:211_network_camera cpe:/o:linux:linux_kernel:2.6.20 cpe:/h:crestron:mpc-m5
+seq(ci=i)
+ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nnsnw4%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nnsnw4%cc=n)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:u1(r=n)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=101-10b%gcd=1-6%isr=103-10d%ti=z%ci=z%ts=a|c%ii=)
+FingerB:seq(ci=i)
+
+FingerA:ecn(t=3b-45)
+FingerB:ecn(q=)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0)
+FingerB:t1(r=n)
+
+FingerA:t4(t=3b-45)
+FingerB:t4(o=%q=)
+
+FingerA:t5(t=3b-45)
+FingerB:t5(o=%q=)
+
+FingerA:t6(t=3b-45)
+FingerB:t6(o=%q=)
+
+FingerA:ops(o1=m5b4st11nw4%o2=m5b4st11nw4%o3=m5b4nnt11nw4%o4=m5b4st11nw4%o5=m5b4st11nw4%o6=m5b4st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerA:t7(r=n)
+
+

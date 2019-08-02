@@ -1,0 +1,64 @@
+Fingerprint: IBM InfoPrint 1754 printer
+Class: IBM | embedded || printer
+CPE: cpe:/h:ibm:infoprint_1754 auto
+seq(sp=c9-d3%gcd=1-6%isr=ce-d8%ti=z%ii=i%ts=a%ci=)
+ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+win(w1=b50%w2=b50%w3=b50%w4=b50%w5=b50%w6=b50)
+ecn(r=n)
+t1(r=y%df=y%t=f9-103%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=f9-103%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=n)
+t6(r=y%df=y%t=f9-103%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=f9-103%tg=ff%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=f9-103%tg=ff%cd=s)
+********************************************************
+Fingerprint: IBM InfoPrint 1754 printer (96%), Linux 2.4.26 (Slackware 10.0.0) (92%), Tomato 1.27 - 1.28 (Linux 2.4.20) (92%), Linux 2.6.18 - 2.6.22 (92%), Linux 3.2.0 (92%), Crestron XPanel control system (92%), MikroTik RouterOS 6.15 (Linux 3.3.5) (91%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (91%), HP ProCurve MSM422 WAP (91%), Vodavi XTS-IP PBX (91%)
+seq(sp=109%gcd=1%isr=100)
+ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+win(w1=b50%w2=b50%w3=b50%w4=b50%w5=b50%w6=b50)
+ecn(r=n)
+t1(r=y%df=y%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t6(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+FingerAB:win(w1=b50%w2=b50%w3=b50%w4=b50%w5=b50%w6=b50)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c9-d3%gcd=1-6%isr=ce-d8%ti=z%ii=i%ts=a%ci=)
+FingerB:seq(sp=109%gcd=1%isr=100)
+
+FingerA:t1(t=f9-103%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t4(t=f9-103%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t6(t=f9-103%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:u1(t=f9-103%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=f9-103%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t5(r=n)
+FingerA:t7(r=n)
+
+

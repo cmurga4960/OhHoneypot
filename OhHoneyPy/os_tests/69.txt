@@ -1,0 +1,63 @@
+Fingerprint: Actiontec MI424WR-GEN3I WAP
+Class: Actiontec | embedded || WAP
+Class: Linux | Linux || WAP
+CPE: cpe:/h:actiontec:mi424wr-gen3i auto
+CPE: cpe:/o:linux:linux_kernel auto
+seq(sp=fc-108%gcd=1-6%isr=f9-109%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=faf0%w2=faf0%w3=faf0%w4=faf0%w5=faf0%w6=faf0)
+ecn(r=y%df=n%t=7b-85%tg=80%w=faf0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=7b-85%tg=80%w=faf0%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=7b-85%tg=80%w=7fff%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=7b-85%tg=80%w=faf0%s=o%a=o%f=ar%rd=0)
+t6(r=y%df=n%t=7b-85%tg=80%w=7fff%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(r=n)
+ie(dfi=n%t=7b-85%tg=80%cd=s)
+********************************************************
+Fingerprint: Actiontec MI424WR-GEN3I WAP (98%), DD-WRT v24-sp2 (Linux 2.4.37) (97%), Linux 3.2 (97%), Linux 4.4 (96%), Microsoft Windows XP SP3 (96%), Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012 (95%), VMware Player virtual NAT device (94%), BlueArc Titan 2100 NAS device (93%)
+seq(sp=100%gcd=1%isr=f6%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=faf0%w2=faf0%w3=faf0%w4=faf0%w5=faf0%w6=faf0)
+ecn(r=y%df=n%tg=80%w=faf0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=80%w=faf0%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%tg=80%w=7fff%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=80%w=faf0%s=o%a=o%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=80%w=7fff%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=faf0%w2=faf0%w3=faf0%w4=faf0%w5=faf0%w6=faf0)
+FingerAB:ecn(r=y%df=n%tg=80%w=faf0%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=80%w=faf0%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=80%w=7fff%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=80%w=faf0%s=o%a=o%f=ar%rd=0)
+FingerAB:t6(r=y%df=n%tg=80%w=7fff%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=fc-108%gcd=1-6%isr=f9-109%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=100%gcd=1%isr=f6%ci=i)
+
+FingerA:ecn(t=7b-85)
+FingerA:t1(t=7b-85)
+FingerA:t3(t=7b-85)
+FingerA:t4(t=7b-85)
+FingerA:t5(t=7b-85)
+FingerB:t5(o=%q=)
+
+FingerA:t6(t=7b-85)
+FingerA:ie(dfi=n%t=7b-85%tg=80%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

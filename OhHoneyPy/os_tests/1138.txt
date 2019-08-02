@@ -1,0 +1,76 @@
+Fingerprint: Dell Integrated Remote Access Controller (iDRAC7)
+Class: Dell | embedded || remote management
+CPE: cpe:/h:dell:remote_access_card:7
+seq(sp=fd-10d%gcd=1-6%isr=108-112%ti=z%ci=z%ii=i%ts=7)
+ops(o1=m5b4st11nw4%o2=m5b4st11nw4%o3=m5b4nnt11nw4%o4=m5b4st11nw4%o5=m5b4st11nw4%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw4%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Arris TG562G/CT cable modem (96%), Arris TG862G/CT cable modem (96%), Dell Integrated Remote Access Controller (iDRAC7) (96%), Linux 2.6.16 - 2.6.21 (96%), Linux 2.6.9 - 2.6.18 (96%), Linux 4.3 (96%), Chip PC XtremePC thin client (96%), Linux 2.6.22 (Fedora Core 6) (95%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (95%), Linux 2.6.18 - 2.6.24 (95%)
+Class: Arris embedded (96%), Dell embedded (96%), Linux 2.6.X|4.X|3.X (96%), Chip PC embedded (96%)
+CPE: cpe:/h:dell:remote_access_card:7 cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:4.3 cpe:/o:linux:linux_kernel cpe:/o:linux:linux_kernel:2.6.22 cpe:/o:linux:linux_kernel:3.10 cpe:/o:linux:linux_kernel:4.1 cpe:/o:linux:linux_kernel:3.0
+seq(sp=fa%gcd=1%isr=f1%ci=i)
+ops(o1=m5b4st11nw4%o2=m5b4st11nw4%o3=m5b4nnt11nw4%o4=m5b4st11nw4%o5=m5b4st11nw4%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nnsnw4%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw4%o2=m5b4st11nw4%o3=m5b4nnt11nw4%o4=m5b4st11nw4%o5=m5b4st11nw4%o6=m5b4st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nnsnw4%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fd-10d%gcd=1-6%isr=108-112%ti=z%ci=z%ii=i%ts=7)
+FingerB:seq(sp=fa%gcd=1%isr=f1%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

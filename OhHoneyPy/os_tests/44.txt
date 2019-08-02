@@ -1,0 +1,65 @@
+Fingerprint: 3Com 7760 WAP
+Class: 3Com | embedded || WAP
+CPE: cpe:/h:3com:7760 auto
+seq(sp=14-1e%gcd=fa00|1f400|2ee00|3e800|4e200%isr=99-a3%ti=i%ii=i%ss=s%ts=1%ci=)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=2000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: 3Com 7760 WAP (93%), AirSpan ProST WiMAX access point (92%), Enterasys Matrix E1 switch (90%), Rockwell Automation 1769-L23E-QB1 PLC (90%), Netgear WGT624 WAP (88%), Netgear WGR614v7, WGT624v3, or WPN824v2 WAP (VxWorks 5.4.2) (88%), 3Com X5 Unified Security Platform firewall (88%), Konica Minolta bizhub C252 printer (88%), Ricoh Aficio 1224C or AP400N printer (88%), FreeBSD 6.2-RELEASE (88%)
+Class: 3Com embedded (93%), AirSpan embedded (92%), Enterasys embedded (90%), Rockwell Automation embedded (90%), Netgear embedded (88%), Wind River VxWorks 5.X (88%), Konica Minolta embedded (88%), Ricoh embedded (88%)
+CPE: cpe:/h:3com:7760 cpe:/h:enterasys:matrix_e1 cpe:/h:rockwellautomation:1769-l23e-qb1 cpe:/h:netgear:wgt624 cpe:/o:windriver:vxworks:5.4.2 cpe:/h:netgear:wgr614 cpe:/h:netgear:wpn824 cpe:/h:konicaminolta:bizhub_c252
+seq(sp=108%gcd=1%isr=ff)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=40%w=2000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%w=2000%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=14-1e%gcd=fa00|1f400|2ee00|3e800|4e200%isr=99-a3%ti=i%ii=i%ss=s%ts=1%ci=)
+FingerB:seq(sp=108%gcd=1%isr=ff)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

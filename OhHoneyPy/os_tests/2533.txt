@@ -1,0 +1,74 @@
+Fingerprint: Linux 2.6.18
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6.18
+seq(sp=ca-d4%gcd=1-6%isr=cc-d6%ti=z%ii=i%ts=8%ci=)
+ops(o1=m5b4st11nw7%o2=m5b4st11nw7%o3=m5b4nnt11nw7%o4=m5b4st11nw7%o5=m5b4st11nw7%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=7b-85%tg=80%w=16d0%o=m5b4nnsnw7%cc=n%q=)
+t1(r=y%df=y%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=7b-85%tg=80%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw7%rd=0%q=)
+t4(r=y%df=y%t=7b-85%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=7b-85%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=7b-85%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=7b-85%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=7b-85%tg=80%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=7b-85%tg=80%cd=s)
+********************************************************
+Fingerprint: Linux 2.6.18 (95%), Hybertone GoIP GSM VoIP gateway (94%), Lexmark X6650 printer (94%), LG IPECS 300 VoIP PBX (Linux 2.6) (94%), Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (93%), AXIS 211A Network Camera (Linux 2.6.20) (93%), Linux 2.4.31 (Slackware v10.2) (93%), Linux 2.6.12 - 2.6.14 (embedded) (93%), Linux 2.6.13 - 2.6.32 (93%), Linux 2.6.18 - 2.6.32 (93%)
+seq(ii=i)
+ecn(r=y%df=y%t=80%w=16d0%o=m5b4nnsnw7%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=80%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw7%rd=0%q=)
+t4(r=y%df=y%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nnsnw7%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw7%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=ca-d4%gcd=1-6%isr=cc-d6%ti=z%ts=8%ci=)
+FingerA:ecn(t=7b-85%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(r=y%df=y%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=7b-85%tg=80)
+FingerB:t3(t=80)
+
+FingerA:t4(t=7b-85%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=7b-85%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=7b-85%tg=80)
+FingerB:t6(t=80)
+
+FingerA:t7(t=7b-85%tg=80)
+FingerB:t7(t=80)
+
+FingerA:u1(t=7b-85%tg=80)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=7b-85%tg=80)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b4st11nw7%o2=m5b4st11nw7%o3=m5b4nnt11nw7%o4=m5b4st11nw7%o5=m5b4st11nw7%o6=m5b4st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+
+

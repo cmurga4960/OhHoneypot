@@ -1,0 +1,80 @@
+Fingerprint: Barrelfish before release2011-09-02
+Class: Barrelfish | Barrelfish || general purpose
+CPE: cpe:/o:barrelfish:barrelfish auto
+seq(sp=0-a8%gcd=1-6%isr=ac-b6%ti=i%ci=i%ii=ri%ss=s%ts=u)
+ops(o1=m564%o2=m564%o3=m564%o4=m564%o5=m564%o6=m564)
+win(w1=2da0%w2=2da0%w3=2da0%w4=2da0%w5=2da0%w6=2da0)
+ecn(r=y%df=n%t=ee-f8%tg=ff%w=2da0%o=m564%cc=n)
+t1(r=y%df=n%t=ee-f8%tg=ff%s=o%a=s+%f=as%rd=0)
+t2(r=y%df=n%t=7a-84%tg=80%w=0%s=z%a=s%f=ar%rd=0)
+t3(r=y%df=n%t=7a-84%tg=80%w=0%s=z%a=o%f=ar%rd=0)
+t4(r=n)
+t5(r=y%df=n%t=7a-84%tg=80%w=0%s=z%a=s+%f=ar%rd=0%q=r)
+t6(r=y%df=n%t=7a-84%tg=80%w=0%s=a%a=z%f=r%rd=0%q=r)
+t7(r=y%df=n%t=7a-84%tg=80%w=0%s=z%a=s+%f=ar%rd=0%q=r)
+u1(df=n%t=7a-84%tg=80%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=ee-f8%tg=ff%cd=s)
+********************************************************
+Fingerprint: Barrelfish before release2011-09-02 (96%)
+Class: Barrelfish (96%)
+CPE: cpe:/o:barrelfish:barrelfish
+seq(sp=108%gcd=1%isr=fe%ci=i%ts=u)
+ops(o1=m564%o2=m564%o3=m564%o4=m564%o5=m564%o6=m564)
+win(w1=2da0%w2=2da0%w3=2da0%w4=2da0%w5=2da0%w6=2da0)
+ecn(r=y%df=n%t=ff%w=2da0%o=m564%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=80%w=0%s=z%a=o%f=ar%o=m5b4%rd=0%q=)
+t4(r=n)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=r)
+t6(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=r)
+t7(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=r)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m564%o2=m564%o3=m564%o4=m564%o5=m564%o6=m564)
+FingerAB:win(w1=2da0%w2=2da0%w3=2da0%w4=2da0%w5=2da0%w6=2da0)
+FingerAB:ecn(r=y%df=n%w=2da0%o=m564%cc=n)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%rd=0)
+FingerAB:t3(r=y%df=n%w=0%s=z%a=o%f=ar%rd=0)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0%q=r)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%rd=0%q=r)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0%q=r)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-a8%gcd=1-6%isr=ac-b6%ti=i%ii=ri%ss=s)
+FingerB:seq(sp=108%gcd=1%isr=fe)
+
+FingerA:ecn(t=ee-f8%tg=ff)
+FingerB:ecn(t=ff%q=)
+
+FingerA:t1(t=ee-f8%tg=ff)
+FingerB:t1(t=ff%q=)
+
+FingerA:t2(t=7a-84%tg=80)
+FingerB:t2(t=80%o=%q=)
+
+FingerA:t3(t=7a-84%tg=80)
+FingerB:t3(t=80%o=m5b4%q=)
+
+FingerA:t5(t=7a-84%tg=80)
+FingerB:t5(t=80%o=)
+
+FingerA:t6(t=7a-84%tg=80)
+FingerB:t6(t=80%o=)
+
+FingerA:t7(t=7a-84%tg=80)
+FingerB:t7(t=80%o=)
+
+FingerA:u1(t=7a-84%tg=80)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=ee-f8%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

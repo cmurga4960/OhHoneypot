@@ -1,0 +1,76 @@
+Fingerprint: HP iLO 4 remote management interface
+Class: HP | iLO | 4.X | remote management
+CPE: cpe:/o:hp:ilo:4 auto
+seq(sp=100-10a%gcd=1-6%isr=107-111%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m5b4nw0nnsnnt11%o5=m5b4%o6=m5b4)
+win(w1=8218%w2=8220%w3=8204%w4=8218%w5=8000%w6=8000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=8000%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: HP iLO 4 remote management interface (97%), Nintendo Wii game console (94%), HP iLO 3 remote management interface (94%), Epson Stylus Pro 400 printer (92%), Crestron XPanel control system (92%), HP iLO 3 remote management interface or Hay Systems HSL 2.75G Femtocell (91%), NEC UNIVERGE SV8100 PBX (90%), Green Hills Probe hardware debugger (90%), HP iLO 3 or iLO 4 remote management interface (90%), APC Smart-UPS (AOS 5.1.1) (90%)
+seq(sp=e6%gcd=1%isr=dd%ii=i%ts=u)
+ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m5b4nw0nnsnnt11%o5=m5b4%o6=m5b4)
+win(w1=8218%w2=8220%w3=8204%w4=8218%w5=8000%w6=8000)
+ecn(r=y%df=n%t=40%w=8000%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m5b4nw0nnsnnt11%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=8218%w2=8220%w3=8204%w4=8218%w5=8000%w6=8000)
+FingerAB:ecn(r=y%df=n%w=8000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=100-10a%gcd=1-6%isr=107-111%ti=i%ci=i%ss=s)
+FingerB:seq(sp=e6%gcd=1%isr=dd)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

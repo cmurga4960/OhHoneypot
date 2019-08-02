@@ -1,0 +1,71 @@
+Fingerprint: Dell PowerConnect 6200-series switch
+Class: Dell | embedded || switch
+CPE: cpe:/h:dell:powerconnect_6200
+seq(sp=8a-94%gcd=1-6%isr=97-a1%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=1000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=11c%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: Dell PowerConnect 6200-series switch (94%), HP LaserJet 4250 printer (90%), OSRAM Lightify ZigBee gateway (88%), Dell PowerConnect 6248, Enterasys C3 C3G124 or Netgear GSM7328Sv2 switch (88%), Dell PowerConnect or Enterasys switch (87%), Denver Electronics AC-5000W MK2 camera (87%), HP 170X print server or Inkjet 3000 printer (87%), Nintendo Wii game console (87%), FireBrick FB2700 firewall (87%), NEC UNIVERGE SV8100 PBX (87%)
+seq(sp=104%gcd=1%isr=fb%ci=i%ts=u)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=40%w=1000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+FingerAB:win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+FingerAB:ecn(r=y%df=n%w=1000%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=8a-94%gcd=1-6%isr=97-a1%ti=i%ii=i%ss=s)
+FingerB:seq(sp=104%gcd=1%isr=fb)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:u1(t=3b-45%tg=40%ipl=11c)
+FingerB:u1(t=fa%ipl=38%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=z)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,73 @@
+Fingerprint: HP Onboard Administrator 4.01
+Class: HP | embedded || remote management
+CPE: cpe:/a:hp:onboard_administrator:4.01
+seq(sp=102-10c%gcd=1-6%isr=105-10f%ti=z%ci=z%ii=i%ts=8)
+ops(o1=m5b4nnt11nw1%o2=m5b4nnt11nw1%o3=m5b4nnt11nw1%o4=m5b4nnt11nw1%o5=m5b4nnt11nw1%o6=m5b4nnt11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nw1%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: HP Onboard Administrator 2.25 - 3.31 (98%), HP Onboard Administrator 4.01 (98%), Tomato 1.27 - 1.28 (Linux 2.4.20) (95%), Linux 3.2.0 (95%), MikroTik RouterOS 6.15 (Linux 3.3.5) (95%), HP Onboard Administrator 2.04 (94%), HP Onboard Administrator 4.12 - 4.40 (94%), ZoneAlarm Z100G WAP (92%), D-Link DIR-300 NRU router (Linux 2.6.21) (91%), Linux 2.6.18 - 2.6.22 (91%)
+seq(sp=e6%gcd=1%isr=dd%ii=i)
+ops(o1=m5b4nnt11nw1%o2=m5b4nnt11nw1%o3=m5b4nnt11nw1%o4=m5b4nnt11nw1%o5=m5b4nnt11nw1%o6=m5b4nnt11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nw1%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ops(o1=m5b4nnt11nw1%o2=m5b4nnt11nw1%o3=m5b4nnt11nw1%o4=m5b4nnt11nw1%o5=m5b4nnt11nw1%o6=m5b4nnt11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nw1%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=102-10c%gcd=1-6%isr=105-10f%ti=z%ci=z%ts=8)
+FingerB:seq(sp=e6%gcd=1%isr=dd)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

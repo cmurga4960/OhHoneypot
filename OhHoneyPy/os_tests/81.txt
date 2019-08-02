@@ -1,0 +1,62 @@
+Fingerprint: Adtran Total Access 904 router
+Class: Adtran | embedded || router
+CPE: cpe:/h:adtran:total_access_904 auto
+seq(ii=i%ti=%ci=)
+ops(o1=%o2=%o3=%o4=%o5=%o6=)
+win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+ecn(r=n)
+t1(r=y%df=n%t=fa-104%tg=ff%s=z%a=s+%f=ar%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=z)
+********************************************************
+Fingerprint: Adtran Total Access 904 router
+Class: Adtran embedded
+CPE: cpe:/h:adtran:total_access_904
+seq(sp=0%gcd=1%isr=1b%ts=u)
+ops(o1=%o2=%o3=%o4=%o5=%o6=)
+win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+ecn(r=n)
+t1(r=y%df=n%t=ff%s=z%a=s+%f=ar%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=%o2=%o3=%o4=%o5=%o6=)
+FingerAB:win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=n%s=z%a=s+%f=ar%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(ii=i%ti=%ci=)
+FingerB:seq(sp=0%gcd=1%isr=1b%ts=u)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=z)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

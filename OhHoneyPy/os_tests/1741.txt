@@ -1,0 +1,62 @@
+Fingerprint: HP LaserJet 5M printer
+Class: HP | embedded || printer
+CPE: cpe:/h:hp:laserjet_5m auto
+seq(sp=0-1b%gcd=1-6%isr=15-1f%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m218)
+win(w1=860%w2=860%w3=860%w4=860%w5=860%w6=860)
+ecn(r=y%df=n%t=3b-45%tg=40%w=860%o=m218%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=860%s=o%a=s+%f=as%o=m218%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=n)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: HP LaserJet 5M printer (97%), HP LaserJet 8100 Series printer (97%), HP LaserJet 4000 printer (89%), HP LaserJet 4250 printer (88%)
+Class: HP embedded (97%)
+CPE: cpe:/h:hp:laserjet_5m
+seq(sp=fe%gcd=1%isr=f4%ts=u)
+ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m218)
+win(w1=860%w2=860%w3=860%w4=860%w5=860%w6=860)
+ecn(r=y%df=n%tg=40%w=860%o=m218%cc=n%q=)
+t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=40%w=860%s=o%a=s+%f=as%o=m218%rd=0%q=)
+t4(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%tg=40%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=n%tg=40%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m218)
+FingerAB:win(w1=860%w2=860%w3=860%w4=860%w5=860%w6=860)
+FingerAB:ecn(r=y%df=n%tg=40%w=860%o=m218%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=40%w=860%s=o%a=s+%f=as%o=m218%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=40%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=n%tg=40%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=0-1b%gcd=1-6%isr=15-1f%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=fe%gcd=1%isr=f4)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t3(t=3b-45)
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:ie(t=3b-45)
+FingerB:ie(r=y)
+
+FingerA:t7(r=n)
+
+

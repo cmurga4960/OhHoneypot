@@ -1,0 +1,75 @@
+Fingerprint: Linux 2.6.32
+Class: Imperva | SecureSphere || security-misc
+CPE: cpe:/o:imperva:securesphere auto
+seq(sp=102-10c%gcd=1-6%isr=102-10c%ti=z%ci=z%ts=u%ii=)
+ops(o1=m5b4nnsnw6%o2=m5b4nnsnw6%o3=m5b4nw6%o4=m5b4nnsnw6%o5=m5b4nnsnw6%o6=m5b4nns)
+win(w1=3908%w2=3908%w3=3908%w4=3908%w5=3908%w6=3908)
+ecn(r=y%df=y%t=3b-45%tg=40%w=3908%o=m5b4nnsnw6%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+Fingerprint: Linux 2.6.32 (98%), Linux 2.6.32 - 3.10 (95%), Dahua or Amcrest network video recorder (Linux) (95%), Western Digital My Cloud DL4100 NAS (Linux 3.10) (95%), ASUS RT-N56U WAP (Linux 3.4) (95%), Linux 3.2 (95%), Linux 3.1 (94%), Linux 3.16 (94%), Geovision EBD4700 CCTV camera (Linux 3.4) (94%), Linux 3.10 (94%)
+Class: Imperva SecureSphere (98%), Linux 2.6.X|3.X (95%), Western Digital embedded (95%), Asus embedded (95%), Geovision embedded (94%)
+CPE: cpe:/o:imperva:securesphere cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel cpe:/h:asus:rt-n56u cpe:/o:linux:linux_kernel:3.4 cpe:/h:geovision:ebd4700 cpe:/o:linux:linux_kernel:2.6.17
+seq(sp=fa%gcd=1%isr=f1%ts=u)
+ops(o1=m5b4nnsnw6%o2=m5b4nnsnw6%o3=m5b4nw6%o4=m5b4nnsnw6%o5=m5b4nnsnw6%o6=m5b4nns)
+win(w1=3908%w2=3908%w3=3908%w4=3908%w5=3908%w6=3908)
+ecn(r=y%df=y%t=40%w=3908%o=m5b4nnsnw6%cc=y%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4nnsnw6%o2=m5b4nnsnw6%o3=m5b4nw6%o4=m5b4nnsnw6%o5=m5b4nnsnw6%o6=m5b4nns)
+FingerAB:win(w1=3908%w2=3908%w3=3908%w4=3908%w5=3908%w6=3908)
+FingerAB:ecn(r=y%df=y%w=3908%o=m5b4nnsnw6%cc=y%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=102-10c%gcd=1-6%isr=102-10c%ti=z%ci=z%ii=)
+FingerB:seq(sp=fa%gcd=1%isr=f1)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+
+

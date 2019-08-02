@@ -1,0 +1,75 @@
+Fingerprint: Linksys BEFSR41 router
+Class: Linksys | embedded || router
+CPE: cpe:/h:linksys:befsr41 auto
+seq(ci=i%ii=i%ti=)
+ops(r=n)
+win(r=n)
+ecn(r=y%df=n%t=91-9b%tg=ff%w=3%o=%cc=n%q=u)
+t1(r=n)
+t2(r=y%df=n%t=91-9b%tg=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=91-9b%tg=ff%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=91-9b%tg=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=91-9b%tg=ff%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=91-9b%tg=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=91-9b%tg=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=91-9b%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=91-9b%tg=ff%cd=s)
+********************************************************
+Fingerprint: Linksys BEFSR41 router (94%), Linksys HPRO200 cable/DSL router (92%), SMC Barricade 7004BR router (92%), Symbol AP-2411 switch (92%), Symbol AP-3021 switch (92%), USRobotics USR8000 broadband router (92%), Linksys BEFW11S4 WAP (92%), Linksys BEFSR81 router (91%), Linksys BEFSR41 router or WRK54G WAP (91%), Symbol Spectrum24 4131 WAP (91%)
+seq(ci=i)
+ecn(r=y%df=n%t=ff%w=3%o=m5b4%cc=n%q=u)
+t1(r=n)
+t2(r=y%df=n%t=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=ff%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ecn(r=y%df=n%w=3%cc=n%q=u)
+FingerAB:t1(r=n)
+FingerAB:t2(r=y%df=n%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(ii=i%ti=)
+FingerA:ecn(t=91-9b%tg=ff%o=)
+FingerB:ecn(t=ff%o=m5b4)
+
+FingerA:t2(t=91-9b%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t3(t=91-9b%tg=ff)
+FingerB:t3(t=ff)
+
+FingerA:t4(t=91-9b%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=91-9b%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=91-9b%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=91-9b%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=91-9b%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=91-9b%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

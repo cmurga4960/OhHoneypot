@@ -1,0 +1,80 @@
+Fingerprint: Asus O!Play media player (Linux 2.6.12)
+Class: Asus | embedded || media device
+Class: Linux | Linux | 2.6.X | media device
+CPE: cpe:/o:linux:linux_kernel:2.6.12 auto
+seq(sp=b8-c2%gcd=1-6%isr=be-c8%ti=z%ci=rd%ts=7%ii=)
+ops(o1=m5b4st11nw2%o2=m5b4st11nw2%o3=m5b4nnt11nw2%o4=m5b4st11nw2%o5=m5b4st11nw2%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw2%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw2%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=o%f=ar%rd=0)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Brocade Fabric OS 7.4.1 (Linux 2.6.14) (98%), Linux 2.6.12 - 2.6.14 (embedded) (97%), Linux 2.6.18 - 2.6.32 (97%), Linux 2.6.22 (embedded, ARM) (97%), Linux 2.6.13 - 2.6.32 (97%), Linux 2.6.9 (97%), Linux 2.6.8 - 2.6.12 (97%), Linux 2.6.16 (97%), Riverbed Steelhead Mobile Controller 4.0.3 (96%), Aruba 3400 or 6000 wireless LAN controller (ArubaOS 3.3.2) (96%)
+Class: Brocade Fabric OS 7.X (98%), Linux 2.6.X|2.4.X (98%), Riverbed RiOS (96%), Aruba ArubaOS 3.X (96%), Aruba embedded (96%), Asus embedded (96%), Star Track embedded (95%), Avocent embedded (95%)
+CPE: cpe:/o:brocade:fabric_os:7.4.1 cpe:/o:linux:linux_kernel:2.6.14 cpe:/o:riverbed:rios cpe:/o:arubanetworks:arubaos:3.3.2 cpe:/h:arubanetworks:iap-105 cpe:/o:linux:linux_kernel:2.6.12 cpe:/h:star_track:srt2014hd cpe:/o:linux:linux_kernel:2.4.30
+seq(sp=102%gcd=1%isr=f9%ci=i)
+ops(o1=m5b4st11nw2%o2=m5b4st11nw2%o3=m5b4nnt11nw2%o4=m5b4st11nw2%o5=m5b4st11nw2%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nnsnw2%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw2%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw2%o2=m5b4st11nw2%o3=m5b4nnt11nw2%o4=m5b4st11nw2%o5=m5b4st11nw2%o6=m5b4st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nnsnw2%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw2%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=o%f=ar%rd=0)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=b8-c2%gcd=1-6%isr=be-c8%ti=z%ci=rd%ts=7%ii=)
+FingerB:seq(sp=102%gcd=1%isr=f9%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40%o=%q=)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40%o=%q=)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40%o=%q=)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40%o=%q=)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

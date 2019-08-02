@@ -1,0 +1,82 @@
+Fingerprint: Allied Telesyn AT-AR300L CentreCOM router
+Class: Allied Telesyn | AlliedWare || router
+CPE: cpe:/h:alliedtelesyn:at-ar300l
+CPE: cpe:/o:alliedtelesyn:alliedware auto
+seq(sp=ef-113%gcd=1-6%isr=f2-11c%ti=i%ii=ri%ss=s%ts=u%ci=)
+ops(o1=m3ec%o2=m3ec%o3=m3ec%o4=m3ec%o5=m3ec%o6=m3ec)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%t=3b-45%tg=40%w=400%o=m3ec%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=3b-45%tg=40%w=400%s=o%a=o|s+%f=a|as%o=|m3ec%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: Allied Telesyn AT-AR300L CentreCOM router (99%), Allied Telesyn Rapier 24i switch (93%), Allied Telesyn AT-AR750s router (93%), Bay Networks BayStack 450 switch (software version 4.2.0.16) (92%), Allied Telesyn AT-AR410 router (92%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (90%), Intel Express 510T, 520T, or 550T switch (90%), Allied Telesis AlliedWare version 54291-05 (90%), Casio QT-6000 or QT-6100 point-of-sale machine (89%), IBM OS/400 V4R2M0 (89%)
+seq(sp=f6%gcd=1%isr=ec%ti=i%ci=i%ts=u)
+ops(o1=m3ec%o2=m3ec%o3=m3ec%o4=m3ec%o5=m3ec%o6=m3ec)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%t=40%w=400%o=m3ec%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=40%w=400%s=o%a=o%f=as%o=%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ti=i%ts=u)
+FingerAB:ops(o1=m3ec%o2=m3ec%o3=m3ec%o4=m3ec%o5=m3ec%o6=m3ec)
+FingerAB:win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+FingerAB:ecn(r=y%df=n%w=400%o=m3ec%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=400%s=o%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=ef-113%gcd=1-6%isr=f2-11c%ii=ri%ss=s%ci=)
+FingerB:seq(sp=f6%gcd=1%isr=ec%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=3b-45%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=3b-45%tg=40%a=o|s+%f=a|as%o=|m3ec)
+FingerB:t3(t=40%a=o%f=as%o=)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=z)
+FingerB:ie(r=n)
+
+
+

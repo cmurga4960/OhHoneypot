@@ -1,0 +1,79 @@
+Fingerprint: Canon imageRUNNER C3100 or C6800 printer
+Class: Canon | embedded || printer
+CPE: cpe:/h:canon:imagerunner_c3100
+CPE: cpe:/h:canon:imagerunner_c6800
+seq(sp=13-1e%gcd=fa00|1f400|2ee00|3e800|4e200|5dc00%isr=98-a3%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=4000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=4000%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Canon imageRUNNER C3100 or C6800 printer (95%), DEC Ultrix 4.5 (92%), SMC SMC8014WG WAP (92%), Motorola SURFboard SBG900 WAP or SMC SMC8014 cable modem (91%), IronPort C100 email security appliance (AsyncOS 4.7.1) (91%), Canon imageRUNNER 3300 printer or Motorola SURFboard SBG900 wireless cable modem (91%), Lanier IS100e scanner or Philips Sopho iS3030 PBX (91%), IBM OS/2 Warp 2.0 (91%), 3Com SuperStack II Switch 3900-36 (90%), Canon imageRUNNER C3200 printer or Polycom SoundStation IP 4000 VoIP phone (90%)
+seq(sp=104%gcd=1%isr=fb%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=n%t=40%w=4000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=4000%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=40%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+FingerAB:ecn(r=y%df=n%w=4000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=4000%s=o%a=o%f=a%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=13-1e%gcd=fa00|1f400|2ee00|3e800|4e200|5dc00%isr=98-a3%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=104%gcd=1%isr=fb%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

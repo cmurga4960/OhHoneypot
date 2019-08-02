@@ -1,0 +1,64 @@
+Fingerprint: IBM i 6.1
+Class: IBM | i | 6.X | general purpose
+CPE: cpe:/o:ibm:i:6.1 auto
+seq(sp=a4-b4%gcd=1-8%isr=ae-ba%ti=i%ii=i%ss=s%ts=a%ci=)
+ops(o1=m59cnw5nnt11%o2=m578nw5nnt11%o3=m280nw5nnt11%o4=m59cnw5nnt11%o5=m218nw5nnt11%o6=m109nnt11)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=8000%o=m59cnw5%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: IBM i 6.1 (97%), Apple AirPort Extreme WAP (90%), Nokia E70 or N86 mobile phone (Symbian OS) (90%), FreeBSD 6.2-RELEASE (90%), Lanier Pro 8100s printer (90%), OpenBSD 4.3 (90%), OpenBSD 4.0 (90%), NetBSD 6.1.2 (89%), Ricoh MP W6700 printer (89%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (89%)
+seq(sp=fd%gcd=1%isr=f4)
+ops(o1=m59cnw5nnt11%o2=m578nw5nnt11%o3=m280nw5nnt11%o4=m59cnw5nnt11%o5=m218nw5nnt11%o6=m109nnt11)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=ffff)
+ecn(r=y%df=y%t=40%w=8000%o=m59cnw5%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m59cnw5nnt11%o2=m578nw5nnt11%o3=m280nw5nnt11%o4=m59cnw5nnt11%o5=m218nw5nnt11%o6=m109nnt11)
+FingerAB:win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=ffff)
+FingerAB:ecn(r=y%df=y%w=8000%o=m59cnw5%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=a4-b4%gcd=1-8%isr=ae-ba%ti=i%ii=i%ss=s%ts=a%ci=)
+FingerB:seq(sp=fd%gcd=1%isr=f4)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

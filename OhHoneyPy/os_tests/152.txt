@@ -1,0 +1,64 @@
+Fingerprint: APC AP9606 Network Management Card (AOS 2.5.4 - 3.2.6)
+Class: APC | AOS | 2.X | power-device
+CPE: cpe:/o:apc:aos:2 auto
+seq(sp=e2-ec%gcd=1-6%isr=de-e8%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m200%o5=m218%o6=m109)
+win(w1=640%w2=640%w3=640%w4=640%w5=640%w6=640)
+ecn(r=y%df=n%t=78%tg=80%w=640%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=78%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=78%tg=80|ff%w=640%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=n%t=78%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=78%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=78%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=78%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=78%tg=80%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=ab52|d22b%rud=g)
+ie(dfi=n%t=78%tg=80%cd=z)
+********************************************************
+Fingerprint: APC AOS 5 (95%), APC AP9606 Network Management Card (AOS 2.5.4 - 3.2.6) (95%), APC MasterSwitch power distribution unit (AOS 3.0.3) (95%), Ricoh Aficio SP C210SF printer (94%), Brother NC-130h print server (93%), Brother HL-2070N printer (93%), Brother HL-5070N printer (93%), Brother MFC-7820N printer (93%), Frontier Silicon internet radio (93%), Novatel MiFi 2200 3G WAP (93%)
+seq(sp=e2%gcd=1%isr=d9%ci=i%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m200%o5=m218%o6=m109)
+win(w1=640%w2=640%w3=640%w4=640%w5=640%w6=640)
+ecn(r=y%df=n%tg=80%w=640%o=m5b4%cc=n%q=)
+t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m578%o3=m280%o4=m200%o5=m218%o6=m109)
+FingerAB:win(w1=640%w2=640%w3=640%w4=640%w5=640%w6=640)
+FingerAB:ecn(r=y%df=n%tg=80%w=640%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t4(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+--- Diff Values ---
+FingerA:seq(sp=e2-ec%gcd=1-6%isr=de-e8%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=e2%gcd=1%isr=d9%ci=i)
+
+FingerA:ecn(t=78)
+FingerA:t1(t=78)
+FingerA:t3(r=y%df=n%t=78%tg=80|ff%w=640%s=o%a=s+%f=as%o=m109%rd=0%q=)
+FingerB:t3(r=n)
+
+FingerA:t4(t=78)
+FingerA:t5(t=78)
+FingerA:t6(t=78)
+FingerA:t7(t=78)
+FingerA:u1(df=n%t=78%tg=80%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=ab52|d22b%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(dfi=n%t=78%tg=80%cd=z)
+FingerB:ie(r=n)
+
+
+

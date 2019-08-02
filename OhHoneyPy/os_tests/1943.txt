@@ -1,0 +1,76 @@
+Fingerprint: Huawei AP6050DN WAP
+Class: Huawei | embedded || WAP
+CPE: cpe:/h:huawei:ap6050dn auto
+seq(sp=ff-109%gcd=1-6%isr=107-111%ti=i%ci=i%ii=ri%ss=s%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=2000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=fa-104%tg=ff%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Huawei AP6050DN WAP (95%), Huawei VRP 3 switch (95%), Huawei S9300 switch (94%), 3Com 4200G or Huawei Quidway S5600 switch (92%), Epson Stylus Pro 400 printer (92%), Huawei VRP 5.160 (91%), D-Link DWL-G810 WAP (91%), Nintendo Wii game console (91%), 3Com Switch 4200G (90%), 3Com 4500G switch (90%)
+seq(sp=105%gcd=1%isr=fc%ii=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=ff%w=2000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%w=2000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=ff-109%gcd=1-6%isr=107-111%ti=i%ci=i%ii=ri%ss=s)
+FingerB:seq(sp=105%gcd=1%isr=fc%ii=i)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

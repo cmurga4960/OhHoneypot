@@ -1,0 +1,67 @@
+Fingerprint: Cisco Catalyst 2900XL or 3500XL switch (IOS 12.0)
+Class: Cisco | IOS | 12.X | switch
+CPE: cpe:/h:cisco:catalyst_2900xl
+CPE: cpe:/h:cisco:catalyst_3500xl
+CPE: cpe:/o:cisco:ios:12.0
+seq(sp=de-108%gcd=1-6%isr=101-10f%ti=z%ii=ri%ts=u%ci=)
+ops(o1=m22c%o2=m22c%o3=m22c%o4=m22c%o5=m22c%o6=m22c)
+win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=1020%o=m22c%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco Catalyst 2900XL or 3500XL switch (IOS 12.0) (93%), Cisco Catalyst 2912 switch (IOS 12.0) (91%), AVtech Room Alert 26W environmental monitor (89%), OneAccess 1641 router (88%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (87%), Linksys BEFSR41 EtherFast router (87%), Cisco 870, 2821, 6506, or 7206VXR router (IOS 12.2 - 15.1) (87%), Cisco 3560G switch (IOS 12.2) (87%), Cisco Aironet 1042N WAP (IOS 15.2) (87%), Mitsubishi Q06UDEH CPU PLC module (86%)
+seq(sp=f8%gcd=1%isr=ef%ii=i%ts=u)
+ops(o1=m22c%o2=m22c%o3=m22c%o4=m22c%o5=m22c%o6=m22c)
+win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+ecn(r=y%df=n%t=ff%w=1020%o=m22c%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=ff%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3d%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m22c%o2=m22c%o3=m22c%o4=m22c%o5=m22c%o6=m22c)
+FingerAB:win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+FingerAB:ecn(r=y%df=n%w=1020%o=m22c%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=de-108%gcd=1-6%isr=101-10f%ti=z%ii=ri%ci=)
+FingerB:seq(sp=f8%gcd=1%isr=ef%ii=i)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3d%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3d%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

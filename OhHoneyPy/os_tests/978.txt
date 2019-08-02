@@ -1,0 +1,84 @@
+Fingerprint: Cisco Nexus V1000 switch (NX-OS)
+Class: Cisco | NX-OS || switch
+CPE: cpe:/o:cisco:nexus_v1000
+CPE: cpe:/o:cisco:nx_os auto
+seq(sp=fc-106%gcd=1-6%isr=103-111%ti=i%ci=i%ii=ri%ss=o%ts=3)
+ops(o1=m200nnt11%o2=m200nnt11%o3=m200nnt11%o4=m200nnt11%o5=m200nnt11%o6=m200nnt11)
+win(w1=9244|9638|9a2c|9e20|a214%w2=9244|9638|9a2c|9e20|a214%w3=9330|9818|9a8c|9f74|a45c%w4=9470|9858|9c40|a028|a604%w5=956c|9984|9d9c|a1b4|a7d8%w6=9638|9a2c|9e20|a214|a802)
+ecn(r=y%df=n%t=3c-46%tg=40%w=9638|9a2c|9e20|a214|a9fc%o=m200%cc=n%q=)
+t1(r=y%df=n%t=3c-46%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3c-46%tg=40%w=9638%s=o%a=o|s+%f=as%o=m200nnt11%rd=0%q=)
+t4(r=y%df=n%t=3c-46%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3c-46%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3c-46%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3c-46%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fb-105%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=0%rud=g)
+ie(dfi=s%t=fb-105%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco Nexus V1000 switch (NX-OS) (98%), Cisco Nexus 7010 switch (NX-OS 4.0(4)) (93%), Cisco Nexus 5010 switch (NX-OS 4.1) (93%), Cisco Nexus 7000-series switch (NX-OS 4.0(1a)) (90%), Cisco Nexus 5548 switch (NX-OS 5.2) (89%), Cisco Nexus 7000 switch (NX-OS 5.2(4)) (89%), Cisco Nexus switch (NX-OS 5 or 6.0(2)) (89%), Cisco Nexus 3000 switch (NX-OS 6) (89%), Cisco Nexus 7000 switch (NX-OS 6.0) (89%), Cisco Nexus switch (NX-OS 6.0(2)) (89%)
+Class: Cisco NX-OS 4.X|5.X|6.X (98%)
+CPE: cpe:/o:cisco:nexus_v1000 cpe:/o:cisco:nx_os cpe:/o:cisco:nexus_7010 cpe:/o:cisco:nx_os:4.0 cpe:/o:cisco:nexus_5548 cpe:/o:cisco:nx_os:5.2 cpe:/o:cisco:nx_os:6
+seq(sp=102%gcd=1%isr=f8%ci=i%ii=ri)
+ops(o1=m200nnt11%o2=m200nnt11%o3=m200nnt11%o4=m200nnt11%o5=m200nnt11%o6=m200nnt11)
+win(w1=9244%w2=9244%w3=9330%w4=9470%w5=956c%w6=9638)
+ecn(r=y%df=n%t=40%w=9638%o=m200%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=9638%s=o%a=o%f=as%o=m200nnt11%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=0%rud=g)
+ie(r=y%dfi=s%t=fa%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ii=ri)
+FingerAB:ops(o1=m200nnt11%o2=m200nnt11%o3=m200nnt11%o4=m200nnt11%o5=m200nnt11%o6=m200nnt11)
+FingerAB:ecn(r=y%df=n%o=m200%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=9638%s=o%f=as%o=m200nnt11%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=fc-106%gcd=1-6%isr=103-111%ti=i%ss=o%ts=3)
+FingerB:seq(sp=102%gcd=1%isr=f8)
+
+FingerA:win(w1=9244|9638|9a2c|9e20|a214%w2=9244|9638|9a2c|9e20|a214%w3=9330|9818|9a8c|9f74|a45c%w4=9470|9858|9c40|a028|a604%w5=956c|9984|9d9c|a1b4|a7d8%w6=9638|9a2c|9e20|a214|a802)
+FingerB:win(w1=9244%w2=9244%w3=9330%w4=9470%w5=956c%w6=9638)
+
+FingerA:ecn(t=3c-46%tg=40%w=9638|9a2c|9e20|a214|a9fc)
+FingerB:ecn(t=40%w=9638)
+
+FingerA:t1(t=3c-46%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3c-46%tg=40%a=o|s+)
+FingerB:t3(t=40%a=o)
+
+FingerA:t4(t=3c-46%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3c-46%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3c-46%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3c-46%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fb-105%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(t=fb-105%tg=ff)
+FingerB:ie(t=fa%r=y)
+
+
+

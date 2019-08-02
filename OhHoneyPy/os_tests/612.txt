@@ -1,0 +1,63 @@
+Fingerprint: Brother MFC-8480DN printer
+Class: Brother | embedded || printer
+CPE: cpe:/h:brother:mfc-8480dn auto
+seq(sp=c-16%gcd=1e848|3d090|5b8d8|7a120|98968%isr=9f-a9%ti=rd%ii=i%ts=a%ci=)
+ops(o1=m564nw0nnst11ll%o2=m564nw0nnst11ll%o3=m280nw0t11ll%o4=m564nw0nnst11ll%o5=m218nw0nnst11ll%o6=m109nnst11ll)
+win(w1=2010%w2=2010%w3=2258%w4=21f0%w5=20c0%w6=209d)
+ecn(r=y%df=y%t=3a-44%tg=40%w=2058%o=m564nw0nns%cc=n%q=)
+t1(r=y%df=y%t=3a-44%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3a-44%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Brother MFC-8480DN printer (94%), OpenBSD 4.3 (90%), Apple AirPort Extreme WAP (90%), Nokia E70 or N86 mobile phone (Symbian OS) (90%), Digi AnywhereUSB/2 network-attached USB hub (90%), Digi AnywhereUSB network-attached USB hub (90%), Wyse P class PCoIP client (90%), OpenBSD 4.0 (89%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (89%), OneAccess 1641 router (89%)
+seq(sp=ff%gcd=1%isr=f6)
+ops(o1=m564nw0nnst11ll%o2=m564nw0nnst11ll%o3=m280nw0t11ll%o4=m564nw0nnst11ll%o5=m218nw0nnst11ll%o6=m109nnst11ll)
+win(w1=2010%w2=2010%w3=2258%w4=21f0%w5=20c0%w6=209d)
+ecn(r=y%df=y%t=40%w=2058%o=m564nw0nns%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m564nw0nnst11ll%o2=m564nw0nnst11ll%o3=m280nw0t11ll%o4=m564nw0nnst11ll%o5=m218nw0nnst11ll%o6=m109nnst11ll)
+FingerAB:win(w1=2010%w2=2010%w3=2258%w4=21f0%w5=20c0%w6=209d)
+FingerAB:ecn(r=y%df=y%w=2058%o=m564nw0nns%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=1e848|3d090|5b8d8|7a120|98968%isr=9f-a9%ti=rd%ii=i%ts=a%ci=)
+FingerB:seq(sp=ff%gcd=1%isr=f6)
+
+FingerA:ecn(t=3a-44%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3a-44%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3a-44%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

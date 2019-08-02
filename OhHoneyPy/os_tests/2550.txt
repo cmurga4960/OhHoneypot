@@ -1,0 +1,74 @@
+Fingerprint: Linux 2.6.18
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6.18
+seq(sp=c1-cb%gcd=1-6%isr=cb-d5%ti=z%ci=z%ii=i%ts=8)
+ops(o1=m5b4st11nw7%o2=m5b4st11nw7%o3=m5b4nnt11nw7%o4=m5b4st11nw7%o5=m5b4st11nw7%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw7%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw7%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=y%t=fb-105%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Linux 2.6.18 (95%), HP MSL4048 tape library (93%), Crestron MC2E, MP2E, PRO2, or QM-RMC control and automation system, or HP StorageWorks MSL4048 tape library (92%), Lexmark S305, S405, Pro 700, Pro 800, or Pro 900 printer (92%), Oki B4545 printer (92%), HP StorageWorks MSL4048 tape library (92%), Dell PowerVault TL2000 or IBM System Storage TS3200 Express Model tape library (92%), Linux 2.6.12 - 2.6.14 (embedded) (92%), Linux 2.6.13 - 2.6.32 (92%), Linux 2.6.18 - 2.6.32 (92%)
+seq(ii=i)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nnsnw7%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw7%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=y%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nnsnw7%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw7%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=y%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c1-cb%gcd=1-6%isr=cb-d5%ti=z%ci=z%ts=8)
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fb-105%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b4st11nw7%o2=m5b4st11nw7%o3=m5b4nnt11nw7%o4=m5b4st11nw7%o5=m5b4st11nw7%o6=m5b4st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+
+

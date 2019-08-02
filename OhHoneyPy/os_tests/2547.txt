@@ -1,0 +1,50 @@
+Fingerprint: Linux 2.6.18
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6.18
+seq(sp=c0-ca%gcd=1-6%isr=c6-d0%ti=z%ts=7%ii=%ci=)
+ops(o1=m5acst11nw7%o2=m5acst11nw7%o3=m5acnnt11nw7%o4=m5acst11nw7%o5=m5acst11nw7%o6=m5acst11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5acnnsnw7%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(r=n)
+ie(r=n)
+********************************************************
+Fingerprint: Linux 2.6.18 (90%), Linux 2.6.27 (openSUSE 11.1) (89%), Linux 2.6.23 (88%), Linux 2.6.24 (88%), Linux 2.6.32 (88%), Citrix Access Gateway VPN gateway (88%), Cyberoam UTM firewall (88%), Juniper SA4000 SSL VPN gateway (IVE OS 7.0) (88%), Linux 2.6.11 (88%), Linux 2.6.22.1-32.fc6 (x86, SMP) (88%)
+Class: Linux 2.6.X (90%), Citrix embedded (88%), Cyberoam embedded (88%), Juniper IVE OS 7.X (88%), Avaya Communication Manager (88%), Asus embedded (87%), AVM embedded (87%), Buffalo embedded (87%)
+CPE: cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:juniper:sa4000 cpe:/o:juniper:ive_os:7.0 cpe:/o:linux:linux_kernel:2.6.11 cpe:/a:avaya:communication_manager cpe:/h:asus:rt-ac66u cpe:/o:linux:linux_kernel:2.6 cpe:/h:avm:fritz%21box_fon_wlan_7170
+ecn(r=y%df=y%tg=40%w=16d0%o=m5acnnsnw7%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m5acnnsnw7%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:ecn(t=3b-45)
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t5(t=3b-45)
+FingerA:seq(sp=c0-ca%gcd=1-6%isr=c6-d0%ti=z%ts=7%ii=%ci=)
+FingerA:ops(o1=m5acst11nw7%o2=m5acst11nw7%o3=m5acnnt11nw7%o4=m5acst11nw7%o5=m5acst11nw7%o6=m5acst11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

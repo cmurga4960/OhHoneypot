@@ -1,0 +1,67 @@
+Fingerprint: Dish Network Hopper media device
+Class: Dish | embedded || media device
+CPE: cpe:/h:dish:hopper
+seq(sp=c9-d3%gcd=1-6%isr=c9-d3%ti=z%ci=z%ii=i%ts=a)
+ops(o1=m5b4st11nw5%o2=m5b4st11nw5%o3=m5b4nnt11nw5%o4=m5b4st11nw5%o5=m5b4st11nw5%o6=m5b4st11)
+win(w1=10f8%w2=10f8%w3=10f8%w4=10f8%w5=10f8%w6=10f8)
+ecn(r=y%df=y%t=3b-45%tg=40%w=111c%o=m5b4nnsnw5%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=y%df=y%t=3c-46%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Dish Network Hopper media device (95%), Tomato 1.27 - 1.28 (Linux 2.4.20) (91%), Linux 3.2.0 (91%), Android 5.1 (90%), Android 6.0.1 (Linux 3.10) (90%), Android 6.0.1 (Linux 3.18) (90%), Linux 3.2 - 3.16 (90%), Linux 3.2 - 4.9 (90%), Linux 2.6.32 (89%), Linux 3.11 - 4.1 (89%)
+seq(sp=103%gcd=1%isr=f9%ci=i)
+ops(o1=m5b4st11nw5%o2=m5b4st11nw5%o3=m5b4nnt11nw5%o4=m5b4st11nw5%o5=m5b4st11nw5%o6=m5b4st11)
+win(w1=10f8%w2=10f8%w3=10f8%w4=10f8%w5=10f8%w6=10f8)
+ecn(r=y%df=y%t=40%w=111c%o=m5b4nnsnw5%cc=y%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw5%o2=m5b4st11nw5%o3=m5b4nnt11nw5%o4=m5b4st11nw5%o5=m5b4st11nw5%o6=m5b4st11)
+FingerAB:win(w1=10f8%w2=10f8%w3=10f8%w4=10f8%w5=10f8%w6=10f8)
+FingerAB:ecn(r=y%df=y%w=111c%o=m5b4nnsnw5%cc=y%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c9-d3%gcd=1-6%isr=c9-d3%ti=z%ci=z%ii=i%ts=a)
+FingerB:seq(sp=103%gcd=1%isr=f9%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t7(t=3c-46%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+
+

@@ -1,0 +1,69 @@
+Fingerprint: Cisco 3550 switch (IOS 12.2)
+Class: Cisco | IOS | 12.X | switch
+CPE: cpe:/o:cisco:ios:12.2 auto
+seq(sp=ff-109%gcd=1-6%isr=107-111%ti=rd%ci=ri%ts=u%ii=)
+ops(o1=m564%o2=m564%o3=m280%o4=m218%o5=m218%o6=m109)
+win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+ecn(r=y%df=y%t=fa-104%tg=ff%w=1020%o=m564%cc=n%q=)
+t1(r=y%df=y%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=fc-106%tg=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fc-106%tg=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+Fingerprint: Cisco 3550 switch (IOS 12.2) (95%), Cisco C2960 switch (IOS 12.2) (90%), OSRAM Lightify ZigBee gateway (89%), Denver Electronics AC-5000W MK2 camera (88%), HP LaserJet 4250 printer (88%), Cisco 2960 or 3650 switch (88%), Cisco 880 router (IOS 15.0) or 3750 switch (IOS 12.2) (88%), Cisco 870 router or 2960 switch (IOS 12.2 - 12.4) (87%), Cisco 877 router (IOS 12.4) (87%), Cisco Aironet 1231G WAP (IOS 12.3) (87%)
+seq(sp=da%gcd=1%isr=d1%ci=i%ts=u)
+ops(o1=m564%o2=m564%o3=m280%o4=m218%o5=m218%o6=m109)
+win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+ecn(r=y%df=y%t=ff%w=1020%o=m564%cc=n%q=)
+t1(r=y%df=y%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m564%o2=m564%o3=m280%o4=m218%o5=m218%o6=m109)
+FingerAB:win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+FingerAB:ecn(r=y%df=y%w=1020%o=m564%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=ff-109%gcd=1-6%isr=107-111%ti=rd%ci=ri%ii=)
+FingerB:seq(sp=da%gcd=1%isr=d1%ci=i)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t4(t=fc-106%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fc-106%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3d%r=y)
+
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,81 @@
+Fingerprint: Bay Networks BayStack 450 switch (software version 3.1.0.22)
+Class: Bay Networks | embedded || switch
+CPE: cpe:/h:baynetworks:baystack_450 auto
+seq(sp=20-ba%gcd=fa|1f4|2ee|3e8|4e2%isr=8a-c0%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%t=3b-45%tg=40%w=0|400%o=|m5b4%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o|z%a=o|s+%f=ar|as%rd=0%q=)
+t2(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=3b-45%tg=40%w=0|400%s=o|z%a=o|s+%f=ar|as%o=|m5b4%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Apple Time Capsule NAS device (95%), Cisco IP Phone 7912-series (93%), Nintendo Wii game console (93%), Sony PlayStation 3 game console (92%), Cisco ATA 188 VoIP adapter (91%), NEC UNIVERGE SV8100 PBX (91%), Lantronix XPress-DR+ serial-to-Ethernet bridge (91%), 3Com SuperStack 3 Switch 3870 (91%), Cisco SG 500 switch (91%), Epson Stylus Pro 400 printer (91%)
+Class: Apple embedded (95%), Cisco embedded (93%), Nintendo embedded (93%), Sony embedded (92%), NEC embedded (91%), Lantronix embedded (91%), 3Com embedded (91%), Epson embedded (91%)
+CPE: cpe:/h:cisco:unified_ip_phone_7912 cpe:/h:nintendo:wii cpe:/h:sony:playstation_3 cpe:/h:cisco:ata_188_voip_gateway cpe:/h:nec:sv8100 cpe:/h:3com:superstack_3_switch_3870 cpe:/h:cisco:sg_500 cpe:/h:epson:stylus_pro_400
+seq(sp=0%gcd=1%isr=1b%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=n)
+t1(r=y%df=n%t=40%s=o%a=o%f=ars%rd=0%q=)
+t2(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+FingerAB:t1(r=y%df=n%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=20-ba%gcd=fa|1f4|2ee|3e8|4e2%isr=8a-c0%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=0%gcd=1%isr=1b%ci=i)
+
+FingerA:ecn(r=y%df=n%t=3b-45%tg=40%w=0|400%o=|m5b4%cc=n%q=)
+FingerB:ecn(r=n)
+
+FingerA:t1(t=3b-45%tg=40%s=o|z%a=o|s+%f=ar|as)
+FingerB:t1(t=40%s=o%a=o%f=ars)
+
+FingerA:t2(t=3b-45%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(r=y%df=n%t=3b-45%tg=40%w=0|400%s=o|z%a=o|s+%f=ar|as%o=|m5b4%rd=0%q=)
+FingerB:t3(r=n)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

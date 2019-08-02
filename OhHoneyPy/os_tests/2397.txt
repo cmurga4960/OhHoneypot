@@ -1,0 +1,76 @@
+Fingerprint: Toshiba Magnia SG10 server appliance (Linux 2.4.18)
+Class: Linux | Linux | 2.4.X | general purpose
+Class: Toshiba | embedded || general purpose
+CPE: cpe:/o:linux:linux_kernel:2.4.18 auto
+CPE: cpe:/h:toshiba:magnia_sg10
+seq(sp=c9-d3%gcd=1-6%isr=cd-d7%ti=z%ii=i%ts=u%ci=)
+ops(r=n)
+win(r=n)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o|s+%f=ap|as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16d0%s=o%a=o|s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=y%t=fa-104%tg=ff%w=0%s=a|o%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=o|s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=fa-104%tg=ff%w=0%s=a|o%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=o|s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Toshiba Magnia SG10 server appliance (Linux 2.4.18) (95%), Avocent/Cyclades ACS 6000 (92%), Linux 2.6.24 (92%), Linux 2.6.17 (91%), Linux 2.6.23 (91%), Linux 2.6.14 - 2.6.34 (90%), Buffalo LinkStation Live NAS device (90%), Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (90%), AXIS 211A Network Camera (Linux 2.6.20) (90%), Alcatel-Lucent OmniPCX Enterprise PBX (Linux 2.4.17) (90%)
+Class: Linux 2.4.X|2.6.X (95%), Toshiba embedded (95%), Avocent embedded (92%), Buffalo embedded (90%), Asus embedded (90%), AXIS embedded (90%), Alcatel-Lucent embedded (90%)
+CPE: cpe:/o:linux:linux_kernel:2.4.18 cpe:/h:toshiba:magnia_sg10 cpe:/o:linux:linux_kernel:2.6.24 cpe:/h:asus:rt-n10 cpe:/h:axis:211_network_camera cpe:/o:linux:linux_kernel:2.6.20 cpe:/h:alcatel-lucent:omnipcx cpe:/o:linux:linux_kernel:2.4.17
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=16d0%s=o%a=o%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=y%t=ff%w=0%s=o%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=ff%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=ff%w=0%s=o%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=ff%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16d0%s=o%f=as%o=m5b4%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o|s+%f=ap|as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%tg=40%a=o|s+)
+FingerB:t3(t=40%a=o)
+
+FingerA:t4(t=fa-104%tg=ff%s=a|o)
+FingerB:t4(t=ff%s=o)
+
+FingerA:t5(t=fa-104%tg=ff%a=o|s+)
+FingerB:t5(t=ff%a=o)
+
+FingerA:t6(t=fa-104%tg=ff%s=a|o)
+FingerB:t6(t=ff%s=o)
+
+FingerA:t7(t=fa-104%tg=ff%a=o|s+)
+FingerB:t7(t=ff%a=o)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:seq(sp=c9-d3%gcd=1-6%isr=cd-d7%ti=z%ii=i%ts=u%ci=)
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

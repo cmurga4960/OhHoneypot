@@ -1,0 +1,82 @@
+Fingerprint: Lexmark Optra M410, T610, T612, or T622 printer
+Class: Lexmark | embedded || printer
+CPE: cpe:/h:lexmark:optra_m410
+CPE: cpe:/h:lexmark:optra_t610
+CPE: cpe:/h:lexmark:optra_t612
+CPE: cpe:/h:lexmark:optra_t622
+seq(sp=8b-a4%gcd=1-6%isr=90-a7%ti=i%ii=i%ss=s%ts=1|2%ci=)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=b50%w2=ad8%w3=9d0%w4=b50%w5=830%w6=8e5)
+ecn(r=y%df=y%t=fe%tg=ff%w=b68%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=fe%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=fe%tg=ff%w=8e5%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0%q=)
+t4(r=y%df=n%t=fe%tg=ff%w=800%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fe%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fe%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=fe%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Lexmark Optra M410, T610, T612, or T622 printer (94%), FreeBSD 4.11-STABLE (91%), Juniper Networks JUNOS 7.4R3.4 or 8.3 (91%), Netgear GS108T or GS748Tv3 switch (eCos) (90%), Mitel 3300 CXi VoIP PBX (90%), Epson Stylus Pro 400 printer (89%), HP ProCurve 1810G, or Netgear GS108v2, GS110TP, GS716T, or GS724TP switch (eCos 2.0) (89%), Juniper MX960 router (JUNOS 9.5R3.7) (89%), VxWorks (89%), Epson Stylus Pro 4900 (88%)
+seq(sp=108%gcd=1%isr=ff%ii=i)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=b50%w2=ad8%w3=9d0%w4=b50%w5=830%w6=8e5)
+ecn(r=y%df=y%t=ff%w=b68%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=ff%w=8e5%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0%q=)
+t4(r=y%df=n%t=ff%w=800%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerAB:win(w1=b50%w2=ad8%w3=9d0%w4=b50%w5=830%w6=8e5)
+FingerAB:ecn(r=y%df=y%w=b68%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=8e5%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=800%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=8b-a4%gcd=1-6%isr=90-a7%ti=i%ss=s%ts=1|2%ci=)
+FingerB:seq(sp=108%gcd=1%isr=ff)
+
+FingerA:ecn(t=fe%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fe%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t3(t=fe%tg=ff)
+FingerB:t3(t=ff)
+
+FingerA:t4(t=fe%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fe%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fe%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fe%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

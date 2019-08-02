@@ -1,0 +1,65 @@
+Fingerprint: Digi Connect ME serial-to-Ethernet bridge
+Class: Digi | embedded || bridge
+CPE: cpe:/h:digi:connect_me
+seq(ci=i%ii=i%ti=)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=75-7f%tg=80%w=0%s=a%a=z%f=r%rd=0)
+t5(r=y%df=n%t=75-7f%tg=80%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=y%df=n%t=75-7f%tg=80%w=0%s=a%a=z%f=r%rd=0)
+t7(r=y%df=n%t=75-7f%tg=80%w=0%s=z%a=s+%f=ar%rd=0)
+u1(df=n%t=75-7f%tg=80%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=4781%rud=g)
+ie(dfi=n%t=75-7f%tg=80%cd=z)
+********************************************************
+Fingerprint: Brother MFC-7820N printer (96%), Digi Connect ME serial-to-Ethernet bridge (96%), Brother HL-5070N printer (91%), OUYA game console (91%), ShoreTel ShoreGear-T1 VoIP switch (89%), Cisco ATA 188 VoIP adapter (89%), Apple Time Capsule NAS device (88%), Nokia 3600i mobile phone (87%), Brother NC-130h print server (87%), Brother HL-2070N printer (87%)
+seq(ci=i)
+ecn(r=n)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=4781%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=n)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=4781%rud=g)
+--- Diff Values ---
+FingerA:seq(ii=i%ti=)
+FingerA:t4(t=75-7f%tg=80)
+FingerB:t4(t=80%o=%q=)
+
+FingerA:t5(t=75-7f%tg=80)
+FingerB:t5(t=80%o=%q=)
+
+FingerA:t6(t=75-7f%tg=80)
+FingerB:t6(t=80%o=%q=)
+
+FingerA:t7(t=75-7f%tg=80)
+FingerB:t7(t=80%o=%q=)
+
+FingerA:u1(t=75-7f%tg=80)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=75-7f%tg=80%cd=z)
+FingerB:ie(r=n)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

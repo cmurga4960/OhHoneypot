@@ -1,0 +1,58 @@
+Fingerprint: General Dynamics R8000B Comm Systems Analyzer
+Class: General Dynamics | embedded || specialized
+seq(sp=f7-101%gcd=1-6%isr=10a-114%ci=i%ii=i%ts=0%ti=)
+ops(o1=m5b4nw0nnt00nns%o2=m5b4nw0nnt00nns%o3=m5b4nw0nnt00%o4=m5b4nw0nnt00nns%o5=m5b4nw0nnt00nns%o6=)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=0)
+ecn(r=y%df=n%t=7b-85%tg=80%w=0%o=%cc=n%q=)
+t1(r=y%df=y%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=7b-85%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(r=n)
+ie(dfi=s%t=7b-85%tg=80%cd=z)
+********************************************************
+Fingerprint: General Dynamics R8000B Comm Systems Analyzer (92%), Microsoft Windows 2000 SP4 (90%), Microsoft Windows XP SP2 or SP3 (90%), Microsoft Windows 2003 SP2 (89%), Microsoft Windows Server 2003 SP1 - SP2 (87%), Ricoh Aficio SP C210SF printer (87%), Microsoft Windows XP Professional SP2 or SP3 (87%), Microsoft Windows Server 2003 (87%), Microsoft Windows Server 2003 SP2 (87%), Microsoft Windows XP (87%)
+seq(sp=106%gcd=1%isr=fc%ci=i%ii=i%ts=u)
+ops(o1=m5b4nw0nnt00nns%o2=m5b4nw0nnt00nns%o3=m5b4nw0nnt00%o4=m5b4nw0nnt00nns%o5=m5b4nw0nnt00nns%o6=)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=0)
+ecn(r=y%df=n%tg=80%w=0%o=%cc=n%q=)
+t1(r=y%df=y%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=s%tg=40%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ii=i)
+FingerAB:ops(o1=m5b4nw0nnt00nns%o2=m5b4nw0nnt00nns%o3=m5b4nw0nnt00%o4=m5b4nw0nnt00nns%o5=m5b4nw0nnt00nns%o6=)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=0)
+FingerAB:ecn(r=y%df=n%tg=80%w=0%o=%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=80%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=s%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=f7-101%gcd=1-6%isr=10a-114%ts=0%ti=)
+FingerB:seq(sp=106%gcd=1%isr=fc%ts=u)
+
+FingerA:ecn(t=7b-85)
+FingerA:t1(t=7b-85)
+FingerA:t4(t=7b-85)
+FingerA:t5(t=7b-85)
+FingerA:t6(t=7b-85)
+FingerA:ie(t=7b-85%tg=80)
+FingerB:ie(tg=40%r=y)
+
+FingerA:t7(r=n)
+
+

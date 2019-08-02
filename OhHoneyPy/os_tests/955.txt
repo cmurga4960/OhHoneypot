@@ -1,0 +1,77 @@
+Fingerprint: Cisco Nexus 7010 switch (NX-OS 4.0(4))
+Class: Cisco | NX-OS | 4.X | switch
+CPE: cpe:/o:cisco:nexus_7010
+CPE: cpe:/o:cisco:nx_os:4.0 auto
+seq(sp=f9-109%gcd=1-6%isr=fb-10d%ti=i%ci=i%ii=ri%ss=s%ts=3|4)
+ops(o1=m200nnt11%o2=m200nnt11%o3=m200nnt11%o4=m200nnt11%o5=m200nnt11%o6=m200nnt11)
+win(w1=4728|4f10|56f8|5aec|5ee0%w2=4728|4f10|56f8|5aec|5ee0%w3=4998|50f4|5850|5d38|5fac%w4=4a38|5208|59d8|5dc0|5fb4%w5=4bbc|53ec|5a10|5e28|6034%w6=4c19|5401|5aec|5ee0|60da)
+ecn(r=y%df=n%t=3c-46%tg=40%w=4f10|56f8|5aec|5ee0|62d4%o=m200%cc=n%q=)
+t1(r=y%df=n%t=3c-46%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3c-46%tg=40%w=4f10%s=o%a=s+%f=as%o=m200nnt11%rd=0%q=)
+t4(r=y%df=n%t=3c-46%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3c-46%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3c-46%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3c-46%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fb-105%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=0%rud=g)
+ie(dfi=s%t=fb-105%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco Nexus 7010 switch (NX-OS 4.0(4)) (91%), Ambit DOCSIS 2.0 cable modem, or Xerox Phaser 6250N, 6350DT, or 8560MFP printer (91%), Motorola SURFboard SB5100E cable modem (VxWorks 5.4) (91%), Motorola SURFboard SB4200 cable modem (91%), Polycom SoundPoint 320, 330, 430, 550, or 650 IP phone (91%), Blue Coat SGOS 5.5.3.1 (90%), HP ProCurve 1810G, ZyXEL GS1910, or FibroLAN switch (eCos 3.0) (90%), FreeBSD daemon 4.5-RELEASE (90%), Blue Coat SG210 proxy server (SGOS 5.2.3.3 - 5.2.3.9) (90%), Develop ineo 250 or 350 printer (90%)
+seq(ci=i%ii=i)
+ecn(r=y%df=n%t=40%w=4f10%o=m200%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=n%t=40%w=4f10%s=o%a=s+%f=as%o=m200nnt11%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=0%rud=g)
+ie(r=y%dfi=s%t=3d%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ecn(r=y%df=n%o=m200%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=4f10%s=o%a=s+%f=as%o=m200nnt11%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=f9-109%gcd=1-6%isr=fb-10d%ti=i%ii=ri%ss=s%ts=3|4)
+FingerB:seq(ii=i)
+
+FingerA:ecn(t=3c-46%tg=40%w=4f10|56f8|5aec|5ee0|62d4)
+FingerB:ecn(t=40%w=4f10)
+
+FingerA:t1(r=y%df=n%t=3c-46%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3c-46%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3c-46%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3c-46%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3c-46%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3c-46%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fb-105%tg=ff)
+FingerB:u1(t=3d%r=y)
+
+FingerA:ie(t=fb-105%tg=ff)
+FingerB:ie(t=3d%r=y)
+
+FingerA:ops(o1=m200nnt11%o2=m200nnt11%o3=m200nnt11%o4=m200nnt11%o5=m200nnt11%o6=m200nnt11)
+FingerA:win(w1=4728|4f10|56f8|5aec|5ee0%w2=4728|4f10|56f8|5aec|5ee0%w3=4998|50f4|5850|5d38|5fac%w4=4a38|5208|59d8|5dc0|5fb4%w5=4bbc|53ec|5a10|5e28|6034%w6=4c19|5401|5aec|5ee0|60da)
+
+

@@ -1,0 +1,64 @@
+Fingerprint: Fortinet FortiGate 200B firewall
+Class: Fortinet | embedded || firewall
+CPE: cpe:/h:fortinet:fortigate_200b auto
+seq(sp=8f-ab%gcd=1-6%isr=f5-ff%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4w1n%o2=m578w1n%o3=m280w1n%o4=m5b4w1n%o5=m218w1n%o6=m109w0n)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%t=7b-85%tg=80%w=8000%o=m5b4w1n%cc=n%q=)
+t1(r=y%df=n%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=7b-85%tg=80%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=7b-85%tg=80%w=8000%s=o%a=s+%f=as%o=m109w1n%rd=0%q=)
+t4(r=y%df=n%t=7b-85%tg=80%w=2000%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=7b-85%tg=80%w=2000%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=7b-85%tg=80%w=2000%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=7b-85%tg=80%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=n%t=7b-85%tg=80%cd=s)
+********************************************************
+Fingerprint: Fortinet FortiGate 200B firewall (98%)
+Class: Fortinet embedded (98%)
+CPE: cpe:/h:fortinet:fortigate_200b
+seq(sp=ee%gcd=1%isr=e5%ci=i%ts=u)
+ops(o1=m5b4w1n%o2=m578w1n%o3=m280w1n%o4=m5b4w1n%o5=m218w1n%o6=m109w0n)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%tg=80%w=8000%o=m5b4w1n%cc=n%q=)
+t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%tg=80%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%tg=80%w=8000%s=o%a=s+%f=as%o=m109w1n%rd=0%q=)
+t4(r=y%df=n%tg=80%w=2000%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=80%w=2000%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=80%w=2000%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=80%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5b4w1n%o2=m578w1n%o3=m280w1n%o4=m5b4w1n%o5=m218w1n%o6=m109w0n)
+FingerAB:win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+FingerAB:ecn(r=y%df=n%tg=80%w=8000%o=m5b4w1n%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%tg=80%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%tg=80%w=8000%s=o%a=s+%f=as%o=m109w1n%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=80%w=2000%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=80%w=2000%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=80%w=2000%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=80%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=8f-ab%gcd=1-6%isr=f5-ff%ti=i%ii=i%ss=s)
+FingerB:seq(sp=ee%gcd=1%isr=e5)
+
+FingerA:ecn(t=7b-85)
+FingerA:t1(t=7b-85)
+FingerA:t2(t=7b-85)
+FingerA:t3(t=7b-85)
+FingerA:t4(t=7b-85)
+FingerA:t5(t=7b-85)
+FingerA:t6(t=7b-85)
+FingerA:t7(t=7b-85)
+FingerA:ie(dfi=n%t=7b-85%tg=80%cd=s)
+FingerB:ie(r=n)
+
+
+

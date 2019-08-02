@@ -1,0 +1,77 @@
+Fingerprint: FreeBSD 4.10-STABLE - 4.11-SECURITY
+Class: FreeBSD | FreeBSD | 4.X | general purpose
+CPE: cpe:/o:freebsd:freebsd:4 auto
+seq(sp=f7-105%gcd=1-6%isr=fb-10f%ti=i%ii=i%ss=s%ts=7%ci=)
+ops(o1=m3fd8nw0nnt11%o2=m3fd8nw0nnt11%o3=m3fd8nw0nnt11%o4=m3fd8nw0nnt11%o5=m3fd8nw0nnt11%o6=m3fd8nnt11)
+win(w1=e000%w2=e000%w3=e000%w4=e000%w5=e000%w6=e000)
+ecn(r=y%df=y%t=3b-45%tg=40%w=e000%o=m3fd8nw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=e000%s=o%a=s+%f=as%o=m3fd8nw0nnt11%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: FreeBSD 4.10-STABLE - 4.11-SECURITY (98%), FreeBSD 4.11-STABLE (98%), IBM AIX 7.2 (96%), FreeBSD 4.10-RELEASE (94%), Decru Datafort firewall (93%), FreeBSD 4.11-RELEASE (93%), FreeBSD 4.11-RELEASE (x86) (93%), DragonFly BSD 1.10.1 (92%), FreeBSD 4.10-RELEASE - 5.4-SECURITY (92%), FreeBSD 4.6.2-RELEASE (91%)
+seq(sp=109%gcd=1%isr=100%ci=i)
+ops(o1=m3fd8nw0nnt11%o2=m3fd8nw0nnt11%o3=m3fd8nw0nnt11%o4=m3fd8nw0nnt11%o5=m3fd8nw0nnt11%o6=m3fd8nnt11)
+win(w1=e000%w2=e000%w3=e000%w4=e000%w5=e000%w6=e000)
+ecn(r=y%df=y%t=40%w=e000%o=m3fd8nw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=e000%s=o%a=s+%f=as%o=m3fd8nw0nnt11%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m3fd8nw0nnt11%o2=m3fd8nw0nnt11%o3=m3fd8nw0nnt11%o4=m3fd8nw0nnt11%o5=m3fd8nw0nnt11%o6=m3fd8nnt11)
+FingerAB:win(w1=e000%w2=e000%w3=e000%w4=e000%w5=e000%w6=e000)
+FingerAB:ecn(r=y%df=y%w=e000%o=m3fd8nw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=e000%s=o%a=s+%f=as%o=m3fd8nw0nnt11%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=f7-105%gcd=1-6%isr=fb-10f%ti=i%ii=i%ss=s%ts=7%ci=)
+FingerB:seq(sp=109%gcd=1%isr=100%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

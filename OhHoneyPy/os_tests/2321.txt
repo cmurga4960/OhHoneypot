@@ -1,0 +1,77 @@
+Fingerprint: Linux 2.0.33
+Class: Linux | Linux | 2.0.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.0.33
+seq(sp=fc-106%gcd=1-6%isr=109-113%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m218%o5=m218%o6=m109)
+win(w1=3fe0%w2=3fe0%w3=3fe0%w4=3fe0%w5=3fe0%w6=3fe0)
+ecn(r=y%df=n%t=3b-45%tg=40%w=3fe0%o=m5b4%cc=s%q=ru)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=3b-45|fa-104%tg=40|ff%w=0|3fe0%s=o|z%a=s+%f=ar|asf%o=|m109%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Linux 2.0.33 (93%), Sony Ericsson W705 or W715 Walkman mobile phone (90%), Nokia 3600i mobile phone (90%), Cisco ATA 188 VoIP adapter (89%), CAEN SY2527 high voltage power supply (89%), Apple Time Capsule NAS device (88%), D-Link DGS-1210 switch (87%), AXIS 2100 Network Camera (87%), Cisco Catalyst 1900 switch (86%), GNU Hurd 0.3 (86%)
+seq(ci=i)
+ecn(r=y%df=n%t=40%w=3fe0%o=m5b4%cc=s%q=ru)
+t1(r=n)
+t2(r=y%df=n%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=n%w=3fe0%o=m5b4%cc=s%q=ru)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=fc-106%gcd=1-6%isr=109-113%ti=i%ii=i%ss=s%ts=u%ci=)
+FingerB:seq(ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t2(t=fa-104%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t3(r=y%df=n%t=3b-45|fa-104%tg=40|ff%w=0|3fe0%s=o|z%a=s+%f=ar|asf%o=|m109%rd=0%q=)
+FingerB:t3(r=n)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b4%o2=m578%o3=m280%o4=m218%o5=m218%o6=m109)
+FingerA:win(w1=3fe0%w2=3fe0%w3=3fe0%w4=3fe0%w5=3fe0%w6=3fe0)
+
+

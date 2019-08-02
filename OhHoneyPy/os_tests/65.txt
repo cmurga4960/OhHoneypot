@@ -1,0 +1,82 @@
+Fingerprint: Acer S5200 projector
+Class: Acer | embedded || media device
+seq(ci=i%ii=i%ts=u%ti=)
+ops(o1=m5b4%o2=m5b4%o3=%o4=%o5=%o6=)
+win(w1=7d0%w2=7d0%w3=0%w4=0%w5=0%w6=0)
+ecn(r=y%df=n%t=63-65%tg=80%w=0%o=%cc=n%q=)
+t1(r=y%df=n%t=63-65%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=63-65%tg=80%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=63-65%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=63-65%tg=80%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=63-65%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=63-65%tg=80%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=63-65%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=63-65%tg=80%ipl=38%un=8afd%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=63-65%tg=80%cd=s)
+********************************************************
+Fingerprint: Acer S5200 projector (95%), Sagem My du@l radio 700 Internet radio (86%), Microsoft Windows NT 4.0 SP6a (85%), Microsoft Windows NT 4.0 (85%), RF-Space SDR-IP software radio or WIZnet W5200 TCP/IP Ethernet chip (85%), Casio QT-6000 or QT-6100 point-of-sale machine (85%), Microsoft Windows NT Version 4.0 SP6 (85%), W&T Web-Thermo-Hygrobarograph firmware 1.59 - 1.71 (85%)
+Class: Acer embedded (95%), Sagem Communication embedded (86%), Microsoft Windows NT (85%), RF-Space embedded (85%), WIZnet embedded (85%), Casio embedded (85%), W&T embedded (85%)
+CPE: cpe:/o:microsoft:windows_nt::sp6a cpe:/o:microsoft:windows_nt:4.0 cpe:/h:wiznet:w5200 cpe:/h:w%26t:web-thermo-hygrobarograph
+seq(sp=103%gcd=1%isr=fa%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=%o4=%o5=%o6=)
+win(w1=7d0%w2=7d0%w3=0%w4=0%w5=0%w6=0)
+ecn(r=y%df=n%t=80%w=0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=80%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=80%w=0%s=a%a=s+%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=80%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=8afd%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=%o4=%o5=%o6=)
+FingerAB:win(w1=7d0%w2=7d0%w3=0%w4=0%w5=0%w6=0)
+FingerAB:ecn(r=y%df=n%w=0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=0%s=a%a=s+%f=ar%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=8afd%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(ii=i%ti=)
+FingerB:seq(sp=103%gcd=1%isr=fa)
+
+FingerA:ecn(t=63-65%tg=80%o=)
+FingerB:ecn(t=80%o=m5b4)
+
+FingerA:t1(t=63-65%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t2(t=63-65%tg=80)
+FingerB:t2(t=80)
+
+FingerA:t3(t=63-65%tg=80%o=)
+FingerB:t3(t=80%o=m5b4)
+
+FingerA:t4(t=63-65%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=63-65%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=63-65%tg=80)
+FingerB:t6(t=80)
+
+FingerA:t7(t=63-65%tg=80)
+FingerB:t7(t=80)
+
+FingerA:u1(t=63-65%tg=80)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=63-65%tg=80%cd=s)
+FingerB:ie(r=n)
+
+
+

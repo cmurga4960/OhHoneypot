@@ -1,0 +1,83 @@
+Fingerprint: IBM OS/2 Warp 4.0 (FixPak 15)
+Class: IBM | OS/2 | 4.X | general purpose
+CPE: cpe:/o:ibm:os2:4 auto
+seq(sp=8a-9c%gcd=1-6%isr=90-9a%ti=i|rd%ii=i%ss=s%ts=u%ci=)
+ops(o1=|m5b4nw0%o2=|m5b4nw0%o3=|m5b4nw0%o4=|m5b4nw0%o5=|m5b4nw0%o6=|m5b4)
+win(w1=832c%w2=8340%w3=8200%w4=832c%w5=81d0%w6=805c)
+ecn(r=y%df=y%t=3b-45%tg=40%w=832c%o=|m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o|s+%f=a|as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=805c%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=8000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: IBM OS/2 Warp 4.0 (FixPak 15) (98%), IBM OS/2 Warp 4.50 (93%), IBM OS/2 Warp 2.0 (93%), IBM OS/2 Warp Server 4.52 (93%), NCR 5676 or 5688 automated teller machine (91%), HP ProCurve 2524 switch or 9100c Digital Sender printer (90%)
+Class: IBM OS/2 4.X (98%), NCR embedded (91%), HP embedded (90%)
+CPE: cpe:/o:ibm:os2:4 cpe:/h:hp:procurve_switch_2524 cpe:/h:hp:9100c_digital_sender
+seq(sp=102%gcd=1%isr=f9%ts=u)
+ops(o1=%o2=%o3=%o4=%o5=%o6=)
+win(w1=832c%w2=8340%w3=8200%w4=832c%w5=81d0%w6=805c)
+ecn(r=y%df=y%t=40%w=832c%o=%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=805c%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=40%w=8000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=0%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:win(w1=832c%w2=8340%w3=8200%w4=832c%w5=81d0%w6=805c)
+FingerAB:ecn(r=y%df=y%w=832c%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=805c%s=o%a=o%f=a%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=8000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=8a-9c%gcd=1-6%isr=90-9a%ti=i|rd%ii=i%ss=s%ci=)
+FingerB:seq(sp=102%gcd=1%isr=f9)
+
+FingerA:ops(o1=|m5b4nw0%o2=|m5b4nw0%o3=|m5b4nw0%o4=|m5b4nw0%o5=|m5b4nw0%o6=|m5b4)
+FingerB:ops(o1=%o2=%o3=%o4=%o5=%o6=)
+
+FingerA:ecn(t=3b-45%tg=40%o=|m5b4nw0)
+FingerB:ecn(t=40%o=)
+
+FingerA:t1(t=3b-45%tg=40%a=o|s+%f=a|as)
+FingerB:t1(t=40%a=o%f=as)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

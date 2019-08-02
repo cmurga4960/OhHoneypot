@@ -1,0 +1,60 @@
+Fingerprint: D-Link DI-524 wireless broadband router
+Class: D-Link | embedded || WAP
+CPE: cpe:/h:dlink:di-524 auto
+seq(sp=c-16%gcd=fa7f|1f4fe|2ef7d|3e9fc|4e47b%isr=97-a1%ti=i%ci=ri%ts=u%ii=)
+ops(o1=m5b0%o2=m5b0%o3=m5b0%o4=m5b0%o5=m5b0%o6=m5b0)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=7b-85%tg=80%w=2000%o=m5b0%cc=n%q=)
+t1(r=y%df=n%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=7a69%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a|o%a=o|s%f=ar%o=%rd=0%q=)
+t7(r=n)
+u1(r=n)
+ie(r=n)
+********************************************************
+Fingerprint: D-Link DI-524 wireless broadband router (92%), HP LaserJet 4250 printer (88%), Tadiran FlexSet-IP 280S VoIP phone (85%), HP 170X print server or Inkjet 3000 printer (85%)
+Class: D-Link embedded (92%), HP embedded (88%), Tadiran embedded (85%)
+CPE: cpe:/h:dlink:di-524 cpe:/h:hp:laserjet_4250 cpe:/h:tadiran:flexset-ip_280s cpe:/h:hp:jetdirect_170x
+seq(sp=108%gcd=1%isr=ff%ti=i%ci=i%ts=u)
+ops(o1=m5b0%o2=m5b0%o3=m5b0%o4=m5b0%o5=m5b0%o6=m5b0)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%tg=80%w=2000%o=m5b0%cc=n%q=)
+t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%tg=40%w=7a69%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+t6(r=y%df=n%tg=40%w=0%s=o%a=o%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ti=i%ts=u)
+FingerAB:ops(o1=m5b0%o2=m5b0%o3=m5b0%o4=m5b0%o5=m5b0%o6=m5b0)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%tg=80%w=2000%o=m5b0%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=40%w=7a69%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=40%w=0%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=fa7f|1f4fe|2ef7d|3e9fc|4e47b%isr=97-a1%ci=ri%ii=)
+FingerB:seq(sp=108%gcd=1%isr=ff%ci=i)
+
+FingerA:ecn(t=7b-85)
+FingerA:t1(t=7b-85)
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45%s=a|o%a=o|s)
+FingerB:t6(s=o%a=o)
+
+FingerA:t7(r=n)
+
+

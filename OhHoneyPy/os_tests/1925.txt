@@ -1,0 +1,81 @@
+Fingerprint: HP OpenVMS 8.3
+Class: HP | OpenVMS | 8.X | general purpose
+CPE: cpe:/o:hp:openvms:8.3 auto
+seq(sp=100-10a%gcd=1-6%isr=108-112%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=111c%w2=1068%w3=c80%w4=bb8%w5=c90%w6=c6c)
+ecn(r=y%df=n%t=7b-85%tg=80%w=111c%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=7b-85%tg=80%w=c6c%s=o%a=o|s+%f=as%o=m5b4nw0%rd=0%q=)
+t4(r=y%df=n|y%t=7b-85%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n|y%t=7b-85%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n|y%t=7b-85%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n|y%t=7b-85%tg=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: HP OpenVMS 8.3 (99%), Compaq Tru64 UNIX 5.1B or HP OpenVMS 8.2 - 8.3 (94%), HP OpenVMS 8.2 (91%), HP Tru64 UNIX 5.1B (90%), HP OpenVMS 7.2 (89%)
+Class: HP OpenVMS 8.X|7.X (99%), Compaq Tru64 UNIX 5.X (94%), HP Tru64 UNIX 5.X (90%)
+CPE: cpe:/o:hp:openvms:8.3 cpe:/o:compaq:tru64:5 cpe:/o:hp:tru64:5.1b cpe:/o:hp:openvms:7.2
+seq(sp=105%gcd=1%isr=fc%ts=u)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=111c%w2=1068%w3=c80%w4=bb8%w5=c90%w6=c6c)
+ecn(r=y%df=n%t=80%w=111c%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=80%w=c6c%s=o%a=o%f=as%o=m5b4nw0%rd=0%q=)
+t4(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+FingerAB:win(w1=111c%w2=1068%w3=c80%w4=bb8%w5=c90%w6=c6c)
+FingerAB:ecn(r=y%df=n%w=111c%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=c6c%s=o%f=as%o=m5b4nw0%rd=0%q=)
+FingerAB:t4(r=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=100-10a%gcd=1-6%isr=108-112%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=105%gcd=1%isr=fc)
+
+FingerA:ecn(t=7b-85%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(t=7b-85%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t3(t=7b-85%tg=80%a=o|s+)
+FingerB:t3(t=80%a=o)
+
+FingerA:t4(df=n|y%t=7b-85%tg=80)
+FingerB:t4(df=n%t=80)
+
+FingerA:t5(df=n|y%t=7b-85%tg=80)
+FingerB:t5(df=n%t=80)
+
+FingerA:t6(df=n|y%t=7b-85%tg=80)
+FingerB:t6(df=n%t=80)
+
+FingerA:t7(df=n|y%t=7b-85%tg=80)
+FingerB:t7(df=n%t=80)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

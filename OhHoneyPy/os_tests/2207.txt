@@ -1,0 +1,84 @@
+Fingerprint: Lancom 1721 ADSL modem or L-54ag WAP (LCOS 6 - 7)
+Class: Lancom | LCOS | 6.X | broadband router
+Class: Lancom | LCOS | 7.X | WAP
+CPE: cpe:/o:lancom:lcos:6 auto
+CPE: cpe:/o:lancom:lcos:7 auto
+seq(sp=fc-106%gcd=1-6%isr=103-113%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=578%w2=578%w3=578%w4=578%w5=578%w6=578)
+ecn(r=y%df=y%t=3b-3d%tg=40%w=578%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=3b-3d%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=3b-3d%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t3(r=y%df=n%t=3b-3d%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=3b-3d%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-3d%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-3d%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-3d%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(df=n%t=3b-3d%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-3d%tg=40%cd=s)
+********************************************************
+Fingerprint: Lancom 1721 ADSL modem or L-54ag WAP (LCOS 6 - 7) (95%), Lancom L-54g WAP (LCOS) (94%), Lancom L-305agn WAP, 1722 VoIP router, or WLC-4006 WLAN controller (92%), Bay Networks BayStack 450 switch (software version 4.2.0.16) (90%), Vegastream Vega 400 VoIP Gateway (89%), Lancom WAP (89%), Lancom 1711 or 1821 broadband router (88%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (88%), Lancom LCOS 9.20 (88%), Radware LinkProof load balancer (88%)
+seq(sp=eb%gcd=1%isr=e2%ti=i%ii=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=578%w2=578%w3=578%w4=578%w5=578%w6=578)
+ecn(r=y%df=y%t=40%w=578%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t3(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ti=i%ii=i%ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=578%w2=578%w3=578%w4=578%w5=578%w6=578)
+FingerAB:ecn(r=y%df=y%w=578%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=fc-106%gcd=1-6%isr=103-113%ss=s%ci=)
+FingerB:seq(sp=eb%gcd=1%isr=e2)
+
+FingerA:ecn(t=3b-3d%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-3d%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=3b-3d%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=3b-3d%tg=40%o=)
+FingerB:t3(t=40%o=m5b4)
+
+FingerA:t4(t=3b-3d%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-3d%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-3d%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-3d%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-3d%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-3d%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

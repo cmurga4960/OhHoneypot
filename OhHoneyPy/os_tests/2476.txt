@@ -1,0 +1,53 @@
+Fingerprint: Linux 2.6.11
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6.11
+seq(sp=c4-ce%gcd=1-6%isr=c2-cc%ti=z%ii=i%ts=u%ci=)
+ops(o1=m5b4nw2%o2=m5b4nw2%o3=m5b4nw2%o4=m5b4nw2%o5=m5b4nw2%o6=m5b4)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nw2%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Linux 2.6.11 (92%), HP Onboard Administrator 4.12 - 4.40 (92%), Asus RT-AC66U router (Linux 2.6) (91%), HP Onboard Administrator 2.04 (91%), HP Onboard Administrator 2.25 - 3.31 (91%), HP Onboard Administrator 4.01 (91%), Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (91%), Linux 2.6.26 (91%), Asus RT-N16 WAP (Linux 2.6) (91%), Asus RT-N66U WAP (Linux 2.6) (91%)
+ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nw2%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=n%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nw2%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=n%tg=40%cd=s)
+--- Diff Values ---
+FingerA:ecn(t=3b-45)
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:ie(t=3b-45)
+FingerB:ie(r=y)
+
+FingerA:seq(sp=c4-ce%gcd=1-6%isr=c2-cc%ti=z%ii=i%ts=u%ci=)
+FingerA:ops(o1=m5b4nw2%o2=m5b4nw2%o3=m5b4nw2%o4=m5b4nw2%o5=m5b4nw2%o6=m5b4)
+FingerA:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerA:t7(r=n)
+
+

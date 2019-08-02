@@ -1,0 +1,64 @@
+Fingerprint: Allen Bradley MicroLogix 1100 PLC
+Class: Allen-Bradley | embedded || specialized
+CPE: cpe:/h:allen-bradley:micrologix_1100
+seq(sp=82-8c%gcd=1-6%isr=99-a3%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m4000nns%o2=m4000nns%o3=m4000nns%o4=m4000nns%o5=m4000nns%o6=m4000nns)
+win(w1=800%w2=800%w3=800%w4=800%w5=800%w6=800)
+ecn(r=y%df=n%t=7b-85%tg=80%w=800%o=m4000nns%cc=n%q=)
+t1(r=y%df=n%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t3(r=y%df=n%t=7b-85%tg=80%w=800%s=o%a=s+%f=as%o=m4000nns%rd=0%q=)
+t4(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t6(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=n%t=7b-85%tg=80%cd=z)
+********************************************************
+Fingerprint: Allen Bradley MicroLogix 1100 PLC (98%)
+Class: Allen-Bradley embedded (98%)
+CPE: cpe:/h:allen-bradley:micrologix_1100
+seq(sp=fe%gcd=1%isr=f4%ti=i%ci=i%ts=u)
+ops(o1=m4000nns%o2=m4000nns%o3=m4000nns%o4=m4000nns%o5=m4000nns%o6=m4000nns)
+win(w1=800%w2=800%w3=800%w4=800%w5=800%w6=800)
+ecn(r=y%df=n%tg=80%w=800%o=m4000nns%cc=n%q=)
+t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t3(r=y%df=n%tg=80%w=800%s=o%a=s+%f=as%o=m4000nns%rd=0%q=)
+t4(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t6(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ti=i%ci=i%ts=u)
+FingerAB:ops(o1=m4000nns%o2=m4000nns%o3=m4000nns%o4=m4000nns%o5=m4000nns%o6=m4000nns)
+FingerAB:win(w1=800%w2=800%w3=800%w4=800%w5=800%w6=800)
+FingerAB:ecn(r=y%df=n%tg=80%w=800%o=m4000nns%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%tg=80%w=800%s=o%a=s+%f=as%o=m4000nns%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=82-8c%gcd=1-6%isr=99-a3%ii=i%ss=s)
+FingerB:seq(sp=fe%gcd=1%isr=f4)
+
+FingerA:ecn(t=7b-85)
+FingerA:t1(t=7b-85)
+FingerA:t2(t=7b-85)
+FingerA:t3(t=7b-85)
+FingerA:t4(t=7b-85)
+FingerA:t5(t=7b-85)
+FingerA:t6(t=7b-85)
+FingerA:t7(t=7b-85)
+FingerA:ie(dfi=n%t=7b-85%tg=80%cd=z)
+FingerB:ie(r=n)
+
+
+

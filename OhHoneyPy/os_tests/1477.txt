@@ -1,0 +1,85 @@
+Fingerprint: FreeBSD 8.0-BETA2 - 10.1-RELEASE
+Class: FreeBSD | FreeBSD | 8.X | general purpose
+Class: FreeBSD | FreeBSD | 9.X | general purpose
+Class: FreeBSD | FreeBSD | 10.X | general purpose
+CPE: cpe:/o:freebsd:freebsd:8 auto
+CPE: cpe:/o:freebsd:freebsd:9 auto
+CPE: cpe:/o:freebsd:freebsd:10 auto
+seq(sp=f9-10b%gcd=1-6%isr=102-110%ti=i%ci=i%ts=20|21|22%ii=)
+ops(o1=m5b4nw1st11|m5b4nw2st11|m5b4nw3st11|m5b4nw4st11|m5b4nw5st11|m5b4nw6st11|m5b4nw7st11|m5b4nw8st11|m5b4nw9st11%o2=m578nw1st11|m578nw2st11|m578nw3st11|m578nw4st11|m578nw5st11|m578nw6st11|m578nw7st11|m578nw8st11|m578nw9st11%o3=m280nw1nnt11|m280nw2nnt11|m280nw3nnt11|m280nw4nnt11|m280nw5nnt11|m280nw6nnt11|m280nw7nnt11|m280nw8nnt11|m280nw9nnt11%o4=m3fd8nw1st11|m3fd8nw2st11|m3fd8nw3st11|m3fd8nw4st11|m3fd8nw5st11|m3fd8nw6st11|m3fd8nw7st11|m3fd8nw8st11|m3fd8nw9st11%o5=m218nw1st11|m218nw2st11|m218nw3st11|m218nw4st11|m218nw5st11|m218nw6st11|m218nw7st11|m218nw8st11|m218nw9st11%o6=m109st11)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=ffff%o=m5b4nw1sll|m5b4nw2sll|m5b4nw3sll|m5b4nw4sll|m5b4nw5sll|m5b4nw6sll|m5b4nw7sll|m5b4nw8sll|m5b4nw9sll%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=ffff%s=o%a=s+%f=as%o=m109nw1st11|m109nw2st11|m109nw3st11|m109nw4st11|m109nw5st11|m109nw6st11|m109nw7st11|m109nw8st11|m109nw9st11%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: FreeBSD 8.0-BETA2 - 10.1-RELEASE (98%), FreeBSD 7.0-RELEASE-p1 - 10.0-CURRENT (95%), FreeBSD 7.0-BETA4 - 7.0 (92%), FreeBSD 7.2-RELEASE (92%), FreeNAS 0.69.1 (FreeBSD 6.4-RELEASE-p3) (91%), FreeBSD 8.0-STABLE (91%), VMware ESXi 4.1 (91%), VMware ESXi 5.0 - 5.5 (91%), FreeBSD 7.0-RELEASE-p2 - 7.1-PRERELEASE (91%), FreeBSD 6.2-STABLE - 6.4-STABLE (91%)
+seq(sp=108%gcd=1%isr=ff%ci=i)
+ops(o1=m5b4nw1st11%o2=m578nw1st11%o3=m280nw1nnt11%o4=m3fd8nw1st11%o5=m218nw1st11%o6=m109st11)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=40%w=ffff%o=m5b4nw1sll%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=ffff%s=o%a=s+%f=as%o=m109nw1st11%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ops(o6=m109st11)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=y%w=ffff%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=ffff%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=f9-10b%gcd=1-6%isr=102-110%ti=i%ts=20|21|22%ii=)
+FingerB:seq(sp=108%gcd=1%isr=ff)
+
+FingerA:ops(o1=m5b4nw1st11|m5b4nw2st11|m5b4nw3st11|m5b4nw4st11|m5b4nw5st11|m5b4nw6st11|m5b4nw7st11|m5b4nw8st11|m5b4nw9st11%o2=m578nw1st11|m578nw2st11|m578nw3st11|m578nw4st11|m578nw5st11|m578nw6st11|m578nw7st11|m578nw8st11|m578nw9st11%o3=m280nw1nnt11|m280nw2nnt11|m280nw3nnt11|m280nw4nnt11|m280nw5nnt11|m280nw6nnt11|m280nw7nnt11|m280nw8nnt11|m280nw9nnt11%o4=m3fd8nw1st11|m3fd8nw2st11|m3fd8nw3st11|m3fd8nw4st11|m3fd8nw5st11|m3fd8nw6st11|m3fd8nw7st11|m3fd8nw8st11|m3fd8nw9st11%o5=m218nw1st11|m218nw2st11|m218nw3st11|m218nw4st11|m218nw5st11|m218nw6st11|m218nw7st11|m218nw8st11|m218nw9st11)
+FingerB:ops(o1=m5b4nw1st11%o2=m578nw1st11%o3=m280nw1nnt11%o4=m3fd8nw1st11%o5=m218nw1st11)
+
+FingerA:ecn(t=3b-45%tg=40%o=m5b4nw1sll|m5b4nw2sll|m5b4nw3sll|m5b4nw4sll|m5b4nw5sll|m5b4nw6sll|m5b4nw7sll|m5b4nw8sll|m5b4nw9sll)
+FingerB:ecn(t=40%o=m5b4nw1sll)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40%o=m109nw1st11|m109nw2st11|m109nw3st11|m109nw4st11|m109nw5st11|m109nw6st11|m109nw7st11|m109nw8st11|m109nw9st11)
+FingerB:t3(t=40%o=m109nw1st11)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

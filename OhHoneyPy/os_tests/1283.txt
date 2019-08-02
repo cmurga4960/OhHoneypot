@@ -1,0 +1,70 @@
+Fingerprint: Epson XP-630 printer
+Class: Epson | embedded || printer
+CPE: cpe:/h:epson:xp-630 auto
+seq(sp=c4-ce%gcd=1-6%isr=cc-d6%ti=z%ci=z%ii=i%ts=7)
+ops(o1=m5b4st11%o2=m5b4st11%o3=m5b4nnt11%o4=m5b4st11%o5=m5b4st11%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nns%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Sony Bravia W600-, W800-, or W900-series TV (96%), Epson XP-630 printer (95%), Ubiquiti AirOS 5.5.9 (95%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (94%), HP P2000 G3 NAS device (94%), Linux 2.6.35 (93%), Canon imageRUNNER ADVANCE C3320i or C3325 copier (93%), Motorola KreaTV (Linux 2.6.32) (93%), ASUS RT-N56U WAP (Linux 3.4) (93%), Linux 3.16 (93%)
+seq(sp=104%gcd=1%isr=fa%ci=i)
+ops(o1=m5b4st11%o2=m5b4st11%o3=m5b4nnt11%o4=m5b4st11%o5=m5b4st11%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nns%cc=y%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11%o2=m5b4st11%o3=m5b4nnt11%o4=m5b4st11%o5=m5b4st11%o6=m5b4st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nns%cc=y%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c4-ce%gcd=1-6%isr=cc-d6%ti=z%ci=z%ii=i%ts=7)
+FingerB:seq(sp=104%gcd=1%isr=fa%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,53 @@
+Fingerprint: Fortinet FortiGate 1500D firewall
+Class: Fortinet | embedded || firewall
+CPE: cpe:/h:fortinet:fortigate_1500d auto
+seq(sp=f4-106%gcd=1-6%isr=108-112%ti=ri%ii=i%ss=o%ts=7%ci=)
+ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=n)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(r=n)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Blue Coat PacketShaper appliance (97%), Tomato 1.27 - 1.28 (Linux 2.4.20) (97%), Linux 2.6.18 - 2.6.22 (97%), Linux 3.2.0 (97%), Fortinet FortiGate 1500D firewall (96%), MikroTik RouterOS 6.15 (Linux 3.3.5) (95%), Fortinet FortiGate-50B or 310B firewall (95%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (94%), Polycom MGC-25 videoconferencing system (pSOS 1.0.4) (94%), Wyse ThinOS 5.2 (94%)
+seq(sp=df%gcd=1%isr=d6)
+ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=n)
+t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=f4-106%gcd=1-6%isr=108-112%ti=ri%ii=i%ss=o%ts=7%ci=)
+FingerB:seq(sp=df%gcd=1%isr=d6)
+
+FingerA:t1(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

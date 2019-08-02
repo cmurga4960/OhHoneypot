@@ -1,0 +1,63 @@
+Fingerprint: Billion 7404VGP-M ADSL router
+Class: Billion | embedded || broadband router
+CPE: cpe:/h:billion:7404vgp-m auto
+seq(sp=c7-d1%gcd=1-6%isr=cb-d5%ti=z%ts=7|9%ii=%ci=)
+ops(o1=m584st11nw5%o2=m584st11nw5%o3=m584nnt11nw5%o4=m584st11nw5%o5=m584st11nw5%o6=m584st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m584nnsnw5%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=1f59b3d4%q=)
+t5(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=1f59b3d4%q=)
+t6(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=1f59b3d4%q=)
+t7(r=n)
+u1(r=n)
+ie(r=n)
+********************************************************
+Fingerprint: OpenWrt Kamikaze 7.09 (Linux 2.6.22) (95%), Billion 7404VGP-M ADSL router (94%), Linux 2.4.18 (92%), OpenBSD 4.3 (92%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (92%), OpenWrt White Russian 0.9 (Linux 2.4.30) (92%), Vodavi XTS-IP PBX (91%), Toshiba Magnia SG10 server appliance (Linux 2.4.18) (91%), Lexmark 1400-series printer (90%), Netgear DG834GB wireless broadband router (90%)
+seq(sp=f4%gcd=1%isr=eb%ci=i)
+ops(o1=m584st11nw5%o2=m584st11nw5%o3=m584nnt11nw5%o4=m584st11nw5%o5=m584st11nw5%o6=m584st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%tg=40%w=16d0%o=m584nnsnw5%cc=n%q=)
+t1(r=y%df=y%tg=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m584st11nw5%o2=m584st11nw5%o3=m584nnt11nw5%o4=m584st11nw5%o5=m584st11nw5%o6=m584st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m584nnsnw5%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=40%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%tg=ff%w=0%s=a%a=z%f=r%o=%q=)
+FingerAB:t5(r=y%df=y%tg=ff%w=0%s=z%a=s+%f=ar%o=%q=)
+FingerAB:t6(r=y%df=y%tg=ff%w=0%s=a%a=z%f=r%o=%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=c7-d1%gcd=1-6%isr=cb-d5%ti=z%ts=7|9%ii=%ci=)
+FingerB:seq(sp=f4%gcd=1%isr=eb%ci=i)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45%a=o|s+)
+FingerB:t1(a=o)
+
+FingerA:t4(t=fa-104%rd=1f59b3d4)
+FingerB:t4(rd=0)
+
+FingerA:t5(t=fa-104%rd=1f59b3d4)
+FingerB:t5(rd=0)
+
+FingerA:t6(t=fa-104%rd=1f59b3d4)
+FingerB:t6(rd=0)
+
+FingerA:t7(r=n)
+
+

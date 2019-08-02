@@ -1,0 +1,80 @@
+Fingerprint: 4.1C BSD
+Class: BSD | BSD | 4.1 | general purpose
+CPE: cpe:/o:bsd:bsd:4.1 auto
+seq(sp=c-16%gcd=40|80|c0|100|140%isr=48-52%ti=i%ci=i%ts=u%ii=)
+ops(o1=m400%o2=m400%o3=m400%o4=m400%o5=m400%o6=m400)
+win(w1=800%w2=800%w3=800%w4=800%w5=800%w6=800)
+ecn(r=y%df=n%t=0a-14%tg=20%w=800%o=m400%cc=n%q=)
+t1(r=y%df=n%t=0a-14%tg=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=0a-14%tg=20%w=814%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=0a-14%tg=20%w=800%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=0a-14%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=0a-14%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=0a-14%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=34-45%tg=40%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=g%rud=g)
+ie(dfi=n%t=2c-3f%tg=40%cd=s)
+********************************************************
+Fingerprint: 4.1C BSD (92%), SCO UnixWare 2.1 (89%), 4.3BSD (87%), Omron CJ2M PLC (87%), Omron NE1A Safety PLC (87%), Perle JetStream 8500 or CS 9000 remote access server (87%), Avaya Intuity Audix Multimedia Messaging System (87%), IBM OS/2 Warp 2.0 (87%), Wyse ThinOS 6 (87%), Specialix JetStream 8500 RS232 remote access server (86%)
+Class: BSD 4.1|4.3 (92%), SCO UnixWare 2.X (89%), Omron embedded (87%), Perle embedded (87%), Avaya embedded (87%), IBM OS/2 4.X (87%), Wyse ThinOS 6.X (87%), Specialix embedded (86%)
+CPE: cpe:/o:bsd:bsd:4.1 cpe:/o:sco:unixware:2.1 cpe:/o:bsd:bsd:4.3 cpe:/h:omron:cj2m cpe:/o:ibm:os2:4 cpe:/o:wyse:thinos:6 cpe:/h:specialix:jetstream_8500
+seq(sp=100%gcd=1%isr=f6%ci=i%ts=u)
+ops(o1=m400%o2=m400%o3=m400%o4=m400%o5=m400%o6=m400)
+win(w1=800%w2=800%w3=800%w4=800%w5=800%w6=800)
+ecn(r=y%df=n%t=20%w=800%o=m400%cc=n%q=)
+t1(r=y%df=n%t=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=20%w=814%s=o%a=o%f=a%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=20%w=800%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m400%o2=m400%o3=m400%o4=m400%o5=m400%o6=m400)
+FingerAB:win(w1=800%w2=800%w3=800%w4=800%w5=800%w6=800)
+FingerAB:ecn(r=y%df=n%w=800%o=m400%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=814%s=o%a=o%f=a%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=800%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=40|80|c0|100|140%isr=48-52%ti=i%ii=)
+FingerB:seq(sp=100%gcd=1%isr=f6)
+
+FingerA:ecn(t=0a-14%tg=20)
+FingerB:ecn(t=20)
+
+FingerA:t1(t=0a-14%tg=20)
+FingerB:t1(t=20)
+
+FingerA:t3(t=0a-14%tg=20%o=)
+FingerB:t3(t=20%o=m5b4)
+
+FingerA:t4(t=0a-14%tg=20)
+FingerB:t4(t=20)
+
+FingerA:t5(t=0a-14%tg=20)
+FingerB:t5(t=20)
+
+FingerA:t6(t=0a-14%tg=20)
+FingerB:t6(t=20)
+
+FingerA:t7(t=0a-14%tg=20)
+FingerB:t7(t=20)
+
+FingerA:u1(t=34-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=2c-3f%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

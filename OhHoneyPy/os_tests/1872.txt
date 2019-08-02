@@ -1,0 +1,74 @@
+Fingerprint: HP-UX B.11.31
+Class: HP | HP-UX | 11.X | general purpose
+CPE: cpe:/o:hp:hp-ux:11.31
+seq(sp=74-a2%gcd=1-6%isr=96-a8%ti=i%ci=ri%ii=i%ss=s%ts=7)
+ops(o1=m5b4nnsw0nnnt11%o2=m578nnsw0nnnt11%o3=m280w0nnnt11%o4=m5b4nnsw0nnnt11%o5=m218nnsw0nnnt11%o6=m109nnsnnt11)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=y%t=3b-45%tg=40%w=8000%o=m5b4nnsw0n%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=e44a4e43%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=bd1ab510%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=ea6c967d%q=)
+t7(r=n)
+u1(df=y%t=fa-104%tg=ff%ipl=70%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=y%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Crestron XPanel control system (93%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (91%), HP-UX B.11.31 (91%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (90%), OpenWrt White Russian 0.9 (Linux 2.4.30) (90%), HP-UX B.11.00 - B.11.23 (90%), HP-UX B.11.11 (90%), Nintendo Wii game console (90%), Epson Stylus Pro 400 printer (89%), FreeBSD 7.1-RELEASE - 9.0-CURRENT (89%)
+Class: Crestron 2-Series (93%), Linux 2.6.X|2.4.X (91%), HP HP-UX 11.X (91%), Nintendo embedded (90%), Epson embedded (89%), FreeBSD 7.X|8.X (89%), McAfee embedded (89%)
+CPE: cpe:/o:crestron:2_series cpe:/o:linux:linux_kernel:2.6.22 cpe:/o:hp:hp-ux:11.31 cpe:/o:linux:linux_kernel:2.4 cpe:/h:nintendo:wii cpe:/h:epson:stylus_pro_400 cpe:/o:freebsd:freebsd:7 cpe:/o:freebsd:freebsd:8
+seq(sp=109%gcd=1%isr=100%ii=i)
+ops(o1=m5b4nnsw0nnnt11%o2=m578nnsw0nnnt11%o3=m280w0nnnt11%o4=m5b4nnsw0nnnt11%o5=m218nnsw0nnnt11%o6=m109nnsnnt11)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=y%t=40%w=8000%o=m5b4nnsw0n%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=y%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=y%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ops(o1=m5b4nnsw0nnnt11%o2=m578nnsw0nnnt11%o3=m280w0nnnt11%o4=m5b4nnsw0nnnt11%o5=m218nnsw0nnnt11%o6=m109nnsnnt11)
+FingerAB:win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+FingerAB:ecn(r=y%df=y%w=8000%o=m5b4nnsw0n%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%q=)
+FingerAB:u1(df=y%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=y%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=74-a2%gcd=1-6%isr=96-a8%ti=i%ci=ri%ss=s%ts=7)
+FingerB:seq(sp=109%gcd=1%isr=100)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40%rd=e44a4e43)
+FingerB:t4(t=40%rd=0)
+
+FingerA:t5(t=3b-45%tg=40%rd=bd1ab510)
+FingerB:t5(t=40%rd=0)
+
+FingerA:t6(t=3b-45%tg=40%rd=ea6c967d)
+FingerB:t6(t=40%rd=0)
+
+FingerA:u1(t=fa-104%tg=ff%ipl=70)
+FingerB:u1(t=3b%ipl=38%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t7(r=n)
+
+

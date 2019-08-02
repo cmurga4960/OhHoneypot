@@ -1,0 +1,72 @@
+Fingerprint: Compaq iPAQ CP-2W Connection Point WAP
+Class: Compaq | embedded || WAP
+seq(r=n%ii=%ti=%ci=)
+ops(o1=|m578%o2=|m578%o3=|m578%o4=|m578%o5=|m578%o6=|m578)
+win(w1=0|800%w2=0|800%w3=0|800%w4=0|800%w5=0|800%w6=0|800)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=0|800%o=|m578%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=z%a=s+%f=ar|as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=fa-104%tg=ff%w=800%s=z%a=o|s+%f=as%o=m578%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Compaq iPAQ CP-2W Connection Point WAP (98%), GNU Hurd 0.3 (91%), ZyXEL Prestige 202 ISDN router (ZyNOS 2.41) (88%), ZyXEL Prestige 600-series ADSL router (88%)
+Class: Compaq embedded (98%), GNU Hurd (91%), ZyXEL ZyNOS 2.X (88%)
+CPE: cpe:/o:gnu:hurd cpe:/o:zyxel:zynos:2.41 cpe:/o:zyxel:zynos
+seq(sp=0%gcd=1%isr=1b%ci=i%ts=u)
+ops(o1=%o2=%o3=%o4=%o5=%o6=)
+win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+ecn(r=y%df=n%tg=ff%w=0%o=%cc=n%q=)
+t1(r=y%df=n%tg=ff%s=z%a=s+%f=ars%rd=0%q=)
+t2(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%tg=ff%w=800%s=z%a=o%f=as%o=m578%rd=0%q=)
+t4(r=y%df=n%tg=ff%w=0%s=a%a=z%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=ff%w=0%s=a%a=z%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=n%tg=ff%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=ff%s=z%a=s+%rd=0%q=)
+FingerAB:t2(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%tg=ff%w=800%s=z%f=as%o=m578%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=ff%w=0%s=a%a=z%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=ff%w=0%s=a%a=z%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(r=n%ii=%ti=%ci=)
+FingerB:seq(ci=i%sp=0%gcd=1%isr=1b%ts=u)
+
+FingerA:ops(o1=|m578%o2=|m578%o3=|m578%o4=|m578%o5=|m578%o6=|m578)
+FingerB:ops(o1=%o2=%o3=%o4=%o5=%o6=)
+
+FingerA:win(w1=0|800%w2=0|800%w3=0|800%w4=0|800%w5=0|800%w6=0|800)
+FingerB:win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+
+FingerA:ecn(t=fa-104%w=0|800%o=|m578)
+FingerB:ecn(w=0%o=)
+
+FingerA:t1(t=fa-104%f=ar|as)
+FingerB:t1(f=ars)
+
+FingerA:t2(t=fa-104)
+FingerA:t3(t=fa-104%a=o|s+)
+FingerB:t3(a=o)
+
+FingerA:t4(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:t7(t=fa-104)
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

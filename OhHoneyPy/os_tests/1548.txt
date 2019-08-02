@@ -1,0 +1,77 @@
+Fingerprint: Frontier Silicon internet radio
+Class: Frontier Silicon | embedded || media device
+seq(sp=c7-db%gcd=1-6%isr=d7-e1%ti=i%ci=i%ts=u%ii=)
+ops(o1=m5b4w0l%o2=m5b4w0l%o3=m5b4w0l%o4=m5b4w0l%o5=m5b4w0l%o6=m5b4)
+win(w1=7918%w2=7918%w3=7918%w4=7918%w5=7918%w6=7918)
+ecn(r=y%df=n%t=73-7d%tg=80%w=7918%o=m5b4w0l%cc=n%q=)
+t1(r=y%df=n%t=73-7d%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=73-7d%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=73-7d%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=73-7d%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=73-7d%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=73-7d%tg=80%ipl=240%un=0%ripl=g%rid=g%ripck=g%ruck=e710%rud=i)
+ie(dfi=n%t=73-7d%tg=80%cd=z)
+********************************************************
+Fingerprint: Frontier Silicon internet radio (94%), Olympus Stylus SH-2 camera (94%), Leica T camera (92%), Canon imageCLASS MF212w printer (91%), Novatel MiFi 4620L WAP (91%), Brother MFC-7820N printer (87%)
+Class: Frontier Silicon embedded (94%), Olympus embedded (94%), Leica embedded (92%), Canon embedded (91%), Novatel embedded (91%), Brother embedded (87%)
+CPE: cpe:/h:olympus:stylus_sh-2 cpe:/h:canon:imageclass_mf212w cpe:/h:novatel:mifi_4620l cpe:/h:brother:mfc-7820n
+seq(sp=105%gcd=1%isr=fc%ci=i%ii=i%ts=u)
+ops(o1=m5b4w0l%o2=m5b4w0l%o3=m5b4w0l%o4=m5b4w0l%o5=m5b4w0l%o6=m5b4)
+win(w1=7918%w2=7918%w3=7918%w4=7918%w5=7918%w6=7918)
+ecn(r=y%df=n%t=80%w=7918%o=m5b4w0l%cc=n%q=)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=240%un=0%ripl=g%rid=g%ripck=g%ruck=e710%rud=i)
+ie(r=y%dfi=n%t=3b%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5b4w0l%o2=m5b4w0l%o3=m5b4w0l%o4=m5b4w0l%o5=m5b4w0l%o6=m5b4)
+FingerAB:win(w1=7918%w2=7918%w3=7918%w4=7918%w5=7918%w6=7918)
+FingerAB:ecn(r=y%df=n%w=7918%o=m5b4w0l%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=240%un=0%ripl=g%rid=g%ripck=g%ruck=e710%rud=i)
+FingerAB:ie(dfi=n%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=c7-db%gcd=1-6%isr=d7-e1%ti=i%ii=)
+FingerB:seq(sp=105%gcd=1%isr=fc%ii=i)
+
+FingerA:ecn(t=73-7d%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(t=73-7d%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t4(t=73-7d%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=73-7d%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=73-7d%tg=80)
+FingerB:t6(t=80)
+
+FingerA:t7(t=73-7d%tg=80)
+FingerB:t7(t=80)
+
+FingerA:u1(t=73-7d%tg=80)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=73-7d%tg=80)
+FingerB:ie(t=3b%r=y)
+
+
+

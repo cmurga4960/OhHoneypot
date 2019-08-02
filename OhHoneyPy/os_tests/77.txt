@@ -1,0 +1,62 @@
+Fingerprint: Adtran NetVanta 1224R or 3430 router
+Class: Adtran | embedded || router
+CPE: cpe:/h:adtran:netvanta_3430
+CPE: cpe:/h:adtran:netvanta_1224r auto
+seq(sp=d2-dc%gcd=1-6%isr=df-e9%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=dac%w2=dac%w3=dac%w4=dac%w5=dac%w6=dac)
+ecn(r=n)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=z)
+********************************************************
+Fingerprint: OneAccess 1641 router (98%), Adtran NetVanta 1224R or 3430 router (97%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (97%), Linksys BEFSR41 EtherFast router (95%), Blue Coat PacketShaper appliance (92%), Polycom MGC-25 videoconferencing system (pSOS 1.0.4) (92%), AVtech Room Alert 26W environmental monitor (91%), Denver Electronics AC-5000W MK2 camera (91%), OSRAM Lightify ZigBee gateway (91%), Sony Ericsson U8i Vivaz mobile phone (91%)
+seq(sp=103%gcd=1%isr=fa%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=dac%w2=dac%w3=dac%w4=dac%w5=dac%w6=dac)
+ecn(r=n)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=dac%w2=dac%w3=dac%w4=dac%w5=dac%w6=dac)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=d2-dc%gcd=1-6%isr=df-e9%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=103%gcd=1%isr=fa)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=z)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,61 @@
+Fingerprint: Adaptec Snap Server 100 NAS device
+Class: Adaptec | embedded || storage-misc
+CPE: cpe:/h:adaptec:snap_server_100 auto
+seq(sp=c-16%gcd=3200|6400|9600|c800|fa00%isr=96-a0%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=2238%w2=2238%w3=2238%w4=2238%w5=2238%w6=2238)
+ecn(r=y%df=n%t=1b-25%tg=20%w=2238%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=1b-25%tg=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=1b-25%tg=20%w=2238%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=1b-25%tg=20%w=2238%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=1b-25%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=1b-25%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=1b-25%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Adaptec Snap Server 100 NAS device (94%), Adaptec RAID 4000 I/O controller (94%), Quantum Snap Server 2200 or 4100 NAS device (94%), Extreme Networks Summit48si switch (ExtremeWare 7.1 - 7.8) (91%), ION Networks SA5600-series firewall (91%), Wyse C10LE, S10, SX0, 1200LE, or Xenith terminal (ThinOS 6.5) (91%), Dell 1320c printer (88%), Interflex IF-1735 timeclock (88%), Wyse S50 thin client (Linux 2.6) (88%), Network Systems BorderGuard 1000 firewall (88%)
+seq(sp=108%gcd=1%isr=ff%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=2238%w2=2238%w3=2238%w4=2238%w5=2238%w6=2238)
+ecn(r=y%df=n%tg=20%w=2238%o=m5b4%cc=n%q=)
+t1(r=y%df=n%tg=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=20%w=2238%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%tg=20%w=2238%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=2238%w2=2238%w3=2238%w4=2238%w5=2238%w6=2238)
+FingerAB:ecn(r=y%df=n%tg=20%w=2238%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=20%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=20%w=2238%s=o%a=o%f=a%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=20%w=2238%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=3200|6400|9600|c800|fa00%isr=96-a0%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=108%gcd=1%isr=ff%ci=i)
+
+FingerA:ecn(t=1b-25)
+FingerA:t1(t=1b-25)
+FingerA:t3(t=1b-25)
+FingerA:t4(t=1b-25)
+FingerA:t5(t=1b-25)
+FingerA:t6(t=1b-25)
+FingerA:t7(t=1b-25)
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

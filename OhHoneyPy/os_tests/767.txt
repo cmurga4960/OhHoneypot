@@ -1,0 +1,70 @@
+Fingerprint: Cisco Unified Communications Manager VoIP adapter
+Class: Cisco | embedded || VoIP adapter
+CPE: cpe:/a:cisco:unified_communications_manager:7.1.1
+seq(sp=fe-10a%gcd=1-6%isr=104-112%ti=z%ci=rd%ii=i%ts=a)
+ops(o1=m564st11nw2%o2=m564st11nw2%o3=m564nnt11nw2%o4=m564st11nw2%o5=m564st11nw2%o6=m564st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=n)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=22-3c%tg=40%w=80%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t3(r=y%df=n%t=21-3d%tg=40%w=100%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t4(r=y%df=y%t=1f-3e%tg=20|40%w=400%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=1e-3e%tg=20|40%w=8000%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t7(r=y%df=n%t=1e-3e%tg=20|40%w=ffff%s=a%a=s%f=ar%o=wfnm109t10s%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Tomato 1.27 - 1.28 (Linux 2.4.20) (87%), Linux 2.6.18 - 2.6.22 (87%), Cisco Unified Communications Manager VoIP adapter (87%)
+Class: Linux 2.4.X|2.6.X (87%), Cisco embedded (87%)
+CPE: cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6 cpe:/a:cisco:unified_communications_manager:7.1.1
+seq(sp=f2%gcd=1%isr=e9%ti=i)
+ops(o1=m564st11nw2%o2=m564st11nw2%o3=m564nnt11nw2%o4=m564st11nw2%o5=m564st11nw2%o6=m564st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=n)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=40%w=80%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t3(r=y%df=n%t=40%w=100%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m564st11nw2%o2=m564st11nw2%o3=m564nnt11nw2%o4=m564st11nw2%o5=m564st11nw2%o6=m564st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=y%w=80%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=100%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fe-10a%gcd=1-6%isr=104-112%ti=z%ci=rd%ii=i%ts=a)
+FingerB:seq(sp=f2%gcd=1%isr=e9%ti=i)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=22-3c%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=21-3d%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(r=y%df=y%t=1f-3e%tg=20|40%w=400%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+FingerB:t4(r=n)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=y%df=y%t=1e-3e%tg=20|40%w=8000%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+FingerA:t7(r=y%df=n%t=1e-3e%tg=20|40%w=ffff%s=a%a=s%f=ar%o=wfnm109t10s%rd=0%q=)
+
+

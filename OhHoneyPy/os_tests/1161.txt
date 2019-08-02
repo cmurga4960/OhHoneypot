@@ -1,0 +1,66 @@
+Fingerprint: Dell PowerConnect 2708 switch
+Class: Dell | embedded || switch
+CPE: cpe:/h:dell:powerconnect_2708 auto
+seq(sp=c-16%gcd=a|14|1e|28|32%isr=1d-27%ti=i%ci=i%ii=ri%ss=o%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=8000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=80%s=a%a=s+%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=fa-104%tg=ff%w=100%s=a%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=7a69%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=8000%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=ffff%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=s%t=1b-25|3b-45%tg=20|40%cd=s)
+********************************************************
+Fingerprint: Dell PowerConnect 2708 switch (95%), SMC 8024L2 switch (89%), Koukaam NETIO-230A power control device or ZyXEL SP-220E thermal printer (88%), Dell PowerConnect 2724 switch (88%), Cisco SLM2008 or HP ProCurve 1800 switch (86%), Linksys BEFW11S4 WAP (86%), Linksys BEFSR41 router (85%), Kyocera FS-3800 network printer (85%)
+Class: Dell embedded (95%), SMC embedded (89%), Koukaam embedded (88%), ZyXEL embedded (88%), Cisco embedded (86%), HP embedded (86%), Linksys embedded (86%), Kyocera embedded (85%)
+CPE: cpe:/h:dell:powerconnect_2708 cpe:/h:smc:8024l2 cpe:/h:koukaam:netio-230a cpe:/h:zyxel:sp-220e cpe:/h:cisco:slm2008 cpe:/h:hp:procurve_1800 cpe:/h:linksys:befw11s4 cpe:/h:linksys:befsr41
+seq(sp=102%gcd=1%isr=f9%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%tg=ff%w=8000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%tg=ff%s=o%a=o%f=as%rd=0%q=)
+t2(r=y%df=n%tg=ff%w=80%s=a%a=s+%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%tg=ff%w=100%s=a%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%tg=ff%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=7a69%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=ff%w=8000%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%tg=ff%w=ffff%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+FingerAB:ecn(r=y%df=n%tg=ff%w=8000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=ff%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%tg=ff%w=80%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%tg=ff%w=100%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=ff%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=ff%w=7a69%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=ff%w=8000%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=ff%w=ffff%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=a|14|1e|28|32%isr=1d-27%ti=i%ii=ri%ss=o)
+FingerB:seq(sp=102%gcd=1%isr=f9)
+
+FingerA:ecn(t=fa-104)
+FingerA:t1(t=fa-104%a=o|s+)
+FingerB:t1(a=o)
+
+FingerA:t2(t=fa-104)
+FingerA:t3(t=fa-104)
+FingerA:t4(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:t7(t=fa-104)
+FingerA:ie(dfi=s%t=1b-25|3b-45%tg=20|40%cd=s)
+FingerB:ie(r=n)
+
+
+

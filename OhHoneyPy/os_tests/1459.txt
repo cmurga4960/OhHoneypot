@@ -1,0 +1,56 @@
+Fingerprint: FreeBSD 7.0-RELEASE-p5
+Class: FreeBSD | FreeBSD | 7.X | general purpose
+CPE: cpe:/o:freebsd:freebsd:7.0 auto
+seq(sp=100-10a%gcd=1-6%isr=100-10a%ti=rd%ii=ri%ts=21%ci=)
+ops(o1=m5b4nw3st11%o2=m578nw3st11%o3=m280nw3nnt11%o4=m5b4nw3st11%o5=m218nw3st11%o6=m109st11)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=ffff%o=m5b4nw3sll%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=0-ffff%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: FreeBSD 7.0-RELEASE-p5 (98%), FreeBSD 7.1-PRERELEASE 7.2-STABLE (98%), FreeBSD 7.0-RELEASE (97%), FreeBSD 6.2-RELEASE (96%), FreeBSD 7.1-RELEASE (95%), OpenBSD 4.0 (95%), FreeBSD 7.2-RELEASE - 8.0-RELEASE (94%), FreeBSD 8.0-STABLE (94%), OpenBSD 4.3 (93%), m0n0wall 1.8.1 (FreeBSD 8.4) (92%)
+seq(sp=107%gcd=1%isr=fe)
+ops(o1=m5b4nw3st11%o2=m578nw3st11%o3=m280nw3nnt11%o4=m5b4nw3st11%o5=m218nw3st11%o6=m109st11)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%tg=40%w=ffff%o=m5b4nw3sll%cc=n%q=)
+t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw3st11%o2=m578nw3st11%o3=m280nw3nnt11%o4=m5b4nw3st11%o5=m218nw3st11%o6=m109st11)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=y%tg=40%w=ffff%o=m5b4nw3sll%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+--- Diff Values ---
+FingerA:seq(sp=100-10a%gcd=1-6%isr=100-10a%ti=rd%ii=ri%ts=21%ci=)
+FingerB:seq(sp=107%gcd=1%isr=fe)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=0-ffff%ripck=g%ruck=g%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

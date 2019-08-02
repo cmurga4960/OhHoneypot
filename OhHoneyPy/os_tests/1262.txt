@@ -1,0 +1,78 @@
+Fingerprint: Enterasys XSR firewall
+Class: Enterasys | embedded || firewall
+seq(sp=8d-9b%gcd=1-6%isr=95-9f%ti=i%ii=i%ss=s%ts=1%ci=)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=43e0%w2=4110%w3=423c%w4=4074%w5=4180%w6=403d)
+ecn(r=y%df=y%t=3b-45%tg=40%w=4470%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=403d%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=134%rid=g%ripck=i%ruck=0%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Enterasys XSR firewall (98%), VxWorks (92%), Enterasys SSR router or XP switch (91%), FreeBSD 2.2.8-STABLE - 2.2.9 (x86) (91%), VIPA PLC CPU (91%), TenAsys iRMX III 2.2 (91%), Cisco EPC3208 cable modem (90%), Cisco EPC3212 or Scientific Atlanta WebSTAR EPX2203 cable modem (90%), Scientific Atlanta WebSTAR EPC2203 cable modem (90%), Zelax MM-201R-UNI router (89%)
+Class: Enterasys embedded (98%), Wind River VxWorks (92%), FreeBSD 2.X (91%), VIPA embedded (91%), TenAsys iRMX 2.X (91%), Cisco embedded (90%), Scientific Atlanta embedded (90%), Zelax embedded (89%)
+CPE: cpe:/o:windriver:vxworks cpe:/o:freebsd:freebsd:2 cpe:/o:tenasys:irmx:2 cpe:/h:cisco:epc3208 cpe:/h:sciatl:webstar_epx2203 cpe:/h:zelax:mm-201r-uni
+seq(sp=f7%gcd=1%isr=ed%ci=i)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=43e0%w2=4110%w3=423c%w4=4074%w5=4180%w6=403d)
+ecn(r=y%df=y%t=40%w=4470%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=403d%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0%q=)
+t4(r=y%df=n%t=40%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=134%rid=g%ripck=i%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerAB:win(w1=43e0%w2=4110%w3=423c%w4=4074%w5=4180%w6=403d)
+FingerAB:ecn(r=y%df=y%w=4470%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=403d%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=134%rid=g%ripck=i%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=8d-9b%gcd=1-6%isr=95-9f%ti=i%ii=i%ss=s%ts=1%ci=)
+FingerB:seq(sp=f7%gcd=1%isr=ed%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

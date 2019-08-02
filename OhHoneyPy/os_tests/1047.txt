@@ -1,0 +1,80 @@
+Fingerprint: D-Link DES-3550 switch
+Class: D-Link | embedded || switch
+CPE: cpe:/h:dlink:des-3550 auto
+seq(sp=8b-95%gcd=1-6%isr=91-9b%ti=i%ci=i%ii=ri%ss=s%ts=1)
+ops(o1=m5a4nw0nnt11%o2=m5a4nw0nnt11%o3=m5a4nw0nnt11%o4=m5a4nw0nnt11%o5=m5a4nw0nnt11%o6=m5a4nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=19-23%tg=20%w=2000%o=m5a4nw0%cc=n%q=)
+t1(r=y%df=n%t=19-23%tg=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=19-23%tg=20%w=2000%s=o%a=s+%f=as%o=%rd=0%q=)
+t4(r=y%df=n%t=19-23%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=19-23%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=19-23%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=19-23%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=19-23%tg=20%ipl=38%un=128%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=19-23%tg=20%cd=s)
+********************************************************
+Fingerprint: D-Link DES-3550 switch (97%), D-Link DES-3526 or DES-3550 switch (97%), D-Link DES-3526 switch (97%), D-Link DGS-3324SR, DSG-3612G, DES-3528 or DES-3828 switch (97%), D-Link DXS-3326GSR switch (97%), D-Link DGS-3450 switch (95%), D-Link DES-3010F or DES-3010G switch (94%), D-Link DES-3010G switch (94%), D-Link DGS-3024 switch (93%), Allied Telesyn AT-GS950 or D-Link DES-3226L switch or D-Link DSL-2750U router (93%)
+Class: D-Link embedded (97%), Allied Telesyn embedded (93%), 3Com embedded (90%), cab embedded (88%)
+CPE: cpe:/h:dlink:des-3550 cpe:/h:alliedtelesyn:at-gs950 cpe:/h:dlink:dvg-4022s cpe:/h:3com:3924
+seq(sp=dc%gcd=1%isr=d2%ci=i)
+ops(o1=m5a4nw0nnt11%o2=m5a4nw0nnt11%o3=m5a4nw0nnt11%o4=m5a4nw0nnt11%o5=m5a4nw0nnt11%o6=m5a4nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=20%w=2000%o=m5a4nw0%cc=n%q=)
+t1(r=y%df=n%t=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=20%w=2000%s=o%a=s+%f=as%o=%rd=0%q=)
+t4(r=y%df=n%t=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=128%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ops(o1=m5a4nw0nnt11%o2=m5a4nw0nnt11%o3=m5a4nw0nnt11%o4=m5a4nw0nnt11%o5=m5a4nw0nnt11%o6=m5a4nnt11)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%w=2000%o=m5a4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=2000%s=o%a=s+%f=as%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=128%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=8b-95%gcd=1-6%isr=91-9b%ti=i%ii=ri%ss=s%ts=1)
+FingerB:seq(sp=dc%gcd=1%isr=d2)
+
+FingerA:ecn(t=19-23%tg=20)
+FingerB:ecn(t=20)
+
+FingerA:t1(t=19-23%tg=20)
+FingerB:t1(t=20)
+
+FingerA:t3(t=19-23%tg=20)
+FingerB:t3(t=20)
+
+FingerA:t4(t=19-23%tg=20)
+FingerB:t4(t=20)
+
+FingerA:t5(t=19-23%tg=20)
+FingerB:t5(t=20)
+
+FingerA:t6(t=19-23%tg=20)
+FingerB:t6(t=20)
+
+FingerA:t7(t=19-23%tg=20)
+FingerB:t7(t=20)
+
+FingerA:u1(t=19-23%tg=20)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=19-23%tg=20%cd=s)
+FingerB:ie(r=n)
+
+
+

@@ -1,0 +1,80 @@
+Fingerprint: LaSAT satellite receiver
+Class: LaSAT | embedded || media device
+seq(sp=0-5%gcd=1d5|3aa|57f|754|929%isr=5d-67%ti=i%ci=i%ii=ri%ss=o%ts=u)
+ops(o1=mb68%o2=mb68%o3=mb68%o4=mb68%o5=mb68%o6=mb68)
+win(w1=2da0%w2=2da0%w3=2da0%w4=2da0%w5=2da0%w6=2da0)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=2da0%o=mb68%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=fa-104%tg=ff%w=2da0%s=o%a=s+%f=as%o=mb68%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=2da0%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=2da0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=2da0%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=2da0%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: LaSAT satellite receiver (92%), OSRAM Lightify ZigBee gateway (87%), Philips Hue Bridge (lwIP stack) (87%)
+Class: LaSAT embedded (92%), OSRAM embedded (87%), Philips embedded (87%), lwIP (87%)
+CPE: cpe:/h:osram:lightify cpe:/h:philips:hue_bridge cpe:/a:lwip_project:lwip
+seq(sp=e9%gcd=1%isr=df%ii=i%ts=u)
+ops(o1=mb68%o2=mb68%o3=mb68%o4=mb68%o5=mb68%o6=mb68)
+win(w1=2da0%w2=2da0%w3=2da0%w4=2da0%w5=2da0%w6=2da0)
+ecn(r=y%df=n%t=ff%w=2da0%o=mb68%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=ff%w=2da0%s=o%a=s+%f=as%o=mb68%rd=0%q=)
+t4(r=y%df=n%t=ff%w=2da0%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=2da0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=2da0%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=2da0%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=mb68%o2=mb68%o3=mb68%o4=mb68%o5=mb68%o6=mb68)
+FingerAB:win(w1=2da0%w2=2da0%w3=2da0%w4=2da0%w5=2da0%w6=2da0)
+FingerAB:ecn(r=y%df=n%w=2da0%o=mb68%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=2da0%s=o%a=s+%f=as%o=mb68%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=2da0%s=a+%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=2da0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=2da0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=2da0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=0-5%gcd=1d5|3aa|57f|754|929%isr=5d-67%ti=i%ci=i%ii=ri%ss=o)
+FingerB:seq(sp=e9%gcd=1%isr=df%ii=i)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t3(t=fa-104%tg=ff)
+FingerB:t3(t=ff)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

@@ -1,0 +1,58 @@
+Fingerprint: Kyocera EP 470DN printer
+Class: Kyocera | embedded || printer
+CPE: cpe:/h:kyocera:ep_470dn auto
+seq(sp=0-5%gcd=10001|20002|30003|40004|50005%isr=96-a0%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m545%o2=m545%o3=m545%o4=m545%o5=m545%o6=m545)
+win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=5b4%o=m545%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(r=n)
+ie(dfi=n%t=fa-104%tg=ff%cd=z)
+********************************************************
+Fingerprint: Kyocera EP 470DN printer (91%), Ricoh Aficio SP C240SF printer (85%)
+Class: Kyocera embedded (91%), Ricoh embedded (85%)
+CPE: cpe:/h:kyocera:ep_470dn cpe:/h:ricoh:aficio_sp_c240sf
+seq(sp=f9%gcd=1%isr=ef%ts=u)
+ops(o1=m545%o2=m545%o3=m545%o4=m545%o5=m545%o6=m545)
+win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+ecn(r=y%df=n%tg=ff%w=5b4%o=m545%cc=n%q=)
+t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%tg=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=n%tg=40%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m545%o2=m545%o3=m545%o4=m545%o5=m545%o6=m545)
+FingerAB:win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+FingerAB:ecn(r=y%df=n%tg=ff%w=5b4%o=m545%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%tg=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=n%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=0-5%gcd=10001|20002|30003|40004|50005%isr=96-a0%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=f9%gcd=1%isr=ef)
+
+FingerA:ecn(t=fa-104)
+FingerA:t1(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(tg=40%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

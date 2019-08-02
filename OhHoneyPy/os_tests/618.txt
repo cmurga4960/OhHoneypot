@@ -1,0 +1,63 @@
+Fingerprint: Brother MFC-J6510DW printer
+Class: Brother | embedded || printer
+CPE: cpe:/h:brother:mfc-j6510dw auto
+seq(sp=c-16%gcd=1e848|3d090|5b8d8|7a120|98968%isr=9f-a9%ti=i%ii=i%ss=s%ts=a%ci=)
+ops(o1=m576nw0nnsnnt11%o2=m576nw0nnsnnt11%o3=m280nw0nnt11%o4=m576nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+win(w1=207c%w2=207c%w3=2258%w4=207c%w5=20c0%w6=209d)
+ecn(r=y%df=n%t=3b-45%tg=40%w=0%o=%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Brother MFC-J6510DW printer (94%), Digi AnywhereUSB/2 network-attached USB hub (91%), Brother HL-3170CDW printer (91%), HP LaserJet Pro 200 M275NW printer (91%), Teradici 10ZiG V1200 thin client (91%), Wyse P class PCoIP client (91%), Epson G5200W projector (90%), HP LaserJet M1522nf printer (90%), Nokia E70 or N86 mobile phone (Symbian OS) (90%), Digi AnywhereUSB network-attached USB hub (90%)
+seq(sp=104%gcd=1%isr=fb)
+ops(o1=m576nw0nnsnnt11%o2=m576nw0nnsnnt11%o3=m280nw0nnt11%o4=m576nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+win(w1=207c%w2=207c%w3=2258%w4=207c%w5=20c0%w6=209d)
+ecn(r=y%df=n%t=40%w=0%o=%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m576nw0nnsnnt11%o2=m576nw0nnsnnt11%o3=m280nw0nnt11%o4=m576nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+FingerAB:win(w1=207c%w2=207c%w3=2258%w4=207c%w5=20c0%w6=209d)
+FingerAB:ecn(r=y%df=n%w=0%o=%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=1e848|3d090|5b8d8|7a120|98968%isr=9f-a9%ti=i%ii=i%ss=s%ts=a%ci=)
+FingerB:seq(sp=104%gcd=1%isr=fb)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

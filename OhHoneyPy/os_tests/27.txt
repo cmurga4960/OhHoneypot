@@ -1,0 +1,67 @@
+Fingerprint: 3Com SuperStack 3 Switch 3300 XM
+Class: 3Com | embedded || switch
+CPE: cpe:/h:3com:superstack_3_switch_3300_xm auto
+seq(sp=0%gcd=1-6%isr=0%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m59c%o2=m59c%o3=m59c%o4=m59c%o5=m59c%o6=m59c)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=400%o=m59c%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+t3(r=y%df=n%t=fa-104%tg=ff%w=400%s=o%a=s+%f=as%o=m59c%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s+%f=apr%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=>0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Allied Telesyn 8326GB switch (93%), 3Com SuperStack 3 Switch 3300 XM (92%), 3Com SuperStack 3 Switch 3300 TM (90%), 3Com SuperStack 3 Switch 3300 XM, 4200, or 4400 SE (87%), 3Com SuperStack 3 Switch 4200 or 4226T (87%), 3Com SuperStack 3 Switch 4400 (87%), 3Com SuperStack Switch 4200 (87%), Allied Telesyn AT-GS950 Gigabit Ethernet Switch (87%), 3Com SuperStack 3 Switch 3300 (85%), 3Com SuperStack II Switch 3300 (85%)
+Class: Allied Telesyn embedded (93%), 3Com embedded (92%)
+CPE: cpe:/h:alliedtelesyn:at-8326gb cpe:/h:3com:superstack_3_switch_3300_xm
+seq(sp=f4%gcd=1%isr=ea%ti=i%ci=i%ii=ri%ss=o%ts=u)
+ops(o1=m59c%o2=m59c%o3=m59c%o4=m59c%o5=m59c%o6=m59c)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%tg=ff%w=400%o=m59c%cc=n%q=)
+t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+t3(r=y%df=n%tg=ff%w=400%s=o%a=s+%f=as%o=m59c%rd=0%q=)
+t4(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=0%s=a%a=s+%f=apr%o=%rd=0%q=)
+t6(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+t7(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=n%tg=ff%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ti=i%ci=i%ts=u)
+FingerAB:ops(o1=m59c%o2=m59c%o3=m59c%o4=m59c%o5=m59c%o6=m59c)
+FingerAB:win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+FingerAB:ecn(r=y%df=n%tg=ff%w=400%o=m59c%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%tg=ff%w=400%s=o%a=s+%f=as%o=m59c%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=ff%w=0%s=a%a=s+%f=apr%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+FingerAB:ie(dfi=n%tg=ff%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=0%gcd=1-6%isr=0%ii=i%ss=s)
+FingerB:seq(sp=f4%gcd=1%isr=ea%ii=ri%ss=o)
+
+FingerA:ecn(t=fa-104)
+FingerA:t1(t=fa-104)
+FingerA:t2(t=fa-104)
+FingerA:t3(t=fa-104)
+FingerA:t4(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:t7(t=fa-104)
+FingerA:u1(df=n%t=fa-104%tg=ff%ipl=38%un=>0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(t=fa-104)
+FingerB:ie(r=y)
+
+
+

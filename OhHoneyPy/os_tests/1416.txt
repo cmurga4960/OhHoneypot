@@ -1,0 +1,63 @@
+Fingerprint: FreeBSD 6.1-RELEASE
+Class: FreeBSD | FreeBSD | 6.X | general purpose
+CPE: cpe:/o:freebsd:freebsd:6.1
+seq(sp=104-10e%gcd=1-6%isr=100-10a%ii=i%ts=21%ti=%ci=)
+ops(o1=m5b4nw1nnt11sll%o2=m5b4nw1nnt11sll%o3=m5b4nw1nnt11%o4=m5b4nw1nnt11sll%o5=m5b4nw1nnt11sll%o6=m5b4nnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%t=3b-45%tg=40%w=ffff%o=m5b4nw1sll%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: FreeBSD 6.1-RELEASE (96%), VMware ESXi 4.0 (93%), FreeBSD 6.2-RELEASE (92%), VMware ESXi 4.0.0 (91%), Apple OS X 10.11.2 (El Capitan) (Darwin 15.2.0) (89%), Apple OS X 10.8 (Mountain Lion) - 10.9 (Mavericks) or iOS 5.0.1 - 5.1.1 (Darwin 11.0.0 - 13.2.0) (89%), VMware ESXi 3.5 (89%), Apple iOS 8.0 - 8.1 (Darwin 14.0.0) (88%), Apple iOS 8.1.2 (Darwin 14.0.0) (88%), Apple iOS 8.3 (Darwin 14.0.0) (88%)
+seq(sp=e7%gcd=1%isr=de)
+ops(o1=m5b4nw1nnt11sll%o2=m5b4nw1nnt11sll%o3=m5b4nw1nnt11%o4=m5b4nw1nnt11sll%o5=m5b4nw1nnt11sll%o6=m5b4nnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%t=40%w=ffff%o=m5b4nw1sll%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw1nnt11sll%o2=m5b4nw1nnt11sll%o3=m5b4nw1nnt11%o4=m5b4nw1nnt11sll%o5=m5b4nw1nnt11sll%o6=m5b4nnt11sll)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=n%w=ffff%o=m5b4nw1sll%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=104-10e%gcd=1-6%isr=100-10a%ii=i%ts=21%ti=%ci=)
+FingerB:seq(sp=e7%gcd=1%isr=de)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40%a=o|s+)
+FingerB:t1(t=40%a=o)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,61 @@
+Fingerprint: Cisco IP Phone 7961G
+Class: Cisco | embedded || VoIP phone
+CPE: cpe:/h:cisco:unified_ip_phone_7961g
+seq(sp=fa-104%gcd=1-6%isr=102-10c%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m53c%o2=m53c%o3=m53c%o4=m53c%o5=m53c%o6=m53c)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=n)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=2000%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Cisco IP Phone 7961G (98%), OneAccess 1641 router (96%), Linksys BEFSR41 EtherFast router (95%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (95%), Cisco IP Phone 7945G (93%), Cisco IP Phone 7975G (93%), Blue Coat PacketShaper appliance (92%), Efficient Networks SpeedStream 5100 ADSL router (92%), AVtech Room Alert 26W environmental monitor (91%), NEC UNIVERGE SV8100 PBX (91%)
+seq(sp=fe%gcd=1%isr=f5%ts=u)
+ops(o1=m53c%o2=m53c%o3=m53c%o4=m53c%o5=m53c%o6=m53c)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=n)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=2000%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m53c%o2=m53c%o3=m53c%o4=m53c%o5=m53c%o6=m53c)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=2000%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fa-104%gcd=1-6%isr=102-10c%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=fe%gcd=1%isr=f5)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

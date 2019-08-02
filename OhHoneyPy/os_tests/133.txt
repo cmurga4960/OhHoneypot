@@ -1,0 +1,71 @@
+Fingerprint: Allied Telesyn AT-9448Ts/XP switch
+Class: Allied Telesyn | embedded || switch
+CPE: cpe:/h:alliedtelesyn:at-9448ts
+seq(sp=f3-109%gcd=1-6%isr=fe-114%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=3e80%w2=3e80%w3=3e80%w4=3e80%w5=3e80%w6=3e80)
+ecn(r=y%df=n%t=7c-86%tg=80%w=3e80%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=7c-86%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=7c-86%tg=80%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t5(r=y%df=n%t=7c-86%tg=80%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+t6(r=y%df=n%t=7c-86%tg=80%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=7c-86%tg=80%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=7c-86%tg=80%cd=s)
+********************************************************
+Fingerprint: Allied Telesyn AT-9448Ts/XP switch (98%), Linksys SPA3102 VoIP adapter (91%), Linksys PAP2T VoIP adapter (90%), Sipura SPA1001 or SPA3000 VoIP adapter (90%), IBM BladeCenter management module, IBM System Storage TS3100/TS3200 Express Model tape library, or HP StorageWorks MSL2024 tape library (89%), Pirelli DP-10 VoIP phone (89%), Huawei VRP 5.160 (89%), FireBrick FB2700 firewall (88%)
+seq(sp=101%gcd=1%isr=f7%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=3e80%w2=3e80%w3=3e80%w4=3e80%w5=3e80%w6=3e80)
+ecn(r=y%df=n%t=80%w=3e80%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=80%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=3e80%w2=3e80%w3=3e80%w4=3e80%w5=3e80%w6=3e80)
+FingerAB:ecn(r=y%df=n%w=3e80%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=f3-109%gcd=1-6%isr=fe-114%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=101%gcd=1%isr=f7%ci=i)
+
+FingerA:ecn(t=7c-86%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(t=7c-86%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t4(t=7c-86%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=7c-86%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=7c-86%tg=80)
+FingerB:t6(t=80)
+
+FingerA:u1(t=7c-86%tg=80)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=7c-86%tg=80%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

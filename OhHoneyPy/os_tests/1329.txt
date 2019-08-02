@@ -1,0 +1,77 @@
+Fingerprint: Force10 Networks S-Series switch (SFTOS 2.5.1.3)
+Class: Force10 | SFTOS | 2.X | switch
+CPE: cpe:/o:force10:sftos:2.5.1.3 auto
+seq(sp=0-5%gcd=fa01|1f402|2ee03|3e804|4e205%isr=95-9f%ti=i%ii=i%ss=s%ts=a%ci=)
+ops(o1=nnt11m5b4nw0%o2=nnt11m578nw0%o3=nnt11m280nw0%o4=nnt11m218nw0%o5=nnt11m218nw0%o6=nnt11m109nw0)
+win(w1=2710%w2=2710%w3=2710%w4=2710%w5=2710%w6=2710)
+ecn(r=y%df=n%t=3b-45%tg=40%w=2710%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=11c%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=z)
+********************************************************
+Fingerprint: Force10 Networks S-Series switch (SFTOS 2.5.1.3) (92%), Fujitsu Siemens PRIMERGY TX300 SS remote manager (90%), HP iLO 100i Standard remote management interface (90%), Cisco IP Phone 7912-series (89%), Force10 SFTOS 2.5.2.2 (88%), Cisco ATA 188 VoIP adapter (87%), Calix C7 switch (R5.0) (87%), Interpeak IPCOM (86%), Enterasys SecureStack C2 switch (86%), Linksys PAP2T VoIP router (86%)
+seq(sp=f0%gcd=1%isr=e7%ci=i)
+ops(o1=nnt11m5b4nw0%o2=nnt11m578nw0%o3=nnt11m280nw0%o4=nnt11m218nw0%o5=nnt11m218nw0%o6=nnt11m109nw0)
+win(w1=2710%w2=2710%w3=2710%w4=2710%w5=2710%w6=2710)
+ecn(r=y%df=n%t=40%w=2710%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=nnt11m5b4nw0%o2=nnt11m578nw0%o3=nnt11m280nw0%o4=nnt11m218nw0%o5=nnt11m218nw0%o6=nnt11m109nw0)
+FingerAB:win(w1=2710%w2=2710%w3=2710%w4=2710%w5=2710%w6=2710)
+FingerAB:ecn(r=y%df=n%w=2710%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-5%gcd=fa01|1f402|2ee03|3e804|4e205%isr=95-9f%ti=i%ii=i%ss=s%ts=a%ci=)
+FingerB:seq(sp=f0%gcd=1%isr=e7%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=fa-104%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff%ipl=11c)
+FingerB:u1(t=fa%ipl=38%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=z)
+FingerB:ie(r=n)
+
+
+

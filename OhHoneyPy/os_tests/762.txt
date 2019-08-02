@@ -1,0 +1,64 @@
+Fingerprint: Cisco SG300 switch
+Class: Cisco | embedded || switch
+CPE: cpe:/h:cisco:sg300 auto
+seq(sp=fd-107%gcd=1-6%isr=109-113%ti=rd%ts=u%ii=%ci=)
+ops(o1=m596%o2=m596%o3=m596%o4=m596%o5=m596%o6=m596)
+win(w1=800%w2=800%w3=800%w4=800%w5=800%w6=800)
+ecn(r=y%df=n%t=3b-45%tg=40%w=800%o=m596%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Cisco SG300 switch (98%), Cisco SG200 switch (93%), OneAccess 1641 router (91%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (91%), Cisco SF300 or SG300 switch (90%), Linksys BEFSR41 EtherFast router (90%), Motorola 2210-02 ADSL modem (89%), Mitsubishi Q06UDEH CPU PLC module (89%), AVtech Room Alert 26W environmental monitor (89%), Blue Coat PacketShaper appliance (88%)
+seq(sp=106%gcd=1%isr=fc%ts=u)
+ops(o1=m596%o2=m596%o3=m596%o4=m596%o5=m596%o6=m596)
+win(w1=800%w2=800%w3=800%w4=800%w5=800%w6=800)
+ecn(r=y%df=n%t=40%w=800%o=m596%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m596%o2=m596%o3=m596%o4=m596%o5=m596%o6=m596)
+FingerAB:win(w1=800%w2=800%w3=800%w4=800%w5=800%w6=800)
+FingerAB:ecn(r=y%df=n%w=800%o=m596%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fd-107%gcd=1-6%isr=109-113%ti=rd%ii=%ci=)
+FingerB:seq(sp=106%gcd=1%isr=fc)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

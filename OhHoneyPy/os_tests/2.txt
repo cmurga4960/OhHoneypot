@@ -1,0 +1,68 @@
+Fingerprint: 2Wire 1701HG wireless ADSL modem
+Class: 2Wire | embedded || WAP
+CPE: cpe:/h:2wire:1701hg
+seq(sp=7e-9a%gcd=1-6%isr=9e-a8%ti=i%ts=a%ii=%ci=)
+ops(o1=m5acnnsw0nnnt11%o2=m578nnsw0nnnt11%o3=m280w0nnnt11%o4=m218nnsw0nnnt11%o5=m218nnsw0nnnt11%o6=m109nnsnnt11)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=y%t=fa-104%tg=ff%w=8000%o=m5acnnsw0n%cc=n%q=)
+t1(r=y%df=y%t=fa-104%tg=ff%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=e44a4e43%q=)
+t5(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=bd1ab510%q=)
+t6(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=ea6c967d%q=)
+t7(r=n)
+u1(df=y%t=fa-104%tg=ff%ipl=70%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+Fingerprint: 2Wire 1701HG wireless ADSL modem (92%), Crestron XPanel control system (90%), Vodavi XTS-IP PBX (90%), 2Wire 2701HG wireless ADSL modem (90%), 2Wire BT2700HG-V ADSL modem (90%), 2Wire 1701HG, 2700HG, 2700HG-B, 2701HG-B, RG2701HG, or 3800HGV-B wireless ADSL modem (90%), 2Wire Shasta wireless broadband router (90%), 2Wire 2701HG-B wireless ADSL modem (89%), OpenBSD 4.3 (88%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (88%)
+seq(sp=105%gcd=1%isr=fb%ci=i)
+ops(o1=m5acnnsw0nnnt11%o2=m578nnsw0nnnt11%o3=m280w0nnnt11%o4=m218nnsw0nnnt11%o5=m218nnsw0nnnt11%o6=m109nnsnnt11)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=y%t=ff%w=8000%o=m5acnnsw0n%cc=n%q=)
+t1(r=y%df=y%t=ff%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=y%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5acnnsw0nnnt11%o2=m578nnsw0nnnt11%o3=m280w0nnnt11%o4=m218nnsw0nnnt11%o5=m218nnsw0nnnt11%o6=m109nnsnnt11)
+FingerAB:win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+FingerAB:ecn(r=y%df=y%w=8000%o=m5acnnsw0n%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%q=)
+FingerAB:u1(df=y%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=7e-9a%gcd=1-6%isr=9e-a8%ti=i%ts=a%ii=%ci=)
+FingerB:seq(sp=105%gcd=1%isr=fb%ci=i)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fa-104%tg=ff%a=o|s+)
+FingerB:t1(t=ff%a=o)
+
+FingerA:t4(t=fa-104%tg=ff%rd=e44a4e43)
+FingerB:t4(t=ff%rd=0)
+
+FingerA:t5(t=fa-104%tg=ff%rd=bd1ab510)
+FingerB:t5(t=ff%rd=0)
+
+FingerA:t6(t=fa-104%tg=ff%rd=ea6c967d)
+FingerB:t6(t=ff%rd=0)
+
+FingerA:u1(t=fa-104%tg=ff%ipl=70)
+FingerB:u1(t=fa%ipl=38%r=y)
+
+FingerA:t7(r=n)
+
+

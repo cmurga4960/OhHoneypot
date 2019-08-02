@@ -1,0 +1,80 @@
+Fingerprint: HP LaserJet CP1025nw, 1102w, M1212nf, M1217nfw, P1120w, or P1606dn printer
+Class: HP | embedded || printer
+CPE: cpe:/h:hp:laserjet_cp1025nw
+CPE: cpe:/h:hp:laserjet_1102w
+CPE: cpe:/h:hp:laserjet_m1212nf
+CPE: cpe:/h:hp:laserjet_m1217nfw
+CPE: cpe:/h:hp:laserjet_p1120w
+CPE: cpe:/h:hp:laserjet_p1606dn
+seq(sp=64-da%gcd=1-6%isr=92-cc%ti=ri%ci=rd|ri%ii=bi%ts=a)
+ops(o1=m5b4nnsnnt11%o2=m578nnsnnt11%o3=m280nnt11%o4=m5b4nnsnnt11%o5=m218nnsnnt11%o6=m109nnsnnt11)
+win(w1=21f0%w2=2088%w3=2258%w4=21f0%w5=20c0%w6=209d)
+ecn(r=y%df=n%t=3b-45%tg=40%w=2238%o=m5b4nns%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: HP LaserJet P1606dn printer (97%), HP LaserJet P1102w (97%), HP LaserJet P1102w printer (97%), IBM System Storage TS3500 tape library (96%), HP LaserJet CP1025nw, 1102w, M1212nf, M1217nfw, P1120w, or P1606dn printer (95%), APC Smart-UPS (AOS 5.1.1) (95%), VxWorks (95%), Motorola QIP2708 set top box (93%), Nintendo Wii game console (93%), Keyence CV-X150F Image Sensor/Controller (VxWorks) (93%)
+seq(sp=108%gcd=1%isr=ff%ci=i)
+ops(o1=m5b4nnsnnt11%o2=m578nnsnnt11%o3=m280nnt11%o4=m5b4nnsnnt11%o5=m218nnsnnt11%o6=m109nnsnnt11)
+win(w1=21f0%w2=2088%w3=2258%w4=21f0%w5=20c0%w6=209d)
+ecn(r=y%df=n%t=40%w=2238%o=m5b4nns%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nnsnnt11%o2=m578nnsnnt11%o3=m280nnt11%o4=m5b4nnsnnt11%o5=m218nnsnnt11%o6=m109nnsnnt11)
+FingerAB:win(w1=21f0%w2=2088%w3=2258%w4=21f0%w5=20c0%w6=209d)
+FingerAB:ecn(r=y%df=n%w=2238%o=m5b4nns%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=64-da%gcd=1-6%isr=92-cc%ti=ri%ci=rd|ri%ii=bi%ts=a)
+FingerB:seq(sp=108%gcd=1%isr=ff%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

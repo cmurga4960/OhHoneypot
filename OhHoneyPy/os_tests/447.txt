@@ -1,0 +1,69 @@
+Fingerprint: Avaya Office IP500 VoIP adapter
+Class: Avaya | embedded || VoIP adapter
+CPE: cpe:/h:avaya:office_ip500 auto
+seq(sp=15-35%gcd=10000|20000|30000|40000|50000%isr=cb-d5%ti=i%ci=i%ii=ri%ss=o|s%ts=u)
+ops(o1=m400%o2=m400%o3=m400%o4=m400%o5=m400%o6=m400)
+win(w1=1111%w2=1111%w3=1111%w4=1111%w5=1111%w6=1111)
+ecn(r=n)
+t1(r=y%df=n%t=5e-68%tg=80%s=o%a=s+%f=as%rd=0)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=5e-68%tg=80%w=0%s=z%a=s%f=ar%rd=0)
+t6(r=y%df=n%t=5e-68%tg=80%w=0%s=a%a=s%f=r%rd=0)
+t7(r=y%df=n%t=5e-68%tg=80%w=0%s=z%a=s%f=ar%rd=0)
+u1(df=n%t=5e-68%tg=80%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=5e-68%tg=80%cd=s)
+********************************************************
+Fingerprint: D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (97%), OneAccess 1641 router (92%), Avaya Office IP500 VoIP adapter (92%), Blue Coat PacketShaper appliance (91%), Polycom MGC-25 videoconferencing system (pSOS 1.0.4) (91%), Siemens Simatic 300 programmable logic controller (90%), Epson Stylus Pro 400 printer (89%), NEC UNIVERGE SV8100 PBX (89%), Nintendo Wii game console (88%), Sony Ericsson U8i Vivaz mobile phone (88%)
+seq(sp=107%gcd=1%isr=fe%ci=i%ts=u)
+ops(o1=m400%o2=m400%o3=m400%o4=m400%o5=m400%o6=m400)
+win(w1=1111%w2=1111%w3=1111%w4=1111%w5=1111%w6=1111)
+ecn(r=n)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m400%o2=m400%o3=m400%o4=m400%o5=m400%o6=m400)
+FingerAB:win(w1=1111%w2=1111%w3=1111%w4=1111%w5=1111%w6=1111)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s%f=ar%rd=0)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s%f=r%rd=0)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%rd=0)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=15-35%gcd=10000|20000|30000|40000|50000%isr=cb-d5%ti=i%ii=ri%ss=o|s)
+FingerB:seq(sp=107%gcd=1%isr=fe)
+
+FingerA:t1(t=5e-68%tg=80)
+FingerB:t1(t=80%q=)
+
+FingerA:t5(t=5e-68%tg=80)
+FingerB:t5(t=80%o=%q=)
+
+FingerA:t6(t=5e-68%tg=80)
+FingerB:t6(t=80%o=%q=)
+
+FingerA:t7(t=5e-68%tg=80)
+FingerB:t7(t=80%o=%q=)
+
+FingerA:u1(t=5e-68%tg=80)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=5e-68%tg=80%cd=s)
+FingerB:ie(r=n)
+
+
+

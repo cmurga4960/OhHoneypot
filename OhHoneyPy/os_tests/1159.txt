@@ -1,0 +1,75 @@
+Fingerprint: Dell PowerVault MD3000i NAS appliance or TP-LINK TL-WR340GD WAP
+Class: Dell | embedded || storage-misc
+Class: TP-LINK | embedded || WAP
+CPE: cpe:/h:dell:powervault_md3000i
+CPE: cpe:/h:tp-link:tl-wr340gd
+seq(sp=94-9e%gcd=1-6%isr=9b-a5%ti=i%ci=i%ts=1%ii=)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=y%t=3b-45%tg=40%w=2000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+Fingerprint: Dell PowerVault MD3000i NAS appliance or TP-LINK TL-WR340GD WAP (97%), VxWorks 5.5 (97%), TP-LINK TL-WA5210G WAP (97%), Enterasys Matrix E1 switch (VxWorks) (96%), HP NonStop OS H06.19.00 (95%), Oki C5510 printer (95%), VxWorks (95%), Alcatel-Lucent OmniSwitch 6850 switch (94%), Arris Cadant C3 cable modem terminator (VxWorks 5.4.2) (94%), Cisco SPA 303 VoIP phone, Nortel 5520 Ethernet Routing Switch, or Sun StorageTek 6140 NAS device (94%)
+seq(sp=ef%gcd=1%isr=e6%ci=i)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=y%t=40%w=2000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=y%w=2000%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=94-9e%gcd=1-6%isr=9b-a5%ti=i%ts=1%ii=)
+FingerB:seq(sp=ef%gcd=1%isr=e6)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+
+

@@ -1,0 +1,81 @@
+Fingerprint: F5 BIG-IP load balancer
+Class: F5 Networks | embedded || load balancer
+seq(sp=f0-10e%gcd=1-6%isr=ff-10f%ti=z%ci=rd%ii=i|ri%ts=a)
+ops(o1=m564st11nw7%o2=m564st11nw7%o3=m564nnt11nw7%o4=m564st11nw7%o5=m564st11nw7%o6=m564st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m564nnsnw7%cc=n)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0)
+t2(r=y%df=n%t=fa-104%tg=ff%w=80%s=z%a=s%f=ar%rd=0)
+t3(r=y%df=n%t=fa-104%tg=ff%w=100%s=z%a=s+%f=ar%rd=0)
+t4(r=y%df=n%t=fa-104%tg=ff%w=400%s=a%a=s%f=ar%rd=0)
+t5(r=y%df=y%t=fa-104%tg=ff%w=0%s=o%a=s+%f=ar%rd=0)
+t6(r=y%df=n%t=fa-104%tg=ff%w=8000%s=a%a=s%f=ar%rd=0)
+t7(r=y%df=n%t=fa-104%tg=ff%w=ffff%s=z%a=s+%f=ar%rd=0)
+u1(df=y%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=y%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: F5 BIG-IP load balancer (98%), Linux 2.6.11 - 2.6.18 (92%), Linux 2.6.32 (90%), Netgear ReadyNAS 3200 NAS device (Linux 2.6) (89%), Cisco IPS 4270 intrusion prevention system (89%), Tripp Lite NetOS 7.5.2tl (88%)
+Class: F5 Networks embedded (98%), Linux 2.6.X (92%), Netgear embedded (89%), Cisco embedded (89%), Tripp Lite NetOS 7.X (88%)
+CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/h:netgear:readynas_3200 cpe:/h:cisco:ips_4270 cpe:/o:tripplite:netos:7.5.2tl
+seq(sp=109%gcd=1%isr=100%ci=i)
+ops(o1=m564st11nw7%o2=m564st11nw7%o3=m564nnt11nw7%o4=m564st11nw7%o5=m564st11nw7%o6=m564st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=40%w=16d0%o=m564nnsnw7%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=ff%w=100%s=z%a=s+%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=ff%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=y%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m564st11nw7%o2=m564st11nw7%o3=m564nnt11nw7%o4=m564st11nw7%o5=m564st11nw7%o6=m564st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m564nnsnw7%cc=n)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=y%df=n%w=80%s=z%a=s%f=ar%rd=0)
+FingerAB:t3(r=y%df=n%w=100%s=z%a=s+%f=ar%rd=0)
+FingerAB:t4(r=y%df=n%w=400%s=a%a=s%f=ar%rd=0)
+FingerAB:t5(r=y%df=y%w=0%s=o%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=n%w=8000%s=a%a=s%f=ar%rd=0)
+FingerAB:t7(r=y%df=n%w=ffff%s=z%a=s+%f=ar%rd=0)
+FingerAB:u1(df=y%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=f0-10e%gcd=1-6%isr=ff-10f%ti=z%ci=rd%ii=i|ri%ts=a)
+FingerB:seq(sp=109%gcd=1%isr=100%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40%q=)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40%q=)
+
+FingerA:t2(t=fa-104%tg=ff)
+FingerB:t2(t=ff%o=%q=)
+
+FingerA:t3(t=fa-104%tg=ff)
+FingerB:t3(t=ff%o=m5b4%q=)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff%o=%q=)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff%o=%q=)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff%o=%q=)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff%o=%q=)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=y%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

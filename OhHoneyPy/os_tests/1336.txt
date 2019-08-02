@@ -1,0 +1,52 @@
+Fingerprint: Fortinet FortiGate-50B or 310B firewall
+Class: Fortinet | embedded || firewall
+seq(sp=f9-10b%gcd=1-6%isr=105-10f%ti=bi|rd%ts=7|9%ii=%ci=)
+ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=n)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=1b-25%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(r=n)
+ie(r=n)
+********************************************************
+Fingerprint: Fortinet FortiGate-50B or 310B firewall (96%), Polycom MGC-25 videoconferencing system (pSOS 1.0.4) (96%), Wyse ThinOS 5.2 (96%), Blue Coat PacketShaper appliance (93%), Tomato 1.27 - 1.28 (Linux 2.4.20) (93%), Linux 2.6.18 - 2.6.22 (93%), Linux 3.2.0 (93%), Fortinet FortiGate 1500D firewall (93%), Lexmark Z2400 printer (92%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (92%)
+seq(sp=d5%gcd=1%isr=cc)
+ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=n)
+t1(r=y%df=y%tg=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=y%tg=40%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=f9-10b%gcd=1-6%isr=105-10f%ti=bi|rd%ts=7|9%ii=%ci=)
+FingerB:seq(sp=d5%gcd=1%isr=cc)
+
+FingerA:t1(t=3b-45%a=o|s+)
+FingerB:t1(a=o)
+
+FingerA:t5(t=1b-25)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,69 @@
+Fingerprint: HP MSM765zl WLAN controller
+Class: HP | embedded || remote management
+CPE: cpe:/h:hp:msm765zl
+seq(sp=c7-d1%gcd=1-6%isr=c9-d3%ti=z%ci=z%ii=i%ts=8|a)
+ops(o1=%o2=m574st11nw6%o3=m574nnt11nw6%o4=m574st11nw6%o5=m574st11nw6%o6=m574st11)
+win(w1=16d0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=n)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o%f=a%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Linux 2.4.26 (Slackware 10.0.0) (95%), Crestron XPanel control system (94%), HP MSM765zl WLAN controller (92%), Linux 2.6.18 - 2.6.22 (92%), ASUS RT-N56U WAP (Linux 3.4) (91%), Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC (91%), Linux 3.16 (91%), Tomato 1.27 - 1.28 (Linux 2.4.20) (90%), Linux 2.6.24 (90%), Microsoft Xbox game console (modified, running XboxMediaCenter) (90%)
+seq(sp=0%gcd=1%isr=1b%ti=i%ci=i%ii=i)
+ops(o1=%o2=m574st11nw6%o3=m574nnt11nw6%o4=m574st11nw6%o5=m574st11nw6%o6=m574st11)
+win(w1=16d0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=n)
+t1(r=y%df=y%t=40%s=o%a=o%f=a%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ops(o1=%o2=m574st11nw6%o3=m574nnt11nw6%o4=m574st11nw6%o5=m574st11nw6%o6=m574st11)
+FingerAB:win(w1=16d0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=y%s=o%a=o%f=a%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c7-d1%gcd=1-6%isr=c9-d3%ti=z%ci=z%ts=8|a)
+FingerB:seq(sp=0%gcd=1%isr=1b%ti=i%ci=i)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t7(r=n)
+
+

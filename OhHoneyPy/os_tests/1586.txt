@@ -1,0 +1,85 @@
+Fingerprint: Android 2.2 - 2.3.5 (Linux 2.6.32 - 2.6.36)
+Class: Google | Android | 2.X | phone
+Class: Linux | Linux | 2.6.X | phone
+CPE: cpe:/o:google:android:2 auto
+CPE: cpe:/o:google:android:2
+CPE: cpe:/o:linux:linux_kernel:2.6 auto
+seq(sp=ba-d0%gcd=1-6%isr=bf-d7%ti=z%ci=z%ii=i%ts=7|8)
+ops(o1=m5b4st11nw1|m5b4st11nw2|m5b4st11nw3|m5b4st11nw6%o2=m5b4st11nw1|m5b4st11nw2|m5b4st11nw3|m5b4st11nw6%o3=m5b4nnt11nw1|m5b4nnt11nw2|m5b4nnt11nw3|m5b4nnt11nw6%o4=m5b4st11nw1|m5b4st11nw2|m5b4st11nw3|m5b4st11nw6%o5=m5b4st11nw1|m5b4st11nw2|m5b4st11nw3|m5b4st11nw6%o6=m5b4st11)
+win(w1=faf0%w2=faf0%w3=faf0%w4=faf0%w5=faf0%w6=faf0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=faf0%o=m5b4nnsnw1|m5b4nnsnw2|m5b4nnsnw3|m5b4nnsnw6%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=faf0%s=o%a=s+%f=as%o=m5b4st11nw1|m5b4st11nw2|m5b4st11nw3|m5b4st11nw6%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Android 2.2 - 2.3.5 (Linux 2.6.32 - 2.6.36) (97%), Android 2.2 (Linux 2.6) (94%), AXIS 206 Network Camera (94%), Android 2.1-update1 (Linux 2.6.29) (94%), Axis 207 camera (Linux 2.6.16) (93%), Android 2.2 - 2.3.3 (Linux 2.6.32 - 2.6.37) (93%), Android 2.3.6 (Linux 2.6.35) (93%), HP P2000 G3 FC/iSCSI controller (93%), Linux 2.6.16 - 2.6.35 (embedded) (93%), Linux 2.6.17 - 2.6.36 (93%)
+seq(sp=eb%gcd=1%isr=e2%ci=i%ii=i)
+ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+win(w1=faf0%w2=faf0%w3=faf0%w4=faf0%w5=faf0%w6=faf0)
+ecn(r=y%df=y%t=40%w=faf0%o=m5b4nnsnw1%cc=y%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=faf0%s=o%a=s+%f=as%o=m5b4st11nw1%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ops(o6=m5b4st11)
+FingerAB:win(w1=faf0%w2=faf0%w3=faf0%w4=faf0%w5=faf0%w6=faf0)
+FingerAB:ecn(r=y%df=y%w=faf0%cc=y%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=faf0%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=ba-d0%gcd=1-6%isr=bf-d7%ti=z%ci=z%ts=7|8)
+FingerB:seq(sp=eb%gcd=1%isr=e2%ci=i)
+
+FingerA:ops(o1=m5b4st11nw1|m5b4st11nw2|m5b4st11nw3|m5b4st11nw6%o2=m5b4st11nw1|m5b4st11nw2|m5b4st11nw3|m5b4st11nw6%o3=m5b4nnt11nw1|m5b4nnt11nw2|m5b4nnt11nw3|m5b4nnt11nw6%o4=m5b4st11nw1|m5b4st11nw2|m5b4st11nw3|m5b4st11nw6%o5=m5b4st11nw1|m5b4st11nw2|m5b4st11nw3|m5b4st11nw6)
+FingerB:ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1)
+
+FingerA:ecn(t=3b-45%tg=40%o=m5b4nnsnw1|m5b4nnsnw2|m5b4nnsnw3|m5b4nnsnw6)
+FingerB:ecn(t=40%o=m5b4nnsnw1)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40%o=m5b4st11nw1|m5b4st11nw2|m5b4st11nw3|m5b4st11nw6)
+FingerB:t3(t=40%o=m5b4st11nw1)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

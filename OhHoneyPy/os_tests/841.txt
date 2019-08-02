@@ -1,0 +1,71 @@
+Fingerprint: Cisco 5300 router (IOS 12.1)
+Class: Cisco | IOS | 12.X | router
+CPE: cpe:/h:cisco:5300_router
+CPE: cpe:/o:cisco:ios:12.1
+seq(ti=z%ci=i%ii=ri%ts=u)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=y%df=n%t=fb-105%tg=ff%s=o%a=o|s+%f=a|as%rd=0)
+t2(r=y%df=n%t=fb-105%tg=ff%w=0%s=a%a=s%f=ar%rd=0)
+t3(r=n)
+t4(r=y%df=n%t=fb-105%tg=ff%w=0%s=a%a=z%f=r%rd=0)
+t5(r=n)
+t6(r=y%df=n%t=fb-105%tg=ff%w=0%s=a%a=z%f=r%rd=0)
+t7(r=y%df=n%t=fb-105%tg=ff%w=0%s=a%a=s%f=ar%rd=0)
+u1(df=n%t=fb-105%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fb-105%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco 5300 router (IOS 12.1) (94%), Cisco 2900-series switch (IOS 12.0) (94%), Aastra A510 VoIP phone (93%), Cisco IP Phone 7912-series (92%), Cisco 2950 switch (IOS 12.1) (91%), Nortel BNT Ethernet switch module (91%), HP GbW2c Ethernet Blade Switch (91%), ESI ESI-100 VoIP adapter (91%), Nintendo Wii game console (91%), Samsung CLX-3160FN printer (90%)
+seq(ci=i%ii=i%ts=u)
+ecn(r=n)
+t1(r=y%df=n%t=ff%s=o%a=o%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3d%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=n%s=o%rd=0)
+FingerAB:t2(r=y%df=n%w=0%s=a%a=s%f=ar%rd=0)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t7(r=y%df=n%w=0%s=a%a=s%f=ar%rd=0)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(ti=z%ii=ri)
+FingerB:seq(ii=i)
+
+FingerA:t1(t=fb-105%tg=ff%a=o|s+%f=a|as)
+FingerB:t1(t=ff%a=o%f=as%q=)
+
+FingerA:t2(t=fb-105%tg=ff)
+FingerB:t2(t=ff%o=%q=)
+
+FingerA:t4(t=fb-105%tg=ff)
+FingerB:t4(t=ff%o=%q=)
+
+FingerA:t6(t=fb-105%tg=ff)
+FingerB:t6(t=ff%o=%q=)
+
+FingerA:t7(t=fb-105%tg=ff)
+FingerB:t7(t=ff%o=%q=)
+
+FingerA:u1(t=fb-105%tg=ff)
+FingerB:u1(t=3d%r=y)
+
+FingerA:ie(t=fb-105%tg=ff)
+FingerB:ie(t=3d%r=y)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+FingerA:t5(r=n)
+
+

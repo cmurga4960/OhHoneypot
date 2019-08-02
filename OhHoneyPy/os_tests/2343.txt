@@ -1,0 +1,62 @@
+Fingerprint: IPCop firewall 1.4.21 (Linux 2.4.36)
+Class: Linux | Linux | 2.4.X | firewall
+Class: IPCop | IPCop | 1.X | firewall
+CPE: cpe:/o:linux:linux_kernel:2.4.36
+CPE: cpe:/o:ipcop:ipcop:1.4.21
+seq(sp=c8-d2%gcd=1-6%isr=cc-d6%ti=z%ii=i%ts=u%ci=)
+ops(o1=m5ac%o2=m5ac%o3=m5ac%o4=m5ac%o5=m5ac%o6=m5ac)
+win(w1=16b0%w2=16b0%w3=16b0%w4=16b0%w5=16b0%w6=16b0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16b0%o=m5ac%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: IPCop firewall 1.4.21 (Linux 2.4.36) (94%), Tomato 1.28 (Linux 2.4.20) (94%), Tomato firmware (Linux 2.6.22) (93%), WatchGuard firewall (Fireware 11.3) (93%), Asus RT-AC66U router (Linux 2.6) (93%), AVM FRITZ!Box FON WLAN 7170 WAP (93%), Cymphonix EX550 firewall (93%), D-Link DIR-300 WAP (93%), Dell Integrated Remote Access Controller (iDRAC) (93%), Dell Integrated Remote Access Controller (iDRAC9) (93%)
+seq(ii=i)
+ecn(r=y%df=y%t=40%w=16b0%o=m5ac%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=y%w=16b0%o=m5ac%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c8-d2%gcd=1-6%isr=cc-d6%ti=z%ts=u%ci=)
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5ac%o2=m5ac%o3=m5ac%o4=m5ac%o5=m5ac%o6=m5ac)
+FingerA:win(w1=16b0%w2=16b0%w3=16b0%w4=16b0%w5=16b0%w6=16b0)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

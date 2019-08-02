@@ -1,0 +1,78 @@
+Fingerprint: IBM AIX 4.2
+Class: IBM | AIX | 4.X | general purpose
+CPE: cpe:/o:ibm:aix:4.2 auto
+seq(sp=ea-f4%gcd=1-6%isr=108-112%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m200%o2=m200%o3=m200%o4=m200%o5=m200%o6=m200)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=3f25)
+ecn(r=y%df=n%t=3b-3d%tg=40%w=4000%o=m200%cc=n%q=)
+t1(r=y%df=n%t=3b-3d%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-3d%tg=40%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-3d%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-3d%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-3d%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=15c%rid=g%ripck=i%ruck=0%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: IBM AIX 4.2 (94%), IBM AIX 4.3.2 on RS/6000 (92%), IBM AIX 4.3 (89%), SMC SMC8014WG WAP (88%), IBM AIX 5.3 (88%), Motorola SURFboard SB5120 cable modem (VxWorks 5.4) (87%), IBM AIX 5.1 (87%), Microsoft Xbox game console (modified, running XboxMediaCenter) (86%), IBM AIX 5.1 or 5.2 (86%), Motorola SURFboard SB4200 cable modem (85%)
+Class: IBM AIX 4.X|5.X (94%), SMC embedded (88%), Wind River VxWorks 5.X (87%), Motorola embedded (87%), Microsoft embedded (86%)
+CPE: cpe:/o:ibm:aix:4.2 cpe:/h:smc:smc8014wg cpe:/o:ibm:aix:5.3 cpe:/o:windriver:vxworks:5.4 cpe:/h:motorola:surfboard_sb5120
+seq(sp=fc%gcd=1%isr=f2%ii=i%ts=u)
+ops(o1=m200%o2=m200%o3=m200%o4=m200%o5=m200%o6=m200)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=3f25)
+ecn(r=y%df=n%t=40%w=4000%o=m200%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=15c%rid=g%ripck=i%ruck=0%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ops(o1=m200%o2=m200%o3=m200%o4=m200%o5=m200%o6=m200)
+FingerAB:win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=3f25)
+FingerAB:ecn(r=y%df=n%w=4000%o=m200%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=15c%rid=g%ripck=i%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=ea-f4%gcd=1-6%isr=108-112%ti=i%ss=s%ci=)
+FingerB:seq(sp=fc%gcd=1%isr=f2)
+
+FingerA:ecn(t=3b-3d%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-3d%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-3d%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-3d%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-3d%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-3d%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

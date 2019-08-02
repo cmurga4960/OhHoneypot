@@ -1,0 +1,76 @@
+Fingerprint: Canon imageCLASS MF4500-, MF4700-, or MF4800-series printer
+Class: Canon | embedded || printer
+seq(sp=cd-d7%gcd=1-6%isr=d5-df%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4w0l%o2=m5b4w0l%o3=m5b4w0l%o4=m5b4w0l%o5=m5b4w0l%o6=m5b4)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=132-13c%tg=ff%w=2000%o=m5b4w0l%cc=n%q=)
+t1(r=y%df=n%t=132-13c%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=132-13c%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=132-13c%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=132-13c%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=132-13c%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=132-13c%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%rud=g)
+ie(dfi=n%t=132-13c%tg=ff%cd=z)
+********************************************************
+Fingerprint: Novatel MiFi 2200 3G WAP or iDirect Evolution X1 satellite router (95%), Canon imageCLASS MF4500-, MF4700-, or MF4800-series printer (94%), Huawei AP6050DN WAP (93%), Huawei VRP 3 switch (93%), Huawei S9300 switch (92%), TechniSat Digicorder HD S2 satellite receiver (91%), Nintendo Wii game console (91%), Huawei VRP 8.100 (91%), Huawei CloudEngine CE6800 switch (90%), Brother HL-5070N printer (90%)
+Class: iDirect embedded (95%), Novatel embedded (95%), Canon embedded (94%), Huawei embedded (93%), Huawei VRP 3.X|8.X (93%), TechniSat embedded (91%), Nintendo embedded (91%), Brother embedded (90%)
+CPE: cpe:/h:novatel:mifi_2200_3g cpe:/h:huawei:ap6050dn cpe:/o:huawei:vrp:3 cpe:/h:technisat:digicorder_hd_s2 cpe:/h:nintendo:wii cpe:/o:huawei:vrp:8.100 cpe:/h:huawei:cloudengine_ce6800 cpe:/h:brother:hl-5070n
+seq(sp=f0%gcd=1%isr=e7%ti=i%ci=i%ts=u)
+ops(o1=m5b4w0l%o2=m5b4w0l%o3=m5b4w0l%o4=m5b4w0l%o5=m5b4w0l%o6=m5b4)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=ff%w=2000%o=m5b4w0l%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ti=i%ci=i%ts=u)
+FingerAB:ops(o1=m5b4w0l%o2=m5b4w0l%o3=m5b4w0l%o4=m5b4w0l%o5=m5b4w0l%o6=m5b4)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%w=2000%o=m5b4w0l%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=cd-d7%gcd=1-6%isr=d5-df%ii=i%ss=s)
+FingerB:seq(sp=f0%gcd=1%isr=e7)
+
+FingerA:ecn(t=132-13c%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=132-13c%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t4(t=132-13c%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=132-13c%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=132-13c%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=132-13c%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=132-13c%tg=ff)
+FingerB:u1(t=fa%r=y%ruck=g)
+
+FingerA:ie(dfi=n%t=132-13c%tg=ff%cd=z)
+FingerB:ie(r=n)
+
+
+

@@ -1,0 +1,63 @@
+Fingerprint: Asus RT-53N WAP
+Class: Asus | embedded || WAP
+CPE: cpe:/h:asus:rt-53n auto
+seq(sp=fc-106%gcd=1-6%isr=102-10c%ti=z%ci=rd|ri%ii=i%ts=7)
+ops(o1=m564st11nw1%o2=m564st11nw1%o3=m564nnt11nw1%o4=m564st11nw1%o5=m564st11nw1%o6=m564st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m564nnsnw1%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=fa-104%tg=ff%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Asus RT-53N WAP (97%), Linksys BEFW11S4 WAP (93%), Linksys BEFSR41 router (90%), Cisco IPS 4270 intrusion prevention system (90%), Linux 2.6.11 - 2.6.18 (90%), Ubiquiti WAP (Linux 2.6.32) (89%), HP P2000 MSA storage controller (89%), F5 BIG-IP load balancer (88%), Cisco ACE load balancer (88%), Cisco MDS 9509 switch (NX-OS 4.2) (87%)
+Class: Asus embedded (97%), Linksys embedded (93%), Cisco embedded (90%), Linux 2.6.X (90%), Ubiquiti embedded (89%), HP embedded (89%), F5 Networks embedded (88%)
+CPE: cpe:/h:asus:rt-53n cpe:/h:linksys:befw11s4 cpe:/h:linksys:befsr41 cpe:/h:cisco:ips_4270 cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:2.6.32 cpe:/o:linux:linux_kernel cpe:/h:hp:p2000_msa
+seq(sp=106%gcd=1%isr=fc%ci=i)
+ops(o1=m564st11nw1%o2=m564st11nw1%o3=m564nnt11nw1%o4=m564st11nw1%o5=m564st11nw1%o6=m564st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%tg=40%w=16d0%o=m564nnsnw1%cc=n%q=)
+t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%tg=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%tg=ff%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%tg=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%tg=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m564st11nw1%o2=m564st11nw1%o3=m564nnt11nw1%o4=m564st11nw1%o5=m564st11nw1%o6=m564st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m564nnsnw1%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%tg=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%tg=ff%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=ff%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=fc-106%gcd=1-6%isr=102-10c%ti=z%ci=rd|ri%ii=i%ts=7)
+FingerB:seq(sp=106%gcd=1%isr=fc%ci=i)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t2(t=fa-104)
+FingerA:t3(t=fa-104)
+FingerA:t4(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:t7(t=fa-104)
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

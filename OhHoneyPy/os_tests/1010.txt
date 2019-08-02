@@ -1,0 +1,63 @@
+Fingerprint: Crestron AV2 or CP2E automation system or TPS-6x touchpanel (2-Series), or Dedicated Micros Digital Sprite 2 DVR
+Class: Crestron | 2-Series || specialized
+Class: Dedicated Micros | embedded || media device
+CPE: cpe:/o:crestron:2_series auto
+seq(sp=fe-10a%gcd=1-6%isr=103-111%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=3e80%w2=3e80%w3=3e80%w4=3e80%w5=3e80%w6=3e80)
+ecn(r=y%df=n%t=1b-25%tg=20%w=3e80%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=1b-25%tg=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=1b-25%tg=20%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+t3(r=y%df=n%t=1b-25%tg=20%w=3e80%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=1b-25%tg=20%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t5(r=y%df=n%t=1b-25%tg=20%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+t6(r=y%df=n%t=1b-25%tg=20%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t7(r=y%df=n%t=1b-25%tg=20%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=n%t=1b-25%tg=20%cd=s)
+********************************************************
+Fingerprint: Crestron AV2 or CP2E automation system or TPS-6x touchpanel (2-Series), or Dedicated Micros Digital Sprite 2 DVR (99%), Tandberg video conferencing system (1000, 2500, or 990 MXP) (94%), Sipura SPA1001 or SPA3000 VoIP adapter (94%), Obihai OBi110 VoIP adapter (93%), Alcatel 4035 VoIP phone (93%), Vegastream VoIP Gateway (93%)
+seq(sp=103%gcd=1%isr=fa%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=3e80%w2=3e80%w3=3e80%w4=3e80%w5=3e80%w6=3e80)
+ecn(r=y%df=n%tg=20%w=3e80%o=m5b4%cc=n%q=)
+t1(r=y%df=n%tg=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%tg=20%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+t3(r=y%df=n%tg=20%w=3e80%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%tg=20%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t5(r=y%df=n%tg=20%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+t6(r=y%df=n%tg=20%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t7(r=y%df=n%tg=20%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=3e80%w2=3e80%w3=3e80%w4=3e80%w5=3e80%w6=3e80)
+FingerAB:ecn(r=y%df=n%tg=20%w=3e80%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=20%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%tg=20%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%tg=20%w=3e80%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=20%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=20%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=20%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=20%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=fe-10a%gcd=1-6%isr=103-111%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=103%gcd=1%isr=fa%ci=i)
+
+FingerA:ecn(t=1b-25)
+FingerA:t1(t=1b-25)
+FingerA:t2(t=1b-25)
+FingerA:t3(t=1b-25)
+FingerA:t4(t=1b-25)
+FingerA:t5(t=1b-25)
+FingerA:t6(t=1b-25)
+FingerA:t7(t=1b-25)
+FingerA:ie(dfi=n%t=1b-25%tg=20%cd=s)
+FingerB:ie(r=n)
+
+
+

@@ -1,0 +1,73 @@
+Fingerprint: Linksys PAP2T VoIP router
+Class: Linksys | embedded || VoIP adapter
+seq(r=n%ii=%ti=%ci=)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=y%df=n%t=f5-ff%tg=ff%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=f5-ff%tg=ff%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=f5-ff%tg=ff%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t5(r=y%df=n%t=f5-ff%tg=ff%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+t6(r=y%df=n%t=f5-ff%tg=ff%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t7(r=y%df=n%t=f5-ff%tg=ff%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+u1(df=n%t=f5-ff%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=f5-ff%tg=ff%cd=s)
+********************************************************
+Fingerprint: Linksys PAP2T VoIP router (98%), Cisco ATA 188 VoIP adapter (91%), Linksys PAP2T VoIP adapter (91%), Apple Time Capsule NAS device (90%), Cisco Catalyst 1900 switch (88%)
+Class: Linksys embedded (98%), Cisco embedded (91%), Apple embedded (90%)
+CPE: cpe:/h:cisco:ata_188_voip_gateway cpe:/h:cisco:catalyst_1900
+seq(ci=i)
+ecn(r=n)
+t1(r=n)
+t2(r=y%df=n%t=ff%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=n)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(r=n%ii=%ti=%ci=)
+FingerB:seq(ci=i)
+
+FingerA:t1(r=y%df=n%t=f5-ff%tg=ff%s=o%a=o|s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t2(t=f5-ff%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t4(t=f5-ff%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=f5-ff%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=f5-ff%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=f5-ff%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=f5-ff%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=f5-ff%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

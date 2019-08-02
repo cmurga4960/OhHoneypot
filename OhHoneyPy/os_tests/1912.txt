@@ -1,0 +1,62 @@
+Fingerprint: HP OpenVMS 7.2
+Class: HP | OpenVMS | 7.X | general purpose
+CPE: cpe:/o:hp:openvms:7.2 auto
+seq(sp=c-16%gcd=fa00|1f400|2ee00|3e800|4e200%isr=97-a1%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=832c%w2=8340%w3=8200%w4=8000%w5=81d0%w6=805c)
+ecn(r=y%df=n%t=3b-45%tg=40%w=832c%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=805c%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=8000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: DEC Digital UNIX OSF1 v5.0 910 or OpenVMS 7.2 (98%), DEC Digital UNIX v4.0F (95%), IBM OS/2 Warp Server 4.52 (95%), HP OpenVMS 7.2 (95%), IBM OS/2 Warp 4.0 (FixPak 15) (95%), IBM OS/2 Warp 4.50 (95%), IBM OS/2 Warp 2.0 (95%), Compaq Tru64 UNIX 5.1 (92%), HP ProCurve 2524 switch (92%), HP E1200 Network Storage Router NAS device or SonicWALL SOHO3 firewall (92%)
+seq(sp=101%gcd=1%isr=f8%ci=i%ii=i%ts=u)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=832c%w2=8340%w3=8200%w4=8000%w5=81d0%w6=805c)
+ecn(r=y%df=n%tg=40%w=832c%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=40%w=805c%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%tg=40%w=8000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=s%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+FingerAB:win(w1=832c%w2=8340%w3=8200%w4=8000%w5=81d0%w6=805c)
+FingerAB:ecn(r=y%df=n%tg=40%w=832c%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=40%w=805c%s=o%a=o%f=a%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=40%w=8000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=s%tg=40%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=fa00|1f400|2ee00|3e800|4e200%isr=97-a1%ti=i%ss=s%ci=)
+FingerB:seq(sp=101%gcd=1%isr=f8%ci=i)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t3(t=3b-45)
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:t7(t=3b-45)
+FingerA:ie(t=3b-45)
+FingerB:ie(r=y)
+
+
+

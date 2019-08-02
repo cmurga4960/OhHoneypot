@@ -1,0 +1,83 @@
+Fingerprint: Lancom WAP
+Class: Lancom | embedded || WAP
+seq(sp=100-10a%gcd=1-6%isr=100-10a%ti=i%ci=i%ii=i%ts=u)
+ops(o1=m56c%o2=m56c%o3=m56c%o4=m56c%o5=m56c%o6=m56c)
+win(w1=b68%w2=b68%w3=b68%w4=b68%w5=b68%w6=b68)
+ecn(r=y%df=y%t=37-41%tg=40%w=b68%o=m56c%cc=n%q=)
+t1(r=y%df=y%t=37-41%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=37-41%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t3(r=y%df=n%t=37-41%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=37-41%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=37-41%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=37-41%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=37-41%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(df=n%t=37-41%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=37-41%tg=40%cd=z)
+********************************************************
+Fingerprint: Lancom WAP (98%), Lancom L-305agn WAP, 1722 VoIP router, or WLC-4006 WLAN controller (94%), Lancom LCOS 9.20 (93%), Lancom L-54g WAP (LCOS) (88%)
+Class: Lancom embedded (98%), Lancom LCOS 8.X|9.X (94%)
+CPE: cpe:/o:lancom:lcos:8 cpe:/h:lancom:1722_voip cpe:/h:lancom:wlc-4006 cpe:/o:lancom:lcos:9.20 cpe:/o:lancom:lcos
+seq(sp=fb%gcd=1%isr=f2%ci=i%ts=u)
+ops(o1=m56c%o2=m56c%o3=m56c%o4=m56c%o5=m56c%o6=m56c)
+win(w1=b68%w2=b68%w3=b68%w4=b68%w5=b68%w6=b68)
+ecn(r=y%df=y%t=40%w=b68%o=m56c%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t3(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m56c%o2=m56c%o3=m56c%o4=m56c%o5=m56c%o6=m56c)
+FingerAB:win(w1=b68%w2=b68%w3=b68%w4=b68%w5=b68%w6=b68)
+FingerAB:ecn(r=y%df=y%w=b68%o=m56c%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=100-10a%gcd=1-6%isr=100-10a%ti=i%ii=i)
+FingerB:seq(sp=fb%gcd=1%isr=f2)
+
+FingerA:ecn(t=37-41%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=37-41%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=37-41%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=37-41%tg=40%o=)
+FingerB:t3(t=40%o=m5b4)
+
+FingerA:t4(t=37-41%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=37-41%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=37-41%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=37-41%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=37-41%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=37-41%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

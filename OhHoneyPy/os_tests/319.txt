@@ -1,0 +1,59 @@
+Fingerprint: Apple Mac OS X 10.6.2 (Snow Leopard) (Darwin 10.2.0)
+Class: Apple | Mac OS X | 10.6.X | general purpose
+CPE: cpe:/o:apple:mac_os_x:10.6.2
+seq(sp=f7-109%gcd=1-6%isr=f1-111%ti=rd%ci=ri%ii=i%ts=3)
+ops(o1=m218nw3nnt11sll%o2=m218nw3nnt11sll%o3=m218nw3nnt11%o4=m218nw3nnt11sll%o5=m218nw3nnt11sll%o6=m218nnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=ffff%o=m218nw3sll%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=n)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: Apple Mac OS X 10.6.2 (Snow Leopard) (Darwin 10.2.0) (97%), HP LaserJet 4250 printer (89%), FreeBSD 8.0-STABLE (88%), FreeBSD 7.1-PRERELEASE - 7.3-RELEASE (88%), IBM AIX 7.1 (87%), FreeBSD 7.0-BETA4 (87%)
+Class: Apple Mac OS X 10.6.X (97%), HP embedded (89%), FreeBSD 8.X|7.X (88%), IBM AIX 7.X (87%)
+CPE: cpe:/o:apple:mac_os_x:10.6.2 cpe:/h:hp:laserjet_4250 cpe:/o:freebsd:freebsd:8.0 cpe:/o:freebsd:freebsd:7 cpe:/o:ibm:aix:7.1
+seq(sp=107%gcd=1%isr=fe%ci=i)
+ops(o1=m218nw3nnt11sll%o2=m218nw3nnt11sll%o3=m218nw3nnt11%o4=m218nw3nnt11sll%o5=m218nw3nnt11sll%o6=m218nnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%tg=40%w=ffff%o=m218nw3sll%cc=n%q=)
+t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m218nw3nnt11sll%o2=m218nw3nnt11sll%o3=m218nw3nnt11%o4=m218nw3nnt11sll%o5=m218nw3nnt11sll%o6=m218nnt11sll)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=y%tg=40%w=ffff%o=m218nw3sll%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=f7-109%gcd=1-6%isr=f1-111%ti=rd%ci=ri%ii=i%ts=3)
+FingerB:seq(sp=107%gcd=1%isr=fe%ci=i)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=z)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

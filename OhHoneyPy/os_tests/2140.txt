@@ -1,0 +1,66 @@
+Fingerprint: Juniper SRX100-series or SRX200-series firewall (JUNOS 10.4 - 12.1)
+Class: Juniper | JUNOS | 10.X | firewall
+Class: Juniper | JUNOS | 12.X | firewall
+CPE: cpe:/o:juniper:junos:10 auto
+CPE: cpe:/o:juniper:junos:12 auto
+seq(sp=f5-107%gcd=1-6%isr=105-112%ti=i%ii=ri%ss=o|s%ts=a%ci=)
+ops(o1=m5b4nw1nnt11sll%o2=m5b4nw1nnt11sll%o3=m5b4nw1nnt11%o4=m5b4nw1nnt11sll%o5=m5b4nw1nnt11sll%o6=m5b4nnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=ffff%o=m5b4nw1sll%cc=n)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=n)
+t7(r=n)
+u1(df=y%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g|4e34%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Juniper Networks JUNOS 12 (98%), Juniper Networks JUNOS 9.0R2.10 (98%), Netasq U70 firewall (98%), m0n0wall 1.3b11 - 1.3b15 (FreeBSD 6.3) (97%), m0nowall 1.3b16 firewall (FreeBSD 6.3-RELEASE) (97%), VMware ESXi 4.0 (96%), FreeBSD 6.2-RELEASE (94%), Juniper M7i router (93%), Apple Mac OS X 10.4.10 (Tiger) (Darwin 8.10.0, PowerPC) (93%), Apple Mac OS X 10.4.8 - 10.4.11 (Tiger) (Darwin 8.8.0 - 8.11.0) (92%)
+seq(sp=102%gcd=1%isr=f9%ti=i%ii=i)
+ops(o1=m5b4nw1nnt11sll%o2=m5b4nw1nnt11sll%o3=m5b4nw1nnt11%o4=m5b4nw1nnt11sll%o5=m5b4nw1nnt11sll%o6=m5b4nnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%tg=40%w=ffff%o=m5b4nw1sll%cc=n%q=)
+t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=s%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ti=i)
+FingerAB:ops(o1=m5b4nw1nnt11sll%o2=m5b4nw1nnt11sll%o3=m5b4nw1nnt11%o4=m5b4nw1nnt11sll%o5=m5b4nw1nnt11sll%o6=m5b4nnt11sll)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=y%tg=40%w=ffff%o=m5b4nw1sll%cc=n)
+FingerAB:t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:ie(dfi=s%tg=40%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=f5-107%gcd=1-6%isr=105-112%ii=ri%ss=o|s%ts=a%ci=)
+FingerB:seq(sp=102%gcd=1%isr=f9%ii=i)
+
+FingerA:ecn(t=3b-45)
+FingerB:ecn(q=)
+
+FingerA:t1(t=3b-45)
+FingerB:t1(q=)
+
+FingerA:t5(t=3b-45)
+FingerB:t5(o=%q=)
+
+FingerA:u1(df=y%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g|4e34%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(t=3b-45)
+FingerB:ie(r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

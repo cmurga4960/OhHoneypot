@@ -1,0 +1,82 @@
+Fingerprint: Vegastream VoIP Gateway
+Class: Express Logic | ThreadX || VoIP adapter
+Class: Vegastream | embedded || VoIP adapter
+CPE: cpe:/o:expresslogic:threadx auto
+seq(sp=fb-10b%gcd=1-6%isr=107-111%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=3e80%w2=3e80%w3=3e80%w4=3e80%w5=3e80%w6=3e80)
+ecn(r=y%df=n%t=19-23%tg=20%w=3e80%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=19-23%tg=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=19-23%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=19-23%tg=20%w=3e80%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=19-23%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=19-23%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=19-23%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=19-23%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=19-23%tg=20%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=19-23%tg=20%cd=s)
+********************************************************
+Fingerprint: Vegastream VoIP Gateway (98%), Vegastream Vega 400 VoIP Gateway (94%), IBM BladeCenter management module, IBM System Storage TS3100/TS3200 Express Model tape library, or HP StorageWorks MSL2024 tape library (93%), Pirelli DP-10 VoIP phone (92%), Hawking PN7127P print server (91%), Hawking PS12U, Repotech RP-1805B-V2, or TRENDnet TE100 P2U1P print server (91%), IOGear GPSU01 USB print server (91%), LevelOne FPS-1032 print server (91%), Radware LinkProof load balancer (91%), Crestron AV2 or CP2E automation system or TPS-6x touchpanel (2-Series), or Dedicated Micros Digital Sprite 2 DVR (91%)
+seq(sp=105%gcd=1%isr=fc%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=3e80%w2=3e80%w3=3e80%w4=3e80%w5=3e80%w6=3e80)
+ecn(r=y%df=n%t=20%w=3e80%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=20%w=3e80%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=3e80%w2=3e80%w3=3e80%w4=3e80%w5=3e80%w6=3e80)
+FingerAB:ecn(r=y%df=n%w=3e80%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=3e80%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fb-10b%gcd=1-6%isr=107-111%ti=i%ii=i%ss=s)
+FingerB:seq(sp=105%gcd=1%isr=fc)
+
+FingerA:ecn(t=19-23%tg=20)
+FingerB:ecn(t=20)
+
+FingerA:t1(t=19-23%tg=20)
+FingerB:t1(t=20)
+
+FingerA:t2(t=19-23%tg=20)
+FingerB:t2(t=20)
+
+FingerA:t3(t=19-23%tg=20)
+FingerB:t3(t=20)
+
+FingerA:t4(t=19-23%tg=20)
+FingerB:t4(t=20)
+
+FingerA:t5(t=19-23%tg=20)
+FingerB:t5(t=20)
+
+FingerA:t6(t=19-23%tg=20)
+FingerB:t6(t=20)
+
+FingerA:t7(t=19-23%tg=20)
+FingerB:t7(t=20)
+
+FingerA:u1(t=19-23%tg=20)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=19-23%tg=20%cd=s)
+FingerB:ie(r=n)
+
+
+

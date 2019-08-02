@@ -1,0 +1,65 @@
+Fingerprint: Juniper SA2500 SSL VPN gateway or Digi Passport console server
+Class: Juniper | embedded || firewall
+Class: Digi | embedded || remote management
+seq(sp=c5-cf%gcd=1-6%isr=c4-ce%ti=z%ci=i%ii=i%ts=u)
+ops(o1=m5b4nns%o2=m5b4nns%o3=m5b4%o4=m5b4nns%o5=m5b4nns%o6=m5b4nns)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nns%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%t=3b-45%tg=40%w=16d0%s=o%a=s+%f=as%o=m5b4nns%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Juniper SA2500 SSL VPN gateway or Digi Passport console server (98%), Linux 2.6.14 - 2.6.18 (95%), Thecus 4200 or N5500 NAS device (Linux 2.6.33) (95%), OpenWrt White Russian 0.9 (Linux 2.4.30) (93%), Linux 2.6.18 - 2.6.32 (92%), OpenWrt (Linux 2.4.32) (92%), OpenWrt (Linux 2.4.30 - 2.4.34) (91%), Linux 2.6.18 (91%), Toshiba Magnia SG10 server appliance (Linux 2.4.18) (90%), Logitech Squeezebox Touch media player (Linux 2.6.26) (90%)
+Class: Juniper embedded (98%), Digi embedded (98%), Linux 2.6.X|2.4.X (95%), Thecus embedded (95%), Toshiba embedded (90%), Logitech embedded (90%)
+CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/h:thecus:4200 cpe:/h:thecus:n5500 cpe:/o:linux:linux_kernel:2.4.30 cpe:/o:linux:linux_kernel:2.4.18 cpe:/h:toshiba:magnia_sg10 cpe:/o:linux:linux_kernel:2.6.26 cpe:/h:logitech:squeezebox_touch
+seq(sp=102%gcd=1%isr=f9%ii=i%ts=u)
+ops(o1=m5b4nns%o2=m5b4nns%o3=m5b4%o4=m5b4nns%o5=m5b4nns%o6=m5b4nns)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nns%cc=n%q=)
+t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%tg=40%w=16d0%s=o%a=s+%f=as%o=m5b4nns%rd=0%q=)
+t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=n%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ops(o1=m5b4nns%o2=m5b4nns%o3=m5b4%o4=m5b4nns%o5=m5b4nns%o6=m5b4nns)
+FingerAB:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nns%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=y%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=y%tg=40%w=16d0%s=o%a=s+%f=as%o=m5b4nns%rd=0%q=)
+FingerAB:t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=n%tg=40%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c5-cf%gcd=1-6%isr=c4-ce%ti=z%ci=i)
+FingerB:seq(sp=102%gcd=1%isr=f9)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t2(t=3b-45)
+FingerA:t3(t=3b-45)
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:t7(t=3b-45)
+FingerA:ie(t=3b-45)
+FingerB:ie(r=y)
+
+
+

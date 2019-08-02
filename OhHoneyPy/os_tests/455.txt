@@ -1,0 +1,70 @@
+Fingerprint: AVM FRITZ!WLAN Repeater 450E (FritzOS 6.51)
+Class: AVM | FritzOS | 6.X | WAP
+CPE: cpe:/o:avm:fritzos:6.51 auto
+seq(sp=b8-c2%gcd=1-6%isr=be-c8%ti=z%ci=z%ii=i%ts=7)
+ops(o1=m5b4st11nw4%o2=m5b4st11nw4%o3=m5b4nnt11nw4%o4=m5b4st11nw4%o5=m5b4st11nw4%o6=m5b4st11)
+win(w1=3890%w2=3890%w3=3890%w4=3890%w5=3890%w6=3890)
+ecn(r=y%df=y%t=3b-45%tg=40%w=3908%o=m5b4nnsnw4%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Linux 3.2 - 3.16 (99%), DD-WRT v24 or v30 (Linux 3.10) (98%), Linux 3.10 (98%), Linux 3.2 (97%), Linux 3.2 - 3.8 (97%), Linux 2.6.32 - 3.10 (97%), Linux 2.6.32 - 3.13 (97%), MikroTik RouterOS 6.19 (Linux 3.3.5) (96%), AVM FRITZ!WLAN Repeater 450E (FritzOS 6.51) (95%), Hitron CVE-30360 router (95%)
+seq(sp=109%gcd=1%isr=100%ci=i)
+ops(o1=m5b4st11nw4%o2=m5b4st11nw4%o3=m5b4nnt11nw4%o4=m5b4st11nw4%o5=m5b4st11nw4%o6=m5b4st11)
+win(w1=3890%w2=3890%w3=3890%w4=3890%w5=3890%w6=3890)
+ecn(r=y%df=y%t=40%w=3908%o=m5b4nnsnw4%cc=y%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw4%o2=m5b4st11nw4%o3=m5b4nnt11nw4%o4=m5b4st11nw4%o5=m5b4st11nw4%o6=m5b4st11)
+FingerAB:win(w1=3890%w2=3890%w3=3890%w4=3890%w5=3890%w6=3890)
+FingerAB:ecn(r=y%df=y%w=3908%o=m5b4nnsnw4%cc=y%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=b8-c2%gcd=1-6%isr=be-c8%ti=z%ci=z%ii=i%ts=7)
+FingerB:seq(sp=109%gcd=1%isr=100%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

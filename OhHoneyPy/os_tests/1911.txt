@@ -1,0 +1,81 @@
+Fingerprint: HP OpenVMS 6.1
+Class: HP | OpenVMS | 6.X | general purpose
+CPE: cpe:/o:hp:openvms:6.1 auto
+seq(sp=c-16%gcd=fa00|1f400|2ee00|3e800|4e200%isr=97-a1%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b0w0n%o2=m5b0w0n%o3=m5b0w0n%o4=m5b0w0n%o5=m5b0w0n%o6=m5b0)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=7b-85%tg=80%w=1000%o=m5b0w0n%cc=n%q=)
+t1(r=y%df=n%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=7b-85%tg=80%w=1000%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=7b-85%tg=80%w=1000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=7b-85%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=7b-85%tg=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: HP OpenVMS 6.1 (95%), DEC OpenVMS 7.1 (92%), SCO UnixWare 2.1 (89%), Avaya Intuity Audix Multimedia Messaging System (88%), IBM OS/2 Warp 2.0 (87%)
+Class: HP OpenVMS 6.X (95%), DEC OpenVMS 7.X (92%), SCO UnixWare 2.X (89%), Avaya embedded (88%), IBM OS/2 4.X (87%)
+CPE: cpe:/o:hp:openvms:6.1 cpe:/o:dec:openvms:7.1 cpe:/o:sco:unixware:2.1 cpe:/o:ibm:os2:4
+seq(sp=100%gcd=1%isr=f7%ci=i%ts=u)
+ops(o1=m5b0w0n%o2=m5b0w0n%o3=m5b0w0n%o4=m5b0w0n%o5=m5b0w0n%o6=m5b0)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=80%w=1000%o=m5b0w0n%cc=n%q=)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=80%w=1000%s=o%a=o%f=a%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=80%w=1000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5b0w0n%o2=m5b0w0n%o3=m5b0w0n%o4=m5b0w0n%o5=m5b0w0n%o6=m5b0)
+FingerAB:win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+FingerAB:ecn(r=y%df=n%w=1000%o=m5b0w0n%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=1000%s=o%a=o%f=a%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=1000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=fa00|1f400|2ee00|3e800|4e200%isr=97-a1%ti=i%ii=i%ss=s)
+FingerB:seq(sp=100%gcd=1%isr=f7)
+
+FingerA:ecn(t=7b-85%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(t=7b-85%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t3(t=7b-85%tg=80%o=)
+FingerB:t3(t=80%o=m5b4)
+
+FingerA:t4(t=7b-85%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=7b-85%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=7b-85%tg=80)
+FingerB:t6(t=80)
+
+FingerA:t7(t=7b-85%tg=80)
+FingerB:t7(t=80)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

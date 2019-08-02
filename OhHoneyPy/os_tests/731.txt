@@ -1,0 +1,69 @@
+Fingerprint: Cisco ISB7150 set top box
+Class: Cisco | embedded || media device
+CPE: cpe:/h:cisco:isb7150 auto
+seq(sp=73-91%gcd=1-6%isr=93-9d%ti=i%ci=i%ts=0%ii=)
+ops(o1=m5b2nw2nnt00nns%o2=m5b2nw2nnt00nns%o3=m5b2nw2nnt00%o4=m5b2nw2nnt00nns%o5=m5b2nw2nnt00nns%o6=m5b2nnt00nns)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%t=7b-85%tg=80%w=ffff%o=m5b2nw2nns%cc=n%q=)
+t1(r=y%df=n%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=7b-85%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=7b-85%tg=80%ipl=b0%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+Fingerprint: Cisco ISB7150 set top box (94%), Microsoft Windows 2000 SP4 (92%), Telekom set top box (Windows CE 5.0) (91%), Microsoft Windows Server 2003 (90%), Microsoft Windows Server 2003 SP2 (90%), Motorola VIP1200 digital set top box (Windows CE 5.0) (89%), Microsoft Windows XP SP3 (89%), Microsoft Windows 2000 Server (88%), Microsoft Windows XP Professional SP3 (88%), Microsoft Windows XP SP2 or SP3 (88%)
+seq(sp=102%gcd=1%isr=f9%ci=i%ts=0)
+ops(o1=m5b2nw2nnt00nns%o2=m5b2nw2nnt00nns%o3=m5b2nw2nnt00%o4=m5b2nw2nnt00nns%o5=m5b2nw2nnt00nns%o6=m5b2nnt00nns)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%t=80%w=ffff%o=m5b2nw2nns%cc=n%q=)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=0)
+FingerAB:ops(o1=m5b2nw2nnt00nns%o2=m5b2nw2nnt00nns%o3=m5b2nw2nnt00%o4=m5b2nw2nnt00nns%o5=m5b2nw2nnt00nns%o6=m5b2nnt00nns)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=n%w=ffff%o=m5b2nw2nns%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=73-91%gcd=1-6%isr=93-9d%ti=i%ii=)
+FingerB:seq(sp=102%gcd=1%isr=f9)
+
+FingerA:ecn(t=7b-85%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(t=7b-85%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t4(t=7b-85%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=7b-85%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=7b-85%tg=80)
+FingerB:t6(t=80)
+
+FingerA:u1(t=7b-85%tg=80%ipl=b0)
+FingerB:u1(t=fa%ipl=38%r=y)
+
+FingerA:t7(r=n)
+
+

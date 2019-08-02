@@ -1,0 +1,65 @@
+Fingerprint: Areca ARC-1212 or ARC-1222 RAID controller or Siemens HiPath 3500 PBX
+Class: Areca | embedded || storage-misc
+Class: Siemens | embedded || PBX
+CPE: cpe:/h:areca:arc-1212
+CPE: cpe:/h:areca:arc-1222
+CPE: cpe:/h:siemens:hipath_3500
+seq(sp=be-c8%gcd=1-6%isr=cd-d7%ti=i%ci=i%ts=u%ii=)
+ops(o1=m5a6%o2=m5a6%o3=m5a6%o4=m5a6%o5=m5a6%o6=m5a6)
+win(w1=5a6%w2=5a6%w3=5a6%w4=5a6%w5=5a6%w6=5a6)
+ecn(r=y%df=n%t=3b-45%tg=40%w=5a6%o=m5a6%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=3b-45%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=3b-45%tg=40%w=5a6%s=o%a=s+%f=as%o=m5a6%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+Fingerprint: Areca ARC-1212 or ARC-1222 RAID controller or Siemens HiPath 3500 PBX (98%)
+Class: Areca embedded (98%), Siemens embedded (98%)
+CPE: cpe:/h:areca:arc-1212 cpe:/h:areca:arc-1222 cpe:/h:siemens:hipath_3500
+seq(sp=fc%gcd=1%isr=f2%ci=i%ts=u)
+ops(o1=m5a6%o2=m5a6%o3=m5a6%o4=m5a6%o5=m5a6%o6=m5a6)
+win(w1=5a6%w2=5a6%w3=5a6%w4=5a6%w5=5a6%w6=5a6)
+ecn(r=y%df=n%tg=40%w=5a6%o=m5a6%cc=n%q=)
+t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%tg=40%w=5a6%s=o%a=s+%f=as%o=m5a6%rd=0%q=)
+t4(r=y%df=n%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5a6%o2=m5a6%o3=m5a6%o4=m5a6%o5=m5a6%o6=m5a6)
+FingerAB:win(w1=5a6%w2=5a6%w3=5a6%w4=5a6%w5=5a6%w6=5a6)
+FingerAB:ecn(r=y%df=n%tg=40%w=5a6%o=m5a6%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%tg=40%w=5a6%s=o%a=s+%f=as%o=m5a6%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=be-c8%gcd=1-6%isr=cd-d7%ti=i%ii=)
+FingerB:seq(sp=fc%gcd=1%isr=f2)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t2(t=3b-45)
+FingerA:t3(t=3b-45)
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:t7(t=3b-45)
+
+

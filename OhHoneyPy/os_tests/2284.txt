@@ -1,0 +1,73 @@
+Fingerprint: Linksys RV042 router
+Class: Linksys | embedded || router
+CPE: cpe:/h:linksys:rv042 auto
+seq(sp=bd-cb%gcd=1-6%isr=c7-d1%ti=z%ci=z%ts=5|7%ii=)
+ops(r=n)
+win(r=n)
+ecn(r=y%df=y%t=3b-45%tg=40%w=7eb8%o=m1dcnw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=7ea0%s=o%a=s+%f=as%o=m1dcnnt11nw0%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+Fingerprint: OpenWrt (Linux 2.6.32) (97%), Avocent AutoView, DSR2020, or DSR8020 KVM switch (97%), Avocent DSR2035 KVM switch (97%), Linux 2.4.20 (97%), Cypress Solutions CTM-15X modem (OpenWrt firmware) (97%), OpenWrt (Linux 2.4.32) (97%), OpenWrt 0.9 - 10.03 (Linux 2.4.30 - 2.4.37) (97%), OpenWrt White Russian 0.9 (Linux 2.4.30) (97%), OpenWrt Backfire 10.03 - Attitude Adjustment 12.09 (Linux 2.6.32 - 2.6.37) (97%), Linux 2.6.14 - 2.6.18 (97%)
+seq(ts=u)
+ecn(r=y%df=y%t=40%w=7eb8%o=m1dcnw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=7ea0%s=o%a=s+%f=as%o=m1dcnnt11nw0%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=7eb8%o=m1dcnw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=7ea0%s=o%a=s+%f=as%o=m1dcnnt11nw0%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=bd-cb%gcd=1-6%isr=c7-d1%ti=z%ci=z%ts=5|7%ii=)
+FingerB:seq(ts=u)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

@@ -1,0 +1,72 @@
+Fingerprint: FireBrick FB2700 firewall
+Class: FireBrick | embedded || firewall
+CPE: cpe:/h:firebrick:fb2700 auto
+seq(sp=100-10e%gcd=1-6%isr=103-10f%ti=i%ts=u%ii=%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=8000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=8000%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+Fingerprint: FireBrick FB2700 firewall (97%), IBM BladeCenter management module, IBM System Storage TS3100/TS3200 Express Model tape library, or HP StorageWorks MSL2024 tape library (92%), Netopia 2247 ADSL router (92%), Crestron CNMSX-AV control and automation system (91%), Cisco Catalyst 6509 switch (IOS 12.2) (91%), TiVo series 1 (Sony SVR-2000 or Philips HDR112) (Linux 2.1.24-TiVo-2.5, PowerPC) (91%), Pirelli DP-10 VoIP phone (90%), D-Link NetDefend firewall (90%), Radware LinkProof load balancer (90%), SCO OpenServer 5.0.7 (90%)
+seq(sp=fe%gcd=1%isr=f5%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%t=40%w=8000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=8000%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+FingerAB:ecn(r=y%df=n%w=8000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=8000%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=100-10e%gcd=1-6%isr=103-10f%ti=i%ii=%ci=)
+FingerB:seq(sp=fe%gcd=1%isr=f5%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:t7(r=n)
+
+

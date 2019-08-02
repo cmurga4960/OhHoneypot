@@ -1,0 +1,74 @@
+Fingerprint: Adtran 424RG FTTH gateway
+Class: Adtran | embedded || specialized
+CPE: cpe:/h:adtran:424rg
+seq(sp=ff-109%gcd=1-6%isr=ff-109%ti=z%ci=z%ii=i%ts=a|c)
+ops(o1=m7a8st11nw5%o2=m7a8st11nw5%o3=m7a8nnt11nw5%o4=m7a8st11nw5%o5=m7a8st11nw5%o6=m7a8st11)
+win(w1=3544%w2=3544%w3=3544%w4=3544%w5=3544%w6=3544)
+ecn(r=y%df=y%t=3b-45%tg=40%w=3598%o=m7a8nnsnw5%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Adtran 424RG FTTH gateway (96%), Synology DiskStation Manager 5.2 (Linux 3.10) (94%), ASUS RT-N56U WAP (Linux 3.4) (94%), Linux 3.16 (94%), Synology DiskStation Manager 5.1 (Linux 3.2) (92%), MikroTik RouterOS 6.33 (92%), Linux 3.1 (91%), Linux 3.2 (91%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (91%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (90%)
+seq(sp=101%gcd=1%isr=f8%ci=i)
+ops(o1=m7a8st11nw5%o2=m7a8st11nw5%o3=m7a8nnt11nw5%o4=m7a8st11nw5%o5=m7a8st11nw5%o6=m7a8st11)
+win(w1=3544%w2=3544%w3=3544%w4=3544%w5=3544%w6=3544)
+ecn(r=y%df=y%t=40%w=3598%o=m7a8nnsnw5%cc=y%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m7a8st11nw5%o2=m7a8st11nw5%o3=m7a8nnt11nw5%o4=m7a8st11nw5%o5=m7a8st11nw5%o6=m7a8st11)
+FingerAB:win(w1=3544%w2=3544%w3=3544%w4=3544%w5=3544%w6=3544)
+FingerAB:ecn(r=y%df=y%w=3598%o=m7a8nnsnw5%cc=y%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=ff-109%gcd=1-6%isr=ff-109%ti=z%ci=z%ii=i%ts=a|c)
+FingerB:seq(sp=101%gcd=1%isr=f8%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

@@ -1,0 +1,66 @@
+Fingerprint: Allied Telesyn AT-AR410 router
+Class: Allied Telesyn | AlliedWare || router
+CPE: cpe:/h:alliedtelesyn:at-ar410
+CPE: cpe:/o:alliedtelesyn:alliedware auto
+seq(sp=f3-107%gcd=1-6%isr=f8-114%ti=i|rd%ii=ri%ss=o%ts=u%ci=)
+ops(o1=m109%o2=m109%o3=m109%o4=m109%o5=m109%o6=m109)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%t=3b-45%tg=40%w=400%o=|m109%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=3b-45%tg=40%w=0|400%s=o|z%a=o|s+%f=ar|as%o=|m109%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=s%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: Allied Telesyn AT-AR410 router (94%), Allied Telesyn Rapier 24i switch (94%), Allied Telesis AlliedWare version 54291-05 (90%), Allied Telesyn AT-AR750s router (89%), Allied Telesyn AT-AR300L CentreCOM router (88%), ESI ESI-100 VoIP adapter (88%), Bosch IP camera (88%), Lenel LNL-2200 access control board (88%), MusicianLink jamLink (88%), Sensatronics E4 temperature monitor (87%)
+seq(sp=ec%gcd=1%isr=e3%ci=i%ts=u)
+ops(o1=m109%o2=m109%o3=m109%o4=m109%o5=m109%o6=m109)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%tg=40%w=400%o=%cc=n%q=)
+t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m109%o2=m109%o3=m109%o4=m109%o5=m109%o6=m109)
+FingerAB:win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+FingerAB:ecn(r=y%df=n%tg=40%w=400%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=f3-107%gcd=1-6%isr=f8-114%ti=i|rd%ii=ri%ss=o%ci=)
+FingerB:seq(sp=ec%gcd=1%isr=e3%ci=i)
+
+FingerA:ecn(t=3b-45%o=|m109)
+FingerB:ecn(o=)
+
+FingerA:t1(t=3b-45)
+FingerA:t2(t=3b-45)
+FingerA:t3(r=y%df=n%t=3b-45%tg=40%w=0|400%s=o|z%a=o|s+%f=ar|as%o=|m109%rd=0%q=)
+FingerB:t3(r=n)
+
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:t7(t=3b-45)
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=z)
+FingerB:ie(r=n)
+
+
+

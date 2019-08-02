@@ -1,0 +1,84 @@
+Fingerprint: Linksys BEFSR41 or RT31P2 router, or WRK54G WAP
+Class: Linksys | embedded || router
+Class: Linksys | embedded || WAP
+seq(sp=0-2c%gcd=a|14|1e|28|32%isr=4d-51%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=n%t=91-9b%tg=ff%w=16d0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=91-9b%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=91-9b%tg=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=91-9b%tg=ff%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=91-9b%tg=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=91-9b%tg=ff%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=91-9b%tg=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=91-9b%tg=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=91-9b%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=91-9b%tg=ff%cd=s)
+********************************************************
+Fingerprint: WatchGuard Firebox SOHO 6 or X5w firewall/WAP (92%), Linksys BEFSR41 or RT31P2 router, or WRK54G WAP (92%), Linksys BEFW11S4 WAP (91%), Symbol AP-3021 switch (91%), USRobotics USR8000 broadband router (91%), Symbol AP-2411 switch (91%), Linksys BEFSR41 router or WRK54G WAP (90%), Linksys BEFSR41 router (90%), Linksys BEFSR41 EtherFast router (89%), ASUS RT-N11 EZ or D-Link DI-524 WAP, or LevelOne FBR-1415TX router (88%)
+Class: WatchGuard embedded (92%), Linksys embedded (92%), Symbol embedded (91%), USRobotics embedded (91%), Asus embedded (88%), D-Link embedded (88%), LevelOne embedded (88%)
+CPE: cpe:/h:watchguard:firebox_x5w cpe:/h:watchguard:firebox_soho_6 cpe:/h:symbol:ap-3021 cpe:/h:usrobotics:usr8000 cpe:/h:asus:rt-n11_ez cpe:/h:dlink:di-524 cpe:/h:levelone:fbr-1415tx
+seq(sp=e0%gcd=1%isr=d7%ii=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=n%t=ff%w=16d0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=ff%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerAB:ecn(r=y%df=n%w=16d0%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=0-2c%gcd=a|14|1e|28|32%isr=4d-51%ti=i%ci=i%ss=s)
+FingerB:seq(sp=e0%gcd=1%isr=d7)
+
+FingerA:ecn(t=91-9b%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=91-9b%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t2(t=91-9b%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t3(t=91-9b%tg=ff)
+FingerB:t3(t=ff)
+
+FingerA:t4(t=91-9b%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=91-9b%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=91-9b%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=91-9b%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=91-9b%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=91-9b%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

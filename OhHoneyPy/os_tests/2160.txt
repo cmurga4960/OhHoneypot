@@ -1,0 +1,67 @@
+Fingerprint: Juniper Networks JUNOS 9.0R2.10
+Class: Juniper | JUNOS | 9.X | router
+CPE: cpe:/o:juniper:junos:9.0r2.10 auto
+seq(sp=fa-104%gcd=1-6%isr=103-10d%ti=i%ii=i%ss=s%ts=a%ci=)
+ops(o1=m5b4nw1nnt11sll%o2=m5b4nw1nnt11sll%o3=m5b4nw1nnt11%o4=m5b4nw1nnt11sll%o5=m5b4nw1nnt11sll%o6=m5b4nnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=ffff%o=m5b4nw1sll%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=y%t=fe%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Juniper Networks JUNOS 12 (97%), Juniper Networks JUNOS 9.0R2.10 (97%), m0n0wall 1.3b11 - 1.3b15 (FreeBSD 6.3) (96%), m0nowall 1.3b16 firewall (FreeBSD 6.3-RELEASE) (96%), Netasq U70 firewall (94%), Juniper M7i router (93%), Juniper JUNOS 9.2R1.10 (93%), Juniper JUNOS 9.4R2.9 (93%), Juniper SRX100-series or SRX200-series firewall (JUNOS 10.4 - 12.1) (92%), FreeBSD 6.3-RELEASE (92%)
+Class: Juniper JUNOS 12.X|9.X|10.X (97%), FreeBSD 6.X (96%), Netasq embedded (94%), Juniper embedded (93%), VMware ESXi 4.X (92%), PC-BSD 1.X (91%)
+CPE: cpe:/o:juniper:junos:12 cpe:/o:juniper:junos:9.0r2.10 cpe:/o:freebsd:freebsd:6.3 cpe:/h:netasq:u70 cpe:/h:juniper:m7i cpe:/o:juniper:junos:10 cpe:/o:vmware:esxi:4.0 cpe:/o:pc-bsd:pc_bsd:1.3
+seq(sp=e6%gcd=1%isr=dd%ii=i)
+ops(o1=m5b4nw1nnt11sll%o2=m5b4nw1nnt11sll%o3=m5b4nw1nnt11%o4=m5b4nw1nnt11sll%o5=m5b4nw1nnt11sll%o6=m5b4nnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=40%w=ffff%o=m5b4nw1sll%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=y%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ops(o1=m5b4nw1nnt11sll%o2=m5b4nw1nnt11sll%o3=m5b4nw1nnt11%o4=m5b4nw1nnt11sll%o5=m5b4nw1nnt11sll%o6=m5b4nnt11sll)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=y%w=ffff%o=m5b4nw1sll%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=y%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=fa-104%gcd=1-6%isr=103-10d%ti=i%ss=s%ts=a%ci=)
+FingerB:seq(sp=e6%gcd=1%isr=dd)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=fe%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

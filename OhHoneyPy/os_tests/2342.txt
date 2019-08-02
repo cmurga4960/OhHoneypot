@@ -1,0 +1,60 @@
+Fingerprint: IPCop firewall 1.4.16 (Linux 2.4.34)
+Class: Linux | Linux | 2.4.X | firewall
+Class: IPCop | IPCop | 1.X | firewall
+CPE: cpe:/o:linux:linux_kernel:2.4.34
+CPE: cpe:/o:ipcop:ipcop:1.4.16
+seq(sp=c1-cb%gcd=1-6%isr=c0-ca%ti=z%ii=i%ts=u%ci=)
+ops(o1=m400c%o2=m400c%o3=m400c%o4=m400c%o5=m400c%o6=m400c)
+win(w1=7fff%w2=7fff%w3=7fff%w4=7fff%w5=7fff%w6=7fff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=7fff%o=m400c%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: IPCop firewall 1.4.16 (Linux 2.4.34) (94%), Tomato 1.28 (Linux 2.4.20) (93%), Tomato firmware (Linux 2.6.22) (93%), Asus RT-AC66U router (Linux 2.6) (92%), AVM FRITZ!Box FON WLAN 7170 WAP (92%), Cymphonix EX550 firewall (92%), D-Link DIR-300 WAP (92%), Dell Integrated Remote Access Controller (iDRAC) (92%), Dell Integrated Remote Access Controller (iDRAC9) (92%), Dell Remote Access Controller 5/I (DRAC 5/I) (92%)
+ecn(r=y%df=y%t=40%w=7fff%o=m400c%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=7fff%o=m400c%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:seq(sp=c1-cb%gcd=1-6%isr=c0-ca%ti=z%ii=i%ts=u%ci=)
+FingerA:ops(o1=m400c%o2=m400c%o3=m400c%o4=m400c%o5=m400c%o6=m400c)
+FingerA:win(w1=7fff%w2=7fff%w3=7fff%w4=7fff%w5=7fff%w6=7fff)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

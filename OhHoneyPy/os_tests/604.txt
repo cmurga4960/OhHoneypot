@@ -1,0 +1,61 @@
+Fingerprint: Brother MFC-7820N or MFC-9420CN printer
+Class: Brother | embedded || printer
+CPE: cpe:/h:brother:mfc-7820n
+CPE: cpe:/h:brother:mfc-9420n
+seq(sp=be-d4%gcd=1-6%isr=d5-df%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m200%o5=m218%o6=m109)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=71%tg=40|80%w=1000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=71%tg=40|80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=71%tg=40|80%w=1000%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=n%t=71%tg=40|80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=71%tg=40|80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=71%tg=40|80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=71%tg=40|80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=71%tg=40|80%ipl=38%un=0%ripl=g%rid=g%ripck=g%rud=g)
+ie(dfi=n%t=71%tg=40|80%cd=z)
+********************************************************
+Fingerprint: Sony Ericsson U8i Vivaz mobile phone (98%), OneAccess 1641 router (92%), Linksys BEFSR41 EtherFast router (91%), Adtran Total Access 904 router (91%), British Gas GS-Z3 data logger (91%), Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC (90%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (90%), Tomato 1.28 (Linux 2.4.20) (90%), Tomato firmware (Linux 2.6.22) (90%), OUYA game console (90%)
+seq(sp=0%gcd=1%isr=1b%ti=i%ts=u)
+ecn(r=n)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ti=i%ts=u)
+FingerAB:t2(r=n)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=be-d4%gcd=1-6%isr=d5-df%ii=i%ss=s%ci=)
+FingerB:seq(sp=0%gcd=1%isr=1b)
+
+FingerA:ecn(r=y%df=n%t=71%tg=40|80%w=1000%o=m5b4%cc=n%q=)
+FingerB:ecn(r=n)
+
+FingerA:t1(r=y%df=n%t=71%tg=40|80%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(r=y%df=n%t=71%tg=40|80%w=1000%s=o%a=s+%f=as%o=m109%rd=0%q=)
+FingerB:t3(r=n)
+
+FingerA:t4(r=y%df=n%t=71%tg=40|80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerB:t4(r=n)
+
+FingerA:u1(t=71%tg=40|80)
+FingerB:u1(t=fa%r=y%ruck=g)
+
+FingerA:ie(dfi=n%t=71%tg=40|80%cd=z)
+FingerB:ie(r=n)
+
+FingerA:ops(o1=m5b4%o2=m578%o3=m280%o4=m200%o5=m218%o6=m109)
+FingerA:win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+FingerA:t5(r=y%df=n%t=71%tg=40|80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerA:t6(r=y%df=n%t=71%tg=40|80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerA:t7(r=y%df=n%t=71%tg=40|80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+
+

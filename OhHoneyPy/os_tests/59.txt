@@ -1,0 +1,67 @@
+Fingerprint: Aastra 6731i VoIP phone or Apple AirPort Express WAP
+Class: Aastra | embedded || VoIP phone
+Class: Apple | embedded || WAP
+CPE: cpe:/h:aastra:6731i
+CPE: cpe:/h:apple:airport_express
+seq(ci=i%ii=i%ti=)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=70%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Brother MFC-7820N printer (95%), ShoreTel ShoreGear-T1 VoIP switch (95%), Aastra 6731i VoIP phone or Apple AirPort Express WAP (94%), Konica Minolta bizhub 250 printer (94%), OUYA game console (94%), Netgear SC101 Storage Central NAS device (93%), Aastra 480i IP Phone or Sun Remote System Control (RSC) (93%), SMC SMC8014WG WAP (93%), Apple Time Capsule NAS device (91%), Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC (91%)
+seq(ci=i)
+ecn(r=n)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=n)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(ii=i%ti=)
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40%ipl=70)
+FingerB:u1(t=fa%ipl=38%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

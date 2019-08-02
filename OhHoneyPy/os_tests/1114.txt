@@ -1,0 +1,61 @@
+Fingerprint: Dell 1320c printer
+Class: Dell | embedded || printer
+CPE: cpe:/h:dell:1320c auto
+seq(sp=b-15%gcd=fa00|1f400|2ee00|3e800|4e200%isr=96-a0%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=3000%w2=3000%w3=3000%w4=3000%w5=3000%w6=3000)
+ecn(r=y%df=n%t=1b-25%tg=20%w=3000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=1b-25%tg=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=1b-25%tg=20%w=3000%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=1b-25%tg=20%w=3000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=1b-25%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=1b-25%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=1b-25%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Dell 1320c printer (95%), Dell 3100cn printer (95%), Dell 3100cn-series or Xerox Phaser 6180DN printer (95%), Dell 3000 printer (92%), Extreme Networks Summit48si switch (ExtremeWare 7.1 - 7.8) (91%), ION Networks SA5600-series firewall (91%), Wyse C10LE, S10, SX0, 1200LE, or Xenith terminal (ThinOS 6.5) (91%), Xerox Phaser 6180N printer (91%), Dell 3110cn printer (89%), Extreme Networks Summit48si switch (ExtremeWare 7.4 - 7.8) (89%)
+seq(sp=106%gcd=1%isr=fd%ti=i%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=3000%w2=3000%w3=3000%w4=3000%w5=3000%w6=3000)
+ecn(r=y%df=n%tg=20%w=3000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%tg=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=20%w=3000%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%tg=20%w=3000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ti=i%ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=3000%w2=3000%w3=3000%w4=3000%w5=3000%w6=3000)
+FingerAB:ecn(r=y%df=n%tg=20%w=3000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=20%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=20%w=3000%s=o%a=o%f=a%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=20%w=3000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=b-15%gcd=fa00|1f400|2ee00|3e800|4e200%isr=96-a0%ii=i%ss=s%ci=)
+FingerB:seq(sp=106%gcd=1%isr=fd%ci=i)
+
+FingerA:ecn(t=1b-25)
+FingerA:t1(t=1b-25)
+FingerA:t3(t=1b-25)
+FingerA:t4(t=1b-25)
+FingerA:t5(t=1b-25)
+FingerA:t6(t=1b-25)
+FingerA:t7(t=1b-25)
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

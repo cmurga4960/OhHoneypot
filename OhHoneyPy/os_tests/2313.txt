@@ -1,0 +1,50 @@
+Fingerprint: Linksys WRT54G v8 wireless broadband router
+Class: Linksys | embedded || WAP
+CPE: cpe:/h:linksys:wrt54g_v8 auto
+seq(sp=14-1e%gcd=fa00|1f400|2ee00|3e800|4e200%isr=99-a3%ti=i|rd%ts=1%ii=%ci=)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=2000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(r=n)
+ie(r=n)
+********************************************************
+Fingerprint: Linksys WRT54G v8 wireless broadband router (90%), 3Com X5 Unified Security Platform firewall (87%), 3Com 7760 WAP (87%), HP Brocade 1600 switch (87%), Linksys WRT54G or WRT54G2, or Netgear WGR614 or WPN824v2 wireless broadband router (87%), Netgear WGT624 WAP (87%), Nortel Ethernet Routing Switch 470-24T-PWR (87%), SMC TigerSwitch SMC8150L2 switch (87%), SonicWALL TZ 170 Unlimited firewall (SonicOS) (87%), Netgear WGR614v7, WGT624v3, or WPN824v2 WAP (VxWorks 5.4.2) (87%)
+Class: Linksys embedded (90%), 3Com embedded (87%), HP embedded (87%), Netgear embedded (87%), Nortel embedded (87%), SMC embedded (87%), SonicWALL embedded (87%), Wind River VxWorks 5.X (87%)
+CPE: cpe:/h:linksys:wrt54g_v8 cpe:/h:3com:7760 cpe:/h:hp:brocade_1600 cpe:/h:netgear:wgt624 cpe:/h:nortel:ethernet_routing_switch_470-24t-pwr cpe:/h:smc:tigerswitch_smc8150l2 cpe:/o:sonicwall:tz_170 cpe:/o:windriver:vxworks:5.4.2
+ecn(r=y%df=n%tg=40%w=2000%o=m5b4nw0%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=n%tg=40%w=2000%o=m5b4nw0%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:ecn(t=3b-45)
+FingerA:t1(r=y%df=n%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t5(t=fa-104)
+FingerA:seq(sp=14-1e%gcd=fa00|1f400|2ee00|3e800|4e200%isr=99-a3%ti=i|rd%ts=1%ii=%ci=)
+FingerA:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerA:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

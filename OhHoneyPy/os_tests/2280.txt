@@ -1,0 +1,57 @@
+Fingerprint: Linksys BEFSR41 EtherFast router
+Class: Linksys | embedded || router
+seq(ti=i%ii=i%ss=s%ts=u%ci=)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=y%df=n%t=91-9b%tg=ff%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=91-9b%tg=ff%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=91-9b%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=91-9b%tg=ff%cd=s)
+********************************************************
+Fingerprint: D-Link DCS-3220 or DCS-5300G webcam (97%), Hioki MEMORY HiCORDER 8855 digital oscilloscope (97%), Panasonic DB-3500 series printer (97%), Panasonic KX-HCM270 Network Camera or Symbol Spectrum24 4131 WAP (97%), Planet WAP-1950 WAP (97%), Efficient Networks SpeedStream 5100 ADSL router (97%), Linksys BEFSR41 EtherFast router (96%), Cisco IP Phone 7941 (96%), Cisco IP Phone 7961G (96%), Cisco IP Phone 7942G (96%)
+seq(ii=i%ts=u)
+ecn(r=n)
+t1(r=y%df=n%t=ff%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=ff%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=n%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(ti=i%ss=s%ci=)
+FingerA:t1(t=91-9b%tg=ff%a=o|s+)
+FingerB:t1(t=ff%a=o)
+
+FingerA:t5(t=91-9b%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:u1(t=91-9b%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=91-9b%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,63 @@
+Fingerprint: Cisco SLM2008 switch
+Class: Cisco | embedded || switch
+CPE: cpe:/h:cisco:slm2008
+seq(sp=c-16%gcd=a|14|1e|28|32%isr=1d-27%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=600%w2=600%w3=600%w4=600%w5=600%w6=600)
+ecn(r=y%df=n%t=3b-45%tg=40%w=600%o=m5b4%cc=n%q=u)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=3b-45%tg=40%w=80%s=a%a=s+%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=7a69%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=8000%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=ffff%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Cisco SLM2008 switch (95%), Cisco SLM2008 or HP ProCurve 1800 switch (91%), SMC 8024L2 switch (87%)
+Class: Cisco embedded (95%), HP embedded (91%), SMC embedded (87%)
+CPE: cpe:/h:cisco:slm2008 cpe:/h:hp:procurve_1800 cpe:/h:smc:8024l2
+seq(sp=ee%gcd=1%isr=e5%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=600%w2=600%w3=600%w4=600%w5=600%w6=600)
+ecn(r=y%df=n%tg=40%w=600%o=m5b4%cc=n%q=u)
+t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%tg=40%w=80%s=a%a=s+%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%tg=40%w=7a69%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=40%w=8000%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%tg=40%w=ffff%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=600%w2=600%w3=600%w4=600%w5=600%w6=600)
+FingerAB:ecn(r=y%df=n%tg=40%w=600%o=m5b4%cc=n%q=u)
+FingerAB:t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%tg=40%w=80%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%tg=40%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=40%w=7a69%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=40%w=8000%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=40%w=ffff%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=a|14|1e|28|32%isr=1d-27%ti=i%ii=i%ss=s)
+FingerB:seq(sp=ee%gcd=1%isr=e5)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t2(t=3b-45)
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:t7(t=3b-45)
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

@@ -1,0 +1,80 @@
+Fingerprint: IBM OS/400 V5R2 - V5R3
+Class: IBM | OS/400 | V5 | general purpose
+CPE: cpe:/o:ibm:os_400:v5r2 auto
+seq(sp=76-ba%gcd=1-6|10|20|30|40|50%isr=ae-b8%ti=i%ts=a%ii=%ci=)
+ops(o1=m59cnw0nnt11%o2=m560nw0nnt11%o3=m268nw0nnt11%o4=m200nw0nnt11%o5=m200nw0nnt11%o6=mf1nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=y%t=3b-45%tg=40%w=2000%o=m5acnw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=o|s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a|o%a=o|s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=o|s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a|o%a=o|s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=o|s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: IBM OS/400 V5R2 - V5R3 (98%), IBM OS/400 V4R5 (91%), IBM OS/400 V5R1M0 (91%), IBM i5/OS V5R4 - V6R1 (90%), IBM i 7.2 (89%), IBM i5/OS V5R4 on an IBM iSeries (PPC) (89%), IBM OS/400 V5R3 (89%), Zebra QLn420 mobile printer (89%), IBM i 6 (89%)
+Class: IBM OS/400 V5|V4 (98%), IBM i5/OS V5 (90%), IBM i 6.X|7.X (90%), Zebra embedded (89%)
+CPE: cpe:/o:ibm:os_400:v5r2 cpe:/o:ibm:os_400:v4r5 cpe:/o:ibm:i5os:v5 cpe:/o:ibm:i:6.1 cpe:/o:ibm:i:7.2
+seq(sp=107%gcd=1%isr=fe)
+ops(o1=m59cnw0nnt11%o2=m560nw0nnt11%o3=m268nw0nnt11%o4=m200nw0nnt11%o5=m200nw0nnt11%o6=mf1nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=y%t=40%w=2000%o=m5acnw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=o%a=o%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=o%a=o%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m59cnw0nnt11%o2=m560nw0nnt11%o3=m268nw0nnt11%o4=m200nw0nnt11%o5=m200nw0nnt11%o6=mf1nnt11)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=y%w=2000%o=m5acnw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=76-ba%gcd=1-6|10|20|30|40|50%isr=ae-b8%ti=i%ts=a%ii=%ci=)
+FingerB:seq(sp=107%gcd=1%isr=fe)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=3b-45%tg=40%a=o|s)
+FingerB:t2(t=40%a=o)
+
+FingerA:t4(t=3b-45%tg=40%s=a|o%a=o|s)
+FingerB:t4(t=40%s=o%a=o)
+
+FingerA:t5(t=3b-45%tg=40%a=o|s+)
+FingerB:t5(t=40%a=o)
+
+FingerA:t6(t=3b-45%tg=40%s=a|o%a=o|s)
+FingerB:t6(t=40%s=o%a=o)
+
+FingerA:t7(t=3b-45%tg=40%a=o|s+)
+FingerB:t7(t=40%a=o)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

@@ -1,0 +1,54 @@
+Fingerprint: iPXE 1.0.0+
+Class: iPXE | iPXE | 1.X | specialized
+CPE: cpe:/o:ipxe:ipxe:1.0.0%2b
+seq(r=n%ii=%ti=%ci=)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: iPXE 1.0.0+
+Class: iPXE 1.X
+CPE: cpe:/o:ipxe:ipxe:1.0.0%2b
+ecn(r=n)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=n%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=n)
+FingerAB:t1(r=n)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=n%tg=40%cd=s)
+--- Diff Values ---
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:t7(t=3b-45)
+FingerA:ie(t=3b-45)
+FingerB:ie(r=y)
+
+FingerA:seq(r=n%ii=%ti=%ci=)
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

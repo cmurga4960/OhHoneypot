@@ -1,0 +1,75 @@
+Fingerprint: Juniper SRX100 firewall
+Class: Juniper | embedded || firewall
+CPE: cpe:/h:juniper:srx100 auto
+seq(sp=100-10a%gcd=1-6%isr=103-10f%ts=a%ii=%ti=%ci=)
+ops(o1=m23aanw0nnt11sll%o2=m23aanw0nnt11sll%o3=m23aanw0nnt11%o4=m23aanw0nnt11sll%o5=m23aanw0nnt11sll%o6=m23aannt11sll)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=y%t=fa-104%tg=ff%w=4000%o=m23aanw0sll%cc=n%q=)
+t1(r=y%df=y%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=y%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Juniper SRX100 firewall (98%), Nintendo Wii game console (93%), Epson Stylus Pro 400 printer (93%), Juniper MX960 router (JUNOS 9.5R3.7) (92%), Juniper JUNOS 10.4R6.5 (92%), Juniper JUNOS 13.3R8 (90%), Juniper JUNOS 9.4R2.9 (90%), Cisco IronPort C160 or C170 email security appliance (AsyncOS 7) (90%), Cisco AsyncOS 9.6 - 9.7 (90%), Cisco IronPort C650 email security appliance (AsyncOS 7.0.1) (89%)
+seq(sp=109%gcd=1%isr=100%ii=i)
+ops(o1=m23aanw0nnt11sll%o2=m23aanw0nnt11sll%o3=m23aanw0nnt11%o4=m23aanw0nnt11sll%o5=m23aanw0nnt11sll%o6=m23aannt11sll)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=y%t=ff%w=4000%o=m23aanw0sll%cc=n%q=)
+t1(r=y%df=y%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=y%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m23aanw0nnt11sll%o2=m23aanw0nnt11sll%o3=m23aanw0nnt11%o4=m23aanw0nnt11sll%o5=m23aanw0nnt11sll%o6=m23aannt11sll)
+FingerAB:win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+FingerAB:ecn(r=y%df=y%w=4000%o=m23aanw0sll%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=y%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=100-10a%gcd=1-6%isr=103-10f%ts=a%ii=%ti=%ci=)
+FingerB:seq(sp=109%gcd=1%isr=100%ii=i)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

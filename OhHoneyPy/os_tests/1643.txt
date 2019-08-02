@@ -1,0 +1,83 @@
+Fingerprint: Grandstream HandyTone HT-488 analog VoIP adapter
+Class: Grandstream | embedded || VoIP adapter
+seq(sp=0-5%gcd=0%isr=0-5%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5a6%o2=m5a6%o3=m5a6%o4=m5a6%o5=m5a6%o6=m5a6)
+win(w1=5a6%w2=578%w3=280%w4=280%w5=218%w6=109)
+ecn(r=y%df=y%t=fe%tg=ff%w=5a6%o=m5a6%cc=n%q=u)
+t1(r=y%df=y%t=fe%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=fe%tg=ff%w=80%s=a%a=s+%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%t=fe%tg=ff%w=109%s=o%a=s+%f=as%o=m5a6%rd=0%q=)
+t4(r=y%df=y%t=fe%tg=ff%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=fe%tg=ff%w=7a69%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=fe%tg=ff%w=8000%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%t=fe%tg=ff%w=ffff%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=f5-ff%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=f5-ff%tg=ff%cd=z)
+********************************************************
+Fingerprint: Grandstream BudgeTone 100 VoIP phone (94%), Grandstream HandyTone HT-488 analog VoIP adapter (92%)
+Class: Grandstream embedded (94%)
+CPE: cpe:/h:grandstream:budgetone_100
+seq(sp=108%gcd=1%isr=fe%ii=i%ts=u)
+ops(o1=m5a6%o2=m5a6%o3=m5a6%o4=m5a6%o5=m5a6%o6=m5a6)
+win(w1=5a6%w2=578%w3=280%w4=280%w5=218%w6=109)
+ecn(r=y%df=y%t=ff%w=5a6%o=m5a6%cc=n%q=u)
+t1(r=y%df=y%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=ff%w=80%s=a%a=s+%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%t=ff%w=109%s=o%a=s+%f=as%o=m5a6%rd=0%q=)
+t4(r=y%df=y%t=ff%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=ff%w=7a69%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=ff%w=8000%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%t=ff%w=ffff%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ops(o1=m5a6%o2=m5a6%o3=m5a6%o4=m5a6%o5=m5a6%o6=m5a6)
+FingerAB:win(w1=5a6%w2=578%w3=280%w4=280%w5=218%w6=109)
+FingerAB:ecn(r=y%df=y%w=5a6%o=m5a6%cc=n%q=u)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=y%w=80%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=y%w=109%s=o%a=s+%f=as%o=m5a6%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=7a69%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=8000%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=ffff%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=0-5%gcd=0%isr=0-5%ti=i%ss=s%ci=)
+FingerB:seq(sp=108%gcd=1%isr=fe)
+
+FingerA:ecn(t=fe%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fe%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t2(t=fe%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t3(t=fe%tg=ff)
+FingerB:t3(t=ff)
+
+FingerA:t4(t=fe%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fe%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fe%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fe%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=f5-ff%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=f5-ff%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

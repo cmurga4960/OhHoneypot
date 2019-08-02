@@ -1,0 +1,64 @@
+Fingerprint: 3Com X5 Unified Security Platform firewall
+Class: 3Com | embedded || firewall
+seq(ii=i%ts=3%ti=%ci=)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=3a-44%tg=40%w=2000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3f%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3a-44%tg=40%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=0%rud=g)
+ie(dfi=n%t=3a-44%tg=40%cd=z)
+********************************************************
+Fingerprint: 3Com X5 Unified Security Platform firewall (93%)
+Class: 3Com embedded (93%)
+seq(sp=107%gcd=1%isr=fe%ii=ri)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=40%w=2000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=0%rud=g)
+ie(r=y%dfi=n%t=fa%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%w=2000%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=0%rud=g)
+FingerAB:ie(dfi=n%cd=z)
+--- Diff Values ---
+FingerA:seq(ii=i%ts=3%ti=%ci=)
+FingerB:seq(ii=ri%sp=107%gcd=1%isr=fe)
+
+FingerA:ecn(t=3a-44%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40%a=o|s+)
+FingerB:t1(t=40%a=o)
+
+FingerA:t5(t=3f%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3a-44%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(t=3a-44%tg=40)
+FingerB:ie(t=fa%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

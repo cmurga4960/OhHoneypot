@@ -1,0 +1,76 @@
+Fingerprint: OpenWrt Backfire 10.03 - Attitude Adjustment 12.09 (Linux 2.6.32 - 2.6.37)
+Class: Linux | Linux | 2.6.X | broadband router
+CPE: cpe:/o:linux:linux_kernel:2.6 auto
+seq(sp=c4-ce%gcd=1-6%isr=c1-d5%ti=z%ci=z%ii=i%ts=u)
+ops(o1=m5b4nnsnw1%o2=m5b4nnsnw1%o3=m5b4nw1%o4=m5b4nnsnw1%o5=m5b4nnsnw1%o6=m5b4nns)
+win(w1=111c%w2=111c%w3=111c%w4=111c%w5=111c%w6=111c)
+ecn(r=y%df=y%t=3b-45%tg=40%w=111c%o=m5b4nnsnw1%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=111c%s=o%a=o|s+%f=a|as%o=|m5b4nnsnw1%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: OpenWrt Backfire 10.03 - Attitude Adjustment 12.09 (Linux 2.6.32 - 2.6.37) (96%), AXIS 211A Network Camera (Linux 2.6.20) (96%), Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (95%), Linux 2.6.18 (95%), Linux 2.6.24 (95%), Linux 2.6.16 (95%), Toshiba REGZA TV (95%), OpenWrt Backfire 10.03.1 (Linux 2.6.32) (94%), Thecus 4200 or N5500 NAS device (Linux 2.6.33) (94%), Avocent DSR1021 KVM switch (94%)
+Class: Linux 2.6.X (96%), AXIS embedded (96%), Asus embedded (95%), Toshiba embedded (95%), Thecus embedded (94%), Avocent embedded (94%), Belkin embedded (94%)
+CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:2.6.20 cpe:/h:axis:211a_network_camera cpe:/h:asus:rt-n10 cpe:/h:toshiba:regza cpe:/o:linux:linux_kernel:2.6.32 cpe:/h:thecus:4200 cpe:/h:thecus:n5500
+seq(ii=i)
+ecn(r=y%df=y%t=40%w=111c%o=m5b4nnsnw1%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=111c%s=o%a=o%f=as%o=%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=y%w=111c%o=m5b4nnsnw1%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=111c%s=o%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c4-ce%gcd=1-6%isr=c1-d5%ti=z%ci=z%ts=u)
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%tg=40%a=o|s+%f=a|as%o=|m5b4nnsnw1)
+FingerB:t3(t=40%a=o%f=as%o=)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b4nnsnw1%o2=m5b4nnsnw1%o3=m5b4nw1%o4=m5b4nnsnw1%o5=m5b4nnsnw1%o6=m5b4nns)
+FingerA:win(w1=111c%w2=111c%w3=111c%w4=111c%w5=111c%w6=111c)
+
+

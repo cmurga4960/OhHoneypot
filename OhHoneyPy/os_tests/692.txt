@@ -1,0 +1,80 @@
+Fingerprint: Cisco Content Engine CE590 running Application and Content Networking System Software 5.5.5
+Class: Cisco | ACNS | 5.X | proxy server
+CPE: cpe:/o:cisco:acns:5 auto
+seq(sp=c6-d0%gcd=1-6%isr=c7-d1%ti=z%ii=i%ts=u%ci=)
+ops(o1=m5b4nns%o2=m578nns%o3=m280%o4=m218nns%o5=m218nns%o6=m109nns)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nns%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16d0%s=o%a=s+%f=as%o=m109nns%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=y%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=y%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Cisco Content Engine CE590 running Application and Content Networking System Software 5.5.5 (94%), Cisco WAE-512 Wide Area Application Engine (ACNS 5.5.5.4) (94%), OpenWrt White Russian 0.9 (Linux 2.4.30) (93%), OpenWrt (Linux 2.4.30 - 2.4.34) (92%), OpenWrt (Linux 2.4.32) (91%), Toshiba Magnia SG10 server appliance (Linux 2.4.18) (91%), Cisco 2600-series Content Engine Module (Linux 2.4.16) (91%), Linux 2.6.27 (91%), Linux 2.6.14 - 2.6.18 (90%), Linux 2.6.18 (89%)
+Class: Cisco ACNS 5.X (94%), Linux 2.4.X|2.6.X (93%), Toshiba embedded (91%), Cisco embedded (91%), Vilar embedded (89%), Alcatel-Lucent embedded (89%)
+CPE: cpe:/o:cisco:acns:5 cpe:/o:linux:linux_kernel:2.4.30 cpe:/o:linux:linux_kernel:2.4.18 cpe:/h:toshiba:magnia_sg10 cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:2.6.27 cpe:/h:alcatel-lucent:gd3
+seq(sp=102%gcd=1%isr=f9%ti=i%ci=i%ts=u)
+ops(o1=m5b4nns%o2=m578nns%o3=m280%o4=m218nns%o5=m218nns%o6=m109nns)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nns%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=16d0%s=o%a=s+%f=as%o=m109nns%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=y%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4nns%o2=m578nns%o3=m280%o4=m218nns%o5=m218nns%o6=m109nns)
+FingerAB:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nns%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16d0%s=o%a=s+%f=as%o=m109nns%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=y%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c6-d0%gcd=1-6%isr=c7-d1%ti=z%ii=i%ci=)
+FingerB:seq(sp=102%gcd=1%isr=f9%ti=i%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=y%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

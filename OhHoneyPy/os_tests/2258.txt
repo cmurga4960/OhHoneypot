@@ -1,0 +1,83 @@
+Fingerprint: Lexmark Optra S 1855 or Se3455 printer
+Class: Lexmark | embedded || printer
+seq(sp=0-18%gcd=1393|2726|3ab9|4e4c|61df%isr=8a-94%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m280%o5=m218%o6=m218)
+win(w1=3f2%w2=3f2%w3=3f2%w4=3f2%w5=3f2%w6=3f2)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=3f2%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=fa-104%tg=ff%w=3f2%s=o%a=s+%f=as%o=m218%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=z)
+********************************************************
+Fingerprint: Lexmark Optra S 1855 or Se3455 printer (95%), Adtran AOS 18.02.01.00.E (88%), Argosy HD363N NAS device (86%), Fujian Ruijie Star-S2800 switch (86%), GalaxyMetalGear 3507LR-SA NAS device (86%)
+Class: Lexmark embedded (95%), Adtran AOS 18.X (88%), Argosy embedded (86%), Fujian Ruijie embedded (86%), GalaxyMetalGear embedded (86%)
+CPE: cpe:/o:adtran:aos:18.02.01.00.e cpe:/h:argosy:hd363n cpe:/h:fujianruijie:star-s2800 cpe:/h:galaxymetalgear:3507lr-sa
+seq(sp=f7%gcd=1%isr=ee%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m280%o5=m218%o6=m218)
+win(w1=3f2%w2=3f2%w3=3f2%w4=3f2%w5=3f2%w6=3f2)
+ecn(r=y%df=n%t=ff%w=3f2%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=ff%w=3f2%s=o%a=s+%f=as%o=m218%rd=0%q=)
+t4(r=y%df=n%t=ff%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m578%o3=m280%o4=m280%o5=m218%o6=m218)
+FingerAB:win(w1=3f2%w2=3f2%w3=3f2%w4=3f2%w5=3f2%w6=3f2)
+FingerAB:ecn(r=y%df=n%w=3f2%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=3f2%s=o%a=s+%f=as%o=m218%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=0-18%gcd=1393|2726|3ab9|4e4c|61df%isr=8a-94%ti=i%ci=i%ii=i%ss=s)
+FingerB:seq(sp=f7%gcd=1%isr=ee)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t2(t=fa-104%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t3(t=fa-104%tg=ff)
+FingerB:t3(t=ff)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

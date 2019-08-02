@@ -1,0 +1,66 @@
+Fingerprint: HP ProCurve 2510 switch
+Class: HP | embedded || switch
+CPE: cpe:/h:hp:procurve_switch_2510 auto
+seq(sp=96-a0%gcd=1-6%isr=9b-a5%ti=i%ii=i%ss=s%ts=1%ci=)
+ops(o1=m574nw0nnt11%o2=m574nw0nnt11%o3=m574nw0nnt11%o4=m574nw0nnt11%o5=m574nw0nnt11%o6=m574nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=2000%o=m574nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: HP ProCurve 2510 switch (97%), Nortel Ethernet Routing Switch 470-24T-PWR (91%), Cisco SPA 502G VoIP phone (90%), Rockwell Automation 1769-L23E-QB1 PLC (90%), SMC SMC8014WG WAP (88%), Netgear WGT624 WAP (88%), Westell WireSpeed B90-220030-04 DSL router (VxWorks) (88%)
+Class: HP embedded (97%), Nortel embedded (91%), Cisco embedded (90%), Rockwell Automation embedded (90%), SMC embedded (88%), Netgear embedded (88%), Westell embedded (88%), Wind River VxWorks (88%)
+CPE: cpe:/h:hp:procurve_switch_2510 cpe:/h:nortel:ethernet_routing_switch_470-24t-pwr cpe:/h:cisco:small_business_ip_phone:spa505g cpe:/h:rockwellautomation:1769-l23e-qb1 cpe:/h:smc:smc8014wg cpe:/h:netgear:wgt624 cpe:/h:westell:wirespeed_b90-220030-04 cpe:/o:windriver:vxworks
+seq(sp=f0%gcd=1%isr=e7)
+ops(o1=m574nw0nnt11%o2=m574nw0nnt11%o3=m574nw0nnt11%o4=m574nw0nnt11%o5=m574nw0nnt11%o6=m574nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=40%w=2000%o=m574nw0%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m574nw0nnt11%o2=m574nw0nnt11%o3=m574nw0nnt11%o4=m574nw0nnt11%o5=m574nw0nnt11%o6=m574nnt11)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%w=2000%o=m574nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=96-a0%gcd=1-6%isr=9b-a5%ti=i%ii=i%ss=s%ts=1%ci=)
+FingerB:seq(sp=f0%gcd=1%isr=e7)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

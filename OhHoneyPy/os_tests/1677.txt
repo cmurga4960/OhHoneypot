@@ -1,0 +1,61 @@
+Fingerprint: HP 2101nw wireless print server
+Class: HP | embedded || print server
+CPE: cpe:/h:hp:2101nw auto
+seq(sp=0-8b%gcd=1-6%isr=41-61%ti=i%ts=u%ii=%ci=)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m5b4%o5=m218%o6=m109)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=7b-85%tg=80%w=2000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=7b-85%tg=80%w=2000%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=n%t=7b-85%tg=80%w=2000%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=7b-85%tg=80%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=7b-85%tg=80%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=7b-85%tg=80%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+Fingerprint: HP 2101nw wireless print server (98%), m3 muvid IR 715-2 Internet radio receiver (93%), Revo Blik Wi-Fi Internet radio (93%), Roberts STREAM 202 Internet radio (93%), Rigol DSG3060 signal generator (89%), Grandstream GXP2000 VoIP phone (88%), Toshiba e-STUDIO 280 printer (88%), Toshiba e-STUDIO 4511 printer (88%)
+Class: HP embedded (98%), m3 embedded (93%), Revo embedded (93%), Roberts embedded (93%), Rigol Technologies embedded (89%), Grandstream embedded (88%), Toshiba embedded (88%)
+CPE: cpe:/h:hp:2101nw cpe:/h:revo:blik_wi-fi cpe:/h:roberts:stream_202 cpe:/h:rigol_technologies:dsg3060 cpe:/h:grandstream:gxp2000 cpe:/h:toshibatec:e-studio-280
+seq(sp=f4%gcd=1%isr=eb%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m5b4%o5=m218%o6=m109)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%tg=80%w=2000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=80%w=2000%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=n%tg=80%w=2000%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%tg=80%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=80%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%tg=80%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m578%o3=m280%o4=m5b4%o5=m218%o6=m109)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%tg=80%w=2000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=80%w=2000%s=o%a=s+%f=as%o=m109%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=80%w=2000%s=a+%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=80%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=80%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=80%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=0-8b%gcd=1-6%isr=41-61%ti=i%ii=%ci=)
+FingerB:seq(sp=f4%gcd=1%isr=eb)
+
+FingerA:ecn(t=7b-85)
+FingerA:t1(t=7b-85)
+FingerA:t3(t=7b-85)
+FingerA:t4(t=7b-85)
+FingerA:t5(t=7b-85)
+FingerA:t6(t=7b-85)
+FingerA:t7(t=7b-85)
+
+

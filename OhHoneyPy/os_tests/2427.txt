@@ -1,0 +1,77 @@
+Fingerprint: OpenWrt (Linux 2.4.30 - 2.4.34)
+Class: Linux | Linux | 2.4.X | WAP
+CPE: cpe:/o:linux:linux_kernel:2.4 auto
+seq(sp=ae-cc%gcd=1-6%isr=c0-d4%ti=z%ii=i%ts=u%ci=)
+ops(r=n)
+win(r=n)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16d0%s=o%a=s+%f=as%o=m5b4nnsnw0%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: OpenWrt (Linux 2.4.30 - 2.4.34) (95%), Alcatel-Lucent OmniPCX Enterprise PBX (Linux 2.4.17) (94%), OpenWrt 0.9 - 10.03 (Linux 2.4.30 - 2.4.37) (94%), OpenWrt White Russian 0.9 (Linux 2.4.30) (94%), Linux 2.6.24 (93%), Linux 2.6.18 (93%), Vilar IP Camera (Linux 2.6) (93%), Avocent DSR1030 KVM over IP switch (93%), Toshiba Magnia SG10 server appliance (Linux 2.4.18) (93%), Linux 2.6.14 - 2.6.18 (93%)
+Class: Linux 2.4.X|2.6.X (95%), Alcatel-Lucent embedded (94%), Vilar embedded (93%), Avocent embedded (93%), Toshiba embedded (93%), Aastra embedded (93%)
+CPE: cpe:/o:linux:linux_kernel:2.4 cpe:/h:alcatel-lucent:omnipcx cpe:/o:linux:linux_kernel:2.4.17 cpe:/o:linux:linux_kernel:2.6.24 cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:2.4.18 cpe:/h:toshiba:magnia_sg10
+seq(ci=i)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nnsnw0%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=16d0%s=o%a=s+%f=as%o=m5b4nnsnw0%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nnsnw0%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16d0%s=o%a=s+%f=as%o=m5b4nnsnw0%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=ae-cc%gcd=1-6%isr=c0-d4%ti=z%ii=i%ts=u%ci=)
+FingerB:seq(ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

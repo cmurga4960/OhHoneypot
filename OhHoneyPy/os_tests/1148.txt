@@ -1,0 +1,66 @@
+Fingerprint: Dell Remote Access Controller 4/I
+Class: Dell | embedded || remote management
+CPE: cpe:/h:dell:remote_access_card:4
+seq(sp=fe-108%gcd=1-6%isr=107-111%ti=rd|ri%ts=u%ii=%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=1000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=o|s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=g%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Dell Remote Access Controller 4/I (97%), Blue Coat PacketShaper appliance (93%), Polycom MGC-25 videoconferencing system (pSOS 1.0.4) (91%), Panasonic WV-SP300 or WV-SF330 webcam (90%), Ricoh Aficio BP20N printer (89%), Dell Remote Access Controller 4 (DRAC 4) (88%)
+Class: Dell embedded (97%), Blue Coat embedded (93%), Polycom pSOS 1.X (91%), Panasonic embedded (90%), Ricoh embedded (89%)
+CPE: cpe:/h:dell:remote_access_card:4 cpe:/h:bluecoat:packetshaper cpe:/o:polycom:psos:1.0.4 cpe:/h:panasonic:wv-sp300 cpe:/h:panasonic:wv-sf330 cpe:/h:ricoh:aficio_bp20n
+seq(sp=f8%gcd=1%isr=ef%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=40%w=1000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+FingerAB:ecn(r=y%df=n%w=1000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fe-108%gcd=1-6%isr=107-111%ti=rd|ri%ii=%ci=)
+FingerB:seq(sp=f8%gcd=1%isr=ef)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40%a=o|s+)
+FingerB:t5(t=40%a=o)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

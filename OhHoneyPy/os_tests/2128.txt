@@ -1,0 +1,72 @@
+Fingerprint: Joyent SmartOS
+Class: Joyent | SmartOS || general purpose
+CPE: cpe:/o:joyent:smartos auto
+seq(sp=9b-a5%gcd=1-6%isr=a6-b0%ti=i%ci=i%ii=i%ss=s%ts=a)
+ops(o1=st11m5b4nw5%o2=st11m5b4nw5%o3=nnt11m5b4nw5%o4=st11m5b4nw5%o5=st11m5b4nw5%o6=st11m5b4)
+win(w1=8026%w2=8017%w3=8005%w4=800e%w5=800e%w6=fff7)
+ecn(r=y%df=y%t=37-41%tg=40%w=8024%o=m5b4nnsnw5%cc=y%q=)
+t1(r=y%df=y%t=37-41%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=70%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=y%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Joyent SmartOS (93%), Crestron XPanel control system (93%), Nintendo Wii game console (92%), Epson Stylus Pro 400 printer (91%), Sun Solaris 11 (90%), HP P2000 G3 NAS device (90%), Vodavi XTS-IP PBX (88%), NEC UNIVERGE SV8100 PBX (88%), FreeBSD 8.2-STABLE (88%), Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC (88%)
+seq(sp=109%gcd=1%isr=ff%ii=i)
+ops(o1=st11m5b4nw5%o2=st11m5b4nw5%o3=nnt11m5b4nw5%o4=st11m5b4nw5%o5=st11m5b4nw5%o6=st11m5b4)
+win(w1=8026%w2=8017%w3=8005%w4=800e%w5=800e%w6=fff7)
+ecn(r=y%df=y%t=40%w=8024%o=m5b4nnsnw5%cc=y%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=y%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ops(o1=st11m5b4nw5%o2=st11m5b4nw5%o3=nnt11m5b4nw5%o4=st11m5b4nw5%o5=st11m5b4nw5%o6=st11m5b4)
+FingerAB:win(w1=8026%w2=8017%w3=8005%w4=800e%w5=800e%w6=fff7)
+FingerAB:ecn(r=y%df=y%w=8024%o=m5b4nnsnw5%cc=y%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=y%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=9b-a5%gcd=1-6%isr=a6-b0%ti=i%ci=i%ss=s%ts=a)
+FingerB:seq(sp=109%gcd=1%isr=ff)
+
+FingerA:ecn(t=37-41%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=37-41%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=fa-104%tg=ff%ipl=70)
+FingerB:u1(t=3b%ipl=38%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t7(r=n)
+
+

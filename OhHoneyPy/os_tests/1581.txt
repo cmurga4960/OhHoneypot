@@ -1,0 +1,78 @@
+Fingerprint: Android 2.2 (Linux 2.6)
+Class: Google | Android | 2.X | phone
+Class: Linux | Linux | 2.6.X | phone
+CPE: cpe:/o:google:android:2.2 auto
+CPE: cpe:/o:google:android:2.2
+CPE: cpe:/o:linux:linux_kernel:2.6 auto
+seq(sp=c4-d2%gcd=1-6%isr=c7-d1%ti=z%ci=z%ii=i%ts=7)
+ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+win(w1=faf0%w2=faf0%w3=faf0%w4=faf0%w5=faf0%w6=faf0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=faf0%o=m5b4nnsnw1%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a|o%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=o|s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a|o%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=o|s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Android 2.2 (Linux 2.6) (98%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (95%), Linux 2.6.32 (93%), Linux 2.6.32 - 3.10 (93%), Android 2.2 (Linux 2.6.32) (93%), Android 2.2 - 2.3.5 (Linux 2.6.32 - 2.6.36) (93%), Ubiquiti AirOS 5.6.2 (Linux 2.6.32) (93%), Android 7.1.1 - 7.1.2 (92%), Android 4.3 (92%), DirecTV HR34 DVR (Linux 2.6.22) (92%)
+seq(sp=109%gcd=1%isr=ff)
+ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+win(w1=faf0%w2=faf0%w3=faf0%w4=faf0%w5=faf0%w6=faf0)
+ecn(r=y%df=y%t=40%w=faf0%o=m5b4nnsnw1%cc=y%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=o%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=o%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+FingerAB:win(w1=faf0%w2=faf0%w3=faf0%w4=faf0%w5=faf0%w6=faf0)
+FingerAB:ecn(r=y%df=y%w=faf0%o=m5b4nnsnw1%cc=y%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c4-d2%gcd=1-6%isr=c7-d1%ti=z%ci=z%ii=i%ts=7)
+FingerB:seq(sp=109%gcd=1%isr=ff)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40%s=a|o)
+FingerB:t4(t=40%s=o)
+
+FingerA:t5(t=3b-45%tg=40%a=o|s+)
+FingerB:t5(t=40%a=o)
+
+FingerA:t6(t=3b-45%tg=40%s=a|o)
+FingerB:t6(t=40%s=o)
+
+FingerA:t7(t=3b-45%tg=40%a=o|s+)
+FingerB:t7(t=40%a=o)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

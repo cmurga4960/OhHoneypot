@@ -1,0 +1,70 @@
+Fingerprint: D-Link DGS-3450 switch
+Class: D-Link | embedded || switch
+CPE: cpe:/h:dlink:dgs-3450 auto
+seq(sp=8d-97%gcd=1-6%isr=92-9c%ti=rd%ci=i%ii=ri%ts=1)
+ops(o1=nnt11|m5a4nw0nnt11%o2=nnt11|m5a4nw0nnt11%o3=nnt11|m5a4nw0nnt11%o4=nnt11|m5a4nw0nnt11%o5=nnt11|m5a4nw0nnt11%o6=nnt11|m5a4nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=1a-24%tg=20%w=2000%o=|m5a4nw0%cc=n%q=)
+t1(r=y%df=n%t=1a-24%tg=20%s=o%a=o|s+%f=a|as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=1a-24%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=1a-24%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=1a-24%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=1a-24%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=1a-24%tg=20%ipl=38%un=128|45c%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fb-105%tg=ff%cd=s)
+********************************************************
+Fingerprint: D-Link DGS-3450 switch (97%), Wyse ThinOS 6 (91%), D-Link DES-3326 switch (89%), Ricoh Aficio SP C210SF printer (88%), SMC SMC8014WG WAP (87%)
+Class: D-Link embedded (97%), Wyse ThinOS 6.X (91%), Ricoh embedded (88%), SMC embedded (87%)
+CPE: cpe:/h:dlink:dgs-3450 cpe:/o:wyse:thinos:6 cpe:/h:ricoh:aficio_sp_c210sf cpe:/h:smc:smc8014wg
+seq(sp=106%gcd=1%isr=fd%ci=i)
+ops(o1=nnt11%o2=nnt11%o3=nnt11%o4=nnt11%o5=nnt11%o6=nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%tg=20%w=2000%o=%cc=n%q=)
+t1(r=y%df=n%tg=20%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%tg=20%w=2000%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=20%s=o%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+--- Diff Values ---
+FingerA:seq(sp=8d-97%gcd=1-6%isr=92-9c%ti=rd%ii=ri%ts=1)
+FingerB:seq(sp=106%gcd=1%isr=fd)
+
+FingerA:ops(o1=nnt11|m5a4nw0nnt11%o2=nnt11|m5a4nw0nnt11%o3=nnt11|m5a4nw0nnt11%o4=nnt11|m5a4nw0nnt11%o5=nnt11|m5a4nw0nnt11%o6=nnt11|m5a4nnt11)
+FingerB:ops(o1=nnt11%o2=nnt11%o3=nnt11%o4=nnt11%o5=nnt11%o6=nnt11)
+
+FingerA:ecn(t=1a-24%o=|m5a4nw0)
+FingerB:ecn(o=)
+
+FingerA:t1(t=1a-24%a=o|s+%f=a|as)
+FingerB:t1(a=o%f=as)
+
+FingerA:t4(t=1a-24)
+FingerA:t5(t=1a-24)
+FingerA:t6(t=1a-24)
+FingerA:t7(t=1a-24)
+FingerA:u1(df=n%t=1a-24%tg=20%ipl=38%un=128|45c%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(dfi=s%t=fb-105%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

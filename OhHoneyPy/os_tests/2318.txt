@@ -1,0 +1,71 @@
+Fingerprint: Linksys WVC54G webcam
+Class: Linksys | embedded || webcam
+CPE: cpe:/h:linksys:wvc54g auto
+seq(sp=c5-cf%gcd=1-6%isr=ce-d8%ti=i%ci=i%ts=7%ii=)
+ops(o1=m550st11nw0%o2=m550st11nw0%o3=m550nnt11nw0%o4=m550st11nw0%o5=m550st11nw0%o6=m550st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=n%t=3b-45%tg=40%w=16d0%o=m550nnsnw0%cc=n)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0)
+t2(r=y%df=y%t=3a-44%tg=40%w=0%s=z%a=s%f=ar%rd=0)
+t3(r=n)
+t4(r=y%df=y%t=3a-44%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Linksys WVC54G webcam (95%), Sony Ericsson C902, W910i, or Z780i mobile phone (94%), Sony Ericsson W705 or W715 Walkman mobile phone (94%), Asus RT-AC66U router (Linux 2.6) (93%), Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (93%), Asus RT-N16 WAP (Linux 2.6) (93%), Asus RT-N66U WAP (Linux 2.6) (93%), Tomato 1.28 (Linux 2.6.22) (93%), AXIS 211A Network Camera (Linux 2.6.20) (93%), D-Link DGS-1210 switch (93%)
+seq(ii=i)
+ecn(r=y%df=n%t=40%w=16d0%o=m550nnsnw0%cc=n%q=)
+t1(r=n)
+t2(r=y%df=y%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=n%w=16d0%o=m550nnsnw0%cc=n)
+FingerAB:t2(r=y%df=y%w=0%s=z%a=s%f=ar%rd=0)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c5-cf%gcd=1-6%isr=ce-d8%ti=i%ci=i%ts=7%ii=)
+FingerB:seq(ii=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40%q=)
+
+FingerA:t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0)
+FingerB:t1(r=n)
+
+FingerA:t2(t=3a-44%tg=40)
+FingerB:t2(t=40%o=%q=)
+
+FingerA:t4(t=3a-44%tg=40)
+FingerB:t4(t=40%o=%q=)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40%o=%q=)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40%o=%q=)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m550st11nw0%o2=m550st11nw0%o3=m550nnt11nw0%o4=m550st11nw0%o5=m550st11nw0%o6=m550st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerA:t7(r=n)
+
+

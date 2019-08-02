@@ -1,0 +1,77 @@
+Fingerprint: Cisco C860 router (IOS 15.2)
+Class: Cisco | IOS | 15.X | router
+CPE: cpe:/h:cisco:860_router
+CPE: cpe:/o:cisco:ios:15.2
+seq(sp=fa-106%gcd=1-6%isr=f9-10f%ti=rd%ci=rd%ii=ri%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+ecn(r=y%df=n%t=fb-105%tg=ff%w=1020%o=m5b4%cc=n)
+t1(r=y%df=n%t=fb-105%tg=ff%s=o%a=s+%f=as%rd=0)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=fb-105%tg=ff%w=0%s=a%a=z%f=r%rd=0)
+t5(r=y%df=n%t=fb-105%tg=ff%w=0%s=a%a=s+%f=ar%rd=0)
+t6(r=y%df=n%t=fb-105%tg=ff%w=0%s=a%a=z%f=r%rd=0)
+t7(r=y%df=n%t=fb-105%tg=ff%w=0%s=a%a=s%f=ar%rd=0)
+u1(df=n%t=fb-105%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fb-105%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco C860 router (IOS 15.2) (93%), Cisco Catalyst 3500 XL-series switch (12.0) (92%), Cisco 1841 router (IOS 12.4) (92%), Cisco IOS 15 (91%), Cisco 877 router (IOS 12.4) (90%), Nintendo Wii game console (90%), Cisco 2801 router (IOS 12.4) (90%), Cisco Aironet 1141N (IOS 12.4) or 3602I (IOS 15.3) WAP (90%), Cisco C860, C880, or 2821 router (IOS 12.4 - 15.0) (90%), Cisco Catalyst 2600-, 2900- or 3500 XL-series switch (IOS 11.3 - 12.0) (90%)
+seq(sp=fe%gcd=1%isr=f5%ci=i%ii=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+ecn(r=y%df=n%t=ff%w=1020%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3d%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+FingerAB:ecn(r=y%df=n%w=1020%o=m5b4%cc=n)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t5(r=y%df=n%w=0%s=a%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t7(r=y%df=n%w=0%s=a%a=s%f=ar%rd=0)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=fa-106%gcd=1-6%isr=f9-10f%ti=rd%ci=rd%ii=ri)
+FingerB:seq(sp=fe%gcd=1%isr=f5%ci=i%ii=i)
+
+FingerA:ecn(t=fb-105%tg=ff)
+FingerB:ecn(t=ff%q=)
+
+FingerA:t1(t=fb-105%tg=ff)
+FingerB:t1(t=ff%q=)
+
+FingerA:t4(t=fb-105%tg=ff)
+FingerB:t4(t=ff%o=%q=)
+
+FingerA:t5(t=fb-105%tg=ff)
+FingerB:t5(t=ff%o=%q=)
+
+FingerA:t6(t=fb-105%tg=ff)
+FingerB:t6(t=ff%o=%q=)
+
+FingerA:t7(t=fb-105%tg=ff)
+FingerB:t7(t=ff%o=%q=)
+
+FingerA:u1(t=fb-105%tg=ff)
+FingerB:u1(t=3d%r=y)
+
+FingerA:ie(t=fb-105%tg=ff)
+FingerB:ie(t=3d%r=y)
+
+
+

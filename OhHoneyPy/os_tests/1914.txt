@@ -1,0 +1,76 @@
+Fingerprint: HP OpenVMS 7.2
+Class: HP | OpenVMS | 7.X | general purpose
+CPE: cpe:/o:hp:openvms:7.2 auto
+seq(sp=8f-99%gcd=2|4|6|8|a%isr=97-a1%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=111c%w2=1068%w3=c80%w4=bb8%w5=c90%w6=c6c)
+ecn(r=y%df=n%t=37-41%tg=40%w=111c%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=37-41%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=37-41%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=37-41%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=37-41%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=37-41%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: HP OpenVMS 7.2 (96%), Crestron XPanel control system (93%), Compaq Tru64 UNIX 5.1 (92%), Nintendo Wii game console (91%), 3Com SuperStack 3 Switch 3870 (91%), Epson Stylus Pro 400 printer (91%), HP OpenVMS 8.3 (90%), Cisco IronPort C650 email security appliance (AsyncOS 7.0.1) (90%), HP OpenVMS 7.3 (90%), Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC (90%)
+seq(sp=106%gcd=1%isr=fd%ci=i%ts=u)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=111c%w2=1068%w3=c80%w4=bb8%w5=c90%w6=c6c)
+ecn(r=y%df=n%t=40%w=111c%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+FingerAB:win(w1=111c%w2=1068%w3=c80%w4=bb8%w5=c90%w6=c6c)
+FingerAB:ecn(r=y%df=n%w=111c%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=8f-99%gcd=2|4|6|8|a%isr=97-a1%ti=i%ii=i%ss=s)
+FingerB:seq(sp=106%gcd=1%isr=fd)
+
+FingerA:ecn(t=37-41%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=37-41%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=37-41%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=37-41%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=37-41%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=37-41%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

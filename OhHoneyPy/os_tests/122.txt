@@ -1,0 +1,64 @@
+Fingerprint: Allied Telesis AlliedWare version 54291-05
+Class: Allied Telesis | AlliedWare || router
+CPE: cpe:/o:alliedtelesis:alliedware:54291-05
+seq(sp=f7-107%gcd=1-6%isr=f9-115%ti=i%ii=ri%ss=s%ts=u%ci=)
+ops(o1=m400%o2=m400%o3=m280%o4=m400%o5=m218%o6=m109)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%t=3b-45%tg=40%w=400%o=m400%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=3b-45%tg=40%w=400%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=s%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: Allied Telesis AlliedWare version 54291-05 (99%), Allied Telesyn AT-AR750s router (99%), Allied Telesyn AT-AR410 router (94%), Allied Telesyn Rapier 24i switch (94%), Allied Telesyn AT-AR300L CentreCOM router (94%), Bay Networks BayStack 450 switch (software version 4.2.0.16) (90%), Intel Express 510T, 520T, or 550T switch (90%), IBM OS/2 Warp 2.0 (89%)
+Class: Allied Telesis AlliedWare (99%), Allied Telesyn AlliedWare (99%), Allied Telesyn embedded (94%), Bay Networks embedded (90%), Intel embedded (90%), IBM OS/2 4.X (89%)
+CPE: cpe:/o:alliedtelesis:alliedware:54291-05 cpe:/h:alliedtelesyn:at-ar750s cpe:/o:alliedtelesyn:alliedware cpe:/h:alliedtelesyn:rapier_24i cpe:/h:baynetworks:baystack_450 cpe:/o:ibm:os2:4
+seq(sp=fe%gcd=1%isr=f5%ci=i%ts=u)
+ops(o1=m400%o2=m400%o3=m280%o4=m400%o5=m218%o6=m109)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%tg=40%w=400%o=m400%cc=n%q=)
+t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%tg=40%w=400%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=n%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m400%o2=m400%o3=m280%o4=m400%o5=m218%o6=m109)
+FingerAB:win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+FingerAB:ecn(r=y%df=n%tg=40%w=400%o=m400%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%tg=40%w=400%s=o%a=s+%f=as%o=m109%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=f7-107%gcd=1-6%isr=f9-115%ti=i%ii=ri%ss=s%ci=)
+FingerB:seq(sp=fe%gcd=1%isr=f5%ci=i)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t2(t=3b-45)
+FingerA:t3(t=3b-45)
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:t7(t=3b-45)
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=z)
+FingerB:ie(r=n)
+
+
+

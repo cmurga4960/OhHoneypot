@@ -1,0 +1,66 @@
+Fingerprint: D-Link DGS-1210 switch
+Class: D-Link | embedded || switch
+CPE: cpe:/h:dlink:dgs-1210
+seq(sp=0-5%gcd=388|710|a98|e20|11a8%isr=64-6e%ti=i%ii=i%ss=o%ts=7%ci=)
+ops(o1=m578nnt11%o2=m578nnt11%o3=m578nnt11%o4=m578nnt11%o5=m218nnt11%o6=m109nnt11)
+win(w1=2400%w2=2400%w3=2400%w4=2400%w5=2400%w6=2400)
+ecn(r=y%df=n%t=37-41%tg=40%w=0%o=%cc=n%q=)
+t1(r=y%df=n%t=37-41%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=37-41%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: D-Link DGS-1210 switch (93%), Tomato 1.27 - 1.28 (Linux 2.4.20) (90%), Linux 2.6.18 - 2.6.22 (90%), SiliconDust HDHomeRun set top box (87%), Motorola RFS 6000 wireless switch (85%), Linux 3.2.0 (85%)
+Class: D-Link embedded (93%), Linux 2.4.X|2.6.X|3.X (90%), Silicondust embedded (87%), Motorola embedded (85%)
+CPE: cpe:/h:dlink:dgs-1210 cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6 cpe:/h:silicondust:hdhr cpe:/h:motorola:rfs_6000 cpe:/o:linux:linux_kernel:3.2.0
+seq(sp=fe%gcd=1%isr=f5%ti=i)
+ops(o1=m578nnt11%o2=m578nnt11%o3=m578nnt11%o4=m578nnt11%o5=m218nnt11%o6=m109nnt11)
+win(w1=2400%w2=2400%w3=2400%w4=2400%w5=2400%w6=2400)
+ecn(r=y%df=n%t=40%w=0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ti=i)
+FingerAB:ops(o1=m578nnt11%o2=m578nnt11%o3=m578nnt11%o4=m578nnt11%o5=m218nnt11%o6=m109nnt11)
+FingerAB:win(w1=2400%w2=2400%w3=2400%w4=2400%w5=2400%w6=2400)
+FingerAB:ecn(r=y%df=n%w=0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-5%gcd=388|710|a98|e20|11a8%isr=64-6e%ii=i%ss=o%ts=7%ci=)
+FingerB:seq(sp=fe%gcd=1%isr=f5)
+
+FingerA:ecn(t=37-41%tg=40%o=)
+FingerB:ecn(t=40%o=m5b4)
+
+FingerA:t1(t=37-41%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=37-41%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

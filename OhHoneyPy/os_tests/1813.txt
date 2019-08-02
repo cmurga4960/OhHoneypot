@@ -1,0 +1,81 @@
+Fingerprint: HP 4000M ProCurve switch (J4121A)
+Class: HP | embedded || switch
+CPE: cpe:/h:hp:procurve_switch_4000m
+seq(sp=c-16%gcd=fa00|1f400|2ee00|3e800|4e200%isr=97-a1%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5ac%o2=m5ac%o3=m5ac%o4=m5ac%o5=m5ac%o6=m5ac)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=1000%o=m5ac%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=1000%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=1000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: HP 4000M ProCurve switch (J4121A) (95%), IBM OS/2 Warp 2.0 (95%), HP 2424M ProCurve switch (J4093A) (94%), HP ProCurve 2524 switch or 9100c Digital Sender printer (91%), Avaya Intuity Audix Multimedia Messaging System (90%), IBM OS/2 Warp Connect (90%), SCO UnixWare 2.1 (90%), NCR 5676 or 5688 automated teller machine (89%), DEC Ultrix 4.0 (89%), HP ProCurve 2524 switch (89%)
+Class: HP embedded (95%), IBM OS/2 4.X|3.X (95%), Avaya embedded (90%), SCO UnixWare 2.X (90%), NCR embedded (89%), DEC Ultrix 4.X (89%), SCO SCO UNIX 3.X (89%), Wyse ThinOS 7.X (89%)
+CPE: cpe:/h:hp:procurve_switch_4000m cpe:/o:ibm:os2:4 cpe:/h:hp:9100c_digital_sender cpe:/o:ibm:os2:3 cpe:/o:sco:unixware:2.1 cpe:/o:dec:ultrix:4.0 cpe:/o:sco:sco_unix:3.2 cpe:/o:wyse:thinos:7.1
+seq(sp=ee%gcd=1%isr=e5%ts=u)
+ops(o1=m5ac%o2=m5ac%o3=m5ac%o4=m5ac%o5=m5ac%o6=m5ac)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=40%w=1000%o=m5ac%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=1000%s=o%a=o%f=a%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=40%w=1000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=0%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5ac%o2=m5ac%o3=m5ac%o4=m5ac%o5=m5ac%o6=m5ac)
+FingerAB:win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+FingerAB:ecn(r=y%df=n%w=1000%o=m5ac%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=1000%s=o%a=o%f=a%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=1000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=fa00|1f400|2ee00|3e800|4e200%isr=97-a1%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=ee%gcd=1%isr=e5)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40%o=)
+FingerB:t3(t=40%o=m5b4)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

@@ -1,0 +1,77 @@
+Fingerprint: HP LaserJet 5M printer
+Class: HP | embedded || printer
+CPE: cpe:/h:hp:laserjet_5m auto
+seq(sp=0-1b%gcd=1-6%isr=15-1f%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m218)
+win(w1=860%w2=860%w3=860%w4=860%w5=860%w6=860)
+ecn(r=y%df=n%t=3b-3d%tg=40%w=860%o=m218%cc=n%q=)
+t1(r=y%df=n%t=3b-3d%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-3d%tg=40%w=860%s=o%a=s+%f=as%o=m218%rd=0%q=)
+t4(r=y%df=n%t=3b-3d%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-3d%tg=40%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-3d%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-3d%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=g%rud=g)
+ie(dfi=n%t=3b-3d%tg=40%cd=z)
+********************************************************
+Fingerprint: HP LaserJet 5M printer (95%), HP LaserJet 8100 Series printer (92%), HP LaserJet 4000 printer (88%), HP LaserJet 4250 printer (88%), HP LaserJet 5 printer (86%), HP LaserJet 4MV or 4000TN printer (86%), HP LaserJet 4Si or LaserJet 4 Plus printer (86%), HP DesignJet 650C printer (86%)
+Class: HP embedded (95%)
+CPE: cpe:/h:hp:laserjet_5m
+seq(sp=104%gcd=1%isr=fb%ci=i%ts=u)
+ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m218)
+win(w1=860%w2=860%w3=860%w4=860%w5=860%w6=860)
+ecn(r=y%df=n%t=40%w=860%o=m218%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=860%s=o%a=s+%f=as%o=m218%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m218)
+FingerAB:win(w1=860%w2=860%w3=860%w4=860%w5=860%w6=860)
+FingerAB:ecn(r=y%df=n%w=860%o=m218%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=860%s=o%a=s+%f=as%o=m218%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=0-1b%gcd=1-6%isr=15-1f%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=104%gcd=1%isr=fb%ci=i)
+
+FingerA:ecn(t=3b-3d%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-3d%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-3d%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-3d%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-3d%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-3d%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-3d%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-3d%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t7(r=n)
+
+

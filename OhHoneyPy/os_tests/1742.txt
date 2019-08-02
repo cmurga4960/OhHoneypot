@@ -1,0 +1,79 @@
+Fingerprint: HP LaserJet 600 M601, 600 M602, 500 M551, or M830 printer
+Class: HP | embedded || printer
+seq(sp=fb-10b%gcd=1-6%isr=fb-113%ti=i%ci=i%ii=i%ss=s%ts=a)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+ecn(r=y%df=y%t=3b-45%tg=40%w=5b4%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=5b4%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=70%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: HP JetDirect 635n print server (95%), HP LaserJet 2055dn, 2420, P3005, CP4005, 4250, P4014, or P4015 printer (95%), HP LaserJet 4014 printer (95%), HP LaserJet 600 M601, 600 M602, 500 M551, or M830 printer (95%), Cisco EPC3212 or Scientific Atlanta WebSTAR EPX2203 cable modem (95%), FreeBSD 4.11-RELEASE (x86) (95%), VxWorks (95%), IBM AIX 7.2 (95%), Cisco EPC3208 cable modem (94%), HP ProCurve 1810G, or Netgear GS108v2, GS110TP, GS716T, or GS724TP switch (eCos 2.0) (94%)
+Class: HP embedded (95%), Cisco embedded (95%), Scientific Atlanta embedded (95%), FreeBSD 4.X (95%), Wind River VxWorks (95%), IBM AIX 7.X (95%), eCosCentric eCos 2.X (94%), Netgear embedded (94%)
+CPE: cpe:/h:hp:jetdirect_635n cpe:/h:cisco:epc3212 cpe:/h:sciatl:webstar_epx2203 cpe:/o:freebsd:freebsd:4.11 cpe:/o:windriver:vxworks cpe:/o:ibm:aix:7.2 cpe:/o:ecoscentric:ecos:2.0
+seq(sp=e0%gcd=1%isr=d6)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+ecn(r=y%df=y%t=40%w=5b4%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=5b4%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerAB:win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+FingerAB:ecn(r=y%df=y%w=5b4%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=5b4%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=fb-10b%gcd=1-6%isr=fb-113%ti=i%ci=i%ii=i%ss=s%ts=a)
+FingerB:seq(sp=e0%gcd=1%isr=d6)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40%ipl=70)
+FingerB:u1(t=3b%ipl=38%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

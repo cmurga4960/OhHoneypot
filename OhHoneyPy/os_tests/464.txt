@@ -1,0 +1,81 @@
+Fingerprint: Avocent ACS5016 console server (Linux 2.6.22)
+Class: Avocent | embedded || terminal server
+Class: Linux | Linux | 2.6.X | terminal server
+CPE: cpe:/h:avocent:acs5016
+CPE: cpe:/o:linux:linux_kernel:2.6.22 auto
+seq(sp=c9-d3%gcd=1-6%isr=ea-f4%ti=i%ci=z%ii=i%ss=s%ts=8)
+ops(o1=m5b4st11nw2%o2=m5b4st11nw2%o3=m5b4nnt11nw2%o4=m5b4st11nw2%o5=m5b4st11nw2%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=n%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw2%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw2%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Avocent ACS 5000 console server (Linux 2.6.11) (97%), Brocade Fabric OS 7.4.1 (Linux 2.6.14) (96%), Aerohive HiveOS 3.4 (96%), Avocent ACS5016 console server (Linux 2.6.22) (96%), Cisco IP Phone 9951 or 9971 (96%), Linux 2.6.12 - 2.6.14 (embedded) (95%), Linux 2.6.18 - 2.6.32 (95%), Linux 2.6.22 (embedded, ARM) (95%), Linux 2.6.13 - 2.6.32 (95%), Linux 2.6.9 (95%)
+Class: Avocent embedded (97%), Brocade Fabric OS 7.X (96%), Linux 2.6.X (96%), Aerohive HiveOS 3.X (96%), Cisco embedded (96%), Riverbed RiOS (95%), Aruba ArubaOS 3.X (95%), Aruba embedded (94%)
+CPE: cpe:/o:brocade:fabric_os:7.4.1 cpe:/o:linux:linux_kernel:2.6.14 cpe:/o:aerohive:hiveos:3.4 cpe:/h:avocent:acs5016 cpe:/o:linux:linux_kernel:2.6.22 cpe:/o:riverbed:rios cpe:/o:arubanetworks:arubaos:3.3.2 cpe:/h:arubanetworks:iap-105
+seq(sp=104%gcd=1%isr=fb%ci=i)
+ops(o1=m5b4st11nw2%o2=m5b4st11nw2%o3=m5b4nnt11nw2%o4=m5b4st11nw2%o5=m5b4st11nw2%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=n%t=40%w=16d0%o=m5b4nnsnw2%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw2%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw2%o2=m5b4st11nw2%o3=m5b4nnt11nw2%o4=m5b4st11nw2%o5=m5b4st11nw2%o6=m5b4st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=n%w=16d0%o=m5b4nnsnw2%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw2%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c9-d3%gcd=1-6%isr=ea-f4%ti=i%ci=z%ii=i%ss=s%ts=8)
+FingerB:seq(sp=104%gcd=1%isr=fb%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

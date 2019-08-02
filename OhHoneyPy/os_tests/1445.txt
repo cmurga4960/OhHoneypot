@@ -1,0 +1,70 @@
+Fingerprint: FreeBSD 7.0-CURRENT
+Class: FreeBSD | FreeBSD | 7.X | general purpose
+CPE: cpe:/o:freebsd:freebsd:7.0
+seq(sp=f2-110%gcd=1-6%isr=108-114%ti=i%ii=i%ss=s%ts=a%ci=)
+ops(o1=m5b4nw1nnt11sll%o2=m578nw1nnt11sll%o3=m280nw1nnt11%o4=m5b4nw1nnt11sll%o5=m218nw1nnt11sll%o6=m109nnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=ffff%o=m5b4nw1sll%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: FreeBSD 7.0-CURRENT (98%), FreeBSD 7.0-CURRENT (pre-release) (95%), FreeBSD 6.2-RELEASE (95%), Apple Mac OS X 10.4.8 - 10.4.11 (Tiger) (Darwin 8.8.0 - 8.11.0) (94%), Apple Mac OS X 10.5 (Leopard) - 10.6.8 (Snow Leopard) or iOS 4.0 - 4.2.1 (Darwin 9.0.0b5 - 10.8.0) (93%), Apple Mac OS X 10.4.11 (Tiger) (Darwin 8.11.0) (93%), Apple Mac OS X 10.4.11 (Tiger) (Darwin 8.11.0, PowerPC) (93%), Apple iPhone mobile phone (iPhone OS 2.1) (93%), Apple Mac OS X 10.3.9 (Panther) - 10.4.7 (Tiger) (Darwin 7.9.0 - 8.7.8, PowerPC) (93%), Apple Mac OS X 10.4.8 - 10.4.11 (Tiger) (Darwin 8.8.0 - 8.11.1) (93%)
+seq(sp=106%gcd=1%isr=fd%ci=i)
+ops(o1=m5b4nw1nnt11sll%o2=m578nw1nnt11sll%o3=m280nw1nnt11%o4=m5b4nw1nnt11sll%o5=m218nw1nnt11sll%o6=m109nnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=40%w=ffff%o=m5b4nw1sll%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw1nnt11sll%o2=m578nw1nnt11sll%o3=m280nw1nnt11%o4=m5b4nw1nnt11sll%o5=m218nw1nnt11sll%o6=m109nnt11sll)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=y%w=ffff%o=m5b4nw1sll%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=f2-110%gcd=1-6%isr=108-114%ti=i%ii=i%ss=s%ts=a%ci=)
+FingerB:seq(sp=106%gcd=1%isr=fd%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

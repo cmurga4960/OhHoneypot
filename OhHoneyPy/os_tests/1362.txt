@@ -1,0 +1,66 @@
+Fingerprint: FreeBSD 10.3-STABLE
+Class: FreeBSD | FreeBSD | 10.X | general purpose
+CPE: cpe:/o:freebsd:freebsd:10.3 auto
+seq(sp=100-10a%gcd=1-6%isr=104-10e%ts=u%ii=%ti=%ci=)
+ops(o1=m5b4%o2=m578%o3=m514%o4=m3fd8%o5=m514%o6=m514)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=ffff%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: FreeBSD 10.3-STABLE (98%), Blue Coat PacketShaper appliance (91%), Polycom MGC-25 videoconferencing system (pSOS 1.0.4) (90%)
+Class: FreeBSD 10.X (98%), Blue Coat embedded (91%), Polycom pSOS 1.X (90%)
+CPE: cpe:/o:freebsd:freebsd:10.3 cpe:/h:bluecoat:packetshaper cpe:/o:polycom:psos:1.0.4
+seq(sp=100%gcd=1%isr=f7%ts=u)
+ops(o1=m5b4%o2=m578%o3=m514%o4=m3fd8%o5=m514%o6=m514)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=40%w=ffff%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m578%o3=m514%o4=m3fd8%o5=m514%o6=m514)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=y%w=ffff%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=100-10a%gcd=1-6%isr=104-10e%ii=%ti=%ci=)
+FingerB:seq(sp=100%gcd=1%isr=f7)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

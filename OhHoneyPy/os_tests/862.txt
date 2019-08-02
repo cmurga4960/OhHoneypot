@@ -1,0 +1,70 @@
+Fingerprint: Cisco IOS 12.2
+Class: Cisco | IOS | 12.X | router
+CPE: cpe:/o:cisco:ios:12.2 auto
+seq(sp=101-10b%gcd=1-6%isr=108-112%ti=z%ii=ri%ts=u%ci=)
+ops(o1=m5b4w0l%o2=m578w0l%o3=m280w0l%o4=m218w0l%o5=m218w0l%o6=m109)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%t=38-42%tg=40%w=8000%o=m5b4w0l%cc=n%q=)
+t1(r=y%df=n%t=38-42%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=38-42%tg=40%w=8000%s=o%a=o%f=as%o=m109w0l%rd=0)
+t4(r=n)
+t5(r=y%df=n%t=38-42%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fb-105%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fb-105%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco IOS 12.2 (93%), Apple AirPort Extreme 802.11ac WAP or Time Capsule NAS device or NetBSD 6.1 (86%), Mitsubishi Q06UDEH CPU PLC module (85%), Phoenix Contact ILC 171 ETH 2TX PLC (85%), FireBrick FB2700 firewall (85%)
+Class: Cisco IOS 12.X (93%), Apple embedded (86%), NetBSD 6.X (86%), Mitsubishi embedded (85%), Phoenix Contact embedded (85%), FireBrick embedded (85%)
+CPE: cpe:/o:cisco:ios:12.2 cpe:/h:apple:airport_extreme cpe:/h:apple:time_capsule:7.7.2 cpe:/o:netbsd:netbsd:6.1 cpe:/h:phoenix_contact:ilc_171_eth_2tx cpe:/h:firebrick:fb2700
+seq(sp=bb%gcd=1%isr=b2%ii=i%ts=u)
+ops(o1=m5b4w0l%o2=m578w0l%o3=m280w0l%o4=m218w0l%o5=m218w0l%o6=m109)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%t=40%w=8000%o=m5b4w0l%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=8000%s=o%a=o%f=as%o=m109w0l%rd=0%q=)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3d%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4w0l%o2=m578w0l%o3=m280w0l%o4=m218w0l%o5=m218w0l%o6=m109)
+FingerAB:win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+FingerAB:ecn(r=y%df=n%w=8000%o=m5b4w0l%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=8000%s=o%a=o%f=as%o=m109w0l%rd=0)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=101-10b%gcd=1-6%isr=108-112%ti=z%ii=ri%ci=)
+FingerB:seq(sp=bb%gcd=1%isr=b2%ii=i)
+
+FingerA:ecn(t=38-42%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=38-42%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=38-42%tg=40)
+FingerB:t3(t=40%q=)
+
+FingerA:t5(t=38-42%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=fb-105%tg=ff)
+FingerB:u1(t=3d%r=y)
+
+FingerA:ie(t=fb-105%tg=ff)
+FingerB:ie(t=3d%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

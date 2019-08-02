@@ -1,0 +1,86 @@
+Fingerprint: Bell Labs Plan 9 4th edition
+Class: Bell Labs | Plan 9 | 4th edition | general purpose
+CPE: cpe:/o:belllabs:plan_9:4th_edition auto
+seq(sp=f8-10c%gcd=1-6%isr=104-10f%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4w1n|m5b4w2n|m5b4w3n%o2=m5b4w1n|m5b4w2n|m5b4w3n%o3=m5b4w1n|m5b4w2n|m5b4w3n%o4=m5b4w1n|m5b4w2n|m5b4w3n%o5=m5b4w1n|m5b4w2n|m5b4w3n%o6=m5b4)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=ffff%o=m5b4w1n|m5b4w2n|m5b4w3n%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=fa-104%tg=ff%w=ffff%s=o%a=s+%f=as%o=m5b4w1n|m5b4w2n|m5b4w3n%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Bell Labs Plan 9 4th edition (99%), Bell Labs Plan 9 edition (95%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (92%), Netopia 3387WG-ENT broadband router (91%), Netopia 3300-series ADSL router (91%), Netopia 3346N-VGx ADSL router (91%), Cisco IP Phone 7912-series (90%), Tyco 24 Port SNMP Managed Switch (89%), Huawei VRP 5.160 (89%), Asmax NAS-USB print server; or Argosy HD354N, Freecom Network Drive, or Iomega Home Media Network Hard Drive NAS device (89%)
+Class: Bell Labs Plan 9 4th edition (99%), Linux (92%), Netopia embedded (91%), Netopia SOC OS 7.X (91%), Cisco embedded (90%), Tyco embedded (89%), Huawei VRP 5.X (89%), Argosy embedded (89%)
+CPE: cpe:/o:belllabs:plan_9:4th_edition cpe:/o:belllabs:plan_9 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:netopia:3387wg-ent cpe:/o:netopia:soc_os:7 cpe:/h:cisco:unified_ip_phone_7912 cpe:/o:huawei:vrp:5.160
+seq(sp=104%gcd=1%isr=fb%ti=i%ci=i%ts=u)
+ops(o1=m5b4w1n%o2=m5b4w1n%o3=m5b4w1n%o4=m5b4w1n%o5=m5b4w1n%o6=m5b4)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%t=ff%w=ffff%o=m5b4w1n%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=ff%w=ffff%s=o%a=s+%f=as%o=m5b4w1n%rd=0%q=)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ti=i%ci=i%ts=u)
+FingerAB:ops(o6=m5b4)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=n%w=ffff%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=ffff%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=f8-10c%gcd=1-6%isr=104-10f%ii=i%ss=s)
+FingerB:seq(sp=104%gcd=1%isr=fb)
+
+FingerA:ops(o1=m5b4w1n|m5b4w2n|m5b4w3n%o2=m5b4w1n|m5b4w2n|m5b4w3n%o3=m5b4w1n|m5b4w2n|m5b4w3n%o4=m5b4w1n|m5b4w2n|m5b4w3n%o5=m5b4w1n|m5b4w2n|m5b4w3n)
+FingerB:ops(o1=m5b4w1n%o2=m5b4w1n%o3=m5b4w1n%o4=m5b4w1n%o5=m5b4w1n)
+
+FingerA:ecn(t=fa-104%tg=ff%o=m5b4w1n|m5b4w2n|m5b4w3n)
+FingerB:ecn(t=ff%o=m5b4w1n)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t2(t=fa-104%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t3(t=fa-104%tg=ff%o=m5b4w1n|m5b4w2n|m5b4w3n)
+FingerB:t3(t=ff%o=m5b4w1n)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

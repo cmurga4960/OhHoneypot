@@ -1,0 +1,77 @@
+Fingerprint: Canon imageCLASS MF212w printer
+Class: Canon | embedded || printer
+CPE: cpe:/h:canon:imageclass_mf212w auto
+seq(sp=d4-de%gcd=1-6%isr=da-e4%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4w0l%o2=m5b4w0l%o3=m5b4w0l%o4=m5b4w0l%o5=m5b4w0l%o6=m5b4)
+win(w1=7918%w2=7918%w3=7918%w4=7918%w5=7918%w6=7918)
+ecn(r=y%df=n%t=130-13a%tg=ff%w=7918%o=m5b4w0l%cc=n%q=)
+t1(r=y%df=n%t=130-13a%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=130-13a%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=130-13a%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=130-13a%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=130-13a%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=130-13a%tg=ff%ipl=240%un=0%ripl=g%rid=g%ripck=g%ruck=849b%rud=i)
+ie(dfi=n%t=130-13a%tg=ff%cd=z)
+********************************************************
+Fingerprint: Canon imageCLASS MF212w printer (94%), Leica T camera (92%), Frontier Silicon internet radio (91%), Novatel MiFi 4620L WAP (91%), Olympus Stylus SH-2 camera (91%), Cisco IP Phone 7912-series (85%), Brother MFC-7820N printer (85%), Microsoft Xbox game console (modified, running XboxMediaCenter) (85%)
+Class: Canon embedded (94%), Leica embedded (92%), Frontier Silicon embedded (91%), Novatel embedded (91%), Olympus embedded (91%), Cisco embedded (85%), Brother embedded (85%), Microsoft embedded (85%)
+CPE: cpe:/h:canon:imageclass_mf212w cpe:/h:novatel:mifi_4620l cpe:/h:olympus:stylus_sh-2 cpe:/h:cisco:unified_ip_phone_7912 cpe:/h:brother:mfc-7820n
+seq(sp=107%gcd=1%isr=fd%ci=i%ts=u)
+ops(o1=m5b4w0l%o2=m5b4w0l%o3=m5b4w0l%o4=m5b4w0l%o5=m5b4w0l%o6=m5b4)
+win(w1=7918%w2=7918%w3=7918%w4=7918%w5=7918%w6=7918)
+ecn(r=y%df=n%t=ff%w=7918%o=m5b4w0l%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=240%un=0%ripl=g%rid=g%ripck=g%ruck=849b%rud=i)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5b4w0l%o2=m5b4w0l%o3=m5b4w0l%o4=m5b4w0l%o5=m5b4w0l%o6=m5b4)
+FingerAB:win(w1=7918%w2=7918%w3=7918%w4=7918%w5=7918%w6=7918)
+FingerAB:ecn(r=y%df=n%w=7918%o=m5b4w0l%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=240%un=0%ripl=g%rid=g%ripck=g%ruck=849b%rud=i)
+--- Diff Values ---
+FingerA:seq(sp=d4-de%gcd=1-6%isr=da-e4%ti=i%ii=i%ss=s)
+FingerB:seq(sp=107%gcd=1%isr=fd)
+
+FingerA:ecn(t=130-13a%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=130-13a%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t4(t=130-13a%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=130-13a%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=130-13a%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=130-13a%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=130-13a%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=130-13a%tg=ff%cd=z)
+FingerB:ie(r=n)
+
+
+

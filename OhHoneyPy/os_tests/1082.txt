@@ -1,0 +1,82 @@
+Fingerprint: D-Link DWL-900AP+, Planet WAP-1966, or USRobotics USR5450 WAP
+Class: D-Link | embedded || WAP
+Class: Planet | embedded || WAP
+Class: USRobotics | embedded || WAP
+CPE: cpe:/h:dlink:dwl-9000ap%2b
+CPE: cpe:/h:planet:wap-1966
+CPE: cpe:/h:usrobotics:usr5450 auto
+seq(sp=b-15%gcd=fa7f|1f4fe|2ef7d|3e9fc|4e47b|5defa%isr=96-a0%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=7f%tg=80%w=2000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=7f%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=7f%tg=80%w=2000%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=7f%tg=80%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=7f%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=7f%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=7f%tg=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=7f%tg=80%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=7f%tg=80%cd=s)
+********************************************************
+Fingerprint: Audio receiver: Bose Soundtouch 20, Bowers & Wilkins Zeppelin Air, Denon AVR-1900-series, Marantz NR1602, or Pioneer VSX-921 (95%), Huawei AP6050DN WAP (93%), Huawei VRP 3 switch (93%), D-Link DWL-G810 WAP (92%), D-Link DWL-900AP+, Planet WAP-1966, or USRobotics USR5450 WAP (91%), Denon AVR-3808CI audio/video receiver, Philips SLA5500 or SLA5520 Wireless Music Adapter or WAK3300 wireless alarm clock, or Terratec NOXON audio system (91%), 3Com 4200G or Huawei Quidway S5600 switch (91%), Siemens Gigaset SE567 WAP or SpeedStream 4200 ADSL modem (91%), 3Com SuperStack 3 Switch 4500 (91%), 3Com 4500G switch (91%)
+seq(sp=107%gcd=1%isr=fe%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=80%w=2000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=80%w=2000%s=o%a=o%f=a%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=80%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%w=2000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=2000%s=o%a=o%f=a%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=b-15%gcd=fa7f|1f4fe|2ef7d|3e9fc|4e47b|5defa%isr=96-a0%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=107%gcd=1%isr=fe%ci=i)
+
+FingerA:ecn(t=7f%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(t=7f%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t3(t=7f%tg=80%o=)
+FingerB:t3(t=80%o=m5b4)
+
+FingerA:t4(t=7f%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=7f%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=7f%tg=80)
+FingerB:t6(t=80)
+
+FingerA:t7(t=7f%tg=80)
+FingerB:t7(t=80)
+
+FingerA:u1(t=7f%tg=80)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=7f%tg=80%cd=s)
+FingerB:ie(r=n)
+
+
+

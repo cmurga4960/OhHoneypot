@@ -1,0 +1,81 @@
+Fingerprint: HP MPE/iX 7.5
+Class: HP | MPE/iX | 7.X | general purpose
+CPE: cpe:/o:hp:mpe_ix:7.5 auto
+seq(sp=c-16%gcd=1-6%isr=32-3c%ii=ri%ts=u%ti=%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=6000%w2=6000%w3=6000%w4=6000%w5=6000%w6=6000)
+ecn(r=y%df=n%t=c3-cd%tg=ff%w=6000%o=|m5b4%cc=n%q=)
+t1(r=y%df=n%t=c3-cd%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=c3-cd%tg=ff%w=6000%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=y%t=c3-cd%tg=ff%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=c3-cd%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=c3-cd%tg=ff%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=c3-cd%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=c3-cd%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=c3-cd%tg=ff%cd=s)
+********************************************************
+Fingerprint: HP MPE/iX 7.5 (94%), Netopia 2247 ADSL router (89%), Crestron MC2E, MP2E, PRO2, or QM-RMC control and automation system, or HP StorageWorks MSL4048 tape library (88%), Lexmark S305, S405, Pro 700, Pro 800, or Pro 900 printer (88%), Netopia 3300-series ADSL router (87%), Toshiba Magnia SG10 server appliance (Linux 2.4.18) (87%), OpenWrt (Linux 2.4.30 - 2.4.34) (87%), Oki B4545 printer (87%), Netopia 3387WG-ENT broadband router (87%), IBM BladeCenter management module, IBM System Storage TS3100/TS3200 Express Model tape library, or HP StorageWorks MSL2024 tape library (86%)
+Class: HP MPE/iX 7.X (94%), Netopia embedded (89%), Crestron embedded (88%), HP embedded (88%), Lexmark embedded (88%), Netopia SOC OS 7.X (87%), Linux 2.4.X (87%), Toshiba embedded (87%)
+CPE: cpe:/o:hp:mpe_ix:7.5 cpe:/h:netopia:2247 cpe:/h:hp:storageworks_msl4048 cpe:/o:netopia:soc_os:7 cpe:/o:linux:linux_kernel:2.4.18 cpe:/h:toshiba:magnia_sg10 cpe:/o:linux:linux_kernel:2.4
+seq(sp=f9%gcd=1%isr=f0%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=6000%w2=6000%w3=6000%w4=6000%w5=6000%w6=6000)
+ecn(r=y%df=n%t=ff%w=6000%o=%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=ff%w=6000%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=y%t=ff%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=ff%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=6000%w2=6000%w3=6000%w4=6000%w5=6000%w6=6000)
+FingerAB:ecn(r=y%df=n%w=6000%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=6000%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=1-6%isr=32-3c%ii=ri%ti=%ci=)
+FingerB:seq(sp=f9%gcd=1%isr=f0)
+
+FingerA:ecn(t=c3-cd%tg=ff%o=|m5b4)
+FingerB:ecn(t=ff%o=)
+
+FingerA:t1(t=c3-cd%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t3(t=c3-cd%tg=ff)
+FingerB:t3(t=ff)
+
+FingerA:t4(t=c3-cd%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=c3-cd%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=c3-cd%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=c3-cd%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=c3-cd%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=c3-cd%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

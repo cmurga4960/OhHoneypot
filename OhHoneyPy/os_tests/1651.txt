@@ -1,0 +1,66 @@
+Fingerprint: Grandstream GXV3000 VoIP phone
+Class: Grandstream | embedded || VoIP phone
+CPE: cpe:/h:grandstream:gxv3000 auto
+seq(sp=17-63%gcd=1-6%isr=6f-79%ti=i%ci=i%ii=ri%ss=o%ts=u)
+ops(o1=m5ac%o2=m578%o3=m280%o4=m5ac%o5=m218%o6=m109)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=y%t=fa-104%tg=ff%w=2000%o=m5ac%cc=n%q=)
+t1(r=y%df=y%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=fa-104%tg=ff%w=2000%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=y%t=fa-104%tg=ff%w=2000%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=fa-104%tg=ff%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=fa-104%tg=ff%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%t=fa-104%tg=ff%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(df=y%t=fa-104%tg=ff%ipl=38%un=2783|2fc7|7f19|d04d|d737%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=20-33%tg=40%cd=s)
+********************************************************
+Fingerprint: Grandstream GXV3000 VoIP phone (94%), Lyngsoe Systems RFID reader (92%), Tandberg TT 1122 video receiver (92%), m3 muvid IR 715-2 Internet radio receiver (87%), Revo Blik Wi-Fi Internet radio (87%), Roberts STREAM 202 Internet radio (87%), Grandstream GXP2000 VoIP phone (85%), DMP XR500 remote alarm monitor (85%), Basler ruL 2098-10gc GigE Vision Ethernet camera (85%)
+Class: Grandstream embedded (94%), Lyngsoe embedded (92%), Tandberg embedded (92%), m3 embedded (87%), Revo embedded (87%), Roberts embedded (87%), DMP embedded (85%), Basler embedded (85%)
+CPE: cpe:/h:grandstream:gxv3000 cpe:/h:tandberg:tt_1122 cpe:/h:revo:blik_wi-fi cpe:/h:roberts:stream_202
+seq(sp=108%gcd=1%isr=ff%ii=i%ts=u)
+ops(o1=m5ac%o2=m578%o3=m280%o4=m5ac%o5=m218%o6=m109)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=y%tg=ff%w=2000%o=m5ac%cc=n%q=)
+t1(r=y%df=y%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%tg=ff%w=2000%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=y%tg=ff%w=2000%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%tg=ff%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=ff%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%tg=ff%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=s%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5ac%o2=m578%o3=m280%o4=m5ac%o5=m218%o6=m109)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=y%tg=ff%w=2000%o=m5ac%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%tg=ff%w=2000%s=o%a=s+%f=as%o=m109%rd=0%q=)
+FingerAB:t4(r=y%df=y%tg=ff%w=2000%s=a+%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%tg=ff%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%tg=ff%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%tg=ff%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:ie(dfi=s%tg=40%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=17-63%gcd=1-6%isr=6f-79%ti=i%ci=i%ii=ri%ss=o)
+FingerB:seq(sp=108%gcd=1%isr=ff%ii=i)
+
+FingerA:ecn(t=fa-104)
+FingerA:t1(t=fa-104)
+FingerA:t3(t=fa-104)
+FingerA:t4(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:t7(t=fa-104)
+FingerA:u1(df=y%t=fa-104%tg=ff%ipl=38%un=2783|2fc7|7f19|d04d|d737%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(t=20-33)
+FingerB:ie(r=y)
+
+
+

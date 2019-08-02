@@ -1,0 +1,82 @@
+Fingerprint: Linksys WAP11 WAP; or Cameo SOHO-IS104A or SMC SMCWBR14-G or SMC2804WBR broadband router
+Class: Cameo | embedded || WAP
+Class: Linksys | embedded || WAP
+Class: SMC | embedded || broadband router
+CPE: cpe:/h:cameo:soho-is104a
+CPE: cpe:/h:linksys:wap11 auto
+CPE: cpe:/h:smc:smcwbr14-g
+CPE: cpe:/h:smc:smc2804wbr
+seq(sp=92-9c%gcd=1-6%isr=96-a0%ti=i%ii=i%ss=s%ts=1%ci=)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=2238%w2=20d0%w3=2080%w4=2000%w5=2180%w6=2017)
+ecn(r=y%df=n%t=3b-45%tg=40%w=2238%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=2017%s=o%a=o%f=a%o=nnt11%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=15c%rid=4210%ripck=z%ruck=0%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Linksys WAP11 WAP; or Cameo SOHO-IS104A or SMC SMCWBR14-G or SMC2804WBR broadband router (98%), 3Com OfficeConnect 3CRWE554G72T wireless broadband router (95%), HP DeskJet 1220, or LaserJet 1320 or 2550n printer; or TippingPoint 110 IPS (90%), IBM OS/2 Warp 2.0 (90%), HP JetDirect 175x print server or 9100c Digital Sender printer (89%), HP LaserJet 1300n, 1320nw, or 3550 printer (89%), HP LaserJet 2200DN printer (89%), HP LaserJet 3330/4050/4200/4600/5100/5550/9500 printer (89%), HP LaserJet 5500dtn or 5550 printer (89%), HP OpenVMS 7.3 - 8.3 (89%)
+seq(sp=106%gcd=1%isr=fc%ci=i)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=2238%w2=20d0%w3=2080%w4=2000%w5=2180%w6=2017)
+ecn(r=y%df=n%t=40%w=2238%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=2017%s=o%a=o%f=a%o=nnt11%rd=0%q=)
+t4(r=y%df=n%t=40%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=15c%rid=4210%ripck=z%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerAB:win(w1=2238%w2=20d0%w3=2080%w4=2000%w5=2180%w6=2017)
+FingerAB:ecn(r=y%df=n%w=2238%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=2017%s=o%a=o%f=a%o=nnt11%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=15c%rid=4210%ripck=z%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=92-9c%gcd=1-6%isr=96-a0%ti=i%ii=i%ss=s%ts=1%ci=)
+FingerB:seq(sp=106%gcd=1%isr=fc%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

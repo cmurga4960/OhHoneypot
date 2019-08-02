@@ -1,0 +1,82 @@
+Fingerprint: Android 4.0
+Class: Google | Android | 4.X | phone
+CPE: cpe:/o:google:android:4.0 auto
+seq(sp=f5-109%gcd=1-6%isr=106-110%ti=z%ci=z%ii=i%ts=7|8)
+ops(o1=nnt11|m5b4st11nw3|m5b4st11nw6%o2=nnt11|m5b4st11nw3|m5b4st11nw6%o3=nnt11|m5b4nnt11nw3|m5b4nnt11nw6%o4=nnt11|m5b4st11nw3|m5b4st11nw6%o5=nnt11|m5b4st11nw3|m5b4st11nw6%o6=nnt11|m5b4st11)
+win(w1=7120%w2=7120%w3=7120%w4=7120%w5=7120%w6=7120)
+ecn(r=y%df=y%t=3b-45%tg=40%w=7210%o=|m5b4nnsnw3|m5b4nnsnw6%cc=n|y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o|s+%f=a|as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=7120%s=o%a=o|s+%f=a|as%o=nnt11|m5b4st11nw3|m5b4st11nw6%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Android 4.0 (96%), OpenWrt (Linux 2.4.32) (94%), OpenWrt White Russian 0.9 (Linux 2.4.30) (94%), Linksys WRV54G WAP (94%), Buffalo TeraStation Pro II NAS device (94%), Toshiba REGZA TV (94%), Toshiba Magnia SG10 server appliance (Linux 2.4.18) (93%), Avocent DSR1021 KVM switch (92%), Belkin Wireless Pre-N Router (92%), OpenWrt (Linux 2.4.30 - 2.4.34) (92%)
+Class: Google Android 4.X (96%), Linux 2.4.X (94%), Linksys embedded (94%), Buffalo embedded (94%), Toshiba embedded (94%), Avocent embedded (92%), Belkin embedded (92%), AVM embedded (92%)
+CPE: cpe:/o:google:android:4.0 cpe:/o:linux:linux_kernel:2.4.32 cpe:/h:linksys:wrv54g cpe:/h:toshiba:regza cpe:/o:linux:linux_kernel:2.4.18 cpe:/h:toshiba:magnia_sg10 cpe:/h:avm:fritz%21box_fon_wlan_7240
+seq(sp=f4%gcd=1%isr=eb%ci=i)
+ops(o1=nnt11%o2=nnt11%o3=nnt11%o4=nnt11%o5=nnt11%o6=nnt11)
+win(w1=7120%w2=7120%w3=7120%w4=7120%w5=7120%w6=7120)
+ecn(r=y%df=y%t=40%w=7210%o=%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=7120%s=o%a=o%f=as%o=nnt11%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:win(w1=7120%w2=7120%w3=7120%w4=7120%w5=7120%w6=7120)
+FingerAB:ecn(r=y%df=y%w=7210%q=)
+FingerAB:t1(r=y%df=y%s=o%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=7120%s=o%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=f5-109%gcd=1-6%isr=106-110%ti=z%ci=z%ii=i%ts=7|8)
+FingerB:seq(sp=f4%gcd=1%isr=eb%ci=i)
+
+FingerA:ops(o1=nnt11|m5b4st11nw3|m5b4st11nw6%o2=nnt11|m5b4st11nw3|m5b4st11nw6%o3=nnt11|m5b4nnt11nw3|m5b4nnt11nw6%o4=nnt11|m5b4st11nw3|m5b4st11nw6%o5=nnt11|m5b4st11nw3|m5b4st11nw6%o6=nnt11|m5b4st11)
+FingerB:ops(o1=nnt11%o2=nnt11%o3=nnt11%o4=nnt11%o5=nnt11%o6=nnt11)
+
+FingerA:ecn(t=3b-45%tg=40%o=|m5b4nnsnw3|m5b4nnsnw6%cc=n|y)
+FingerB:ecn(t=40%o=%cc=n)
+
+FingerA:t1(t=3b-45%tg=40%a=o|s+%f=a|as)
+FingerB:t1(t=40%a=o%f=as)
+
+FingerA:t3(t=3b-45%tg=40%a=o|s+%f=a|as%o=nnt11|m5b4st11nw3|m5b4st11nw6)
+FingerB:t3(t=40%a=o%f=as%o=nnt11)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

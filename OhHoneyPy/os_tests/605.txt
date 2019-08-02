@@ -1,0 +1,59 @@
+Fingerprint: Brother MFC-7820N printer
+Class: Brother | embedded || printer
+CPE: cpe:/h:brother:mfc-7820n auto
+seq(sp=cb-d5%gcd=1-6%isr=d5-df%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=y%df=n%t=3b-45|7b-85%tg=40|80%s=o%a=s+%f=a|as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: GoPro HERO3 camera
+Class: GoPro embedded
+CPE: cpe:/h:gopro:hero3
+seq(ci=i)
+ecn(r=n)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=n)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=cb-d5%gcd=1-6%isr=d5-df%ti=i%ii=i%ss=s%ts=u%ci=)
+FingerB:seq(ci=i)
+
+FingerA:t1(r=y%df=n%t=3b-45|7b-85%tg=40|80%s=o%a=s+%f=a|as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:t7(t=3b-45)
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=z)
+FingerB:ie(r=n)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

@@ -1,0 +1,74 @@
+Fingerprint: Brother HL-5250DN or DCP-8065D printer
+Class: Brother | embedded || printer
+CPE: cpe:/h:brother:hl-5250dn
+CPE: cpe:/h:brother:dcp-8065d
+seq(sp=e-18%gcd=1e848|3d090|5b8d8|7a120|98968%isr=a0-aa%ti=i%ci=i%ii=i%ss=s%ts=a)
+ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m5b4nw0nnsnnt11%o5=m218nw0nnsnnt11)
+win(w1=21f0%w2=2088%w3=2258%w4=21f0%w5=20c0%w6=0)
+ecn(r=y%df=n%t=3b-45%tg=40%w=0%cc=n)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: NEC UNIVERGE SV8100 PBX (94%), VxWorks (94%), Nintendo Wii game console (93%), HP LaserJet 1017 printer (93%), 3Com SuperStack 3 Switch 3870 (92%), Epson Stylus Pro 400 printer (92%), HP iLO 3 remote management interface (92%), HP iLO 4 remote management interface (92%), Keyence CV-X150F Image Sensor/Controller (VxWorks) (92%), VxWorks: HP printer or Vocality BASICS Four Wire VoIP gateway (92%)
+seq(sp=ff%gcd=1%isr=f6%ci=i%ts=u)
+ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m5b4nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=)
+win(w1=21f0%w2=2088%w3=2258%w4=21f0%w5=20c0%w6=0)
+ecn(r=y%df=n%t=40%w=0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m5b4nw0nnsnnt11%o5=m218nw0nnsnnt11)
+FingerAB:win(w1=21f0%w2=2088%w3=2258%w4=21f0%w5=20c0%w6=0)
+FingerAB:ecn(r=y%df=n%w=0%cc=n)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=e-18%gcd=1e848|3d090|5b8d8|7a120|98968%isr=a0-aa%ti=i%ii=i%ss=s%ts=a)
+FingerB:seq(sp=ff%gcd=1%isr=f6%ts=u)
+
+FingerB:ops(o6=)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40%o=m5b4%q=)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40%q=)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40%o=%q=)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40%o=%q=)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40%o=%q=)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

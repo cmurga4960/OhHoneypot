@@ -1,0 +1,62 @@
+Fingerprint: Dell Integrated Remote Access Controller (iDRAC7)
+Class: Dell | embedded || remote management
+CPE: cpe:/h:dell:remote_access_card:7
+seq(sp=fd-107%gcd=1-6%isr=105-10f%ti=z%ci=rd%ii=i%ts=7)
+ops(o1=m564st11nw4%o2=m564st11nw4%o3=m564nnt11nw4%o4=m564st11nw4%o5=m564st11nw4%o6=m564st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m564nnsnw4%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=3b-45%tg=40%w=80%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=400%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=8000%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=ffff%s=a%a=s+%f=ar%o=wfnm109t10s%rd=0%q=)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Dell Integrated Remote Access Controller (iDRAC7) (96%), Dell Integrated Remote Access Controller (iDRAC6) (92%)
+Class: Dell embedded (96%)
+CPE: cpe:/h:dell:remote_access_card:7
+seq(sp=fe%gcd=1%isr=f5%ci=i)
+ops(o1=m564st11nw4%o2=m564st11nw4%o3=m564nnt11nw4%o4=m564st11nw4%o5=m564st11nw4%o6=m564st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%tg=40%w=16d0%o=m564nnsnw4%cc=n%q=)
+t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%tg=40%w=80%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+t3(r=n)
+t4(r=y%df=y%tg=40%w=400%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+t5(r=y%df=y%tg=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=40%w=8000%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+t7(r=y%df=n%tg=40%w=ffff%s=a%a=s+%f=ar%o=wfnm109t10s%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m564st11nw4%o2=m564st11nw4%o3=m564nnt11nw4%o4=m564st11nw4%o5=m564st11nw4%o6=m564st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m564nnsnw4%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=y%tg=40%w=80%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%tg=40%w=400%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%tg=40%w=8000%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=40%w=ffff%s=a%a=s+%f=ar%o=wfnm109t10s%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=fd-107%gcd=1-6%isr=105-10f%ti=z%ci=rd%ii=i%ts=7)
+FingerB:seq(sp=fe%gcd=1%isr=f5%ci=i)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t2(t=3b-45)
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:t7(t=3b-45)
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

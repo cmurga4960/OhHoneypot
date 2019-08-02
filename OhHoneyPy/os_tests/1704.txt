@@ -1,0 +1,62 @@
+Fingerprint: HP LaserJet 2200dtn printer
+Class: HP | embedded || printer
+CPE: cpe:/h:hp:laserjet_2200dtn auto
+seq(sp=0-1b%gcd=1-6%isr=15-1f%ti=i%ii=i%ss=o%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=n%t=3b-45%tg=40%w=16d0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=16d0%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=n)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: HP LaserJet 2200dtn printer (97%), HP JetDirect 2591A print server (97%), HP LaserJet 4050 printer (97%), HP LaserJet 4MV or 4000TN printer (97%), HP LaserJet 4Si or LaserJet 4 Plus printer (92%), HP LaserJet 4000 printer (91%), RuggedCom RSG2288 switch (ROS 3.8.2 - 3.11) (91%), Samsung OfficeServ 7200 VoIP adapter or Harris FlexStar HD radio/FM broadcast exciter (90%), Exabyte 221L LTO-3 tape library (90%), HP LaserJet 4250 printer (89%)
+Class: HP embedded (97%), RuggedCom ROS 3.X (91%), Samsung embedded (90%), Harris embedded (90%), Exabyte embedded (90%), Emerson embedded (88%), DEC RSX-11M-PLUS 4.X (88%)
+CPE: cpe:/h:hp:laserjet_2200dtn cpe:/h:hp:jetdirect_2591a cpe:/o:ruggedcom:ros:3 cpe:/h:samsung:officeserv_7200 cpe:/h:harris:flexstar_hdx-fm cpe:/o:dec:rsx_11m_plus:4.6
+seq(sp=f8%gcd=1%isr=ef%ci=i%ii=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=n%tg=40%w=16d0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=40%w=16d0%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%tg=40%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=n%tg=40%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerAB:ecn(r=y%df=n%tg=40%w=16d0%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=40%w=16d0%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=40%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=n%tg=40%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=0-1b%gcd=1-6%isr=15-1f%ti=i%ss=o%ci=)
+FingerB:seq(sp=f8%gcd=1%isr=ef%ci=i)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t3(t=3b-45)
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:ie(t=3b-45)
+FingerB:ie(r=y)
+
+FingerA:t7(r=n)
+
+

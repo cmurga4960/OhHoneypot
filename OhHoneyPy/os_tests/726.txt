@@ -1,0 +1,65 @@
+Fingerprint: Cisco ACE load balancer
+Class: Cisco | embedded || load balancer
+seq(sp=f5-ff%gcd=1-6%isr=fc-106%ti=z%ci=rd%ii=i%ts=u)
+ops(o1=m564%o2=m564%o3=m564%o4=m564%o5=m564%o6=m564)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m564%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=fa-104%tg=ff%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=n%t=7b-85%tg=80%cd=s)
+********************************************************
+Fingerprint: Cisco ACE load balancer (97%), Linksys BEFW11S4 WAP (92%), Linksys BEFSR41 router (90%), Cisco Adaptive Security Appliance 5510 or 5540 firewall (ASA 8.0) (89%), Cisco ASA 5510 firewall (PIX OS 8.2) (88%), Essentia OpenWifless ESS (87%), Foundry Networks BigIron 8000 switch (IronWare 07.8.02eT53) (87%)
+Class: Cisco embedded (97%), Linksys embedded (92%), Cisco ASA 8.X (89%), Cisco PIX OS 6.X (88%), Essentia embedded (87%), Foundry IronWare 7.X (87%)
+CPE: cpe:/h:linksys:befw11s4 cpe:/h:linksys:befsr41 cpe:/a:cisco:adaptive_security_appliance_software:8.0 cpe:/o:cisco:pix_os:6 cpe:/o:foundrynet:ironware:7
+seq(sp=f6%gcd=1%isr=ed%ci=i%ts=u)
+ops(o1=m564%o2=m564%o3=m564%o4=m564%o5=m564%o6=m564)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%tg=40%w=16d0%o=m564%cc=n%q=)
+t1(r=y%df=y%tg=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=y%df=n%tg=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%tg=ff%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%tg=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%tg=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m564%o2=m564%o3=m564%o4=m564%o5=m564%o6=m564)
+FingerAB:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m564%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=40%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%tg=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%tg=ff%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=ff%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=f5-ff%gcd=1-6%isr=fc-106%ti=z%ci=rd%ii=i)
+FingerB:seq(sp=f6%gcd=1%isr=ed%ci=i)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45%a=o|s+)
+FingerB:t1(a=o)
+
+FingerA:t2(t=fa-104)
+FingerA:t3(t=fa-104)
+FingerA:t4(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:t7(t=fa-104)
+FingerA:ie(dfi=n%t=7b-85%tg=80%cd=s)
+FingerB:ie(r=n)
+
+
+

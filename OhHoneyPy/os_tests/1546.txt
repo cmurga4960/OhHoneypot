@@ -1,0 +1,59 @@
+Fingerprint: Frontier Silicon internet radio
+Class: Frontier Silicon | embedded || media device
+seq(sp=cf-dd%gcd=1-6%isr=d6-e0%ci=i%ii=i%ts=u%ti=)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=y%df=n%t=72-7c%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=72-7c%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=72-7c%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=72-7c%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=72-7c%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=72-7c%tg=80%ipl=240%un=0%ripl=g%rid=g%ripck=g%ruck=>0%rud=i)
+ie(dfi=n%t=72-7c%tg=80%cd=z)
+********************************************************
+Fingerprint: Brother NC-130h print server (99%), Brother HL-2070N printer (99%), Brother HL-5070N printer (99%), Brother MFC-7820N printer (99%), Frontier Silicon internet radio (99%), Novatel MiFi 2200 3G WAP (99%), Ricoh Aficio SP C210SF printer (99%), Sony FWD-40LX2F display card (99%), Sony Bravia V5500-series TV (97%), Sony Bravia W5500-series TV (97%)
+Class: Brother embedded (99%), Frontier Silicon embedded (99%), Novatel embedded (99%), Ricoh embedded (99%), Sony embedded (99%), iDirect embedded (94%), Leica embedded (94%), TechniSat embedded (94%)
+CPE: cpe:/h:brother:nc-130h cpe:/h:brother:hl-2070n cpe:/h:novatel:mifi_2200_3g cpe:/h:ricoh:aficio_sp_c210sf cpe:/h:sony:fwd-40lx2f cpe:/h:sony:bravia_kdl-32v5500 cpe:/h:technisat:digicorder_hd_s2
+seq(ii=i%ts=u)
+ecn(r=n)
+t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=n%tg=40%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:ie(dfi=n%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=cf-dd%gcd=1-6%isr=d6-e0%ci=i%ti=)
+FingerA:t1(t=72-7c)
+FingerA:t4(t=72-7c)
+FingerA:t5(t=72-7c)
+FingerA:t6(t=72-7c)
+FingerA:t7(t=72-7c)
+FingerA:u1(df=n%t=72-7c%tg=80%ipl=240%un=0%ripl=g%rid=g%ripck=g%ruck=>0%rud=i)
+FingerB:u1(r=n)
+
+FingerA:ie(t=72-7c%tg=80)
+FingerB:ie(tg=40%r=y)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

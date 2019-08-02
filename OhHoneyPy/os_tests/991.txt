@@ -1,0 +1,74 @@
+Fingerprint: Cognex DataMan 200 ID reader (lwIP TCP/IP stack)
+Class: Cognex | embedded || specialized
+Class: lwIP | lwIP || general purpose
+CPE: cpe:/a:lwip_project:lwip auto
+seq(sp=0-59%gcd=1-6|ce|19c|26a|338|406%isr=55-5f%ti=i%ci=i%ii=ri%ss=o%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=800%w2=800%w3=800%w4=800%w5=800%w6=800)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=800%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=fa-104%tg=ff%w=800%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=800%s=o|a+%a=o|s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=800%s=a|o%a=o|s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=800%s=a|o%a=o|s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=800%s=a|o%a=o|s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=128|7cbb|b4ca|b518%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cognex DataMan 200 ID reader (lwIP TCP/IP stack) (97%), lwIP 1.4.0 lightweight TCP/IP stack (91%)
+Class: Cognex embedded (97%), lwIP 1.4.X (97%)
+CPE: cpe:/a:lwip_project:lwip cpe:/a:lwip_project:lwip:1.4.0
+seq(sp=102%gcd=1%isr=f9%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=800%w2=800%w3=800%w4=800%w5=800%w6=800)
+ecn(r=y%df=n%tg=ff%w=800%o=m5b4%cc=n%q=)
+t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=ff%w=800%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%tg=ff%w=800%s=o%a=o%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=800%s=o%a=o%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=ff%w=800%s=o%a=o%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%tg=ff%w=800%s=o%a=o%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=800%w2=800%w3=800%w4=800%w5=800%w6=800)
+FingerAB:ecn(r=y%df=n%tg=ff%w=800%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=ff%w=800%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=ff%w=800%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=ff%w=800%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=ff%w=800%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=ff%w=800%f=ar%o=%rd=0%q=)
+--- Diff Values ---
+FingerA:seq(sp=0-59%gcd=1-6|ce|19c|26a|338|406%isr=55-5f%ti=i%ii=ri%ss=o)
+FingerB:seq(sp=102%gcd=1%isr=f9)
+
+FingerA:ecn(t=fa-104)
+FingerA:t1(t=fa-104)
+FingerA:t3(t=fa-104)
+FingerA:t4(t=fa-104%s=o|a+%a=o|s)
+FingerB:t4(s=o%a=o)
+
+FingerA:t5(t=fa-104%s=a|o%a=o|s+)
+FingerB:t5(s=o%a=o)
+
+FingerA:t6(t=fa-104%s=a|o%a=o|s)
+FingerB:t6(s=o%a=o)
+
+FingerA:t7(t=fa-104%s=a|o%a=o|s+)
+FingerB:t7(s=o%a=o)
+
+FingerA:u1(df=n%t=fa-104%tg=ff%ipl=38%un=128|7cbb|b4ca|b518%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

@@ -1,0 +1,83 @@
+Fingerprint: Cisco IP Phone 7912G
+Class: Cisco | embedded || VoIP phone
+CPE: cpe:/h:cisco:unified_ip_phone_7912g
+seq(sp=fc-106%gcd=1-6%isr=102-10c%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m564%o2=m564%o3=m564%o4=m564%o5=m564%o6=m564)
+win(w1=578%w2=578%w3=578%w4=578%w5=578%w6=578)
+ecn(r=y%df=n%t=f6-100%tg=ff%w=578%o=m564%cc=n%q=)
+t1(r=y%df=n%t=f6-100%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=23-3d%tg=40%w=80%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t3(r=y%df=n%t=23-35%tg=40%w=100%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+t4(r=y%df=y%t=21-2d|33-3e%tg=40%w=400%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t5(r=y%df=n%t=f6-100%tg=ff%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=21-3d%tg=40%w=8000%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t7(r=y%df=n%t=2b-3f%tg=40%w=ffff%s=a%a=s+%f=ar%o=wfnm109t10s%rd=0%q=)
+u1(df=n%t=f6-100%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=f6-100%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco IP Phone 7912G (97%)
+Class: Cisco embedded (97%)
+CPE: cpe:/h:cisco:unified_ip_phone_7912g
+seq(sp=fe%gcd=1%isr=f5%ti=i%ci=i%ts=u)
+ops(o1=m564%o2=m564%o3=m564%o4=m564%o5=m564%o6=m564)
+win(w1=578%w2=578%w3=578%w4=578%w5=578%w6=578)
+ecn(r=y%df=n%t=ff%w=578%o=m564%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=40%w=80%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t3(r=y%df=n%t=40%w=100%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+t4(r=y%df=y%t=40%w=400%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=8000%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t7(r=y%df=n%t=40%w=ffff%s=a%a=s+%f=ar%o=wfnm109t10s%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ti=i%ts=u)
+FingerAB:ops(o1=m564%o2=m564%o3=m564%o4=m564%o5=m564%o6=m564)
+FingerAB:win(w1=578%w2=578%w3=578%w4=578%w5=578%w6=578)
+FingerAB:ecn(r=y%df=n%w=578%o=m564%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=y%w=80%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=100%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=400%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=8000%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=ffff%s=a%a=s+%f=ar%o=wfnm109t10s%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fc-106%gcd=1-6%isr=102-10c%ii=i%ss=s%ci=)
+FingerB:seq(sp=fe%gcd=1%isr=f5%ci=i)
+
+FingerA:ecn(t=f6-100%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=f6-100%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t2(t=23-3d%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=23-35%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=21-2d|33-3e%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=f6-100%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=21-3d%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=2b-3f%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=f6-100%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=f6-100%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

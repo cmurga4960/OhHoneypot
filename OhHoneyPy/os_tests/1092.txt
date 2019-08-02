@@ -1,0 +1,70 @@
+Fingerprint: DEC Digital UNIX OSF1 v4.0 1229
+Class: DEC | Digital UNIX | 4.X | general purpose
+CPE: cpe:/o:dec:digital_unix:4 auto
+seq(sp=e4-ee%gcd=1-6%isr=fe-108%ti=i%ii=i%ss=s%ts=0%ci=)
+ops(o1=m5b4nw0nnt00nns%o2=m5b4nw0nnt00nns%o3=m5b4nw0nnt00%o4=m5b4nw0nnt00nns%o5=m5b4nw0nnt00nns%o6=m5b4nnt00nns)
+win(w1=4470%w2=41a0%w3=4100%w4=40e8%w5=40e8%w6=402e)
+ecn(r=y%df=n%t=7c-86%tg=80%w=4470%o=m5b4nw0nns%cc=n%q=|u)
+t1(r=y%df=n%t=7c-86%tg=80%s=o%a=s+%f=as%rd=0%q=|u)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-3d%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-3d%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=25a3%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: DEC Digital UNIX OSF1 v4.0 1229 (96%), Nokia 5800 mobile phone (Symbian OS 9.4) (92%), Microsoft Windows XP Embedded SP2 (91%), Cisco C7200 router (IOS 15) (89%), Xylan OmniStack switch (version 3.2.5) (87%), Xylan OmniStack switch (version 3.4.7) (87%), Microsoft Windows XP SP2 (87%)
+Class: DEC Digital UNIX 4.X (96%), Nokia Symbian OS 9.X (92%), Microsoft Windows XP (91%), Cisco IOS 15.X (89%), Xylan embedded (87%)
+CPE: cpe:/o:dec:digital_unix:4 cpe:/o:nokia:symbian_os:9.4 cpe:/o:microsoft:windows_xp::sp2 cpe:/h:cisco:catalyst_7200 cpe:/o:cisco:ios:15 cpe:/h:xylan:omnistack
+seq(sp=104%gcd=1%isr=fb%ci=i%ts=0)
+ops(o1=m5b4nw0nnt00nns%o2=m5b4nw0nnt00nns%o3=m5b4nw0nnt00%o4=m5b4nw0nnt00nns%o5=m5b4nw0nnt00nns%o6=m5b4nnt00nns)
+win(w1=4470%w2=41a0%w3=4100%w4=40e8%w5=40e8%w6=402e)
+ecn(r=y%df=n%t=80%w=4470%o=m5b4nw0nns%cc=n%q=u)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=u)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=25a3%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=0)
+FingerAB:ops(o1=m5b4nw0nnt00nns%o2=m5b4nw0nnt00nns%o3=m5b4nw0nnt00%o4=m5b4nw0nnt00nns%o5=m5b4nw0nnt00nns%o6=m5b4nnt00nns)
+FingerAB:win(w1=4470%w2=41a0%w3=4100%w4=40e8%w5=40e8%w6=402e)
+FingerAB:ecn(r=y%df=n%w=4470%o=m5b4nw0nns%cc=n)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=25a3%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=e4-ee%gcd=1-6%isr=fe-108%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=104%gcd=1%isr=fb%ci=i)
+
+FingerA:ecn(t=7c-86%tg=80%q=|u)
+FingerB:ecn(t=80%q=u)
+
+FingerA:t1(t=7c-86%tg=80%q=|u)
+FingerB:t1(t=80%q=u)
+
+FingerA:t5(t=3b-3d%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-3d%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

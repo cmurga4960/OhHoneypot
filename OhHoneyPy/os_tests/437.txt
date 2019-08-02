@@ -1,0 +1,67 @@
+Fingerprint: Avaya 4526GTX switch
+Class: Avaya | embedded || switch
+CPE: cpe:/h:avaya:4526gtx auto
+seq(sp=fa-104%gcd=1-6%isr=108-112%ti=i%ii=i%ss=s%ts=7%ci=)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=y%t=3b-45%tg=40%w=4000%o=m5b4nw0%cc=n)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=4000%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=70%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Canon imageRUNNER C5185 printer (93%), Avaya 4526GTX switch (92%), Enterasys XP-8000 switch (92%), Cisco EPC3925 cable modem (92%), HP ProCurve 1810G, ZyXEL GS1910, or FibroLAN switch (eCos 3.0) (90%), IronPort C150 email security appliance (AsyncOS 6.5.3) (90%), FreeBSD 6.2-RELEASE (90%), VxWorks (90%), AirSpan ProST WiMAX access point (90%), Ambit U10C018 or Cisco EPC3925 cable modem, or Tandberg video conferencing system (89%)
+seq(sp=ee%gcd=1%isr=e5%ti=i)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=y%t=40%w=4000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=4000%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0%q=)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ti=i)
+FingerAB:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerAB:win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+FingerAB:ecn(r=y%df=y%w=4000%o=m5b4nw0%cc=n)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=4000%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:u1(df=n%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fa-104%gcd=1-6%isr=108-112%ii=i%ss=s%ts=7%ci=)
+FingerB:seq(sp=ee%gcd=1%isr=e5)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40%q=)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40%q=)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40%q=)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40%o=%q=)
+
+FingerA:u1(t=3b-45%tg=40%ipl=70)
+FingerB:u1(t=fa%ipl=38%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

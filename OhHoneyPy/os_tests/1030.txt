@@ -1,0 +1,58 @@
+Fingerprint: D-Link DFL-200 firewall
+Class: D-Link | embedded || firewall
+CPE: cpe:/h:dlink:dfl-200 auto
+seq(sp=fe-10a%gcd=1-6%isr=105-10f%ti=rd%ci=ri%ii=ri%ts=u)
+ops(o1=m5ac%o2=m5ac%o3=m5ac%o4=m5ac%o5=m5ac%o6=m5ac)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=8000%o=m5ac%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(r=n)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: D-Link DFL-200 firewall (95%), D-Link NetDefend firewall (90%), Ricoh Aficio SP C210SF printer (90%), FireBrick FB2700 firewall (89%), Oki ES8473 printer (89%), Reliable Controls MAC ProWebCom building control server (88%), Brother NC-130h print server (88%), Brother HL-2070N printer (88%), Brother HL-5070N printer (88%), Brother MFC-7820N printer (88%)
+seq(sp=df%gcd=1%isr=d6%ci=i%ts=u)
+ops(o1=m5ac%o2=m5ac%o3=m5ac%o4=m5ac%o5=m5ac%o6=m5ac)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%tg=ff%w=8000%o=m5ac%cc=n%q=)
+t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5ac%o2=m5ac%o3=m5ac%o4=m5ac%o5=m5ac%o6=m5ac)
+FingerAB:win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+FingerAB:ecn(r=y%df=n%tg=ff%w=8000%o=m5ac%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=fe-10a%gcd=1-6%isr=105-10f%ti=rd%ci=ri%ii=ri)
+FingerB:seq(sp=df%gcd=1%isr=d6%ci=i)
+
+FingerA:ecn(t=fa-104)
+FingerA:t1(t=fa-104)
+FingerA:t4(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

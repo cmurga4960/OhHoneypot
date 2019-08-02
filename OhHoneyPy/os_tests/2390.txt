@@ -1,0 +1,57 @@
+Fingerprint: Linux 2.4.7
+Class: Linux | Linux | 2.4.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.4.7
+seq(sp=a3-bb%gcd=1-6%isr=b6-c0%ti=z%ci=z%ii=i%ts=7)
+ops(o1=m5b4st11nw0%o2=m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Lexmark C534dn printer (96%), Lexmark 1400-series printer (96%), Linux 2.6.24 (96%), HP MSL4048 tape library (95%), Lexmark X644e printer (95%), Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (94%), Asus RT-AC66U router (Linux 2.6) (94%), Asus RT-N16 WAP (Linux 2.6) (94%), Asus RT-N66U WAP (Linux 2.6) (94%), Tomato 1.28 (Linux 2.6.22) (94%)
+seq(ci=i)
+ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nnsnw0%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=n%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nnsnw0%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=n%tg=40%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=a3-bb%gcd=1-6%isr=b6-c0%ti=z%ci=z%ii=i%ts=7)
+FingerB:seq(ci=i)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t4(t=3b-45)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:ie(t=3b-45)
+FingerB:ie(r=y)
+
+FingerA:ops(o1=m5b4st11nw0%o2=m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerA:t7(r=n)
+
+

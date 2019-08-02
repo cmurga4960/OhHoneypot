@@ -1,0 +1,70 @@
+Fingerprint: Enterasys Matrix X-series router (Linux 2.4)
+Class: Linux | Linux | 2.4.X | router
+Class: Enterasys | embedded || router
+CPE: cpe:/o:linux:linux_kernel:2.4 auto
+seq(sp=c8-d2%gcd=1-6%isr=c9-d3%ti=i%ci=z%ii=i%ss=s%ts=7|8)
+ops(o1=m5b4st11nw0|m5b4st11nw6%o2=m5b4st11nw0|m5b4st11nw6%o3=m5b4nnt11nw0|m5b4nnt11nw6%o4=m5b4st11nw0|m5b4st11nw6%o5=m5b4st11nw0|m5b4st11nw6%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=16d0%o=m5b4nnsnw0|m5b4nnsnw6%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (96%), Asus RT-AC66U router (Linux 2.6) (96%), Asus RT-N16 WAP (Linux 2.6) (96%), Asus RT-N66U WAP (Linux 2.6) (96%), Tomato 1.28 (Linux 2.6.22) (96%), AXIS 211A Network Camera (Linux 2.6.20) (96%), Linux 2.6.16 (95%), Linux 2.6.18 (95%), Linux 2.6.24 (95%), Lexmark C534dn printer (94%)
+Class: Linux 2.6.X|2.4.X (96%), Asus embedded (96%), AXIS embedded (96%), Lexmark embedded (94%), Enterasys embedded (94%)
+CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/h:asus:rt-n10 cpe:/h:axis:211_network_camera cpe:/h:asus:rt-ac66u cpe:/o:linux:linux_kernel:2.6.20 cpe:/h:lexmark:c534dn cpe:/o:linux:linux_kernel:2.4
+seq(ii=i)
+ecn(r=y%df=n%t=ff%w=16d0%o=m5b4nnsnw0%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=n%w=16d0%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c8-d2%gcd=1-6%isr=c9-d3%ti=i%ci=z%ss=s%ts=7|8)
+FingerA:ecn(t=fa-104%tg=ff%o=m5b4nnsnw0|m5b4nnsnw6)
+FingerB:ecn(t=ff%o=m5b4nnsnw0)
+
+FingerA:t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b4st11nw0|m5b4st11nw6%o2=m5b4st11nw0|m5b4st11nw6%o3=m5b4nnt11nw0|m5b4nnt11nw6%o4=m5b4st11nw0|m5b4st11nw6%o5=m5b4st11nw0|m5b4st11nw6%o6=m5b4st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,79 @@
+Fingerprint: Drayton MiGenie heating control unit
+Class: Drayton | embedded || specialized
+seq(sp=fe-10a%gcd=1-6%isr=101-10f%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m596%o2=m596%o3=m596%o4=m596%o5=m596%o6=m596)
+win(w1=596%w2=596%w3=596%w4=596%w5=596%w6=596)
+ecn(r=y%df=n%t=3b-45%tg=40%w=596%o=m596%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=596%s=o%a=s+%f=as%o=m596%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: Drayton MiGenie heating control unit (98%), Nintendo Wii game console (90%), Cisco SG 200 or SG 300 switch (90%), Dell X1052P switch (89%), IBM BladeCenter management module, IBM System Storage TS3100/TS3200 Express Model tape library, or HP StorageWorks MSL2024 tape library (89%), NEC UNIVERGE SV8100 PBX (89%), Cisco SRW2008-K9 switch (89%)
+Class: Drayton embedded (98%), Nintendo embedded (90%), Cisco embedded (90%), Dell embedded (89%), IBM embedded (89%), HP embedded (89%), NEC embedded (89%)
+CPE: cpe:/h:nintendo:wii cpe:/h:cisco:sg_200 cpe:/h:cisco:sg_300 cpe:/h:dell:x1052p cpe:/h:ibm:ts3200 cpe:/h:hp:storageworks_msl2024 cpe:/h:nec:sv8100
+seq(sp=109%gcd=1%isr=100%ci=i%ts=u)
+ops(o1=m596%o2=m596%o3=m596%o4=m596%o5=m596%o6=m596)
+win(w1=596%w2=596%w3=596%w4=596%w5=596%w6=596)
+ecn(r=y%df=n%t=40%w=596%o=m596%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=596%s=o%a=s+%f=as%o=m596%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m596%o2=m596%o3=m596%o4=m596%o5=m596%o6=m596)
+FingerAB:win(w1=596%w2=596%w3=596%w4=596%w5=596%w6=596)
+FingerAB:ecn(r=y%df=n%w=596%o=m596%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=596%s=o%a=s+%f=as%o=m596%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fe-10a%gcd=1-6%isr=101-10f%ti=i%ii=i%ss=s)
+FingerB:seq(sp=109%gcd=1%isr=100)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40%a=o|s+)
+FingerB:t1(t=40%a=o)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=z)
+FingerB:ie(r=n)
+
+
+

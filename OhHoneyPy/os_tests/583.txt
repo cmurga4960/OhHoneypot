@@ -1,0 +1,61 @@
+Fingerprint: Brother HL-2700CN printer
+Class: Brother | embedded || printer
+CPE: cpe:/h:brother:hl-2700cn auto
+seq(sp=d1-db%gcd=1-6%isr=d7-e1%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m578%o3=m200%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=1000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=1000%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: Brother HL-2700CN printer (97%), Brother HL-5170DN printer (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), IBM OS/2 Warp 2.0 (94%), Brother MFC-7820N or MFC-9420CN printer (94%), Crestron CNMSX-AV control and automation system (93%), Brother HL-1870N printer (93%), NoBreak Engetron Double Way UPS (93%), Brother NC-3100h print server (93%), Brother DCP-8045D printer (93%)
+seq(sp=fd%gcd=1%isr=f4%ci=i%ts=u)
+ops(o1=m5b4%o2=m578%o3=m200%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%tg=40%w=1000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=40%w=1000%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m578%o3=m200%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+FingerAB:ecn(r=y%df=n%tg=40%w=1000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=40%w=1000%s=o%a=s+%f=as%o=m109%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=d1-db%gcd=1-6%isr=d7-e1%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=fd%gcd=1%isr=f4%ci=i)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t3(t=3b-45)
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:t7(t=3b-45)
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=z)
+FingerB:ie(r=n)
+
+
+

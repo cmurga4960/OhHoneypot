@@ -1,0 +1,48 @@
+Fingerprint: Endian Firewall 2.3 (Linux 2.6)
+Class: Linux | Linux | 2.6.X | firewall
+CPE: cpe:/o:linux:linux_kernel:2.6 auto
+seq(sp=b5-c3%gcd=1-6%isr=ca-d4%ti=ri%ts=1%ii=%ci=)
+ops(o1=m578nw0nnt11%o2=m578nw0nnt11%o3=m280nw0nnt11%o4=m578nw0nnt11%o5=m218nw0nnt11%o6=m109nnt11)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%t=3b-45%tg=40%w=ffff%o=m578nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(r=n)
+ie(r=n)
+********************************************************
+Fingerprint: Endian Firewall 2.3 (Linux 2.6) (90%), HP OpenVMS 7.3-1 (86%), Motorola RFS 6000 wireless switch (86%), Tomato 1.28 (Linux 2.4.20) (86%), Tomato firmware (Linux 2.6.22) (86%), FreeBSD 9.3-RELEASE (86%), VMware ESXi 4.1 (86%), Apple iOS 8.0 - 8.1 (Darwin 14.0.0) (85%), Apple iOS 8.1.2 (Darwin 14.0.0) (85%), Apple iOS 8.3 (Darwin 14.0.0) (85%)
+ecn(r=y%df=n%tg=40%w=ffff%o=m578nw0%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=n%tg=40%w=ffff%o=m578nw0%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:ecn(t=3b-45)
+FingerA:t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t5(t=3b-45)
+FingerA:seq(sp=b5-c3%gcd=1-6%isr=ca-d4%ti=ri%ts=1%ii=%ci=)
+FingerA:ops(o1=m578nw0nnt11%o2=m578nw0nnt11%o3=m280nw0nnt11%o4=m578nw0nnt11%o5=m218nw0nnt11%o6=m109nnt11)
+FingerA:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

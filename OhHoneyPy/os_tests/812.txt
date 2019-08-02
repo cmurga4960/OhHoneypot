@@ -1,0 +1,67 @@
+Fingerprint: Cisco 3000 switch (IOS 10.3)
+Class: Cisco | IOS | 10.X | switch
+CPE: cpe:/h:cisco:catalyst_3000
+CPE: cpe:/o:cisco:ios:10.3
+seq(r=n%ii=%ti=%ci=)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=n)
+t2(r=y%df=n%t=100%tg=ff%w=0%s=z%a=o|s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=100%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=n)
+t6(r=y%df=n%t=100%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=100%tg=ff%w=0%s=z%a=o|s%f=ar%o=%rd=0%q=)
+u1(df=n%t=100%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=100%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco 3000 switch (IOS 10.3) (96%), Cisco ATA 188 VoIP adapter (95%), Apple Time Capsule NAS device (92%), Cisco Catalyst 1900 switch (91%), Nokia 3600i mobile phone (91%), Linksys PAP2T VoIP router (90%), Cisco SF300 or SG300 switch (89%), Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC (88%), Nintendo Wii game console (88%), Aastra A510 VoIP phone (88%)
+seq(ci=i%ii=i)
+ecn(r=n)
+t1(r=n)
+t2(r=y%df=n%t=ff%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3d%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=n)
+FingerAB:t1(r=n)
+FingerAB:t2(r=y%df=n%w=0%s=z%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(r=n%ii=%ti=%ci=)
+FingerB:seq(ii=i%ci=i)
+
+FingerA:t2(t=100%tg=ff%a=o|s)
+FingerB:t2(t=ff%a=o)
+
+FingerA:t4(t=100%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t6(t=100%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=100%tg=ff%a=o|s)
+FingerB:t7(t=ff%a=o)
+
+FingerA:u1(t=100%tg=ff)
+FingerB:u1(t=3d%r=y)
+
+FingerA:ie(t=100%tg=ff)
+FingerB:ie(t=3d%r=y)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+FingerA:t5(r=n)
+
+

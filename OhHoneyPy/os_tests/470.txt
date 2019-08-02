@@ -1,0 +1,63 @@
+Fingerprint: AXIS 70U Network Document Server
+Class: AXIS | embedded || specialized
+seq(sp=0-16%gcd=40000|80000|c0000|100000|140000%isr=0-9d%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5ac%o2=m578%o3=m218%o4=m218%o5=m218%o6=m109)
+win(w1=4410%w2=4410%w3=4410%w4=4410%w5=4410%w6=4410)
+ecn(r=y%df=n%t=3b-45%tg=40%w=0|4410%o=m5ac%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=4410%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=4410%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=o|s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: SMC SMC8014WG WAP (92%), HP ProCurve 2524 switch or 9100c Digital Sender printer (92%), Nintendo Wii game console (91%), Epson Stylus Pro 400 printer (91%), NEC UNIVERGE SV8100 PBX (90%), Brother MFC-7820N printer (90%), Microsoft Xbox game console (modified, running XboxMediaCenter) (90%), 3Com SuperStack 3 Switch 3870 (90%), AXIS 70U Network Document Server (90%), NCR 5676 or 5688 automated teller machine (89%)
+seq(sp=105%gcd=1%isr=fc%ci=i%ts=u)
+ops(o1=m5ac%o2=m578%o3=m218%o4=m218%o5=m218%o6=m109)
+win(w1=4410%w2=4410%w3=4410%w4=4410%w5=4410%w6=4410)
+ecn(r=n)
+t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=40%w=4410%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%tg=40%w=4410%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5ac%o2=m578%o3=m218%o4=m218%o5=m218%o6=m109)
+FingerAB:win(w1=4410%w2=4410%w3=4410%w4=4410%w5=4410%w6=4410)
+FingerAB:t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=40%w=4410%s=o%a=o%f=a%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=40%w=4410%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=40%w=0%s=z%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=0-16%gcd=40000|80000|c0000|100000|140000%isr=0-9d%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=105%gcd=1%isr=fc%ci=i)
+
+FingerA:ecn(r=y%df=n%t=3b-45%tg=40%w=0|4410%o=m5ac%cc=n%q=)
+FingerB:ecn(r=n)
+
+FingerA:t1(t=3b-45)
+FingerA:t3(t=3b-45)
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:t7(t=3b-45%a=o|s+)
+FingerB:t7(a=o)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

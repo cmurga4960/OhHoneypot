@@ -1,0 +1,67 @@
+Fingerprint: DragonFly BSD 2.9
+Class: DragonFly BSD | DragonFly BSD | 2.X | general purpose
+CPE: cpe:/o:dragonflybsd:dragonfly_bsd:2.9 auto
+seq(sp=fe-10c%gcd=1-6%isr=102-10e%ti=rd%ci=ri%ii=ri%ts=7)
+ops(o1=m538nw5nnt11nns%o2=m538nw5nnt11nns%o3=m538nw5nnt11%o4=m538nw5nnt11nns%o5=m538nw5nnt11nns%o6=m538nnt11nns)
+win(w1=e000%w2=e000%w3=e000%w4=e000%w5=e000%w6=e000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=e000%o=m538nw5nns%cc=n)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t7(r=n)
+u1(r=n)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: DragonFly BSD 2.9 (90%), Crestron XPanel control system (89%), IBM OS/2 Warp 2.0 (88%), NEC UNIVERGE SV8100 PBX (88%), Nintendo Wii game console (88%), 3Com SuperStack 3 Switch 3870 (88%), Brother MFC-7820N printer (88%), Microsoft Xbox game console (modified, running XboxMediaCenter) (88%), Thomson TG712 DSL router (88%), HP PSC 2400-series Photosmart printer (88%)
+seq(sp=106%gcd=1%isr=fd%ti=i%ci=i)
+ops(o1=m538nw5nnt11nns%o2=m538nw5nnt11nns%o3=m538nw5nnt11%o4=m538nw5nnt11nns%o5=m538nw5nnt11nns%o6=m538nnt11nns)
+win(w1=e000%w2=e000%w3=e000%w4=e000%w5=e000%w6=e000)
+ecn(r=y%df=n%tg=40%w=e000%o=m538nw5nns%cc=n%q=)
+t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m538nw5nnt11nns%o2=m538nw5nnt11nns%o3=m538nw5nnt11%o4=m538nw5nnt11nns%o5=m538nw5nnt11nns%o6=m538nnt11nns)
+FingerAB:win(w1=e000%w2=e000%w3=e000%w4=e000%w5=e000%w6=e000)
+FingerAB:ecn(r=y%df=n%tg=40%w=e000%o=m538nw5nns%cc=n)
+FingerAB:t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=fe-10c%gcd=1-6%isr=102-10e%ti=rd%ci=ri%ii=ri%ts=7)
+FingerB:seq(sp=106%gcd=1%isr=fd%ti=i%ci=i)
+
+FingerA:ecn(t=3b-45)
+FingerB:ecn(q=)
+
+FingerA:t1(t=3b-45)
+FingerB:t1(q=)
+
+FingerA:t4(t=3b-45)
+FingerB:t4(o=%q=)
+
+FingerA:t5(t=3b-45)
+FingerB:t5(o=%q=)
+
+FingerA:t6(t=3b-45)
+FingerB:t6(o=%q=)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

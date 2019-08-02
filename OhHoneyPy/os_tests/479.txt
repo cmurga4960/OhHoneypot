@@ -1,0 +1,71 @@
+Fingerprint: Barracuda Spam Firewall model 400
+Class: Barracuda Networks | embedded || firewall
+seq(sp=ff-109%gcd=1-6%isr=106-110%ti=i%ii=i%ss=s%ts=7%ci=)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=e000%w2=e000%w3=e000%w4=e000%w5=e000%w6=e000)
+ecn(r=y%df=y%t=34-3e%tg=40%w=e000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=34-3e%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=34-3e%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=34-3e%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=34-3e%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=34-3e%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=34-3e%tg=40%cd=s)
+********************************************************
+Fingerprint: FreeBSD 4.11-RELEASE (95%), FreeBSD 4.11-RELEASE (x86) (95%), Barracuda Spam Firewall model 400 (94%), Cisco 200-series, HP ProCurve 1810G, or Netgear GS110TP switch (eCos 2.0) (94%), Cisco EPC3925, DPC2320, Motorola SURFboard SB5101E, or Scientific Atlanta EPC2203 cable modem (eCos 2.0) (94%), HP ProCurve 1810G switch (94%), VIPA PLC CPU (94%), Cisco EPC3208 or EPC3212 cable modem (94%), Apple Mac OS X 10.3.9 (Panther) - 10.4.7 (Tiger) (Darwin 7.9.0 - 8.7.8, PowerPC) (93%), FreeBSD 4.10-RELEASE - 5.4-SECURITY (93%)
+Class: FreeBSD 4.X (95%), Barracuda Networks embedded (94%), eCosCentric eCos 2.0|2.X (94%), Cisco embedded (94%), HP embedded (94%), Netgear embedded (94%), Motorola embedded (94%), Scientific Atlanta embedded (94%)
+CPE: cpe:/o:freebsd:freebsd:4.11 cpe:/o:ecoscentric:ecos:2.0 cpe:/h:hp:procurve_switch_1810g cpe:/h:netgear:gs110tp cpe:/h:cisco:epc3925 cpe:/h:cisco:dpc2320 cpe:/h:motorola:sb5101e cpe:/h:scientific_atlanta:epc2203
+seq(sp=f9%gcd=1%isr=f0%ci=i)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=e000%w2=e000%w3=e000%w4=e000%w5=e000%w6=e000)
+ecn(r=y%df=y%t=40%w=e000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerAB:win(w1=e000%w2=e000%w3=e000%w4=e000%w5=e000%w6=e000)
+FingerAB:ecn(r=y%df=y%w=e000%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=ff-109%gcd=1-6%isr=106-110%ti=i%ii=i%ss=s%ts=7%ci=)
+FingerB:seq(sp=f9%gcd=1%isr=f0%ci=i)
+
+FingerA:ecn(t=34-3e%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=34-3e%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=34-3e%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=34-3e%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=34-3e%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=34-3e%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=34-3e%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

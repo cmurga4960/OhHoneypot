@@ -1,0 +1,65 @@
+Fingerprint: Brother MFC-7820N printer
+Class: Brother | embedded || printer
+CPE: cpe:/h:brother:mfc-7820n auto
+seq(ci=i%ii=i%ti=)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=6b-75%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=6b-75%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=6b-75%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=6b-75%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=6b-75%tg=80%ipl=38%un=0%ripl=g%rid=g%ripck=g%rud=g)
+ie(dfi=n%t=6b-75%tg=80%cd=z)
+********************************************************
+Fingerprint: Brother MFC-7820N printer (96%), OUYA game console (95%), Cisco ATA 188 VoIP adapter (93%), Apple Time Capsule NAS device (92%), Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC (92%), GoPro HERO3 camera (92%), Nintendo Wii game console (92%), Sony Ericsson U8i Vivaz mobile phone (91%), Brother HL-5070N printer (91%), Digi Connect ME serial-to-Ethernet bridge (91%)
+seq(ci=i)
+ecn(r=n)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=n)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(ii=i%ti=)
+FingerA:t4(t=6b-75%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=6b-75%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=6b-75%tg=80)
+FingerB:t6(t=80)
+
+FingerA:t7(t=6b-75%tg=80)
+FingerB:t7(t=80)
+
+FingerA:u1(t=6b-75%tg=80)
+FingerB:u1(t=fa%r=y%ruck=g)
+
+FingerA:ie(dfi=n%t=6b-75%tg=80%cd=z)
+FingerB:ie(r=n)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

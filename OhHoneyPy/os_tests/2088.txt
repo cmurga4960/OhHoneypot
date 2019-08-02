@@ -1,0 +1,67 @@
+Fingerprint: Icy Box NAS device
+Class: Icy Box | embedded | 2.6.X | storage-misc
+seq(sp=c7-d1%gcd=1-6%isr=cb-d5%ti=z%ii=i%ts=7%ci=)
+ops(o1=m5a0st11nw2%o2=m5a0st11nw2%o3=m5a0nnt11nw2%o4=m5a0st11nw2%o5=m5a0st11nw2%o6=m5a0st11)
+win(w1=1650%w2=1650%w3=1650%w4=1650%w5=1650%w6=1650)
+ecn(r=y%df=y%t=3b-45%tg=40%w=1680%o=m5a0nnsnw2%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=1650%s=o%a=s+%f=as%o=m5a0st11nw2%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Icy Box NAS device (98%), NAS device (Linux 2.6.15): GalaxyMetalGear 4500MGB, Icy Box IB-NAS4220-B, or MRT Dual GigaNAS (94%), Linux 2.6.18 (92%), Linux 2.6.31 - 2.6.32 (91%), Linksys WRV54G WAP (90%), OpenWrt (Linux 2.4.32) (90%), OpenWrt White Russian 0.9 (Linux 2.4.30) (90%), Tomato 1.27 - 1.28 (Linux 2.4.20) (90%), Linux 3.2.0 (90%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (90%)
+seq(sp=104%gcd=1%isr=fb%ii=i)
+ops(o1=m5a0st11nw2%o2=m5a0st11nw2%o3=m5a0nnt11nw2%o4=m5a0st11nw2%o5=m5a0st11nw2%o6=m5a0st11)
+win(w1=1650%w2=1650%w3=1650%w4=1650%w5=1650%w6=1650)
+ecn(r=y%df=y%t=40%w=1680%o=m5a0nnsnw2%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=1650%s=o%a=s+%f=as%o=m5a0st11nw2%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ops(o1=m5a0st11nw2%o2=m5a0st11nw2%o3=m5a0nnt11nw2%o4=m5a0st11nw2%o5=m5a0st11nw2%o6=m5a0st11)
+FingerAB:win(w1=1650%w2=1650%w3=1650%w4=1650%w5=1650%w6=1650)
+FingerAB:ecn(r=y%df=y%w=1680%o=m5a0nnsnw2%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=1650%s=o%a=s+%f=as%o=m5a0st11nw2%rd=0%q=)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c7-d1%gcd=1-6%isr=cb-d5%ti=z%ts=7%ci=)
+FingerB:seq(sp=104%gcd=1%isr=fb)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

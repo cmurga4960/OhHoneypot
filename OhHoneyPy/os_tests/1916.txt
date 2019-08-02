@@ -1,0 +1,74 @@
+Fingerprint: HP OpenVMS 7.3
+Class: HP | OpenVMS | 7.X | general purpose
+CPE: cpe:/o:hp:openvms:7.3 auto
+seq(sp=dd-e7%gcd=10|20|30|40|50%isr=109-113%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=f000%w2=f000%w3=f000%w4=f000%w5=f000%w6=f000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=f000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=f000%s=o%a=o|s+%f=as%o=m5b4nw0%rd=0%q=)
+t4(r=y%df=n|y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n|y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n|y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n|y%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: HP OpenVMS 7.3 (96%), Compaq Tru64 UNIX 5.1 (95%), IBM OS/2 Warp 2.0 (94%), Compaq Tru64 UNIX 5.1 or HP OpenVMS 7.3-2 (93%), HP Tru64 UNIX 5.1 (Alpha) (93%), HP OpenVMS 7.3-1 (93%), HP ProCurve 4104gl or 4108gl switch (91%), Compaq Tru64 UNIX 5.1 or HP OpenVMS 7.3-1 (91%), Fujitsu Siemens ReliantUNIX-N (SINIX-N) on RM400 (90%), DEC Digital UNIX OSF1 v5.0 910 or OpenVMS 7.2 (90%)
+seq(sp=106%gcd=1%isr=fd%ii=i%ts=u)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=f000%w2=f000%w3=f000%w4=f000%w5=f000%w6=f000)
+ecn(r=y%df=n%tg=40%w=f000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%tg=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=40%w=f000%s=o%a=o%f=as%o=m5b4nw0%rd=0%q=)
+t4(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=s%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+FingerAB:win(w1=f000%w2=f000%w3=f000%w4=f000%w5=f000%w6=f000)
+FingerAB:ecn(r=y%df=n%tg=40%w=f000%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=40%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=40%w=f000%s=o%f=as%o=m5b4nw0%rd=0%q=)
+FingerAB:t4(r=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=s%tg=40%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=dd-e7%gcd=10|20|30|40|50%isr=109-113%ti=i%ss=s%ci=)
+FingerB:seq(sp=106%gcd=1%isr=fd)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45%a=o|s+)
+FingerB:t1(a=o)
+
+FingerA:t3(t=3b-45%a=o|s+)
+FingerB:t3(a=o)
+
+FingerA:t4(df=n|y%t=3b-45)
+FingerB:t4(df=n)
+
+FingerA:t5(df=n|y%t=3b-45)
+FingerB:t5(df=n)
+
+FingerA:t6(df=n|y%t=3b-45)
+FingerB:t6(df=n)
+
+FingerA:t7(df=n|y%t=3b-45)
+FingerB:t7(df=n)
+
+FingerA:ie(t=3b-45)
+FingerB:ie(r=y)
+
+
+

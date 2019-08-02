@@ -1,0 +1,75 @@
+Fingerprint: Netgear GS108T switch (eCos)
+Class: eCosCentric | eCos || switch
+Class: Netgear | embedded || switch
+CPE: cpe:/o:ecoscentric:ecos auto
+CPE: cpe:/h:netgear:gs108t
+seq(sp=104-10e%gcd=1-6%isr=106-110%ti=i|rd%ci=i%ii=i%ss=o|s%ts=7)
+ops(o1=nnt11|m5b4nw0nnt11%o2=nnt11|m5b4nw0nnt11%o3=nnt11|m5b4nw0nnt11%o4=nnt11|m5b4nw0nnt11%o5=nnt11|m5b4nw0nnt11%o6=nnt11|m5b4nnt11)
+win(w1=43e0%w2=4110%w3=423c%w4=43e0%w5=4180%w6=403d)
+ecn(r=y%df=y%t=fa-104%tg=ff%w=4470%o=|m5b4nw0%cc=n)
+t1(r=y%df=y%t=fa-104%tg=ff%s=o%a=o|s+%f=a|as%rd=0)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%rd=0)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%rd=0)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Netgear GS108T switch (eCos) (99%), Scientific Atlanta WebSTAR EPC2203 cable modem (91%), Cisco EPC3925, DPC2320, Motorola SURFboard SB5101E, or Scientific Atlanta EPC2203 cable modem (eCos 2.0) (90%), Netgear GS108T or GS748Tv3 switch (eCos) (90%), IBM AIX 7.2 (90%), SMC SMC8014WG WAP (89%), Cisco EPC3208 or EPC3212 cable modem (89%), VIPA PLC CPU (89%), Apple Mac OS X 10.4.10 (Tiger) (Darwin 8.10.0, PowerPC) (89%)
+seq(sp=107%gcd=1%isr=fd%ci=i)
+ops(o1=nnt11%o2=nnt11%o3=nnt11%o4=nnt11%o5=nnt11%o6=nnt11)
+win(w1=43e0%w2=4110%w3=423c%w4=43e0%w5=4180%w6=403d)
+ecn(r=y%df=y%t=ff%w=4470%o=%cc=n%q=)
+t1(r=y%df=y%t=ff%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:win(w1=43e0%w2=4110%w3=423c%w4=43e0%w5=4180%w6=403d)
+FingerAB:ecn(r=y%df=y%w=4470%cc=n)
+FingerAB:t1(r=y%df=y%s=o%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=104-10e%gcd=1-6%isr=106-110%ti=i|rd%ii=i%ss=o|s%ts=7)
+FingerB:seq(sp=107%gcd=1%isr=fd)
+
+FingerA:ops(o1=nnt11|m5b4nw0nnt11%o2=nnt11|m5b4nw0nnt11%o3=nnt11|m5b4nw0nnt11%o4=nnt11|m5b4nw0nnt11%o5=nnt11|m5b4nw0nnt11%o6=nnt11|m5b4nnt11)
+FingerB:ops(o1=nnt11%o2=nnt11%o3=nnt11%o4=nnt11%o5=nnt11%o6=nnt11)
+
+FingerA:ecn(t=fa-104%tg=ff%o=|m5b4nw0)
+FingerB:ecn(t=ff%o=%q=)
+
+FingerA:t1(t=fa-104%tg=ff%a=o|s+%f=a|as)
+FingerB:t1(t=ff%a=o%f=as%q=)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff%o=%q=)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff%o=%q=)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff%o=%q=)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

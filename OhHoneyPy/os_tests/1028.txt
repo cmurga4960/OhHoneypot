@@ -1,0 +1,80 @@
+Fingerprint: D-Link DSL-504 ADSL modem
+Class: D-Link | embedded || broadband router
+CPE: cpe:/h:dlink:dsl-504 auto
+seq(sp=0-29%gcd=9c4|1388|1d4c|2710|30d4|61a8|c350|124f8|186a0|1e848%isr=8a-94%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=mfd8%o2=mfd8%o3=mfd8%o4=mfd8%o5=mfd8%o6=mfd8)
+win(w1=5dc%w2=5dc%w3=5dc%w4=5dc%w5=5dc%w6=5dc)
+ecn(r=y%df=n%t=3b-3d%tg=40%w=5dc%o=mfd8%cc=n%q=)
+t1(r=y%df=n%t=3b-3d%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-3d%tg=40%w=5dc%s=o%a=s+%f=as%o=mfd8%rd=0%q=)
+t4(r=y%df=y%t=3b-3d%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-3d%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-3d%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-3d%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=19-23%tg=20%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=19-23%tg=20%cd=z)
+********************************************************
+Fingerprint: D-Link DSL-504 ADSL modem (92%), ZyXEL AES-100 ADSL modem (91%), IBM AIX 6.1 (85%), FreeBSD 5.4-RELEASE (85%), FreeBSD 6.1-STABLE (85%), IronPort C100 or C650 email security appliance (AsyncOS 6.01 - 6.3) (85%), IBM AIX 7.2 (85%)
+Class: D-Link embedded (92%), ZyXEL embedded (91%), IBM AIX 6.X|7.X (85%), FreeBSD 5.X|6.X (85%), IronPort AsyncOS 6.X (85%)
+CPE: cpe:/h:dlink:dsl-504 cpe:/h:zyxel:aes-100 cpe:/o:ibm:aix:6.1 cpe:/o:freebsd:freebsd:5.4 cpe:/o:freebsd:freebsd:6.1 cpe:/o:ironport:asyncos:6 cpe:/o:ibm:aix:7.2
+seq(sp=fe%gcd=1%isr=f5%ci=i%ts=u)
+ops(o1=mfd8%o2=mfd8%o3=mfd8%o4=mfd8%o5=mfd8%o6=mfd8)
+win(w1=5dc%w2=5dc%w3=5dc%w4=5dc%w5=5dc%w6=5dc)
+ecn(r=y%df=n%t=40%w=5dc%o=mfd8%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=5dc%s=o%a=s+%f=as%o=mfd8%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=mfd8%o2=mfd8%o3=mfd8%o4=mfd8%o5=mfd8%o6=mfd8)
+FingerAB:win(w1=5dc%w2=5dc%w3=5dc%w4=5dc%w5=5dc%w6=5dc)
+FingerAB:ecn(r=y%df=n%w=5dc%o=mfd8%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=5dc%s=o%a=s+%f=as%o=mfd8%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-29%gcd=9c4|1388|1d4c|2710|30d4|61a8|c350|124f8|186a0|1e848%isr=8a-94%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=fe%gcd=1%isr=f5%ci=i)
+
+FingerA:ecn(t=3b-3d%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-3d%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-3d%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-3d%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-3d%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-3d%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-3d%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=19-23%tg=20)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=19-23%tg=20%cd=z)
+FingerB:ie(r=n)
+
+
+

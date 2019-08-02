@@ -1,0 +1,82 @@
+Fingerprint: HP printer: Photosmart All-in-One (2575, PSC5100, C5180, C6100, or C6180); DeskJet (6940 or 6980); Officejet 6300-series; or Officejet Pro (K550, K5400, L7600, or L7780)
+Class: HP | embedded || printer
+seq(sp=34-44%gcd=9c4|1388|1d4c|2710|30d4%isr=9f-a9%ti=i%ii=i%ss=s%ts=a|b%ci=)
+ops(o1=nnt11|m5b4nw0nnsnnt11%o2=nnt11|m578nw0nnsnnt11%o3=nnt11|m280nw0nnt11%o4=nnt11|m5b4nw0nnsnnt11%o5=nnt11|m218nw0nnsnnt11%o6=nnt11|m109nnsnnt11)
+win(w1=b50%w2=ad8%w3=9d0%w4=b50%w5=830%w6=8e5)
+ecn(r=y%df=n%t=3b-45%tg=40%w=b68%o=m5b4nw0nns%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=8e5%s=o%a=s+%f=as%o=nnt11|m109nw0nnsnnt11%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: HP printer: Photosmart All-in-One (2575, PSC5100, C5180, C6100, or C6180); DeskJet (6940 or 6980); Officejet 6300-series; or Officejet Pro (K550, K5400, L7600, or L7780) (95%), 3M Filtrete 3M-50 thermostat (92%), HP DeskJet 6127 or 6840, Officejet 7400, Officejet Pro K550, or Photosmart 2710 or 8400 printer (91%), 3M CT-30 thermostat (91%), HP Officejet J4680 printer (91%), HP Photosmart C4500 or C7280, or Officejet J6450 printer (91%), HP printer: Photosmart 4300-, 6500-, 7200-, or 8100-series, or Officejet 6000-series (91%), Nintendo Wii game console (90%), HP PhotoSmart C390 or C4780; or Officejet 6500, 7000, or 8500 printer (90%), IBM BladeCenter management module, IBM System Storage TS3100/TS3200 Express Model tape library, or HP StorageWorks MSL2024 tape library (90%)
+Class: HP embedded (95%), 3M embedded (92%), Nintendo embedded (90%), IBM embedded (90%), Scientific Atlanta embedded (89%), Yamaha embedded (89%), APC AOS 3.X (89%), HP iLO 3.X (89%)
+CPE: cpe:/h:nintendo:wii cpe:/h:ibm:ts3200 cpe:/h:hp:storageworks_msl2024 cpe:/h:scientificatlanta:webstar_epc2203 cpe:/h:yamaha:netvolante_rt57i cpe:/o:apc:aos:3 cpe:/o:hp:ilo:3
+seq(sp=fe%gcd=1%isr=f4%ii=i)
+ops(o1=nnt11%o2=nnt11%o3=nnt11%o4=nnt11%o5=nnt11%o6=nnt11)
+win(w1=b50%w2=ad8%w3=9d0%w4=b50%w5=830%w6=8e5)
+ecn(r=y%df=n%t=40%w=b68%o=m5b4nw0nns%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=8e5%s=o%a=s+%f=as%o=nnt11%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:win(w1=b50%w2=ad8%w3=9d0%w4=b50%w5=830%w6=8e5)
+FingerAB:ecn(r=y%df=n%w=b68%o=m5b4nw0nns%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=8e5%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=34-44%gcd=9c4|1388|1d4c|2710|30d4%isr=9f-a9%ti=i%ss=s%ts=a|b%ci=)
+FingerB:seq(sp=fe%gcd=1%isr=f4)
+
+FingerA:ops(o1=nnt11|m5b4nw0nnsnnt11%o2=nnt11|m578nw0nnsnnt11%o3=nnt11|m280nw0nnt11%o4=nnt11|m5b4nw0nnsnnt11%o5=nnt11|m218nw0nnsnnt11%o6=nnt11|m109nnsnnt11)
+FingerB:ops(o1=nnt11%o2=nnt11%o3=nnt11%o4=nnt11%o5=nnt11%o6=nnt11)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40%o=nnt11|m109nw0nnsnnt11)
+FingerB:t3(t=40%o=nnt11)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

@@ -1,0 +1,48 @@
+Fingerprint: Linux 2.6.32
+Class: Linux | Linux | 2.6.X | broadband router
+CPE: cpe:/o:linux:linux_kernel:2.6.32 auto
+seq(sp=100-10a%gcd=1-6%isr=106-110%ti=z%ts=8%ii=%ci=)
+ops(o1=m578st11nw6%o2=m578st11nw6%o3=m578nnt11nw6%o4=m578st11nw6%o5=m578st11nw6%o6=m578st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m578nnsnw6%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(r=n)
+ie(r=n)
+********************************************************
+Fingerprint: Linux 2.6.32 (90%), Check Point ZoneAlarm Z100G firewall (88%), Linux 2.6.36 (88%), Check Point UTM-1 Edge X firewall (87%), D-Link DSL-2890AL ADSL router (87%), HP MSM410 WAP (87%), DD-WRT v23 (Linux 2.4.34) (87%), OpenWrt Kamikaze 8.09 (Linux 2.6.25.20) (87%), IPCop 1.9.19 or IPFire 2.9 firewall (Linux 2.6.32) (87%), IPCop 2.0 (Linux 2.6.32) (87%)
+ecn(r=y%df=y%tg=40%w=16d0%o=m578nnsnw6%cc=y%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m578nnsnw6%cc=y%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:ecn(t=3b-45)
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t5(t=3b-45)
+FingerA:seq(sp=100-10a%gcd=1-6%isr=106-110%ti=z%ts=8%ii=%ci=)
+FingerA:ops(o1=m578st11nw6%o2=m578st11nw6%o3=m578nnt11nw6%o4=m578st11nw6%o5=m578st11nw6%o6=m578st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

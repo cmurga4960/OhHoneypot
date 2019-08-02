@@ -1,0 +1,75 @@
+Fingerprint: Cayman Systems GatorBox CS
+Class: Cayman Systems | embedded || bridge
+CPE: cpe:/h:cayman_systems:gatorbox_cs
+seq(sp=14-1e%gcd=fa00|1f400|2ee00|3e800|4e200%isr=99-a3%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=%o2=%o3=%o4=%o5=%o6=)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=18-22%tg=20%w=1000%o=%cc=n%q=)
+t1(r=y%df=n%t=18-22%tg=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=18-22%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=18-22%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=18-22%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=f9-103%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=2c-36%tg=40%cd=s)
+********************************************************
+Fingerprint: Cayman Systems GatorBox CS (93%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (91%), Polycom MGC-25 videoconferencing system (pSOS 1.0.4) (91%), Siemens Simatic 300 programmable logic controller (90%), Blue Coat PacketShaper appliance (88%), OneAccess 1641 router (88%), Denon AVR-3808CI audio/video receiver (88%), NEC UNIVERGE SV8100 PBX (87%), Omron CJ2M PLC (87%), Epson Stylus Pro 400 printer (86%)
+seq(sp=f6%gcd=1%isr=ed%ci=i%ts=u)
+ops(o1=%o2=%o3=%o4=%o5=m5b4%o6=m5b4)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=20%w=1000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=%o2=%o3=%o4=)
+FingerAB:win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+FingerAB:ecn(r=y%df=n%w=1000%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=14-1e%gcd=fa00|1f400|2ee00|3e800|4e200%isr=99-a3%ti=i%ii=i%ss=s)
+FingerB:seq(sp=f6%gcd=1%isr=ed)
+
+FingerA:ops(o5=%o6=)
+FingerB:ops(o5=m5b4%o6=m5b4)
+
+FingerA:ecn(t=18-22%tg=20%o=)
+FingerB:ecn(t=20%o=m5b4)
+
+FingerA:t1(t=18-22%tg=20)
+FingerB:t1(t=20)
+
+FingerA:t5(t=18-22%tg=20)
+FingerB:t5(t=20)
+
+FingerA:t6(t=18-22%tg=20)
+FingerB:t6(t=20)
+
+FingerA:t7(t=18-22%tg=20)
+FingerB:t7(t=20)
+
+FingerA:u1(t=f9-103%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=2c-36%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

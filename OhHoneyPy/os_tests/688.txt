@@ -1,0 +1,56 @@
+Fingerprint: Check Point ZoneAlarm Z100G firewall
+Class: Check Point | embedded || firewall
+CPE: cpe:/h:checkpoint:zonealarm_z100g auto
+seq(sp=be-c8%gcd=1-6%isr=d0-da%ti=z%ii=i%ts=7%ci=)
+ops(o1=m5b4st11nw0%o2=m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw0%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Check Point ZoneAlarm Z100G firewall (96%), DD-WRT v23 (Linux 2.4.34) (96%), Actiontec GT701 DSL modem (95%), Ubiquiti EdgeSwitch (Linux 3.6) (90%), Linux 2.6.32 (90%), QNAP NAS Firmware 3.8.3 (Linux 3.X) (90%), IPFire 2.11 firewall (Linux 2.6.32) (89%), HP 4200 PSA (Print Server Appliance) model J4117A (89%), Check Point VPN-1 UTM appliance (89%), Linux 2.4.35 (89%)
+Class: Check Point embedded (96%), Linux 2.4.X|3.X|2.6.X (96%), Actiontec embedded (95%), Ubiquiti embedded (90%), IPFire 2.X (89%), HP embedded (89%)
+CPE: cpe:/h:checkpoint:zonealarm_z100g cpe:/o:linux:linux_kernel:2.4.34 cpe:/h:actiontec:gt701 cpe:/h:ubnt:edgeswitch cpe:/o:linux:linux_kernel:3.6 cpe:/o:linux:linux_kernel:2.6.32 cpe:/o:linux:linux_kernel:3.x cpe:/o:ipfire:ipfire:2.11
+seq(sp=108%gcd=1%isr=ff)
+ops(o1=m5b4st11nw0%o2=m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nnsnw0%cc=y%q=)
+t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw0%o2=m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nnsnw0%cc=y%q=)
+FingerAB:t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=be-c8%gcd=1-6%isr=d0-da%ti=z%ii=i%ts=7%ci=)
+FingerB:seq(sp=108%gcd=1%isr=ff)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

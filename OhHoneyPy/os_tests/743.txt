@@ -1,0 +1,68 @@
+Fingerprint: Cisco NME-NAM-80S network analysis module
+Class: Cisco | embedded || specialized
+seq(sp=c5-cf%gcd=1-6%isr=c2-cc%ti=z%ii=i%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16d0%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Cisco NME-NAM-80S network analysis module (97%), Linux 2.6.18 (94%), Endian 2.3 or IPCop firewall 1.4.10 - 1.4.21 (Linux 2.4.31 - 2.6.22) (93%), Linux 2.6.8 - 2.6.32 (93%), Toshiba Magnia SG10 server appliance (Linux 2.4.18) (92%), OpenWrt (Linux 2.4.30 - 2.4.34) (91%), OpenWrt White Russian 0.9 (Linux 2.4.30) (91%), Check Point SecurePlatform NGX R65 firewall (Linux 2.4.21) (91%), Check Point VPN-1 Firewall-1 firewall (Linux 2.6.18) (91%), Linux 2.6.30 (91%)
+Class: Cisco embedded (97%), Linux 2.6.X|2.4.X (94%), Endian embedded (93%), IPCop embedded (93%), Toshiba embedded (92%), Check Point embedded (91%)
+CPE: cpe:/o:linux:linux_kernel:2.6.18 cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:2.4 cpe:/a:endian:firewall:2.3 cpe:/o:ipcop:ipcop:1.4 cpe:/o:linux:linux_kernel:2.4.18 cpe:/h:toshiba:magnia_sg10 cpe:/a:checkpoint:secureplatform_ngx:r65
+seq(sp=104%gcd=1%isr=fb%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=16d0%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16d0%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c5-cf%gcd=1-6%isr=c2-cc%ti=z%ii=i%ci=)
+FingerB:seq(sp=104%gcd=1%isr=fb)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

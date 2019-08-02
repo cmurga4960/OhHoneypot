@@ -1,0 +1,78 @@
+Fingerprint: Linksys WRV54G WAP
+Class: Linksys | embedded || WAP
+CPE: cpe:/h:linksys:wrv54g auto
+seq(sp=b5-bf%gcd=1-6%isr=bf-c9%ti=z%ci=z%ii=i%ts=7)
+ops(r=n)
+win(r=n)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16a0%s=o%a=o|s+%f=as%o=m5b4nnt11nw0%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Netgear EVA8000 Digital Entertainer set top box (95%), Linux 2.6.24 (95%), Belkin Wireless Pre-N Router (95%), Linux 2.4.19 (95%), Linux 2.6.17 (95%), Linux 2.6.8 (Debian 3.1) (95%), Brocade Fabric OS 7.4.1 (Linux 2.6.14) (94%), Linux 2.4.21 - 2.4.27 (94%), Linux 2.6.10 - 2.6.13 (embedded) (94%), Linux 2.6.12 - 2.6.14 (embedded) (94%)
+Class: Netgear embedded (95%), Linux 2.6.X|2.4.X (95%), Belkin embedded (95%), Brocade Fabric OS 7.X (94%), Motorola embedded (94%), Riverbed RiOS (94%), 3Com embedded (94%), Aastra embedded (94%)
+CPE: cpe:/h:netgear:eva8000 cpe:/o:linux:linux_kernel:2.6.24 cpe:/o:linux:linux_kernel:2.4.19 cpe:/o:brocade:fabric_os:7.4.1 cpe:/o:riverbed:rios cpe:/h:3com:officeconnect_3crwer100-75
+seq(ci=i%ii=i)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nw0%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=16a0%s=o%a=o%f=as%o=m5b4nnt11nw0%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nw0%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16a0%s=o%f=as%o=m5b4nnt11nw0%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=b5-bf%gcd=1-6%isr=bf-c9%ti=z%ci=z%ts=7)
+FingerB:seq(ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%tg=40%a=o|s+)
+FingerB:t3(t=40%a=o)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

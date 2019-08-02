@@ -1,0 +1,75 @@
+Fingerprint: Alcatel-Lucent 7750 Service Router (SR OS 9.0.R9)
+Class: Alcatel-Lucent | SR OS | 9.X | router
+CPE: cpe:/o:alcatel-lucent:sr_os:9.0.r9 auto
+seq(sp=f7-10f%gcd=1-6%isr=105-113%ti=i|rd%ci=i%ii=ri%ss=o|s%ts=1)
+ops(o1=m400nw0nnt11%o2=m400nw0nnt11%o3=m400nw0nnt11%o4=m400nw0nnt11%o5=m400nw0nnt11%o6=m400nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=3a-44%tg=40%w=2000%o=m400nw0%cc=n%q=)
+t1(r=y%df=n%t=3a-44%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3a-44%tg=40%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3a-44%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3a-44%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3a-44%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3a-44%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3a-44%tg=40%cd=s)
+********************************************************
+Fingerprint: Alcatel-Lucent 7750 Service Router (SR OS 9.0.R9) (98%), Epson Stylus Pro 400 printer (94%), NEC UNIVERGE SV8100 PBX (92%), Nintendo Wii game console (92%), 3Com SuperStack 3 Switch 3870 (92%), Siemens Gigaset SE567 WAP or SpeedStream 4200 ADSL modem (91%), Juniper Networks ERX-700 router (91%), Enterasys Matrix N7 switch (91%), Siemens SpeedStream 4200 ADSL modem (91%), Huawei AP6050DN WAP (91%)
+seq(sp=102%gcd=1%isr=f8%ci=i)
+ops(o1=m400nw0nnt11%o2=m400nw0nnt11%o3=m400nw0nnt11%o4=m400nw0nnt11%o5=m400nw0nnt11%o6=m400nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=40%w=2000%o=m400nw0%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ops(o1=m400nw0nnt11%o2=m400nw0nnt11%o3=m400nw0nnt11%o4=m400nw0nnt11%o5=m400nw0nnt11%o6=m400nnt11)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%w=2000%o=m400nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=f7-10f%gcd=1-6%isr=105-113%ti=i|rd%ii=ri%ss=o|s%ts=1)
+FingerB:seq(sp=102%gcd=1%isr=f8)
+
+FingerA:ecn(t=3a-44%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3a-44%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3a-44%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3a-44%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3a-44%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3a-44%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3a-44%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3a-44%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

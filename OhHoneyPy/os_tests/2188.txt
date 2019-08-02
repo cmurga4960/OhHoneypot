@@ -1,0 +1,80 @@
+Fingerprint: Konica Minolta MagiColor 2430 printer (VxWorks)
+Class: Konica Minolta | embedded || printer
+Class: Wind River | VxWorks || general purpose
+CPE: cpe:/h:konicaminolta:magicolor_2430 auto
+CPE: cpe:/o:windriver:vxworks auto
+seq(sp=96-a0%gcd=1-6%isr=9a-a4%ti=i%ii=i%ss=s%ts=1|2%ci=)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=1%w2=1%w3=1%w4=1%w5=1%w6=1)
+ecn(r=y%df=y%t=3b-45%tg=40%w=1%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=1%s=o%a=o%f=as%o=m5b4nw0nnt11%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=1%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Konica Minolta MagiColor 2430 printer (VxWorks) (98%), Netgear GSM7224 switch (VxWorks) (93%), Ricoh Aficio SP C311N printer (VxWorks) (93%), VxWorks (93%), Alcatel-Lucent OmniSwitch 6850 switch (92%), Hirschmann RS20 switch (VxWorks) (92%), Konica Minolta MagiColor 2300 DL printer (92%), VxWorks 5.5.1 (92%), Arris Cadant C3 cable modem terminator (VxWorks 5.4.2) (92%), Canon imageRUNNER 2270, 4570, or 6570 laser printer (VxWorks) (91%)
+seq(sp=f0%gcd=1%isr=e7)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=1%w2=1%w3=1%w4=1%w5=1%w6=1)
+ecn(r=y%df=y%t=40%w=1%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=1%s=o%a=o%f=as%o=m5b4nw0nnt11%rd=0%q=)
+t4(r=y%df=n%t=40%w=1%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerAB:win(w1=1%w2=1%w3=1%w4=1%w5=1%w6=1)
+FingerAB:ecn(r=y%df=y%w=1%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=1%s=o%a=o%f=as%o=m5b4nw0nnt11%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=1%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=96-a0%gcd=1-6%isr=9a-a4%ti=i%ii=i%ss=s%ts=1|2%ci=)
+FingerB:seq(sp=f0%gcd=1%isr=e7)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

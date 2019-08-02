@@ -1,0 +1,68 @@
+Fingerprint: D-Link DIR-835 WAP
+Class: D-Link | embedded || WAP
+CPE: cpe:/h:dlink:dir-835 auto
+seq(sp=cd-d7%gcd=1-6%isr=d0-da%ti=z%ci=z%ii=i%ts=u)
+ops(o1=m5b4nnsnw2%o2=m5b4nnsnw2%o3=m5b4nw2%o4=m5b4nnsnw2%o5=m5b4nnsnw2%o6=m5b4nns)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=n)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: D-Link DIR-835 WAP (95%), Crestron XPanel control system (94%), Linux 2.4.26 (Slackware 10.0.0) (94%), Linux 2.6.18 - 2.6.22 (93%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (93%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (92%), OpenWrt White Russian 0.9 (Linux 2.4.30) (92%), Nintendo Wii game console (92%), OpenWrt Kamikaze 8.09 (Linux 2.6.25 - 2.6.26) (91%), Vodavi XTS-IP PBX (91%)
+seq(sp=107%gcd=1%isr=fd%ci=i%ts=u)
+ops(o1=m5b4nnsnw2%o2=m5b4nnsnw2%o3=m5b4nw2%o4=m5b4nnsnw2%o5=m5b4nnsnw2%o6=m5b4nns)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=n)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4nnsnw2%o2=m5b4nnsnw2%o3=m5b4nw2%o4=m5b4nnsnw2%o5=m5b4nnsnw2%o6=m5b4nns)
+FingerAB:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=cd-d7%gcd=1-6%isr=d0-da%ti=z%ci=z%ii=i)
+FingerB:seq(sp=107%gcd=1%isr=fd%ci=i)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

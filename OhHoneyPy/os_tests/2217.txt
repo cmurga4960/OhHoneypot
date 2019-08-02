@@ -1,0 +1,61 @@
+Fingerprint: Lantronix XPort AR
+Class: Lantronix | embedded || bridge
+CPE: cpe:/h:lantronix:xport_ar
+seq(sp=100-10a%gcd=1-6%isr=105-10f%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m550%o2=m550%o3=m280%o4=m280%o5=m218%o6=m109)
+win(w1=1540%w2=1540%w3=a00%w4=a00%w5=860%w6=424)
+ecn(r=y%df=n%t=3c-46%tg=40%w=3%o=%cc=n%q=u)
+t1(r=y%df=n%t=3c-46%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=n)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3c-46%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3c-46%tg=40%cd=s)
+********************************************************
+Fingerprint: Lantronix XPort AR (96%), Mitsubishi Q06UDEH CPU PLC module (93%), Linksys BEFSR41 EtherFast router (91%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (90%), AVtech Room Alert 26W environmental monitor (88%), DYMO LabelManager Wireless PNP printer (88%), OneAccess 1641 router (87%), HP Integrated Lights-Out 2 (87%), CMI Genus NEMA terminal (87%), GlobespanVirata GS8100, Huawei MT880, or Solwise SAR 100 ADSL modem (87%)
+seq(sp=100%gcd=1%isr=f7%ii=i%ts=u)
+ops(o1=m550%o2=m550%o3=m280%o4=m280%o5=m218%o6=m109)
+win(w1=1540%w2=1540%w3=a00%w4=a00%w5=860%w6=424)
+ecn(r=y%df=n%t=40%w=3%o=m5b4%cc=n%q=u)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ops(o1=m550%o2=m550%o3=m280%o4=m280%o5=m218%o6=m109)
+FingerAB:win(w1=1540%w2=1540%w3=a00%w4=a00%w5=860%w6=424)
+FingerAB:ecn(r=y%df=n%w=3%cc=n%q=u)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=100-10a%gcd=1-6%isr=105-10f%ti=i%ss=s%ci=)
+FingerB:seq(sp=100%gcd=1%isr=f7)
+
+FingerA:ecn(t=3c-46%tg=40%o=)
+FingerB:ecn(t=40%o=m5b4)
+
+FingerA:t1(t=3c-46%tg=40)
+FingerB:t1(t=40)
+
+FingerA:u1(t=3c-46%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3c-46%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t5(r=n)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

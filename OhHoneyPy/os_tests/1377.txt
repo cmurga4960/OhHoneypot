@@ -1,0 +1,80 @@
+Fingerprint: FreeBSD 3.5.1 (x86)
+Class: FreeBSD | FreeBSD | 3.X | general purpose
+CPE: cpe:/o:freebsd:freebsd:3.5.1
+seq(sp=8f-99%gcd=1-6%isr=97-a1%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=4470%w2=41a0%w3=4100%w4=4000%w5=40e8%w6=402e)
+ecn(r=y%df=y%t=3b-45%tg=40%w=4470%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=402e%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=4210%ripck=i%ruck=0%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: FreeBSD 3.5.1 (x86) (98%), Alcatel-Lucent OmniPCX Enterprise A4400 PBX (93%), FreeBSD 4.3-RELEASE or IBM AIX 5.3 - 6.1 (92%), IBM OS/2 Warp 2.0 (90%), IBM AIX 6.1 (90%), Alcatel 4400 PBX (Chorus MiX V.3.2 r4.1.5 COMP-386) (89%), IBM AIX 5.3 - 6.1 (89%), F5 BIG-IP load balancer (89%), Polycom SoundPoint 320, 330, 430, 550, or 650 IP phone (89%), IBM AIX 5.3 (88%)
+Class: FreeBSD 3.X|4.X (98%), Alcatel-Lucent embedded (93%), IBM AIX 5.X|6.X (92%), IBM OS/2 4.X (90%), Alcatel embedded (89%), F5 Networks embedded (89%), Polycom embedded (89%)
+CPE: cpe:/o:freebsd:freebsd:3.5.1 cpe:/o:freebsd:freebsd:4.3 cpe:/o:ibm:aix:5 cpe:/o:ibm:os2:4 cpe:/o:ibm:aix:6.1
+seq(sp=107%gcd=1%isr=fe%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=4470%w2=41a0%w3=4100%w4=4000%w5=40e8%w6=402e)
+ecn(r=y%df=y%t=40%w=4470%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=402e%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=4210%ripck=i%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=4470%w2=41a0%w3=4100%w4=4000%w5=40e8%w6=402e)
+FingerAB:ecn(r=y%df=y%w=4470%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=402e%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=4210%ripck=i%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=8f-99%gcd=1-6%isr=97-a1%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=107%gcd=1%isr=fe%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

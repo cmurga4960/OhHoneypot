@@ -1,0 +1,77 @@
+Fingerprint: Alcatel SpeedTouch 510 DSL modem
+Class: Alcatel | embedded || broadband router
+CPE: cpe:/h:alcatel:speedtouch_510 auto
+seq(sp=c-16%gcd=fa00|1f400|2ee00|3e800|4e200%isr=97-a1%ti=i%ii=i%ss=s%ts=1%ci=)
+ops(o1=m200nw0nnt11%o2=m200nw0nnt11%o3=m200nw0nnt11%o4=m200nw0nnt11%o5=m200nw0nnt11%o6=m200nnt11)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=1000%o=m200nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=1000%s=o%a=o%f=a%o=nnt11%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=1000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=391f%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Alcatel SpeedTouch 510 DSL modem (95%), Thomson SpeedTouch 510/510i/530/570/580 DSL modem (94%), Alcatel SpeedTouch Pro ADSL Modem (89%), Brother MFC-7820N printer (88%), Huawei Quidway S3526C switch (VRP 3.10) (88%), IBM AIX 7.2 (87%), Thomson SpeedTouch 510 DSL modem (87%), Crestron CNMSX-AV control and automation system (86%), SMC SMC8014WG WAP (86%), NEC UNIVERGE SV8100 PBX (86%)
+seq(sp=fb%gcd=1%isr=f2%ci=i)
+ops(o1=m200nw0nnt11%o2=m200nw0nnt11%o3=m200nw0nnt11%o4=m200nw0nnt11%o5=m200nw0nnt11%o6=m200nnt11)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=40%w=1000%o=m200nw0%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=1000%s=o%a=o%f=a%o=nnt11%rd=0%q=)
+t4(r=y%df=n%t=40%w=1000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=391f%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m200nw0nnt11%o2=m200nw0nnt11%o3=m200nw0nnt11%o4=m200nw0nnt11%o5=m200nw0nnt11%o6=m200nnt11)
+FingerAB:win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+FingerAB:ecn(r=y%df=n%w=1000%o=m200nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=1000%s=o%a=o%f=a%o=nnt11%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=1000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=391f%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=fa00|1f400|2ee00|3e800|4e200%isr=97-a1%ti=i%ii=i%ss=s%ts=1%ci=)
+FingerB:seq(sp=fb%gcd=1%isr=f2%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

@@ -1,0 +1,58 @@
+Fingerprint: HP Officejet Pro 8500 printer
+Class: HP | embedded || printer
+CPE: cpe:/h:hp:officejet_pro_8500 auto
+seq(sp=b0-ba%gcd=1-6%isr=ae-b8%ci=i%ts=a%ii=%ti=)
+ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m5b4nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+win(w1=21f0%w2=2088%w3=2258%w4=21f0%w5=20c0%w6=209d)
+ecn(r=y%df=n%t=3b-45%tg=40%w=2238%o=m5b4nw0nns%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(r=n)
+ie(r=n)
+********************************************************
+Fingerprint: VxWorks
+Class: Wind River VxWorks
+CPE: cpe:/o:windriver:vxworks
+seq(sp=109%gcd=1%isr=100%ci=i)
+ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m5b4nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+win(w1=21f0%w2=2088%w3=2258%w4=21f0%w5=20c0%w6=209d)
+ecn(r=y%df=n%tg=40%w=2238%o=m5b4nw0nns%cc=n%q=)
+t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m5b4nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+FingerAB:win(w1=21f0%w2=2088%w3=2258%w4=21f0%w5=20c0%w6=209d)
+FingerAB:ecn(r=y%df=n%tg=40%w=2238%o=m5b4nw0nns%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=b0-ba%gcd=1-6%isr=ae-b8%ts=a%ii=%ti=)
+FingerB:seq(sp=109%gcd=1%isr=100)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:t7(r=n)
+
+

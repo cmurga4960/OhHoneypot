@@ -1,0 +1,75 @@
+Fingerprint: Cisco IP Phone 7975G
+Class: Cisco | embedded || VoIP phone
+CPE: cpe:/h:cisco:unified_ip_phone_7975g
+seq(sp=fc-106%gcd=1-6%isr=108-112%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m53c%o2=m53c%o3=m53c%o4=m53c%o5=m53c%o6=m53c)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=n)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=2000%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=2000%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Cisco IP Phone 7945G (99%), Cisco IP Phone 7975G (99%), Cisco IP Phone 7911 (95%), Cisco IP Phone 7941, 7961, 7965G, or 7975 (95%), Cisco IP Phone 7971G-GE (95%), Cisco IP Phone 7945 (92%), Cisco Unified IP Phone 7942G (92%), Cisco IP Phone (7911, 7941, 7961, or 7970) (92%), Cisco IP Phone 7942G (92%), Nintendo Wii game console (90%)
+Class: Cisco embedded (99%), Nintendo embedded (90%), Epson embedded (90%), OSRAM embedded (89%), HP embedded (89%)
+CPE: cpe:/h:cisco:unified_ip_phone_7945g cpe:/h:nintendo:wii cpe:/h:epson:stylus_pro_400 cpe:/h:osram:lightify cpe:/h:hp:laserjet_4250
+seq(sp=ff%gcd=1%isr=f6%ci=i%ii=i%ts=u)
+ops(o1=m53c%o2=m53c%o3=m53c%o4=m53c%o5=m53c%o6=m53c)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=n)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=2000%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=2000%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3d%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ii=i%ts=u)
+FingerAB:ops(o1=m53c%o2=m53c%o3=m53c%o4=m53c%o5=m53c%o6=m53c)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=2000%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=2000%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=fc-106%gcd=1-6%isr=108-112%ti=i%ss=s)
+FingerB:seq(sp=ff%gcd=1%isr=f6)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3d%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3d%r=y)
+
+
+

@@ -1,0 +1,63 @@
+Fingerprint: Linux 2.4.35
+Class: Linux | Linux | 2.4.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.4.35
+seq(sp=b9-c3%gcd=1-6%isr=c6-d0%ti=z%ts=7%ii=%ci=)
+ops(o1=m5b4st11nw0%o2=m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=0-ffff%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Linux 2.4.35 (88%), Linux 2.6.18 (88%), Linux 2.6.28 (Ubuntu) (88%), Citrix Access Gateway VPN gateway (86%), Juniper SA4000 SSL VPN gateway (IVE OS 7.0) (86%), Linux 2.6.11 (86%), Linux 2.6.26 (86%), Avaya Communication Manager (Linux 2.6.11) (86%), Linux 2.6.24 (Debian) (85%)
+Class: Linux 2.4.X|2.6.X (88%), Citrix embedded (86%), Juniper IVE OS 7.X (86%), Avaya Communication Manager (86%)
+CPE: cpe:/o:linux:linux_kernel:2.4.35 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:juniper:sa4000 cpe:/o:juniper:ive_os:7.0 cpe:/o:linux:linux_kernel:2.6.11 cpe:/a:avaya:communication_manager
+seq(ii=i)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nnsnw0%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=0%ripck=i%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nnsnw0%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=b9-c3%gcd=1-6%isr=c6-d0%ti=z%ts=7%ii=%ci=)
+FingerB:seq(ii=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40%rid=0-ffff%ripck=g)
+FingerB:u1(t=3b%rid=0%ripck=i%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b4st11nw0%o2=m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

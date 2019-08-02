@@ -1,0 +1,82 @@
+Fingerprint: Essentia OpenWifless ESS
+Class: Essentia | embedded || specialized
+seq(sp=f7-101%gcd=1-6%isr=105-10f%ti=z%ci=rd%ii=i%ts=u)
+ops(o1=m564nnsnw1%o2=m564nnsnw1%o3=m564nw1%o4=m564nnsnw1%o5=m564nnsnw1%o6=m564nns)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m564nnsnw1%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fb-105%tg=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=fb-105%tg=ff%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=fb-105%tg=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fb-105%tg=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=fb-105%tg=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Essentia OpenWifless ESS (96%), Linux 2.6.11 - 2.6.18 (87%), Tripp Lite NetOS 7.5.2tl (86%), Cisco IPS 4270 intrusion prevention system (86%)
+Class: Essentia embedded (96%), Linux 2.6.X (87%), Tripp Lite NetOS 7.X (86%), Cisco embedded (86%)
+CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:tripplite:netos:7.5.2tl cpe:/h:cisco:ips_4270
+seq(sp=f2%gcd=1%isr=e9%ci=i%ts=u)
+ops(o1=m564nnsnw1%o2=m564nnsnw1%o3=m564nw1%o4=m564nnsnw1%o5=m564nnsnw1%o6=m564nns)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%t=40%w=16d0%o=m564nnsnw1%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=ff%w=100%s=z%a=s+%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m564nnsnw1%o2=m564nnsnw1%o3=m564nw1%o4=m564nnsnw1%o5=m564nnsnw1%o6=m564nns)
+FingerAB:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m564nnsnw1%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=100%s=z%a=s+%f=ar%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=f7-101%gcd=1-6%isr=105-10f%ti=z%ci=rd%ii=i)
+FingerB:seq(sp=f2%gcd=1%isr=e9%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=fb-105%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t3(t=fb-105%tg=ff%o=)
+FingerB:t3(t=ff%o=m5b4)
+
+FingerA:t4(t=fb-105%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=fb-105%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fb-105%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

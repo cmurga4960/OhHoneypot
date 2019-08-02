@@ -1,0 +1,87 @@
+Fingerprint: Foundry Networks FES2402 switch, ServerIron 4G proxy server, or ServerIron GT EGx2 load balancer
+Class: Foundry | embedded || switch
+Class: Foundry | embedded || proxy server
+Class: Foundry | embedded || load balancer
+CPE: cpe:/h:foundrynet:networks_fes2402
+CPE: cpe:/h:foundrynet:serveriron_4g
+CPE: cpe:/h:foundrynet:serveriron_gt_egx2
+seq(sp=79-95%gcd=1-6%isr=79-91%ti=i%ci=i%ii=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=4000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=u)
+t3(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=u)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=u)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=u)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=u)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=u)
+u1(df=n%t=3b-45%tg=40%ipl=44%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=i)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Foundry Networks FES2402 switch, ServerIron 4G proxy server, or ServerIron GT EGx2 load balancer (94%), Foundry FastIron switch (4802, FESX, GS 648P, X448, or II Plus) (IronWare) (91%), Foundry Networks ServerIron switch (90%), Brocade Layer 2 switch (90%), HP ProCurve 9304m or 9308m switch (89%), Foundry FastIron 400 switch (88%), Foundry BigIron RX switch, NetIron MLX switch, or NetIron 4000 XMR switch (IronWare 2.2.1 - 3.6.0) (88%), Foundry NetIron MLX switch (IronWare 3.8.0) (87%), Brocade TurboIron 24X or ICX6550 switch (87%)
+Class: Foundry embedded (94%), Foundry IronWare 3.X|4.X|2.X (91%), Brocade embedded (90%), HP embedded (89%)
+CPE: cpe:/h:foundrynet:networks_fes2402 cpe:/h:foundrynet:serveriron_4g cpe:/h:foundrynet:serveriron_gt_egx2 cpe:/o:foundrynet:ironware:3 cpe:/o:foundrynet:ironware:4 cpe:/o:foundrynet:ironware:2
+seq(sp=e6%gcd=1%isr=dc%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=n%t=40%w=4000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=u)
+t3(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=m5b4%rd=0%q=u)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=u)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=u)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=u)
+t7(r=y%df=y%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=u)
+u1(r=y%df=n%t=fa%ipl=39%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=i)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+FingerAB:ecn(r=y%df=n%w=4000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=y%w=0%s=z%a=s%f=ar%o=%rd=0%q=u)
+FingerAB:t3(r=y%df=y%w=0%s=z%a=s+%f=ar%rd=0%q=u)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=u)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=u)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=u)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s%f=ar%o=%rd=0%q=u)
+FingerAB:u1(df=n%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=i)
+--- Diff Values ---
+FingerA:seq(sp=79-95%gcd=1-6%isr=79-91%ti=i%ii=i)
+FingerB:seq(sp=e6%gcd=1%isr=dc)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=3b-45%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=3b-45%tg=40%o=)
+FingerB:t3(t=40%o=m5b4)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40%ipl=44)
+FingerB:u1(t=fa%ipl=39%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

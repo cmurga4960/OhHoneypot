@@ -1,0 +1,83 @@
+Fingerprint: Huawei Echolife HG520-series ADSL modem
+Class: Huawei | embedded || broadband router
+seq(sp=0-1d%gcd=a000|14000|1e000|28000|32000|64000|c8000|12c000|190000|1f4000%isr=ab-b5%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m300%o2=m300%o3=m300%o4=m300%o5=m300%o6=m300)
+win(w1=600%w2=600%w3=600%w4=600%w5=600%w6=600)
+ecn(r=y%df=n%t=f9-103%tg=ff%w=600%o=m300%cc=n%q=)
+t1(r=y%df=n%t=f9-103%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=f9-103%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=f9-103%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=f9-103%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=f9-103%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=f9-103%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=f9-103%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=f9-103%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=f9-103%tg=ff%cd=s)
+********************************************************
+Fingerprint: Huawei Echolife HG520-series ADSL modem (95%), TP-LINK TD-W8951ND wireless ADSL modem (88%), ZyXEL Prestige 200 ISDN router (88%), ZyXEL ZyNOS 3.40 (88%), Netopia 3387WG-ENT broadband router (88%), Netopia 3300-series ADSL router (88%), ZyXEL Prestige 2602R-D1A ADSL router (ZyNOS 3.40) (87%), Bell Labs Plan 9 4th edition (87%), Bell Labs Plan 9 edition (87%), Netopia 3346N-VGx ADSL router (87%)
+Class: Huawei embedded (95%), TP-LINK embedded (88%), ZyXEL ZyNOS 3.X (88%), Netopia embedded (88%), Netopia SOC OS 7.X (88%), Bell Labs Plan 9 4th edition (87%), Bay Networks embedded (87%), HP embedded (87%)
+CPE: cpe:/h:tp-link:td-w8951nd cpe:/o:zyxel:zynos:3 cpe:/h:netopia:3387wg-ent cpe:/o:netopia:soc_os:7 cpe:/o:belllabs:plan_9:4th_edition cpe:/o:belllabs:plan_9 cpe:/h:baynetworks:baystack_450 cpe:/h:hp:gbe2c
+seq(sp=f4%gcd=1%isr=eb%ts=u)
+ops(o1=m300%o2=m300%o3=m300%o4=m300%o5=m300%o6=m300)
+win(w1=600%w2=600%w3=600%w4=600%w5=600%w6=600)
+ecn(r=y%df=n%t=ff%w=600%o=m300%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m300%o2=m300%o3=m300%o4=m300%o5=m300%o6=m300)
+FingerAB:win(w1=600%w2=600%w3=600%w4=600%w5=600%w6=600)
+FingerAB:ecn(r=y%df=n%w=600%o=m300%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=0-1d%gcd=a000|14000|1e000|28000|32000|64000|c8000|12c000|190000|1f4000%isr=ab-b5%ti=i%ci=i%ii=i%ss=s)
+FingerB:seq(sp=f4%gcd=1%isr=eb)
+
+FingerA:ecn(t=f9-103%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=f9-103%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t2(t=f9-103%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t3(t=f9-103%tg=ff%o=)
+FingerB:t3(t=ff%o=m5b4)
+
+FingerA:t4(t=f9-103%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=f9-103%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=f9-103%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=f9-103%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=f9-103%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=f9-103%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

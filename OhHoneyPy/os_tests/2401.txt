@@ -1,0 +1,74 @@
+Fingerprint: Sharp SL-5500 PDA (OpenZaurus 3.5.4, Linux 2.4.18)
+Class: Linux | Linux | 2.4.X | PDA
+CPE: cpe:/o:linux:linux_kernel:2.4.18 auto
+seq(sp=c5-cf%gcd=1-6%isr=cb-d5%ti=z%ii=i%ts=7%ci=)
+ops(o1=m5aest11nw0%o2=m5aest11nw0%o3=m5aennt11nw0%o4=m5aest11nw0%o5=m5aest11nw0%o6=m5aest11)
+win(w1=1688%w2=1688%w3=1688%w4=1688%w5=1688%w6=1688)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16b8%o=m5aennsnw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=1688%s=o%a=s+%f=as%o=m5aest11nw0%rd=0%q=)
+t4(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Sharp SL-5500 PDA (OpenZaurus 3.5.4, Linux 2.4.18) (95%), Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (93%), Linux 2.6.18 (93%), AXIS 211A Network Camera (Linux 2.6.20) (93%), Linux 2.6.24 (93%), Linux 2.6.16 (93%), Alcatel-Lucent OmniPCX Enterprise PBX (Linux 2.4.17) (93%), Avocent DSR1030 KVM over IP switch (93%), Comtrend 5361 ADSL router (93%), Comtrend CT536 wireless ADSL router (93%)
+seq(ii=i)
+ecn(r=y%df=y%t=40%w=16b8%o=m5aennsnw0%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=1688%s=o%a=s+%f=as%o=m5aest11nw0%rd=0%q=)
+t4(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=y%w=16b8%o=m5aennsnw0%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=1688%s=o%a=s+%f=as%o=m5aest11nw0%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c5-cf%gcd=1-6%isr=cb-d5%ti=z%ts=7%ci=)
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5aest11nw0%o2=m5aest11nw0%o3=m5aennt11nw0%o4=m5aest11nw0%o5=m5aest11nw0%o6=m5aest11)
+FingerA:win(w1=1688%w2=1688%w3=1688%w4=1688%w5=1688%w6=1688)
+
+

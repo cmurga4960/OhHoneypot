@@ -1,0 +1,80 @@
+Fingerprint: Broadband router (Allied Data CopperJet, Belkin F5D7632-4, Intracom Jetspeed 500i, or Iskratel Sinope568 or Proteus932); or Adva Optical FSP 150CC-825 router
+Class: Allied Data | embedded || broadband router
+Class: Adva Optical | embedded || router
+Class: Belkin | embedded || WAP
+Class: Intracom | embedded || broadband router
+Class: Iskratel | embedded || broadband router
+CPE: cpe:/h:advaoptical:fsp_150cc-825 auto
+seq(sp=6f-87%gcd=1-6%isr=71-8d%ti=i%ts=u%ii=%ci=)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m218%o5=m218%o6=m109)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=y%t=7b-85%tg=80%w=4000%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=7b-85%tg=80%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=y%t=7b-85%tg=80%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=7b-85%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=7b-85%tg=80%w=0%s=z%a=z%f=r%o=%rd=0%q=)
+u1(df=n%t=96-a0%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+Fingerprint: Broadband router (Allied Data CopperJet, Belkin F5D7632-4, Intracom Jetspeed 500i, or Iskratel Sinope568 or Proteus932); or Adva Optical FSP 150CC-825 router (97%), XAVi X7721r+ DSL router (96%), D-Link DSL2-300G DSL modem (95%), Billion 7404VGO-M or Zoom X6 DSL router (94%), XAVi X7868r wireless ADSL modem (92%), Huawei SmartAX MT880 ADSL modem (91%), Billion 7402VGP DSL router (91%), Billion WRT610n WAP (90%)
+seq(sp=103%gcd=1%isr=fa%ci=i%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m218%o5=m218%o6=m109)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=y%t=80%w=4000%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=80%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=y%t=80%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=z%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m578%o3=m280%o4=m218%o5=m218%o6=m109)
+FingerAB:win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+FingerAB:ecn(r=y%df=y%w=4000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=y%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=6f-87%gcd=1-6%isr=71-8d%ti=i%ii=%ci=)
+FingerB:seq(sp=103%gcd=1%isr=fa%ci=i)
+
+FingerA:ecn(t=7b-85%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(t=7b-85%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t2(t=7b-85%tg=80)
+FingerB:t2(t=80)
+
+FingerA:t4(t=7b-85%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=7b-85%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=7b-85%tg=80)
+FingerB:t6(t=80)
+
+FingerA:t7(t=7b-85%tg=80)
+FingerB:t7(t=80)
+
+FingerA:u1(t=96-a0%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+
+

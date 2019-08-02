@@ -1,0 +1,79 @@
+Fingerprint: iDirect Protocol Processor (Red Hat Enterprise Linux 3)
+Class: Linux | Linux | 2.4.X | specialized
+Class: iDirect | embedded || specialized
+CPE: cpe:/o:linux:linux_kernel:2.4 auto
+CPE: cpe:/h:idirect:protocol_processor
+seq(sp=c5-cf%gcd=1-6%isr=c9-d3%ti=z%ii=i%ts=7%ci=)
+ops(o1=m5b8st11nw0%o2=m5b8st11nw0%o3=m5b8nnt11nw0%o4=m5b8st11nw0%o5=m5b8st11nw0%o6=m5b8st11)
+win(w1=16b0%w2=16b0%w3=16b0%w4=16b0%w5=16b0%w6=16b0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=1128%o=m5b8nnsnw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16b0%s=o%a=s+%f=as%o=m5b8st11nw0%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: iDirect Protocol Processor (Red Hat Enterprise Linux 3) (96%), Linux 2.6.24 (95%), Xirrus XS8 WAP (Array OS 3.3 - 3.5) (95%), Brocade Fabric OS 7.4.1 (Linux 2.6.14) (94%), Linux 2.4.21 - 2.4.27 (94%), Linux 2.6.10 - 2.6.13 (embedded) (94%), Linux 2.6.11 - 2.6.15 (94%), Linux 2.6.12 - 2.6.14 (embedded) (94%), Linux 2.6.15 (94%), Linux 2.6.18 (94%)
+Class: Linux 2.4.X|2.6.X (96%), iDirect embedded (96%), Xirrus ArrayOS 3.X (95%), Brocade Fabric OS 7.X (94%), D-Link embedded (94%), Vilar embedded (94%)
+CPE: cpe:/o:linux:linux_kernel:2.4 cpe:/h:idirect:protocol_processor cpe:/o:linux:linux_kernel:2.6.24 cpe:/h:xirrus:xs8 cpe:/o:brocade:fabric_os:7.4.1 cpe:/o:linux:linux_kernel:2.6.12 cpe:/h:dlink:dns-323 cpe:/o:linux:linux_kernel:2.6
+seq(ci=i)
+ecn(r=y%df=y%t=40%w=1128%o=m5b8nnsnw0%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=16b0%s=o%a=s+%f=as%o=m5b8st11nw0%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=1128%o=m5b8nnsnw0%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16b0%s=o%a=s+%f=as%o=m5b8st11nw0%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c5-cf%gcd=1-6%isr=c9-d3%ti=z%ii=i%ts=7%ci=)
+FingerB:seq(ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b8st11nw0%o2=m5b8st11nw0%o3=m5b8nnt11nw0%o4=m5b8st11nw0%o5=m5b8st11nw0%o6=m5b8st11)
+FingerA:win(w1=16b0%w2=16b0%w3=16b0%w4=16b0%w5=16b0%w6=16b0)
+
+

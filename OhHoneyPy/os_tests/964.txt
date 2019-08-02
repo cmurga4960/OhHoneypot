@@ -1,0 +1,76 @@
+Fingerprint: Cisco Nexus switch (NX-OS 5)
+Class: Cisco | NX-OS | 5.X | switch
+CPE: cpe:/o:cisco:nx_os:5 auto
+seq(sp=100-10a%gcd=1-6%isr=109-113%ti=i%ci=i%ii=ri%ss=s%ts=3)
+ops(o1=m5b4nnt11%o2=m578nnt11%o3=m280nnt11%o4=m5b4nnt11%o5=m218nnt11%o6=m109nnt11)
+win(w1=a1c4%w2=a2a8%w3=a45c%w4=a5cc%w5=a5cc%w6=a608)
+ecn(r=y%df=n%t=3c-46%tg=40%w=a758%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=3c-46%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3c-46%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3c-46%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3c-46%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3c-46%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fb-105%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=fb-105%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco Nexus switch (NX-OS 5) (97%), Cisco Nexus 7000 switch (NX-OS 4.2(4)) (94%), Cisco Nexus switch (NX-OS 5 or 6.0(2)) (92%), Cisco Nexus 7000 switch (NX-OS 6.0) (92%), Cisco Nexus 5000 switch (92%), Cisco Nexus switch (NX-OS 6.2) (91%), Cisco Nexus 7000-series switch (NX-OS 6.1(2)) (90%), IBM AIX 7.2 (90%), Apple TV 5.2.1 or 5.3 (90%), SMC SMC8014WG WAP (90%)
+seq(sp=ff%gcd=1%isr=f6%ci=i%ii=ri)
+ops(o1=m5b4nnt11%o2=m578nnt11%o3=m280nnt11%o4=m5b4nnt11%o5=m218nnt11%o6=m109nnt11)
+win(w1=a1c4%w2=a2a8%w3=a45c%w4=a5cc%w5=a5cc%w6=a608)
+ecn(r=y%df=n%t=40%w=a758%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=y%dfi=s%t=fa%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ii=ri)
+FingerAB:ops(o1=m5b4nnt11%o2=m578nnt11%o3=m280nnt11%o4=m5b4nnt11%o5=m218nnt11%o6=m109nnt11)
+FingerAB:win(w1=a1c4%w2=a2a8%w3=a45c%w4=a5cc%w5=a5cc%w6=a608)
+FingerAB:ecn(r=y%df=n%w=a758%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=100-10a%gcd=1-6%isr=109-113%ti=i%ss=s%ts=3)
+FingerB:seq(sp=ff%gcd=1%isr=f6)
+
+FingerA:ecn(t=3c-46%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3c-46%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3c-46%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3c-46%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3c-46%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3c-46%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fb-105%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(t=fb-105%tg=ff)
+FingerB:ie(t=fa%r=y)
+
+
+

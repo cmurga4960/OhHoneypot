@@ -1,0 +1,87 @@
+Fingerprint: GNU Hurd 0.3
+Class: GNU | Hurd || general purpose
+CPE: cpe:/o:gnu:hurd auto
+seq(ci=i%ii=i%ti=)
+ops(o1=%o2=%o3=%o4=%o5=%o6=)
+win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=0%o=%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=z%a=s+%f=ar%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: GNU Hurd 0.3 (98%), D-Link DPH-150S VoIP phone (91%), Ricoh Aficio MP C4501 printer (91%), Konica Minolta 7035 printer (90%), D-Link DIR-655 (89%), Compaq iPAQ CP-2W Connection Point WAP (89%), HP 9100c Digital Sender printer (J3113A) (89%), Linux 2.4.21 (89%), FREESCO single-floppy router (Linux 2.0.39) (88%), Aastra 57i VoIP phone (88%)
+Class: GNU Hurd (98%), D-Link embedded (91%), Ricoh embedded (91%), Konica Minolta embedded (90%), Compaq embedded (89%), HP embedded (89%), Linux 2.4.X|2.0.X (89%), Aastra embedded (88%)
+CPE: cpe:/o:gnu:hurd cpe:/h:dlink:dph-150s cpe:/h:ricoh:aficio_mp_c4501 cpe:/h:konicaminolta:7035 cpe:/o:linux:linux_kernel:2.4.21 cpe:/o:linux:linux_kernel:2.0.39 cpe:/h:aastra:57i
+seq(sp=0%gcd=1%isr=1b%ii=i%ts=u)
+ops(o1=m5b4%o2=%o3=%o4=%o5=%o6=)
+win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+ecn(r=y%df=n%t=ff%w=0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=ff%s=z%a=s+%f=ar%rd=0%q=)
+t2(r=y%df=n%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ops(o2=%o3=%o4=%o5=%o6=)
+FingerAB:win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+FingerAB:ecn(r=y%df=n%w=0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=z%a=s+%f=ar%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(ci=i%ti=)
+FingerB:seq(sp=0%gcd=1%isr=1b%ts=u)
+
+FingerA:ops(o1=)
+FingerB:ops(o1=m5b4)
+
+FingerA:ecn(t=fa-104%tg=ff%o=)
+FingerB:ecn(t=ff%o=m5b4)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t2(t=fa-104%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t3(t=fa-104%tg=ff)
+FingerB:t3(t=ff)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

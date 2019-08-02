@@ -1,0 +1,64 @@
+Fingerprint: HP LaserJet P3010 printer
+Class: HP | embedded || printer
+CPE: cpe:/h:hp:laserjet_p3010 auto
+seq(sp=fb-105%gcd=1-6%isr=100-10a%ti=i%ii=i%ss=s%ts=7%ci=)
+ops(o1=m546nw0nnt11%o2=m546nw0nnt11%o3=m546nw0nnt11%o4=m546nw0nnt11%o5=m546nw0nnt11%o6=m546nnt11)
+win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+ecn(r=y%df=y%t=3b-45%tg=40%w=5b4%o=m546nw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=70%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: HP LaserJet P3010 printer (94%), FreeBSD 6.2-RELEASE (94%), Ambit U10C018 or Cisco EPC3925 cable modem, or Tandberg video conferencing system (89%), Apple iOS 4.3.1 - 4.3.5 (89%), Apple Mac OS X 10.4.10 (Tiger) (Darwin 8.10.0, PowerPC) (89%), AirSpan ProST WiMAX access point (88%), OpenBSD 4.0 (88%), HP LaserJet P3005 printer (88%), Apple iOS 4.1 - 4.2.1 (88%), Apple iOS 5.1.1 (88%)
+seq(sp=104%gcd=1%isr=fa)
+ops(o1=m546nw0nnt11%o2=m546nw0nnt11%o3=m546nw0nnt11%o4=m546nw0nnt11%o5=m546nw0nnt11%o6=m546nnt11)
+win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+ecn(r=y%df=y%t=40%w=5b4%o=m546nw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m546nw0nnt11%o2=m546nw0nnt11%o3=m546nw0nnt11%o4=m546nw0nnt11%o5=m546nw0nnt11%o6=m546nnt11)
+FingerAB:win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+FingerAB:ecn(r=y%df=y%w=5b4%o=m546nw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=fb-105%gcd=1-6%isr=100-10a%ti=i%ii=i%ss=s%ts=7%ci=)
+FingerB:seq(sp=104%gcd=1%isr=fa)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40%ipl=70)
+FingerB:u1(t=3b%ipl=38%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

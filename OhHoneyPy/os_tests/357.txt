@@ -1,0 +1,74 @@
+Fingerprint: Apple Mac OS 8.1 - 8.6
+Class: Apple | Mac OS | 8.X | general purpose
+CPE: cpe:/o:apple:mac_os:8 auto
+seq(sp=0-2d%gcd=fa00|1f400|2ee00|3e800|4e200%isr=95-a1%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4w0l%o2=m578w0l%o3=m280w0l%o4=m218w0l%o5=m218w0l%o6=m109)
+win(w1=4470%w2=4718%w3=4600%w4=4518%w5=4518%w6=455b)
+ecn(r=y%df=y%t=fa-104%tg=ff%w=4470%o=m5b4w0l%cc=n%q=)
+t1(r=y%df=y%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=fa-104%tg=ff%w=455b%s=o%a=s+%f=as%o=m109w0l%rd=0%q=)
+t4(r=y%df=y%t=21-3d%tg=40%w=0%s=a%a=z%f=r%o=%rd=2ab5e05e%q=)
+t5(r=y%df=y%t=1f-38%tg=20|40%w=0%s=z%a=s+%f=ar%o=%rd=896a56eb%q=)
+t6(r=y%df=y%t=1e-3d%tg=40%w=0%s=a%a=z%f=r%o=%rd=8829fb5f%q=)
+t7(r=y%df=y%t=1e-3d%tg=40%w=0%s=z%a=s%f=ar%o=%rd=896a56eb%q=)
+u1(df=y%t=fa-104%tg=ff%ipl=70%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=y%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Crestron XPanel control system (89%), Apple Mac OS 8.1 - 8.6 (88%), OpenWrt (Linux 2.4.32) (88%), OpenWrt White Russian 0.9 (Linux 2.4.30) (88%), Crestron MC2E, MP2E, PRO2, or QM-RMC control and automation system, or HP StorageWorks MSL4048 tape library (87%), IronPort C150 email security appliance (AsyncOS 6.5.2) (87%), OpenWrt (Linux 2.4.30 - 2.4.34) (87%), HP StorageWorks MSL4048 tape library (87%), Toshiba Magnia SG10 server appliance (Linux 2.4.18) (86%), Lexmark S305, S405, Pro 700, Pro 800, or Pro 900 printer (86%)
+seq(sp=108%gcd=1%isr=ff%ci=i%ts=u)
+ops(o1=m5b4w0l%o2=m578w0l%o3=m280w0l%o4=m218w0l%o5=m218w0l%o6=m109)
+win(w1=4470%w2=4718%w3=4600%w4=4518%w5=4518%w6=455b)
+ecn(r=y%df=y%t=ff%w=4470%o=m5b4w0l%cc=n%q=)
+t1(r=y%df=y%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=ff%w=455b%s=o%a=s+%f=as%o=m109w0l%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=y%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4w0l%o2=m578w0l%o3=m280w0l%o4=m218w0l%o5=m218w0l%o6=m109)
+FingerAB:win(w1=4470%w2=4718%w3=4600%w4=4518%w5=4518%w6=455b)
+FingerAB:ecn(r=y%df=y%w=4470%o=m5b4w0l%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=455b%s=o%a=s+%f=as%o=m109w0l%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s%f=ar%o=%q=)
+FingerAB:u1(df=y%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-2d%gcd=fa00|1f400|2ee00|3e800|4e200%isr=95-a1%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=108%gcd=1%isr=ff%ci=i)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t3(t=fa-104%tg=ff)
+FingerB:t3(t=ff)
+
+FingerA:t4(t=21-3d%tg=40%rd=2ab5e05e)
+FingerB:t4(t=40%rd=0)
+
+FingerA:t6(t=1e-3d%tg=40%rd=8829fb5f)
+FingerB:t6(t=40%rd=0)
+
+FingerA:t7(t=1e-3d%tg=40%rd=896a56eb)
+FingerB:t7(t=40%rd=0)
+
+FingerA:u1(t=fa-104%tg=ff%ipl=70)
+FingerB:u1(t=fa%ipl=38%r=y)
+
+FingerA:ie(dfi=y%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t5(r=y%df=y%t=1f-38%tg=20|40%w=0%s=z%a=s+%f=ar%o=%rd=896a56eb%q=)
+
+

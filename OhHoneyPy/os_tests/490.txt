@@ -1,0 +1,63 @@
+Fingerprint: Beat MIB MusicButler
+Class: Beat | embedded || media device
+seq(sp=fc-106%gcd=1-6%isr=100-10a%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=7d78%w2=7d78%w3=7d78%w4=7d78%w5=7d78%w6=7d78)
+ecn(r=y%df=n%t=7b-85%tg=80%w=7d78%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=7b-85%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=7b-85%tg=80%ipl=b0%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=7b-85%tg=80%cd=z)
+********************************************************
+Fingerprint: Beat MIB MusicButler (93%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (92%), Microsoft Windows Server 2003 (92%), Motorola 2210-02 ADSL modem (92%), OneAccess 1641 router (91%), Huawei Secospace USG6680 firewall (91%), Netopia 3386 ADSL router (91%), Microsoft Windows NT (90%), Linksys BEFSR41 EtherFast router (90%), Sipura SPA3000 VoIP adapter (89%)
+seq(sp=fd%gcd=1%isr=f4%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=7d78%w2=7d78%w3=7d78%w4=7d78%w5=7d78%w6=7d78)
+ecn(r=y%df=n%t=80%w=7d78%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=7d78%w2=7d78%w3=7d78%w4=7d78%w5=7d78%w6=7d78)
+FingerAB:ecn(r=y%df=n%w=7d78%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fc-106%gcd=1-6%isr=100-10a%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=fd%gcd=1%isr=f4)
+
+FingerA:ecn(t=7b-85%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(t=7b-85%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t5(t=7b-85%tg=80)
+FingerB:t5(t=80)
+
+FingerA:u1(t=7b-85%tg=80%ipl=b0)
+FingerB:u1(t=fa%ipl=38%r=y)
+
+FingerA:ie(dfi=s%t=7b-85%tg=80%cd=z)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

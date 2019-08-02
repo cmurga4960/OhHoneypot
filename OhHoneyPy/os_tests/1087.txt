@@ -1,0 +1,72 @@
+Fingerprint: D-Link DCS-3220 webcam
+Class: D-Link | embedded || webcam
+CPE: cpe:/h:dlink:dcs-3220 auto
+seq(sp=0-16%gcd=a|14|1e|28|32|64|c8|12c|190|1f4%isr=4b-55%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=n)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: D-Link DCS-6620G webcam or Linksys BEFSR41 EtherFast router (96%), D-Link DCS-3220 webcam (94%), Panasonic DB-3500 series printer (91%), Panasonic KX-HCM270 Network Camera or Symbol Spectrum24 4131 WAP (91%), Planet WAP-1950 WAP (89%), OneAccess 1641 router (89%), Linksys BEFW11S4 WAP (88%), Hioki MEMORY HiCORDER 8855 digital oscilloscope (88%), HP ProLiant DL320 iLO 2 remote management interface (87%), D-Link DCS-3220 or DCS-5300G webcam (87%)
+seq(sp=f2%gcd=1%isr=e9%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=n)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=n)
+t5(r=y%df=n%t=40%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-16%gcd=a|14|1e|28|32|64|c8|12c|190|1f4%isr=4b-55%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=f2%gcd=1%isr=e9%ci=i)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

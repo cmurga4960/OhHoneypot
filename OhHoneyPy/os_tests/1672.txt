@@ -1,0 +1,76 @@
+Fingerprint: Hitron BWG-35302 cable modem
+Class: Hitron | embedded || broadband router
+CPE: cpe:/h:hitron:bwg-35302 auto
+seq(sp=13-1d%gcd=fa00|1f400|2ee00|3e800|4e200%isr=98-a2%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=4000%o=m5b4nw0%cc=n)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=4000%s=a%a=z%f=r%rd=0)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%rd=0)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Hitron BWG-35302 cable modem (95%), SMC SMC8014WG WAP (95%), Motorola SURFboard SBG900 WAP or SMC SMC8014 cable modem (93%), SonicWALL PRO 2040 firewall (SonicOS 3.1) (92%), HP E1200 Network Storage Router NAS device or SonicWALL SOHO3 firewall (91%), HP ProCurve 4104gl or 4108gl switch (91%), IBM OS/2 Warp 2.0 (91%), Aastra 480i IP Phone or Sun Remote System Control (RSC) (90%), Konica Minolta bizhub 250 printer (90%), SonicWALL PRO 230 firewall (SonicOS) (90%)
+seq(sp=f3%gcd=1%isr=ea%ii=i%ts=u)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=n%t=40%w=4000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+FingerAB:win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+FingerAB:ecn(r=y%df=n%w=4000%o=m5b4nw0%cc=n)
+FingerAB:t1(r=y%df=n%s=o%f=as%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=4000%s=a%a=z%f=r%rd=0)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%rd=0)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=13-1d%gcd=fa00|1f400|2ee00|3e800|4e200%isr=98-a2%ti=i%ci=i%ss=s)
+FingerB:seq(sp=f3%gcd=1%isr=ea)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40%q=)
+
+FingerA:t1(t=3b-45%tg=40%a=o|s+)
+FingerB:t1(t=40%a=o%q=)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40%o=%q=)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40%o=%q=)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40%o=%q=)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40%o=%q=)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

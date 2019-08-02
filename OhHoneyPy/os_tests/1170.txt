@@ -1,0 +1,74 @@
+Fingerprint: Dell PowerConnect 5424 switch
+Class: Dell | embedded || switch
+CPE: cpe:/h:dell:powerconnect_5424 auto
+seq(sp=fc-106%gcd=1-6%isr=fc-106%ti=rd%ci=ri%ii=ri%ts=u)
+ops(o1=%o2=%o3=%o4=%o5=%o6=)
+win(w1=200%w2=200%w3=200%w4=200%w5=200%w6=200)
+ecn(r=y%df=n%t=3b-45%tg=40%w=200%o=%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Dell PowerConnect 5424 switch (96%), Nintendo Wii game console (93%), NEC UNIVERGE SV8100 PBX (93%), 3Com SuperStack 3 Switch 3870 (92%), Epson Stylus Pro 400 printer (92%), APC Smart-UPS 3000 RM UPS (91%), HP LaserJet 2600n printer (91%), MQX RTOS (91%), Crestron XPanel control system (90%), Linksys SRW2024 switch (90%)
+seq(sp=106%gcd=1%isr=fd%ci=i%ts=u)
+ops(o1=m5b4%o2=%o3=%o4=%o5=%o6=)
+win(w1=200%w2=200%w3=200%w4=200%w5=200%w6=200)
+ecn(r=y%df=n%t=40%w=200%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o2=%o3=%o4=%o5=%o6=)
+FingerAB:win(w1=200%w2=200%w3=200%w4=200%w5=200%w6=200)
+FingerAB:ecn(r=y%df=n%w=200%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fc-106%gcd=1-6%isr=fc-106%ti=rd%ci=ri%ii=ri)
+FingerB:seq(sp=106%gcd=1%isr=fd%ci=i)
+
+FingerA:ops(o1=)
+FingerB:ops(o1=m5b4)
+
+FingerA:ecn(t=3b-45%tg=40%o=)
+FingerB:ecn(t=40%o=m5b4)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

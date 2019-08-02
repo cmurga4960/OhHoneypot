@@ -1,0 +1,75 @@
+Fingerprint: Linux 2.2.13 (SuSE 6.3)
+Class: Linux | Linux | 2.2.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.2.13
+seq(sp=bc-c6%gcd=1-6%isr=c6-d0%ti=i%ii=i%ss=s%ts=7%ci=)
+ops(o1=m5b4st11nw0%o2=m578st11nw0%o3=m280nnt11nw0%o4=m218st11nw0%o5=m218st11nw0%o6=m109st11)
+win(w1=77c4%w2=7850%w3=7a80%w4=7b88%w5=7b88%w6=7c38)
+ecn(r=y%df=y%t=3b-45%tg=40%w=77c4%o=m5b4nnsnw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=7c38%s=o%a=s+%f=as%o=m109st11nw0%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: ZKTeco F18 fingerprint reader (95%), Linux 2.2.13 (SuSE 6.3) (95%), Netgear WG602v1 WAP (Linux 2.2.14) (93%), GNU Hurd 0.3 (93%), Linux 2.2.5 - 2.2.14 (Red Hat 6.0 - 6.2) (93%), Linux 2.2.9 (93%), Sony PlayStation 2 game console test kit 2.2.1 (91%), TiVo series 1 (Sony SVR-2000 or Philips HDR112) (Linux 2.1.24-TiVo-2.5, PowerPC) (91%), AXIS 2120 Network Camera (90%), Linux 2.0.36 (Red Hat 5.2) (90%)
+seq(ci=i)
+ecn(r=y%df=y%t=40%w=77c4%o=m5b4nnsnw0%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=7c38%s=o%a=s+%f=as%o=m109st11nw0%rd=0%q=)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=77c4%o=m5b4nnsnw0%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=7c38%s=o%a=s+%f=as%o=m109st11nw0%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=bc-c6%gcd=1-6%isr=c6-d0%ti=i%ii=i%ss=s%ts=7%ci=)
+FingerB:seq(ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b4st11nw0%o2=m578st11nw0%o3=m280nnt11nw0%o4=m218st11nw0%o5=m218st11nw0%o6=m109st11)
+FingerA:win(w1=77c4%w2=7850%w3=7a80%w4=7b88%w5=7b88%w6=7c38)
+
+

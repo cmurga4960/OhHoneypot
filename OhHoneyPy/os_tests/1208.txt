@@ -1,0 +1,63 @@
+Fingerprint: DMP XR500 remote alarm monitor
+Class: DMP | embedded || security-misc
+seq(sp=0-1e7%gcd=1-6|>1000000%isr=b4-100%ti=i|rd%ii=ri%ss=o|s%ts=u%ci=)
+ops(o1=m580%o2=m578%o3=m280%o4=m580%o5=m218%o6=m109)
+win(w1=b00%w2=b00%w3=b00%w4=b00%w5=b00%w6=b00)
+ecn(r=y%df=y%t=fe%tg=ff%w=b00%o=m580%cc=n%q=)
+t1(r=y%df=y%t=fe%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=fe%tg=ff%w=b00%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=y%t=fe%tg=ff%w=b00%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=fe%tg=ff%w=b00%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=fe%tg=ff%w=b00%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%t=fe%tg=ff%w=b00%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(df=y%t=fe%tg=ff%ipl=38%un=0-ffff%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=23-38%tg=40%cd=s)
+********************************************************
+Fingerprint: DMP XR500 remote alarm monitor
+Class: DMP embedded
+seq(sp=102%gcd=1%isr=f9%ci=i%ts=u)
+ops(o1=m580%o2=m578%o3=m280%o4=m580%o5=m218%o6=m109)
+win(w1=b00%w2=b00%w3=b00%w4=b00%w5=b00%w6=b00)
+ecn(r=y%df=y%tg=ff%w=b00%o=m580%cc=n%q=)
+t1(r=y%df=y%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%tg=ff%w=b00%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=y%tg=ff%w=b00%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%tg=ff%w=b00%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=ff%w=b00%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%tg=ff%w=b00%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m580%o2=m578%o3=m280%o4=m580%o5=m218%o6=m109)
+FingerAB:win(w1=b00%w2=b00%w3=b00%w4=b00%w5=b00%w6=b00)
+FingerAB:ecn(r=y%df=y%tg=ff%w=b00%o=m580%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%tg=ff%w=b00%s=o%a=s+%f=as%o=m109%rd=0%q=)
+FingerAB:t4(r=y%df=y%tg=ff%w=b00%s=a+%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%tg=ff%w=b00%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%tg=ff%w=b00%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%tg=ff%w=b00%s=a%a=s+%f=ar%o=%rd=0%q=)
+--- Diff Values ---
+FingerA:seq(sp=0-1e7%gcd=1-6|>1000000%isr=b4-100%ti=i|rd%ii=ri%ss=o|s%ci=)
+FingerB:seq(sp=102%gcd=1%isr=f9%ci=i)
+
+FingerA:ecn(t=fe)
+FingerA:t1(t=fe)
+FingerA:t3(t=fe)
+FingerA:t4(t=fe)
+FingerA:t5(t=fe)
+FingerA:t6(t=fe)
+FingerA:t7(t=fe)
+FingerA:u1(df=y%t=fe%tg=ff%ipl=38%un=0-ffff%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(dfi=s%t=23-38%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

@@ -1,0 +1,80 @@
+Fingerprint: Asus RX4031 or TRENDnet TW100-S4W1CA router
+Class: Asus | embedded || router
+Class: TRENDnet | embedded || router
+CPE: cpe:/h:asus:rx4031
+CPE: cpe:/h:trendnet:tw100-s4w1ca auto
+seq(sp=8d-9f%gcd=1-6%isr=98-a2%ti=i%ci=i%ii=i%ss=s%ts=1)
+ops(o1=m5a8nw0nnt11%o2=m5a8nw0nnt11%o3=m5a8nw0nnt11%o4=m5a8nw0nnt11%o5=m5a8nw0nnt11%o6=m5a8nnt11)
+win(w1=43e0%w2=4110%w3=423c%w4=43e0%w5=4180%w6=403d)
+ecn(r=y%df=n%t=7b-85%tg=80%w=4470%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=7b-85%tg=80%w=403d%s=o%a=s+%f=as%o=m5a8nw0nnt11%rd=0%q=)
+t4(r=y%df=n%t=7b-85%tg=80%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=7b-85%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=7b-85%tg=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=134%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Asus RX4031 or TRENDnet TW100-S4W1CA router (95%), D-Link DIR-100 DSL router or Motorola Canopy cluster management module 2.2 (91%), 3Com Baseline Switch 2250-SFP Plus (88%), HP 1905 switch (88%), Linksys WET54G wireless bridge or Red-M Communications Red-Alert PRO wireless activity detector (88%), D-Link DWL-G710 WAP (88%), OpenBSD 3.2 (x86) (86%), Digitus DN-13008 or Sitecom print server (85%), Intermec PM4i label printer (85%)
+seq(sp=f9%gcd=1%isr=f0%ci=i)
+ops(o1=m5a8nw0nnt11%o2=m5a8nw0nnt11%o3=m5a8nw0nnt11%o4=m5a8nw0nnt11%o5=m5a8nw0nnt11%o6=m5a8nnt11)
+win(w1=43e0%w2=4110%w3=423c%w4=43e0%w5=4180%w6=403d)
+ecn(r=y%df=n%t=80%w=4470%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=80%w=403d%s=o%a=s+%f=as%o=m5a8nw0nnt11%rd=0%q=)
+t4(r=y%df=n%t=80%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=134%rid=g%ripck=i%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ops(o1=m5a8nw0nnt11%o2=m5a8nw0nnt11%o3=m5a8nw0nnt11%o4=m5a8nw0nnt11%o5=m5a8nw0nnt11%o6=m5a8nnt11)
+FingerAB:win(w1=43e0%w2=4110%w3=423c%w4=43e0%w5=4180%w6=403d)
+FingerAB:ecn(r=y%df=n%w=4470%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=403d%s=o%a=s+%f=as%o=m5a8nw0nnt11%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=134%rid=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=8d-9f%gcd=1-6%isr=98-a2%ti=i%ii=i%ss=s%ts=1)
+FingerB:seq(sp=f9%gcd=1%isr=f0)
+
+FingerA:ecn(t=7b-85%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(t=7b-85%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t3(t=7b-85%tg=80)
+FingerB:t3(t=80)
+
+FingerA:t4(t=7b-85%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=7b-85%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=7b-85%tg=80)
+FingerB:t6(t=80)
+
+FingerA:t7(t=7b-85%tg=80)
+FingerB:t7(t=80)
+
+FingerA:u1(t=fa-104%tg=ff%ripck=g)
+FingerB:u1(t=fa%ripck=i%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

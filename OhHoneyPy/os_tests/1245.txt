@@ -1,0 +1,77 @@
+Fingerprint: Elfiq LB-550B load balancer (EOS 3.5.2)
+Class: Elfiq | EOS | 3.X | load balancer
+CPE: cpe:/o:elfiq:eos:3.5.2 auto
+seq(sp=c5-cf%gcd=1-6%isr=c6-d0%ti=z%ci=z%ii=i%ts=8)
+ops(o1=m550st11nw0%o2=m550st11nw0%o3=m550nnt11nw0%o4=m550st11nw0%o5=m550st11nw0%o6=m550st11)
+win(w1=1510%w2=1510%w3=1510%w4=1510%w5=1510%w6=1510)
+ecn(r=y%df=y%t=3b-45%tg=40%w=1540%o=m550nnsnw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=1510%s=o%a=s+%f=as%o=m550st11nw0%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Elfiq LB-550B load balancer (EOS 3.5.2) (96%), Sveasoft Talisman 2.0 (Linux 2.4.33.7) (96%), OpenWrt (Linux 2.4.32) (95%), OpenWrt White Russian 0.9 (Linux 2.4.30) (95%), OpenWrt (Linux 2.4.30 - 2.4.34) (94%), Linksys RV042 router (93%), Toshiba Magnia SG10 server appliance (Linux 2.4.18) (93%), Android 2.0.1 (Linux 2.6) (93%), Linksys WRV54G WAP (93%), Infrant ReadyNAS NV+ NAS device (RAIDiator 4.1.4) (92%)
+seq(sp=fa%gcd=1%isr=f1%ci=i)
+ops(o1=m550st11nw0%o2=m550st11nw0%o3=m550nnt11nw0%o4=m550st11nw0%o5=m550st11nw0%o6=m550st11)
+win(w1=1510%w2=1510%w3=1510%w4=1510%w5=1510%w6=1510)
+ecn(r=y%df=y%t=40%w=1540%o=m550nnsnw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=1510%s=o%a=s+%f=as%o=m550st11nw0%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m550st11nw0%o2=m550st11nw0%o3=m550nnt11nw0%o4=m550st11nw0%o5=m550st11nw0%o6=m550st11)
+FingerAB:win(w1=1510%w2=1510%w3=1510%w4=1510%w5=1510%w6=1510)
+FingerAB:ecn(r=y%df=y%w=1540%o=m550nnsnw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=1510%s=o%a=s+%f=as%o=m550st11nw0%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c5-cf%gcd=1-6%isr=c6-d0%ti=z%ci=z%ii=i%ts=8)
+FingerB:seq(sp=fa%gcd=1%isr=f1%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

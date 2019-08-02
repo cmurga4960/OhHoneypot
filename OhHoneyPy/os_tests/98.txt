@@ -1,0 +1,77 @@
+Fingerprint: Airvana C1-600-RT signal booster (Linux 2.6.21)
+Class: Airvana | embedded || specialized
+Class: Linux | Linux | 2.6.X | specialized
+CPE: cpe:/h:airvana:c1-600-rt
+CPE: cpe:/o:linux:linux_kernel:2.6.21 auto
+seq(sp=0-5%gcd=fa01|1f402|2ee03|3e804|4e205%isr=95-9f%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=nnm460snw0%o2=nnm460snw0%o3=m460nw0%o4=nnm460snw0%o5=nnm460snw0%o6=nnm460s)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=ffff%o=nnm460snw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=r%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=138%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: Airvana C1-600-RT signal booster (Linux 2.6.21) (92%), Nintendo Wii game console (90%), Aastra 6739i VoIP phone (90%), HP ProCurve 2910al switch (87%), Epson Stylus Pro 400 printer (87%), Huawei VRP 5.160 (87%), NEC UNIVERGE SV8100 PBX (87%), Brother HL-5070N printer (86%), Brother MFC-7820N printer (86%), APC Smart-UPS (AOS 5) (86%)
+seq(sp=f2%gcd=1%isr=e9%ci=i%ts=u)
+ops(o1=nnm460snw0%o2=nnm460snw0%o3=m460nw0%o4=nnm460snw0%o5=nnm460snw0%o6=nnm460s)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=40%w=ffff%o=nnm460snw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s+%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=nnm460snw0%o2=nnm460snw0%o3=m460nw0%o4=nnm460snw0%o5=nnm460snw0%o6=nnm460s)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=y%w=ffff%o=nnm460snw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-5%gcd=fa01|1f402|2ee03|3e804|4e205%isr=95-9f%ti=i%ii=i%ss=s)
+FingerB:seq(sp=f2%gcd=1%isr=e9)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=3b-45%tg=40%ipl=138)
+FingerB:u1(t=fa%ipl=38%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=z)
+FingerB:ie(r=n)
+
+
+

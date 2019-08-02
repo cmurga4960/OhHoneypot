@@ -1,0 +1,62 @@
+Fingerprint: Lexmark T632 or C750 printer
+Class: Lexmark | embedded || printer
+seq(sp=c3-d1%gcd=1-6%isr=c3-d4%ti=z%ci=z%ii=z%ts=7)
+ops(o1=m218st11nw0%o2=m218st11nw0%o3=m218nnt11nw0%o4=m218st11nw0%o5=m218st11nw0%o6=m218st11)
+win(w1=624%w2=624%w3=624%w4=624%w5=624%w6=624)
+ecn(r=y%df=y%t=fa-104%tg=ff%w=648%o=m218nnsnw0%cc=n%q=)
+t1(r=y%df=y%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=fa-104%tg=ff%w=624%s=o%a=s+%f=as%o=m218st11nw0%rd=0%q=)
+t4(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=y%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Lexmark T632 or C750 printer (97%), Comtrend CT536 wireless ADSL router (92%), Lexmark C524 printer (92%), Gemtek P360 WAP or Siemens Gigaset SE515dsl wireless broadband router (90%), Toshiba Magnia SG10 server appliance (Linux 2.4.18) (90%), OpenWrt (Linux 2.4.30 - 2.4.34) (90%), Linksys WRV54G WAP (88%), OpenWrt (Linux 2.4.32) (88%), OpenWrt White Russian 0.9 (Linux 2.4.30) (88%), Lexmark E332n printer (87%)
+Class: Lexmark embedded (97%), Comtrend embedded (92%), Gemtek embedded (90%), Siemens embedded (90%), Linux 2.4.X (90%), Toshiba embedded (90%), Linksys embedded (88%)
+CPE: cpe:/h:comtrend:ct536 cpe:/h:gemtek:p360 cpe:/h:siemens:gigaset_se515dsl cpe:/o:linux:linux_kernel:2.4.18 cpe:/h:toshiba:magnia_sg10 cpe:/o:linux:linux_kernel:2.4 cpe:/h:linksys:wrv54g cpe:/h:linksys:rv042
+seq(sp=105%gcd=1%isr=fb)
+ops(o1=m218st11nw0%o2=m218st11nw0%o3=m218nnt11nw0%o4=m218st11nw0%o5=m218st11nw0%o6=m218st11)
+win(w1=624%w2=624%w3=624%w4=624%w5=624%w6=624)
+ecn(r=y%df=y%tg=ff%w=648%o=m218nnsnw0%cc=n%q=)
+t1(r=y%df=y%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%tg=ff%w=624%s=o%a=s+%f=as%o=m218st11nw0%rd=0%q=)
+t4(r=y%df=y%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=y%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m218st11nw0%o2=m218st11nw0%o3=m218nnt11nw0%o4=m218st11nw0%o5=m218st11nw0%o6=m218st11)
+FingerAB:win(w1=624%w2=624%w3=624%w4=624%w5=624%w6=624)
+FingerAB:ecn(r=y%df=y%tg=ff%w=648%o=m218nnsnw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%tg=ff%w=624%s=o%a=s+%f=as%o=m218st11nw0%rd=0%q=)
+FingerAB:t4(r=y%df=y%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=y%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c3-d1%gcd=1-6%isr=c3-d4%ti=z%ci=z%ii=z%ts=7)
+FingerB:seq(sp=105%gcd=1%isr=fb)
+
+FingerA:ecn(t=fa-104)
+FingerA:t1(t=fa-104)
+FingerA:t3(t=fa-104)
+FingerA:t4(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:t7(t=fa-104)
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(tg=40%r=y)
+
+
+

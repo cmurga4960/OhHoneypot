@@ -1,0 +1,59 @@
+Fingerprint: Avaya P580 switch running Cajun Switch Agent v5.4.2
+Class: Avaya | embedded || switch
+CPE: cpe:/h:avaya:p580 auto
+seq(sp=0-92%gcd=9c4|1388|1d4c|2710|30d4|3a98|61a8|c350|124f8|186a0|1e848|249f0%isr=8b-bb%ti=i%ii=ri%ss=o|s%ts=u%ci=)
+ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m218)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%t=19-23%tg=20%w=400%o=m218%cc=n%q=)
+t1(r=y%df=n%t=19-23%tg=20%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=19-23%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=19-23%tg=20%ipl=38%un=d33|90ce|98bf|da0a|fbf9%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=19-23%tg=20%cd=s)
+********************************************************
+Fingerprint: Netopia 3366 ADSL router (94%), Avaya P580 switch running Cajun Switch Agent v5.4.2 (91%), Avaya P880 switch running Cajun Switch Agent v5.3.2 (91%), Cisco Catalyst 1900 Switch, Software v9.00.03 (91%), Polycom MGC-25 videoconferencing system (pSOS 1.0.4) (89%), Wyse ThinOS 5.2 (89%), 3Com SuperStack 3 Switch 4400 SE (89%), HP ProLiant BL p-Class C-Gbe2 switch (86%), Netopia 3386 ADSL router (86%), Cisco Adaptive Security Appliance (ASA 7.2) (85%)
+seq(sp=104%gcd=1%isr=fa%ts=u)
+ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m218)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%tg=20%w=400%o=m218%cc=n%q=)
+t1(r=y%df=n%tg=20%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m218)
+FingerAB:win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+FingerAB:ecn(r=y%df=n%tg=20%w=400%o=m218%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=20%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+--- Diff Values ---
+FingerA:seq(sp=0-92%gcd=9c4|1388|1d4c|2710|30d4|3a98|61a8|c350|124f8|186a0|1e848|249f0%isr=8b-bb%ti=i%ii=ri%ss=o|s%ci=)
+FingerB:seq(sp=104%gcd=1%isr=fa)
+
+FingerA:ecn(t=19-23)
+FingerA:t1(t=19-23%a=o|s+)
+FingerB:t1(a=o)
+
+FingerA:t5(t=19-23)
+FingerA:u1(df=n%t=19-23%tg=20%ipl=38%un=d33|90ce|98bf|da0a|fbf9%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(dfi=n%t=19-23%tg=20%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

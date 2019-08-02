@@ -1,0 +1,63 @@
+Fingerprint: Dell Remote Access Controller (DRAC 6)
+Class: Dell | embedded || remote management
+CPE: cpe:/h:dell:remote_access_card:6
+seq(sp=cf-105%gcd=1-6%isr=db-103%ti=z%ii=i%ts=7|9%ci=)
+ops(o1=m564nnt11nw2%o2=m564nnt11nw2%o3=m564nnt11nw2%o4=m564nnt11nw2%o5=m564nnt11nw2%o6=m564nnt11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m564nw2%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Dell Remote Access Controller (DRAC 6) (99%), Linux 2.6.5 (92%), Linux 2.6.18 (92%), Linux 2.6.9 - 2.6.18 (92%), Sun Integrated Lights-Out Manager (92%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (92%), Linux 2.6.22 (92%), Drobo 5D NAS (Linux 2.6.18) (92%), Cisco CP 8945 VoIP phone (92%), Linux 2.6.26 (92%)
+seq(sp=101%gcd=1%isr=f7)
+ops(o1=m564nnt11nw2%o2=m564nnt11nw2%o3=m564nnt11nw2%o4=m564nnt11nw2%o5=m564nnt11nw2%o6=m564nnt11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=40%w=16d0%o=m564nw2%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m564nnt11nw2%o2=m564nnt11nw2%o3=m564nnt11nw2%o4=m564nnt11nw2%o5=m564nnt11nw2%o6=m564nnt11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m564nw2%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=cf-105%gcd=1-6%isr=db-103%ti=z%ii=i%ts=7|9%ci=)
+FingerB:seq(sp=101%gcd=1%isr=f7)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,67 @@
+Fingerprint: Adtran AOS 18.02.01.00.E
+Class: Adtran | AOS | 18.X | switch
+CPE: cpe:/o:adtran:aos:18.02.01.00.e auto
+seq(sp=e8-f2%gcd=1-6%isr=eb-f5%ti=i%ci=i%ii=i%ss=o%ts=u)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=y%df=n%t=fb-105%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fb-105%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=fb-105%tg=ff%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fb-105%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fb-105%tg=ff%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=fb-105%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=g%rud=g)
+ie(dfi=n%t=fb-105%tg=ff%cd=z)
+********************************************************
+Fingerprint: Adtran AOS 18.02.01.00.E (99%), Cisco IP Phone 7912-series (96%), Adtran NetVanta 3200 or Total Access 908 ADSL router (95%), Adtran NetVanta switch (AOS 10.4 - 10.9) (95%), Samsung CLX-3160FN printer (95%), Lexmark Optra S 1855 or Se3455 printer (92%), Eaton Powerware 9170 UPS (91%), Samsung CLP-310N or CLX-3175RW, or Xerox Phaser 6110 printer (91%), ESI ESI-100 VoIP adapter (90%), HP GbE2c Ethernet Blade switch (90%)
+seq(ci=i%ts=u)
+ecn(r=n)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=e8-f2%gcd=1-6%isr=eb-f5%ti=i%ii=i%ss=o)
+FingerA:t1(t=fb-105%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t2(t=fb-105%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t4(t=fb-105%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fb-105%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fb-105%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:u1(t=fb-105%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=fb-105%tg=ff%cd=z)
+FingerB:ie(r=n)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+FingerA:t7(r=n)
+
+

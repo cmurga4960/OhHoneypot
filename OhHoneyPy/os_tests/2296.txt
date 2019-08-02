@@ -1,0 +1,80 @@
+Fingerprint: Linksys SPA901, SPA921, or SPA 941 SIP VoIP phone
+Class: Linksys | embedded || VoIP phone
+CPE: cpe:/h:linksys:spa901_1-line_ip_phone
+CPE: cpe:/h:linksys:spa921_1-line_ip_phone_with_1-port_ethernet
+CPE: cpe:/h:linksys:spa941_4-line_ip_phone_with_1-port_ethernet
+seq(sp=f8-108%gcd=1-6%isr=106-112%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b0%o2=m5b0%o3=m5b0%o4=m5b0%o5=m5b0%o6=m5b0)
+win(w1=3e80%w2=3e80%w3=3e80%w4=3e80%w5=3e80%w6=3e80)
+ecn(r=y%df=n%t=f5-ff%tg=ff%w=3e80%o=m5b0%cc=n%q=)
+t1(r=y%df=n%t=f5-ff%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=f5-ff%tg=ff%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+t3(r=y%df=n%t=f5-ff%tg=ff%w=3e80%s=o%a=s+%f=as%o=m5b0%rd=0%q=)
+t4(r=y%df=n%t=f5-ff%tg=ff%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t5(r=y%df=n%t=f5-ff%tg=ff%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+t6(r=y%df=n%t=f5-ff%tg=ff%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t7(r=y%df=n%t=f5-ff%tg=ff%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+u1(df=n%t=f5-ff%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=f5-ff%tg=ff%cd=s)
+********************************************************
+Fingerprint: Linksys SPA901, SPA921, or SPA 941 SIP VoIP phone (95%), Linksys SPA942 VoIP phone (94%), Linksys SPA942, SPA962, SPA8000 or SPA9000 VoIP phone; SPA3102 VoIP adapter; or Sipura SPA-2100-series VoIP adapter (94%), Sipura SPA1001 or SPA3000 VoIP adapter (94%), Alcatel 4035 VoIP phone (92%), Linksys PAP2T VoIP adapter (91%), Linksys PAP2T VoIP router (91%), Cisco Unified IP Phone 7905G or 7960 (88%), Cisco IP Phone 7912-series (87%), Cisco Catalyst 1900 switch (87%)
+seq(ci=i)
+ecn(r=y%df=n%t=ff%w=3e80%o=m5b0%cc=n%q=)
+t1(r=n)
+t2(r=y%df=n%t=ff%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+t3(r=y%df=n%t=ff%w=3e80%s=o%a=s+%f=as%o=m5b0%rd=0%q=)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=n%w=3e80%o=m5b0%cc=n%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=3e80%s=o%a=s+%f=as%o=m5b0%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=f8-108%gcd=1-6%isr=106-112%ti=i%ii=i%ss=s%ts=u%ci=)
+FingerB:seq(ci=i)
+
+FingerA:ecn(t=f5-ff%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(r=y%df=n%t=f5-ff%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t2(t=f5-ff%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t3(t=f5-ff%tg=ff)
+FingerB:t3(t=ff)
+
+FingerA:t4(t=f5-ff%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=f5-ff%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=f5-ff%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=f5-ff%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=f5-ff%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=f5-ff%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b0%o2=m5b0%o3=m5b0%o4=m5b0%o5=m5b0%o6=m5b0)
+FingerA:win(w1=3e80%w2=3e80%w3=3e80%w4=3e80%w5=3e80%w6=3e80)
+
+

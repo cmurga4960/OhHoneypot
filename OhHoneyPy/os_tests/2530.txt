@@ -1,0 +1,74 @@
+Fingerprint: Linux 2.6.17 - 2.6.36
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6 auto
+seq(sp=ae-d0%gcd=1-6%isr=be-d6%ti=z%ci=z%ii=i%ts=8)
+ops(o1=m556st11nw1|m556st11nw2|m556st11nw3|m556st11nw4|m556st11nw5|m556st11nw6|m556st11nw7|m556st11nw8|m556st11nw9%o2=m556st11nw1|m556st11nw2|m556st11nw3|m556st11nw4|m556st11nw5|m556st11nw6|m556st11nw7|m556st11nw8|m556st11nw9%o3=m556nnt11nw1|m556nnt11nw2|m556nnt11nw3|m556nnt11nw4|m556nnt11nw5|m556nnt11nw6|m556nnt11nw7|m556nnt11nw8|m556nnt11nw9%o4=m556st11nw1|m556st11nw2|m556st11nw3|m556st11nw4|m556st11nw5|m556st11nw6|m556st11nw7|m556st11nw8|m556st11nw9%o5=m556st11nw1|m556st11nw2|m556st11nw3|m556st11nw4|m556st11nw5|m556st11nw6|m556st11nw7|m556st11nw8|m556st11nw9%o6=m556st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m556nnsnw1|m556nnsnw2|m556nnsnw3|m556nnsnw4|m556nnsnw5|m556nnsnw6|m556nnsnw7|m556nnsnw8|m556nnsnw9%cc=y)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16a0%s=o%a=s+%f=as%o=m556st11nw1|m556st11nw2|m556st11nw3|m556st11nw4|m556st11nw5|m556st11nw6|m556st11nw7|m556st11nw8|m556st11nw9%rd=0)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Linux 2.6.17 - 2.6.36 (96%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (96%), ASUS RT-N56U WAP (Linux 3.4) (95%), Linux 3.1 (95%), Linux 3.16 (95%), Linux 3.2 (95%), AXIS 206 Network Camera (95%), Canon imageRUNNER ADVANCE C3320i or C3325 copier (95%), Android 2.3.5 (Linux 2.6) (95%), Linux 2.4.20 (Red Hat 7.2) (95%)
+seq(ii=i)
+ecn(r=y%df=y%t=40%w=16d0%o=m556nnsnw1%cc=y%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=16a0%s=o%a=s+%f=as%o=m556st11nw1%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=y%w=16d0%cc=y)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16a0%s=o%a=s+%f=as%rd=0)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=ae-d0%gcd=1-6%isr=be-d6%ti=z%ci=z%ts=8)
+FingerA:ecn(t=3b-45%tg=40%o=m556nnsnw1|m556nnsnw2|m556nnsnw3|m556nnsnw4|m556nnsnw5|m556nnsnw6|m556nnsnw7|m556nnsnw8|m556nnsnw9)
+FingerB:ecn(t=40%o=m556nnsnw1%q=)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%tg=40%o=m556st11nw1|m556st11nw2|m556st11nw3|m556st11nw4|m556st11nw5|m556st11nw6|m556st11nw7|m556st11nw8|m556st11nw9)
+FingerB:t3(t=40%o=m556st11nw1%q=)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40%o=%q=)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40%o=%q=)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40%o=%q=)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40%o=%q=)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m556st11nw1|m556st11nw2|m556st11nw3|m556st11nw4|m556st11nw5|m556st11nw6|m556st11nw7|m556st11nw8|m556st11nw9%o2=m556st11nw1|m556st11nw2|m556st11nw3|m556st11nw4|m556st11nw5|m556st11nw6|m556st11nw7|m556st11nw8|m556st11nw9%o3=m556nnt11nw1|m556nnt11nw2|m556nnt11nw3|m556nnt11nw4|m556nnt11nw5|m556nnt11nw6|m556nnt11nw7|m556nnt11nw8|m556nnt11nw9%o4=m556st11nw1|m556st11nw2|m556st11nw3|m556st11nw4|m556st11nw5|m556st11nw6|m556st11nw7|m556st11nw8|m556st11nw9%o5=m556st11nw1|m556st11nw2|m556st11nw3|m556st11nw4|m556st11nw5|m556st11nw6|m556st11nw7|m556st11nw8|m556st11nw9%o6=m556st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+
+

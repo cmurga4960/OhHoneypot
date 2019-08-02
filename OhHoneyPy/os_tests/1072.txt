@@ -1,0 +1,81 @@
+Fingerprint: D-Link DI-824VUP Wireless VPN Router
+Class: D-Link | embedded || WAP
+CPE: cpe:/h:dlink:di-824vup auto
+seq(sp=f-11%gcd=32|64|96|c8|fa|12c%isr=4f-51%ti=i%ts=u%ii=%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=n%t=3b-45%tg=40%w=16d0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+Fingerprint: DEC RSX-11M-PLUS 4.6 (96%), D-Link DI-714P+ wireless broadband router (95%), D-Link DI-824VUP Wireless VPN Router (95%), ASUS RT-N11 EZ or D-Link DI-524 WAP, or LevelOne FBR-1415TX router (95%), AirLive WT-2000R, D-Link DI-524 or DI-604, SMC SMC7004VBR, or ZyXEL Prestige 320W broadband router (94%), D-Link DI-504 or DI-704P broadband router, or DI-524 WAP (93%), D-Link DI-604 wireless broadband router (92%), WatchGuard Firebox SOHO 6 or X5w firewall/WAP (92%), RSX-11M-PLUS 5.0 (92%), Bay Networks BayStack 450 switch (software version 4.2.0.16) (91%)
+Class: DEC RSX-11M-PLUS 4.X (96%), D-Link embedded (95%), Asus embedded (95%), LevelOne embedded (95%), AirLive embedded (94%), SMC embedded (94%), ZyXEL embedded (94%), WatchGuard embedded (92%)
+CPE: cpe:/o:dec:rsx_11m_plus:4.6 cpe:/h:asus:rt-n11_ez cpe:/h:levelone:fbr-1415tx cpe:/h:airlive:wt-2000r cpe:/h:smc:smc7004vbr cpe:/h:zyxel:prestige_320w cpe:/h:watchguard:firebox_x5w cpe:/h:watchguard:firebox_soho_6
+seq(sp=fd%gcd=1%isr=f4%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=n%t=40%w=16d0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerAB:ecn(r=y%df=n%w=16d0%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=f-11%gcd=32|64|96|c8|fa|12c%isr=4f-51%ti=i%ii=%ci=)
+FingerB:seq(sp=fd%gcd=1%isr=f4%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=3b-45%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=3b-45%tg=40%o=)
+FingerB:t3(t=40%o=m5b4)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+
+

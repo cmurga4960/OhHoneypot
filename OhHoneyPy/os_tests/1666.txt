@@ -1,0 +1,73 @@
+Fingerprint: High-Flying HF-LPT100 embedded WLAN module
+Class: High-Flying | embedded || specialized
+seq(sp=0-1c%gcd=1-6|c9|d4|192|1a8|25b|27c|324|350|3ed|424%isr=50-62%ti=i|rd%ci=i%ii=ri%ss=o%ts=u)
+ops(o1=m578%o2=m578%o3=m578%o4=m578%o5=m578%o6=m578)
+win(w1=5dc%w2=5dc%w3=5dc%w4=5dc%w5=5dc%w6=5dc)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=5dc%o=m578%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=fa-104%tg=ff%w=5dc%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=5dc%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=5dc%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: High-Flying HF-LPT100 embedded WLAN module (97%), Anova Precision Cooker (High-Flying WLAN module) (94%), Milight WiFi Receiver bridge (94%), Satel ETHM-2 intruder alarm (93%), Denver Electronics AC-5000W MK2 camera (91%), OSRAM Lightify ZigBee gateway (90%), Daysequerra M4.2SI radio (89%), IHome SmartPlug iSP5WWC (87%), iRobot Roomba 980 vacuum cleaner (87%)
+Class: High-Flying embedded (97%), Milight embedded (94%), Satel embedded (93%), Denver Electronics embedded (91%), OSRAM embedded (90%), Daysequerra embedded (89%), IHome embedded (87%), iRobot embedded (87%)
+CPE: cpe:/h:satel:ethm-2 cpe:/h:denver_electronics:ac-5000w cpe:/h:osram:lightify cpe:/h:daysequerra:m4.2si cpe:/h:ihome:isp5wwc cpe:/h:irobot:roomba_980
+seq(sp=fb%gcd=1%isr=f1%ts=u)
+ops(o1=m578%o2=m578%o3=m578%o4=m578%o5=m578%o6=m578)
+win(w1=5dc%w2=5dc%w3=5dc%w4=5dc%w5=5dc%w6=5dc)
+ecn(r=y%df=n%t=ff%w=5dc%o=m578%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=5dc%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=5dc%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=5dc%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m578%o2=m578%o3=m578%o4=m578%o5=m578%o6=m578)
+FingerAB:win(w1=5dc%w2=5dc%w3=5dc%w4=5dc%w5=5dc%w6=5dc)
+FingerAB:ecn(r=y%df=n%w=5dc%o=m578%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=5dc%s=a+%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=5dc%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=5dc%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=0-1c%gcd=1-6|c9|d4|192|1a8|25b|27c|324|350|3ed|424%isr=50-62%ti=i|rd%ci=i%ii=ri%ss=o)
+FingerB:seq(sp=fb%gcd=1%isr=f1)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t7(r=n)
+
+

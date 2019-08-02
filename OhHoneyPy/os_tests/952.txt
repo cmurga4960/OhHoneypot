@@ -1,0 +1,76 @@
+Fingerprint: Cisco Nexus 7000 switch (NX-OS 4.2(4))
+Class: Cisco | NX-OS | 4.X | switch
+CPE: cpe:/o:cisco:nexus_7000
+CPE: cpe:/o:cisco:nx_os:4.2 auto
+seq(sp=ff-109%gcd=1-6%isr=107-111%ti=i%ci=i%ii=ri%ss=o|s%ts=3)
+ops(o1=m218nnt11%o2=m218nnt11%o3=m218nnt11%o4=m218nnt11%o5=m218nnt11%o6=m109nnt11)
+win(w1=9e20|a214|a608|a9fc|adf0%w2=9e20|a214|a608|a9fc|adf0%w3=9f74|a45c|a6d0|abb8|ae2c%w4=9fa8|a5cc|a7d8|abf0|b008%w5=9fa8|a5cc|a7d8|abf0|b008%w6=a01a|a608|a802|abf6|b0e7)
+ecn(r=y%df=n%t=3b-45%tg=40%w=a214|a608|a9fc|adf0|b1e4%o=m218%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: HP ProCurve 1810G switch (eCos 3.0) (95%), Cisco 200-series, HP ProCurve 1810G, or Netgear GS110TP switch (eCos 2.0) (94%), VIPA PLC CPU (94%), Cisco SG200 switch (93%), Apple Mac OS X 10.3.9 (Panther) - 10.4.7 (Tiger) (Darwin 7.9.0 - 8.7.8, PowerPC) (93%), Apple Mac OS X 10.4.10 (Tiger) (Darwin 8.10.0, PowerPC) (93%), Apple Mac OS X 10.4.11 (Tiger) (Darwin 8.11.0, PowerPC) (93%), IBM AIX 6.1 (93%), Apple Mac OS X 10.4.11 (Tiger) (Darwin 8.11.0) (92%), Apple Mac OS X 10.3.9 (Panther) (Darwin 7.9.0, PowerPC) (92%)
+Class: eCosCentric eCos 3.X|2.0 (95%), HP embedded (95%), Cisco embedded (94%), Netgear embedded (94%), VIPA embedded (94%), Apple Mac OS X 10.3.X|10.4.X|10.5.X (93%), IBM AIX 6.X (93%)
+CPE: cpe:/o:ecoscentric:ecos:3.0 cpe:/h:hp:procurve_switch_1810g cpe:/o:ecoscentric:ecos:2.0 cpe:/h:netgear:gs110tp cpe:/o:apple:mac_os_x:10.3 cpe:/o:apple:mac_os_x:10.4 cpe:/o:ibm:aix:6.1 cpe:/o:apple:mac_os_x_server:10.5
+seq(ci=i%ii=i)
+ecn(r=y%df=n%t=40%w=a214%o=m218%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=y%dfi=s%t=3d%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ecn(r=y%df=n%o=m218%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=ff-109%gcd=1-6%isr=107-111%ti=i%ii=ri%ss=o|s%ts=3)
+FingerB:seq(ii=i)
+
+FingerA:ecn(t=3b-45%tg=40%w=a214|a608|a9fc|adf0|b1e4)
+FingerB:ecn(t=40%w=a214)
+
+FingerA:t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3d%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3d%r=y)
+
+FingerA:ops(o1=m218nnt11%o2=m218nnt11%o3=m218nnt11%o4=m218nnt11%o5=m218nnt11%o6=m109nnt11)
+FingerA:win(w1=9e20|a214|a608|a9fc|adf0%w2=9e20|a214|a608|a9fc|adf0%w3=9f74|a45c|a6d0|abb8|ae2c%w4=9fa8|a5cc|a7d8|abf0|b008%w5=9fa8|a5cc|a7d8|abf0|b008%w6=a01a|a608|a802|abf6|b0e7)
+
+

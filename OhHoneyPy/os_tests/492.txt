@@ -1,0 +1,79 @@
+Fingerprint: Belkin F5L009 power adapter
+Class: Belkin | embedded || power-device
+seq(sp=0-5%gcd=10001|20002|30003|40004|50005%isr=96-a0%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4nns%o2=m5b4nns%o3=m5b4nns%o4=m5b4nns%o5=m5b4nns%o6=m5b4nns)
+win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=5b4%o=m5b4nns%cc=n)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0)
+t2(r=y%df=n%t=fa-104%tg=ff%w=5b4%s=a%a=s%f=ar%rd=0)
+t3(r=y%df=n%t=fa-104%tg=ff%w=5b4%s=a%a=s+%f=ar%rd=0)
+t4(r=y%df=n%t=fa-104%tg=ff%w=5b4%s=a%a=s%f=ar%rd=0)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s+%f=ar%rd=0)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=ar%rd=0)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=ar%rd=0)
+u1(r=n)
+ie(dfi=n%t=fa-104%tg=ff%cd=z)
+********************************************************
+Fingerprint: Belkin F5L009 power adapter (94%), Canon imageRUNNER 1024 laser printer (92%), Canon imageRUNNER 2020 or Kyocera FS-4000DN printer (89%), Kyocera FS-3800 network printer (85%), Sharp AR-C260M or AR-M351N printer (85%)
+Class: Belkin embedded (94%), Canon embedded (92%), Kyocera embedded (89%), Sharp embedded (85%)
+CPE: cpe:/h:canon:imagerunner_1024 cpe:/h:kyocera:fs-4000dn cpe:/h:sharp:ar-c260m cpe:/h:sharp:ar-m351n
+seq(sp=fe%gcd=1%isr=f4%ci=i%ts=u)
+ops(o1=m5b4nns%o2=m5b4nns%o3=m5b4nns%o4=m5b4nns%o5=m5b4nns%o6=m5b4nns)
+win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+ecn(r=y%df=n%tg=ff%w=5b4%o=m5b4nns%cc=n%q=)
+t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%tg=ff%w=5b4%s=a%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%tg=ff%w=5b4%s=a%a=s+%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=n%tg=ff%w=5b4%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=ff%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%tg=ff%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5b4nns%o2=m5b4nns%o3=m5b4nns%o4=m5b4nns%o5=m5b4nns%o6=m5b4nns)
+FingerAB:win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+FingerAB:ecn(r=y%df=n%tg=ff%w=5b4%o=m5b4nns%cc=n)
+FingerAB:t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=y%df=n%tg=ff%w=5b4%s=a%a=s%f=ar%rd=0)
+FingerAB:t3(r=y%df=n%tg=ff%w=5b4%s=a%a=s+%f=ar%rd=0)
+FingerAB:t4(r=y%df=n%tg=ff%w=5b4%s=a%a=s%f=ar%rd=0)
+FingerAB:t5(r=y%df=n%tg=ff%w=0%s=a%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=n%tg=ff%w=0%s=a%a=s%f=ar%rd=0)
+FingerAB:t7(r=y%df=n%tg=ff%w=0%s=a%a=s%f=ar%rd=0)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=0-5%gcd=10001|20002|30003|40004|50005%isr=96-a0%ti=i%ii=i%ss=s)
+FingerB:seq(sp=fe%gcd=1%isr=f4)
+
+FingerA:ecn(t=fa-104)
+FingerB:ecn(q=)
+
+FingerA:t1(t=fa-104)
+FingerB:t1(q=)
+
+FingerA:t2(t=fa-104)
+FingerB:t2(o=%q=)
+
+FingerA:t3(t=fa-104)
+FingerB:t3(o=m5b4%q=)
+
+FingerA:t4(t=fa-104)
+FingerB:t4(o=%q=)
+
+FingerA:t5(t=fa-104)
+FingerB:t5(o=%q=)
+
+FingerA:t6(t=fa-104)
+FingerB:t6(o=%q=)
+
+FingerA:t7(t=fa-104)
+FingerB:t7(o=%q=)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=z)
+FingerB:ie(r=n)
+
+
+

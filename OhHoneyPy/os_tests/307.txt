@@ -1,0 +1,58 @@
+Fingerprint: Apple Mac OS X 10.5.8 (Leopard) (Darwin 9.8.0)
+Class: Apple | Mac OS X | 10.5.X | general purpose
+CPE: cpe:/o:apple:mac_os_x:10.5.8
+seq(sp=ff-109%gcd=1-6%isr=ff-113%ti=rd%ii=ri%ts=3%ci=)
+ops(o1=m57cnw3nnt11sll%o2=m57cnw3nnt11sll%o3=m57cnw3nnt11%o4=m57cnw3nnt11sll%o5=m57cnw3nnt11sll%o6=m57cnnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=ffff%o=m57cnw3sll%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=0-ffff%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Apple Mac OS X 10.5.8 (Leopard) (Darwin 9.8.0) (98%), OpenBSD 4.0 (93%), OpenBSD 4.3 (93%), Apple AirPort Extreme WAP (93%), FreeBSD 6.2-RELEASE (92%), Netasq U70 firewall (89%), VMware ESXi 4.1.0 (88%), Apple iOS 4.1 - 4.2.1 (88%), Apple iOS 4.3.1 - 4.3.5 (88%), Apple iOS 5.1.1 (88%)
+Class: Apple Mac OS X 10.5.X (98%), OpenBSD 4.X (93%), Apple embedded (93%), FreeBSD 6.X (92%), Netasq embedded (89%), VMware ESXi 4.X (88%), Apple iOS 4.X|5.X (88%)
+CPE: cpe:/o:apple:mac_os_x:10.5.8 cpe:/o:openbsd:openbsd:4.0 cpe:/h:apple:airport_extreme cpe:/o:freebsd:freebsd:6.2 cpe:/h:netasq:u70 cpe:/o:vmware:esxi:4.1 cpe:/o:apple:iphone_os:4 cpe:/o:apple:iphone_os:5.1.1
+seq(sp=ff%gcd=1%isr=f6)
+ops(o1=m57cnw3nnt11sll%o2=m57cnw3nnt11sll%o3=m57cnw3nnt11%o4=m57cnw3nnt11sll%o5=m57cnw3nnt11sll%o6=m57cnnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%tg=40%w=ffff%o=m57cnw3sll%cc=n%q=)
+t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m57cnw3nnt11sll%o2=m57cnw3nnt11sll%o3=m57cnw3nnt11%o4=m57cnw3nnt11sll%o5=m57cnw3nnt11sll%o6=m57cnnt11sll)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=y%tg=40%w=ffff%o=m57cnw3sll%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+--- Diff Values ---
+FingerA:seq(sp=ff-109%gcd=1-6%isr=ff-113%ti=rd%ii=ri%ts=3%ci=)
+FingerB:seq(sp=ff%gcd=1%isr=f6)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=0-ffff%ripck=g%ruck=0%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

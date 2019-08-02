@@ -1,0 +1,79 @@
+Fingerprint: Dell PowerConnect 6248, Enterasys C3 C3G124 or Netgear GSM7328Sv2 switch
+Class: Enterasys | embedded || switch
+Class: Netgear | embedded || switch
+Class: Dell | embedded || switch
+CPE: cpe:/h:enterasys:c3_c3g124
+CPE: cpe:/h:netgear:gsm7328sv2
+CPE: cpe:/h:dell:powerconnect_6248
+seq(sp=0-13b%gcd=1-7|fa01|1f402|2ee03|3e804|4e205%isr=95-a3%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=nnm5b4snw0%o2=nnm5b4snw0%o3=m5b4nw0%o4=nnm5b4snw0%o5=nnm5b4snw0%o6=nnm5b4s)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=1000%o=nnm5b4snw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=r%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=138%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: Dell PowerConnect 6248, Enterasys C3 C3G124 or Netgear GSM7328Sv2 switch (95%), Dell PowerConnect 6248, or Enterasys B3 BG3124 or D2 D2G124 switch (91%), Samsung CLX-6220 or SCX-5835 or Xerox Phaser 3635MFP or 4600 printer (90%), Aastra 6739i VoIP phone (89%), Dolby Digital Cinema Sound Processor CP750 (89%), Samsung SCX-3405FW, CLX-3305FW, or ML-451x-501x-Series printer (89%), Samsung CLP-770ND printer (89%), Nintendo Wii game console (89%), VxWorks 6.5 (NAS device) (88%), Cisco CRS-1 router (IOS XR 3.4.1 - 3.6.2) (88%)
+seq(sp=109%gcd=1%isr=100%ci=i%ts=u)
+ops(o1=nnm5b4snw0%o2=nnm5b4snw0%o3=m5b4nw0%o4=nnm5b4snw0%o5=nnm5b4snw0%o6=nnm5b4s)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=40%w=1000%o=nnm5b4snw0%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s+%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=nnm5b4snw0%o2=nnm5b4snw0%o3=m5b4nw0%o4=nnm5b4snw0%o5=nnm5b4snw0%o6=nnm5b4s)
+FingerAB:win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+FingerAB:ecn(r=y%df=n%w=1000%o=nnm5b4snw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-13b%gcd=1-7|fa01|1f402|2ee03|3e804|4e205%isr=95-a3%ti=i%ii=i%ss=s)
+FingerB:seq(sp=109%gcd=1%isr=100)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=3b-45%tg=40%ipl=138)
+FingerB:u1(t=fa%ipl=38%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=z)
+FingerB:ie(r=n)
+
+
+

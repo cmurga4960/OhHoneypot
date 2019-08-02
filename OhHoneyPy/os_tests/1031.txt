@@ -1,0 +1,56 @@
+Fingerprint: D-Link DFL-700 firewall
+Class: D-Link | embedded || firewall
+CPE: cpe:/h:dlink:dfl-700 auto
+seq(sp=102-10c%gcd=1-6%isr=104-10e%ti=rd%ts=u%ii=%ci=)
+ops(o1=m564%o2=m564%o3=m564%o4=m564%o5=m564%o6=m564)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%t=3b-45%tg=40%w=ffff%o=m564%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(r=n)
+ie(r=n)
+********************************************************
+Fingerprint: D-Link DFL-700 firewall (97%), Huawei VRP 5.160 (90%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (90%), IBM AIX 4.3 (89%), Ricoh Aficio SP C210SF printer (89%), IBM OS/2 Warp 2.0 (89%), Nintendo Wii game console (88%), SMC SMC8014WG WAP (88%), NEC UNIVERGE SV8100 PBX (88%), Brother MFC-7820N printer (87%)
+seq(sp=101%gcd=1%isr=f8%ci=i%ts=u)
+ops(o1=m564%o2=m564%o3=m564%o4=m564%o5=m564%o6=m564)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%tg=40%w=ffff%o=m564%cc=n%q=)
+t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m564%o2=m564%o3=m564%o4=m564%o5=m564%o6=m564)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=n%tg=40%w=ffff%o=m564%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=102-10c%gcd=1-6%isr=104-10e%ti=rd%ii=%ci=)
+FingerB:seq(sp=101%gcd=1%isr=f8%ci=i)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t4(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:t7(r=n)
+
+

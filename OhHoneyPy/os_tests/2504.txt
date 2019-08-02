@@ -1,0 +1,77 @@
+Fingerprint: Linux 2.6.15-28-amd64-server (Ubuntu, x86_64, SMP)
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6.15 auto
+seq(sp=c6-d0%gcd=1-6%isr=c2-cc%ti=z%ii=i%ts=8%ci=)
+ops(o1=m5b4st11nw2%o2=m5b4st11nw2%o3=m5b4nnt11nw2%o4=m5b4st11nw2%o5=m5b4st11nw2%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw2%cc=n%q=)
+t1(r=y%df=y%t=3a-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=27-3a%tg=40%w=80%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t3(r=y%df=n%t=22-3b%tg=40%w=100%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+t4(r=y%df=y%t=22-3d%tg=40%w=400%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=25-2f|32-3f%tg=40%w=8000%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t7(r=y%df=n%t=21-3c%tg=40%w=ffff%s=a%a=s+%f=ar%o=wfnm109t10s%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Linux 2.6.18.pi (x86) (95%), Linux 2.6.15-28-amd64-server (Ubuntu, x86_64, SMP) (94%), IBM i5/OS V5R3M0 (90%), Linux 2.6.21-gentoo-r4 (PowerPC) (88%), IBM z/OS v1r8 (88%), Cisco Unified Communications Manager VoIP adapter (88%), Cisco IPS 4270 intrusion prevention system (87%), Essentia OpenWifless ESS (87%), Linux 2.6.11 - 2.6.18 (87%), Cisco MDS 9509 switch (NX-OS 4.2) (86%)
+seq(ii=i)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nnsnw2%cc=n%q=)
+t1(r=n)
+t2(r=y%df=y%t=40%w=80%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t3(r=y%df=n%t=40%w=100%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+t4(r=y%df=y%t=40%w=400%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=8000%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+t7(r=y%df=n%t=40%w=ffff%s=a%a=s+%f=ar%o=wfnm109t10s%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nnsnw2%cc=n%q=)
+FingerAB:t2(r=y%df=y%w=80%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=100%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=400%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=8000%s=a%a=s%f=ar%o=wanm109t10s%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=ffff%s=a%a=s+%f=ar%o=wfnm109t10s%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c6-d0%gcd=1-6%isr=c2-cc%ti=z%ts=8%ci=)
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3a-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t2(t=27-3a%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=22-3b%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=22-3d%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=25-2f|32-3f%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=21-3c%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b4st11nw2%o2=m5b4st11nw2%o3=m5b4nnt11nw2%o4=m5b4st11nw2%o5=m5b4st11nw2%o6=m5b4st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+
+

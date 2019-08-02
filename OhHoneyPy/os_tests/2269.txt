@@ -1,0 +1,74 @@
+Fingerprint: Lexmark X646e, C770, or C935 printer
+Class: Lexmark | embedded || printer
+CPE: cpe:/h:lexmark:x646e
+CPE: cpe:/h:lexmark:c770
+CPE: cpe:/h:lexmark:c935
+seq(sp=bd-cf%gcd=1-6%isr=c6-d6%ti=z%ci=i%ii=i%ts=a)
+ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+win(w1=b50%w2=b50%w3=b50%w4=b50%w5=b50%w6=b50)
+ecn(r=y%df=y%t=fe%tg=ff%w=b68%o=m5b4nnsnw1%cc=n%q=)
+t1(r=y%df=y%t=fe%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=fe%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=fe%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=fe%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=fe%tg=ff%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fe%tg=ff%cd=s)
+********************************************************
+Fingerprint: OpenWrt Kamikaze 7.09 (Linux 2.6.22) (91%), Lexmark X644e printer (91%), Linux 2.6.24 (91%), Lexmark X646e, C770, or C935 printer (91%), Lexmark C534dn printer (91%), Lexmark 1400-series printer (90%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (90%), OpenWrt White Russian 0.9 (Linux 2.4.30) (90%), Tomato 1.28 (Linux 2.6.22) (90%), AXIS 211A Network Camera (Linux 2.6.20) (90%)
+seq(sp=e3%gcd=1%isr=da%ti=i%ci=i)
+ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+win(w1=b50%w2=b50%w3=b50%w4=b50%w5=b50%w6=b50)
+ecn(r=y%df=y%t=ff%w=b68%o=m5b4nnsnw1%cc=n%q=)
+t1(r=y%df=y%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+FingerAB:win(w1=b50%w2=b50%w3=b50%w4=b50%w5=b50%w6=b50)
+FingerAB:ecn(r=y%df=y%w=b68%o=m5b4nnsnw1%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=bd-cf%gcd=1-6%isr=c6-d6%ti=z%ii=i%ts=a)
+FingerB:seq(sp=e3%gcd=1%isr=da%ti=i)
+
+FingerA:ecn(t=fe%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fe%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t4(t=fe%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fe%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fe%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:u1(t=fe%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fe%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t7(r=n)
+
+

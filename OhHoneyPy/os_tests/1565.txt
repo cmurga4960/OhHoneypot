@@ -1,0 +1,81 @@
+Fingerprint: Geist Watchdog 1250 atmospheric monitor
+Class: Geist | embedded || specialized
+CPE: cpe:/h:geist:watchdog_1250
+seq(sp=30-46%gcd=1-6%isr=96-a0%ti=z%ci=z%ii=ri%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m5b4%o5=m218%o6=m109)
+win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+ecn(r=y%df=y%t=fa-104%tg=ff%w=5b4%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=fa-104%tg=ff%w=5b4%s=o%a=o|s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=y%t=fa-104%tg=ff%w=5b4%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=fa-104%tg=ff%w=5b4%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=fa-104%tg=ff%w=5b4%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%t=fa-104%tg=ff%w=5b4%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(df=y%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=20-3c%tg=40%cd=s)
+********************************************************
+Fingerprint: Geist Watchdog 1250 atmospheric monitor (95%), ITW WeatherGoose II environmental monitor (91%), Topfield TF6000PVR set top box (87%), TP-LINK TL-PS110U or TL-WPS4510U print server (87%), Sony PlayStation 2 game console (86%), TP-LINK TL-PS110U print server (86%), AVtech AVC 773W digital video recorder (85%), Bush BFSAT01HD satellite receiver (85%)
+Class: Geist embedded (95%), ITW embedded (91%), Topfield embedded (87%), TP-LINK embedded (87%), Sony embedded (86%), AVtech embedded (85%), Bush embedded (85%)
+CPE: cpe:/h:geist:watchdog_1250 cpe:/h:topfield:tf6000pvr cpe:/h:sony:playstation_2
+seq(sp=107%gcd=1%isr=fe%ii=i%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m5b4%o5=m218%o6=m109)
+win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+ecn(r=y%df=y%t=ff%w=5b4%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=ff%w=5b4%s=o%a=o%f=as%o=m109%rd=0%q=)
+t4(r=y%df=y%t=ff%w=5b4%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=ff%w=5b4%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=ff%w=5b4%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%t=ff%w=5b4%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=y%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m578%o3=m280%o4=m5b4%o5=m218%o6=m109)
+FingerAB:win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+FingerAB:ecn(r=y%df=y%w=5b4%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=5b4%s=o%f=as%o=m109%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=5b4%s=a+%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=5b4%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=5b4%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=5b4%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=y%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=30-46%gcd=1-6%isr=96-a0%ti=z%ci=z%ii=ri)
+FingerB:seq(sp=107%gcd=1%isr=fe%ii=i)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t3(t=fa-104%tg=ff%a=o|s+)
+FingerB:t3(t=ff%a=o)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=20-3c%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

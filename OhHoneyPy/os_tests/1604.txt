@@ -1,0 +1,86 @@
+Fingerprint: Cisco CP-DX650 VoIP phone (Android 4.1.1)
+Class: Google | Android | 4.1.X | VoIP phone
+Class: Cisco | embedded || VoIP phone
+CPE: cpe:/o:google:android:4.1.1 auto
+CPE: cpe:/h:cisco:cp-dx650 auto
+seq(sp=fe-108%gcd=1-6%isr=106-110%ti=i%ci=z%ii=i%ss=s%ts=7)
+ops(o1=m5b4st11nw3%o2=m5b4st11nw3%o3=m5b4nnt11nw3%o4=m5b4st11nw3%o5=m5b4st11nw3%o6=m5b4st11)
+win(w1=3890%w2=3890%w3=3890%w4=3890%w5=3890%w6=3890)
+ecn(r=y%df=n%t=3a-44%tg=40%w=3908%o=m5b4nnsnw3%cc=y%q=)
+t1(r=y%df=n%t=3a-44%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=3a-44%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%t=3a-44%tg=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t4(r=y%df=y%t=3a-44%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3a-44%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3a-44%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3a-44%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3a-44%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3a-44%tg=40%cd=s)
+********************************************************
+Fingerprint: Cisco CP-DX650 VoIP phone (Android 4.1.1) (98%), Cisco CP-DX80 collaboration endpoint (Android) (97%), Linux 3.6 - 3.10 (93%), Linux 3.0 (91%), Linux 3.2 - 3.10 (91%), Linux 3.2 - 3.16 (91%), Linux 2.6.38 - 3.0 (91%), Linux 2.6.32 - 3.10 (91%), BlackBox Coalesce wireless collaborations system (Android 5.1) (91%), Linux 2.6.32 - 3.5 (91%)
+Class: Google Android 4.1.X|5.X|4.0.X (98%), Cisco embedded (98%), Linux 3.X|2.6.X|4.X (93%), BlackBox embedded (91%)
+CPE: cpe:/o:google:android:4.1.1 cpe:/h:cisco:cp-dx650 cpe:/o:google:android cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:2.6 cpe:/o:google:android:5.1 cpe:/o:google:android:4.0.4 cpe:/o:linux:linux_kernel:4.4
+seq(sp=ec%gcd=1%isr=e3%ii=i)
+ops(o1=m5b4st11nw3%o2=m5b4st11nw3%o3=m5b4nnt11nw3%o4=m5b4st11nw3%o5=m5b4st11nw3%o6=m5b4st11)
+win(w1=3890%w2=3890%w3=3890%w4=3890%w5=3890%w6=3890)
+ecn(r=y%df=n%t=40%w=3908%o=m5b4nnsnw3%cc=y%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%t=40%w=0%s=z%a=o%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ops(o1=m5b4st11nw3%o2=m5b4st11nw3%o3=m5b4nnt11nw3%o4=m5b4st11nw3%o5=m5b4st11nw3%o6=m5b4st11)
+FingerAB:win(w1=3890%w2=3890%w3=3890%w4=3890%w5=3890%w6=3890)
+FingerAB:ecn(r=y%df=n%w=3908%o=m5b4nnsnw3%cc=y%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=y%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=y%w=0%s=z%a=o%f=ar%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=fe-108%gcd=1-6%isr=106-110%ti=i%ci=z%ss=s%ts=7)
+FingerB:seq(sp=ec%gcd=1%isr=e3)
+
+FingerA:ecn(t=3a-44%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3a-44%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=3a-44%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=3a-44%tg=40%o=)
+FingerB:t3(t=40%o=m5b4)
+
+FingerA:t4(t=3a-44%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3a-44%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3a-44%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3a-44%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3a-44%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3a-44%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

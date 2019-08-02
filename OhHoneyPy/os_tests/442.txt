@@ -1,0 +1,79 @@
+Fingerprint: Avaya Intuity Audix Multimedia Messaging System
+Class: Avaya | embedded || telecom-misc
+seq(sp=a3-bf%gcd=1-6%isr=b6-bc%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m400%o2=m400%o3=m280%o4=m400%o5=%o6=m109)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=1000%o=m400%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=1000%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Avaya Intuity Audix Multimedia Messaging System (97%), SCO UnixWare 2.1 (96%), IBM OS/2 Warp 2.0 (91%), DEC Ultrix 4.0 (90%), SCO UNIX 3.2 (90%), Dell Embedded Remote Access (ERA) Controller 3.38 or 4/I (88%), DEC OpenVMS 7.1 (88%)
+Class: Avaya embedded (97%), SCO UnixWare 2.X (96%), IBM OS/2 4.X (91%), DEC Ultrix 4.X (90%), SCO SCO UNIX 3.X (90%), Dell embedded (88%), DEC OpenVMS 7.X (88%)
+CPE: cpe:/o:sco:unixware:2.1 cpe:/o:ibm:os2:4 cpe:/o:dec:ultrix:4.0 cpe:/o:sco:sco_unix:3.2 cpe:/h:dell:remote_access_card:3.38 cpe:/h:dell:remote_access_card:4 cpe:/o:dec:openvms:7.1
+seq(sp=f5%gcd=1%isr=ec%ci=i%ts=u)
+ops(o1=m400%o2=m400%o3=m280%o4=m400%o5=%o6=m109)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=40%w=1000%o=m400%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=1000%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m400%o2=m400%o3=m280%o4=m400%o5=%o6=m109)
+FingerAB:win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+FingerAB:ecn(r=y%df=n%w=1000%o=m400%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=1000%s=o%a=o%f=a%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=a3-bf%gcd=1-6%isr=b6-bc%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=f5%gcd=1%isr=ec%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

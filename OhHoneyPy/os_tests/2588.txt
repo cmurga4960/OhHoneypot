@@ -1,0 +1,71 @@
+Fingerprint: Linux 2.6.18 (Debian, x86)
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6.18
+seq(sp=c4-ce%gcd=1-6%isr=c7-d1%ti=z%ts=8%ii=%ci=)
+ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw1%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw1%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=6ce0%rud=g)
+ie(r=n)
+********************************************************
+Fingerprint: Linux 2.6.18 (Debian, x86) (96%), AXIS 211A Network Camera (Linux 2.6.20) (92%), Aruba IAP-93 WAP (92%), ArubaOS 6.3 (92%), Linux 2.6.10 - 2.6.13 (embedded) (92%), Linux 2.6.13 - 2.6.32 (92%), Linux 2.6.18 - 2.6.32 (92%), Linux 2.6.22 - 2.6.23 (92%), Linux 2.6.9 - 2.6.19 (92%), Linux 2.6.9 - 2.6.24 (92%)
+Class: Linux 2.6.X (96%), AXIS embedded (92%), Aruba embedded (92%), Aruba ArubaOS 6.X (92%), Motorola embedded (92%), Perle embedded (92%), Asus embedded (91%), Google Android 1.X (91%)
+CPE: cpe:/o:linux:linux_kernel:2.6.18 cpe:/o:linux:linux_kernel:2.6.20 cpe:/h:axis:211a_network_camera cpe:/h:arubanetworks:iap-93 cpe:/o:arubanetworks:arubaos:6.3 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:asus:rt-n10 cpe:/o:google:android:1
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nnsnw1%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw1%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=6ce0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nnsnw1%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw1%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=6ce0%rud=g)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:seq(sp=c4-ce%gcd=1-6%isr=c7-d1%ti=z%ts=8%ii=%ci=)
+FingerA:ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+
+

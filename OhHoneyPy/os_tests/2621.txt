@@ -1,0 +1,74 @@
+Fingerprint: Linux 2.6.19 - 3.0
+Class: Linux | Linux | 2.6.X | general purpose
+Class: Linux | Linux | 3.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6 auto
+CPE: cpe:/o:linux:linux_kernel:3 auto
+seq(sp=a6-d4%gcd=1-6%isr=be-d9%ti=z%ci=z%ii=i%ts=a|b)
+ops(o1=m400cst11nw2|m400cst11nw4|m400cst11nw5|m400cst11nw6|m400cst11nw7|m400cst11nw8|m400cst11nw9%o2=m400cst11nw2|m400cst11nw4|m400cst11nw5|m400cst11nw6|m400cst11nw7|m400cst11nw8|m400cst11nw9%o3=m400cnnt11nw2|m400cnnt11nw4|m400cnnt11nw5|m400cnnt11nw6|m400cnnt11nw7|m400cnnt11nw8|m400cnnt11nw9%o4=m400cst11nw2|m400cst11nw4|m400cst11nw5|m400cst11nw6|m400cst11nw7|m400cst11nw8|m400cst11nw9%o5=m400cst11nw2|m400cst11nw4|m400cst11nw5|m400cst11nw6|m400cst11nw7|m400cst11nw8|m400cst11nw9%o6=m400cst11)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=y%t=3b-45%tg=40%w=8018%o=m400cnnsnw2|m400cnnsnw4|m400cnnsnw5|m400cnnsnw6|m400cnnsnw7|m400cnnsnw8|m400cnnsnw9%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=8000%s=o%a=s+%f=as%o=m400cst11nw2|m400cst11nw4|m400cst11nw5|m400cst11nw6|m400cst11nw7|m400cst11nw8|m400cst11nw9%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Linux 2.6.19 - 2.6.39 (96%), Linux 2.6.19 - 3.0 (96%), Linux 2.6.31 - 3.0 (96%), Linux 2.6.32 - 3.2 (96%), Linux 3.1 (96%), Linux 2.6.31 - 3.2 (96%), ASUS RT-N56U WAP (Linux 3.4) (95%), Linux 3.16 (95%), Linux 3.2 (95%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (95%)
+ecn(r=y%df=y%t=40%w=8018%o=m400cnnsnw2%cc=y%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=8000%s=o%a=s+%f=as%o=m400cst11nw2%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=8018%cc=y%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=8000%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:ecn(t=3b-45%tg=40%o=m400cnnsnw2|m400cnnsnw4|m400cnnsnw5|m400cnnsnw6|m400cnnsnw7|m400cnnsnw8|m400cnnsnw9)
+FingerB:ecn(t=40%o=m400cnnsnw2)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%tg=40%o=m400cst11nw2|m400cst11nw4|m400cst11nw5|m400cst11nw6|m400cst11nw7|m400cst11nw8|m400cst11nw9)
+FingerB:t3(t=40%o=m400cst11nw2)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:seq(sp=a6-d4%gcd=1-6%isr=be-d9%ti=z%ci=z%ii=i%ts=a|b)
+FingerA:ops(o1=m400cst11nw2|m400cst11nw4|m400cst11nw5|m400cst11nw6|m400cst11nw7|m400cst11nw8|m400cst11nw9%o2=m400cst11nw2|m400cst11nw4|m400cst11nw5|m400cst11nw6|m400cst11nw7|m400cst11nw8|m400cst11nw9%o3=m400cnnt11nw2|m400cnnt11nw4|m400cnnt11nw5|m400cnnt11nw6|m400cnnt11nw7|m400cnnt11nw8|m400cnnt11nw9%o4=m400cst11nw2|m400cst11nw4|m400cst11nw5|m400cst11nw6|m400cst11nw7|m400cst11nw8|m400cst11nw9%o5=m400cst11nw2|m400cst11nw4|m400cst11nw5|m400cst11nw6|m400cst11nw7|m400cst11nw8|m400cst11nw9%o6=m400cst11)
+FingerA:win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+
+

@@ -1,0 +1,64 @@
+Fingerprint: Acorp W400G or W422G wireless ADSL modem (MontaVista embedded Linux 2.4.17)
+Class: Acorp | embedded || WAP
+seq(sp=c2-cc%gcd=1-6%isr=c7-d1%ti=z%ii=i%ts=7%ci=)
+ops(o1=m5b4st11%o2=m5b4st11%o3=m5b4nnt11%o4=m5b4st11%o5=m5b4st11%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nns%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Acorp W400G or W422G wireless ADSL modem (MontaVista embedded Linux 2.4.17) (97%), MontaVista embedded Linux 2.4.17 (97%), Linux 2.6.22 (93%), Linux 2.6.23 (92%), Sony Bravia HX720-series TV (92%), Drobo 5D NAS (Linux 2.6.18) (92%), Tomato 1.27 - 1.28 (Linux 2.4.20) (91%), Linux 2.6.18 - 2.6.22 (91%), Linux 3.2.0 (91%), Linux 2.6.18 (91%)
+Class: Acorp embedded (97%), Linux 2.4.X|2.6.X|3.X (97%), Sony embedded (92%), Drobo embedded (92%), Cisco embedded (91%)
+CPE: cpe:/o:linux:linux_kernel:2.4.17 cpe:/o:linux:linux_kernel:2.6.22 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:drobo:5d cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:3.2.0 cpe:/o:linux:linux_kernel:2.6 cpe:/h:cisco:uc320w
+seq(sp=108%gcd=1%isr=fe)
+ops(o1=m5b4st11%o2=m5b4st11%o3=m5b4nnt11%o4=m5b4st11%o5=m5b4st11%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nns%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11%o2=m5b4st11%o3=m5b4nnt11%o4=m5b4st11%o5=m5b4st11%o6=m5b4st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nns%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c2-cc%gcd=1-6%isr=c7-d1%ti=z%ii=i%ts=7%ci=)
+FingerB:seq(sp=108%gcd=1%isr=fe)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

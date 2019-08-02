@@ -1,0 +1,65 @@
+Fingerprint: F5 BIG-IP Edge Gateway
+Class: F5 Networks | embedded || load balancer
+seq(sp=fc-106%gcd=1-6%isr=fe-112%ti=i%ii=i%ss=s%ts=a%ci=)
+ops(o1=m5b4nnt11sll%o2=m5b4nnt11sll%o3=m5b4nnt11%o4=m5b4nnt11sll%o5=m5b4nnt11sll%o6=m5b4nnt11sll)
+win(w1=111c%w2=1068%w3=780%w4=648%w5=648%w6=31b)
+ecn(r=y%df=y%t=fa-104%tg=ff%w=111c%o=m5b4sll%cc=n%q=)
+t1(r=y%df=y%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=y%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=y%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: F5 BIG-IP Edge Gateway (98%), F5 BIG-IP Local Traffic Manager load balancer (TMOS 11.6) (89%), AVtech Room Alert 26W environmental monitor (89%), OneAccess 1641 router (88%)
+Class: F5 Networks embedded (98%), F5 Networks TMOS 11.6.X (89%), AVtech embedded (89%), OneAccess embedded (88%)
+CPE: cpe:/o:f5:tmos:11.6 cpe:/h:oneaccess:1641
+seq(sp=102%gcd=1%isr=f8%ti=i)
+ops(o1=m5b4nnt11sll%o2=m5b4nnt11sll%o3=m5b4nnt11%o4=m5b4nnt11sll%o5=m5b4nnt11sll%o6=m5b4nnt11sll)
+win(w1=111c%w2=1068%w3=780%w4=648%w5=648%w6=31b)
+ecn(r=y%df=y%t=ff%w=111c%o=m5b4sll%cc=n%q=)
+t1(r=y%df=y%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=y%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ti=i)
+FingerAB:ops(o1=m5b4nnt11sll%o2=m5b4nnt11sll%o3=m5b4nnt11%o4=m5b4nnt11sll%o5=m5b4nnt11sll%o6=m5b4nnt11sll)
+FingerAB:win(w1=111c%w2=1068%w3=780%w4=648%w5=648%w6=31b)
+FingerAB:ecn(r=y%df=y%w=111c%o=m5b4sll%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=y%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fc-106%gcd=1-6%isr=fe-112%ii=i%ss=s%ts=a%ci=)
+FingerB:seq(sp=102%gcd=1%isr=f8)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=y%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

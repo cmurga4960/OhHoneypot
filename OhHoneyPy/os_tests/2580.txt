@@ -1,0 +1,75 @@
+Fingerprint: Linux 2.6.18 (CentOS 5, x86_64, SMP)
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6.18
+seq(sp=c6-d0%gcd=1-6%isr=c7-d1%ti=z%ii=i%ts=a%ci=)
+ops(o1=m400cnnt11nw7%o2=m400cnnt11nw7%o3=m400cnnt11nw7%o4=m400cnnt11nw7%o5=m400cnnt11nw7%o6=m400cnnt11)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=y%t=3b-45%tg=40%w=8018%o=m400cnw7%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=8000%s=o%a=s+%f=as%o=m400cnnt11nw7%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Linux 2.6.18 (CentOS 5, x86_64, SMP) (96%), Linux 2.6.24 (96%), Linux 2.6.15 - 3.2 (95%), Linux 2.6.17 - 2.6.26 (95%), Linux 2.6.17 - 2.6.28 (95%), Linux 2.6.18 - 2.6.27 (95%), Linux 2.6.20-grml (95%), Linux 2.6.22 (95%), Linux 2.6.22 (Ubuntu 7.10) (95%), Linux 2.6.22 (Ubuntu 7.10, x86) (95%)
+seq(ci=i)
+ecn(r=y%df=y%t=40%w=8018%o=m400cnw7%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=8000%s=o%a=s+%f=as%o=m400cnnt11nw7%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=8018%o=m400cnw7%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=8000%s=o%a=s+%f=as%o=m400cnnt11nw7%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c6-d0%gcd=1-6%isr=c7-d1%ti=z%ii=i%ts=a%ci=)
+FingerB:seq(ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m400cnnt11nw7%o2=m400cnnt11nw7%o3=m400cnnt11nw7%o4=m400cnnt11nw7%o5=m400cnnt11nw7%o6=m400cnnt11)
+FingerA:win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+
+

@@ -1,0 +1,80 @@
+Fingerprint: Cisco Catalyst 6509 switch (IOS 12.2)
+Class: Cisco | IOS | 12.X | switch
+CPE: cpe:/h:cisco:catalyst_6509
+CPE: cpe:/o:cisco:ios:12.2
+seq(sp=fe-108%gcd=1-6%isr=fd-107%ti=rd%ci=rd%ii=ri%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m218%o5=m218%o6=m109)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%t=38-42%tg=40%w=8000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=38-42%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=38-42%tg=40%w=8000%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=n%t=38-42%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=38-42%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=38-42%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=38-42%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fb-105%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fb-105%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco Catalyst 6509 switch (IOS 12.2) (94%), Nintendo Wii game console (92%), Cisco Catalyst 6509-E switch (IOS 12.2) (91%), T-Home Speedport W 504V WAP (91%), Canon VB-C300 IP camera (91%), Epson Stylus Pro 400 printer (90%), Radware LinkProof load balancer (90%), IBM BladeCenter management module, IBM System Storage TS3100/TS3200 Express Model tape library, or HP StorageWorks MSL2024 tape library (90%), HP OpenVMS 7.3 (89%), NEC UNIVERGE SV8100 PBX (89%)
+seq(sp=ff%gcd=1%isr=f5%ci=i%ii=i%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m218%o5=m218%o6=m109)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%t=40%w=8000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=8000%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3d%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m578%o3=m280%o4=m218%o5=m218%o6=m109)
+FingerAB:win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+FingerAB:ecn(r=y%df=n%w=8000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=8000%s=o%a=s+%f=as%o=m109%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=fe-108%gcd=1-6%isr=fd-107%ti=rd%ci=rd%ii=ri)
+FingerB:seq(sp=ff%gcd=1%isr=f5%ci=i%ii=i)
+
+FingerA:ecn(t=38-42%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=38-42%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=38-42%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=38-42%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=38-42%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=38-42%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=38-42%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fb-105%tg=ff)
+FingerB:u1(t=3d%r=y)
+
+FingerA:ie(t=fb-105%tg=ff)
+FingerB:ie(t=3d%r=y)
+
+
+

@@ -1,0 +1,79 @@
+Fingerprint: Dell PowerConnect 3024 switch
+Class: Dell | embedded || switch
+CPE: cpe:/h:dell:powerconnect_3024 auto
+seq(sp=0-1c%gcd=fa00|1f400|2ee00|3e800|4e200%isr=97-a1%ti=i%ii=i%ss=s%ts=1%ci=)
+ops(o1=m400nw0nnt11%o2=m400nw0nnt11%o3=m400nw0nnt11%o4=m400nw0nnt11%o5=m400nw0nnt11%o6=m400nnt11)
+win(w1=2000%w2=2000%w3=2080%w4=2000%w5=2180%w6=2017)
+ecn(r=y%df=n%t=3b-45%tg=40%w=2000%o=m400nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=2017%s=o%a=o%f=a%o=nnt11%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=2000%s=a|o%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=o|s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a|o%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=o|s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=15c%rid=g%ripck=z%ruck=0%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Dell PowerConnect 3024 switch (95%), Linksys WAP11 WAP; or Cameo SOHO-IS104A or SMC SMCWBR14-G or SMC2804WBR broadband router (86%), HP ProCurve 2650, 2824, 2848, or 5300xl switch (86%)
+Class: Dell embedded (95%), Cameo embedded (86%), Linksys embedded (86%), SMC embedded (86%), HP embedded (86%)
+CPE: cpe:/h:dell:powerconnect_3024 cpe:/h:cameo:soho-is104a cpe:/h:linksys:wap11 cpe:/h:smc:smcwbr14-g cpe:/h:smc:smc2804wbr
+seq(sp=fc%gcd=1%isr=f2%ci=i)
+ops(o1=m400nw0nnt11%o2=m400nw0nnt11%o3=m400nw0nnt11%o4=m400nw0nnt11%o5=m400nw0nnt11%o6=m400nnt11)
+win(w1=2000%w2=2000%w3=2080%w4=2000%w5=2180%w6=2017)
+ecn(r=y%df=n%t=40%w=2000%o=m400nw0%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=2017%s=o%a=o%f=a%o=nnt11%rd=0%q=)
+t4(r=y%df=n%t=40%w=2000%s=o%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=o%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=15c%rid=g%ripck=z%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m400nw0nnt11%o2=m400nw0nnt11%o3=m400nw0nnt11%o4=m400nw0nnt11%o5=m400nw0nnt11%o6=m400nnt11)
+FingerAB:win(w1=2000%w2=2000%w3=2080%w4=2000%w5=2180%w6=2017)
+FingerAB:ecn(r=y%df=n%w=2000%o=m400nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=2017%s=o%a=o%f=a%o=nnt11%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=2000%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=15c%rid=g%ripck=z%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-1c%gcd=fa00|1f400|2ee00|3e800|4e200%isr=97-a1%ti=i%ii=i%ss=s%ts=1%ci=)
+FingerB:seq(sp=fc%gcd=1%isr=f2%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40%s=a|o)
+FingerB:t4(t=40%s=o)
+
+FingerA:t5(t=3b-45%tg=40%a=o|s+)
+FingerB:t5(t=40%a=o)
+
+FingerA:t6(t=3b-45%tg=40%s=a|o)
+FingerB:t6(t=40%s=o)
+
+FingerA:t7(t=3b-45%tg=40%a=o|s)
+FingerB:t7(t=40%a=o)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

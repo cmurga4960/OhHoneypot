@@ -1,0 +1,80 @@
+Fingerprint: Cisco 1921 router (IOS 15.1)
+Class: Cisco | IOS | 15.X | router
+CPE: cpe:/h:cisco:1921_integrated_services_router
+CPE: cpe:/o:cisco:ios:15.1 auto
+seq(sp=f2-10a%gcd=1-6%isr=fd-10f%ti=rd%ci=rd|ri%ii=ri%ts=u)
+ops(o1=m5b4snnw1llls|m5b4snnw1lllll%o2=m578snnw1llls|m578snnw1llsl|m578snnw1lw5n|m578snnw1lllll%o3=|m280w1llls|m280w1llsl|m280w1lw1l%o4=m218snnw1llls|m218snnw1llsl|m218snnw1lllll%o5=m218snnw1llls|m218snnw1llsl|m218snnw1lllll|m218snnw1lnlll%o6=m109sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%t=fb-105%tg=ff%w=ffff%o=m5b4snnw1llls|m5b4snnw1lllll%cc=n%q=)
+t1(r=y%df=n%t=fb-105%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=fb-105%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fb-105%tg=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fb-105%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=fb-105%tg=ff%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fb-105%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fb-105%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco 1921 router (IOS 15.1) (93%), Nintendo Wii game console (90%), Epson Stylus Pro 400 printer (90%), Huawei VRP 5.160 (89%), NEC UNIVERGE SV8100 PBX (89%), Huawei VRP 8.100 (88%), Huawei S9300 switch (88%), SMC SMC8014WG WAP (87%), Aastra A510 VoIP phone (87%), OSRAM Lightify ZigBee gateway (87%)
+seq(sp=f7%gcd=1%isr=ee%ci=i%ii=i%ts=u)
+ops(o1=m5b4snnw1llls%o2=m578snnw1llls%o3=%o4=m218snnw1llls%o5=m218snnw1llls%o6=m109sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%t=ff%w=ffff%o=m5b4snnw1llls%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3d%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o6=m109sll)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=n%w=ffff%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=f2-10a%gcd=1-6%isr=fd-10f%ti=rd%ci=rd|ri%ii=ri)
+FingerB:seq(sp=f7%gcd=1%isr=ee%ci=i%ii=i)
+
+FingerA:ops(o1=m5b4snnw1llls|m5b4snnw1lllll%o2=m578snnw1llls|m578snnw1llsl|m578snnw1lw5n|m578snnw1lllll%o3=|m280w1llls|m280w1llsl|m280w1lw1l%o4=m218snnw1llls|m218snnw1llsl|m218snnw1lllll%o5=m218snnw1llls|m218snnw1llsl|m218snnw1lllll|m218snnw1lnlll)
+FingerB:ops(o1=m5b4snnw1llls%o2=m578snnw1llls%o3=%o4=m218snnw1llls%o5=m218snnw1llls)
+
+FingerA:ecn(t=fb-105%tg=ff%o=m5b4snnw1llls|m5b4snnw1lllll)
+FingerB:ecn(t=ff%o=m5b4snnw1llls)
+
+FingerA:t1(t=fb-105%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t4(t=fb-105%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fb-105%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fb-105%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fb-105%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fb-105%tg=ff)
+FingerB:u1(t=3d%r=y)
+
+FingerA:ie(t=fb-105%tg=ff)
+FingerB:ie(t=3d%r=y)
+
+
+

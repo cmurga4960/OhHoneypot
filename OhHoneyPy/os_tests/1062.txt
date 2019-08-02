@@ -1,0 +1,85 @@
+Fingerprint: D-Link DPH-150S VoIP phone
+Class: D-Link | embedded || VoIP phone
+CPE: cpe:/h:dlink:dph-150s auto
+seq(ci=z%ii=%ti=)
+ops(o1=%o2=%o3=%o4=%o5=%o6=)
+win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+ecn(r=y%df=y%t=fa-104%tg=ff%w=0%o=%cc=n%q=)
+t1(r=y%df=y%t=fa-104%tg=ff%s=z%a=s+%f=ar%rd=0%q=)
+t2(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t4(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=fa-104%tg=ff%w=0%s=a|o%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=o|s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: D-Link DPH-150S VoIP phone (96%), Linux 2.4.21 (92%), Novell NetWare 6 (91%), GNU Hurd 0.3 (91%), DD-WRT (Linux 2.4.35s) (90%), Novell NetWare 6.5 Open Enterprise Server (89%), Toshiba Magnia SG10 server appliance (Linux 2.4.18) (89%), Apple Mac OS 9.2 (88%), IEI SEG-M or Walker Technologies Bridge-2006 Ethernet-to-serial bridge (88%)
+Class: D-Link embedded (96%), Linux 2.4.X (92%), Novell NetWare 6.X (91%), GNU Hurd (91%), Toshiba embedded (89%), Apple Mac OS 9.X (88%), IEI embedded (88%), Walker Technologies embedded (88%)
+CPE: cpe:/h:dlink:dph-150s cpe:/o:linux:linux_kernel:2.4.21 cpe:/o:novell:netware:6 cpe:/o:gnu:hurd cpe:/o:linux:linux_kernel:2.4.35s cpe:/h:toshiba:magnia_sg10 cpe:/o:apple:mac_os:9.2
+seq(sp=0%gcd=1%isr=1b%ci=i%ts=u)
+ops(o1=%o2=m5b4%o3=%o4=%o5=%o6=)
+win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+ecn(r=y%df=y%t=ff%w=0%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=ff%s=z%a=s+%f=ar%rd=0%q=)
+t2(r=y%df=y%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%t=ff%w=0%s=z%a=o%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=ff%w=0%s=o%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=ff%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=%o3=%o4=%o5=%o6=)
+FingerAB:win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+FingerAB:ecn(r=y%df=y%w=0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=z%a=s+%f=ar%rd=0%q=)
+FingerAB:t2(r=y%df=y%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=y%w=0%s=z%a=o%f=ar%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(ci=z%ii=%ti=)
+FingerB:seq(ci=i%sp=0%gcd=1%isr=1b%ts=u)
+
+FingerA:ops(o2=)
+FingerB:ops(o2=m5b4)
+
+FingerA:ecn(t=fa-104%tg=ff%o=)
+FingerB:ecn(t=ff%o=m5b4)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t2(t=fa-104%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t3(t=fa-104%tg=ff%o=)
+FingerB:t3(t=ff%o=m5b4)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff%s=a|o)
+FingerB:t6(t=ff%s=o)
+
+FingerA:t7(t=fa-104%tg=ff%a=o|s+)
+FingerB:t7(t=ff%a=o)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

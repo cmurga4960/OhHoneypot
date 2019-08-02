@@ -1,0 +1,74 @@
+Fingerprint: AmigaOS 3.9 BB2
+Class: Amiga | AmigaOS | 3.X | general purpose
+CPE: cpe:/o:amiga:amigaos:3.9 auto
+seq(sp=c-16%gcd=fa00|1f400|2ee00|3e800|4e200%isr=97-a1%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=1c84%w2=1b58%w3=1e00%w4=2000%w5=1f68%w6=1f0e)
+ecn(r=y%df=n%t=3b-3d%tg=40%w=1c84%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=3b-3d%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-3d%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-3d%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-3d%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=15c%rid=g%ripck=z%ruck=0%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: AmigaOS 3.9 BB2 (92%), AmigaOS 3.1 - 3.9 (88%), Blue Coat PacketShaper appliance (86%), SMC SMC8014WG WAP (85%), IBM AIX 5.3 (85%)
+Class: Amiga AmigaOS 3.X (92%), Blue Coat embedded (86%), SMC embedded (85%), IBM AIX 5.X (85%)
+CPE: cpe:/o:amiga:amigaos:3.9 cpe:/h:bluecoat:packetshaper cpe:/h:smc:smc8014wg cpe:/o:ibm:aix:5.3
+seq(sp=f1%gcd=1%isr=e8%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=1c84%w2=1b58%w3=1e00%w4=2000%w5=1f68%w6=1f0e)
+ecn(r=y%df=n%t=40%w=1c84%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=15c%rid=g%ripck=z%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=1c84%w2=1b58%w3=1e00%w4=2000%w5=1f68%w6=1f0e)
+FingerAB:ecn(r=y%df=n%w=1c84%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=15c%rid=g%ripck=z%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=fa00|1f400|2ee00|3e800|4e200%isr=97-a1%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=f1%gcd=1%isr=e8%ci=i)
+
+FingerA:ecn(t=3b-3d%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-3d%tg=40%a=o|s+)
+FingerB:t1(t=40%a=o)
+
+FingerA:t5(t=3b-3d%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-3d%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-3d%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

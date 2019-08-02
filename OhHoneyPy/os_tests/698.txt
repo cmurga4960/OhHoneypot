@@ -1,0 +1,64 @@
+Fingerprint: Cisco Adaptive Security Appliance (ASA 7.2)
+Class: Cisco | ASA | 7.X | firewall
+CPE: cpe:/a:cisco:adaptive_security_appliance_software:7.2 auto
+seq(sp=ff-109%gcd=1-6%isr=100-10a%ti=rd%ii=ri%ts=u%ci=)
+ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m218)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=2000%o=m218%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=7b-85%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=7b-85%tg=80%ipl=70%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco Adaptive Security Appliance (ASA 7.2) (92%), HP ProLiant BL p-Class C-Gbe2 switch (91%), Netopia 3366 ADSL router (91%), OneAccess 1641 router (90%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (90%), Cisco Catalyst 1900 Switch, Software v9.00.03 (90%), Huawei Secospace USG6680 firewall (90%), Cisco 880 router (IOS 15.1) (89%), Cisco 3560G switch (IOS 12.2) (89%), Cisco 2811 router (IOS 12.X) (89%)
+seq(sp=e0%gcd=1%isr=d7%ts=u)
+ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m218)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=ff%w=2000%o=m218%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m218)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%w=2000%o=m218%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=ff-109%gcd=1-6%isr=100-10a%ti=rd%ii=ri%ci=)
+FingerB:seq(sp=e0%gcd=1%isr=d7)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t5(t=7b-85%tg=80)
+FingerB:t5(t=80)
+
+FingerA:u1(t=7b-85%tg=80%ipl=70)
+FingerB:u1(t=fa%ipl=38%r=y)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

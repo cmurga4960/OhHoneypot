@@ -1,0 +1,63 @@
+Fingerprint: Cisco Nexus switch (NX-OS 5.1(3))
+Class: Cisco | NX-OS | 5.X | switch
+CPE: cpe:/o:cisco:nx_os:5.1 auto
+seq(sp=fe-108%gcd=1-6%isr=105-10f%ti=i%ii=ri%ss=s%ts=3%ci=)
+ops(o1=m218nnt11%o2=m218nnt11%o3=m218nnt11%o4=m218nnt11%o5=m218nnt11%o6=m109nnt11)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%t=3b-45%tg=40%w=ffff%o=m218%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=n)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco Nexus switch (NX-OS 5.1(3)) (98%), Cisco Nexus switch (NX-OS 6) (94%), Cisco Nexus 7010 switch (NX-OS 5) (93%), Cisco Nexus 5548P switch (NX-OS 5.1) (92%), FreeBSD 6.2-RELEASE (91%), Apple OS X 10.8 (Mountain Lion) - 10.9 (Mavericks) or iOS 5.0.1 - 5.1.1 (Darwin 11.0.0 - 13.2.0) (90%), VMware ESXi 3.5 (90%), Cisco Nexus switch (NX-OS 6.0(2)) (90%), Apple iOS 4.3.1 - 4.3.5 (90%), Apple iOS 5.1.1 - 6.1 (90%)
+Class: Cisco NX-OS 5.X|6.X (98%), FreeBSD 6.X (91%), Apple iOS 5.X|4.X (90%), Apple OS X 10.8.X|10.9.X (90%), VMware ESXi 3.X (90%)
+CPE: cpe:/o:cisco:nx_os:5.1 cpe:/o:cisco:nx_os:6 cpe:/o:freebsd:freebsd:6.2 cpe:/o:apple:iphone_os:5 cpe:/o:apple:mac_os_x:10.8 cpe:/o:apple:mac_os_x:10.9 cpe:/o:vmware:esxi:3.5 cpe:/o:apple:iphone_os:4
+seq(sp=107%gcd=1%isr=fe%ii=ri)
+ops(o1=m218nnt11%o2=m218nnt11%o3=m218nnt11%o4=m218nnt11%o5=m218nnt11%o6=m109nnt11)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%t=40%w=ffff%o=m218%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=y%dfi=s%t=fa%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=ri)
+FingerAB:ops(o1=m218nnt11%o2=m218nnt11%o3=m218nnt11%o4=m218nnt11%o5=m218nnt11%o6=m109nnt11)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=n%w=ffff%o=m218%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=fe-108%gcd=1-6%isr=105-10f%ti=i%ss=s%ts=3%ci=)
+FingerB:seq(sp=107%gcd=1%isr=fe)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=fa%r=y)
+
+FingerA:t5(r=n)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,52 @@
+Fingerprint: Linux 2.6.18
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6.18
+seq(sp=c7-d1%gcd=1-6%isr=c5-cf%ti=z%ts=8%ii=%ci=)
+ops(o1=m5acst11nw2%o2=m5acst11nw2%o3=m5acnnt11nw2%o4=m5acst11nw2%o5=m5acst11nw2%o6=m5acst11)
+win(w1=1680%w2=1680%w3=1680%w4=1680%w5=1680%w6=1680)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16b0%o=m5acnnsnw2%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+Fingerprint: Linux 2.6.18 (93%), Tomato 1.28 (Linux 2.4.20) (92%), Citrix Access Gateway VPN gateway (91%), HP Onboard Administrator 2.04 (91%), HP Onboard Administrator 2.25 - 3.31 (91%), HP Onboard Administrator 4.01 (91%), HP Onboard Administrator 4.12 - 4.40 (91%), Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (91%), Linux 2.6.24 (91%), AXIS 211A Network Camera (Linux 2.6.20) (91%)
+ecn(r=y%df=y%tg=40%w=16b0%o=m5acnnsnw2%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%tg=40%w=16b0%o=m5acnnsnw2%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:ecn(t=3b-45)
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:t7(t=3b-45)
+FingerA:seq(sp=c7-d1%gcd=1-6%isr=c5-cf%ti=z%ts=8%ii=%ci=)
+FingerA:ops(o1=m5acst11nw2%o2=m5acst11nw2%o3=m5acnnt11nw2%o4=m5acst11nw2%o5=m5acst11nw2%o6=m5acst11)
+FingerA:win(w1=1680%w2=1680%w3=1680%w4=1680%w5=1680%w6=1680)
+
+

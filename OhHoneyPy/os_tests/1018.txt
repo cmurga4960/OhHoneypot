@@ -1,0 +1,60 @@
+Fingerprint: Cyberoam UTM firewall
+Class: Cyberoam | embedded || firewall
+seq(sp=be-cc%gcd=1-6%isr=cb-d9%ti=z%ts=u%ii=%ci=)
+ops(o1=m58c%o2=m58c%o3=m58c%o4=m58c%o5=m58c%o6=m58c)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m58c%cc=n)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=n)
+t7(r=n)
+u1(r=n)
+ie(r=n)
+********************************************************
+Fingerprint: Cyberoam UTM firewall (96%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (89%), Linux 2.6.18 - 2.6.22 (88%), Linux 2.6.24 (88%), Citrix Access Gateway VPN gateway (88%), Juniper SA4000 SSL VPN gateway (IVE OS 7.0) (88%), Linux 2.6.11 (88%), Avaya Communication Manager (Linux 2.6.11) (88%), Cymphonix EX550 firewall (87%), Linux 2.4.21 (87%)
+Class: Cyberoam embedded (96%), Linux 2.6.X|2.4.X (89%), Citrix embedded (88%), Juniper IVE OS 7.X (88%), Avaya Communication Manager (88%), Cymphonix embedded (87%)
+CPE: cpe:/o:linux:linux_kernel:2.6.22 cpe:/o:linux:linux_kernel:2.6 cpe:/h:juniper:sa4000 cpe:/o:juniper:ive_os:7.0 cpe:/o:linux:linux_kernel:2.6.11 cpe:/a:avaya:communication_manager cpe:/h:cymphonix:ex550 cpe:/o:linux:linux_kernel:2.4.21
+seq(sp=ea%gcd=1%isr=e1%ts=u)
+ops(o1=m58c%o2=m58c%o3=m58c%o4=m58c%o5=m58c%o6=m58c)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%tg=40%w=16d0%o=m58c%cc=n%q=)
+t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m58c%o2=m58c%o3=m58c%o4=m58c%o5=m58c%o6=m58c)
+FingerAB:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m58c%cc=n)
+FingerAB:t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:u1(r=n)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=be-cc%gcd=1-6%isr=cb-d9%ti=z%ii=%ci=)
+FingerB:seq(sp=ea%gcd=1%isr=e1)
+
+FingerA:ecn(t=3b-45)
+FingerB:ecn(q=)
+
+FingerA:t1(t=3b-45)
+FingerB:t1(q=)
+
+FingerA:t5(t=3b-45)
+FingerB:t5(o=%q=)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

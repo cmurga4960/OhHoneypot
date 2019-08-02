@@ -1,0 +1,84 @@
+Fingerprint: Lantronix MSSLite device server
+Class: Lantronix | embedded || specialized
+CPE: cpe:/h:lantronix:msslite
+seq(sp=6c-7b%gcd=1-6%isr=90-9a%ti=i%ii=i%ss=o|s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=e00%w2=e00%w3=e00%w4=e00%w5=e00%w6=e00)
+ecn(r=y%df=n%t=3b-3d%tg=40%w=0%o=%cc=n%q=)
+t1(r=y%df=n%t=3b-3d%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=3b-3d%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=3b-3d%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=3b-3d%tg=40%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-3d%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-3d%tg=40%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-3d%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-3d%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=n%t=3b-3d%tg=40%cd=z)
+********************************************************
+Fingerprint: Lantronix MSS100 print server (97%), Lantronix MSSLite device server (94%), Lantronix MPS1 print server (92%), Lantronix ETS4P print server (91%), Cisco CSS 11501 switch (90%), Lantronix ETS32Pr or LRS16 terminal server (90%), DEC RSX-11M-PLUS 4.6 (88%), RSX-11M-PLUS 5.0 (87%)
+Class: Lantronix embedded (97%), Cisco embedded (90%), DEC RSX-11M-PLUS 4.X|5.X (88%)
+CPE: cpe:/h:lantronix:mss100 cpe:/h:lantronix:msslite cpe:/h:cisco:css_11501 cpe:/h:lantronix:ets32pr cpe:/h:lantronix:lrs16 cpe:/o:dec:rsx_11m_plus:4.6 cpe:/o:dec:rsx_11m_plus:5.0
+seq(sp=105%gcd=1%isr=fc%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=e00%w2=e00%w3=e00%w4=e00%w5=e00%w6=e00)
+ecn(r=y%df=n%t=40%w=0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=y%dfi=n%t=3b%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=e00%w2=e00%w3=e00%w4=e00%w5=e00%w6=e00)
+FingerAB:ecn(r=y%df=n%w=0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+FingerAB:ie(dfi=n%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=6c-7b%gcd=1-6%isr=90-9a%ti=i%ii=i%ss=o|s%ci=)
+FingerB:seq(sp=105%gcd=1%isr=fc)
+
+FingerA:ecn(t=3b-3d%tg=40%o=)
+FingerB:ecn(t=40%o=m5b4)
+
+FingerA:t1(t=3b-3d%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=3b-3d%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=3b-3d%tg=40%o=)
+FingerB:t3(t=40%o=m5b4)
+
+FingerA:t4(t=3b-3d%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-3d%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-3d%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-3d%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-3d%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-3d%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

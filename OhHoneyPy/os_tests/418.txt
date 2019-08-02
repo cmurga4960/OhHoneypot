@@ -1,0 +1,69 @@
+Fingerprint: Asus RT-AC66U router (Linux 2.6)
+Class: Asus | embedded || broadband router
+Class: Linux | Linux | 2.6.X | broadband router
+CPE: cpe:/h:asus:rt-ac66u auto
+CPE: cpe:/o:linux:linux_kernel:2.6 auto
+seq(ci=z%ii=i%ti=)
+ops(r=n)
+win(r=n)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw7%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Linux 2.6.24 (97%), Asus RT-AC66U router (Linux 2.6) (97%), Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (96%), Asus RT-N16 WAP (Linux 2.6) (96%), Asus RT-N66U WAP (Linux 2.6) (96%), Tomato 1.28 (Linux 2.6.22) (96%), AXIS 211A Network Camera (Linux 2.6.20) (96%), Linux 2.6.16 (96%), Lexmark 1400-series printer (95%), Linux 2.6.18 (95%)
+Class: Linux 2.6.X|2.4.X (97%), Asus embedded (97%), AXIS embedded (96%), Lexmark embedded (95%), Control4 embedded (94%)
+CPE: cpe:/o:linux:linux_kernel:2.6.24 cpe:/h:asus:rt-ac66u cpe:/o:linux:linux_kernel:2.6 cpe:/h:asus:rt-n10 cpe:/h:axis:211_network_camera cpe:/o:linux:linux_kernel:2.6.20 cpe:/o:linux:linux_kernel:2.4.26
+seq(ci=i)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nnsnw7%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nnsnw7%cc=n%q=)
+FingerAB:t1(r=n)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(ci=z%ii=i%ti=)
+FingerB:seq(ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,80 @@
+Fingerprint: Cisco VPN 3000 Concentrator VPN platform (software version 4.7)
+Class: Cisco | embedded || proxy server
+CPE: cpe:/h:cisco:vpn_3000_concentrator:4.7
+seq(sp=cc-da%gcd=1-6%isr=cc-e4%ti=i%ci=i%ii=ri%ss=o|s%ts=1|2)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=7b-85%tg=80%w=2000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=7b-85%tg=80%w=2000%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0%q=)
+t4(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=7b-85%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=7b-85%tg=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=7b-85%tg=80%ipl=38%un=127%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=7b-85%tg=80%cd=s)
+********************************************************
+Fingerprint: Cisco VPN 3000 Concentrator VPN platform (software version 4.7) (97%), Cisco VPN 3030 Concentrator VPN platform (software 4.7.2.F) (97%), Cisco VPN 3000 Concentrator VPN platform (software version 4.1.7.O) (94%), Cisco VPN 3030 Concentrator VPN platform (94%), Smartlink DIGISOL DG-HR3400 WAP (94%), D-Link DGS-3024 switch (94%), 3Com 3924 switch (90%), 3Com SuperStack 3 Switch 3812 (90%), Allied Telesyn AT-GS950 or D-Link DES-3226L switch or D-Link DSL-2750U router (90%), Dell PowerConnect 3248 switch (90%)
+Class: Cisco embedded (97%), Smartlink embedded (94%), D-Link embedded (94%), 3Com embedded (90%), Allied Telesyn embedded (90%), Dell embedded (90%), SMC embedded (90%), Foundry embedded (90%)
+CPE: cpe:/h:cisco:vpn_3000_concentrator:4.7 cpe:/h:smartlink:digisol_dg-hr3400 cpe:/h:dlink:dgs-3024 cpe:/h:3com:3924 cpe:/h:alliedtelesyn:at-gs950 cpe:/h:dell:powerconnect_3248 cpe:/h:smc:tigerstack_iii_6824m cpe:/h:dlink:dvg-4022s
+seq(sp=f6%gcd=1%isr=ed%ci=i)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=80%w=2000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=80%w=2000%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0%q=)
+t4(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=127%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%w=2000%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=2000%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=127%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=cc-da%gcd=1-6%isr=cc-e4%ti=i%ii=ri%ss=o|s%ts=1|2)
+FingerB:seq(sp=f6%gcd=1%isr=ed)
+
+FingerA:ecn(t=7b-85%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(t=7b-85%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t3(t=7b-85%tg=80)
+FingerB:t3(t=80)
+
+FingerA:t4(t=7b-85%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=7b-85%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=7b-85%tg=80)
+FingerB:t6(t=80)
+
+FingerA:t7(t=7b-85%tg=80)
+FingerB:t7(t=80)
+
+FingerA:u1(t=7b-85%tg=80)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=7b-85%tg=80%cd=s)
+FingerB:ie(r=n)
+
+
+

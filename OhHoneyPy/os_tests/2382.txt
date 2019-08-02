@@ -1,0 +1,78 @@
+Fingerprint: Linux 2.4.31 (Slackware v10.2)
+Class: Linux | Linux | 2.4.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.4.31
+seq(sp=c7-d1%gcd=1-6%isr=cc-d6%ti=z%ii=i%ts=7%ci=)
+ops(o1=m5b4st11nw0%o2=m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw0%rd=0%q=)
+t4(r=y%df=y%t=7c-86%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=7c-86%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=7c-86%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=7c-86%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=7c-86%tg=80%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=7c-86%tg=80%cd=s)
+********************************************************
+Fingerprint: Linux 2.4.31 (Slackware v10.2) (95%), Linux 2.4.21 - 2.4.27 (94%), Aastra RFP L32 IP DECT WAP (94%), Belkin Wireless Pre-N Router (94%), Linux 2.4.19 (94%), Linux 2.6.5 - 2.6.12 (94%), Linux 2.6.5 - 2.6.19 (94%), Brocade Fabric OS 7.4.1 (Linux 2.6.14) (93%), Lexmark X6650 printer (93%), Linux 2.6.10 - 2.6.13 (embedded) (93%)
+Class: Linux 2.4.X|2.6.X (95%), Aastra embedded (94%), Belkin embedded (94%), Brocade Fabric OS 7.X (93%), Lexmark embedded (93%), Motorola embedded (93%), Riverbed RiOS (93%), 3Com embedded (93%)
+CPE: cpe:/o:linux:linux_kernel:2.4.31 cpe:/o:linux:linux_kernel:2.6 cpe:/o:brocade:fabric_os:7.4.1 cpe:/h:lexmark:x6650 cpe:/o:riverbed:rios cpe:/h:3com:officeconnect_3crwer100-75 cpe:/o:linux:linux_kernel:2.6.24
+seq(ci=i%ii=i)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nnsnw0%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw0%rd=0%q=)
+t4(r=y%df=y%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nnsnw0%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw0%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c7-d1%gcd=1-6%isr=cc-d6%ti=z%ts=7%ci=)
+FingerB:seq(ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=7c-86%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=7c-86%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=7c-86%tg=80)
+FingerB:t6(t=80)
+
+FingerA:t7(t=7c-86%tg=80)
+FingerB:t7(t=80)
+
+FingerA:u1(t=7c-86%tg=80)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=7c-86%tg=80)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b4st11nw0%o2=m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+
+

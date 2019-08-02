@@ -1,0 +1,77 @@
+Fingerprint: Apple Mac OS 9.2
+Class: Apple | Mac OS | 9.X | general purpose
+CPE: cpe:/o:apple:mac_os:9.2
+seq(r=n%ii=%ti=%ci=)
+ops(o1=|m5b4w0nnnt11%o2=%o3=%o4=%o5=%o6=)
+win(w1=0|8000%w2=0%w3=0%w4=0%w5=0%w6=0)
+ecn(r=y%df=y%t=fa-104%tg=ff%w=0%o=%cc=n%q=u)
+t1(r=y%df=y%t=fa-104%tg=ff%s=o|z%a=s+%f=ar|as%rd=0|bd1ab510%q=)
+t2(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=ea6c967d%q=)
+t3(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=bd1ab510%q=)
+t4(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=ea6c967d%q=)
+t5(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=bd1ab510%q=)
+t6(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=ea6c967d%q=)
+t7(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=ea6c967d%q=)
+u1(df=y%t=fa-104%tg=ff%ipl=70%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=y%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: IEI SEG-M or Walker Technologies Bridge-2006 Ethernet-to-serial bridge (90%), Lantronix UDS-1100 serial-to-Ethernet bridge (89%), Foundry FastIron 400 switch (88%), Novell NetWare 6.5 Open Enterprise Server (88%), Apple Mac OS 9.2 (87%), D-Link DPH-150S VoIP phone (87%), Novell NetWare 5.1 (87%), Novell NetWare 6.0 SP5 or 6.5 SP5 (87%), Novell NetWare 6.5 SP3 Open Enterprise Server (87%), Novell NetWare 6.5 SP7 (87%)
+seq(sp=0%gcd=1%isr=1b%ci=i%ts=u)
+ecn(r=y%df=y%t=ff%w=0%o=m5b4%cc=n%q=u)
+t1(r=n)
+t2(r=y%df=y%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=y%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=0%cc=n%q=u)
+FingerAB:t2(r=y%df=y%w=0%s=z%a=s%f=ar%o=%q=)
+FingerAB:t3(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s%f=ar%o=%q=)
+FingerAB:u1(df=y%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(r=n%ii=%ti=%ci=)
+FingerB:seq(ci=i%sp=0%gcd=1%isr=1b%ts=u)
+
+FingerA:ecn(t=fa-104%tg=ff%o=)
+FingerB:ecn(t=ff%o=m5b4)
+
+FingerA:t1(r=y%df=y%t=fa-104%tg=ff%s=o|z%a=s+%f=ar|as%rd=0|bd1ab510%q=)
+FingerB:t1(r=n)
+
+FingerA:t2(t=fa-104%tg=ff%rd=ea6c967d)
+FingerB:t2(t=ff%rd=0)
+
+FingerA:t3(t=fa-104%tg=ff%rd=bd1ab510)
+FingerB:t3(t=ff%rd=0)
+
+FingerA:t4(t=fa-104%tg=ff%rd=ea6c967d)
+FingerB:t4(t=ff%rd=0)
+
+FingerA:t5(t=fa-104%tg=ff%rd=bd1ab510)
+FingerB:t5(t=ff%rd=0)
+
+FingerA:t6(t=fa-104%tg=ff%rd=ea6c967d)
+FingerB:t6(t=ff%rd=0)
+
+FingerA:t7(t=fa-104%tg=ff%rd=ea6c967d)
+FingerB:t7(t=ff%rd=0)
+
+FingerA:u1(t=fa-104%tg=ff%ipl=70)
+FingerB:u1(t=fa%ipl=38%r=y)
+
+FingerA:ie(dfi=y%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:ops(o1=|m5b4w0nnnt11%o2=%o3=%o4=%o5=%o6=)
+FingerA:win(w1=0|8000%w2=0%w3=0%w4=0%w5=0%w6=0)
+
+

@@ -1,0 +1,79 @@
+Fingerprint: C-Nav 3050 GPS receiver
+Class: C-Nav | embedded || specialized
+seq(sp=1a-24%gcd=1-6%isr=78-82%ti=i%ci=i%ii=ri%ss=o%ts=u)
+ops(o1=m400%o2=m400%o3=m280%o4=m400%o5=m218%o6=m109)
+win(w1=800%w2=800%w3=800%w4=800%w5=800%w6=800)
+ecn(r=y%df=y%t=fa-104%tg=ff%w=800%o=m400%cc=n%q=)
+t1(r=y%df=y%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=fa-104%tg=ff%w=800%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=y%t=fa-104%tg=ff%w=800%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=fa-104%tg=ff%w=800%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=fa-104%tg=ff%w=800%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%t=fa-104%tg=ff%w=800%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(df=y%t=fa-104%tg=ff%ipl=38%un=533d%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=30-3a%tg=40%cd=s)
+********************************************************
+Fingerprint: C-Nav 3050 GPS receiver (98%), Bush BFSAT01HD satellite receiver (88%), Sony PlayStation 2 game console (88%)
+Class: C-Nav embedded (98%), Bush embedded (88%), Sony embedded (88%)
+CPE: cpe:/h:sony:playstation_2
+seq(sp=f3%gcd=1%isr=e9%ci=i%ts=u)
+ops(o1=m400%o2=m400%o3=m280%o4=m400%o5=m218%o6=m109)
+win(w1=800%w2=800%w3=800%w4=800%w5=800%w6=800)
+ecn(r=y%df=y%t=ff%w=800%o=m400%cc=n%q=)
+t1(r=y%df=y%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=ff%w=800%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=y%t=ff%w=800%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=ff%w=800%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=ff%w=800%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%t=ff%w=800%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=y%t=fa%ipl=38%un=533d%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m400%o2=m400%o3=m280%o4=m400%o5=m218%o6=m109)
+FingerAB:win(w1=800%w2=800%w3=800%w4=800%w5=800%w6=800)
+FingerAB:ecn(r=y%df=y%w=800%o=m400%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=800%s=o%a=s+%f=as%o=m109%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=800%s=a+%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=800%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=800%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=800%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=y%ipl=38%un=533d%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=1a-24%gcd=1-6%isr=78-82%ti=i%ii=ri%ss=o)
+FingerB:seq(sp=f3%gcd=1%isr=e9)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t3(t=fa-104%tg=ff)
+FingerB:t3(t=ff)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=30-3a%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

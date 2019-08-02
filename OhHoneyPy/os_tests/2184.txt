@@ -1,0 +1,76 @@
+Fingerprint: Konica Minolta C350 printer
+Class: Konica Minolta | embedded || printer
+CPE: cpe:/h:konicaminolta:c350 auto
+seq(sp=14-1e%gcd=fa00|1f400|2ee00|3e800|4e200%isr=99-a3%ti=i%ci=i%ts=u%ii=)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=1%w2=1%w3=1%w4=1%w5=1%w6=1)
+ecn(r=y%df=n%t=3b-45%tg=40%w=1%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=1%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=1%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+Fingerprint: Konica Minolta C350 printer (96%), HP E1200 Network Storage Router NAS device or SonicWALL SOHO3 firewall (93%), HP ProCurve 4104gl or 4108gl switch (92%), SMC SMC8014WG WAP (91%), IBM OS/2 Warp 2.0 (91%), Allen-Bradley 1756 ControlLogix programmable automation controller (91%), Motorola SURFboard SBG900 WAP or SMC SMC8014 cable modem (91%), VxWorks 12.0 (91%), Alcatel OmniSwitch 7000 (90%), HP ProCurve 2524 switch (90%)
+seq(sp=102%gcd=1%isr=f9%ts=u)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=1%w2=1%w3=1%w4=1%w5=1%w6=1)
+ecn(r=y%df=n%t=40%w=1%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=1%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=40%w=1%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+FingerAB:win(w1=1%w2=1%w3=1%w4=1%w5=1%w6=1)
+FingerAB:ecn(r=y%df=n%w=1%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=1%s=o%a=o%f=a%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=1%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=14-1e%gcd=fa00|1f400|2ee00|3e800|4e200%isr=99-a3%ti=i%ci=i%ii=)
+FingerB:seq(sp=102%gcd=1%isr=f9)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+
+

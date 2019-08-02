@@ -1,0 +1,66 @@
+Fingerprint: BinTec RS232bw ADSL modem
+Class: BinTec | embedded || broadband router
+CPE: cpe:/h:bintec:rs232bw auto
+seq(sp=46-70%gcd=1-6%isr=8a-94%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=n%t=6e-78%tg=80%w=4000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=6e-78%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=6e-78%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=6e-78%tg=80%ipl=38%un=d733%ripl=g%rid=2%ripck=i%ruck=g%rud=g)
+ie(dfi=s%t=6e-78%tg=80%cd=s)
+********************************************************
+Fingerprint: BinTec RS232bw ADSL modem (95%), Cisco ACE load balancer (88%), Microsoft Windows Server 2003 (86%), BinTec R1200 WAP (86%)
+Class: BinTec embedded (95%), Cisco embedded (88%), Microsoft Windows 2003 (86%)
+CPE: cpe:/h:bintec:rs232bw cpe:/o:microsoft:windows_server_2003 cpe:/h:bintec:r1200
+seq(sp=107%gcd=1%isr=fe%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=n%t=80%w=4000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=d733%ripl=g%rid=2%ripck=i%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+FingerAB:ecn(r=y%df=n%w=4000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=d733%ripl=g%rid=2%ripck=i%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=46-70%gcd=1-6%isr=8a-94%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=107%gcd=1%isr=fe)
+
+FingerA:ecn(t=6e-78%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(t=6e-78%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t5(t=6e-78%tg=80)
+FingerB:t5(t=80)
+
+FingerA:u1(t=6e-78%tg=80)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=6e-78%tg=80%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

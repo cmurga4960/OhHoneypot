@@ -1,0 +1,84 @@
+Fingerprint: Funkwerk Artem WI3040 WAP
+Class: Funkwerk | embedded || WAP
+CPE: cpe:/h:funkwerk:artem_wi3040 auto
+seq(sp=63-6d%gcd=1-6%isr=8a-94%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=n%t=6f-79%tg=80%w=4000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=6f-79%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=6f-79%tg=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=6f-79%tg=80%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=6f-79%tg=80%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=6f-79%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=6f-79%tg=80%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=6f-79%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=39-43%tg=40%ipl=38%un=5e09%ripl=g%rid=2%ripck=i%ruck=g%rud=g)
+ie(dfi=s%t=6f-79%tg=80%cd=s)
+********************************************************
+Fingerprint: Funkwerk Artem WI3040 WAP (94%), BinTec R3400 WAP (92%), BinTec X4000 access router (88%), Funkwerk bintec R3000 router (88%), BinTec BinGO! ISDN router (85%), BinTec Brick-XM router (85%)
+Class: Funkwerk embedded (94%), BinTec embedded (92%)
+CPE: cpe:/h:funkwerk:artem_wi3040 cpe:/h:bintec:r3400 cpe:/h:funkwerk:bintec_r3000
+seq(sp=106%gcd=1%isr=fd%ii=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=n%t=80%w=4000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=80%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=80%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=5e09%ripl=g%rid=2%ripck=i%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+FingerAB:ecn(r=y%df=n%w=4000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=5e09%ripl=g%rid=2%ripck=i%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=63-6d%gcd=1-6%isr=8a-94%ti=i%ss=s%ci=)
+FingerB:seq(sp=106%gcd=1%isr=fd)
+
+FingerA:ecn(t=6f-79%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(t=6f-79%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t2(t=6f-79%tg=80)
+FingerB:t2(t=80)
+
+FingerA:t3(t=6f-79%tg=80)
+FingerB:t3(t=80)
+
+FingerA:t4(t=6f-79%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=6f-79%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=6f-79%tg=80)
+FingerB:t6(t=80)
+
+FingerA:t7(t=6f-79%tg=80)
+FingerB:t7(t=80)
+
+FingerA:u1(t=39-43%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=6f-79%tg=80)
+FingerB:ie(t=3b%r=y)
+
+
+

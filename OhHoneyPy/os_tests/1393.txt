@@ -1,0 +1,65 @@
+Fingerprint: FreeBSD 4.9-RELEASE
+Class: FreeBSD | FreeBSD | 4.X | general purpose
+CPE: cpe:/o:freebsd:freebsd:4.9
+seq(sp=fb-10b%gcd=1-6%isr=ff-10d%ti=i%ii=i%ss=s%ts=7%ci=)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=e000%w2=e000%w3=e000%w4=e000%w5=e000%w6=e000)
+ecn(r=y%df=y%t=3b-45%tg=40%w=e000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: m0n0wall 1.22 - 1.23b1 firewall (FreeBSD 4.11) (98%), FreeBSD 4.9-RELEASE (98%), FreeBSD 6.2-RELEASE (95%), Ambit U10C018 or Cisco EPC3925 cable modem, or Tandberg video conferencing system (94%), AirSpan ProST WiMAX access point (94%), Barracuda Spam Firewall model 400 (91%), FreeBSD 4.10-RELEASE (x86) (90%), OpenBSD 4.0 (89%), Cisco EPC3925 cable modem (89%), Apple Mac OS X 10.3.9 (Panther) (Darwin 7.9.0, PowerPC) (89%)
+Class: FreeBSD 4.X|6.X (98%), Ambit embedded (94%), Cisco embedded (94%), Tandberg embedded (94%), AirSpan embedded (94%), Barracuda Networks embedded (91%), OpenBSD 4.X (89%), Apple Mac OS X 10.3.X (89%)
+CPE: cpe:/o:freebsd:freebsd:4.11 cpe:/o:freebsd:freebsd:4.9 cpe:/o:freebsd:freebsd:6.2 cpe:/h:ambit:u10c018 cpe:/h:cisco:epc3925 cpe:/o:openbsd:openbsd:4.0 cpe:/o:apple:mac_os_x:10.3.9
+seq(sp=105%gcd=1%isr=fc)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=e000%w2=e000%w3=e000%w4=e000%w5=e000%w6=e000)
+ecn(r=y%df=y%t=40%w=e000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerAB:win(w1=e000%w2=e000%w3=e000%w4=e000%w5=e000%w6=e000)
+FingerAB:ecn(r=y%df=y%w=e000%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fb-10b%gcd=1-6%isr=ff-10d%ti=i%ii=i%ss=s%ts=7%ci=)
+FingerB:seq(sp=105%gcd=1%isr=fc)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

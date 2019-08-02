@@ -1,0 +1,64 @@
+Fingerprint: D-Link DGS-3024 switch
+Class: D-Link | embedded || switch
+CPE: cpe:/h:dlink:dgs-3024 auto
+seq(sp=8e-98%gcd=1-6%isr=92-9c%ti=i%ii=ri%ss=o|s%ts=1%ci=)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=19-23%tg=20%w=2000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=19-23%tg=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=19-23%tg=20%w=2000%s=o%a=s+%f=as%o=|m5b4nw0nnt11nnllllllllll%rd=0%q=)
+t4(r=y%df=n%t=19-23%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=19-23%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=19-23%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=19-23%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=19-23%tg=20%ipl=38%un=127|128%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=19-23%tg=20%cd=s)
+********************************************************
+Fingerprint: 3Com 3924 switch (97%), D-Link DGS-3024 switch (97%), Allied Telesyn AT-GS950 or D-Link DES-3226L switch or D-Link DSL-2750U router (97%), D-Link DVG-4022S VoIP adapter (97%), Dell PowerConnect 3248 switch (93%), 3Com SuperStack 3 Switch 3812 (92%), Cisco VPN 3000 Concentrator VPN platform (software version 4.7) (92%), Smartlink DIGISOL DG-HR3400 WAP (92%), SMC TigerStack III 6824M switch (92%), D-Link DES-3326 switch (92%)
+seq(sp=103%gcd=1%isr=fa%ci=i)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%tg=20%w=2000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%tg=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=20%w=2000%s=o%a=s+%f=as%o=%rd=0%q=)
+t4(r=y%df=n%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%tg=20%w=2000%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=20%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=20%w=2000%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+--- Diff Values ---
+FingerA:seq(sp=8e-98%gcd=1-6%isr=92-9c%ti=i%ii=ri%ss=o|s%ts=1%ci=)
+FingerB:seq(sp=103%gcd=1%isr=fa%ci=i)
+
+FingerA:ecn(t=19-23)
+FingerA:t1(t=19-23)
+FingerA:t3(t=19-23%o=|m5b4nw0nnt11nnllllllllll)
+FingerB:t3(o=)
+
+FingerA:t4(t=19-23)
+FingerA:t5(t=19-23)
+FingerA:t6(t=19-23)
+FingerA:t7(t=19-23)
+FingerA:u1(df=n%t=19-23%tg=20%ipl=38%un=127|128%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(dfi=s%t=19-23%tg=20%cd=s)
+FingerB:ie(r=n)
+
+
+

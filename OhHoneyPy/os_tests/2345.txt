@@ -1,0 +1,56 @@
+Fingerprint: ISS Proventia GX3002C firewall (Linux 2.4.18)
+Class: Linux | Linux | 2.4.X | firewall
+Class: ISS | embedded || firewall
+CPE: cpe:/o:linux:linux_kernel:2.4.18 auto
+CPE: cpe:/h:iss:proventia_gx3002c auto
+seq(sp=be-c8%gcd=1-6%isr=c9-d3%ti=z%ii=i%ts=9|c%ci=)
+ops(o1=m550st11nw0%o2=m550st11nw0%o3=m550nnt11nw0%o4=m550st11nw0%o5=m550st11nw0%o6=m550st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m550nnsnw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16a0%s=o%a=o|s+%f=as%o=m550st11nw0%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: ISS Proventia GX3002C firewall (Linux 2.4.18) (92%), Android 1.1 (Linux 2.6.25) (90%), ISS Proventia GX3002 firewall (Linux 2.4.18) (89%), Sony Bravia HX720-series TV (89%), Linksys WAP54G WAP (88%), Linux 2.4.20 (88%), Blue Coat Director (Linux 2.6.10) (88%), Linux 2.6.16 - 2.6.28 (88%), Linux 2.6.18 (88%), Linux 2.6.22 (88%)
+ecn(r=y%df=y%tg=40%w=16d0%o=m550nnsnw0%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%tg=40%w=16a0%s=o%a=o%f=as%o=m550st11nw0%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=n%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m550nnsnw0%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%tg=40%w=16a0%s=o%f=as%o=m550st11nw0%rd=0%q=)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=n%tg=40%cd=s)
+--- Diff Values ---
+FingerA:ecn(t=3b-45)
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%a=o|s+)
+FingerB:t3(a=o)
+
+FingerA:t5(t=3b-45)
+FingerA:ie(t=3b-45)
+FingerB:ie(r=y)
+
+FingerA:seq(sp=be-c8%gcd=1-6%isr=c9-d3%ti=z%ii=i%ts=9|c%ci=)
+FingerA:ops(o1=m550st11nw0%o2=m550st11nw0%o3=m550nnt11nw0%o4=m550st11nw0%o5=m550st11nw0%o6=m550st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

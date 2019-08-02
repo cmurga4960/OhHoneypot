@@ -1,0 +1,68 @@
+Fingerprint: Brother NC-130h print server
+Class: Brother | embedded || print server
+CPE: cpe:/h:brother:nc-130h auto
+seq(sp=c5-cf%gcd=1-6%isr=d3-dd%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=y%df=n%t=79|b0-ba%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=79%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=79%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=79%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=79%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=79%tg=80%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=8562%rud=g)
+ie(dfi=n%t=79%tg=80%cd=z)
+********************************************************
+Fingerprint: Brother NC-130h print server (96%), Brother HL-5070N printer (96%), Brother MFC-7820N printer (96%), Microsoft Xbox game console (modified, running XboxMediaCenter) (92%), Brother HL-2070N printer (92%), Novatel MiFi 2200 3G WAP (92%), Ricoh Aficio SP C210SF printer (92%), Sony FWD-40LX2F display card (92%), Canon imageCLASS MF4500-, MF4700-, or MF4800-series printer (92%), Novatel MiFi 2200 3G WAP or iDirect Evolution X1 satellite router (92%)
+seq(ci=i%ts=u)
+ecn(r=n)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=8562%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=8562%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c5-cf%gcd=1-6%isr=d3-dd%ti=i%ii=i%ss=s)
+FingerA:t1(t=79|b0-ba%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t4(t=79%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=79%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=79%tg=80)
+FingerB:t6(t=80)
+
+FingerA:t7(t=79%tg=80)
+FingerB:t7(t=80)
+
+FingerA:u1(t=79%tg=80)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=79%tg=80%cd=z)
+FingerB:ie(r=n)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

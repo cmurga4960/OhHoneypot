@@ -1,0 +1,83 @@
+Fingerprint: Cisco EPC3925, DPC2320, Motorola SURFboard SB5101E, or Scientific Atlanta EPC2203 cable modem (eCos 2.0)
+Class: eCosCentric | eCos | 2.X | broadband router
+Class: Cisco | embedded || broadband router
+Class: Motorola | embedded || broadband router
+Class: Scientific Atlanta | embedded || broadband router
+CPE: cpe:/o:ecoscentric:ecos:2.0 auto
+CPE: cpe:/h:cisco:epc3925
+CPE: cpe:/h:cisco:dpc2320
+CPE: cpe:/h:motorola:sb5101e
+CPE: cpe:/h:scientific_atlanta:epc2203
+seq(sp=ed-10b%gcd=1-6%isr=f9-10d%ti=i%ci=i%ii=i%ss=s%ts=7)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=43e0%w2=4110%w3=423c%w4=4074|4180%w5=4180%w6=403d)
+ecn(r=y%df=y%t=3b-45%tg=40%w=4470%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o|s+%f=a|ar|as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Cisco EPC3925, DPC2320, Motorola SURFboard SB5101E, or Scientific Atlanta EPC2203 cable modem (eCos 2.0) (96%), VIPA PLC CPU (95%), Cisco EPC3208 or EPC3212 cable modem (94%), Scientific Atlanta WebSTAR EPC2203 cable modem (93%), Netgear GS108T switch (eCos) (93%), VxWorks (92%), Enterasys SSR router or XP switch (92%), Cisco EPC3208 cable modem (92%), Cisco EPC3212 or Scientific Atlanta WebSTAR EPX2203 cable modem (91%), Cisco 200-series, HP ProCurve 1810G, or Netgear GS110TP switch (eCos 2.0) (91%)
+Class: eCosCentric eCos 2.X (96%), Cisco embedded (96%), Motorola embedded (96%), Scientific Atlanta embedded (96%), VIPA embedded (95%), Netgear embedded (93%), Wind River VxWorks (92%), Enterasys embedded (92%)
+CPE: cpe:/o:ecoscentric:ecos:2.0 cpe:/h:cisco:epc3925 cpe:/h:cisco:dpc2320 cpe:/h:motorola:sb5101e cpe:/h:scientific_atlanta:epc2203 cpe:/o:ecoscentric:ecos cpe:/h:netgear:gs108t cpe:/o:windriver:vxworks
+seq(sp=0%gcd=1%isr=1b%ci=i)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=43e0%w2=4110%w3=423c%w4=4074%w5=4180%w6=403d)
+ecn(r=y%df=y%t=40%w=4470%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=o%f=ars%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerAB:win(w1=43e0%w2=4110%w3=423c%w5=4180%w6=403d)
+FingerAB:ecn(r=y%df=y%w=4470%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=ed-10b%gcd=1-6%isr=f9-10d%ti=i%ii=i%ss=s%ts=7)
+FingerB:seq(sp=0%gcd=1%isr=1b)
+
+FingerA:win(w4=4074|4180)
+FingerB:win(w4=4074)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40%a=o|s+%f=a|ar|as)
+FingerB:t1(t=40%a=o%f=ars)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

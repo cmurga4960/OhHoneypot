@@ -1,0 +1,67 @@
+Fingerprint: Android 5.0.1
+Class: Google | Android | 5.X | phone
+CPE: cpe:/o:google:android:5.0.1
+seq(sp=f9-10d%gcd=1-6%isr=ff-111%ti=z%ii=i%ts=7%ci=)
+ops(o1=m564st11nw6%o2=m564st11nw6%o3=m564nnt11nw6%o4=m564st11nw6%o5=m564st11nw6%o6=m564st11)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=ffff%o=m564nnsnw6%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Android 5.0.1 (98%), Wyse ThinOS (95%), Linux 2.6.32 (95%), Linux 3.1 - 3.2 (94%), Tomato 1.27 - 1.28 (Linux 2.4.20) (93%), Linux 3.2.0 (93%), Linux 2.6.18 - 2.6.22 (93%), MikroTik RouterOS 6.15 (Linux 3.3.5) (91%), Linux 2.6.9 - 2.6.18 (91%), Linux 4.4 (90%)
+Class: Google Android 5.X (98%), Wyse ThinOS (95%), Linux 2.6.X|3.X|2.4.X (95%), MikroTik RouterOS 6.X (91%), HP embedded (90%)
+CPE: cpe:/o:google:android:5.0.1 cpe:/o:wyse:thinos cpe:/o:linux:linux_kernel:2.6.32 cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:mikrotik:routeros:6.15 cpe:/o:linux:linux_kernel:4.4 cpe:/h:hp:p2000_g3
+seq(sp=105%gcd=1%isr=fc%ii=i)
+ops(o1=m564st11nw6%o2=m564st11nw6%o3=m564nnt11nw6%o4=m564st11nw6%o5=m564st11nw6%o6=m564st11)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=40%w=ffff%o=m564nnsnw6%cc=y%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ops(o1=m564st11nw6%o2=m564st11nw6%o3=m564nnt11nw6%o4=m564st11nw6%o5=m564st11nw6%o6=m564st11)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=y%w=ffff%o=m564nnsnw6%cc=y%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=f9-10d%gcd=1-6%isr=ff-111%ti=z%ts=7%ci=)
+FingerB:seq(sp=105%gcd=1%isr=fc)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

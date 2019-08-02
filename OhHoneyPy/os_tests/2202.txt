@@ -1,0 +1,70 @@
+Fingerprint: Kyocera FS2000D printer
+Class: Kyocera | embedded || printer
+CPE: cpe:/h:kyocera:fs2000d auto
+seq(sp=0-5%gcd=a|14|1e|28|32%isr=30-3a%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=5b40%w2=5780%w3=2800%w4=2180%w5=2180%w6=1090)
+ecn(r=y%df=n%t=3b-45%tg=40%w=5b40%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=1090%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=4fcbbe69%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: Kyocera FS2000D printer (94%), Microsoft Windows NT 4.0 SP6 (88%), Crestron CNMSX-AV control and automation system (87%), Microsoft Windows NT (86%), FireBrick FB2700 firewall (86%), Exabyte 221L LTO-3 tape library (86%), DEC RSX-11M-PLUS 4.6 (85%), SMC SMCWBR14-G2 EU Barricade g WAP (85%)
+Class: Kyocera embedded (94%), Microsoft Windows NT (88%), Crestron embedded (87%), FireBrick embedded (86%), Exabyte embedded (86%), DEC RSX-11M-PLUS 4.X (85%), SMC embedded (85%)
+CPE: cpe:/h:kyocera:fs2000d cpe:/o:microsoft:windows_nt:4.0:sp6 cpe:/h:firebrick:fb2700 cpe:/o:dec:rsx_11m_plus:4.6 cpe:/h:smc:smbwbr14-g2
+seq(sp=ff%gcd=1%isr=f6%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=5b40%w2=5780%w3=2800%w4=2180%w5=2180%w6=1090)
+ecn(r=y%df=n%t=40%w=5b40%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=1090%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3b%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=5b40%w2=5780%w3=2800%w4=2180%w5=2180%w6=1090)
+FingerAB:ecn(r=y%df=n%w=5b40%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=1090%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=0-5%gcd=a|14|1e|28|32%isr=30-3a%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=ff%gcd=1%isr=f6)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t5(t=3b-45%tg=40%rd=4fcbbe69)
+FingerB:t5(t=40%rd=0)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

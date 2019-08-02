@@ -1,0 +1,76 @@
+Fingerprint: Cisco IronPort C650 email security appliance (AsyncOS 7.0.1)
+Class: Cisco | AsyncOS | 7.X | firewall
+CPE: cpe:/h:cisco:ironport_c650
+CPE: cpe:/o:cisco:asyncos:7.0.1
+seq(sp=fa-10c%gcd=1-6%isr=107-111%ts=u%ii=%ti=%ci=)
+ops(o1=m5b4sll%o2=m5b4sll%o3=m5b4%o4=m5b4sll%o5=m5b4sll%o6=m5b4sll)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=y%t=3a-44%tg=40%w=4000%o=m5b4sll%cc=n%q=)
+t1(r=y%df=y%t=3a-44%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3a-44%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3a-44%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3a-44%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3a-44%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3a-44%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3a-44%tg=40%cd=s)
+********************************************************
+Fingerprint: Cisco IronPort C650 email security appliance (AsyncOS 7.0.1) (97%), Crestron XPanel control system (95%), IronPort C150 email security appliance (AsyncOS 6.5.2) (95%), IronPort C100 or C650 email security appliance (AsyncOS 6.01 - 6.3) (92%), Vodavi XTS-IP PBX (91%), FreeBSD 6.3-PRERELEASE (91%), Nintendo Wii game console (91%), FreeBSD 6.1-RELEASE (90%), Epson Stylus Pro 400 printer (90%), Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC (90%)
+seq(sp=f0%gcd=1%isr=e6%ci=i%ts=u)
+ops(o1=m5b4sll%o2=m5b4sll%o3=m5b4%o4=m5b4sll%o5=m5b4sll%o6=m5b4sll)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=y%t=40%w=4000%o=m5b4sll%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4sll%o2=m5b4sll%o3=m5b4%o4=m5b4sll%o5=m5b4sll%o6=m5b4sll)
+FingerAB:win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+FingerAB:ecn(r=y%df=y%w=4000%o=m5b4sll%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fa-10c%gcd=1-6%isr=107-111%ii=%ti=%ci=)
+FingerB:seq(sp=f0%gcd=1%isr=e6%ci=i)
+
+FingerA:ecn(t=3a-44%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3a-44%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3a-44%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3a-44%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3a-44%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3a-44%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3a-44%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3a-44%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

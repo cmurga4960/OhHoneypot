@@ -1,0 +1,65 @@
+Fingerprint: LaCrosse WA-1030U weather forecaster
+Class: LaCrosse | embedded || specialized
+CPE: cpe:/h:lacrosse:wa-1030u
+seq(sp=27-31%gcd=8|10|18|20|28%isr=23-2d%ti=i%ts=u%ii=%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=16d0%o=m5b4%cc=n)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0)
+t2(r=n)
+t3(r=y%df=n%t=fa-104%tg=ff%w=100%s=a%a=s+%f=ar%rd=0)
+t4(r=n)
+t5(r=y%df=n%t=fa-104%tg=ff%w=7a69%s=a%a=s+%f=ar%rd=0)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+Fingerprint: LaCrosse WA-1030U weather forecaster (94%), Espressif ESP8266 WiFi system-on-a-chip (90%), D-Link DCS-6620G webcam or Linksys BEFSR41 EtherFast router (88%), Espressif esp8266 firmware (lwIP stack) (88%), NodeMCU firmware (lwIP stack) (88%), Cisco 2600 router (IOS 11.3) (87%), USRobotics USR5450 WAP (87%), Huawei Secospace USG6680 firewall (86%), Motorola 2210-02 ADSL modem (86%), Netopia 3386 ADSL router (86%)
+seq(sp=e8%gcd=1%isr=df%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=n%t=ff%w=16d0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=ff%w=100%s=a%a=s+%f=ar%o=%rd=0%q=)
+t4(r=n)
+t5(r=y%df=n%t=ff%w=7a69%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerAB:ecn(r=y%df=n%w=16d0%o=m5b4%cc=n)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=100%s=a%a=s+%f=ar%rd=0)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=7a69%s=a%a=s+%f=ar%rd=0)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=27-31%gcd=8|10|18|20|28%isr=23-2d%ti=i%ii=%ci=)
+FingerB:seq(sp=e8%gcd=1%isr=df)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff%q=)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff%q=)
+
+FingerA:t3(t=fa-104%tg=ff)
+FingerB:t3(t=ff%o=%q=)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff%o=%q=)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

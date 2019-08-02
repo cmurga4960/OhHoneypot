@@ -1,0 +1,60 @@
+Fingerprint: Asus WL-500gP wireless broadband router
+Class: Asus | embedded || WAP
+CPE: cpe:/h:asus:wl-500gp auto
+seq(r=n%ii=%ti=%ci=)
+ops(o1=m5b4st11nw0%o2=m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw0%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw0%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=7b-85%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=7b-85%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+Fingerprint: Asus WL-500gP wireless broadband router
+Class: Asus embedded
+CPE: cpe:/h:asus:wl-500gp
+seq(sp=e8%gcd=1%isr=de%ci=i)
+ops(o1=m5b4st11nw0%o2=m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nnsnw0%cc=y%q=)
+t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%tg=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw0%rd=0%q=)
+t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw0%o2=m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nnsnw0%cc=y%q=)
+FingerAB:t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%tg=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw0%rd=0%q=)
+FingerAB:t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(r=n%ii=%ti=%ci=)
+FingerB:seq(ci=i%sp=e8%gcd=1%isr=de)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t3(t=3b-45)
+FingerA:t4(t=3b-45)
+FingerA:t5(t=7b-85)
+FingerA:t6(t=7b-85)
+FingerA:t7(t=7b-85)
+
+

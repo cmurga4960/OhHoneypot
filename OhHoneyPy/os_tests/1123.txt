@@ -1,0 +1,84 @@
+Fingerprint: Dell 3100cn-series or Xerox Phaser 6180DN printer
+Class: Dell | embedded || printer
+Class: Xerox | embedded || printer
+CPE: cpe:/h:dell:3100cn
+CPE: cpe:/h:dell:3110cn
+CPE: cpe:/h:dell:3115cn
+CPE: cpe:/h:xerox:phaser_6180dn
+seq(sp=0-16%gcd=fa00|1f400|2ee00|3e800|4e200|5dc00%isr=97-a1%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=3000%w2=3000%w3=3000%w4=3000%w5=3000%w6=3000)
+ecn(r=y%df=n%t=19-23%tg=20%w=3000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=19-23%tg=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=19-23%tg=20%w=3000%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=19-23%tg=20%w=3000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=19-23%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=19-23%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=19-23%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=4e4%rid=g%ripck=z%ruck=g%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Dell 3100cn-series or Xerox Phaser 6180DN printer (96%), Dell 3000 printer (94%), Xerox Phaser 6180N printer (93%), Dell 1320c printer (92%), Dell 3100cn printer (92%), Dell 3110cn printer (91%), Fuji Xerox DocuPrint C525 A printer (91%), ION Networks SA5600-series firewall (89%), HP-UX B.09.00 (87%), Polycom MGC videoconferencing system (87%)
+Class: Dell embedded (96%), Xerox embedded (96%), Fuji Xerox embedded (91%), ION Networks embedded (89%), HP HP-UX 09.X (87%), Polycom embedded (87%), Adaptec embedded (86%), Network Systems embedded (86%)
+CPE: cpe:/h:dell:3100cn cpe:/h:dell:3110cn cpe:/h:dell:3115cn cpe:/h:xerox:phaser_6180dn cpe:/h:fujixerox:docuprint_c525_a cpe:/o:hp:hp-ux:09.00 cpe:/h:adaptec:snap_server_100 cpe:/h:networksystems:borderguard_1000
+seq(sp=ff%gcd=1%isr=f5%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=3000%w2=3000%w3=3000%w4=3000%w5=3000%w6=3000)
+ecn(r=y%df=n%t=20%w=3000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=20%w=3000%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=20%w=3000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=4e4%rid=g%ripck=z%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=3000%w2=3000%w3=3000%w4=3000%w5=3000%w6=3000)
+FingerAB:ecn(r=y%df=n%w=3000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=3000%s=o%a=o%f=a%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=3000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=4e4%rid=g%ripck=z%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-16%gcd=fa00|1f400|2ee00|3e800|4e200|5dc00%isr=97-a1%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=ff%gcd=1%isr=f5%ci=i)
+
+FingerA:ecn(t=19-23%tg=20)
+FingerB:ecn(t=20)
+
+FingerA:t1(t=19-23%tg=20)
+FingerB:t1(t=20)
+
+FingerA:t3(t=19-23%tg=20)
+FingerB:t3(t=20)
+
+FingerA:t4(t=19-23%tg=20)
+FingerB:t4(t=20)
+
+FingerA:t5(t=19-23%tg=20)
+FingerB:t5(t=20)
+
+FingerA:t6(t=19-23%tg=20)
+FingerB:t6(t=20)
+
+FingerA:t7(t=19-23%tg=20)
+FingerB:t7(t=20)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

@@ -1,0 +1,75 @@
+Fingerprint: Linksys PAP2T VoIP adapter
+Class: Linksys | embedded || VoIP adapter
+CPE: cpe:/h:linksys:pap2t auto
+seq(sp=101-10b%gcd=2|4|6|8|a%isr=108-112%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=3e80%w2=3e80%w3=3e80%w4=3e80%w5=3e80%w6=3e80)
+ecn(r=y%df=n%t=f5-ff%tg=ff%w=3e80%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=f5-ff%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=f5-ff%tg=ff%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=f5-ff%tg=ff%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t5(r=y%df=n%t=f5-ff%tg=ff%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+t6(r=y%df=n%t=f5-ff%tg=ff%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t7(r=y%df=n%t=f5-ff%tg=ff%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+u1(df=n%t=f5-ff%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=f5-ff%tg=ff%cd=s)
+********************************************************
+Fingerprint: Linksys PAP2T VoIP adapter (98%), Sipura SPA1001 or SPA3000 VoIP adapter (96%), Linksys SPA901, SPA921, or SPA 941 SIP VoIP phone (95%), Linksys SPA942 VoIP phone (95%), Linksys SPA942, SPA962, SPA8000 or SPA9000 VoIP phone; SPA3102 VoIP adapter; or Sipura SPA-2100-series VoIP adapter (95%), Linksys PAP2T VoIP router (95%), HP GbW2c Ethernet Blade Switch (92%), Nortel BNT Ethernet switch module (92%), Alcatel 4035 VoIP phone (92%), HP GbE2c Ethernet Blade switch (92%)
+seq(ts=u)
+ecn(r=y%df=n%t=ff%w=3e80%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ecn(r=y%df=n%w=3e80%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=rf%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=arf%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=101-10b%gcd=2|4|6|8|a%isr=108-112%ti=i%ci=i%ii=i%ss=s)
+FingerA:ecn(t=f5-ff%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=f5-ff%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t2(t=f5-ff%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t4(t=f5-ff%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=f5-ff%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=f5-ff%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=f5-ff%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=f5-ff%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=f5-ff%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerA:win(w1=3e80%w2=3e80%w3=3e80%w4=3e80%w5=3e80%w6=3e80)
+
+

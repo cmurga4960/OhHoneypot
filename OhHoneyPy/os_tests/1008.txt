@@ -1,0 +1,70 @@
+Fingerprint: Coyote Point E350SI Equalizer load balancer
+Class: Coyote Point | embedded || load balancer
+CPE: cpe:/h:coyote_point:e350si
+seq(sp=102-10c%gcd=1-6%isr=104-10e%ti=i%ci=ri%ii=i%ss=o|s%ts=b)
+ops(o1=m5b4nw0nnt11%o2=m578nw0nnt11%o3=m280nw0nnt11%o4=m22cnw0nnt11%o5=m218nw0nnt11%o6=m109nnt11)
+win(w1=e000%w2=e000%w3=e000%w4=e000%w5=e000%w6=e000)
+ecn(r=y%df=y%t=3b-45%tg=40%w=e000%o=m5b4nw0%cc=n)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=s%f=r%rd=0)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=s%f=r%rd=0)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Coyote Point E350SI Equalizer load balancer (95%), FreeBSD 4.9-RELEASE (89%), Apple Mac OS X 10.3.9 (Panther) - 10.4.7 (Tiger) (Darwin 7.9.0 - 8.7.8, PowerPC) (89%), FreeBSD 4.10-RELEASE - 5.4-SECURITY (89%), IBM AIX 7.2 (89%), Apple TV 5.2.1 or 5.3 (88%), SMC SMC8014WG WAP (88%), Apple Mac OS X 10.4.11 (Tiger) (Darwin 8.11.0) (88%), Apple Mac OS X 10.3.9 (Panther) (Darwin 7.9.0, PowerPC) (88%), Apple Mac OS X Server 10.3.9 (Panther) (Darwin 7.9.0, PowerPC) (88%)
+seq(sp=fe%gcd=1%isr=f4%ci=i)
+ops(o1=m5b4nw0nnt11%o2=m578nw0nnt11%o3=m280nw0nnt11%o4=m22cnw0nnt11%o5=m218nw0nnt11%o6=m109nnt11)
+win(w1=e000%w2=e000%w3=e000%w4=e000%w5=e000%w6=e000)
+ecn(r=y%df=y%t=40%w=e000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw0nnt11%o2=m578nw0nnt11%o3=m280nw0nnt11%o4=m22cnw0nnt11%o5=m218nw0nnt11%o6=m109nnt11)
+FingerAB:win(w1=e000%w2=e000%w3=e000%w4=e000%w5=e000%w6=e000)
+FingerAB:ecn(r=y%df=y%w=e000%o=m5b4nw0%cc=n)
+FingerAB:t1(r=y%df=y%s=o%f=as%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=s%f=r%rd=0)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=s%f=r%rd=0)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=102-10c%gcd=1-6%isr=104-10e%ti=i%ci=ri%ii=i%ss=o|s%ts=b)
+FingerB:seq(sp=fe%gcd=1%isr=f4%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40%q=)
+
+FingerA:t1(t=3b-45%tg=40%a=o|s+)
+FingerB:t1(t=40%a=o%q=)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40%o=%q=)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40%o=%q=)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40%o=%q=)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,73 @@
+Fingerprint: Apple iOS 5.1.1
+Class: Apple | iOS | 5.X | media device
+Class: Apple | iOS | 5.X | phone
+Class: Apple | iOS | 5.X | media device
+CPE: cpe:/o:apple:iphone_os:5.1.1 auto
+CPE: cpe:/o:apple:iphone_os:5.1.1 auto
+CPE: cpe:/o:apple:iphone_os:5.1.1 auto
+seq(sp=fe-108%gcd=1-6%isr=104-10e%ti=rd%ci=ri%ii=ri%ts=a)
+ops(o1=m56cnw4nnt11sll%o2=m56cnw4nnt11sll%o3=m56cnw4nnt11%o4=m56cnw4nnt11sll%o5=m56cnw4nnt11sll%o6=m56cnnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=ffff%o=m56cnw4sll%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Apple iOS 5.1.1 (95%), FreeBSD 6.2-RELEASE (90%), Apple iOS 5.1.1 - 6.1 (89%), Apple iOS 7.1.1 (89%), Apple Mac OS X 10.4.11 (Tiger) (Darwin 8.11.0, PowerPC) (89%), Apple OS X 10.8 (Mountain Lion) (Darwin 12.4.0) (89%), Apple Mac OS X 10.4.8 - 10.4.11 (Tiger) (Darwin 8.8.0 - 8.11.1) (89%), Apple Mac OS X 10.4.11 (Tiger) (Darwin 8.11.0) (88%), Apple Mac OS X 10.3.9 (Panther) - 10.4.7 (Tiger) (Darwin 7.9.0 - 8.7.8, PowerPC) (88%), Apple Mac OS X Server 10.5 (Leopard) pre-release build 9A284 (88%)
+Class: Apple iOS 5.X|6.X|7.X (95%), FreeBSD 6.X (90%), Apple Mac OS X 10.4.X|10.3.X|10.5.X (89%), Apple OS X 10.8.X (89%)
+CPE: cpe:/o:apple:iphone_os:5.1.1 cpe:/o:freebsd:freebsd:6.2 cpe:/o:apple:iphone_os:6 cpe:/o:apple:iphone_os:7.1.1 cpe:/o:apple:mac_os_x:10.4.11 cpe:/o:apple:mac_os_x:10.8 cpe:/o:apple:mac_os_x:10.3 cpe:/o:apple:mac_os_x_server:10.5
+seq(sp=dc%gcd=1%isr=d3%ci=i)
+ops(o1=m56cnw4nnt11sll%o2=m56cnw4nnt11sll%o3=m56cnw4nnt11%o4=m56cnw4nnt11sll%o5=m56cnw4nnt11sll%o6=m56cnnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=40%w=ffff%o=m56cnw4sll%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m56cnw4nnt11sll%o2=m56cnw4nnt11sll%o3=m56cnw4nnt11%o4=m56cnw4nnt11sll%o5=m56cnw4nnt11sll%o6=m56cnnt11sll)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=y%w=ffff%o=m56cnw4sll%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fe-108%gcd=1-6%isr=104-10e%ti=rd%ci=ri%ii=ri%ts=a)
+FingerB:seq(sp=dc%gcd=1%isr=d3%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

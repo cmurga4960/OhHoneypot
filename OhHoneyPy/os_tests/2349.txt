@@ -1,0 +1,55 @@
+Fingerprint: DD-WRT v24-sp2 (Linux 2.4.37)
+Class: Linux | Linux | 2.4.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.4.37 auto
+seq(sp=e5-109%gcd=1-6%isr=104-114%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=faf0%w2=faf0%w3=faf0%w4=faf0%w5=faf0%w6=faf0)
+ecn(r=y%df=n%t=7b-85%tg=80%w=faf0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=7b-85%tg=80%w=faf0%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=7b-85%tg=80%w=7fff%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=7b-85%tg=80%w=faf0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=7b-85%tg=80%w=7fff%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(r=n)
+ie(dfi=n%t=7b-85%tg=80%cd=s)
+********************************************************
+Fingerprint: DD-WRT v24-sp2 (Linux 2.4.37) (93%), Linux 3.2 (93%), Linux 4.4 (93%), Actiontec MI424WR-GEN3I WAP (92%), BlueArc Titan 2100 NAS device (89%), Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012 (87%), Hitachi BlueArc OS 7.0 (87%), Microsoft Windows XP SP3 (87%), Pirelli DP-10 VoIP phone (85%), VMware Player virtual NAT device (85%)
+ecn(r=y%df=n%tg=80%w=faf0%o=m5b4%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=n%tg=80%w=faf0%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%tg=80%w=7fff%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=80%w=faf0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=80%w=7fff%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=n%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=n%tg=80%w=faf0%o=m5b4%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=80%w=faf0%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=80%w=7fff%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=80%w=faf0%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=80%w=7fff%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:ecn(t=7b-85)
+FingerA:t1(r=y%df=n%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=7b-85)
+FingerA:t4(t=7b-85)
+FingerA:t5(t=7b-85)
+FingerA:t6(t=7b-85)
+FingerA:ie(t=7b-85%tg=80)
+FingerB:ie(tg=40%r=y)
+
+FingerA:seq(sp=e5-109%gcd=1-6%isr=104-114%ti=i%ci=i%ii=i%ss=s%ts=u)
+FingerA:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerA:win(w1=faf0%w2=faf0%w3=faf0%w4=faf0%w5=faf0%w6=faf0)
+FingerA:t7(r=n)
+
+

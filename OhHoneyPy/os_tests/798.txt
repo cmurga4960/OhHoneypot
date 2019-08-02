@@ -1,0 +1,67 @@
+Fingerprint: Cisco SPA 303 VoIP phone
+Class: Cisco | embedded || VoIP phone
+CPE: cpe:/h:cisco:spa303_3-line_ip_phone_with_2-port_switch
+seq(sp=ef-f9%gcd=1-6%isr=104-10e%ti=rd%ii=i%ts=22%ci=)
+ops(o1=m5b4nnsnw3nnt11%o2=m5b4nnsnw3nnt11%o3=m5b4nw3nnt11%o4=m5b4nnsnw3nnt11%o5=m5b4nnsnw3nnt11%o6=m5b4nnsnnt11)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=y%t=3c-46%tg=40%w=4000%o=m5b4nnsnw3%cc=n%q=)
+t1(r=y%df=y%t=3c-46%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Cisco SPA 303 VoIP phone (98%), HP MSA2000-series NAS device (92%), Ricoh Aficio 1224C or AP400N printer (89%), OpenBSD 4.0 (89%)
+Class: Cisco embedded (98%), HP embedded (92%), Ricoh embedded (89%), OpenBSD 4.X (89%)
+CPE: cpe:/h:cisco:spa303_3-line_ip_phone_with_2-port_switch cpe:/o:openbsd:openbsd:4.0
+seq(sp=f7%gcd=1%isr=ee%ii=i)
+ops(o1=m5b4nnsnw3nnt11%o2=m5b4nnsnw3nnt11%o3=m5b4nw3nnt11%o4=m5b4nnsnw3nnt11%o5=m5b4nnsnw3nnt11%o6=m5b4nnsnnt11)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=y%t=40%w=4000%o=m5b4nnsnw3%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(r=y%dfi=s%t=3d%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ops(o1=m5b4nnsnw3nnt11%o2=m5b4nnsnw3nnt11%o3=m5b4nw3nnt11%o4=m5b4nnsnw3nnt11%o5=m5b4nnsnw3nnt11%o6=m5b4nnsnnt11)
+FingerAB:win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+FingerAB:ecn(r=y%df=y%w=4000%o=m5b4nnsnw3%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=ef-f9%gcd=1-6%isr=104-10e%ti=rd%ts=22%ci=)
+FingerB:seq(sp=f7%gcd=1%isr=ee)
+
+FingerA:ecn(t=3c-46%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3c-46%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3d%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3d%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,80 @@
+Fingerprint: IBM OS/400 V5
+Class: IBM | OS/400 | V5 | general purpose
+CPE: cpe:/o:ibm:os_400:v5 auto
+seq(sp=a2-ac%gcd=1-6%isr=b1-bb%ti=i%ci=i%ii=i%ss=s%ts=a)
+ops(o1=m5acnw1nnt11%o2=m578nw1nnt11%o3=m280nw1nnt11%o4=m5acnw1nnt11%o5=m218nw1nnt11%o6=m109nnt11)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=8000%o=m5acnw1%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: IBM OS/400 V5 (98%), IBM i 7.1 (98%), IBM i 6.1 (94%), IBM OS/400 V5R3 (92%), Apple Time Capsule NAS device (NetBSD 4.99) (92%), Apple AirPort Extreme WAP (version 7.7.3) (92%), IBM i5/OS V5R4 (92%), IBM i 7.2 (91%), IBM i5/OS V5R4 - V6R1 (91%), IBM i5/OS V5R4 on an IBM iSeries (PPC) (91%)
+Class: IBM OS/400 V5 (98%), IBM i 7.X|6.X (98%), Apple NetBSD 4.X (92%), Apple embedded (92%), IBM i5/OS V5 (92%), Nintendo embedded (91%), IBM OS/390 (90%), Alaxala embedded (90%)
+CPE: cpe:/o:ibm:os_400:v5 cpe:/o:ibm:i:7.1 cpe:/o:ibm:i:6.1 cpe:/o:apple:netbsd:4.99 cpe:/o:apple:netbsd cpe:/o:ibm:i5os:v5 cpe:/h:nintendo:wii cpe:/o:ibm:os_390
+seq(sp=108%gcd=1%isr=ff)
+ops(o1=m5acnw1nnt11%o2=m578nw1nnt11%o3=m280nw1nnt11%o4=m5acnw1nnt11%o5=m218nw1nnt11%o6=m109nnt11)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=ffff)
+ecn(r=y%df=y%t=40%w=8000%o=m5acnw1%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5acnw1nnt11%o2=m578nw1nnt11%o3=m280nw1nnt11%o4=m5acnw1nnt11%o5=m218nw1nnt11%o6=m109nnt11)
+FingerAB:win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=ffff)
+FingerAB:ecn(r=y%df=y%w=8000%o=m5acnw1%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=a2-ac%gcd=1-6%isr=b1-bb%ti=i%ci=i%ii=i%ss=s%ts=a)
+FingerB:seq(sp=108%gcd=1%isr=ff)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=3b-45%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

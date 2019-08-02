@@ -1,0 +1,61 @@
+Fingerprint: D-Link NetDefend firewall
+Class: D-Link | embedded || firewall
+seq(sp=f4-fe%gcd=1-6%isr=106-110%ti=rd%ts=u%ii=%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=8000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(r=n)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: D-Link NetDefend firewall (98%), FireBrick FB2700 firewall (95%), Huawei VRP 5.160 (91%), Ricoh Aficio SP C210SF printer (90%), Huawei AP6050DN WAP (90%), Huawei VRP 3 switch (89%), TiVo series 1 (Linux 2.1.24-TiVo-2.5) (89%), Huawei CloudEngine CE6800 switch (89%), Rigol DS1000Z-series oscilloscope (88%)
+Class: D-Link embedded (98%), FireBrick embedded (95%), Huawei VRP 5.X|3.X (91%), Ricoh embedded (90%), Huawei embedded (90%), Linux 2.1.X (89%), Rigol Technologies embedded (88%)
+CPE: cpe:/h:firebrick:fb2700 cpe:/o:huawei:vrp:5.160 cpe:/h:ricoh:aficio_sp_c210sf cpe:/h:huawei:ap6050dn cpe:/o:huawei:vrp:3 cpe:/o:linux:linux_kernel:2.1.24 cpe:/h:huawei:cloudengine_ce6800
+seq(sp=f9%gcd=1%isr=f0%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%tg=ff%w=8000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%tg=ff%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+FingerAB:ecn(r=y%df=n%tg=ff%w=8000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=ff%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=f4-fe%gcd=1-6%isr=106-110%ti=rd%ii=%ci=)
+FingerB:seq(sp=f9%gcd=1%isr=f0%ci=i)
+
+FingerA:ecn(t=fa-104)
+FingerA:t1(t=fa-104%a=o|s+)
+FingerB:t1(a=o)
+
+FingerA:t4(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

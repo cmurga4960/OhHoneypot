@@ -1,0 +1,71 @@
+Fingerprint: D-Link DCS-6620G webcam or Linksys BEFSR41 EtherFast router
+Class: D-Link | embedded || webcam
+Class: Linksys | embedded || router
+CPE: cpe:/h:dlink:dcs-6620g auto
+CPE: cpe:/h:linksys:befsr41
+seq(r=n%ii=%ti=%ci=)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=y%df=n%t=91-9b%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=91-9b%tg=ff%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=n)
+t5(r=y%df=n%t=91-9b%tg=ff%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=91-9b%tg=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=91-9b%tg=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=91-9b%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=91-9b%tg=ff%cd=s)
+********************************************************
+Fingerprint: Planet WAP-1950 WAP (96%), D-Link DCS-3220 webcam (95%), D-Link DCS-6620G webcam or Linksys BEFSR41 EtherFast router (95%), Hioki MEMORY HiCORDER 8855 digital oscilloscope (93%), Panasonic DB-3500 series printer (93%), Panasonic KX-HCM270 Network Camera or Symbol Spectrum24 4131 WAP (93%), OneAccess 1641 router (92%), D-Link DCS-3220 or DCS-5300G webcam (89%), Mitsubishi Q06UDEH CPU PLC module (88%), Linksys BEFW11S4 WAP (88%)
+seq(ci=i%ts=u)
+ecn(r=n)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=ff%w=100%s=z%a=s+%f=ar%o=m5b4%rd=0%q=)
+t4(r=n)
+t5(r=y%df=n%t=ff%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=100%s=z%a=s+%f=ar%rd=0%q=)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(r=n%ii=%ti=%ci=)
+FingerB:seq(ci=i%ts=u)
+
+FingerA:t1(t=91-9b%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t3(t=91-9b%tg=ff%o=)
+FingerB:t3(t=ff%o=m5b4)
+
+FingerA:t5(t=91-9b%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=91-9b%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=91-9b%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=91-9b%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=91-9b%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

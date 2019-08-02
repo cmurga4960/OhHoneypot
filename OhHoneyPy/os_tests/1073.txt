@@ -1,0 +1,63 @@
+Fingerprint: D-Link DIR-300 WAP
+Class: D-Link | embedded || WAP
+CPE: cpe:/h:dlink:dir-300 auto
+seq(sp=c9-d3%gcd=1-6%isr=ca-d4%ti=z%ii=i%ts=8%ci=)
+ops(o1=m618st11nw1%o2=m618st11nw1%o3=m618nnt11nw1%o4=m618st11nw1%o5=m618st11nw1%o6=m618st11)
+win(w1=1224%w2=1224%w3=1224%w4=1224%w5=1224%w6=1224)
+ecn(r=y%df=y%t=3b-45%tg=40%w=1248%o=m618nnsnw1%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Tomato 1.27 - 1.28 (Linux 2.4.20) (92%), Linux 2.6.18 - 2.6.22 (92%), D-Link DIR-300 WAP (92%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (87%), Linux 3.2.0 (87%), Microsoft Windows 7 (87%), FreeBSD 6.2-RELEASE (86%), Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7 (86%), Motorola RFS4000 wireless controller (86%), Linux 2.4.21 (85%)
+seq(sp=100%gcd=1%isr=f7%ti=i)
+ops(o1=m618st11nw1%o2=m618st11nw1%o3=m618nnt11nw1%o4=m618st11nw1%o5=m618st11nw1%o6=m618st11)
+win(w1=1224%w2=1224%w3=1224%w4=1224%w5=1224%w6=1224)
+ecn(r=y%df=y%t=40%w=1248%o=m618nnsnw1%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m618st11nw1%o2=m618st11nw1%o3=m618nnt11nw1%o4=m618st11nw1%o5=m618st11nw1%o6=m618st11)
+FingerAB:win(w1=1224%w2=1224%w3=1224%w4=1224%w5=1224%w6=1224)
+FingerAB:ecn(r=y%df=y%w=1248%o=m618nnsnw1%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c9-d3%gcd=1-6%isr=ca-d4%ti=z%ii=i%ts=8%ci=)
+FingerB:seq(sp=100%gcd=1%isr=f7%ti=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,79 @@
+Fingerprint: Bay Networks Annex Ethernet-to-serial bridge or Xerox DocuPrint N32 printer
+Class: Bay Networks | embedded || bridge
+Class: Xerox | embedded || printer
+CPE: cpe:/h:xerox:docuprint_n32
+seq(sp=c-16%gcd=fa00|1f400|2ee00|3e800|4e200%isr=97-a1%ii=i%ts=u%ti=%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=19-23%tg=20%w=1000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=19-23%tg=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=19-23%tg=20%w=1000%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=19-23%tg=20%w=1000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=19-23%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=19-23%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=19-23%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=0%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Bay Networks Annex Ethernet-to-serial bridge or Xerox DocuPrint N32 printer (95%), ION Networks SA5600-series firewall (95%), Wyse C10LE, S10, SX0, 1200LE, or Xenith terminal (ThinOS 6.5) (92%), Cisco Micro Webserver 200, HP WP110 print server, Tektronix TDS3034B oscilloscope or XP350 terminal, or Xerox Document Centre 405 printer (92%), Network Systems BorderGuard 1000 firewall (92%), Cisco Catalyst WS-C6509 switch (CatOS 6.3) (91%), 4.3BSD (91%), Avaya P330 Stackable Switch (91%), Wyse ThinOS 6 (91%), Cisco Catalyst 2948G, 4003, 4006, or 6509 switch (CatOS 7.6(17) - 8.4(3)) (91%)
+seq(sp=fc%gcd=1%isr=f3%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=20%w=1000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=20%w=1000%s=o%a=o%f=a%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=20%w=1000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+FingerAB:ecn(r=y%df=n%w=1000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=1000%s=o%a=o%f=a%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=1000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=4210%ripck=z%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=fa00|1f400|2ee00|3e800|4e200%isr=97-a1%ii=i%ti=%ci=)
+FingerB:seq(sp=fc%gcd=1%isr=f3%ci=i)
+
+FingerA:ecn(t=19-23%tg=20)
+FingerB:ecn(t=20)
+
+FingerA:t1(t=19-23%tg=20)
+FingerB:t1(t=20)
+
+FingerA:t3(t=19-23%tg=20%o=)
+FingerB:t3(t=20%o=m5b4)
+
+FingerA:t4(t=19-23%tg=20)
+FingerB:t4(t=20)
+
+FingerA:t5(t=19-23%tg=20)
+FingerB:t5(t=20)
+
+FingerA:t6(t=19-23%tg=20)
+FingerB:t6(t=20)
+
+FingerA:t7(t=19-23%tg=20)
+FingerB:t7(t=20)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

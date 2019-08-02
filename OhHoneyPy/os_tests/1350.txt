@@ -1,0 +1,79 @@
+Fingerprint: Brocade/Foundry NetIron CER router (IronWare 5 - 6)
+Class: Foundry | IronWare | 5.X | router
+Class: Brocade | IronWare | 6.X | router
+CPE: cpe:/o:foundrynet:ironware:5 auto
+CPE: cpe:/o:brocade:ironware:6 auto
+seq(sp=63-a5%gcd=1-6%isr=71-9f%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m541|m5b4%o2=m541|m5b4%o3=m541|m5b4%o4=m541|m5b4%o5=m541|m5b4%o6=m541|m5b4)
+win(w1=fde8%w2=fde8%w3=fde8%w4=fde8%w5=fde8%w6=fde8)
+ecn(r=y%df=n%t=3b-45%tg=40%w=fde8%o=m541|m5b4%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=u)
+t3(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=u)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=u)
+t5(r=y%df=y%t=3b-45%tg=40%w=1%s=z%a=s+%f=ar%o=%rd=0%q=u)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Brocade/Foundry NetIron CER router (IronWare 5 - 6) (97%), Foundry NetIron MLX switch (IronWare 3.8.0) (92%), Foundry BigIron RX switch, NetIron MLX switch, or NetIron 4000 XMR switch (IronWare 2.2.1 - 3.6.0) (91%), Foundry BigIron RX switch (IronWare 2.2.1) (88%), Foundry BigIron RX switch (IronWare 2.2.1lT157) (88%), Foundry FastIron switch (4802, FESX, GS 648P, X448, or II Plus) (IronWare) (88%), Brocade TurboIron 24X or ICX6550 switch (87%)
+Class: Foundry IronWare 5.X|3.X|2.X|4.X (97%), Brocade IronWare 6.X (97%), Brocade embedded (87%)
+CPE: cpe:/o:foundrynet:ironware:5 cpe:/o:brocade:ironware:6 cpe:/o:foundrynet:ironware:3.8.0 cpe:/o:foundrynet:ironware:2 cpe:/o:foundrynet:ironware:4 cpe:/h:brocade:turboiron_24x
+seq(sp=f9%gcd=1%isr=f0%ts=u)
+ops(o1=m541%o2=m541%o3=m541%o4=m541%o5=m541%o6=m541)
+win(w1=fde8%w2=fde8%w3=fde8%w4=fde8%w5=fde8%w6=fde8)
+ecn(r=y%df=n%t=40%w=fde8%o=m541%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=u)
+t3(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=u)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=u)
+t5(r=y%df=y%t=40%w=1%s=z%a=s+%f=ar%o=%rd=0%q=u)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:win(w1=fde8%w2=fde8%w3=fde8%w4=fde8%w5=fde8%w6=fde8)
+FingerAB:ecn(r=y%df=n%w=fde8%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=y%w=0%s=z%a=s%f=ar%o=%rd=0%q=u)
+FingerAB:t3(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=u)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=u)
+FingerAB:t5(r=y%df=y%w=1%s=z%a=s+%f=ar%o=%rd=0%q=u)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=63-a5%gcd=1-6%isr=71-9f%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=f9%gcd=1%isr=f0)
+
+FingerA:ops(o1=m541|m5b4%o2=m541|m5b4%o3=m541|m5b4%o4=m541|m5b4%o5=m541|m5b4%o6=m541|m5b4)
+FingerB:ops(o1=m541%o2=m541%o3=m541%o4=m541%o5=m541%o6=m541)
+
+FingerA:ecn(t=3b-45%tg=40%o=m541|m5b4)
+FingerB:ecn(t=40%o=m541)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=3b-45%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

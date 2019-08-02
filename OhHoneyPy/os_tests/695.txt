@@ -1,0 +1,72 @@
+Fingerprint: Cisco AireOS 8.2 (Linux 2.6.21)
+Class: Cisco | AireOS | 8.X | remote management
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:cisco:aireos:8.2 auto
+CPE: cpe:/o:linux:linux_kernel:2.6.21 auto
+seq(sp=bd-c7%gcd=1-6%isr=cd-d7%ti=i%ci=z%ts=8%ii=)
+ops(o1=m572st11nw6%o2=m572st11nw6%o3=m572nnt11nw6%o4=m572st11nw6%o5=m572st11nw6%o6=m572st11)
+win(w1=1598%w2=1598%w3=1598%w4=1598%w5=1598%w6=1598)
+ecn(r=y%df=n%t=3b-45%tg=40%w=15c8%o=m572nnsnw6%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=7b-85%tg=80%cd=s)
+********************************************************
+Fingerprint: Cisco AireOS 8.2 (Linux 2.6.21) (95%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (95%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (94%), OpenWrt White Russian 0.9 (Linux 2.4.30) (94%), Linux 2.6.24 (92%), OpenWrt (Linux 2.4.32) (91%), Linux 2.4.18 (90%), OpenWrt (Linux 2.4.30 - 2.4.34) (90%), Asus RT-AC66U router (Linux 2.6) (90%), Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (90%)
+seq(sp=ea%gcd=1%isr=e1%ci=i)
+ops(o1=m572st11nw6%o2=m572st11nw6%o3=m572nnt11nw6%o4=m572st11nw6%o5=m572st11nw6%o6=m572st11)
+win(w1=1598%w2=1598%w3=1598%w4=1598%w5=1598%w6=1598)
+ecn(r=y%df=n%t=40%w=15c8%o=m572nnsnw6%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m572st11nw6%o2=m572st11nw6%o3=m572nnt11nw6%o4=m572st11nw6%o5=m572st11nw6%o6=m572st11)
+FingerAB:win(w1=1598%w2=1598%w3=1598%w4=1598%w5=1598%w6=1598)
+FingerAB:ecn(r=y%df=n%w=15c8%o=m572nnsnw6%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=bd-c7%gcd=1-6%isr=cd-d7%ti=i%ci=z%ts=8%ii=)
+FingerB:seq(sp=ea%gcd=1%isr=e1%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=7b-85%tg=80%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

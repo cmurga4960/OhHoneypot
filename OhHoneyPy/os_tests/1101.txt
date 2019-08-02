@@ -1,0 +1,66 @@
+Fingerprint: DEC OSF/1 V4.0
+Class: DEC | OSF/1 | 4.X | general purpose
+CPE: cpe:/o:dec:osf_1:4 auto
+seq(sp=8e-9e%gcd=1-6%isr=99-a3%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=832c%w2=8340%w3=8200%w4=8000%w5=81d0%w6=805c)
+ecn(r=y%df=y%t=37-41%tg=40%w=832c%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=37-41%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=37-41%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: DEC OSF/1 V4.0 (97%), FreeBSD 6.2-RELEASE (90%), AirSpan ProST WiMAX access point (88%), Apple Mac OS X 10.5.8 (Leopard) (Darwin 9.8.0) (87%)
+Class: DEC OSF/1 4.X (97%), FreeBSD 6.X (90%), AirSpan embedded (88%), Apple Mac OS X 10.5.X (87%)
+CPE: cpe:/o:dec:osf_1:4 cpe:/o:freebsd:freebsd:6.2 cpe:/o:apple:mac_os_x:10.5.8
+seq(sp=108%gcd=1%isr=ff%ts=u)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=832c%w2=8340%w3=8200%w4=8000%w5=81d0%w6=805c)
+ecn(r=y%df=y%t=40%w=832c%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+FingerAB:win(w1=832c%w2=8340%w3=8200%w4=8000%w5=81d0%w6=805c)
+FingerAB:ecn(r=y%df=y%w=832c%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=8e-9e%gcd=1-6%isr=99-a3%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=108%gcd=1%isr=ff)
+
+FingerA:ecn(t=37-41%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=37-41%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=37-41%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

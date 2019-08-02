@@ -1,0 +1,85 @@
+Fingerprint: Kongsberg Seatex BS410 AIS base station (maritime communication component)
+Class: Kongsberg Seatex | embedded || specialized
+seq(r=n%ii=%ti=%ci=)
+ops(o1=%o2=%o3=%o4=%o5=%o6=)
+win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+ecn(r=y%df=n%t=6b-75%tg=80%w=0%o=%cc=n%q=u)
+t1(r=y%df=n%t=6b-75%tg=80%s=z%a=s+%f=ar%rd=0%q=)
+t2(r=y%df=n%t=6b-75%tg=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=6b-75%tg=80%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=6b-75%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=6b-75%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=6b-75%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=6b-75%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=6b-75%tg=80%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=49e9%rud=g)
+ie(dfi=n%t=6b-75%tg=80%cd=z)
+********************************************************
+Fingerprint: Kongsberg Seatex BS410 AIS base station (maritime communication component) (94%), Microsoft Windows NT 4.0 (92%), Ness M1-XEP home automation interface (90%), Cisco CSS 11501 switch (89%), Casio QT-6000 or QT-6100 point-of-sale machine (89%), AT&T U-Verse set-top box (Windows CE 5.0) (88%), Tektronix Phaser 8200DP printer (87%), Microsoft Windows 2000 SP4 or Windows XP Professional SP1 (87%), Microsoft Windows NT Version 4.0 SP6 (87%), Microsoft Windows NT 4.0 SP6a (87%)
+Class: Kongsberg Seatex embedded (94%), Microsoft Windows NT|PocketPC/CE|2000|XP (92%), Ness embedded (90%), Cisco embedded (89%), Casio embedded (89%), Tektronix embedded (87%), Novell NetWare 6.X (86%)
+CPE: cpe:/o:microsoft:windows_nt:4.0 cpe:/h:cisco:css_11501 cpe:/o:microsoft:windows_ce:5.0 cpe:/h:tektronix:phaser_8200dp cpe:/o:microsoft:windows_2000::sp4 cpe:/o:microsoft:windows_xp::sp1:professional cpe:/o:novell:netware:6.5
+seq(sp=0%gcd=1%isr=1a%ts=u)
+ops(o1=m5b4%o2=%o3=%o4=%o5=%o6=m5b4)
+win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+ecn(r=y%df=n%t=80%w=0%o=%cc=n%q=u)
+t1(r=y%df=n%t=80%s=z%a=s+%f=ar%rd=0%q=)
+t2(r=y%df=n%t=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=80%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=49e9%rud=g)
+ie(r=y%dfi=n%t=3b%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o2=%o3=%o4=%o5=)
+FingerAB:win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+FingerAB:ecn(r=y%df=n%w=0%o=%cc=n%q=u)
+FingerAB:t1(r=y%df=n%s=z%a=s+%f=ar%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=49e9%rud=g)
+FingerAB:ie(dfi=n%cd=z)
+--- Diff Values ---
+FingerA:seq(r=n%ii=%ti=%ci=)
+FingerB:seq(sp=0%gcd=1%isr=1a%ts=u)
+
+FingerA:ops(o1=%o6=)
+FingerB:ops(o1=m5b4%o6=m5b4)
+
+FingerA:ecn(t=6b-75%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(t=6b-75%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t2(t=6b-75%tg=80)
+FingerB:t2(t=80)
+
+FingerA:t3(t=6b-75%tg=80)
+FingerB:t3(t=80)
+
+FingerA:t4(t=6b-75%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=6b-75%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=6b-75%tg=80)
+FingerB:t6(t=80)
+
+FingerA:t7(t=6b-75%tg=80)
+FingerB:t7(t=80)
+
+FingerA:u1(t=6b-75%tg=80)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=6b-75%tg=80)
+FingerB:ie(t=3b%r=y)
+
+
+

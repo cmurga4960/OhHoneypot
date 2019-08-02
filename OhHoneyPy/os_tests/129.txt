@@ -1,0 +1,74 @@
+Fingerprint: Allied Telesyn 8326GB switch
+Class: Allied Telesyn | embedded || switch
+CPE: cpe:/h:alliedtelesyn:at-8326gb
+seq(sp=0-5%gcd=1-6%isr=0-5%ti=i%ts=u%ii=%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=400%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+t3(r=y%df=n%t=fa-104%tg=ff%w=400%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a|o%a=o|s%f=apr%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=a|o%a=o|s+%f=apr%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a|o%a=o|s%f=apr%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=a|o%a=o|s%f=apr%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=106b|119f|1afe|568b|fcb7%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Allied Telesyn 8326GB switch (98%), Allied Telesyn AT-GS950 Gigabit Ethernet Switch (91%), Allied Telesyn AT-8326GB or AT8350GB switch. (88%)
+Class: Allied Telesyn embedded (98%)
+CPE: cpe:/h:alliedtelesyn:at-8326gb
+seq(sp=103%gcd=1%isr=fa%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%tg=ff%w=400%o=m5b4%cc=n%q=)
+t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+t3(r=y%df=n%tg=ff%w=400%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%tg=ff%w=0%s=o%a=o%f=apr%o=%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=0%s=o%a=o%f=apr%o=%rd=0%q=)
+t6(r=y%df=n%tg=ff%w=0%s=o%a=o%f=apr%o=%rd=0%q=)
+t7(r=y%df=n%tg=ff%w=0%s=o%a=o%f=apr%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+FingerAB:ecn(r=y%df=n%tg=ff%w=400%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%tg=ff%w=400%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=ff%w=0%f=apr%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=ff%w=0%f=apr%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=ff%w=0%f=apr%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=ff%w=0%f=apr%o=%rd=0%q=)
+--- Diff Values ---
+FingerA:seq(sp=0-5%gcd=1-6%isr=0-5%ti=i%ii=%ci=)
+FingerB:seq(sp=103%gcd=1%isr=fa%ci=i)
+
+FingerA:ecn(t=fa-104)
+FingerA:t1(t=fa-104)
+FingerA:t2(t=fa-104)
+FingerA:t3(t=fa-104)
+FingerA:t4(t=fa-104%s=a|o%a=o|s)
+FingerB:t4(s=o%a=o)
+
+FingerA:t5(t=fa-104%s=a|o%a=o|s+)
+FingerB:t5(s=o%a=o)
+
+FingerA:t6(t=fa-104%s=a|o%a=o|s)
+FingerB:t6(s=o%a=o)
+
+FingerA:t7(t=fa-104%s=a|o%a=o|s)
+FingerB:t7(s=o%a=o)
+
+FingerA:u1(df=n%t=fa-104%tg=ff%ipl=38%un=106b|119f|1afe|568b|fcb7%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

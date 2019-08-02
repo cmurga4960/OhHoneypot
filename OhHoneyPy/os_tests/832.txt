@@ -1,0 +1,81 @@
+Fingerprint: Cisco 2620 or 3620 router (IOS 12.1 - 12.3)
+Class: Cisco | IOS | 12.X | router
+CPE: cpe:/h:cisco:2620_router
+CPE: cpe:/h:cisco:3620_router
+CPE: cpe:/o:cisco:ios:12 auto
+seq(sp=100-10a%gcd=1-6%isr=fe-112%ti=z%ii=ri%ts=u%ci=)
+ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m109)
+win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+ecn(r=y%df=n%t=100%tg=ff%w=1020%o=m218%cc=n%q=)
+t1(r=y%df=n%t=100%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=100%tg=ff%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=100%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=100%tg=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=100%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=100%tg=ff%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=100%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=100%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco Aironet 1240AG WAP, C2600 or C2800 router, or C3560 switch (IOS 12.2 - 12.4) (96%), Cisco AS5350 VoIP gateway, or Aironet 1200, 1230, or 1240-series WAP (IOS 12.3) (96%), Cisco 1131AG WAP (IOS 12.3) (95%), Cisco Aironet 1200-series WAP router (IOS 12.3 - 12.4) (94%), Cisco Aironet 1130 WAP (IOS 12.4) (93%), Cisco Aironet 350, 1100, 1200, or 1131AG WAP; or Cisco 2600 router (IOS 12.3) (93%), Cisco 2900-series, 3650, or 3750 switch; 6509 or 7206VXR router; or uBR925 or uBR7111 cable modem (IOS 12.1 - 12.2) (93%), Cisco Aironet 350 or 1200 WAP or 831 router (IOS 12.3) (93%), Cisco Catalyst 2900-series or 3500-series switch (IOS 12.2) (92%), Cisco Aironet 1200-series WAP or 2610XM router (IOS 12.4) (92%)
+seq(sp=105%gcd=1%isr=fc%ci=i%ii=i%ts=u)
+ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m109)
+win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+ecn(r=y%df=n%t=ff%w=1020%o=m218%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3d%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m109)
+FingerAB:win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+FingerAB:ecn(r=y%df=n%w=1020%o=m218%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=100-10a%gcd=1-6%isr=fe-112%ti=z%ii=ri%ci=)
+FingerB:seq(sp=105%gcd=1%isr=fc%ii=i%ci=i)
+
+FingerA:ecn(t=100%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=100%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t2(t=100%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t4(t=100%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=100%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=100%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=100%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=100%tg=ff)
+FingerB:u1(t=3d%r=y)
+
+FingerA:ie(t=100%tg=ff)
+FingerB:ie(t=3d%r=y)
+
+
+

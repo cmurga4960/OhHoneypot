@@ -1,0 +1,71 @@
+Fingerprint: Cisco 2500- or 5500-series Wireless Controller (AireOS 7 - 8)
+Class: Cisco | AireOS || remote management
+CPE: cpe:/o:cisco:aireos auto
+seq(sp=c2-cc%gcd=1-6%isr=c3-d3%ti=z%ci=i%ii=ri%ts=8)
+ops(o1=m56est11nw6%o2=m56est11nw6%o3=m56ennt11nw6%o4=m56est11nw6%o5=m56est11nw6%o6=m56est11)
+win(w1=1588%w2=1588%w3=1588%w4=1588%w5=1588%w6=1588)
+ecn(r=y%df=y%t=3b-45%tg=40%w=15b8%o=m56ennsnw6%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=eb-f5%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=eb-f5%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=7b-85%tg=80%cd=s)
+********************************************************
+Fingerprint: Cisco 2500- or 5500-series Wireless Controller (AireOS 7 - 8) (96%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (94%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (93%), OpenWrt White Russian 0.9 (Linux 2.4.30) (93%), Cisco 2500-series Wireless LAN Controller (AireOS) (93%), Cisco Virtual Wireless LAN Controller (vWLC) (92%), Linux 2.4.18 (91%), OpenWrt (Linux 2.4.30 - 2.4.34) (91%), Toshiba Magnia SG10 server appliance (Linux 2.4.18) (91%), Cisco AireOS 8.0.140.0 (90%)
+seq(sp=106%gcd=1%isr=fd%ci=i)
+ops(o1=m56est11nw6%o2=m56est11nw6%o3=m56ennt11nw6%o4=m56est11nw6%o5=m56est11nw6%o6=m56est11)
+win(w1=1588%w2=1588%w3=1588%w4=1588%w5=1588%w6=1588)
+ecn(r=y%df=y%t=40%w=15b8%o=m56ennsnw6%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ops(o1=m56est11nw6%o2=m56est11nw6%o3=m56ennt11nw6%o4=m56est11nw6%o5=m56est11nw6%o6=m56est11)
+FingerAB:win(w1=1588%w2=1588%w3=1588%w4=1588%w5=1588%w6=1588)
+FingerAB:ecn(r=y%df=y%w=15b8%o=m56ennsnw6%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c2-cc%gcd=1-6%isr=c3-d3%ti=z%ii=ri%ts=8)
+FingerB:seq(sp=106%gcd=1%isr=fd)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=eb-f5%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=eb-f5%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=7b-85%tg=80%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,57 @@
+Fingerprint: BinTec R1200 WAP
+Class: BinTec | embedded || WAP
+CPE: cpe:/h:bintec:r1200 auto
+seq(sp=4c-7c%gcd=1-6%isr=8a-94%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=n%t=6e-78%tg=80%w=4000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=6d-78%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=6e-78%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=6e-78%tg=80%ipl=38%un=0|128%ripl=g%rid=0%ripck=i%ruck=g%rud=g)
+ie(dfi=s%t=6e-78%tg=80%cd=s)
+********************************************************
+Fingerprint: Microsoft Windows Server 2003 SP2 (98%), BinTec RS232bw ADSL modem (96%), BinTec R1200 WAP (96%), Microsoft Windows Server 2003 (91%), Cisco ACE load balancer (91%), Netopia 3386 ADSL router (90%), Beat MIB MusicButler (89%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (88%), Dell Remote Access Controller 4/I (88%), Huawei Secospace USG6680 firewall (88%)
+seq(sp=108%gcd=1%isr=ff%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=n%tg=80%w=4000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+FingerAB:ecn(r=y%df=n%tg=80%w=4000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+--- Diff Values ---
+FingerA:seq(sp=4c-7c%gcd=1-6%isr=8a-94%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=108%gcd=1%isr=ff)
+
+FingerA:ecn(t=6e-78)
+FingerA:t1(t=6d-78)
+FingerA:t5(t=6e-78)
+FingerA:u1(df=n%t=6e-78%tg=80%ipl=38%un=0|128%ripl=g%rid=0%ripck=i%ruck=g%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(dfi=s%t=6e-78%tg=80%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

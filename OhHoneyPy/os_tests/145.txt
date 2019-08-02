@@ -1,0 +1,76 @@
+Fingerprint: AmigaOS 3.1 - 3.9
+Class: Amiga | AmigaOS | 3.X | general purpose
+CPE: cpe:/o:amiga:amigaos:3 auto
+seq(sp=b-15%gcd=fa00|1f400|2ee00|3e800|4e200%isr=96-a0%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=1c84%w2=1b58%w3=1e00%w4=1c84|2000%w5=1f68%w6=1f0e)
+ecn(r=y%df=n%t=37-41%tg=40%w=1c84%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=37-41%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=37-41%tg=40%w=1f0e%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=37-41%tg=40%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=37-41%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=37-41%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=37-41%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=15c%rid=g%ripck=z%ruck=0%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: AmigaOS 3.1 - 3.9 (95%), Allen-Bradley PLC-5 programmable logic controller (93%), StorageTek L1400M tape library (92%), HP E1200 Network Storage Router NAS device or SonicWALL SOHO3 firewall (92%), QNX RTOS 4.25 (92%), HP ProCurve 4104gl or 4108gl switch (91%), Microware OS-9/68000 3.0.3 (91%), Blue Coat proxy server (SGOS 3.2.4.8) (90%), Alcatel OmniSwitch 7000 (90%), Canon imageRUNNER C3200 printer or Polycom SoundStation IP 4000 VoIP phone (90%)
+seq(sp=108%gcd=1%isr=100%ci=i%ts=u)
+ecn(r=y%df=n%t=40%w=1c84%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=1f0e%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=40%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=15c%rid=g%ripck=z%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ecn(r=y%df=n%w=1c84%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=1f0e%s=o%a=o%f=a%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=15c%rid=g%ripck=z%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=b-15%gcd=fa00|1f400|2ee00|3e800|4e200%isr=96-a0%ti=i%ii=i%ss=s)
+FingerB:seq(sp=108%gcd=1%isr=100)
+
+FingerA:ecn(t=37-41%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=37-41%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=37-41%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=37-41%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=37-41%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=37-41%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=37-41%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerA:win(w1=1c84%w2=1b58%w3=1e00%w4=1c84|2000%w5=1f68%w6=1f0e)
+
+

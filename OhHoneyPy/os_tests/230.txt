@@ -1,0 +1,63 @@
+Fingerprint: Apple iPod touch audio player (iPhone OS 1.1.2 - 1.1.4, Darwin 9.0.0d1)
+Class: Apple | iPhone OS | 1.X | media device
+CPE: cpe:/o:apple:iphone_os:1 auto
+seq(sp=0-5%gcd=1-6%isr=15-1f%ti=i%ts=1%ii=%ci=)
+ops(o1=m5b4nw0nnt11sll%o2=m5b4nw0nnt11sll%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11sll%o5=m5b4nw0nnt11sll%o6=m5b4nnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=ffff%o=m5b4nw0sll%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Apple Mac OS X 10.4.10 (Tiger) (Darwin 8.10.0, PowerPC) (99%), Apple iPod touch audio player (iPhone OS 1.1.2 - 1.1.4, Darwin 9.0.0d1) (96%), FreeBSD 6.2-RELEASE (96%), Apple Mac OS X 10.4.8 - 10.4.11 (Tiger) (Darwin 8.8.0 - 8.11.1) (94%), Apple Mac OS X 10.4.9 - 10.4.10 (Tiger) (Darwin 8.11.0 - 8.11.1, PowerPC) (94%), Apple iOS 4.3.1 - 4.3.5 (93%), Apple Mac OS X 10.4 (Tiger) (Darwin 8.11.0) (93%), Apple Mac OS X 10.4.10 (Tiger) (Darwin 8.10.1) (93%), Apple Mac OS X 10.4.10 - 10.4.11 (Tiger) (Darwin 8.10.0 - 8.11.1) (93%), Apple iOS 4.1 - 4.2.1 (92%)
+seq(sp=102%gcd=1%isr=f8)
+ops(o1=m5b4nw0nnt11sll%o2=m5b4nw0nnt11sll%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11sll%o5=m5b4nw0nnt11sll%o6=m5b4nnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=40%w=ffff%o=m5b4nw0sll%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw0nnt11sll%o2=m5b4nw0nnt11sll%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11sll%o5=m5b4nw0nnt11sll%o6=m5b4nnt11sll)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=y%w=ffff%o=m5b4nw0sll%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-5%gcd=1-6%isr=15-1f%ti=i%ts=1%ii=%ci=)
+FingerB:seq(sp=102%gcd=1%isr=f8)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

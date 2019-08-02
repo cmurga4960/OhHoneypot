@@ -1,0 +1,65 @@
+Fingerprint: 3Com 5500-EI switch
+Class: 3Com | embedded || switch
+CPE: cpe:/h:3com:5500-ei auto
+seq(sp=b-15%gcd=fa00|1f400|2ee00|3e800|4e200%isr=96-a0%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=fb-105%tg=ff%w=2000%o=m5b4%cc=n)
+t1(r=y%df=n%t=fb-105%tg=ff%s=o%a=o|s+%f=as%rd=0)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=fb-105%tg=ff%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fb-105%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=fb-105%tg=ff%cd=s)
+********************************************************
+Fingerprint: 3Com Switch 4200G (94%), Huawei Quidway S5600 switch (90%), 3Com 5500-EI switch (89%), Huawei Secospace USG6680 firewall (89%), Huawei AP6050DN WAP (89%), Huawei VRP 3 switch (89%), Cisco 2600 router (IOS 11.3) (86%), 3Com 4500G switch (86%), Huawei MA5200 router (86%), 3Com 4200G or Huawei Quidway S5600 switch (85%)
+seq(sp=f9%gcd=1%isr=ef%ii=ri%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=ff%w=2000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=y%dfi=s%t=fa%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%w=2000%o=m5b4%cc=n)
+FingerAB:t1(r=y%df=n%s=o%f=as%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=b-15%gcd=fa00|1f400|2ee00|3e800|4e200%isr=96-a0%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=f9%gcd=1%isr=ef%ii=ri)
+
+FingerA:ecn(t=fb-105%tg=ff)
+FingerB:ecn(t=ff%q=)
+
+FingerA:t1(t=fb-105%tg=ff%a=o|s+)
+FingerB:t1(t=ff%a=o%q=)
+
+FingerA:t5(t=fb-105%tg=ff)
+FingerB:t5(t=ff%o=%q=)
+
+FingerA:u1(t=fb-105%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(t=fb-105%tg=ff)
+FingerB:ie(t=fa%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

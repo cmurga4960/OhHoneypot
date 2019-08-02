@@ -1,0 +1,65 @@
+Fingerprint: OpenWrt Kamikaze 8.09 (Linux 2.4.35.4)
+Class: Linux | Linux | 2.4.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.4.35.4 auto
+seq(sp=bf-c9%gcd=1-6%isr=ce-d8%ti=z%ci=z%ii=i%ts=u)
+ops(o1=m5b4nnsnw0%o2=m5b4nnsnw0%o3=m5b4nw0%o4=m5b4nnsnw0%o5=m5b4nnsnw0%o6=m5b4nns)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw0%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: AXIS 210A or 211 Network Camera (Linux 2.6.17) (99%), ASUS RT-N56U WAP (Linux 3.4) (98%), Linux 3.1 (98%), Linux 3.16 (98%), Linux 3.2 (98%), Check Point VPN-1 UTM appliance (95%), OpenWrt Kamikaze 8.09 (Linux 2.4.35.4) (95%), DD-WRT v23 (Linux 2.4.37) (95%), Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (95%), Linux 2.4.26 (Slackware 10.0.0) (95%)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nnsnw0%cc=y%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nnsnw0%cc=y%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:seq(sp=bf-c9%gcd=1-6%isr=ce-d8%ti=z%ci=z%ii=i%ts=u)
+FingerA:ops(o1=m5b4nnsnw0%o2=m5b4nnsnw0%o3=m5b4nw0%o4=m5b4nnsnw0%o5=m5b4nnsnw0%o6=m5b4nns)
+FingerA:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerA:t7(r=n)
+
+

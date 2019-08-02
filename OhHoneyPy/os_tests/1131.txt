@@ -1,0 +1,70 @@
+Fingerprint: Dell Integrated Remote Access Controller (iDRAC5)
+Class: Dell | embedded || remote management
+CPE: cpe:/h:dell:remote_access_card:5
+seq(sp=be-c8%gcd=1-6%isr=c5-cf%ti=z%ci=z%ii=i%ts=7)
+ops(o1=m578st11nw0%o2=m578st11nw0%o3=m578nnt11nw0%o4=m578st11nw0%o5=m578st11nw0%o6=m578st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m578nnsnw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: OpenWrt Kamikaze 7.09 (Linux 2.6.22) (98%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (96%), OpenWrt White Russian 0.9 (Linux 2.4.30) (96%), Dell Integrated Remote Access Controller (iDRAC5) (95%), Linux 2.6.9 (CentOS 4.3) (93%), Linux 2.6.24 (93%), Linux 2.4.18 (93%), OpenWrt (Linux 2.4.30 - 2.4.34) (92%), OpenWrt (Linux 2.4.32) (92%), Control4 HC-300 home controller (92%)
+seq(sp=102%gcd=1%isr=f9%ci=i)
+ops(o1=m578st11nw0%o2=m578st11nw0%o3=m578nnt11nw0%o4=m578st11nw0%o5=m578st11nw0%o6=m578st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=40%w=16d0%o=m578nnsnw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m578st11nw0%o2=m578st11nw0%o3=m578nnt11nw0%o4=m578st11nw0%o5=m578st11nw0%o6=m578st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m578nnsnw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=be-c8%gcd=1-6%isr=c5-cf%ti=z%ci=z%ii=i%ts=7)
+FingerB:seq(sp=102%gcd=1%isr=f9%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

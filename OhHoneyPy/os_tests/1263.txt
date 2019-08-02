@@ -1,0 +1,66 @@
+Fingerprint: Enterasys XP-8000 switch
+Class: Enterasys | embedded || router
+CPE: cpe:/h:enterasys:xp-8000 auto
+seq(sp=92-9c%gcd=1-6%isr=98-a2%ti=i%ii=i%ss=s%ts=1%ci=)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=43e0%w2=4110%w3=423c%w4=4074%w5=4180%w6=403d)
+ecn(r=y%df=y%t=3a-44%tg=40%w=4470%o=m5b4nw0%cc=n)
+t1(r=y%df=y%t=3a-44%tg=40%s=o%a=s+%f=as%rd=0)
+t2(r=n)
+t3(r=y%df=y%t=3a-44%tg=40%w=403d%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0)
+t4(r=n)
+t5(r=y%df=n%t=3a-44%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=f9-103%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=f9-103%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco EPC3925 cable modem (98%), Enterasys XP-8000 switch (97%), RCA DCM425C cable modem (95%), Ambit U10C018 or Cisco EPC3925 cable modem, or Tandberg video conferencing system (95%), VxWorks (95%), VIPA PLC CPU (95%), Cisco EPC3212 or Scientific Atlanta WebSTAR EPX2203 cable modem (94%), Motorola SVG1202 router (93%), Scientific Atlanta WebSTAR EPC2203 cable modem (93%), Enterasys SSR router or XP switch (93%)
+seq(sp=ff%gcd=1%isr=f6)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=43e0%w2=4110%w3=423c%w4=4074%w5=4180%w6=403d)
+ecn(r=y%df=y%t=40%w=4470%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=403d%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0%q=)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerAB:win(w1=43e0%w2=4110%w3=423c%w4=4074%w5=4180%w6=403d)
+FingerAB:ecn(r=y%df=y%w=4470%o=m5b4nw0%cc=n)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=403d%s=o%a=s+%f=as%o=m5b4nw0nnt11%rd=0)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=92-9c%gcd=1-6%isr=98-a2%ti=i%ii=i%ss=s%ts=1%ci=)
+FingerB:seq(sp=ff%gcd=1%isr=f6)
+
+FingerA:ecn(t=3a-44%tg=40)
+FingerB:ecn(t=40%q=)
+
+FingerA:t1(t=3a-44%tg=40)
+FingerB:t1(t=40%q=)
+
+FingerA:t3(t=3a-44%tg=40)
+FingerB:t3(t=40%q=)
+
+FingerA:t5(t=3a-44%tg=40)
+FingerB:t5(t=40%o=%q=)
+
+FingerA:u1(t=f9-103%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=f9-103%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

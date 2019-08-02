@@ -1,0 +1,76 @@
+Fingerprint: Linux 2.6.18 (Centos 5.3)
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6.18
+seq(sp=c5-cf%gcd=1-6%isr=c7-d1%ti=z%ii=i%ts=a%ci=)
+ops(o1=m5b4st11nw7%o2=m5b4st11nw7%o3=m5b4nnt11nw7%o4=m5b4st11nw7%o5=m5b4st11nw7%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=42%tg=40%w=16d0%o=m5b4nnsnw7%cc=n%q=)
+t1(r=y%df=y%t=42%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=42%tg=40%w=16a0%s=o%a=o|s+%f=a|as%o=nnt11|m5b4st11nw7%rd=0%q=)
+t4(r=y%df=y%t=42%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=42%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=42%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=42%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=42%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=c78a%rud=g)
+ie(dfi=n%t=42%tg=40%cd=s)
+********************************************************
+Fingerprint: Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (92%), AXIS 211A Network Camera (Linux 2.6.20) (92%), Belkin Wireless Pre-N Router (92%), Extreme Networks ExtremeXOS 12.5.1 or 15.3 (92%), Linux 2.6.17 (92%), Linux 2.6.8 (Debian 3.1) (92%), Linux 2.6.18 (Centos 5.3) (92%), Linux 2.6.16 (92%), Linux 2.6.18 (92%), Avocent/Cyclades ACS 6000 (92%)
+Class: Linux 2.6.X|2.4.X (92%), Asus embedded (92%), AXIS embedded (92%), Belkin embedded (92%), Extreme Networks ExtremeXOS 15.X|12.X (92%), Avocent embedded (92%), Linksys embedded (92%)
+CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/h:asus:rt-n10 cpe:/h:axis:211_network_camera cpe:/o:linux:linux_kernel:2.6.20 cpe:/o:extremenetworks:extremexos:15.3 cpe:/o:extremenetworks:extremexos:12.5.1 cpe:/h:linksys:wrv54g cpe:/o:linux:linux_kernel:2.4.19
+seq(ii=i)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nnsnw7%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=16a0%s=o%a=o%f=as%o=nnt11%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=c78a%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nnsnw7%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16a0%s=o%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=c78a%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c5-cf%gcd=1-6%isr=c7-d1%ti=z%ts=a%ci=)
+FingerA:ecn(t=42%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=42%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=42%tg=40%a=o|s+%f=a|as%o=nnt11|m5b4st11nw7)
+FingerB:t3(t=40%a=o%f=as%o=nnt11)
+
+FingerA:t4(t=42%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=42%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=42%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=42%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=42%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=42%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b4st11nw7%o2=m5b4st11nw7%o3=m5b4nnt11nw7%o4=m5b4st11nw7%o5=m5b4st11nw7%o6=m5b4st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+
+

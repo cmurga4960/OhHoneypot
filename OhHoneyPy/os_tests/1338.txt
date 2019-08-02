@@ -1,0 +1,57 @@
+Fingerprint: Fortinet FortiSwitch-124B-POE switch
+Class: Fortinet | embedded || switch
+CPE: cpe:/h:fortinet:fortiswitch-124b-poe
+seq(sp=c-16%gcd=a|14|1e|28|32%isr=1e-28%ti=i%ii=ri%ss=o|s%ts=u%ci=)
+ops(o1=m5b4%o2=m578%o3=m5b4%o4=m5b4%o5=m218%o6=m109)
+win(w1=1800%w2=1800%w3=1800%w4=1800%w5=1800%w6=1800)
+ecn(r=y%df=y%t=fa-104%tg=ff%w=3%o=%cc=n%q=u)
+t1(r=y%df=y%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=fa-104%tg=ff%w=7a69%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(r=n)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Fortinet FortiSwitch-124B-POE switch (91%), Cisco 3550 switch (IOS 12.2) (85%)
+Class: Fortinet embedded (91%), Cisco IOS 12.X (85%)
+CPE: cpe:/h:fortinet:fortiswitch-124b-poe cpe:/h:cisco:3550_switch cpe:/o:cisco:ios:12.2
+seq(sp=108%gcd=1%isr=fe%ts=u)
+ops(o1=m5b4%o2=m578%o3=m5b4%o4=m5b4%o5=m218%o6=m109)
+win(w1=1800%w2=1800%w3=1800%w4=1800%w5=1800%w6=1800)
+ecn(r=y%df=y%tg=ff%w=3%o=%cc=n%q=u)
+t1(r=y%df=y%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%tg=ff%w=7a69%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m578%o3=m5b4%o4=m5b4%o5=m218%o6=m109)
+FingerAB:win(w1=1800%w2=1800%w3=1800%w4=1800%w5=1800%w6=1800)
+FingerAB:ecn(r=y%df=y%tg=ff%w=3%o=%cc=n%q=u)
+FingerAB:t1(r=y%df=y%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%tg=ff%w=7a69%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=a|14|1e|28|32%isr=1e-28%ti=i%ii=ri%ss=o|s%ci=)
+FingerB:seq(sp=108%gcd=1%isr=fe)
+
+FingerA:ecn(t=fa-104)
+FingerA:t1(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

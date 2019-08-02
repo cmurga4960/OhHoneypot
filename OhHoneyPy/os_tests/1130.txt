@@ -1,0 +1,64 @@
+Fingerprint: Dell Integrated Remote Access Controller (iDRAC)
+Class: Dell | embedded || remote management
+seq(sp=d7-e1%gcd=1-6%isr=d2-dc%ti=z%ii=i%ts=7%ci=)
+ops(o1=m564st11nw2%o2=m564st11nw2%o3=m564nnt11nw2%o4=m564st11nw2%o5=m564st11nw2%o6=m564st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m564nnsnw2%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Linux 2.6.9 - 2.6.18 (97%), Dell Integrated Remote Access Controller (iDRAC) (96%), Cisco SA520 firewall (Linux 2.6) (96%), Dell Remote Access Controller (DRAC 6) (96%), Tomato 1.27 - 1.28 (Linux 2.4.20) (92%), Linux 2.6.18 - 2.6.22 (92%), Linux 3.2.0 (92%), Linux 2.6.11 (92%), SonicWALL Aventail EX-1500 SSL VPN appliance (92%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (91%)
+Class: Linux 2.6.X|2.4.X|3.X (97%), Dell embedded (96%), Cisco embedded (96%), SonicWALL embedded (92%), Acorp embedded (90%)
+CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/h:cisco:sa520 cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:3.2.0 cpe:/o:sonicwall:aventail_ex-1500 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:cisco:cp_8945
+seq(sp=f0%gcd=1%isr=e6)
+ops(o1=m564st11nw2%o2=m564st11nw2%o3=m564nnt11nw2%o4=m564st11nw2%o5=m564st11nw2%o6=m564st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=40%w=16d0%o=m564nnsnw2%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m564st11nw2%o2=m564st11nw2%o3=m564nnt11nw2%o4=m564st11nw2%o5=m564st11nw2%o6=m564st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m564nnsnw2%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=d7-e1%gcd=1-6%isr=d2-dc%ti=z%ii=i%ts=7%ci=)
+FingerB:seq(sp=f0%gcd=1%isr=e6)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

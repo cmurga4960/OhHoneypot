@@ -1,0 +1,77 @@
+Fingerprint: Blue Coat SG210 proxy server (SGOS 5.2.3.3 - 5.2.3.9)
+Class: Blue Coat | SGOS | 5.X | proxy server
+CPE: cpe:/o:bluecoat:sgos:5 auto
+seq(sp=fd-109%gcd=1-6%isr=103-10d%ti=i%ii=i%ss=s%ts=a%ci=)
+ops(o1=m5b4nw0st11llll%o2=m5b4nw0st11llll%o3=m5b4nw0nnt11%o4=m5b4nw0st11llll%o5=m5b4nw0st11llll%o6=m5b4st11llll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%t=3b-45%tg=40%w=ffff%o=m5b4nw0sll%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=ffff%s=o%a=s+%f=as%o=m5b4nw0st11llll%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Blue Coat SG210 proxy server (SGOS 5.2.3.3 - 5.2.3.9) (98%), Blue Coat SG510 or SG9000 proxy server (SGOS 5.2.2.5 - 5.5.4.1) (97%), Blue Coat CacheFlow 5000 proxy server (97%), IBM AIX 7.2 (96%), FreeNAS 0.686b (FreeBSD 6.2-RELEASE) (94%), Blue Coat SGOS 5.5.3.1 (94%), IBM AIX 6.1 (94%), IBM AIX 7.1 (94%), FreeBSD daemon 4.5-RELEASE (94%), Blue Coat SG510-series proxy server (SGOS 5.1.3.7) (93%)
+seq(sp=108%gcd=1%isr=fe%ci=i)
+ops(o1=m5b4nw0st11llll%o2=m5b4nw0st11llll%o3=m5b4nw0nnt11%o4=m5b4nw0st11llll%o5=m5b4nw0st11llll%o6=m5b4st11llll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%t=40%w=ffff%o=m5b4nw0sll%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=ffff%s=o%a=s+%f=as%o=m5b4nw0st11llll%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw0st11llll%o2=m5b4nw0st11llll%o3=m5b4nw0nnt11%o4=m5b4nw0st11llll%o5=m5b4nw0st11llll%o6=m5b4st11llll)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=n%w=ffff%o=m5b4nw0sll%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=ffff%s=o%a=s+%f=as%o=m5b4nw0st11llll%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fd-109%gcd=1-6%isr=103-10d%ti=i%ii=i%ss=s%ts=a%ci=)
+FingerB:seq(sp=108%gcd=1%isr=fe%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

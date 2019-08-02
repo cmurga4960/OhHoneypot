@@ -1,0 +1,64 @@
+Fingerprint: Cisco 7200 router (IOS 12.4)
+Class: Cisco | IOS | 12.X | router
+CPE: cpe:/o:cisco:ios:12.4 auto
+seq(sp=fe-108%gcd=1-6%isr=107-111%ti=rd%ii=ri%ts=a%ci=)
+ops(o1=m20ct11ll%o2=m20ct11ll%o3=m20ct11ll%o4=m20ct11ll%o5=m20ct11ll%o6=m109t11ll)
+win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+ecn(r=y%df=n%t=fb-105%tg=ff%w=1020%o=m218%cc=n%q=)
+t1(r=y%df=n%t=fb-105%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=fb-105%tg=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fb-105%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fb-105%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco 7200 router (IOS 12.4) (93%), Cisco 2811 router (IOS 12.X) (89%), AVtech Room Alert 26W environmental monitor (89%), Cisco 870, 2821, 6506, or 7206VXR router (IOS 12.2 - 15.1) (88%), Cisco IOS 15.2 - 15.5 (88%), Cisco Catalyst 2950 switch (87%), Cisco Catalyst 2960 or 3600 switch (IOS 12.3) (87%), Cisco Aironet 1042N WAP (IOS 15.2) (87%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (87%), Cisco 5300 router (IOS 12.3) (87%)
+seq(sp=108%gcd=1%isr=ff%ii=i)
+ops(o1=m20ct11ll%o2=m20ct11ll%o3=m20ct11ll%o4=m20ct11ll%o5=m20ct11ll%o6=m109t11ll)
+win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+ecn(r=y%df=n%t=ff%w=1020%o=m218%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3d%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m20ct11ll%o2=m20ct11ll%o3=m20ct11ll%o4=m20ct11ll%o5=m20ct11ll%o6=m109t11ll)
+FingerAB:win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+FingerAB:ecn(r=y%df=n%w=1020%o=m218%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=fe-108%gcd=1-6%isr=107-111%ti=rd%ii=ri%ts=a%ci=)
+FingerB:seq(sp=108%gcd=1%isr=ff%ii=i)
+
+FingerA:ecn(t=fb-105%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fb-105%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t5(t=fb-105%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:u1(t=fb-105%tg=ff)
+FingerB:u1(t=3d%r=y)
+
+FingerA:ie(t=fb-105%tg=ff)
+FingerB:ie(t=3d%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

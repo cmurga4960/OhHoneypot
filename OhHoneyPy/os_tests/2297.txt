@@ -1,0 +1,60 @@
+Fingerprint: Linksys SPA921 SIP VoIP phone
+Class: Linksys | embedded || VoIP phone
+CPE: cpe:/h:linksys:spa921_1-line_ip_phone_with_1-port_ethernet
+seq(sp=101-10b%gcd=1-6%isr=101-113%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b0%o2=m5b0%o3=m5b0%o4=m5b0%o5=m5b0%o6=m5b0)
+win(w1=3e80%w2=3e80%w3=3e80%w4=3e80%w5=3e80%w6=3e80)
+ecn(r=y%df=n%t=f5-ff%tg=ff%w=3e80%o=m5b0%cc=n%q=)
+t1(r=y%df=n%t=f5-ff%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=f5-ff%tg=ff%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=f5-ff%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=f5-ff%tg=ff%cd=s)
+********************************************************
+Fingerprint: Linksys SPA921 SIP VoIP phone (93%), Sipura SPA3000 VoIP adapter (90%), HP ProLiant BL p-Class C-Gbe2 switch (90%), Motorola 2210-02 ADSL modem (90%), Netopia 3366 ADSL router (90%), Netopia 3386 ADSL router (90%), SCO UnixWare 8.0.0 (90%), Sensatronics EM1 environmental monitor (90%), Teltronics NET-PATH intrusion detection system (90%), ZyXEL ZyWALL 5 firewall (ZyNOS 4.04) (90%)
+seq(ii=i)
+ecn(r=y%df=n%t=ff%w=3e80%o=m5b0%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=n%w=3e80%o=m5b0%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=arf%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=101-10b%gcd=1-6%isr=101-113%ti=i%ss=s%ts=u%ci=)
+FingerA:ecn(t=f5-ff%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(r=y%df=n%t=f5-ff%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t5(t=f5-ff%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:u1(t=f5-ff%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=f5-ff%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b0%o2=m5b0%o3=m5b0%o4=m5b0%o5=m5b0%o6=m5b0)
+FingerA:win(w1=3e80%w2=3e80%w3=3e80%w4=3e80%w5=3e80%w6=3e80)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

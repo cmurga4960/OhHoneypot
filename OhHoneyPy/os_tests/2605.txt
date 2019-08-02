@@ -1,0 +1,80 @@
+Fingerprint: Linux 2.6.18 - 2.6.32
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6 auto
+seq(sp=c9-d3%gcd=1-6%isr=c7-d8%ti=z%ii=i%ts=8|a%ci=)
+ops(o1=m5b4st11nw1|m5b4st11nw4|m5b4st11nw6|m5b4st11nw7|m5b4st11nw8|m5b4st11nw9%o2=m5b4st11nw1|m5b4st11nw4|m5b4st11nw6|m5b4st11nw7|m5b4st11nw8|m5b4st11nw9%o3=m5b4nnt11nw1|m5b4nnt11nw4|m5b4nnt11nw6|m5b4nnt11nw7|m5b4nnt11nw8|m5b4nnt11nw9%o4=m5b4st11nw1|m5b4st11nw4|m5b4st11nw6|m5b4st11nw7|m5b4st11nw8|m5b4st11nw9%o5=m5b4st11nw1|m5b4st11nw4|m5b4st11nw6|m5b4st11nw7|m5b4st11nw8|m5b4st11nw9%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw1|m5b4nnsnw4|m5b4nnsnw6|m5b4nnsnw7|m5b4nnsnw8|m5b4nnsnw9%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: CyanogenMod 12 (Android 5.0) (96%), Linux 2.6.18 - 2.6.32 (96%), Linux 2.6.22 (SPARC) (96%), Linux 2.6.24 - 2.6.25 (96%), Linux 2.4.21 (95%), IO-Data WN-G300R WAP (Linux 2.6) (94%), Linux 2.6.27 (94%), Linux 2.6.18 - 2.6.24 (93%), Linux 4.4 (93%), EnGenius ESR-9250 WAP (93%)
+Class: CyanogenMod 12.X (96%), Google Android 5.X (96%), Linux 2.6.X|2.4.X (96%), IO-Data embedded (94%), EnGenius embedded (93%), Konica Minolta embedded (93%), AT&T embedded (93%)
+CPE: cpe:/o:cyanogenmod:cyanogenmod:12 cpe:/o:google:android:5.0 cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:2.4.21 cpe:/h:io-data:wn-g300r cpe:/o:linux:linux_kernel:4.4 cpe:/h:engenius:esr-9250 cpe:/h:konicaminolta:bizhub_c450
+seq(ci=i)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nnsnw1%cc=n%q=)
+t1(r=n)
+t2(r=y%df=y%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%t=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=16d0%cc=n%q=)
+FingerAB:t2(r=y%df=y%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=y%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c9-d3%gcd=1-6%isr=c7-d8%ti=z%ii=i%ts=8|a%ci=)
+FingerB:seq(ci=i)
+
+FingerA:ecn(t=3b-45%tg=40%o=m5b4nnsnw1|m5b4nnsnw4|m5b4nnsnw6|m5b4nnsnw7|m5b4nnsnw8|m5b4nnsnw9)
+FingerB:ecn(t=40%o=m5b4nnsnw1)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t2(t=3b-45%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b4st11nw1|m5b4st11nw4|m5b4st11nw6|m5b4st11nw7|m5b4st11nw8|m5b4st11nw9%o2=m5b4st11nw1|m5b4st11nw4|m5b4st11nw6|m5b4st11nw7|m5b4st11nw8|m5b4st11nw9%o3=m5b4nnt11nw1|m5b4nnt11nw4|m5b4nnt11nw6|m5b4nnt11nw7|m5b4nnt11nw8|m5b4nnt11nw9%o4=m5b4st11nw1|m5b4st11nw4|m5b4st11nw6|m5b4st11nw7|m5b4st11nw8|m5b4st11nw9%o5=m5b4st11nw1|m5b4st11nw4|m5b4st11nw6|m5b4st11nw7|m5b4st11nw8|m5b4st11nw9%o6=m5b4st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+
+

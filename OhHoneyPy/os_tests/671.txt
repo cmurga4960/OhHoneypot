@@ -1,0 +1,71 @@
+Fingerprint: Canon PIXMA MG5200 printer
+Class: Canon | embedded || printer
+CPE: cpe:/h:canon:pixma_mg5200 auto
+seq(sp=1e-28%gcd=3200|6400|9600|c800|fa00%isr=107-111%ti=rd%ci=ri%ii=ri%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m5b4%o5=m218%o6=m109)
+win(w1=2d00%w2=2d00%w3=2d00%w4=2d00%w5=2d00%w6=2d00)
+ecn(r=y%df=n%t=3b-45%tg=40%w=2d00%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Canon PIXMA MG5200 printer (93%), Nintendo Wii game console (92%), Canon VB-C300 IP camera (91%), Huawei CloudEngine CE6800 switch (91%), NEC UNIVERGE SV8100 PBX (91%), HP LaserJet 4250 printer (91%), Huawei VRP 8.100 (91%), 3Com SuperStack 3 Switch 3870 (90%), TP-LINK TL-WPS510U print server (90%), Epson Stylus Pro 400 printer (90%)
+seq(sp=106%gcd=1%isr=fd%ci=i%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m5b4%o5=m218%o6=m109)
+win(w1=2d00%w2=2d00%w3=2d00%w4=2d00%w5=2d00%w6=2d00)
+ecn(r=y%df=n%t=40%w=2d00%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m578%o3=m280%o4=m5b4%o5=m218%o6=m109)
+FingerAB:win(w1=2d00%w2=2d00%w3=2d00%w4=2d00%w5=2d00%w6=2d00)
+FingerAB:ecn(r=y%df=n%w=2d00%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=1e-28%gcd=3200|6400|9600|c800|fa00%isr=107-111%ti=rd%ci=ri%ii=ri)
+FingerB:seq(sp=106%gcd=1%isr=fd%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

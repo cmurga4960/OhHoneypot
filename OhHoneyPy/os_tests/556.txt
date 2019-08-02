@@ -1,0 +1,66 @@
+Fingerprint: Brother NC-2100p print server
+Class: Brother | embedded || print server
+CPE: cpe:/h:brother:nc-2100p auto
+seq(sp=0-5%gcd=0%isr=0-5%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=80%w2=80%w3=80%w4=80%w5=80%w6=80)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=80%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+t3(r=y%df=n%t=fa-104%tg=ff%w=80%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s+%f=apr%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0|11a6%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Brother NC-2100p print server (95%), Allied Telesyn 8326GB switch (93%), Allied Telesyn AT-GS950 Gigabit Ethernet Switch (93%), Allied Telesis AT-9000, AT-FS750, or GS950 switch (90%), Allied Telesyn AT-8326GB or AT8350GB switch. (90%), 3Com SuperStack 3 Switch 3300 XM (88%), 3Com SuperStack 3 Switch 3300 XM, 4200, or 4400 SE (88%), 3Com SuperStack 3 Switch 4200 or 4226T (87%), 3Com SuperStack 3 Switch 4400 (87%), 3Com SuperStack Switch 4200 (87%)
+Class: Brother embedded (95%), Allied Telesyn embedded (93%), Allied Telesis embedded (90%), 3Com embedded (88%)
+CPE: cpe:/h:brother:nc-2100p cpe:/h:alliedtelesyn:at-8326gb cpe:/h:3com:superstack_3_switch_3300_xm
+seq(sp=104%gcd=1%isr=fa%ti=i%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=80%w2=80%w3=80%w4=80%w5=80%w6=80)
+ecn(r=y%df=n%tg=ff%w=80%o=m5b4%cc=n%q=)
+t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+t3(r=y%df=n%tg=ff%w=80%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=0%s=a%a=s+%f=apr%o=%rd=0%q=)
+t6(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+t7(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ti=i%ci=i%ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=80%w2=80%w3=80%w4=80%w5=80%w6=80)
+FingerAB:ecn(r=y%df=n%tg=ff%w=80%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%tg=ff%w=80%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=ff%w=0%s=a%a=s+%f=apr%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=ff%w=0%s=a%a=s%f=apr%o=%rd=0%q=)
+--- Diff Values ---
+FingerA:seq(sp=0-5%gcd=0%isr=0-5%ii=i%ss=s)
+FingerB:seq(sp=104%gcd=1%isr=fa)
+
+FingerA:ecn(t=fa-104)
+FingerA:t1(t=fa-104)
+FingerA:t2(t=fa-104)
+FingerA:t3(t=fa-104)
+FingerA:t4(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:t7(t=fa-104)
+FingerA:u1(df=n%t=fa-104%tg=ff%ipl=38%un=0|11a6%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

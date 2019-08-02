@@ -1,0 +1,69 @@
+Fingerprint: Excito B3 file server (Linux 2.6.39)
+Class: Linux | Linux | 2.6.X | general purpose
+Class: Excito | embedded || storage-misc
+CPE: cpe:/o:linux:linux_kernel:2.6.39 auto
+CPE: cpe:/h:excito:b3
+seq(sp=c8-d2%gcd=1-6%isr=cd-d7%ti=z%ci=z%ii=i%ts=7)
+ops(o1=m5b4st11nw5%o2=m5b4st11nw5%o3=m5b4nnt11nw5%o4=m5b4st11nw5%o5=m5b4st11nw5%o6=m5b4st11)
+win(w1=3890%w2=3890%w3=3890%w4=3890%w5=3890%w6=3890)
+ecn(r=y%df=y%t=3b-45%tg=40%w=3908%o=m5b4nnsnw5%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=3890%s=o%a=s+%f=as%o=m5b4st11nw5%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Excito B3 file server (Linux 2.6.39) (95%), Linux 3.0 (94%), Linux 2.6.35 (94%), DD-WRT (Linux 2.4.36) (93%), Excito Bubba Two file server (Linux 2.6.32) (92%), Linux 2.6.32 (92%), Linux 2.6.37 (92%), Cisco RV320 router (Linux 2.6.32) (92%), Linux 2.6.32 - 2.6.38 (92%), Linux 3.1 (92%)
+seq(ii=i)
+ecn(r=y%df=y%t=40%w=3908%o=m5b4nnsnw5%cc=y%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=3890%s=o%a=s+%f=as%o=m5b4st11nw5%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=y%w=3908%o=m5b4nnsnw5%cc=y%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=3890%s=o%a=s+%f=as%o=m5b4st11nw5%rd=0%q=)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c8-d2%gcd=1-6%isr=cd-d7%ti=z%ci=z%ts=7)
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b4st11nw5%o2=m5b4st11nw5%o3=m5b4nnt11nw5%o4=m5b4st11nw5%o5=m5b4st11nw5%o6=m5b4st11)
+FingerA:win(w1=3890%w2=3890%w3=3890%w4=3890%w5=3890%w6=3890)
+FingerA:t6(r=n)
+
+

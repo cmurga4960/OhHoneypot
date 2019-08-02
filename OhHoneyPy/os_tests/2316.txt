@@ -1,0 +1,71 @@
+Fingerprint: Linksys WRT610Nv3 WAP
+Class: Linksys | embedded || WAP
+CPE: cpe:/h:linksys:wrt610nv3 auto
+seq(sp=c7-d1%gcd=1-6%isr=c2-d0%ti=z%ci=z%ii=i%ts=7-9)
+ops(o1=|m5b4st11nw0%o2=|m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+win(w1=0|16a0%w2=0|16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw0%cc=n)
+t1(r=y%df=y%t=3b-45%tg=40%s=z%a=s+%f=ar|as%rd=0)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw0%rd=0)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (95%), Aastra RFP L32 IP DECT WAP (94%), Belkin Wireless Pre-N Router (94%), Brocade Fabric OS 4.4.0 (Linux 2.4.19) (94%), Linux 2.4.18 (94%), Linux 2.4.18 - 2.4.35 (likely embedded) (94%), Linux 2.4.19 (94%), Linux 2.4.20-grsec (94%), Linux 2.4.21 (94%), Linux 2.4.21 - 2.4.27 (94%)
+Class: Linux 2.6.X|2.4.X (95%), Asus embedded (95%), AXIS embedded (95%), Aastra embedded (94%), Belkin embedded (94%), Brocade Fabric OS 4.X (94%), LifeSize embedded (94%), ShoreTel embedded (94%)
+CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/h:asus:rt-n10 cpe:/h:axis:211_network_camera cpe:/o:brocade:fabric_os:4.4.0 cpe:/o:linux:linux_kernel:2.4.19 cpe:/o:linux:linux_kernel:2.4 cpe:/h:shoretel:8800
+ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nnsnw0%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%tg=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw0%rd=0%q=)
+t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=n%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nnsnw0%cc=n)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%tg=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw0%rd=0)
+FingerAB:t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t7(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=n%tg=40%cd=s)
+--- Diff Values ---
+FingerA:ecn(t=3b-45)
+FingerB:ecn(q=)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=z%a=s+%f=ar|as%rd=0)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45)
+FingerB:t3(q=)
+
+FingerA:t4(t=3b-45)
+FingerB:t4(o=%q=)
+
+FingerA:t5(t=3b-45)
+FingerB:t5(o=%q=)
+
+FingerA:t6(t=3b-45)
+FingerB:t6(o=%q=)
+
+FingerA:t7(t=3b-45)
+FingerB:t7(o=%q=)
+
+FingerA:ie(t=3b-45)
+FingerB:ie(r=y)
+
+FingerA:seq(sp=c7-d1%gcd=1-6%isr=c2-d0%ti=z%ci=z%ii=i%ts=7-9)
+FingerA:ops(o1=|m5b4st11nw0%o2=|m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+FingerA:win(w1=0|16a0%w2=0|16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+
+

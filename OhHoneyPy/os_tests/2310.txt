@@ -1,0 +1,61 @@
+Fingerprint: Linksys WGA54G WAP
+Class: Linksys | embedded || WAP
+CPE: cpe:/h:linksys:wga54g
+seq(sp=32-3c%gcd=1-6%isr=72-7c%ti=i|rd%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m578%o3=m280%o6=m109)
+win(w1=6000%w2=6000%w3=6000%w4=6000%w5=6000%w6=6000)
+ecn(r=y%df=n%t=1b-25%tg=20%w=0|6000%o=|m5b4%cc=n)
+t1(r=y%df=n%t=1b-25%tg=20%s=o%a=o|s+%f=as%rd=0)
+t2(r=n)
+t3(r=y%df=n%t=1b-25%tg=20%w=0|6000%s=o|z%a=o|s+%f=ar|as%o=|m109%rd=0)
+t4(r=n)
+t5(r=y%df=n%t=1b-25%tg=20%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=1b-25%tg=20%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=1b-25%tg=20%cd=s)
+********************************************************
+Fingerprint: Linksys WGA54G WAP (91%), Denon AVR-3808CI audio/video receiver (89%), Phoenix Contact ILC 171 ETH 2TX PLC (88%), Sony PlayStation 3 game console (87%), Cayman Systems GatorBox CS (87%), Fuji DryPix medical imager (Microsoft Windows XP Embedded) (87%), Canon PIXMA MX800-series printer (86%), Roku SoundBridge M1001 music player (86%), Brother MFC-J6510DW printer (86%), Canon i-SENSYS MF5490dn printer (86%)
+ecn(r=y%df=n%t=20%w=0%o=%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=n%t=20%w=0%s=o%a=o%f=ars%o=%rd=0%q=)
+t4(r=n)
+t5(r=y%df=n%t=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=n%cc=n)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%rd=0)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:ecn(t=1b-25%tg=20%w=0|6000%o=|m5b4)
+FingerB:ecn(t=20%w=0%o=%q=)
+
+FingerA:t1(r=y%df=n%t=1b-25%tg=20%s=o%a=o|s+%f=as%rd=0)
+FingerB:t1(r=n)
+
+FingerA:t3(t=1b-25%tg=20%w=0|6000%s=o|z%a=o|s+%f=ar|as%o=|m109)
+FingerB:t3(t=20%w=0%s=o%a=o%f=ars%o=%q=)
+
+FingerA:t5(t=1b-25%tg=20)
+FingerB:t5(t=20%o=%q=)
+
+FingerA:u1(t=1b-25%tg=20)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=1b-25%tg=20)
+FingerB:ie(t=3b%r=y)
+
+FingerA:seq(sp=32-3c%gcd=1-6%isr=72-7c%ti=i|rd%ii=i%ss=s%ts=u%ci=)
+FingerA:ops(o1=m5b4%o2=m578%o3=m280%o6=m109)
+FingerA:win(w1=6000%w2=6000%w3=6000%w4=6000%w5=6000%w6=6000)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

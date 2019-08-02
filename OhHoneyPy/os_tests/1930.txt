@@ -1,0 +1,87 @@
+Fingerprint: ADSL router: Huawei MT800u-T; or ZyXEL Prestige 623ME-T1, 643, 662HW-61, 782, or 2602R-61
+Class: Huawei | embedded || broadband router
+Class: ZyXEL | ZyNOS | 2.X | broadband router
+Class: ZyXEL | ZyNOS | 3.X | broadband router
+CPE: cpe:/o:zyxel:zynos:2 auto
+CPE: cpe:/o:zyxel:zynos:3 auto
+seq(sp=0-31%gcd=1000|2000|3000|4000|5000|a000|14000|1e000|28000|32000|3c000|64000|c8000|12c000|190000|1f4000|258000%isr=ab-b5%ti=i%ii=i%ss=o|s%ts=u%ci=)
+ops(o1=m200%o2=m200%o3=m200%o4=m200%o5=m200%o6=m200)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%t=fe%tg=ff%w=400%o=m200%cc=n%q=)
+t1(r=y%df=n%t=fe%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fe%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=fe%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=fe%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fe%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fe%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=fe%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fe%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fe%tg=ff%cd=s)
+********************************************************
+Fingerprint: ZyXEL Prestige 200 ISDN router (92%), ADSL router: Huawei MT800u-T; or ZyXEL Prestige 623ME-T1, 643, 662HW-61, 782, or 2602R-61 (92%), Netopia 3387WG-ENT broadband router (91%), Bay Networks BayStack 450 switch (software version 4.2.0.16) (90%), ZyXEL G-3000H WAP (ZyNOS 3.50) (89%), Netgear RT311 broadband router (89%), ZyXEL Prestige 600-series ADSL router (89%), Tyco 24 Port SNMP Managed Switch (89%), Adtran Total Access 5000 router (88%), Allied Telesyn AT-9006SX/SC switch (88%)
+Class: ZyXEL ZyNOS 3.X|2.X (92%), Huawei embedded (92%), Netopia embedded (91%), Bay Networks embedded (90%), Netgear embedded (89%), Tyco embedded (89%), Adtran embedded (88%)
+CPE: cpe:/o:zyxel:zynos:3 cpe:/o:zyxel:zynos:2 cpe:/h:netopia:3387wg-ent cpe:/h:baynetworks:baystack_450 cpe:/o:zyxel:zynos:3.50 cpe:/h:netgear:rt311 cpe:/o:zyxel:zynos cpe:/h:adtran:total_access_5000
+seq(sp=ff%gcd=1%isr=f5%ts=u)
+ops(o1=m200%o2=m200%o3=m200%o4=m200%o5=m200%o6=m200)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%t=ff%w=400%o=m200%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m200%o2=m200%o3=m200%o4=m200%o5=m200%o6=m200)
+FingerAB:win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+FingerAB:ecn(r=y%df=n%w=400%o=m200%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=0-31%gcd=1000|2000|3000|4000|5000|a000|14000|1e000|28000|32000|3c000|64000|c8000|12c000|190000|1f4000|258000%isr=ab-b5%ti=i%ii=i%ss=o|s%ci=)
+FingerB:seq(sp=ff%gcd=1%isr=f5)
+
+FingerA:ecn(t=fe%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fe%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t2(t=fe%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t3(t=fe%tg=ff)
+FingerB:t3(t=ff)
+
+FingerA:t4(t=fe%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fe%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fe%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fe%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fe%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fe%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

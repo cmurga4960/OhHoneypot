@@ -1,0 +1,78 @@
+Fingerprint: EMC Celerra or Clarion NAS device
+Class: EMC | embedded || storage-misc
+seq(sp=f-19%gcd=fa00|1f400|2ee00|3e800|4e200%isr=99-a3%ti=ri%ci=i|ri%ii=i%ts=1|2|3)
+ops(o1=m5b4nnsnw3nnt11%o2=m5b4nnsnw3nnt11%o3=m5b4nw3nnt11%o4=m5b4nnsnw3nnt11%o5=m5b4nnsnw3nnt11%o6=m5b4nnsnnt11)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%t=3b-45%tg=40%w=ffff%o=m5b4nnsnw3%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=ffff%s=o%a=s+%f=as%o=m5b4nnsnw3nnt11%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=4210%ripck=i%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: EMC VNX 5300 Unified SAN (96%), EMC Celerra or Clarion NAS device (95%), EMC Celerra NS350 NAS device (93%), EMC Celerra NAS device (89%), IBM OS/2 Warp 2.0 (88%), Mirapoint M450 Messaging Server (88%), F5 BIG-IP load balancer (87%), Acme Packet Net-Net 4250 VoIP session border controller (87%)
+Class: EMC embedded (96%), IBM OS/2 4.X (88%), Mirapoint embedded (88%), F5 Networks embedded (87%), Acme Packet embedded (87%)
+CPE: cpe:/o:ibm:os2:4
+seq(sp=f5%gcd=1%isr=ec%ci=i)
+ops(o1=m5b4nnsnw3nnt11%o2=m5b4nnsnw3nnt11%o3=m5b4nw3nnt11%o4=m5b4nnsnw3nnt11%o5=m5b4nnsnw3nnt11%o6=m5b4nnsnnt11)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=n%t=40%w=ffff%o=m5b4nnsnw3%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=ffff%s=o%a=s+%f=as%o=m5b4nnsnw3nnt11%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=4210%ripck=i%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nnsnw3nnt11%o2=m5b4nnsnw3nnt11%o3=m5b4nw3nnt11%o4=m5b4nnsnw3nnt11%o5=m5b4nnsnw3nnt11%o6=m5b4nnsnnt11)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=n%w=ffff%o=m5b4nnsnw3%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=ffff%s=o%a=s+%f=as%o=m5b4nnsnw3nnt11%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=4210%ripck=i%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=f-19%gcd=fa00|1f400|2ee00|3e800|4e200%isr=99-a3%ti=ri%ci=i|ri%ii=i%ts=1|2|3)
+FingerB:seq(sp=f5%gcd=1%isr=ec%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

@@ -1,0 +1,57 @@
+Fingerprint: Fortinet FortiGate-60B or -100A firewall
+Class: Fortinet | embedded || firewall
+seq(sp=102-10c%gcd=1-6%isr=105-10f%ti=bi%ts=7%ii=%ci=)
+ops(o1=m5b4st11nw0%o2=m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=n)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=1b-25%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+Fingerprint: Fortinet FortiGate-60B or -100A firewall (97%), Tomato 1.27 - 1.28 (Linux 2.4.20) (95%), Linux 2.6.18 - 2.6.22 (95%), Linux 3.2.0 (95%), DD-WRT v23 (Linux 2.4.36) (93%), MikroTik RouterOS 6.15 (Linux 3.3.5) (93%), Tomato 1.28 (Linux 2.4.20) (89%), Tomato firmware (Linux 2.6.22) (89%), Netgear ReadyNAS Duo NAS device (RAIDiator 4.1.4) (89%), Nokia E70 or N86 mobile phone (Symbian OS) (89%)
+seq(sp=ef%gcd=1%isr=e6)
+ops(o1=m5b4st11nw0%o2=m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=n)
+t1(r=y%df=y%t=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw0%o2=m5b4st11nw0%o3=m5b4nnt11nw0%o4=m5b4st11nw0%o5=m5b4st11nw0%o6=m5b4st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=y%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=102-10c%gcd=1-6%isr=105-10f%ti=bi%ts=7%ii=%ci=)
+FingerB:seq(sp=ef%gcd=1%isr=e6)
+
+FingerA:t1(t=3b-45%tg=40%a=o|s+)
+FingerB:t1(t=40%a=o)
+
+FingerA:t5(t=1b-25%tg=20)
+FingerB:t5(t=20)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

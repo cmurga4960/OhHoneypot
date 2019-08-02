@@ -1,0 +1,79 @@
+Fingerprint: Asus RT-N66U WAP (Linux 2.6)
+Class: Asus | embedded || WAP
+Class: Linux | Linux | 2.6.X | WAP
+CPE: cpe:/h:asus:rt-n66u auto
+CPE: cpe:/o:linux:linux_kernel:2.6 auto
+seq(sp=c4-ce%gcd=1-6%isr=cb-d5%ti=z%ci=z%ii=i%ts=7)
+ops(o1=m5b4st11nw7%o2=m5b4st11nw7%o3=m5b4nnt11nw7%o4=m5b4st11nw7%o5=m5b4st11nw7%o6=m5b4st11)
+win(w1=10f8%w2=10f8%w3=10f8%w4=10f8%w5=10f8%w6=10f8)
+ecn(r=y%df=y%t=3b-45%tg=40%w=111c%o=m5b4nnsnw7%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=10f8%s=o%a=s+%f=as%o=m5b4st11nw7%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Asus RT-N66U WAP (Linux 2.6) (96%), Linux 2.6.37 (OpenSUSE 11.4) (96%), OpenWrt (Linux 2.4.32) (95%), OpenWrt White Russian 0.9 (Linux 2.4.30) (95%), OpenWrt (Linux 2.4.30 - 2.4.34) (94%), Linksys RV042 router (93%), Netgear RAIDiator 4.2.28 (93%), Toshiba Magnia SG10 server appliance (Linux 2.4.18) (93%), Linksys WRV54G WAP (93%), Toshiba REGZA TV (93%)
+seq(sp=102%gcd=1%isr=f9%ci=i)
+ops(o1=m5b4st11nw7%o2=m5b4st11nw7%o3=m5b4nnt11nw7%o4=m5b4st11nw7%o5=m5b4st11nw7%o6=m5b4st11)
+win(w1=10f8%w2=10f8%w3=10f8%w4=10f8%w5=10f8%w6=10f8)
+ecn(r=y%df=y%t=40%w=111c%o=m5b4nnsnw7%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=10f8%s=o%a=s+%f=as%o=m5b4st11nw7%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw7%o2=m5b4st11nw7%o3=m5b4nnt11nw7%o4=m5b4st11nw7%o5=m5b4st11nw7%o6=m5b4st11)
+FingerAB:win(w1=10f8%w2=10f8%w3=10f8%w4=10f8%w5=10f8%w6=10f8)
+FingerAB:ecn(r=y%df=y%w=111c%o=m5b4nnsnw7%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=10f8%s=o%a=s+%f=as%o=m5b4st11nw7%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c4-ce%gcd=1-6%isr=cb-d5%ti=z%ci=z%ii=i%ts=7)
+FingerB:seq(sp=102%gcd=1%isr=f9%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

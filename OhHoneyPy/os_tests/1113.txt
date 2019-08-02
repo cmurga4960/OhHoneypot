@@ -1,0 +1,64 @@
+Fingerprint: Dell Sonicwall NSA 220 firewall
+Class: Dell | embedded || firewall
+CPE: cpe:/h:dell:sonicwall_nsa_220 auto
+seq(sp=fd-10b%gcd=1-6%isr=103-111%ti=i%ci=z%ii=i%ss=s%ts=u)
+ops(o1=nnm592snw0%o2=nnm578snw0%o3=m280nw0%o4=nnm22csnw0%o5=nnm218snw0%o6=nnm109s)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=3b-45%tg=40%w=ffff%o=nnm592snw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=ca90661c%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=9a8824a9%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=ca90661c%q=)
+t7(r=n)
+u1(r=n)
+ie(dfi=s%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: OpenWrt Kamikaze 7.09 (Linux 2.6.22) (98%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (95%), OpenWrt White Russian 0.9 (Linux 2.4.30) (95%), Dell Sonicwall NSA 220 firewall (93%), Crestron XPanel control system (92%), Apple Mac OS X 10.5.8 (Leopard) - 10.6.4 (Snow Leopard) (Darwin 9.8.0 - 10.4.0) (92%), FreeBSD 5.5-STABLE (91%), FreeBSD 6.1-RELEASE (91%), OpenBSD 4.3 (91%), Apple Mac OS X 10.3.9 (Panther) (Darwin 7.9.0, PowerPC) (91%)
+seq(sp=103%gcd=1%isr=fa%ci=i%ts=u)
+ops(o1=nnm592snw0%o2=nnm578snw0%o3=m280nw0%o4=nnm22csnw0%o5=nnm218snw0%o6=nnm109s)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%tg=40%w=ffff%o=nnm592snw0%cc=n%q=)
+t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=nnm592snw0%o2=nnm578snw0%o3=m280nw0%o4=nnm22csnw0%o5=nnm218snw0%o6=nnm109s)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=y%tg=40%w=ffff%o=nnm592snw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%q=)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%q=)
+FingerAB:t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=fd-10b%gcd=1-6%isr=103-111%ti=i%ci=z%ii=i%ss=s)
+FingerB:seq(sp=103%gcd=1%isr=fa%ci=i)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t4(t=3b-45%rd=ca90661c)
+FingerB:t4(rd=0)
+
+FingerA:t5(t=3b-45%rd=9a8824a9)
+FingerB:t5(rd=0)
+
+FingerA:t6(t=3b-45%rd=ca90661c)
+FingerB:t6(rd=0)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=z)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

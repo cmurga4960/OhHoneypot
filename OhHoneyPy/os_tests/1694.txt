@@ -1,0 +1,67 @@
+Fingerprint: HP JetDirect J8013E printer
+Class: HP | embedded || printer
+CPE: cpe:/h:hp:jetdirect_j8013e auto
+seq(sp=f8-10c%gcd=1-6%isr=106-112%ti=i%ii=i%ss=s%ts=7%ci=)
+ops(o1=m564nw0nnt11%o2=m564nw0nnt11%o3=m564nw0nnt11%o4=m564nw0nnt11%o5=m564nw0nnt11%o6=m564nnt11)
+win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+ecn(r=y%df=y%t=39-43%tg=40%w=5b4%o=m564nw0%cc=n%q=)
+t1(r=y%df=y%t=39-43%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=39-43%tg=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=39-43%tg=40%ipl=70%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=39-43%tg=40%cd=s)
+********************************************************
+Fingerprint: HP JetDirect J8013E printer (94%), FreeBSD 4.10-RELEASE (x86) (93%), FreeBSD 6.2-RELEASE (92%), Ambit U10C018 or Cisco EPC3925 cable modem, or Tandberg video conferencing system (89%), AirSpan ProST WiMAX access point (88%), HP MSA2000-series NAS device (88%), Apple Mac OS X 10.4.10 (Tiger) (Darwin 8.10.0, PowerPC) (88%), m0n0wall 1.22 - 1.23b1 firewall (FreeBSD 4.11) (88%), HP LaserJet 5550 printer (87%), Isilon IQ 200 NAS device (87%)
+Class: HP embedded (94%), FreeBSD 4.X|6.X (93%), Ambit embedded (89%), Cisco embedded (89%), Tandberg embedded (89%), AirSpan embedded (88%), Apple Mac OS X 10.4.X (88%)
+CPE: cpe:/h:hp:jetdirect_j8013e cpe:/o:freebsd:freebsd:4.10 cpe:/o:freebsd:freebsd:6.2 cpe:/h:ambit:u10c018 cpe:/h:cisco:epc3925 cpe:/o:apple:mac_os_x:10.4.10 cpe:/o:freebsd:freebsd:4.11
+seq(sp=fa%gcd=1%isr=f1%ii=i)
+ops(o1=m564nw0nnt11%o2=m564nw0nnt11%o3=m564nw0nnt11%o4=m564nw0nnt11%o5=m564nw0nnt11%o6=m564nnt11)
+win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+ecn(r=y%df=y%t=40%w=5b4%o=m564nw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ops(o1=m564nw0nnt11%o2=m564nw0nnt11%o3=m564nw0nnt11%o4=m564nw0nnt11%o5=m564nw0nnt11%o6=m564nnt11)
+FingerAB:win(w1=5b4%w2=5b4%w3=5b4%w4=5b4%w5=5b4%w6=5b4)
+FingerAB:ecn(r=y%df=y%w=5b4%o=m564nw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=f8-10c%gcd=1-6%isr=106-112%ti=i%ss=s%ts=7%ci=)
+FingerB:seq(sp=fa%gcd=1%isr=f1)
+
+FingerA:ecn(t=39-43%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=39-43%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=39-43%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=39-43%tg=40%ipl=70)
+FingerB:u1(t=3b%ipl=38%r=y)
+
+FingerA:ie(t=39-43%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

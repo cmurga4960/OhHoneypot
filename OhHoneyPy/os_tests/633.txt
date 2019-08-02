@@ -1,0 +1,57 @@
+Fingerprint: Buffalo TeraStation Pro II NAS device
+Class: Buffalo | embedded || storage-misc
+seq(sp=c7-d1%gcd=1-6%isr=ce-d8%ti=rd%ii=ri%ts=7%ci=)
+ops(o1=m4fest11nw2%o2=m4fest11nw2%o3=m4fennt11nw2%o4=m4fest11nw2%o5=m4fest11nw2%o6=m4fest11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m4fennsnw2%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=0-ffff%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: FreeBSD 6.2-RELEASE (95%), Apple AirPort Extreme WAP (92%), OpenBSD 4.0 (90%), Buffalo TeraStation Pro II NAS device (90%), Tomato 1.27 - 1.28 (Linux 2.4.20) (88%), Linux 2.6.18 - 2.6.22 (88%), Motorola RFS4000 wireless controller (87%), Linux 2.4.21 (87%), AVtech Room Alert 26W environmental monitor (86%), OpenBSD 4.3 (86%)
+Class: FreeBSD 6.X (95%), Apple embedded (92%), OpenBSD 4.X (90%), Buffalo embedded (90%), Linux 2.4.X|2.6.X (88%), Motorola embedded (87%), AVtech embedded (86%)
+CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/h:apple:airport_extreme cpe:/o:openbsd:openbsd:4.0 cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6 cpe:/h:motorola:rfs4000 cpe:/o:linux:linux_kernel:2.4.21
+seq(sp=102%gcd=1%isr=f9%ti=i)
+ops(o1=m4fest11nw2%o2=m4fest11nw2%o3=m4fennt11nw2%o4=m4fest11nw2%o5=m4fest11nw2%o6=m4fest11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%tg=40%w=16d0%o=m4fennsnw2%cc=n%q=)
+t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m4fest11nw2%o2=m4fest11nw2%o3=m4fennt11nw2%o4=m4fest11nw2%o5=m4fest11nw2%o6=m4fest11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m4fennsnw2%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+--- Diff Values ---
+FingerA:seq(sp=c7-d1%gcd=1-6%isr=ce-d8%ti=rd%ii=ri%ts=7%ci=)
+FingerB:seq(sp=102%gcd=1%isr=f9%ti=i)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=0-ffff%ripck=g%ruck=g%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

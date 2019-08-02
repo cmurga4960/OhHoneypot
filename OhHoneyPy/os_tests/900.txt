@@ -1,0 +1,83 @@
+Fingerprint: Cisco Catalyst 2912 switch (IOS 12.0)
+Class: Cisco | IOS | 12.X | switch
+CPE: cpe:/h:cisco:catalyst_2912
+CPE: cpe:/o:cisco:ios:12.0
+seq(sp=65-8f%gcd=1-6%isr=9a-a4%ti=z%ii=ri%ts=u%ci=)
+ops(o1=m22c%o2=m22c%o3=m22c%o4=m22c%o5=m22c%o6=m22c)
+win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=1020%o=m22c%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=fa-104%tg=ff%w=1020%s=o%a=s+%f=as%o=m22c%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco 2620 router (IOS 12.0) (95%), Cisco 2924M XL, 2950, or 3500XL switch (IOS 12.0) (94%), Cisco Catalyst 2912 switch (IOS 12.0) (94%), Cisco 2950 switch (IOS 12.1) (93%), Cisco 2900-series switch (IOS 12.0) (92%), Cisco Catalyst switch (IOS 12.2) (91%), Cisco Catalyst 2600-, 2900- or 3500 XL-series switch (IOS 11.3 - 12.0) (91%), Cisco 2900-series, 3650, or 3750 switch; 6509 or 7206VXR router; or uBR925 or uBR7111 cable modem (IOS 12.1 - 12.2) (91%), Cisco 806, 1712, 1721, or 2600 router (IOS 12.2 - 12.3) (91%), Cisco Catalyst 2960 switch (IOS 12.2) (91%)
+seq(sp=f9%gcd=1%isr=f0%ci=i%ii=i%ts=u)
+ops(o1=m22c%o2=m22c%o3=m22c%o4=m22c%o5=m22c%o6=m22c)
+win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+ecn(r=y%df=n%t=ff%w=1020%o=m22c%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=ff%w=1020%s=o%a=s+%f=as%o=m22c%rd=0%q=)
+t4(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3d%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m22c%o2=m22c%o3=m22c%o4=m22c%o5=m22c%o6=m22c)
+FingerAB:win(w1=1020%w2=1020%w3=1020%w4=1020%w5=1020%w6=1020)
+FingerAB:ecn(r=y%df=n%w=1020%o=m22c%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=1020%s=o%a=s+%f=as%o=m22c%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=65-8f%gcd=1-6%isr=9a-a4%ti=z%ii=ri%ci=)
+FingerB:seq(sp=f9%gcd=1%isr=f0%ii=i%ci=i)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t2(t=fa-104%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t3(t=fa-104%tg=ff)
+FingerB:t3(t=ff)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3d%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3d%r=y)
+
+
+

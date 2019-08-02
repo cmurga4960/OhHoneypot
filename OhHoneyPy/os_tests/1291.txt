@@ -1,0 +1,71 @@
+Fingerprint: Bluebottle OS
+Class: ETH Zurich | Bluebottle || general purpose
+CPE: cpe:/o:ethzurich:bluebottle auto
+seq(sp=102-10c%gcd=1-6%isr=102-10c%ti=rd%ci=ri%ts=u%ii=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=8000%o=m5b4%cc=n)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0)
+t2(r=y%df=y%t=1b-25%tg=20%w=80%s=a%a=s+%f=ar%o=wanm109t10s%rd=0)
+t3(r=n)
+t4(r=y%df=y%t=1b-25%tg=20%w=400%s=a%a=s+%f=ar%o=wanm109t10s%rd=0)
+t5(r=y%df=n%t=fa-104%tg=ff%w=7a69%s=z%a=s+%f=ar%rd=0)
+t6(r=y%df=y%t=1b-25%tg=20%w=8000%s=a%a=s+%f=ar%o=wanm109t10s%rd=0)
+t7(r=n)
+u1(r=n)
+ie(r=n)
+********************************************************
+Fingerprint: Bluebottle OS (95%)
+Class: ETH Zurich Bluebottle (95%)
+CPE: cpe:/o:ethzurich:bluebottle
+seq(sp=100%gcd=1%isr=f7%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%tg=ff%w=8000%o=m5b4%cc=n%q=)
+t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%tg=20%w=80%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+t3(r=n)
+t4(r=y%df=y%tg=20%w=400%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=20%w=8000%s=a%a=s+%f=ar%o=wanm109t10s%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+FingerAB:ecn(r=y%df=n%tg=ff%w=8000%o=m5b4%cc=n)
+FingerAB:t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=y%df=y%tg=20%w=80%s=a%a=s+%f=ar%o=wanm109t10s%rd=0)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%tg=20%w=400%s=a%a=s+%f=ar%o=wanm109t10s%rd=0)
+FingerAB:t5(r=y%df=n%tg=ff%w=7a69%s=z%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=y%tg=20%w=8000%s=a%a=s+%f=ar%o=wanm109t10s%rd=0)
+FingerAB:u1(r=n)
+FingerAB:ie(r=n)
+--- Diff Values ---
+FingerA:seq(sp=102-10c%gcd=1-6%isr=102-10c%ti=rd%ci=ri%ii=)
+FingerB:seq(sp=100%gcd=1%isr=f7%ci=i)
+
+FingerA:ecn(t=fa-104)
+FingerB:ecn(q=)
+
+FingerA:t1(t=fa-104)
+FingerB:t1(q=)
+
+FingerA:t2(t=1b-25)
+FingerB:t2(q=)
+
+FingerA:t4(t=1b-25)
+FingerB:t4(q=)
+
+FingerA:t5(t=fa-104)
+FingerB:t5(o=%q=)
+
+FingerA:t6(t=1b-25)
+FingerB:t6(q=)
+
+FingerA:t7(r=n)
+
+

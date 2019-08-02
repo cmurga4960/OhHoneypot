@@ -1,0 +1,70 @@
+Fingerprint: Grandstream GXP2000 VoIP phone
+Class: Grandstream | embedded || VoIP phone
+CPE: cpe:/h:grandstream:gxp2000 auto
+seq(sp=4a-62%gcd=1-6%isr=88-fc%ti=i%ci=i%ii=ri%ss=s%ts=u)
+ops(o1=m584|m5ac%o2=m584|m5ac%o3=m584|m5ac%o4=m584|m5ac%o5=m584|m5ac%o6=m584|m5ac)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=2000%o=m584|m5ac%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=fa-104%tg=ff%w=2000%s=o%a=s+%f=as%o=m584|m5ac%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=2000%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=s%t=1b-25|3b-45%tg=20|40%cd=s)
+********************************************************
+Fingerprint: Grandstream GXP2000 VoIP phone (99%), m3 muvid IR 715-2 Internet radio receiver (92%), Roberts STREAM 202 Internet radio (92%), Revo Blik Wi-Fi Internet radio (92%), Rigol DSG3060 signal generator (91%)
+Class: Grandstream embedded (99%), m3 embedded (92%), Roberts embedded (92%), Revo embedded (92%), Rigol Technologies embedded (91%)
+CPE: cpe:/h:grandstream:gxp2000 cpe:/h:roberts:stream_202 cpe:/h:revo:blik_wi-fi cpe:/h:rigol_technologies:dsg3060
+seq(sp=f8%gcd=1%isr=ef%ci=i%ts=u)
+ops(o1=m584%o2=m584%o3=m584%o4=m584%o5=m584%o6=m584)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%tg=ff%w=2000%o=m584%cc=n%q=)
+t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=ff%w=2000%s=o%a=s+%f=as%o=m584%rd=0%q=)
+t4(r=y%df=n%tg=ff%w=2000%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=ff%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%tg=ff%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=s%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%tg=ff%w=2000%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=ff%w=2000%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=ff%w=2000%s=a+%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=ff%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=ff%w=2000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=ff%w=2000%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=4a-62%gcd=1-6%isr=88-fc%ti=i%ii=ri%ss=s)
+FingerB:seq(sp=f8%gcd=1%isr=ef)
+
+FingerA:ops(o1=m584|m5ac%o2=m584|m5ac%o3=m584|m5ac%o4=m584|m5ac%o5=m584|m5ac%o6=m584|m5ac)
+FingerB:ops(o1=m584%o2=m584%o3=m584%o4=m584%o5=m584%o6=m584)
+
+FingerA:ecn(t=fa-104%o=m584|m5ac)
+FingerB:ecn(o=m584)
+
+FingerA:t1(t=fa-104)
+FingerA:t3(t=fa-104%o=m584|m5ac)
+FingerB:t3(o=m584)
+
+FingerA:t4(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:t7(t=fa-104)
+FingerA:ie(t=1b-25|3b-45%tg=20|40)
+FingerB:ie(tg=40%r=y)
+
+
+

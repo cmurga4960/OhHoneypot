@@ -1,0 +1,69 @@
+Fingerprint: Android 4.0.4 (Linux 3.0.8)
+Class: Google | Android | 4.0.X | phone
+Class: Linux | Linux | 3.X | phone
+CPE: cpe:/o:google:android:4.0.4 auto
+CPE: cpe:/o:linux:linux_kernel:3.0.8 auto
+seq(sp=f2-fc%gcd=1-6%isr=100-10a%ti=z%ii=i%ts=6%ci=)
+ops(o1=m5b4st11nw6%o2=m5b4st11nw6%o3=m5b4nnt11nw6%o4=m5b4st11nw6%o5=m5b4st11nw6%o6=m5b4st11)
+win(w1=3890%w2=3890%w3=3890%w4=3890%w5=3890%w6=3890)
+ecn(r=y%df=y%t=3b-45%tg=40%w=3908%o=m5b4nnsnw6%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=3890%s=o%a=s+%f=as%o=m5b4st11nw6%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Linux 3.0 (98%), Linux 2.6.32 - 3.0 (98%), Android 4.0.4 (Linux 3.0.8) (97%), Linux 2.6.38 (97%), Linux 2.6.32 - 3.5 (95%), Linux 2.6.32 (95%), Linux 3.2 - 3.8 (95%), Linux 3.8 (95%), Linux 2.6.32 - 2.6.39 (94%), Android 4.0.4 (Linux 3.0) (93%)
+seq(sp=103%gcd=1%isr=fa)
+ops(o1=m5b4st11nw6%o2=m5b4st11nw6%o3=m5b4nnt11nw6%o4=m5b4st11nw6%o5=m5b4st11nw6%o6=m5b4st11)
+win(w1=3890%w2=3890%w3=3890%w4=3890%w5=3890%w6=3890)
+ecn(r=y%df=y%t=40%w=3908%o=m5b4nnsnw6%cc=y%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=3890%s=o%a=s+%f=as%o=m5b4st11nw6%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw6%o2=m5b4st11nw6%o3=m5b4nnt11nw6%o4=m5b4st11nw6%o5=m5b4st11nw6%o6=m5b4st11)
+FingerAB:win(w1=3890%w2=3890%w3=3890%w4=3890%w5=3890%w6=3890)
+FingerAB:ecn(r=y%df=y%w=3908%o=m5b4nnsnw6%cc=y%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=3890%s=o%a=s+%f=as%o=m5b4st11nw6%rd=0%q=)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=f2-fc%gcd=1-6%isr=100-10a%ti=z%ii=i%ts=6%ci=)
+FingerB:seq(sp=103%gcd=1%isr=fa)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

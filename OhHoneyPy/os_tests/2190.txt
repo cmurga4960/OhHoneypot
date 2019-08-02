@@ -1,0 +1,67 @@
+Fingerprint: Koukaam NETIO-230A power control device or ZyXEL SP-220E thermal printer
+Class: Koukaam | embedded || power-device
+Class: ZyXEL | embedded || printer
+CPE: cpe:/h:koukaam:netio-230a
+CPE: cpe:/h:zyxel:sp-220e
+seq(sp=0-2b%gcd=a|14|1e|28|32|29e|53c|7da|a78|d16%isr=60-6a%ti=i%ci=i%ii=ri%ss=o|s%ts=u)
+ops(o1=m5ba%o2=m5ba%o3=m5ba%o4=m5ba%o5=m5ba%o6=m5ba)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=8000%o=m5ba%cc=n%q=u)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=80%s=a%a=s+%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=fa-104%tg=ff%w=100%s=a%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=7a69%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=8000%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=ffff%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Koukaam NETIO-230A power control device or ZyXEL SP-220E thermal printer (95%), Dell PowerConnect 2708 switch (89%), Dell PowerConnect 2724 switch (89%), SMC 8024L2 switch (86%), SunPower solar monitoring device (uIP stack) (86%), Linksys BEFW11S4 WAP (86%)
+Class: Koukaam embedded (95%), ZyXEL embedded (95%), Dell embedded (89%), SMC embedded (86%), SunPower embedded (86%), RISE SICS uIP (86%), Linksys embedded (86%)
+CPE: cpe:/h:koukaam:netio-230a cpe:/h:zyxel:sp-220e cpe:/h:dell:powerconnect_2708 cpe:/h:smc:8024l2 cpe:/a:rise_sics:uip cpe:/h:linksys:befw11s4
+seq(sp=107%gcd=1%isr=fd%ts=u)
+ops(o1=m5ba%o2=m5ba%o3=m5ba%o4=m5ba%o5=m5ba%o6=m5ba)
+win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+ecn(r=y%df=n%tg=ff%w=8000%o=m5ba%cc=n%q=u)
+t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%tg=ff%w=80%s=a%a=s+%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%tg=ff%w=100%s=a%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%tg=ff%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=7a69%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=ff%w=8000%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%tg=ff%w=ffff%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=s%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5ba%o2=m5ba%o3=m5ba%o4=m5ba%o5=m5ba%o6=m5ba)
+FingerAB:win(w1=8000%w2=8000%w3=8000%w4=8000%w5=8000%w6=8000)
+FingerAB:ecn(r=y%df=n%tg=ff%w=8000%o=m5ba%cc=n%q=u)
+FingerAB:t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%tg=ff%w=80%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%tg=ff%w=100%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=ff%w=400%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=ff%w=7a69%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=ff%w=8000%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=ff%w=ffff%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=s%tg=40%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=0-2b%gcd=a|14|1e|28|32|29e|53c|7da|a78|d16%isr=60-6a%ti=i%ci=i%ii=ri%ss=o|s)
+FingerB:seq(sp=107%gcd=1%isr=fd)
+
+FingerA:ecn(t=fa-104)
+FingerA:t1(t=fa-104)
+FingerA:t2(t=fa-104)
+FingerA:t3(t=fa-104)
+FingerA:t4(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:t7(t=fa-104)
+FingerA:ie(t=3b-45)
+FingerB:ie(r=y)
+
+
+

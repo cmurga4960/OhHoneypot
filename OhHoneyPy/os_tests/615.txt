@@ -1,0 +1,71 @@
+Fingerprint: Brother MFC-J415W printer
+Class: Brother | embedded || printer
+CPE: cpe:/h:brother:mfc-j415w auto
+seq(sp=c-16%gcd=1e848|3d090|5b8d8|7a120|98968%isr=9f-a9%ti=i%ci=i%ii=i%ss=s%ts=a)
+ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m218nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+win(w1=21f0%w2=2088%w3=2258%w4=20c0%w5=20c0%w6=209d)
+ecn(r=y%df=n%t=3b-45%tg=40%w=2238%o=m5b4nw0nns%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: VxWorks: HP printer or Vocality BASICS Four Wire VoIP gateway (98%), HP LaserJet CP2025dn printer (97%), Keyence CV-X150F Image Sensor/Controller (VxWorks) (96%), VxWorks (96%), Brother printer (VxWorks) (96%), Brother MFC-J415W printer (95%), HP LaserJet M2727nf or P1505n printer (95%), HP LaserJet M476dw printer (95%), HP printer (M1120n, M1522n, CP1515n, CP2025dn, or CP2525dn) (95%), HP printer: Photosmart 4300-, 6500-, 7200-, or 8100-series, or Officejet 6000-series (95%)
+seq(sp=d6%gcd=1%isr=cc%ci=i)
+ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m218nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+win(w1=21f0%w2=2088%w3=2258%w4=20c0%w5=20c0%w6=209d)
+ecn(r=y%df=n%t=40%w=2238%o=m5b4nw0nns%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m218nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+FingerAB:win(w1=21f0%w2=2088%w3=2258%w4=20c0%w5=20c0%w6=209d)
+FingerAB:ecn(r=y%df=n%w=2238%o=m5b4nw0nns%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=1e848|3d090|5b8d8|7a120|98968%isr=9f-a9%ti=i%ii=i%ss=s%ts=a)
+FingerB:seq(sp=d6%gcd=1%isr=cc)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

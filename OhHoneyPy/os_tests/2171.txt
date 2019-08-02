@@ -1,0 +1,67 @@
+Fingerprint: Kodak ESP 5250 printer
+Class: Kodak | embedded || printer
+CPE: cpe:/h:kodak:esp_5250 auto
+seq(sp=39-97%gcd=1000|2000|3000|4000|5000|63000|c6000|129000|18c000|1ef000%isr=ba-100%ti=rd%ii=ri%ts=u%ci=)
+ops(o1=m5b4t11nn%o2=m5b4%o3=m5b4t11nn%o4=m5b4t11nn%o5=m5b4%o6=m5b4)
+win(w1=b680%w2=b680%w3=b680%w4=b680%w5=b680%w6=b680)
+ecn(r=y%df=n%t=39-3f%tg=40%w=b680%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=39-3f%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=39-3f%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=39-3f%tg=40%ipl=38%un=0%ripl=g%rid=0-ffff%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=39-3f%tg=40%cd=z)
+********************************************************
+Fingerprint: Kodak ESP 5250 printer (86%)
+Class: Kodak embedded (86%)
+CPE: cpe:/h:kodak:esp_5250
+seq(sp=107%gcd=1%isr=fd%ii=i%ts=u)
+ops(o1=m5b4t11nn%o2=m5b4%o3=m5b4t11nn%o4=m5b4t11nn%o5=m5b4%o6=m5b4)
+win(w1=b680%w2=b680%w3=b680%w4=b680%w5=b680%w6=b680)
+ecn(r=y%df=n%t=40%w=b680%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=0%ripck=i%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4t11nn%o2=m5b4%o3=m5b4t11nn%o4=m5b4t11nn%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=b680%w2=b680%w3=b680%w4=b680%w5=b680%w6=b680)
+FingerAB:ecn(r=y%df=n%w=b680%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=39-97%gcd=1000|2000|3000|4000|5000|63000|c6000|129000|18c000|1ef000%isr=ba-100%ti=rd%ii=ri%ci=)
+FingerB:seq(sp=107%gcd=1%isr=fd%ii=i)
+
+FingerA:ecn(t=39-3f%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=39-3f%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=39-3f%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=39-3f%tg=40%rid=0-ffff%ripck=g)
+FingerB:u1(t=3b%rid=0%ripck=i%r=y)
+
+FingerA:ie(t=39-3f%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,68 @@
+Fingerprint: Espressif ESP8266 WiFi system-on-a-chip
+Class: Espressif | embedded || specialized
+seq(sp=14-28%gcd=1-6%isr=4f-59%ti=i|rd%ii=ri%ss=o%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=n%t=7b-85%tg=80%w=16d0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=7b-85%tg=80%w=16d0%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=n)
+t5(r=y%df=n%t=7b-85%tg=80%w=16d0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=7b-85%tg=80%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=7b-85%tg=80%cd=s)
+********************************************************
+Fingerprint: Espressif ESP8266 WiFi system-on-a-chip (97%), Espressif esp8266 firmware (lwIP stack) (93%), ESPEasy OS (lwIP stack) (93%), NodeMCU firmware (lwIP stack) (91%), HP JetDirect 2591A print server (89%), HP LaserJet 4050 printer (89%), USRobotics USR5450 WAP (88%), DEC RSX-11M-PLUS 4.6 (88%), Microsoft Windows NT 4.0 SP6 (87%), LaCrosse WA-1030U weather forecaster (87%)
+Class: Espressif embedded (97%), lwIP (93%), NodeMCU embedded (91%), HP embedded (89%), USRobotics embedded (88%), DEC RSX-11M-PLUS 4.X (88%), Microsoft Windows NT (87%), LaCrosse embedded (87%)
+CPE: cpe:/a:lwip_project:lwip cpe:/o:nodemcu:nodemcu cpe:/h:hp:jetdirect_2591a cpe:/h:hp:laserjet_4050 cpe:/h:usrobotics:usr5450 cpe:/o:dec:rsx_11m_plus:4.6 cpe:/o:microsoft:windows_nt:4.0:sp6 cpe:/h:lacrosse:wa-1030u
+seq(sp=fe%gcd=1%isr=f5%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=n%t=80%w=16d0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=80%w=16d0%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+t4(r=n)
+t5(r=y%df=n%t=80%w=16d0%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerAB:ecn(r=y%df=n%w=16d0%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=16d0%s=o%a=s+%f=as%o=m5b4%rd=0%q=)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=16d0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=14-28%gcd=1-6%isr=4f-59%ti=i|rd%ii=ri%ss=o%ci=)
+FingerB:seq(sp=fe%gcd=1%isr=f5)
+
+FingerA:ecn(t=7b-85%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(t=7b-85%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t3(t=7b-85%tg=80)
+FingerB:t3(t=80)
+
+FingerA:t5(t=7b-85%tg=80)
+FingerB:t5(t=80)
+
+FingerA:u1(t=7b-85%tg=80)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=7b-85%tg=80%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

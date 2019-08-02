@@ -1,0 +1,63 @@
+Fingerprint: Basler ruL 2098-10gc GigE Vision Ethernet camera
+Class: Basler | embedded || webcam
+seq(sp=0-19%gcd=1-6|174|17e|2e8|2fc|45c|47a|5d0|5f8|744|776%isr=5a-64%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m200%o2=m200%o3=m200%o4=m200%o5=m200%o6=m109)
+win(w1=200%w2=200%w3=200%w4=200%w5=200%w6=200)
+ecn(r=y%df=y%t=fa-104%tg=ff%w=200%o=m200%cc=n%q=)
+t1(r=y%df=y%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=fa-104%tg=ff%w=200%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=y%t=fa-104%tg=ff%w=200%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=fa-104%tg=ff%w=200%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=fa-104%tg=ff%w=200%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%t=fa-104%tg=ff%w=200%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(df=y%t=fa-104%tg=ff%ipl=38%un=24a2|301d|3bb6|477c|5365%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=24-39%tg=40%cd=s)
+********************************************************
+Fingerprint: Basler ruL 2098-10gc GigE Vision Ethernet camera (97%)
+Class: Basler embedded (97%)
+seq(sp=109%gcd=1%isr=100%ci=i%ts=u)
+ops(o1=m200%o2=m200%o3=m200%o4=m200%o5=m200%o6=m109)
+win(w1=200%w2=200%w3=200%w4=200%w5=200%w6=200)
+ecn(r=y%df=y%tg=ff%w=200%o=m200%cc=n%q=)
+t1(r=y%df=y%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%tg=ff%w=200%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=y%tg=ff%w=200%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%tg=ff%w=200%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=ff%w=200%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%tg=ff%w=200%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m200%o2=m200%o3=m200%o4=m200%o5=m200%o6=m109)
+FingerAB:win(w1=200%w2=200%w3=200%w4=200%w5=200%w6=200)
+FingerAB:ecn(r=y%df=y%tg=ff%w=200%o=m200%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%tg=ff%w=200%s=o%a=s+%f=as%o=m109%rd=0%q=)
+FingerAB:t4(r=y%df=y%tg=ff%w=200%s=a+%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%tg=ff%w=200%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%tg=ff%w=200%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%tg=ff%w=200%s=a%a=s+%f=ar%o=%rd=0%q=)
+--- Diff Values ---
+FingerA:seq(sp=0-19%gcd=1-6|174|17e|2e8|2fc|45c|47a|5d0|5f8|744|776%isr=5a-64%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=109%gcd=1%isr=100%ci=i)
+
+FingerA:ecn(t=fa-104)
+FingerA:t1(t=fa-104)
+FingerA:t3(t=fa-104)
+FingerA:t4(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:t7(t=fa-104)
+FingerA:u1(df=y%t=fa-104%tg=ff%ipl=38%un=24a2|301d|3bb6|477c|5365%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(dfi=s%t=24-39%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

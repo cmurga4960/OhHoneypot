@@ -1,0 +1,65 @@
+Fingerprint: IBM i 6.1
+Class: IBM | i | 6.X | general purpose
+CPE: cpe:/o:ibm:i:6.1 auto
+seq(sp=ab-b5%gcd=1-6%isr=ad-b7%ti=i%ii=i%ss=s%ts=a%ci=)
+ops(o1=m5acnw0nnt11%o2=m578nw0nnt11%o3=m280nw0nnt11%o4=m5acnw0nnt11%o5=m218nw0nnt11%o6=m109nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=y%t=3b-45%tg=40%w=2000%o=m5acnw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: IBM i 6.1 (97%), IBM i5/OS V5R2 (92%), Nokia E70 or N86 mobile phone (Symbian OS) (91%), OpenBSD 4.0 (90%), FreeBSD 6.2-RELEASE (90%), IBM i5/OS V5R4 - V6R1 (90%), OpenBSD 4.3 (90%), Apple AirPort Extreme WAP (89%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (89%), Digi AnywhereUSB network-attached USB hub (89%)
+seq(sp=fa%gcd=1%isr=f1%ii=i)
+ops(o1=m5acnw0nnt11%o2=m578nw0nnt11%o3=m280nw0nnt11%o4=m5acnw0nnt11%o5=m218nw0nnt11%o6=m109nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=y%t=40%w=2000%o=m5acnw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ops(o1=m5acnw0nnt11%o2=m578nw0nnt11%o3=m280nw0nnt11%o4=m5acnw0nnt11%o5=m218nw0nnt11%o6=m109nnt11)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=y%w=2000%o=m5acnw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=ab-b5%gcd=1-6%isr=ad-b7%ti=i%ss=s%ts=a%ci=)
+FingerB:seq(sp=fa%gcd=1%isr=f1)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

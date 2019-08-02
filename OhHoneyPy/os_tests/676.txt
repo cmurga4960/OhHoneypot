@@ -1,0 +1,88 @@
+Fingerprint: Canon PIXMA MX340, MP495, MP620, MG3100, MG6200, MX860, MX870, or MX890 printer
+Class: Canon | embedded || printer
+CPE: cpe:/h:canon:pixma_mx340
+CPE: cpe:/h:canon:pixma_mp495
+CPE: cpe:/h:canon:pixma_mp620
+CPE: cpe:/h:canon:pixma_mg3100
+CPE: cpe:/h:canon:pixma_mg6200
+CPE: cpe:/h:canon:pixma_mx860
+CPE: cpe:/h:canon:pixma_mx870
+CPE: cpe:/h:canon:pixma_mx890
+seq(sp=0-d3%gcd=200|400|600|800|a00%isr=e4-112%ti=rd%ci=rd|ri%ii=ri%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m5b4%o5=m218%o6=m109)
+win(w1=2d00%w2=2d00%w3=2d00%w4=2d00%w5=2d00%w6=2d00)
+ecn(r=y%df=n%t=3b-45%tg=40%w=2d00%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=3b-45%tg=40%w=2d00%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Canon PIXMA MP560, MP620, MG5220, MG5550, MG6100, or MX800-series printer (96%), Canon PIXMA iX7000 or NP-980 printer (95%), Canon PIXMA MX340, MP495, MP620, MG3100, MG6200, MX860, MX870, or MX890 printer (95%), Canon PIXMA printer (95%), Canon imageCLASS D1320 printer (94%), Canon PIXMA MG2920 printer (94%), Canon PIXMA MP495 or MG6150 printer (94%), Allied Telesyn AT-AR750s router (92%), Canon Pixma printer (92%), HW group Poseidon 3265 Ethernet thermometer (91%)
+seq(sp=f1%gcd=1%isr=e7%ci=i%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m5b4%o5=m218%o6=m109)
+win(w1=2d00%w2=2d00%w3=2d00%w4=2d00%w5=2d00%w6=2d00)
+ecn(r=y%df=n%t=40%w=2d00%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=40%w=2d00%s=o%a=s+%f=as%o=m109%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m578%o3=m280%o4=m5b4%o5=m218%o6=m109)
+FingerAB:win(w1=2d00%w2=2d00%w3=2d00%w4=2d00%w5=2d00%w6=2d00)
+FingerAB:ecn(r=y%df=n%w=2d00%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=2d00%s=o%a=s+%f=as%o=m109%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-d3%gcd=200|400|600|800|a00%isr=e4-112%ti=rd%ci=rd|ri%ii=ri)
+FingerB:seq(sp=f1%gcd=1%isr=e7%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=3b-45%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

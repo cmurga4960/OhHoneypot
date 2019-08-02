@@ -1,0 +1,65 @@
+Fingerprint: Linux 2.6.18
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6.18
+seq(sp=fd-107%gcd=1-6%isr=105-111%ti=z%ii=i%ts=a%ci=)
+ops(o1=m564st11nw7%o2=m564st11nw7%o3=m564nnt11nw7%o4=m564st11nw7%o5=m564st11nw7%o6=m564st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m564nnsnw7%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16a0%s=o%a=s+%f=as%o=m564st11nw7%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Linux 2.6.18 (95%), DD-WRT (Linux 2.4.36) (93%), Linux 2.4.20 (93%), Linux 2.6.16 - 2.6.28 (93%), Linux 2.6.22 (93%), Linux 2.6.24 (93%), Linux 2.6.26 (93%), Linux 2.6.29 - 2.6.31 (93%), Linux 2.6.31 (93%), Linux 2.6.5 (93%)
+Class: Linux 2.6.X|2.4.X (95%), Logitech embedded (93%), Check Point GAiA OS (92%), Cisco embedded (92%), Sony embedded (92%)
+CPE: cpe:/o:linux:linux_kernel:2.6.18 cpe:/o:linux:linux_kernel:2.4.36 cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.23 cpe:/h:logitech:alert_750i cpe:/o:checkpoint:gaia_os cpe:/h:cisco:rv042
+seq(ii=i)
+ecn(r=y%df=y%t=40%w=16d0%o=m564nnsnw7%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=40%w=16a0%s=o%a=s+%f=as%o=m564st11nw7%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m564nnsnw7%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16a0%s=o%a=s+%f=as%o=m564st11nw7%rd=0%q=)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=fd-107%gcd=1-6%isr=105-111%ti=z%ts=a%ci=)
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m564st11nw7%o2=m564st11nw7%o3=m564nnt11nw7%o4=m564st11nw7%o5=m564st11nw7%o6=m564st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

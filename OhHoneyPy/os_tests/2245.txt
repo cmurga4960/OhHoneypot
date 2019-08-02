@@ -1,0 +1,63 @@
+Fingerprint: Lexmark C500n color laser printer
+Class: Lexmark | embedded || printer
+seq(sp=c7-12f%gcd=1-6%isr=d6-11c%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4w0l%o2=m5b4w0l%o3=m5b4w0l%o4=m5b4w0l%o5=m5b4w0l%o6=m5b4)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%t=6d-77%tg=80%w=400%o=m5b4w0l%cc=n%q=)
+t1(r=y%df=n%t=6d-77%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=6d-77%tg=80%w=400%s=o%a=s+%f=as%o=m5b4w0l%rd=0%q=)
+t4(r=y%df=n%t=6d-77%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=6d-77%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=6d-77%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=6d-77%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=6d-77%tg=80%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=4b35|55ea%rud=g)
+ie(dfi=n%t=6d-77%tg=80%cd=z)
+********************************************************
+Fingerprint: Lexmark C500n color laser printer (99%), Lexmark C500 printer (97%), Digi NET+OS 7 (92%), Geist RSMINI environment sensor (92%), Kapsch electronic toll collection system (92%), MGE EX 7 RT or Evolution 850 UPS (92%), Telex IP-223 radio IP adapter (92%), Tripp Lite SMART1500SLT UPS, or PDUMV30HVNET or PDUMH15AT power distribution unit (92%), Westermo EDW-100 Ethernet-to-serial bridge (92%), Elk ELK-M1EXP Ethernet-to-serial bridge (91%)
+seq(sp=109%gcd=1%isr=100%ts=u)
+ops(o1=m5b4w0l%o2=m5b4w0l%o3=m5b4w0l%o4=m5b4w0l%o5=m5b4w0l%o6=m5b4)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%tg=80%w=400%o=m5b4w0l%cc=n%q=)
+t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=80%w=400%s=o%a=s+%f=as%o=m5b4w0l%rd=0%q=)
+t4(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=n%tg=40%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4w0l%o2=m5b4w0l%o3=m5b4w0l%o4=m5b4w0l%o5=m5b4w0l%o6=m5b4)
+FingerAB:win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+FingerAB:ecn(r=y%df=n%tg=80%w=400%o=m5b4w0l%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=80%w=400%s=o%a=s+%f=as%o=m5b4w0l%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:ie(dfi=n%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=c7-12f%gcd=1-6%isr=d6-11c%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=109%gcd=1%isr=100)
+
+FingerA:ecn(t=6d-77)
+FingerA:t1(t=6d-77)
+FingerA:t3(t=6d-77)
+FingerA:t4(t=6d-77)
+FingerA:t5(t=6d-77)
+FingerA:t6(t=6d-77)
+FingerA:t7(t=6d-77)
+FingerA:u1(df=n%t=6d-77%tg=80%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=4b35|55ea%rud=g)
+FingerB:u1(r=n)
+
+FingerA:ie(t=6d-77%tg=80)
+FingerB:ie(tg=40%r=y)
+
+
+

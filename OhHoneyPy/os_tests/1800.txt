@@ -1,0 +1,60 @@
+Fingerprint: HP ProCurve Secure Router 7102dl
+Class: HP | embedded || router
+CPE: cpe:/h:hp:procurve_7102dl
+seq(sp=e6-f0%gcd=2|4|6|8|a%isr=e8-f2%ti=i|rd%ii=i%ss=o%ts=u%ci=)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=y%df=n%t=fb-105%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=fb-105%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fb-105%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=g%rud=g)
+ie(dfi=n%t=fb-105%tg=ff%cd=z)
+********************************************************
+Fingerprint: HP ProCurve Secure Router 7102dl (98%), Adtran NetVanta 1224R or 3430 router (93%), Adtran Total Access 904 router (89%), OneAccess 1641 router (89%), Adtran AOS 18.02.01.00.E (88%), Polycom SoundPoint IP 331 VoIP phone (88%)
+Class: HP embedded (98%), Adtran embedded (93%), OneAccess embedded (89%), Adtran AOS 18.X (88%), Polycom embedded (88%)
+CPE: cpe:/h:hp:procurve_7102dl cpe:/h:adtran:netvanta_3430 cpe:/h:adtran:netvanta_1224r cpe:/h:oneaccess:1641 cpe:/o:adtran:aos:18.02.01.00.e cpe:/h:polycom:soundpoint_ip_331
+seq(ts=u)
+ecn(r=n)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=i%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=e6-f0%gcd=2|4|6|8|a%isr=e8-f2%ti=i|rd%ii=i%ss=o%ci=)
+FingerA:t1(t=fb-105%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t5(t=fb-105%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:u1(t=fb-105%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fb-105%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,60 @@
+Fingerprint: MontaVista embedded Linux 2.4.17
+Class: Linux | Linux | 2.4.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.4.17 auto
+seq(sp=b8-c2%gcd=1-6%isr=ba-c4%ti=z%ii=i%ts=7%ci=)
+ops(o1=m5b4st11%o2=m5b4st11%o3=m5b4nnt11%o4=m5b4st11%o5=m5b4st11%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nns%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cymphonix EX550 firewall (93%), Netgear Prosafe UTM9S (93%), NSFOCUS WAF (93%), Tomato 1.28 (Linux 2.4.20) (92%), Tomato firmware (Linux 2.6.22) (92%), Acorp W400G or W422G wireless ADSL modem (MontaVista embedded Linux 2.4.17) (92%), Asus RT-AC66U router (Linux 2.6) (92%), AVM FRITZ!Box FON WLAN 7170 WAP (92%), Dell Integrated Remote Access Controller (iDRAC) (92%), Dell Integrated Remote Access Controller (iDRAC9) (92%)
+Class: Cymphonix embedded (93%), Netgear embedded (93%), NSFOCUS embedded (93%), Linux 2.4.X|2.6.X (92%), Acorp embedded (92%), Asus embedded (92%), AVM embedded (92%), Dell embedded (92%)
+CPE: cpe:/h:cymphonix:ex550 cpe:/h:netgear:prosafe_utm9s cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:asus:rt-ac66u cpe:/o:linux:linux_kernel:2.6 cpe:/h:avm:fritz%21box_fon_wlan_7170
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nns%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nns%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:seq(sp=b8-c2%gcd=1-6%isr=ba-c4%ti=z%ii=i%ts=7%ci=)
+FingerA:ops(o1=m5b4st11%o2=m5b4st11%o3=m5b4nnt11%o4=m5b4st11%o5=m5b4st11%o6=m5b4st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

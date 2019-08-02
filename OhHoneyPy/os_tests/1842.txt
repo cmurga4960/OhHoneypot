@@ -1,0 +1,67 @@
+Fingerprint: HP ProCurve 4000M switch (J4121A)
+Class: HP | embedded || switch
+CPE: cpe:/h:hp:procurve_switch_4000m auto
+seq(sp=e-18%gcd=fa00|1f400|2ee00|3e800|4e200%isr=98-a2%ti=i%ts=u%ii=%ci=)
+ops(o1=m5ac%o2=m5ac%o3=m5ac%o4=m5ac%o5=m5ac%o6=m5ac)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=1000%o=m5ac%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=y%t=3b-45%tg=40%ipl=38%un=0%ripl=g%ripck=z%ruck=0%rud=g)
+ie(dfi=y%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: HP ProCurve 4000M switch (J4121A) (94%), SMC SMC8014WG WAP (86%), Dell Remote Access Controller 4/I (85%), Nortel Ethernet Routing Switch 470-24T-PWR (85%)
+Class: HP embedded (94%), SMC embedded (86%), Dell embedded (85%), Nortel embedded (85%)
+CPE: cpe:/h:hp:procurve_switch_4000m cpe:/h:smc:smc8014wg cpe:/h:dell:remote_access_card:4 cpe:/h:nortel:ethernet_routing_switch_470-24t-pwr
+seq(sp=103%gcd=1%isr=fa%ts=u)
+ops(o1=m5ac%o2=m5ac%o3=m5ac%o4=m5ac%o5=m5ac%o6=m5ac)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=40%w=1000%o=m5ac%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=y%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(r=y%dfi=y%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5ac%o2=m5ac%o3=m5ac%o4=m5ac%o5=m5ac%o6=m5ac)
+FingerAB:win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+FingerAB:ecn(r=y%df=n%w=1000%o=m5ac%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=y%ipl=38%un=0%ripl=g%ripck=z%ruck=0%rud=g)
+FingerAB:ie(dfi=y%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=e-18%gcd=fa00|1f400|2ee00|3e800|4e200%isr=98-a2%ti=i%ii=%ci=)
+FingerB:seq(sp=103%gcd=1%isr=fa)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y%rid=g)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

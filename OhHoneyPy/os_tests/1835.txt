@@ -1,0 +1,79 @@
+Fingerprint: HP ProCurve 2650, 2824, 2848, or 5300xl switch
+Class: HP | embedded || switch
+seq(sp=96-a0%gcd=1-6%isr=9c-a6%ti=i%ts=1%ii=%ci=)
+ops(o1=m200nw0nnt11%o2=m200nw0nnt11%o3=m200nw0nnt11%o4=m200nw0nnt11%o5=m200nw0nnt11%o6=m200nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=2000%o=m200nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=2000%s=o%a=o|s+%f=as%o=m200nw0nnt11%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=2000%s=a|o%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=o|s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a|o%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=o|s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: HP ProCurve 2650, 2824, 2848, or 5300xl switch (98%), VxWorks (92%), HP ProCurve 4104gl or 4108gl switch (91%), StorageTek L1400M tape library (90%), Enterasys Matrix C1 switch or HP LaserJet 3600 printer (90%), HP E1200 Network Storage Router NAS device or SonicWALL SOHO3 firewall (90%), Alcatel-Lucent OmniSwitch 6850 switch (89%), IBM OS/2 Warp 2.0 (89%), HP ProCurve 2610 switch (89%), Arris Cadant C3 cable modem terminator (VxWorks 5.4.2) (89%)
+Class: HP embedded (98%), Wind River VxWorks 5.X (92%), StorageTek embedded (90%), Enterasys embedded (90%), SonicWALL embedded (90%), Alcatel-Lucent embedded (89%), IBM OS/2 4.X (89%)
+CPE: cpe:/o:windriver:vxworks cpe:/h:enterasys:matrix_c1 cpe:/h:hp:laserjet_3600 cpe:/h:hp:e1200 cpe:/h:sonicwall:soho3 cpe:/h:alcatel-lucent:omniswitch_6850 cpe:/o:ibm:os2:4 cpe:/o:windriver:vxworks:5.4.2
+seq(sp=103%gcd=1%isr=f9)
+ops(o1=m200nw0nnt11%o2=m200nw0nnt11%o3=m200nw0nnt11%o4=m200nw0nnt11%o5=m200nw0nnt11%o6=m200nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=40%w=2000%o=m200nw0%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=2000%s=o%a=o%f=as%o=m200nw0nnt11%rd=0%q=)
+t4(r=y%df=n%t=40%w=2000%s=o%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=o%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m200nw0nnt11%o2=m200nw0nnt11%o3=m200nw0nnt11%o4=m200nw0nnt11%o5=m200nw0nnt11%o6=m200nnt11)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%w=2000%o=m200nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=2000%s=o%f=as%o=m200nw0nnt11%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=2000%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=96-a0%gcd=1-6%isr=9c-a6%ti=i%ts=1%ii=%ci=)
+FingerB:seq(sp=103%gcd=1%isr=f9)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40%a=o|s+)
+FingerB:t3(t=40%a=o)
+
+FingerA:t4(t=3b-45%tg=40%s=a|o)
+FingerB:t4(t=40%s=o)
+
+FingerA:t5(t=3b-45%tg=40%a=o|s+)
+FingerB:t5(t=40%a=o)
+
+FingerA:t6(t=3b-45%tg=40%s=a|o)
+FingerB:t6(t=40%s=o)
+
+FingerA:t7(t=3b-45%tg=40%a=o|s)
+FingerB:t7(t=40%a=o)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

@@ -1,0 +1,57 @@
+Fingerprint: Juniper SA4000 SSL VPN gateway (IVE OS 7.0)
+Class: Juniper | IVE OS | 7.X | firewall
+CPE: cpe:/h:juniper:sa4000
+CPE: cpe:/o:juniper:ive_os:7.0 auto
+seq(sp=c5-cf%gcd=1-6%isr=c7-db%ti=z%ii=i%ts=u%ci=)
+ops(o1=m5b4nns%o2=m5b4nns%o3=m5b4%o4=m5b4nns%o5=m5b4nns%o6=m5b4nns)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nns%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Juniper SA4000 SSL VPN gateway (IVE OS 7.0) (97%), Cymphonix EX550 firewall (96%), Netgear Prosafe UTM9S (96%), NSFOCUS WAF (96%), Juniper MAG2600 SSL VPN gateway (IVE OS 7.3) (93%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (92%), Linux 2.6.18 (90%), Linux 2.6.18 - 2.6.22 (90%), Citrix Access Gateway VPN gateway (90%), Endian 2.3 or IPCop firewall 1.4.10 - 1.4.21 (Linux 2.4.31 - 2.6.22) (90%)
+seq(sp=fe%gcd=1%isr=f5%ts=u)
+ops(o1=m5b4nns%o2=m5b4nns%o3=m5b4%o4=m5b4nns%o5=m5b4nns%o6=m5b4nns)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nns%cc=n%q=)
+t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=n%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4nns%o2=m5b4nns%o3=m5b4%o4=m5b4nns%o5=m5b4nns%o6=m5b4nns)
+FingerAB:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nns%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=n%tg=40%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c5-cf%gcd=1-6%isr=c7-db%ti=z%ii=i%ci=)
+FingerB:seq(sp=fe%gcd=1%isr=f5)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:ie(t=3b-45)
+FingerB:ie(r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,66 @@
+Fingerprint: Allied Telesyn Rapier G6 switch
+Class: Allied Telesyn | embedded || switch
+CPE: cpe:/h:alliedtelesyn:rapier_g6
+seq(sp=fc-108%gcd=1-6%isr=fd-10b%ti=i%ii=ri%ss=s%ts=u%ci=)
+ops(o1=m109%o2=m109%o3=m109%o4=m109%o5=m109%o6=m109)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%t=3b-45%tg=40%w=400%o=m109%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: Allied Telesyn Rapier G6 switch (98%), OneAccess 1641 router (91%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (91%), Netopia 3366 ADSL router (90%), Netopia 3386 ADSL router (90%), Linksys BEFSR41 EtherFast router (90%), Mitsubishi Q06UDEH CPU PLC module (89%)
+Class: Allied Telesyn embedded (98%), OneAccess embedded (91%), D-Link embedded (91%), TRENDnet embedded (91%), Netopia embedded (90%), Linksys embedded (90%), Mitsubishi embedded (89%)
+CPE: cpe:/h:alliedtelesyn:rapier_g6 cpe:/h:oneaccess:1641 cpe:/h:dlink:dwl-624%2b cpe:/h:dlink:dwl-2000ap cpe:/h:trendnet:tew-432brp cpe:/h:netopia:3366
+seq(sp=105%gcd=1%isr=fb%ts=u)
+ops(o1=m109%o2=m109%o3=m109%o4=m109%o5=m109%o6=m109)
+win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+ecn(r=y%df=n%t=40%w=400%o=m109%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m109%o2=m109%o3=m109%o4=m109%o5=m109%o6=m109)
+FingerAB:win(w1=400%w2=400%w3=400%w4=400%w5=400%w6=400)
+FingerAB:ecn(r=y%df=n%w=400%o=m109%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fc-108%gcd=1-6%isr=fd-10b%ti=i%ii=ri%ss=s%ci=)
+FingerB:seq(sp=105%gcd=1%isr=fb)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=z)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

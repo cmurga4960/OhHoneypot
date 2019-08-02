@@ -1,0 +1,84 @@
+Fingerprint: Lantronix Evolution OS 5.4
+Class: Lantronix | Evolution OS | 5.X | specialized
+CPE: cpe:/o:lantronix:evolution_os:5.4 auto
+seq(sp=101-10b%gcd=1-6%isr=ff-109%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m280%o5=m218%o6=m109)
+win(w1=faf0%w2=f0a0%w3=6e00%w4=6e00%w5=5c20%w6=2d8c)
+ecn(r=y%df=n%t=3b-45%tg=40%w=2d8c%o=m109%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=3b-45%tg=40%w=80%s=a%a=z%f=r%o=%rd=0%q=)
+t3(r=y%df=n%t=3b-45%tg=40%w=100%s=a%a=z%f=r%o=%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=400%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Lantronix Evolution OS 5.4
+Class: Lantronix Evolution OS 5.X
+CPE: cpe:/o:lantronix:evolution_os:5.4
+seq(sp=108%gcd=1%isr=ff%ii=i%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m280%o5=m218%o6=m109)
+win(w1=faf0%w2=f0a0%w3=6e00%w4=6e00%w5=5c20%w6=2d8c)
+ecn(r=y%df=n%t=40%w=2d8c%o=m109%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=40%w=80%s=a%a=z%f=r%o=%rd=0%q=)
+t3(r=y%df=n%t=40%w=100%s=a%a=z%f=r%o=%rd=0%q=)
+t4(r=y%df=n%t=40%w=400%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ops(o1=m5b4%o2=m578%o3=m280%o4=m280%o5=m218%o6=m109)
+FingerAB:win(w1=faf0%w2=f0a0%w3=6e00%w4=6e00%w5=5c20%w6=2d8c)
+FingerAB:ecn(r=y%df=n%w=2d8c%o=m109%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=80%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=100%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=400%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=7a69%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=101-10b%gcd=1-6%isr=ff-109%ti=i%ci=i%ss=s)
+FingerB:seq(sp=108%gcd=1%isr=ff)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=3b-45%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

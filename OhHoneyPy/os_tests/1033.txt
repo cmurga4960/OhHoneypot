@@ -1,0 +1,64 @@
+Fingerprint: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server
+Class: D-Link | embedded || print server
+Class: Hamlet | embedded || print server
+CPE: cpe:/h:dlink:dp-300u
+CPE: cpe:/h:dlink:dp-g310
+CPE: cpe:/h:hamlet:hps01uu auto
+seq(sp=0-1d%gcd=37|6e|a5|dc|113%isr=4b-55%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=b68%w2=b68%w3=b68%w4=b68%w5=b68%w6=b68)
+ecn(r=y%df=n%t=3b-45%tg=40%w=b68%o=m5b4%cc=n%q=u)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=b68%s=o%a=s+%f=asf%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=n%t=fa-104%tg=ff%cd=z)
+********************************************************
+Fingerprint: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (95%), IBM OS/2 Warp 2.0 (91%), TiVo series 1 (Sony SVR-2000 or Philips HDR112) (Linux 2.1.24-TiVo-2.5, PowerPC) (91%), IBM BladeCenter management module, IBM System Storage TS3100/TS3200 Express Model tape library, or HP StorageWorks MSL2024 tape library (91%), IBM AIX 7.1 (90%), IBM AIX 5.1 or 5.2 (90%), IBM AIX 5.3 (90%), AXIS 2120 Network Camera (89%), TRENDnet TV-IP100 webcam (89%), IBM AIX 6.1 (89%)
+seq(sp=109%gcd=1%isr=ff%ti=i%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=b68%w2=b68%w3=b68%w4=b68%w5=b68%w6=b68)
+ecn(r=y%df=n%tg=40%w=b68%o=m5b4%cc=n%q=u)
+t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=40%w=b68%s=o%a=s+%f=asf%o=m5b4%rd=0%q=)
+t4(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ti=i%ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=b68%w2=b68%w3=b68%w4=b68%w5=b68%w6=b68)
+FingerAB:ecn(r=y%df=n%tg=40%w=b68%o=m5b4%cc=n%q=u)
+FingerAB:t1(r=y%df=n%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=40%w=b68%s=o%a=s+%f=asf%o=m5b4%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=0-1d%gcd=37|6e|a5|dc|113%isr=4b-55%ii=i%ss=s%ci=)
+FingerB:seq(sp=109%gcd=1%isr=ff%ci=i)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(t=3b-45)
+FingerA:t3(t=3b-45)
+FingerA:t4(t=3b-45)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:t7(t=fa-104)
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=z)
+FingerB:ie(r=n)
+
+
+

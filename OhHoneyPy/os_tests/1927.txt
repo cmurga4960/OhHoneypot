@@ -1,0 +1,62 @@
+Fingerprint: HP Tru64 UNIX 5.1A
+Class: HP | Tru64 UNIX | 5.X | general purpose
+CPE: cpe:/o:hp:tru64:5.1a auto
+seq(sp=d3-dd%gcd=10|20|30|40|50%isr=108-112%ii=i%ts=u%ti=%ci=)
+ops(o1=m58cnw0%o2=m58cnw0%o3=m58cnw0%o4=m58cnw0%o5=m58cnw0%o6=m58c)
+win(w1=f000%w2=f000%w3=f000%w4=f000%w5=f000%w6=f000)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=f000%o=m58cnw0%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=fa-104%tg=ff%w=f000%s=o%a=s+%f=as%o=m58cnw0%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: HP Tru64 UNIX 5.1A (95%), IBM OS/2 Warp 2.0 (91%), HP OpenVMS 7.3 (88%), Cisco Catalyst WS-C6506 switch (CatOS 7.6(16)) (87%), Huawei VRP 8.100 (87%), Cisco Catalyst WS-C4506 switch (CatOS 8.1(1)) (87%), Cisco Catalyst switch (CatOS 8.3(2)) (86%), Compaq Tru64 UNIX 5.1 (86%), Cisco Catalyst 2948G, 4003, 4006, or 6509 switch (CatOS 7.6(17) - 8.4(3)) (86%), Huawei CloudEngine CE6800 switch (85%)
+seq(sp=ed%gcd=1%isr=e4%ii=i%ts=u)
+ops(o1=m58cnw0%o2=m58cnw0%o3=m58cnw0%o4=m58cnw0%o5=m58cnw0%o6=m58c)
+win(w1=f000%w2=f000%w3=f000%w4=f000%w5=f000%w6=f000)
+ecn(r=y%df=n%tg=ff%w=f000%o=m58cnw0%cc=n%q=)
+t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=ff%w=f000%s=o%a=s+%f=as%o=m58cnw0%rd=0%q=)
+t4(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=s%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ops(o1=m58cnw0%o2=m58cnw0%o3=m58cnw0%o4=m58cnw0%o5=m58cnw0%o6=m58c)
+FingerAB:win(w1=f000%w2=f000%w3=f000%w4=f000%w5=f000%w6=f000)
+FingerAB:ecn(r=y%df=n%tg=ff%w=f000%o=m58cnw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=ff%w=f000%s=o%a=s+%f=as%o=m58cnw0%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=s%tg=40%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=d3-dd%gcd=10|20|30|40|50%isr=108-112%ti=%ci=)
+FingerB:seq(sp=ed%gcd=1%isr=e4)
+
+FingerA:ecn(t=fa-104)
+FingerA:t1(t=fa-104)
+FingerA:t3(t=fa-104)
+FingerA:t4(t=fa-104)
+FingerA:t5(t=fa-104)
+FingerA:t6(t=fa-104)
+FingerA:t7(t=fa-104)
+FingerA:ie(t=3b-45)
+FingerB:ie(r=y)
+
+
+

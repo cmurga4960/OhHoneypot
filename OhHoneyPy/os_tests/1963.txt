@@ -1,0 +1,74 @@
+Fingerprint: IBM AIX AIX 4.3
+Class: IBM | AIX | 4.X | general purpose
+CPE: cpe:/o:ibm:aix:4.3 auto
+seq(sp=102-10c%gcd=1-6%isr=103-10d%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=3ebc%w2=3c28%w3=3e80%w4=4000%w5=3ed0%w6=3f25)
+ecn(r=y%df=y%t=3b-3d%tg=40%w=3ebc%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=3b-3d%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-3d%tg=40%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-3d%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-3d%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=15c%rid=g%ripck=i%ruck=0%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: IBM AIX AIX 4.3 (94%), IBM AIX 4.3 (93%), IBM AIX 5.3 (92%), IBM AIX 5.1 (91%), Polycom SoundPoint IP 430 VoIP phone (90%), IBM AIX 5.2 (89%), IBM AIX 5.1 or 5.2 (88%), IBM AIX 5.3 - 6.1 (88%), Polycom SoundPoint 320, 330, 430, 550, or 650 IP phone (87%), IBM AIX 5.3 SP4 (87%)
+Class: IBM AIX 4.X|5.X|7.X (94%), Polycom embedded (90%), SMC embedded (86%), Apple Mac OS X 10.3.X (85%), Extreme Networks ExtremeWare 7.X (85%)
+CPE: cpe:/o:ibm:aix:4.3 cpe:/o:ibm:aix:5.3 cpe:/h:polycom:soundpoint_ip_430 cpe:/h:smc:smc8014wg cpe:/o:ibm:aix:7.1 cpe:/o:apple:mac_os_x:10.3.9 cpe:/o:extremenetworks:extremeware:7
+seq(sp=f7%gcd=1%isr=ee%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=3ebc%w2=3c28%w3=3e80%w4=4000%w5=3ed0%w6=3f25)
+ecn(r=y%df=y%t=40%w=3ebc%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=15c%rid=g%ripck=i%ruck=0%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=3ebc%w2=3c28%w3=3e80%w4=4000%w5=3ed0%w6=3f25)
+FingerAB:ecn(r=y%df=y%w=3ebc%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=4000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=15c%rid=g%ripck=i%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=102-10c%gcd=1-6%isr=103-10d%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=f7%gcd=1%isr=ee)
+
+FingerA:ecn(t=3b-3d%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-3d%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-3d%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-3d%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-3d%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t7(r=n)
+
+

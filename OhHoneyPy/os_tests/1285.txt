@@ -1,0 +1,71 @@
+Fingerprint: ESI ESI-100 VoIP adapter
+Class: ESI | embedded || VoIP adapter
+CPE: cpe:/h:esi:esi-100 auto
+seq(sp=0-5%gcd=1-6%isr=15-1f%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=y%df=n%t=3b-3d%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=3b-3d%tg=40%w=0%s=z%a=s%f=r%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=3b-3d%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-3d%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-3d%tg=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-3d%tg=40%w=0%s=z%a=s%f=r%o=%rd=0%q=)
+u1(df=n%t=3b-3d%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3b-3d%tg=40%cd=s)
+********************************************************
+Fingerprint: ESI ESI-100 VoIP adapter (96%), NEC UNIVERGE SV8100 PBX (93%), 3Com SuperStack 3 Switch 3870 (93%), Aastra A510 VoIP phone (92%), Sony BDV-E970W television (92%), Lenel LNL-2200 access control board (92%), Universal Devices ISY-99i IR receiver (92%), Samsung CLP-310N or CLX-3175RW, or Xerox Phaser 6110 printer (92%), Adtran NetVanta 3200 or Total Access 908 ADSL router (92%), Adtran NetVanta switch (AOS 10.4 - 10.9) (91%)
+seq(ci=i%ts=u)
+ecn(r=n)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=40%w=0%s=z%a=s%f=r%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=r%o=%rd=0%q=)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-5%gcd=1-6%isr=15-1f%ti=i%ii=i%ss=s)
+FingerA:t1(t=3b-3d%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=3b-3d%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t4(t=3b-3d%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-3d%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-3d%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-3d%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-3d%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-3d%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

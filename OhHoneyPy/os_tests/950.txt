@@ -1,0 +1,85 @@
+Fingerprint: Cisco MDS 9509 switch (NX-OS 4.2)
+Class: Cisco | NX-OS | 4.X | switch
+CPE: cpe:/o:cisco:mds_9509
+CPE: cpe:/o:cisco:nx_os:4.2 auto
+seq(sp=fa-104%gcd=1-6%isr=fc-10a%ti=i|rd%ci=rd%ii=i%ss=s%ts=7|8|9)
+ops(o1=m564st11nw6%o2=m564st11nw6%o3=m564nnt11nw6%o4=m564st11nw6%o5=m564st11nw6%o6=m564st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=n%t=3b-45%tg=40%w=16d0%o=m564nnsnw6%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=o|s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=fa-104%tg=ff%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Cisco MDS 9509 switch (NX-OS 4.2) (97%), Cisco IPS 4270 intrusion prevention system (93%), Linux 2.6.11 - 2.6.18 (92%), Essentia OpenWifless ESS (89%), Linux 2.6.32 (89%), Netgear ReadyNAS 3200 NAS device (Linux 2.6) (89%), Linux 2.6.18.pi (x86) (89%), Netgear WNDAP660 WAP (Linux 2.6.36) (89%), Ubiquiti WAP (Linux 2.6.32) (89%), HP P2000 MSA storage controller (87%)
+Class: Cisco NX-OS 4.X (97%), Cisco embedded (93%), Linux 2.6.X (92%), Essentia embedded (89%), Netgear embedded (89%), Ubiquiti embedded (89%)
+CPE: cpe:/o:cisco:mds_9509 cpe:/o:cisco:nx_os:4.2 cpe:/h:cisco:ips_4270 cpe:/o:linux:linux_kernel:2.6 cpe:/h:netgear:readynas_3200 cpe:/o:linux:linux_kernel:2.6.36 cpe:/h:netgear:wndap660 cpe:/o:linux:linux_kernel
+seq(sp=fc%gcd=1%isr=f3%ci=i%ii=i)
+ops(o1=m564st11nw6%o2=m564st11nw6%o3=m564nnt11nw6%o4=m564st11nw6%o5=m564st11nw6%o6=m564st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=n%t=40%w=16d0%o=m564nnsnw6%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=ff%w=100%s=z%a=s+%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3d%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ops(o1=m564st11nw6%o2=m564st11nw6%o3=m564nnt11nw6%o4=m564st11nw6%o5=m564st11nw6%o6=m564st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=n%w=16d0%o=m564nnsnw6%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=100%s=z%a=s+%f=ar%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=fa-104%gcd=1-6%isr=fc-10a%ti=i|rd%ci=rd%ss=s%ts=7|8|9)
+FingerB:seq(sp=fc%gcd=1%isr=f3%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40%a=o|s+)
+FingerB:t1(t=40%a=o)
+
+FingerA:t2(t=fa-104%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t3(t=fa-104%tg=ff%o=)
+FingerB:t3(t=ff%o=m5b4)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3d%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3d%r=y)
+
+
+

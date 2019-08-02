@@ -1,0 +1,77 @@
+Fingerprint: HP LaserJet M425dn or M2727nf printer
+Class: HP | embedded || printer
+CPE: cpe:/h:hp:laserjet_m425dn
+CPE: cpe:/h:hp:laserjet_m2727nf
+seq(sp=aa-b4%gcd=1-6%isr=a5-b3%ti=i|rd%ci=i%ii=i%ss=s%ts=a|b)
+ops(o1=m548nw0nnsnnt11%o2=m548nw0nnsnnt11%o3=m280nw0nnt11%o4=m548nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+win(w1=24a4%w2=24a4%w3=2258%w4=24a4%w5=20c0%w6=209d)
+ecn(r=y%df=y%t=3c-46%tg=40%w=24f8%o=m548nw0nns%cc=n%q=)
+t1(r=y%df=y%t=3c-46%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3c-46%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3c-46%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3c-46%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3c-46%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fb-105%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fb-105%tg=ff%cd=s)
+********************************************************
+Fingerprint: HP LaserJet M425dn or M2727nf printer (97%), Nintendo Wii game console (94%), VxWorks (93%), HP LaserJet M451dn, CM1415fnw, or CP4525 (93%), APC Network Management Card (AOS 3.3.4 - 3.5.5) (93%), HP LaserJet M2727nf or P1505n printer (93%), HP Photosmart 5520 printer (93%), HP printer (M1120n, M1522n, CP1515n, CP2025dn, or CP2525dn) (93%), NEC Univerge SV8300 PBX (93%), HP iLO 3 or iLO 4 remote management interface (92%)
+seq(sp=104%gcd=1%isr=fb%ii=i)
+ops(o1=m548nw0nnsnnt11%o2=m548nw0nnsnnt11%o3=m280nw0nnt11%o4=m548nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+win(w1=24a4%w2=24a4%w3=2258%w4=24a4%w5=20c0%w6=209d)
+ecn(r=y%df=y%t=40%w=24f8%o=m548nw0nns%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ops(o1=m548nw0nnsnnt11%o2=m548nw0nnsnnt11%o3=m280nw0nnt11%o4=m548nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+FingerAB:win(w1=24a4%w2=24a4%w3=2258%w4=24a4%w5=20c0%w6=209d)
+FingerAB:ecn(r=y%df=y%w=24f8%o=m548nw0nns%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=aa-b4%gcd=1-6%isr=a5-b3%ti=i|rd%ci=i%ss=s%ts=a|b)
+FingerB:seq(sp=104%gcd=1%isr=fb)
+
+FingerA:ecn(t=3c-46%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3c-46%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3c-46%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3c-46%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3c-46%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3c-46%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fb-105%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fb-105%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

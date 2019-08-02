@@ -1,0 +1,75 @@
+Fingerprint: Belkin N600 DB WAP
+Class: Belkin | embedded || WAP
+CPE: cpe:/h:belkin:n600_db
+seq(sp=cf-123%gcd=1-6%isr=e8-100%ti=z%ci=z%ii=i%ts=7)
+ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw1%cc=n)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw1%rd=0)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%rd=0)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: DD-WRT v24 (Linux 2.6.22) (99%), Linux 2.6.10 - 2.6.13 (embedded) (97%), Linux 2.6.18 - 2.6.32 (97%), Linux 2.6.9 - 2.6.19 (97%), Linux 2.6.13 - 2.6.32 (97%), Perle IOLAN DS1 Ethernet-to-serial bridge (97%), Belkin N600 DB WAP (97%), Cisco SRP 527 WAP (Linux 2.6) (97%), Linux 2.6.22 - 2.6.23 (96%), RGB Spectrum MediaWall 1500 video processor (96%)
+Class: Linux 2.6.X|3.X (99%), Perle embedded (97%), Belkin embedded (97%), Cisco embedded (97%), RGB Spectrum embedded (96%), Aruba embedded (96%), Aruba ArubaOS 6.X (95%)
+CPE: cpe:/o:linux:linux_kernel:2.6.22 cpe:/o:linux:linux_kernel:2.6 cpe:/h:belkin:n600_db cpe:/h:cisco:srp_527 cpe:/h:arubanetworks:iap-93 cpe:/o:arubanetworks:arubaos:6.3 cpe:/o:linux:linux_kernel:2.6.24 cpe:/o:linux:linux_kernel:3.5
+seq(sp=fc%gcd=1%isr=f2%ci=i)
+ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nnsnw1%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw1%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw1%o2=m5b4st11nw1%o3=m5b4nnt11nw1%o4=m5b4st11nw1%o5=m5b4st11nw1%o6=m5b4st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nnsnw1%cc=n)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw1%rd=0)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=cf-123%gcd=1-6%isr=e8-100%ti=z%ci=z%ii=i%ts=7)
+FingerB:seq(sp=fc%gcd=1%isr=f2%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40%q=)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40%q=)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40%q=)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40%o=%q=)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40%o=%q=)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40%o=%q=)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,61 @@
+Fingerprint: Linux 2.6.18.8 (openSUSE 10.2)
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6.18.8
+seq(sp=c5-cf%gcd=1-6%isr=ca-d4%ti=z%ii=i%ts=8%ci=)
+ops(o1=m5b4st11nw3%o2=m5b4st11nw3%o3=m5b4nnt11nw3%o4=m5b4st11nw3%o5=m5b4st11nw3%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nnsnw3%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16a0%s=o%a=o|s+%f=a|as%o=nnt11|m5b4st11nw3%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(r=n)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Linux 2.6.18.8 (openSUSE 10.2) (94%), Belkin Wireless Pre-N Router (93%), Linux 2.6.17 (93%), Linux 2.6.18 (Centos 5.3) (93%), Linux 2.6.8 (Debian 3.1) (93%), Linux 2.4.19 (93%), HP MSL4048 tape library (93%), Linksys WRT54GX2 WAP (92%), Linux 2.6.13 - 2.6.32 (92%), Linux 2.6.18 (Debian 4, VMware) (92%)
+seq(ci=i%ii=i)
+ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nnsnw3%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%tg=40%w=16a0%s=o%a=o%f=as%o=nnt11%rd=0%q=)
+t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=n%tg=40%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=y%tg=40%w=16d0%o=m5b4nnsnw3%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%tg=40%w=16a0%s=o%rd=0%q=)
+FingerAB:t4(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=n%tg=40%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c5-cf%gcd=1-6%isr=ca-d4%ti=z%ts=8%ci=)
+FingerB:seq(ci=i)
+
+FingerA:ecn(t=3b-45)
+FingerA:t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=3b-45%a=o|s+%f=a|as%o=nnt11|m5b4st11nw3)
+FingerB:t3(a=o%f=as%o=nnt11)
+
+FingerA:t4(t=3b-45)
+FingerA:t5(t=3b-45)
+FingerA:t6(t=3b-45)
+FingerA:ie(t=3b-45)
+FingerB:ie(r=y)
+
+FingerA:ops(o1=m5b4st11nw3%o2=m5b4st11nw3%o3=m5b4nnt11nw3%o4=m5b4st11nw3%o5=m5b4st11nw3%o6=m5b4st11)
+FingerA:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerA:t7(r=n)
+
+

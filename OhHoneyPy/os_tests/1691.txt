@@ -1,0 +1,81 @@
+Fingerprint: HP Deskjet 6940 printer
+Class: HP | embedded || printer
+CPE: cpe:/h:hp:deskjet_6940 auto
+seq(sp=39-43%gcd=9c4|1388|1d4c|2710|30d4%isr=9e-a8%ti=i%ci=i%ii=i%ss=s%ts=a)
+ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m5b4nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+win(w1=b50%w2=ad8%w3=9d0%w4=b50%w5=830%w6=8e5)
+ecn(r=y%df=y%t=3b-45%tg=40%w=b68%o=m5b4nw0nns%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=8e5%s=o%a=s+%f=as%o=m109nw0nnsnnt11%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: HP Deskjet 6940 printer (95%), HP Photosmart 8750 printer (95%), HP Officejet Pro 8500 printer (94%), HP Officejet J4680 printer (93%), HP printer: Photosmart 4300-, 6500-, 7200-, or 8100-series, or Officejet 6000-series (93%), HP DeskJet 6127 or 6840, Officejet 7400, Officejet Pro K550, or Photosmart 2710 or 8400 printer (93%), HP printer: Photosmart All-in-One (2575, PSC5100, C5180, C6100, or C6180); DeskJet (6940 or 6980); Officejet 6300-series; or Officejet Pro (K550, K5400, L7600, or L7780) (93%), 3M Filtrete 3M-50 thermostat (93%), HP LaserJet CP2025dn printer (92%), 3M CT-30 thermostat (92%)
+Class: HP embedded (95%), 3M embedded (93%), HP iLO 3.X|4.X (92%), Nintendo embedded (91%), APC AOS 3.X|2.X (91%), NEC embedded (91%), Philips embedded (91%), Wyse ThinOS (91%)
+CPE: cpe:/h:hp:deskjet_6940 cpe:/o:hp:ilo:3 cpe:/h:nintendo:wii cpe:/o:apc:aos:3 cpe:/o:hp:ilo:4 cpe:/h:nec:univerge_sv8300 cpe:/o:wyse:thinos cpe:/o:apc:aos:2.7.0
+seq(sp=e5%gcd=1%isr=dc%ci=i%ii=i)
+ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m5b4nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+win(w1=b50%w2=ad8%w3=9d0%w4=b50%w5=830%w6=8e5)
+ecn(r=y%df=y%t=40%w=b68%o=m5b4nw0nns%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=8e5%s=o%a=s+%f=as%o=m109nw0nnsnnt11%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ii=i)
+FingerAB:ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m5b4nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+FingerAB:win(w1=b50%w2=ad8%w3=9d0%w4=b50%w5=830%w6=8e5)
+FingerAB:ecn(r=y%df=y%w=b68%o=m5b4nw0nns%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=8e5%s=o%a=s+%f=as%o=m109nw0nnsnnt11%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=39-43%gcd=9c4|1388|1d4c|2710|30d4%isr=9e-a8%ti=i%ss=s%ts=a)
+FingerB:seq(sp=e5%gcd=1%isr=dc)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

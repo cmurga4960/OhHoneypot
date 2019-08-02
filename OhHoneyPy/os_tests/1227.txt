@@ -1,0 +1,55 @@
+Fingerprint: DYMO LabelManager Wireless PNP printer
+Class: DYMO | embedded || printer
+seq(sp=0-5%gcd=64|c8|12c|190|1f4%isr=4b-55%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(r=n)
+win(r=n)
+ecn(r=y%df=n%t=3b-45%tg=40%w=3%o=wanm5b4snn%cc=n%q=u)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=n)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=176%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: DYMO LabelManager Wireless PNP printer (99%), Citrix NetScaler load balancer (92%), Lantronix XPort AR (92%), Mitsubishi Q06UDEH CPU PLC module (92%), Lenel LNL-3300 access control board (91%), Panasonic BL-C210A webcam (90%), Rabbit microcontroller (90%), Allied Telesyn Rapier G6 switch (90%), HP Integrated Lights-Out 2 (90%), Panasonic WV-SP300 or WV-SF330 webcam (90%)
+seq(ts=u)
+ecn(r=y%df=n%t=40%w=3%o=wanm5b4snn%cc=n%q=u)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+u1(r=y%df=n%t=fa%ipl=38%un=176%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ecn(r=y%df=n%w=3%o=wanm5b4snn%cc=n%q=u)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:u1(df=n%ipl=38%un=176%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-5%gcd=64|c8|12c|190|1f4%isr=4b-55%ti=i%ii=i%ss=s%ci=)
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+FingerA:t5(r=n)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,78 @@
+Fingerprint: Asus Zenfone 5 (Android 4.4.2)
+Class: Asus | embedded || phone
+Class: Google | Android | 4.X | phone
+CPE: cpe:/o:google:android:4.4.2 auto
+seq(sp=fb-105%gcd=1-6%isr=107-111%ti=z%ci=i%ii=i%ts=7)
+ops(o1=m5b4st11nw6%o2=m5b4st11nw6%o3=m5b4nnt11nw6%o4=m5b4st11nw6%o5=m5b4st11nw6%o6=m5b4st11)
+win(w1=10f8%w2=10f8%w3=10f8%w4=10f8%w5=10f8%w6=10f8)
+ecn(r=y%df=y%t=3b-45%tg=40%w=111c%o=m5b4nnsnw6%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Asus Zenfone 5 (Android 4.4.2) (98%), Netgear ReadyNAS 2100 (RAIDiator 4.2.24) (96%), CyanogenMod 12 (Android 5.0.2) (95%), Android 4.1 - 6.0 (Linux 3.4 - 3.14) (95%), Sony Android TV (Android 5.0) (95%), Linux 3.2 - 3.16 (95%), Linux 3.2 - 4.9 (95%), Linux 2.6.22 (94%), Linux 2.6.35 (94%), Amazon Kindle Paperwhite (94%)
+Class: Asus embedded (98%), Google Android 4.X|5.X|6.X (98%), Netgear RAIDiator 4.X (96%), CyanogenMod 12.X (95%), Linux 3.X|4.X (95%)
+CPE: cpe:/o:google:android:4.4.2 cpe:/o:netgear:raidiator:4.2.24 cpe:/o:cyanogenmod:cyanogenmod:12 cpe:/o:google:android:5.0.2 cpe:/o:google:android:6 cpe:/o:linux:linux_kernel:3 cpe:/o:google:android:5.0 cpe:/o:linux:linux_kernel:4
+seq(sp=fc%gcd=1%isr=f2%ci=i)
+ops(o1=m5b4st11nw6%o2=m5b4st11nw6%o3=m5b4nnt11nw6%o4=m5b4st11nw6%o5=m5b4st11nw6%o6=m5b4st11)
+win(w1=10f8%w2=10f8%w3=10f8%w4=10f8%w5=10f8%w6=10f8)
+ecn(r=y%df=y%t=40%w=111c%o=m5b4nnsnw6%cc=y%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ops(o1=m5b4st11nw6%o2=m5b4st11nw6%o3=m5b4nnt11nw6%o4=m5b4st11nw6%o5=m5b4st11nw6%o6=m5b4st11)
+FingerAB:win(w1=10f8%w2=10f8%w3=10f8%w4=10f8%w5=10f8%w6=10f8)
+FingerAB:ecn(r=y%df=y%w=111c%o=m5b4nnsnw6%cc=y%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fb-105%gcd=1-6%isr=107-111%ti=z%ii=i%ts=7)
+FingerB:seq(sp=fc%gcd=1%isr=f2)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

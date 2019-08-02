@@ -1,0 +1,77 @@
+Fingerprint: Dish Network Hopper media device
+Class: Dish | embedded || media device
+CPE: cpe:/h:dish:hopper
+seq(sp=b9-cf%gcd=1-6%isr=c3-d3%ti=z%ci=z%ii=i%ts=a|b|c)
+ops(o1=nnt11|m5b4st11nw5%o2=nnt11|m5b4st11nw5%o3=nnt11|m5b4nnt11nw5%o4=nnt11|m5b4st11nw5%o5=nnt11|m5b4st11nw5%o6=nnt11|m5b4st11)
+win(w1=10f8%w2=10f8%w3=10f8%w4=10f8%w5=10f8%w6=10f8)
+ecn(r=y%df=y%t=3b-45%tg=40%w=111c%o=|m5b4nnsnw5%cc=n|y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=o|s+%f=a|as%rd=0%q=)
+t2(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Dish Network Hopper media device (95%), Toshiba REGZA TV (87%), Dish Network VIP 722k DVR (Linux 2.6) (86%), Linux 2.6.16.27 (fli4l 3.1.1) (86%), Sony Blu-Ray Player (86%), Toshiba Magnia SG10 server appliance (Linux 2.4.18) (85%)
+Class: Dish embedded (95%), Toshiba embedded (87%), Linux 2.6.X|2.4.X (86%), Sony embedded (86%)
+CPE: cpe:/h:dish:hopper cpe:/h:toshiba:regza cpe:/h:dish:vip_722k cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:2.6.16-27 cpe:/o:linux:linux_kernel:2.4.18 cpe:/h:toshiba:magnia_sg10
+seq(sp=df%gcd=1%isr=d6%ci=i)
+ops(o1=nnt11%o2=nnt11%o3=nnt11%o4=nnt11%o5=nnt11%o6=nnt11)
+win(w1=10f8%w2=10f8%w3=10f8%w4=10f8%w5=10f8%w6=10f8)
+ecn(r=y%df=y%t=40%w=111c%o=%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=y%df=y%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%t=40%w=0%s=z%a=o%f=ar%o=m5b4%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:win(w1=10f8%w2=10f8%w3=10f8%w4=10f8%w5=10f8%w6=10f8)
+FingerAB:ecn(r=y%df=y%w=111c%q=)
+FingerAB:t1(r=y%df=y%s=o%rd=0%q=)
+FingerAB:t2(r=y%df=y%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=y%w=0%s=z%a=o%f=ar%rd=0%q=)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=b9-cf%gcd=1-6%isr=c3-d3%ti=z%ci=z%ii=i%ts=a|b|c)
+FingerB:seq(sp=df%gcd=1%isr=d6%ci=i)
+
+FingerA:ops(o1=nnt11|m5b4st11nw5%o2=nnt11|m5b4st11nw5%o3=nnt11|m5b4nnt11nw5%o4=nnt11|m5b4st11nw5%o5=nnt11|m5b4st11nw5%o6=nnt11|m5b4st11)
+FingerB:ops(o1=nnt11%o2=nnt11%o3=nnt11%o4=nnt11%o5=nnt11%o6=nnt11)
+
+FingerA:ecn(t=3b-45%tg=40%o=|m5b4nnsnw5%cc=n|y)
+FingerB:ecn(t=40%o=%cc=n)
+
+FingerA:t1(t=3b-45%tg=40%a=o|s+%f=a|as)
+FingerB:t1(t=40%a=o%f=as)
+
+FingerA:t2(t=3b-45%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=3b-45%tg=40%o=)
+FingerB:t3(t=40%o=m5b4)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+
+

@@ -1,0 +1,63 @@
+Fingerprint: APC power distribution unit (AOS 2.7.0)
+Class: APC | AOS | 1.X | power-device
+CPE: cpe:/o:apc:aos:1 auto
+seq(sp=0-32%gcd=30d4|61a8|927c|c350|f424|1e848|3d090|5b8d8|7a120|98968%isr=9f-a9%ti=i%ii=i%ss=s%ts=a%ci=)
+ops(o1=m564nw0nnt11%o2=m564nw0nnt11%o3=m280nw0nnt11%o4=m5b4nw0nnt11%o5=m218nw0nnt11%o6=m109nnt11)
+win(w1=1008%w2=1008%w3=112c%w4=10f8%w5=1060%w6=10cd)
+ecn(r=y%df=y%t=3b-45%tg=40%w=102c%o=m564nw0%cc=n)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: APC power distribution unit (AOS 2.7.0) (93%), OpenBSD 4.3 (90%), Apple AirPort Extreme WAP (90%), Nokia E70 or N86 mobile phone (Symbian OS) (90%), OpenBSD 4.0 (89%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (89%), Digi AnywhereUSB/2 network-attached USB hub (89%), Digi AnywhereUSB network-attached USB hub (89%), OneAccess 1641 router (89%), FreeBSD 6.2-RELEASE (88%)
+seq(sp=fb%gcd=1%isr=f2)
+ops(o1=m564nw0nnt11%o2=m564nw0nnt11%o3=m280nw0nnt11%o4=m5b4nw0nnt11%o5=m218nw0nnt11%o6=m109nnt11)
+win(w1=1008%w2=1008%w3=112c%w4=10f8%w5=1060%w6=10cd)
+ecn(r=y%df=y%t=40%w=102c%o=m564nw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m564nw0nnt11%o2=m564nw0nnt11%o3=m280nw0nnt11%o4=m5b4nw0nnt11%o5=m218nw0nnt11%o6=m109nnt11)
+FingerAB:win(w1=1008%w2=1008%w3=112c%w4=10f8%w5=1060%w6=10cd)
+FingerAB:ecn(r=y%df=y%w=102c%o=m564nw0%cc=n)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-32%gcd=30d4|61a8|927c|c350|f424|1e848|3d090|5b8d8|7a120|98968%isr=9f-a9%ti=i%ii=i%ss=s%ts=a%ci=)
+FingerB:seq(sp=fb%gcd=1%isr=f2)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40%q=)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40%q=)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40%o=%q=)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,68 @@
+Fingerprint: Brother HL-5070N printer
+Class: Brother | embedded || printer
+CPE: cpe:/h:brother:hl-5070n auto
+seq(sp=d1-db%gcd=1-6%isr=d6-e0%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=y%df=n%t=75%tg=80%s=o%a=o|s+%f=a|as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=75%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=75%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=75%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=75%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=75%tg=80%ipl=38%un=0%ripl=g%rid=g%ripck=g%rud=g)
+ie(dfi=n%t=75%tg=80%cd=z)
+********************************************************
+Fingerprint: Brother HL-5070N printer (96%), Brother MFC-7820N printer (95%), Aastra A510 VoIP phone (95%), Sony BDV-E970W television (95%), NEC UNIVERGE SV8100 PBX (94%), Nintendo Wii game console (94%), 3Com SuperStack 3 Switch 3870 (94%), Sapling IP clock (94%), Ember InSight Adapter for programming EM2XX-family embedded devices (94%), NetApp FAS2000 NAS device (94%)
+seq(ci=i%ts=u)
+ecn(r=n)
+t1(r=y%df=n%t=80%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=n%s=o%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=d1-db%gcd=1-6%isr=d6-e0%ti=i%ii=i%ss=s)
+FingerA:t1(t=75%tg=80%a=o|s+%f=a|as)
+FingerB:t1(t=80%a=o%f=as)
+
+FingerA:t4(t=75%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=75%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=75%tg=80)
+FingerB:t6(t=80)
+
+FingerA:t7(t=75%tg=80)
+FingerB:t7(t=80)
+
+FingerA:u1(t=75%tg=80)
+FingerB:u1(t=fa%r=y%ruck=g)
+
+FingerA:ie(dfi=n%t=75%tg=80%cd=z)
+FingerB:ie(r=n)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

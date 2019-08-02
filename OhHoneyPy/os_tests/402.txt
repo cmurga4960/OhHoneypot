@@ -1,0 +1,65 @@
+Fingerprint: Arris SB6183 cable modem
+Class: Arris | embedded || broadband router
+CPE: cpe:/h:arris:sb6183 auto
+seq(sp=102-10c%gcd=1-6%isr=fe-108%ti=i%ii=i%ss=s%ts=7%ci=)
+ops(o1=m200nw0nnt11%o2=m200nw0nnt11%o3=m200nw0nnt11%o4=m200nw0nnt11%o5=m200nw0nnt11%o6=m200nnt11)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=4000%o=m200nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Arris SB6183 cable modem (96%), Netgear CM500 cable modem (93%), Motorola SURFboard 5101 cable modem (92%), FreeBSD 6.2-RELEASE (91%), QNX RTOS 6.2 (87%), Ericsson SmartEdge router (SmartEdge OS 11.1) (87%), Thomson SpeedTouch 510 DSL modem (87%)
+Class: Arris embedded (96%), Netgear embedded (93%), Motorola embedded (92%), FreeBSD 6.X (91%), QNX RTOS 6.X (87%), Redback SmartEdge OS 11.X (87%), Thomson embedded (87%)
+CPE: cpe:/h:arris:sb6183 cpe:/h:netgear:cm500 cpe:/h:motorola:surfboard_5101 cpe:/o:freebsd:freebsd:6.2 cpe:/o:qnx:rtos:6.2 cpe:/o:redback:smartedge_os:11.1 cpe:/h:thomson:speedtouch_510
+seq(sp=d7%gcd=1%isr=ce)
+ops(o1=m200nw0nnt11%o2=m200nw0nnt11%o3=m200nw0nnt11%o4=m200nw0nnt11%o5=m200nw0nnt11%o6=m200nnt11)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=n%t=40%w=4000%o=m200nw0%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m200nw0nnt11%o2=m200nw0nnt11%o3=m200nw0nnt11%o4=m200nw0nnt11%o5=m200nw0nnt11%o6=m200nnt11)
+FingerAB:win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+FingerAB:ecn(r=y%df=n%w=4000%o=m200nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=102-10c%gcd=1-6%isr=fe-108%ti=i%ii=i%ss=s%ts=7%ci=)
+FingerB:seq(sp=d7%gcd=1%isr=ce)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

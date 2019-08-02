@@ -1,0 +1,78 @@
+Fingerprint: CyanogenMod 11 (Android 4.4.4)
+Class: CyanogenMod | CyanogenMod | 11.X | phone
+Class: Google | Android | 4.X | phone
+CPE: cpe:/o:cyanogenmod:cyanogenmod:11 auto
+CPE: cpe:/o:google:android:4.4.4 auto
+seq(sp=fe-108%gcd=1-6%isr=104-10e%ti=z%ci=z%ii=i%ts=7)
+ops(o1=m5b4st11nw6%o2=m5b4st11nw6%o3=m5b4nnt11nw6%o4=m5b4st11nw6%o5=m5b4st11nw6%o6=m5b4st11)
+win(w1=a9b0%w2=a9b0%w3=a9b0%w4=a9b0%w5=a9b0%w6=a9b0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=a564%o=m5b4nnsnw6%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Amazon Kindle Paperwhite (98%), CyanogenMod 12 (Android 5.0.2) (98%), Sony Android TV (Android 5.0) (98%), CyanogenMod 11 (Android 4.4.4) (96%), Linux 3.2 - 3.16 (95%), Linux 3.2 - 4.9 (95%), Sony Bravia smart TV (Android) (95%), Asus Zenfone 5 (Android 4.4.2) (95%), Android 4.1 - 6.0 (Linux 3.4 - 3.14) (95%), Android 5.1 (95%)
+Class: Amazon embedded (98%), CyanogenMod 12.X|11.X (98%), Google Android 5.X|4.X (98%), Linux 3.X|4.X (95%), Sony embedded (95%)
+CPE: cpe:/o:cyanogenmod:cyanogenmod:12 cpe:/o:google:android:5.0.2 cpe:/o:google:android:5.0 cpe:/o:cyanogenmod:cyanogenmod:11 cpe:/o:google:android:4.4.4 cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4 cpe:/o:google:android
+seq(sp=105%gcd=1%isr=fc%ci=i)
+ops(o1=m5b4st11nw6%o2=m5b4st11nw6%o3=m5b4nnt11nw6%o4=m5b4st11nw6%o5=m5b4st11nw6%o6=m5b4st11)
+win(w1=a9b0%w2=a9b0%w3=a9b0%w4=a9b0%w5=a9b0%w6=a9b0)
+ecn(r=y%df=y%t=40%w=a564%o=m5b4nnsnw6%cc=y%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw6%o2=m5b4st11nw6%o3=m5b4nnt11nw6%o4=m5b4st11nw6%o5=m5b4st11nw6%o6=m5b4st11)
+FingerAB:win(w1=a9b0%w2=a9b0%w3=a9b0%w4=a9b0%w5=a9b0%w6=a9b0)
+FingerAB:ecn(r=y%df=y%w=a564%o=m5b4nnsnw6%cc=y%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=fe-108%gcd=1-6%isr=104-10e%ti=z%ci=z%ii=i%ts=7)
+FingerB:seq(sp=105%gcd=1%isr=fc%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

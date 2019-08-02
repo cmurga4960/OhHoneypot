@@ -1,0 +1,77 @@
+Fingerprint: ArubaOS 6.4.2.6
+Class: Aruba | ArubaOS | 6.X | WAP
+CPE: cpe:/o:arubanetworks:arubaos:6.4.2.6 auto
+seq(sp=c5-cf%gcd=1-6%isr=ca-d4%ti=z%ci=z%ii=i%ts=9)
+ops(o1=m4ecst11nw2%o2=m4ecst11nw2%o3=m4ecnnt11nw2%o4=m4ecst11nw2%o5=m4ecst11nw2%o6=m4ecst11)
+win(w1=1380%w2=1380%w3=1380%w4=1380%w5=1380%w6=1380)
+ecn(r=y%df=y%t=3b-45%tg=40%w=13b0%o=m4ecnnsnw2%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=1380%s=o%a=s+%f=as%o=m4ecst11nw2%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: ArubaOS 6.4.2.6 (96%), Aruba Instant WAP (93%), Aruba 100-series access point (ArubaOS 6.4.0.2) (93%), ArubaOS 6.4.4.8 (92%), Linux 2.6.35 (92%), OpenWrt (Linux 2.4.32) (91%), OpenWrt White Russian 0.9 (Linux 2.4.30) (91%), Toshiba Magnia SG10 server appliance (Linux 2.4.18) (91%), Aruba Instant AP (ArubaOS 6.4.2.6) (90%), OpenWrt (Linux 2.4.30 - 2.4.34) (90%)
+seq(sp=e0%gcd=1%isr=d7%ci=i)
+ops(o1=m4ecst11nw2%o2=m4ecst11nw2%o3=m4ecnnt11nw2%o4=m4ecst11nw2%o5=m4ecst11nw2%o6=m4ecst11)
+win(w1=1380%w2=1380%w3=1380%w4=1380%w5=1380%w6=1380)
+ecn(r=y%df=y%t=40%w=13b0%o=m4ecnnsnw2%cc=y%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=1380%s=o%a=s+%f=as%o=m4ecst11nw2%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m4ecst11nw2%o2=m4ecst11nw2%o3=m4ecnnt11nw2%o4=m4ecst11nw2%o5=m4ecst11nw2%o6=m4ecst11)
+FingerAB:win(w1=1380%w2=1380%w3=1380%w4=1380%w5=1380%w6=1380)
+FingerAB:ecn(r=y%df=y%w=13b0%o=m4ecnnsnw2%cc=y%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=1380%s=o%a=s+%f=as%o=m4ecst11nw2%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c5-cf%gcd=1-6%isr=ca-d4%ti=z%ci=z%ii=i%ts=9)
+FingerB:seq(sp=e0%gcd=1%isr=d7%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

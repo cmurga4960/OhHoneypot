@@ -1,0 +1,62 @@
+Fingerprint: Linksys WRT54G or WRT54G2, or Netgear WGR614 or WPN824v2 wireless broadband router
+Class: Linksys | embedded || WAP
+Class: Netgear | embedded || WAP
+seq(sp=13-1e%gcd=fa00|1f400|2ee00|3e800|4e200%isr=99-a3%ti=i%ii=i%ss=s%ts=1%ci=)
+ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=2000%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=4210%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: RISCOS Ltd RISC OS 6.20 (91%), 3Com 7760 WAP (89%), HP Brocade 1600 switch (89%), Linksys WRT54G or WRT54G2, or Netgear WGR614 or WPN824v2 wireless broadband router (89%), SonicWALL TZ 170 Unlimited firewall (SonicOS) (89%), HP LaserJet 1320 printer (89%), Polycom SoundPoint 501 IP phone (88%), eComStation 2.2 (88%), HP LaserJet 2420N printer (88%), HP LaserJet 4300 printer (88%)
+Class: RISCOS Ltd RISC OS 6.X (91%), 3Com embedded (89%), HP embedded (89%), Linksys embedded (89%), Netgear embedded (89%), SonicWALL embedded (89%), Polycom embedded (88%), XEU.com eComStation 2.X (88%)
+CPE: cpe:/o:riscosltd:risc_os:6.20 cpe:/h:3com:7760 cpe:/h:hp:brocade_1600 cpe:/o:sonicwall:tz_170 cpe:/h:hp:laserjet_1320 cpe:/o:xeu.com:ecomstation:2.2 cpe:/h:hp:laserjet_2420n
+seq(ii=i)
+ecn(r=y%df=n%t=40%w=2000%o=m5b4nw0%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=4210%ripck=i%ruck=0%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=n%w=2000%o=m5b4nw0%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=4210%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=13-1e%gcd=fa00|1f400|2ee00|3e800|4e200%isr=99-a3%ti=i%ss=s%ts=1%ci=)
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40%ripck=g)
+FingerB:u1(t=3b%ripck=i%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m5b4nw0nnt11%o2=m5b4nw0nnt11%o3=m5b4nw0nnt11%o4=m5b4nw0nnt11%o5=m5b4nw0nnt11%o6=m5b4nnt11)
+FingerA:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

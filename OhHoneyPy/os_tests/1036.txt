@@ -1,0 +1,86 @@
+Fingerprint: D-Link DES-1210, DGS-1210, or DGS-1500 switch
+Class: D-Link | embedded || switch
+CPE: cpe:/h:dlink:des-1210
+CPE: cpe:/h:dlink:dgs-1210
+CPE: cpe:/h:dlink:dgs-1500
+seq(sp=0-5%gcd=388|710|a98|e20|11a8%isr=64-6e%ti=i%ci=i%ii=i%ss=s%ts=7)
+ops(o1=m109nnt11|m578nnt11%o2=m578nnt11%o3=m578nnt11%o4=m578nnt11%o5=m218nnt11%o6=m109nnt11)
+win(w1=2400%w2=2400%w3=2400%w4=2400%w5=2400%w6=2400)
+ecn(r=y%df=n%t=37-41%tg=40%w=0%o=%cc=n%q=)
+t1(r=y%df=n%t=37-41%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=37-41%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=37-41%tg=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=37-41%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=37-41%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=37-41%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=37-41%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: D-Link DES-1210, DGS-1210, or DGS-1500 switch (95%), D-Link DGS-1210 switch (91%), Konica Minolta 7035 printer (88%), Oki B711 printer (88%), Oki B930 printer (88%), Casio QT-6000 or QT-6100 point-of-sale machine (87%), Bay Networks BayStack 450 switch (software version 4.2.0.16) (87%), Sony Ericsson P1i mobile phone (Symbian OS 9.1) (87%), Lenel LNL-2220 access control board (87%), HP LaserJet P2015 printer (87%)
+seq(sp=101%gcd=1%isr=f8%ci=i)
+ops(o1=m109nnt11%o2=m578nnt11%o3=m578nnt11%o4=m578nnt11%o5=m218nnt11%o6=m109nnt11)
+win(w1=2400%w2=2400%w3=2400%w4=2400%w5=2400%w6=2400)
+ecn(r=y%df=n%t=40%w=0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ops(o2=m578nnt11%o3=m578nnt11%o4=m578nnt11%o5=m218nnt11%o6=m109nnt11)
+FingerAB:win(w1=2400%w2=2400%w3=2400%w4=2400%w5=2400%w6=2400)
+FingerAB:ecn(r=y%df=n%w=0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-5%gcd=388|710|a98|e20|11a8%isr=64-6e%ti=i%ii=i%ss=s%ts=7)
+FingerB:seq(sp=101%gcd=1%isr=f8)
+
+FingerA:ops(o1=m109nnt11|m578nnt11)
+FingerB:ops(o1=m109nnt11)
+
+FingerA:ecn(t=37-41%tg=40%o=)
+FingerB:ecn(t=40%o=m5b4)
+
+FingerA:t1(t=37-41%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=37-41%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t3(t=37-41%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=37-41%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=37-41%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=37-41%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=37-41%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

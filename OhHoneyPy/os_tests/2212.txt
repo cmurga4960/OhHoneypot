@@ -1,0 +1,66 @@
+Fingerprint: Lanier LD150 (Ricoh MP 5001) printer
+Class: Lanier | embedded || printer
+seq(sp=101-10b%gcd=1-6%isr=100-10a%ti=i%ii=i%ss=s%ts=0%ci=)
+ops(o1=m53enw0nnt01%o2=m53enw0nnt01%o3=m53enw0nnt01%o4=m53enw0nnt01%o5=m53enw0nnt01%o6=m53ennt01)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=y%t=3b-45%tg=40%w=4000%o=m53enw0%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Lanier LD150 (Ricoh MP 5001) printer (96%), Apple AirPort Extreme WAP (89%), QNX RTOS 6.2 (88%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (88%), Lanier Pro 8100s printer (88%), Crestron XPanel control system (87%)
+Class: Lanier embedded (96%), Apple embedded (89%), QNX RTOS 6.X (88%), D-Link embedded (88%), TRENDnet embedded (88%), Crestron 2-Series (87%)
+CPE: cpe:/h:apple:airport_extreme cpe:/o:qnx:rtos:6.2 cpe:/h:dlink:dwl-624%2b cpe:/h:dlink:dwl-2000ap cpe:/h:trendnet:tew-432brp cpe:/o:crestron:2_series
+seq(sp=fd%gcd=1%isr=f3%ii=i%ts=0)
+ops(o1=m53enw0nnt01%o2=m53enw0nnt01%o3=m53enw0nnt01%o4=m53enw0nnt01%o5=m53enw0nnt01%o6=m53ennt01)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=y%t=40%w=4000%o=m53enw0%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=0)
+FingerAB:ops(o1=m53enw0nnt01%o2=m53enw0nnt01%o3=m53enw0nnt01%o4=m53enw0nnt01%o5=m53enw0nnt01%o6=m53ennt01)
+FingerAB:win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+FingerAB:ecn(r=y%df=y%w=4000%o=m53enw0%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=101-10b%gcd=1-6%isr=100-10a%ti=i%ss=s%ci=)
+FingerB:seq(sp=fd%gcd=1%isr=f3)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

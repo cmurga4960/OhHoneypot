@@ -1,0 +1,64 @@
+Fingerprint: Atcom AT-320 VoIP phone
+Class: Atcom | embedded || VoIP phone
+CPE: cpe:/h:atcom:at-320 auto
+seq(sp=f4-102%gcd=1-6%isr=fd-117%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m218)
+win(w1=514%w2=514%w3=514%w4=514%w5=514%w6=514)
+ecn(r=y%df=n%t=7b-85%tg=80%w=514%o=m218%cc=n%q=)
+t1(r=y%df=n%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=7b-85%tg=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=7b-85%tg=80%w=514%s=o%a=s+%f=as%o=m218%rd=0%q=)
+t4(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+t6(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=n%t=7b-85%tg=80%cd=z)
+********************************************************
+Fingerprint: Atcom AT-320 VoIP phone (99%)
+Class: Atcom embedded (99%)
+CPE: cpe:/h:atcom:at-320
+seq(sp=108%gcd=1%isr=ff%ci=i%ts=u)
+ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m218)
+win(w1=514%w2=514%w3=514%w4=514%w5=514%w6=514)
+ecn(r=y%df=n%tg=80%w=514%o=m218%cc=n%q=)
+t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%tg=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%tg=80%w=514%s=o%a=s+%f=as%o=m218%rd=0%q=)
+t4(r=y%df=n%tg=80%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+t6(r=y%df=n%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m218%o2=m218%o3=m218%o4=m218%o5=m218%o6=m218)
+FingerAB:win(w1=514%w2=514%w3=514%w4=514%w5=514%w6=514)
+FingerAB:ecn(r=y%df=n%tg=80%w=514%o=m218%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%tg=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%tg=80%w=514%s=o%a=s+%f=as%o=m218%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=80%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=80%w=0%s=a%a=o%f=r%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=f4-102%gcd=1-6%isr=fd-117%ti=i%ii=i%ss=s)
+FingerB:seq(sp=108%gcd=1%isr=ff)
+
+FingerA:ecn(t=7b-85)
+FingerA:t1(t=7b-85)
+FingerA:t2(t=7b-85)
+FingerA:t3(t=7b-85)
+FingerA:t4(t=7b-85)
+FingerA:t5(t=7b-85)
+FingerA:t6(t=7b-85)
+FingerA:t7(t=7b-85)
+FingerA:ie(dfi=n%t=7b-85%tg=80%cd=z)
+FingerB:ie(r=n)
+
+
+

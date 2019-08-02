@@ -1,0 +1,80 @@
+Fingerprint: AudioControl D3400 network amplifier
+Class: AudioControl | embedded || media device
+CPE: cpe:/h:audiocontrol:d3400
+seq(sp=0-115%gcd=1-6|2f70509|5ee0a12|8e50f1b|bdc1424|ed3192d%isr=e2-ec%ti=i%ci=i%ii=ri%ss=s%ts=u)
+ops(o1=m5dc%o2=m5dc%o3=m5dc%o4=m5dc%o5=m5dc%o6=m5dc)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=1000%o=m5dc%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=fa-104%tg=ff%w=1000%s=o%a=s+%f=as%o=m5dc%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=1000%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=1000%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=1000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=1000%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: AudioControl D3400 network amplifier (99%), Fatek FBs-CBEH PLC Ethernet communication board (98%), Luminary Micro ARM Evaluation Kit (98%), Espressif ESP8266 WiFi system-on-a-chip (93%), Daysequerra M4.2SI radio (91%), Advanced Illumination DCS-100E lighting controller (90%)
+Class: AudioControl embedded (99%), Fatek embedded (98%), Luminary Micro embedded (98%), Espressif embedded (93%), Daysequerra embedded (91%), Advanced Illumination embedded (90%)
+CPE: cpe:/h:audiocontrol:d3400 cpe:/h:fatek:fbs-cbeh cpe:/h:daysequerra:m4.2si cpe:/h:advanced_illumination:dcs-100e
+seq(sp=103%gcd=1%isr=fa%ci=i%ts=u)
+ops(o1=m5dc%o2=m5dc%o3=m5dc%o4=m5dc%o5=m5dc%o6=m5dc)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=ff%w=1000%o=m5dc%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=ff%w=1000%s=o%a=s+%f=as%o=m5dc%rd=0%q=)
+t4(r=y%df=n%t=ff%w=1000%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=1000%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=1000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=1000%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5dc%o2=m5dc%o3=m5dc%o4=m5dc%o5=m5dc%o6=m5dc)
+FingerAB:win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+FingerAB:ecn(r=y%df=n%w=1000%o=m5dc%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=1000%s=o%a=s+%f=as%o=m5dc%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=1000%s=a+%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=1000%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=1000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=1000%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-115%gcd=1-6|2f70509|5ee0a12|8e50f1b|bdc1424|ed3192d%isr=e2-ec%ti=i%ii=ri%ss=s)
+FingerB:seq(sp=103%gcd=1%isr=fa)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t3(t=fa-104%tg=ff)
+FingerB:t3(t=ff)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

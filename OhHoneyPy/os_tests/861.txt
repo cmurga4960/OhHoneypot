@@ -1,0 +1,76 @@
+Fingerprint: Cisco C870 router (IOS 12.4)
+Class: Cisco | IOS | 12.X | router
+CPE: cpe:/h:cisco:870_router
+CPE: cpe:/o:cisco:ios:12.4
+seq(sp=fc-106%gcd=1-6%isr=107-111%ti=rd%ci=rd%ts=a%ii=)
+ops(o1=t11ll|m5a8snnw2nt11llllll%o2=t11ll|m578snnw2nt11llllll%o3=t11ll|m280w2nt11lllls|m280w2nt11llllll%o4=t11ll|m218snnw2nt11llllll%o5=t11ll|m218snnw2nt11llllll%o6=t11ll|m109snnt11ll)
+win(w1=ff3c|ffff%w2=ff3c|ffff%w3=ff3c|ffff%w4=ff3c|ffff%w5=ff3c|ffff%w6=ffff)
+ecn(r=y%df=n%t=fb-105%tg=ff%w=ff3c|ffff%o=|m5b4snnw2lllll%cc=n|y%q=)
+t1(r=y%df=n%t=fb-105%tg=ff%s=o%a=o|s+%f=a|as%rd=0%q=)
+t2(r=y%df=n%t=fb-105%tg=ff%w=0%s=a|o%a=o|s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=fb-105%tg=ff%w=0%s=a|o%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fb-105%tg=ff%w=0%s=a|o%a=o|s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fb-105%tg=ff%w=0%s=a|o%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=fb-105%tg=ff%w=0%s=a|o%a=o|s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fb-105%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fb-105%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco C870 router (IOS 12.4) (93%), Cisco 2900-series switch (IOS 12.0) (88%), Cisco ATA 188 VoIP adapter (87%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (87%), HP GbE2c Ethernet Blade switch (87%), Nortel BNT Ethernet switch module (87%), IBM i 6 (87%), HP GbW2c Ethernet Blade Switch (87%), Cisco 2950 switch (IOS 12.1) (86%), IBM OS/400 V5R2 - V5R3 (86%)
+seq(ci=i%ii=i)
+ecn(r=y%df=n%t=ff%w=ff3c%o=%cc=n%q=)
+t1(r=n)
+t2(r=y%df=n%t=ff%w=0%s=o%a=o%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=o%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=o%a=o%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=o%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=o%a=o%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3d%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=s%t=3d%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=n%q=)
+FingerAB:t2(r=y%df=n%w=0%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=fc-106%gcd=1-6%isr=107-111%ti=rd%ci=rd%ts=a%ii=)
+FingerB:seq(ci=i%ii=i)
+
+FingerA:ecn(t=fb-105%tg=ff%w=ff3c|ffff%o=|m5b4snnw2lllll%cc=n|y)
+FingerB:ecn(t=ff%w=ff3c%o=%cc=n)
+
+FingerA:t1(r=y%df=n%t=fb-105%tg=ff%s=o%a=o|s+%f=a|as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t2(t=fb-105%tg=ff%s=a|o%a=o|s)
+FingerB:t2(t=ff%s=o%a=o)
+
+FingerA:t4(t=fb-105%tg=ff%s=a|o)
+FingerB:t4(t=ff%s=o)
+
+FingerA:t5(t=fb-105%tg=ff%s=a|o%a=o|s+)
+FingerB:t5(t=ff%s=o%a=o)
+
+FingerA:t6(t=fb-105%tg=ff%s=a|o)
+FingerB:t6(t=ff%s=o)
+
+FingerA:t7(t=fb-105%tg=ff%s=a|o%a=o|s)
+FingerB:t7(t=ff%s=o%a=o)
+
+FingerA:u1(t=fb-105%tg=ff)
+FingerB:u1(t=3d%r=y)
+
+FingerA:ie(t=fb-105%tg=ff)
+FingerB:ie(t=3d%r=y)
+
+FingerA:ops(o1=t11ll|m5a8snnw2nt11llllll%o2=t11ll|m578snnw2nt11llllll%o3=t11ll|m280w2nt11lllls|m280w2nt11llllll%o4=t11ll|m218snnw2nt11llllll%o5=t11ll|m218snnw2nt11llllll%o6=t11ll|m109snnt11ll)
+FingerA:win(w1=ff3c|ffff%w2=ff3c|ffff%w3=ff3c|ffff%w4=ff3c|ffff%w5=ff3c|ffff%w6=ffff)
+
+

@@ -1,0 +1,67 @@
+Fingerprint: HP iLO 4 remote management interface
+Class: HP | iLO | 4.X | remote management
+CPE: cpe:/o:hp:ilo:4 auto
+seq(sp=101-10b%gcd=1-6%isr=108-112%ti=i|rd%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m5b4nw0nnsnnt11%o5=m5b4%o6=m5b4)
+win(w1=8218%w2=8220%w3=8204%w4=8218%w5=8000%w6=8000)
+ecn(r=y%df=n%t=3c-46%tg=40%w=8000%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=3c-46%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3c-46%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fb-105%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fb-105%tg=ff%cd=s)
+********************************************************
+Fingerprint: HP iLO 4 remote management interface (97%), Mitsubishi Q06UDEH CPU PLC module (90%), AVtech Room Alert 26W environmental monitor (90%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (89%), Linksys BEFSR41 EtherFast router (89%), HP iLO 3 remote management interface (89%), HP Integrated Lights-Out 2 (89%), Crestron XPanel control system (88%), Nintendo Wii game console (87%)
+Class: HP iLO 4.X|3.X|2.X (97%), Mitsubishi embedded (90%), AVtech embedded (90%), D-Link embedded (89%), TRENDnet embedded (89%), Linksys embedded (89%), Crestron 2-Series (88%), Nintendo embedded (87%)
+CPE: cpe:/o:hp:ilo:4 cpe:/h:dlink:dwl-624%2b cpe:/h:dlink:dwl-2000ap cpe:/h:trendnet:tew-432brp cpe:/o:hp:ilo:3 cpe:/o:hp:ilo:2 cpe:/o:crestron:2_series cpe:/h:nintendo:wii
+seq(sp=108%gcd=1%isr=fe%ii=i%ts=u)
+ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m5b4nw0nnsnnt11%o5=m5b4%o6=m5b4)
+win(w1=8218%w2=8220%w3=8204%w4=8218%w5=8000%w6=8000)
+ecn(r=y%df=n%t=40%w=8000%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ops(o1=m5b4nw0nnsnnt11%o2=m578nw0nnsnnt11%o3=m280nw0nnt11%o4=m5b4nw0nnsnnt11%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=8218%w2=8220%w3=8204%w4=8218%w5=8000%w6=8000)
+FingerAB:ecn(r=y%df=n%w=8000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=101-10b%gcd=1-6%isr=108-112%ti=i|rd%ss=s%ci=)
+FingerB:seq(sp=108%gcd=1%isr=fe)
+
+FingerA:ecn(t=3c-46%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3c-46%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3c-46%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=fb-105%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fb-105%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

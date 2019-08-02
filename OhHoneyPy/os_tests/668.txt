@@ -1,0 +1,82 @@
+Fingerprint: Canon MF4360-4390 or 4370dn printer
+Class: Canon | embedded || printer
+seq(sp=0-5%gcd=fa01|1f402|2ee03|3e804|4e205%isr=95-9f%ti=bi%ci=bi%ii=bi%ss=s%ts=u)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=2710%w2=2710%w3=2710%w4=2710%w5=2710%w6=2710)
+ecn(r=y%df=n%t=3b-45%tg=40%w=2710%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=r%o=%rd=0%q=)
+t3(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=r%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: Canon MF4360-4390 or 4370dn printer (94%), Force10 SFTOS 2.5.2.2 (91%), Fuji Xerox DocuPrint CM205 printer (90%), Dell PowerConnect or Enterasys switch (87%), Interpeak IPCOM (87%), SiliconDust HDHomeRun set top box (86%), Dell PowerConnect 6248, or Enterasys B3 BG3124 or D2 D2G124 switch (85%), GNU Hurd 0.3 (85%)
+Class: Canon embedded (94%), Force10 SFTOS 2.X (91%), Fuji Xerox embedded (90%), Dell embedded (87%), Enterasys embedded (87%), Interpeak IPCOM (87%), Silicondust embedded (86%), GNU Hurd (85%)
+CPE: cpe:/o:force10:sftos:2.5.2.2 cpe:/h:fujixerox:docuprint_cm205 cpe:/o:interpeak:ipcom cpe:/h:silicondust:hdhr cpe:/o:gnu:hurd
+seq(sp=108%gcd=1%isr=ff%ci=i%ts=u)
+ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+win(w1=2710%w2=2710%w3=2710%w4=2710%w5=2710%w6=2710)
+ecn(r=y%df=n%t=40%w=2710%o=m5b4nw0%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=0%s=z%a=s+%f=r%o=%rd=0%q=)
+t3(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=ff%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s+%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4nw0%o2=m5b4nw0%o3=m5b4nw0%o4=m5b4nw0%o5=m5b4nw0%o6=m5b4)
+FingerAB:win(w1=2710%w2=2710%w3=2710%w4=2710%w5=2710%w6=2710)
+FingerAB:ecn(r=y%df=n%w=2710%o=m5b4nw0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s+%f=r%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s+%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-5%gcd=fa01|1f402|2ee03|3e804|4e205%isr=95-9f%ti=bi%ci=bi%ii=bi%ss=s)
+FingerB:seq(sp=108%gcd=1%isr=ff%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=fa-104%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t3(t=fa-104%tg=ff%o=)
+FingerB:t3(t=ff%o=m5b4)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=z)
+FingerB:ie(r=n)
+
+
+

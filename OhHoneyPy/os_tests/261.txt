@@ -1,0 +1,67 @@
+Fingerprint: Apple Mac OS X 10.3.9 (Panther) (Darwin 7.9.0, PowerPC)
+Class: Apple | Mac OS X | 10.3.X | general purpose
+CPE: cpe:/o:apple:mac_os_x:10.3.9
+seq(r=n%ii=%ti=%ci=)
+ops(o1=%o2=%o3=%o4=%o5=%o6=)
+win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+ecn(r=y%df=n%t=3b-45%tg=40%w=0%o=%cc=n%q=)
+t1(r=y%df=n%t=3b-45|7c-86%tg=40|80%s=z%a=s+%f=ar%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=2b18%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Apple Mac OS X 10.3.9 (Panther) (Darwin 7.9.0, PowerPC) (93%), Brother MFC-7820N printer (89%), Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC (88%), OpenBSD 4.4 (87%), Brother HL-2070N printer (87%), HP iLO 3 remote management interface (87%), HP iLO 4 remote management interface (87%), APC Smart-UPS (AOS 5.1.1) (87%), OUYA game console (87%), Canon imageCLASS MF4500-, MF4700-, or MF4800-series printer (87%)
+seq(sp=0%gcd=1%isr=1b%ci=i%ts=u)
+ecn(r=y%df=n%t=40%w=0%o=m5b4%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=2b18%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=n%w=0%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=2b18%rud=g)
+--- Diff Values ---
+FingerA:seq(r=n%ii=%ti=%ci=)
+FingerB:seq(ci=i%sp=0%gcd=1%isr=1b%ts=u)
+
+FingerA:ecn(t=3b-45%tg=40%o=)
+FingerB:ecn(t=40%o=m5b4)
+
+FingerA:t1(r=y%df=n%t=3b-45|7c-86%tg=40|80%s=z%a=s+%f=ar%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:ops(o1=%o2=%o3=%o4=%o5=%o6=)
+FingerA:win(w1=0%w2=0%w3=0%w4=0%w5=0%w6=0)
+FingerA:t7(r=n)
+
+

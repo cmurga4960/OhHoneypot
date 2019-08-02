@@ -1,0 +1,77 @@
+Fingerprint: BSDI BSD/OS 4.2
+Class: BSDI | BSD/OS | 4.X | general purpose
+CPE: cpe:/o:bsdi:bsd_os:4.2 auto
+seq(sp=8c-9e%gcd=1-6%isr=99-a3%ti=i%ii=i%ss=s%ts=1%ci=)
+ops(o1=m5b4nw4nnt11%o2=m5b4nw0nnt11%o3=m5b4nw4nnt11%o4=m5b4nw4nnt11%o5=m5b4nw4nnt11%o6=m5b4nnt11)
+win(w1=2238%w2=20d0%w3=2080%w4=2000%w5=2180%w6=2017)
+ecn(r=y%df=y%t=3b-45%tg=40%w=2238%o=m5b4nw4%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=2017%s=o%a=s+%f=as%o=m5b4nw4nnt11%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: BSDI BSD/OS 4.2 (98%), IBM AIX 7.2 (93%), Secure Computing Sidewinder firewall (SecureOS 6.1.1.05) (92%), NetApp NetCache web proxy; or FAS3020, FAS3040, FAS3050, or FAS6070 NAS device (Data ONTAP 6.0.X - 7.3.X) (91%), FreeBSD 4.11-STABLE (91%), Nintendo Wii game console (91%), Epson Stylus Pro 400 printer (90%), Juniper J4350 router (90%), Juniper Networks JUNOS 7.4R3.4 or 8.3 (90%), NetApp Data ONTAP 7.3.5P1 (89%)
+seq(sp=102%gcd=1%isr=f9%ci=i)
+ops(o1=m5b4nw4nnt11%o2=m5b4nw0nnt11%o3=m5b4nw4nnt11%o4=m5b4nw4nnt11%o5=m5b4nw4nnt11%o6=m5b4nnt11)
+win(w1=2238%w2=20d0%w3=2080%w4=2000%w5=2180%w6=2017)
+ecn(r=y%df=y%t=40%w=2238%o=m5b4nw4%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=2017%s=o%a=s+%f=as%o=m5b4nw4nnt11%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw4nnt11%o2=m5b4nw0nnt11%o3=m5b4nw4nnt11%o4=m5b4nw4nnt11%o5=m5b4nw4nnt11%o6=m5b4nnt11)
+FingerAB:win(w1=2238%w2=20d0%w3=2080%w4=2000%w5=2180%w6=2017)
+FingerAB:ecn(r=y%df=y%w=2238%o=m5b4nw4%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=2017%s=o%a=s+%f=as%o=m5b4nw4nnt11%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=8c-9e%gcd=1-6%isr=99-a3%ti=i%ii=i%ss=s%ts=1%ci=)
+FingerB:seq(sp=102%gcd=1%isr=f9%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

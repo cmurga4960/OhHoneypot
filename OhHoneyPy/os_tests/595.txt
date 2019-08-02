@@ -1,0 +1,63 @@
+Fingerprint: Brother HL-5250DN printer
+Class: Brother | embedded || printer
+CPE: cpe:/h:brother:hl-5250dn auto
+seq(sp=c-16%gcd=1e848|3d090|5b8d8|7a120|98968%isr=9f-a9%ti=i%ii=i%ss=s%ts=a%ci=)
+ops(o1=m554nw0nnsnnt11%o2=m554nw0nnsnnt11%o3=m280nw0nnt11%o4=m554nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+win(w1=24f8%w2=24f8%w3=2258%w4=21f0%w5=20c0%w6=209d)
+ecn(r=y%df=n%t=3b-45%tg=40%w=254c%o=m554nw0nns%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Brother HL-5250DN printer (94%), Brother HL-3170CDW printer (93%), HP LaserJet Pro 200 M275NW printer (93%), Epson G5200W projector (92%), HP LaserJet CP1518ni printer (92%), HP Officejet Pro 8500 printer (92%), Teradici 10ZiG V1200 thin client (91%), Wyse P class PCoIP client (91%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (91%), OneAccess 1641 router (90%)
+seq(sp=104%gcd=1%isr=fb)
+ops(o1=m554nw0nnsnnt11%o2=m554nw0nnsnnt11%o3=m280nw0nnt11%o4=m554nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+win(w1=24f8%w2=24f8%w3=2258%w4=21f0%w5=20c0%w6=209d)
+ecn(r=y%df=n%t=40%w=254c%o=m554nw0nns%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m554nw0nnsnnt11%o2=m554nw0nnsnnt11%o3=m280nw0nnt11%o4=m554nw0nnsnnt11%o5=m218nw0nnsnnt11%o6=m109nnsnnt11)
+FingerAB:win(w1=24f8%w2=24f8%w3=2258%w4=21f0%w5=20c0%w6=209d)
+FingerAB:ecn(r=y%df=n%w=254c%o=m554nw0nns%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c-16%gcd=1e848|3d090|5b8d8|7a120|98968%isr=9f-a9%ti=i%ii=i%ss=s%ts=a%ci=)
+FingerB:seq(sp=104%gcd=1%isr=fb)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

@@ -1,0 +1,88 @@
+Fingerprint: WAP: Airnet AWR014G; D-Link DI-524, DI-604, DI-624, or WBR-2310; or TRENDnet TEW-432BRP or TEW-452BRP (ThreadX)
+Class: Express Logic | ThreadX | 4.X | WAP
+Class: Airnet | embedded || WAP
+Class: D-Link | embedded || WAP
+Class: TRENDnet | embedded || WAP
+CPE: cpe:/o:expresslogic:threadx:4 auto
+CPE: cpe:/h:airnet:awr014g
+CPE: cpe:/h:dlink:di-524
+CPE: cpe:/h:dlink:di-604
+CPE: cpe:/h:dlink:di-624
+CPE: cpe:/h:dlink:wbr-2310
+CPE: cpe:/h:trendnet:tew-432brp
+CPE: cpe:/h:trendnet:tew-452brp
+seq(sp=b-15%gcd=fa7f|1f4fe|2ef7d|3e9fc|4e47b|5defa%isr=96-a0%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=m5b0%o2=m5b0%o3=m5b0%o4=m5b0%o5=m5b0%o6=m5b0)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=7f%tg=80%w=2000%o=m5b0%cc=n%q=)
+t1(r=y%df=n%t=7f%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=7f%tg=80%w=2000%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=7f%tg=80%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=7f%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=7f%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=7f%tg=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=7f%tg=80%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=7f%tg=80%cd=s)
+********************************************************
+Fingerprint: TRENDnet TEW-432BRP WAP (ThreadX) (95%), KCorp KLG-575 WAP (92%), BeaconMedaes TotalAlert medical gas alarm (92%), WAP: Airnet AWR014G; D-Link DI-524, DI-604, DI-624, or WBR-2310; or TRENDnet TEW-432BRP or TEW-452BRP (ThreadX) (92%), Siemens Gigaset SE567 WAP or SpeedStream 4200 ADSL modem (91%), Polycom VSX 8000 video conferencing system (91%), Audio receiver: Bose Soundtouch 20, Bowers & Wilkins Zeppelin Air, Denon AVR-1900-series, Marantz NR1602, or Pioneer VSX-921 (90%), Huawei S2326 switch (90%), Stratus ftServer Virtual Technician Module (89%), D-Link DI-524 or WBR-2310 wireless broadband router (89%)
+seq(sp=f9%gcd=1%isr=f0%ci=i%ts=u)
+ops(o1=m5b0%o2=m5b0%o3=m5b0%o4=m5b0%o5=m5b0%o6=m5b0)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=80%w=2000%o=m5b0%cc=n%q=)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=80%w=2000%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=80%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b0%o2=m5b0%o3=m5b0%o4=m5b0%o5=m5b0%o6=m5b0)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%w=2000%o=m5b0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=2000%s=o%a=o%f=a%o=%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=b-15%gcd=fa7f|1f4fe|2ef7d|3e9fc|4e47b|5defa%isr=96-a0%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=f9%gcd=1%isr=f0%ci=i)
+
+FingerA:ecn(t=7f%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(t=7f%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t3(t=7f%tg=80)
+FingerB:t3(t=80)
+
+FingerA:t4(t=7f%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=7f%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=7f%tg=80)
+FingerB:t6(t=80)
+
+FingerA:t7(t=7f%tg=80)
+FingerB:t7(t=80)
+
+FingerA:u1(t=7f%tg=80)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=7f%tg=80%cd=s)
+FingerB:ie(r=n)
+
+
+

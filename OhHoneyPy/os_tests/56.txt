@@ -1,0 +1,80 @@
+Fingerprint: Aastra AIP6500 interface card
+Class: Aastra | embedded || telecom-misc
+CPE: cpe:/h:aastra:aip6500
+seq(sp=0-5%gcd=0%isr=0-5%ti=i%ci=i|rd%ii=i%ss=s%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=y%t=3b-45%tg=40%w=2000%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=3b-45%tg=40%w=1%s=z%a=s%f=ar%o=%rd=0%q=u)
+t3(r=n)
+t4(r=y%df=y%t=3b-45%tg=40%w=1%s=a%a=z%f=r%o=%rd=0%q=u)
+t5(r=y%df=y%t=3b-45%tg=40%w=1%s=z%a=s+%f=ar%o=%rd=0%q=u)
+t6(r=y%df=y%t=3b-45%tg=40%w=1%s=a%a=z%f=r%o=%rd=0%q=u)
+t7(r=y%df=y%t=3b-45%tg=40%w=1%s=z%a=s%f=ar%o=%rd=0%q=u)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Aastra AIP6500 interface card (95%), HP ProCurve 9304m or 9308m switch (89%), Patton SmartNode 4960 VoIP adapter (SmartWare 4.2) (89%), Foundry NetIron MLX switch (IronWare 3.8.0) (87%), Foundry BigIron RX switch, NetIron MLX switch, or NetIron 4000 XMR switch (IronWare 2.2.1 - 3.6.0) (86%), Foundry FastIron switch (4802, FESX, GS 648P, X448, or II Plus) (IronWare) (86%)
+Class: Aastra embedded (95%), HP embedded (89%), Patton SmartWare 4.X (89%), Foundry IronWare 3.X|2.X|4.X (87%)
+CPE: cpe:/h:aastra:aip6500 cpe:/o:patton:smartware:4.2 cpe:/o:foundrynet:ironware:3.8.0 cpe:/o:foundrynet:ironware:2 cpe:/o:foundrynet:ironware:4
+seq(sp=106%gcd=1%isr=fd%ci=i%ts=u)
+ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=y%t=40%w=2000%o=m5b4%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=40%w=1%s=z%a=s%f=ar%o=%rd=0%q=u)
+t3(r=n)
+t4(r=y%df=y%t=40%w=1%s=a%a=z%f=r%o=%rd=0%q=u)
+t5(r=y%df=y%t=40%w=1%s=z%a=s+%f=ar%o=%rd=0%q=u)
+t6(r=y%df=y%t=40%w=1%s=a%a=z%f=r%o=%rd=0%q=u)
+t7(r=y%df=y%t=40%w=1%s=z%a=s%f=ar%o=%rd=0%q=u)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=y%w=2000%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=y%w=1%s=z%a=s%f=ar%o=%rd=0%q=u)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=1%s=a%a=z%f=r%o=%rd=0%q=u)
+FingerAB:t5(r=y%df=y%w=1%s=z%a=s+%f=ar%o=%rd=0%q=u)
+FingerAB:t6(r=y%df=y%w=1%s=a%a=z%f=r%o=%rd=0%q=u)
+FingerAB:t7(r=y%df=y%w=1%s=z%a=s%f=ar%o=%rd=0%q=u)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=0-5%gcd=0%isr=0-5%ti=i%ci=i|rd%ii=i%ss=s)
+FingerB:seq(sp=106%gcd=1%isr=fd%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=3b-45%tg=40)
+FingerB:t2(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+
+

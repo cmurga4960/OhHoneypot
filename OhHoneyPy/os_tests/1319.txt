@@ -1,0 +1,82 @@
+Fingerprint: F5 3600 LTM load balancer
+Class: F5 Networks | TMOS | 11.1.X | load balancer
+CPE: cpe:/o:f5:tmos:11.1
+seq(sp=101-10b%gcd=1-6%isr=103-10d%ti=z%ci=rd%ts=a%ii=)
+ops(o1=m5b4st11nw7%o2=m5b4st11nw7%o3=m5b4nnt11nw7%o4=m5b4st11nw7%o5=m5b4st11nw7%o6=m5b4st11)
+win(w1=4774%w2=4774%w3=4774%w4=4774%w5=4774%w6=4774)
+ecn(r=y%df=y%t=3b-45%tg=40%w=478c%o=m5b4nnsnw7%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=fa-104%tg=ff%w=100%s=z%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=fa-104%tg=ff%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=y%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=y%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: F5 3600 LTM load balancer (96%), Linksys BEFW11S4 WAP (87%)
+Class: F5 Networks TMOS 11.1.X (96%), Linksys embedded (87%)
+CPE: cpe:/o:f5:tmos:11.1 cpe:/h:linksys:befw11s4
+seq(sp=ec%gcd=1%isr=e3%ci=i)
+ops(o1=m5b4st11nw7%o2=m5b4st11nw7%o3=m5b4nnt11nw7%o4=m5b4st11nw7%o5=m5b4st11nw7%o6=m5b4st11)
+win(w1=4774%w2=4774%w3=4774%w4=4774%w5=4774%w6=4774)
+ecn(r=y%df=y%t=40%w=478c%o=m5b4nnsnw7%cc=y%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=y%df=n%t=ff%w=100%s=z%a=s+%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=ff%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=ff%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=y%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw7%o2=m5b4st11nw7%o3=m5b4nnt11nw7%o4=m5b4st11nw7%o5=m5b4st11nw7%o6=m5b4st11)
+FingerAB:win(w1=4774%w2=4774%w3=4774%w4=4774%w5=4774%w6=4774)
+FingerAB:ecn(r=y%df=y%w=478c%o=m5b4nnsnw7%cc=y%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=80%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=n%w=100%s=z%a=s+%f=ar%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=400%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=o%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=8000%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=ffff%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=y%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=101-10b%gcd=1-6%isr=103-10d%ti=z%ci=rd%ts=a%ii=)
+FingerB:seq(sp=ec%gcd=1%isr=e3%ci=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t2(t=fa-104%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t3(t=fa-104%tg=ff%o=)
+FingerB:t3(t=ff%o=m5b4)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=y%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

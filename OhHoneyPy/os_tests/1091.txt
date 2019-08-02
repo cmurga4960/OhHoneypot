@@ -1,0 +1,79 @@
+Fingerprint: DECserver716 (DNAS 3.6)
+Class: DEC | DECserver | 3.X | general purpose
+CPE: cpe:/h:dec:decserver716
+CPE: cpe:/o:dec:dnas:3.6
+seq(sp=10-1a%gcd=fa00|1f400|2ee00|3e800|4e200%isr=97-a1%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m200%o2=m200%o3=m200%o4=m200%o5=m200%o6=m200)
+win(w1=600%w2=600%w3=600%w4=600%w5=600%w6=600)
+ecn(r=y%df=n%t=19-23%tg=20%w=600%o=m200%cc=n%q=)
+t1(r=y%df=n%t=19-23%tg=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=19-23%tg=20%w=600%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=19-23%tg=20%w=600%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=19-23%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=19-23%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=19-23%tg=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: DECserver716 (DNAS 3.6) (95%), SMC SMC8014WG WAP (88%), H3C E126A or S3100-8T-SI switch (Comware 3.10) (87%), IBM OS/2 Warp 2.0 (87%), Wyse ThinOS 6 (87%), Cisco 7936 IP Conference Station VoIP phone (87%), 3Com 4210, or Huawei Quidway S3928P-EI or S5624F switch (VRP 3.10) (86%), Cisco SCE 2020 Service Control Engine load balancer (86%), Atari Unix System V Release 4.0 (86%), Interflex IF-1735 timeclock (86%)
+seq(sp=102%gcd=1%isr=f8%ci=i%ts=u)
+ops(o1=m200%o2=m200%o3=m200%o4=m200%o5=m200%o6=m200)
+win(w1=600%w2=600%w3=600%w4=600%w5=600%w6=600)
+ecn(r=y%df=n%t=20%w=600%o=m200%cc=n%q=)
+t1(r=y%df=n%t=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=20%w=600%s=o%a=o%f=a%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=20%w=600%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=20%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m200%o2=m200%o3=m200%o4=m200%o5=m200%o6=m200)
+FingerAB:win(w1=600%w2=600%w3=600%w4=600%w5=600%w6=600)
+FingerAB:ecn(r=y%df=n%w=600%o=m200%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=600%s=o%a=o%f=a%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=600%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=10-1a%gcd=fa00|1f400|2ee00|3e800|4e200%isr=97-a1%ti=i%ii=i%ss=s)
+FingerB:seq(sp=102%gcd=1%isr=f8)
+
+FingerA:ecn(t=19-23%tg=20)
+FingerB:ecn(t=20)
+
+FingerA:t1(t=19-23%tg=20)
+FingerB:t1(t=20)
+
+FingerA:t3(t=19-23%tg=20%o=)
+FingerB:t3(t=20%o=m5b4)
+
+FingerA:t4(t=19-23%tg=20)
+FingerB:t4(t=20)
+
+FingerA:t5(t=19-23%tg=20)
+FingerB:t5(t=20)
+
+FingerA:t6(t=19-23%tg=20)
+FingerB:t6(t=20)
+
+FingerA:t7(t=19-23%tg=20)
+FingerB:t7(t=20)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

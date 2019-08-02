@@ -1,0 +1,82 @@
+Fingerprint: Android 2.3.5 (Linux 2.6)
+Class: Google | Android | 2.X | phone
+Class: Linux | Linux | 2.6.X | phone
+CPE: cpe:/o:google:android:2.3.5
+CPE: cpe:/o:linux:linux_kernel:2.6 auto
+seq(sp=c0-ca%gcd=1-6%isr=bf-c9%ti=z%ci=z%ii=i%ts=8)
+ops(o1=m5b4st11%o2=m5b4st11%o3=m5b4nnt11%o4=m5b4st11%o5=m5b4st11%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nns%cc=y%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3b-45%tg=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11%rd=0%q=)
+t4(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Motorola KreaTV (Linux 2.6.32) (96%), Canon imageRUNNER ADVANCE C3320i or C3325 copier (95%), Android 2.3.5 (Linux 2.6) (95%), Linux 2.6.31 - 2.6.35 (embedded) (95%), Epson WF-2660 printer (95%), Motorola WiNG 5.7.1 (Linux 2.6.28) (94%), Sony Bravia W600-, W800-, or W900-series TV (93%), Canon imageRUNNER ADVANCE 4235, 6275, 6255, or C2220 copier (93%), Aerohive HiveOS 5.1 (92%), Aerohive HiveOS 7.1 (92%)
+Class: Linux 2.6.X (96%), Motorola embedded (96%), Canon embedded (95%), Google Android 2.X (95%), Epson embedded (95%), Motorola WiNG 5.X (94%), Sony embedded (93%)
+CPE: cpe:/o:linux:linux_kernel:2.6.32 cpe:/h:canon:imagerunner_advance_c3320i cpe:/h:canon:imagerunner_advance_c3325 cpe:/o:google:android:2.3.5 cpe:/o:linux:linux_kernel:2.6 cpe:/h:epson:wf-2660 cpe:/o:motorola:wing:5.7.1 cpe:/o:linux:linux_kernel:2.6.28
+seq(sp=107%gcd=1%isr=fe%ti=i)
+ops(o1=m5b4st11%o2=m5b4st11%o3=m5b4nnt11%o4=m5b4st11%o5=m5b4st11%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nns%cc=y%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=16a0%s=o%a=s+%f=as%o=m5b4st11%rd=0%q=)
+t4(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11%o2=m5b4st11%o3=m5b4nnt11%o4=m5b4st11%o5=m5b4st11%o6=m5b4st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nns%cc=y%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16a0%s=o%a=s+%f=as%o=m5b4st11%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c0-ca%gcd=1-6%isr=bf-c9%ti=z%ci=z%ii=i%ts=8)
+FingerB:seq(sp=107%gcd=1%isr=fe%ti=i)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3b-45%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3b-45%tg=40)
+FingerB:ie(t=3b%r=y)
+
+
+

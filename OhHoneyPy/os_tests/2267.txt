@@ -1,0 +1,65 @@
+Fingerprint: Lexmark X546dtn printer
+Class: Lexmark | embedded || printer
+CPE: cpe:/h:lexmark:x546dtn auto
+seq(ci=z%ii=i%ti=)
+ops(r=n)
+win(r=n)
+ecn(r=y%df=y%t=f9-103%tg=ff%w=b68%o=m5b4nnsnw2%cc=n)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=f9-103%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=n)
+t6(r=y%df=y%t=f9-103%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=f9-103%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=f9-103%tg=ff%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=f9-103%tg=ff%cd=s)
+********************************************************
+Fingerprint: Lexmark X546dtn printer (98%), Linux 2.6.16 (96%), Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (96%), Linux 2.6.18 (96%), AXIS 211A Network Camera (Linux 2.6.20) (96%), Linux 2.6.24 (96%), Lexmark C534dn printer (95%), Lexmark 1400-series printer (94%), Asus RT-N16 WAP (Linux 2.6) (93%), Lexmark X4850 or X6570 printer (93%)
+seq(ii=i)
+ecn(r=y%df=y%t=ff%w=b68%o=m5b4nnsnw2%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t6(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i)
+FingerAB:ecn(r=y%df=y%w=b68%o=m5b4nnsnw2%cc=n)
+FingerAB:t1(r=n)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(ci=z%ti=)
+FingerA:ecn(t=f9-103%tg=ff)
+FingerB:ecn(t=ff%q=)
+
+FingerA:t4(t=f9-103%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t6(t=f9-103%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=f9-103%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=f9-103%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=f9-103%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+FingerA:t5(r=n)
+
+

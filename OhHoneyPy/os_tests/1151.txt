@@ -1,0 +1,63 @@
+Fingerprint: Dell DR4100 backup appliance
+Class: Dell | embedded || storage-misc
+CPE: cpe:/h:dell:dr4100
+seq(sp=c5-cf%gcd=1-6%isr=c9-d3%ti=z%ii=i%ts=a%ci=)
+ops(o1=m558st11nwc%o2=m558st11nwc%o3=m558nnt11nwc%o4=m558st11nwc%o5=m558st11nwc%o6=m558st11)
+win(w1=fb98%w2=fb98%w3=fb98%w4=fb98%w5=fb98%w6=16a0)
+ecn(r=y%df=y%t=3a-44%tg=40%w=fc38%o=m558nnsnwc%cc=n%q=)
+t1(r=y%df=y%t=3a-44%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3a-44%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3a-44%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3a-44%tg=40%cd=s)
+********************************************************
+Fingerprint: Dell DR4100 backup appliance (96%), Tomato 1.27 - 1.28 (Linux 2.4.20) (92%), Linux 2.6.18 - 2.6.22 (92%), Linux 3.2.0 (92%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (92%), OpenBSD 4.0 (91%), MikroTik RouterOS 6.15 (Linux 3.3.5) (90%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (89%), OpenWrt White Russian 0.9 (Linux 2.4.30) (89%), Linux 2.4.18 (89%)
+seq(sp=fb%gcd=1%isr=f2)
+ops(o1=m558st11nwc%o2=m558st11nwc%o3=m558nnt11nwc%o4=m558st11nwc%o5=m558st11nwc%o6=m558st11)
+win(w1=fb98%w2=fb98%w3=fb98%w4=fb98%w5=fb98%w6=16a0)
+ecn(r=y%df=y%t=40%w=fc38%o=m558nnsnwc%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m558st11nwc%o2=m558st11nwc%o3=m558nnt11nwc%o4=m558st11nwc%o5=m558st11nwc%o6=m558st11)
+FingerAB:win(w1=fb98%w2=fb98%w3=fb98%w4=fb98%w5=fb98%w6=16a0)
+FingerAB:ecn(r=y%df=y%w=fc38%o=m558nnsnwc%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c5-cf%gcd=1-6%isr=c9-d3%ti=z%ii=i%ts=a%ci=)
+FingerB:seq(sp=fb%gcd=1%isr=f2)
+
+FingerA:ecn(t=3a-44%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3a-44%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3a-44%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3a-44%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3a-44%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

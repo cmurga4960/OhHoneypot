@@ -1,0 +1,74 @@
+Fingerprint: Apple iPad tablet computer (iOS 4)
+Class: Apple | iOS | 4.X | media device
+CPE: cpe:/o:apple:iphone_os:4 auto
+seq(sp=ef-107%gcd=1-6%isr=f9-10b%ti=rd%ci=rd%ii=ri%ts=a)
+ops(o1=m5b4nw2nnt11sll%o2=m5b4nw2nnt11sll%o3=m5b4nw2nnt11%o4=m5b4nw2nnt11sll%o5=m5b4nw2nnt11sll%o6=m5b4nnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=fa-104%tg=ff%w=ffff%o=m5b4nw2sll%cc=n)
+t1(r=y%df=y%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%rd=0)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%rd=0)
+t6(r=y%df=y%t=fa-104%tg=ff%w=0%s=a%a=z%f=r%rd=0)
+t7(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s%f=ar%rd=0)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Apple iPad tablet computer (iOS 4) (98%), Apple iPhone mobile phone (iPhone OS) (97%), Apple iPhone mobile phone (iPhone OS 2.1) (95%), Apple Mac OS X 10.4.10 - 10.4.11 (Tiger) (Darwin 8.10.0 - 8.11.0) (95%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (94%), Apple iPhone mobile phone (iOS 4.3.2) (94%), Apple Mac OS X 10.5 (Leopard) - 10.6.8 (Snow Leopard) or iOS 4.0 - 4.2.1 (Darwin 9.0.0b5 - 10.8.0) (94%), Apple iPhone OS 3 (94%), Apple Mac OS X 10.7.0 - 10.7.5 (Lion) or iOS 4.2 - 5.0.1 (Darwin 10.4.0 - 11.4.2) (94%), Apple Mac OS X 10.6.2 (Snow Leopard) (Darwin 10.2.0) (93%)
+seq(sp=104%gcd=1%isr=fb%ci=i)
+ops(o1=m5b4nw2nnt11sll%o2=m5b4nw2nnt11sll%o3=m5b4nw2nnt11%o4=m5b4nw2nnt11sll%o5=m5b4nw2nnt11sll%o6=m5b4nnt11sll)
+win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+ecn(r=y%df=y%t=ff%w=ffff%o=m5b4nw2sll%cc=n%q=)
+t1(r=y%df=y%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4nw2nnt11sll%o2=m5b4nw2nnt11sll%o3=m5b4nw2nnt11%o4=m5b4nw2nnt11sll%o5=m5b4nw2nnt11sll%o6=m5b4nnt11sll)
+FingerAB:win(w1=ffff%w2=ffff%w3=ffff%w4=ffff%w5=ffff%w6=ffff)
+FingerAB:ecn(r=y%df=y%w=ffff%o=m5b4nw2sll%cc=n)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%rd=0)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%rd=0)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%rd=0)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=ef-107%gcd=1-6%isr=f9-10b%ti=rd%ci=rd%ii=ri%ts=a)
+FingerB:seq(sp=104%gcd=1%isr=fb%ci=i)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff%q=)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff%q=)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff%o=%q=)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff%o=%q=)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff%o=%q=)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff%o=%q=)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+

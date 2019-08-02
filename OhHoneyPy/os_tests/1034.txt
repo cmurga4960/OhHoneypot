@@ -1,0 +1,88 @@
+Fingerprint: D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP
+Class: D-Link | embedded || print server
+Class: D-Link | embedded || WAP
+CPE: cpe:/h:dlink:dpr-1260
+CPE: cpe:/h:dlink:dgl-4300
+CPE: cpe:/h:dlink:dgl-4500
+CPE: cpe:/h:dlink:dir-615
+CPE: cpe:/h:dlink:dir-625
+CPE: cpe:/h:dlink:dir-628
+CPE: cpe:/h:dlink:dir-655
+CPE: cpe:/h:dlink:dir-855
+seq(sp=95-b5%gcd=1-6%isr=a9-bb%ti=i%ii=i%ss=s%ts=u%ci=)
+ops(o1=|m5b4%o2=|m5b4%o3=|m5b4%o4=|m5b4%o5=|m5b4%o6=|m5b4)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=3b-45%tg=40%w=1000%o=|m5b4%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=o|s+%f=a|as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=1000%s=o%a=o|s+%f=a|as%o=|m5b4%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (97%), Silicondust HDHomeRun set top box (92%), Cisco SG 300-10, Dell PowerConnect 2748, Linksys SLM2024, SLM2048, or SLM224P, or Netgear FS728TP or GS724TP switch (90%), D-Link DIR-655 (90%), AMX AVB-RX-DXLINK-HDMI audio/video receiver (90%), HP LaserJet 2600n printer (89%), Konica Minolta 7035 printer (88%), OpenWrt (Linux 2.4.32) (88%), OpenWrt White Russian 0.9 (Linux 2.4.30) (88%), Rigol DS1000Z-series oscilloscope (88%)
+seq(sp=f8%gcd=1%isr=ef%ci=i%ts=u)
+ops(o1=%o2=%o3=%o4=%o5=%o6=)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=n%t=40%w=1000%o=%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=1000%s=o%a=o%f=as%o=%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+FingerAB:ecn(r=y%df=n%w=1000%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=1000%s=o%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=95-b5%gcd=1-6%isr=a9-bb%ti=i%ii=i%ss=s%ci=)
+FingerB:seq(sp=f8%gcd=1%isr=ef%ci=i)
+
+FingerA:ops(o1=|m5b4%o2=|m5b4%o3=|m5b4%o4=|m5b4%o5=|m5b4%o6=|m5b4)
+FingerB:ops(o1=%o2=%o3=%o4=%o5=%o6=)
+
+FingerA:ecn(t=3b-45%tg=40%o=|m5b4)
+FingerB:ecn(t=40%o=)
+
+FingerA:t1(t=3b-45%tg=40%a=o|s+%f=a|as)
+FingerB:t1(t=40%a=o%f=as)
+
+FingerA:t3(t=3b-45%tg=40%a=o|s+%f=a|as%o=|m5b4)
+FingerB:t3(t=40%a=o%f=as%o=)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=z)
+FingerB:ie(r=n)
+
+
+

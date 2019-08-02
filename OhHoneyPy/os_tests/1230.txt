@@ -1,0 +1,73 @@
+Fingerprint: Arris SB6183 cable modem (eCos 2.0)
+Class: eCosCentric | eCos | 2.0 | broadband router
+Class: Arris | embedded || broadband router
+CPE: cpe:/o:ecoscentric:ecos:2.0 auto
+CPE: cpe:/h:arris:sb6183 auto
+seq(sp=ff-109%gcd=1-6%isr=101-111%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4w1l%o2=m5b4w1l%o3=m5b4w1l%o4=m5b4w1l%o5=m5b4w1l%o6=m5b4)
+win(w1=4a24%w2=4754%w3=46b4%w4=469c%w5=469c%w6=45e2)
+ecn(r=y%df=y%t=3b-45%tg=40%w=4a24%o=m5b4w1l%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Arris SB6183 cable modem (eCos 2.0) (98%), SMC SMC8014WG WAP (92%), Netgear WGR614v7 wireless broadband router (92%), IBM AIX 7.1 (92%), IBM AIX 7.2 (90%), Nintendo Wii game console (90%), Apple Mac OS X 10.3.9 (Panther) (Darwin 7.9.0, PowerPC) (90%), Brother HL-5070N printer (89%), Brother MFC-7820N printer (89%), Epson Stylus Pro 400 printer (88%)
+seq(sp=108%gcd=1%isr=ff%ci=i%ts=u)
+ops(o1=m5b4w1l%o2=m5b4w1l%o3=m5b4w1l%o4=m5b4w1l%o5=m5b4w1l%o6=m5b4)
+win(w1=4a24%w2=4754%w3=46b4%w4=469c%w5=469c%w6=45e2)
+ecn(r=y%df=y%t=40%w=4a24%o=m5b4w1l%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5b4w1l%o2=m5b4w1l%o3=m5b4w1l%o4=m5b4w1l%o5=m5b4w1l%o6=m5b4)
+FingerAB:win(w1=4a24%w2=4754%w3=46b4%w4=469c%w5=469c%w6=45e2)
+FingerAB:ecn(r=y%df=y%w=4a24%o=m5b4w1l%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=ff-109%gcd=1-6%isr=101-111%ti=i%ii=i%ss=s)
+FingerB:seq(sp=108%gcd=1%isr=ff)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

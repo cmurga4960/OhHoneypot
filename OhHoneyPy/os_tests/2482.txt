@@ -1,0 +1,75 @@
+Fingerprint: Linux 2.6.11-auditor-10 (Auditor CD, x86)
+Class: Linux | Linux | 2.6.X | general purpose
+CPE: cpe:/o:linux:linux_kernel:2.6.11 auto
+seq(sp=c6-d0%gcd=1-6%isr=cb-d5%ti=z%ii=i%ts=a%ci=)
+ops(o1=m400cst11nw2%o2=m400cst11nw2%o3=m400cnnt11nw2%o4=m400cst11nw2%o5=m400cst11nw2%o6=m400cst11)
+win(w1=7fff%w2=7fff%w3=7fff%w4=7fff%w5=7fff%w6=7fff)
+ecn(r=y%df=y%t=1b-25%tg=20%w=7fff%o=m400cnnsnw2%cc=n%q=)
+t1(r=y%df=y%t=1b-25%tg=20%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=1b-25%tg=20%w=7fff%s=o%a=s+%f=as%o=m400cst11nw2%rd=0%q=)
+t4(r=y%df=y%t=1b-25%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=1b-25%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=1b-25%tg=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=1b-25%tg=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=1b-25%tg=20%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=1b-25%tg=20%cd=s)
+********************************************************
+Fingerprint: Linux 2.6.11-auditor-10 (Auditor CD, x86) (95%), Linux 2.6.14 - 2.6.34 (93%), Linux 2.6.9 - 2.6.16 (93%), Pirelli DRG A226M wireless ADSL modem (92%), Linux 2.6.9 - 2.6.11 (92%), Linux 2.6.24 (92%), Linux 2.4.18-14 (Red Hat 8) (92%), Linux 2.4.20 - 2.4.37 (92%), Linux 2.6.11 (Fedora Code 3, SMP, x86) (92%), Linux 2.6.15-27 (Ubuntu 6.06) (92%)
+seq(ci=i)
+ecn(r=y%df=y%t=20%w=7fff%o=m400cnnsnw2%cc=n%q=)
+t1(r=n)
+t2(r=n)
+t3(r=y%df=y%t=20%w=7fff%s=o%a=s+%f=as%o=m400cst11nw2%rd=0%q=)
+t4(r=y%df=y%t=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=20%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=20%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ecn(r=y%df=y%w=7fff%o=m400cnnsnw2%cc=n%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=7fff%s=o%a=s+%f=as%o=m400cst11nw2%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c6-d0%gcd=1-6%isr=cb-d5%ti=z%ii=i%ts=a%ci=)
+FingerB:seq(ci=i)
+
+FingerA:ecn(t=1b-25%tg=20)
+FingerB:ecn(t=20)
+
+FingerA:t1(r=y%df=y%t=1b-25%tg=20%s=o%a=s+%f=as%rd=0%q=)
+FingerB:t1(r=n)
+
+FingerA:t3(t=1b-25%tg=20)
+FingerB:t3(t=20)
+
+FingerA:t4(t=1b-25%tg=20)
+FingerB:t4(t=20)
+
+FingerA:t5(t=1b-25%tg=20)
+FingerB:t5(t=20)
+
+FingerA:t6(t=1b-25%tg=20)
+FingerB:t6(t=20)
+
+FingerA:t7(t=1b-25%tg=20)
+FingerB:t7(t=20)
+
+FingerA:u1(t=1b-25%tg=20)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=1b-25%tg=20)
+FingerB:ie(t=3b%r=y)
+
+FingerA:ops(o1=m400cst11nw2%o2=m400cst11nw2%o3=m400cnnt11nw2%o4=m400cst11nw2%o5=m400cst11nw2%o6=m400cst11)
+FingerA:win(w1=7fff%w2=7fff%w3=7fff%w4=7fff%w5=7fff%w6=7fff)
+
+

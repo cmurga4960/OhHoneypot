@@ -1,0 +1,66 @@
+Fingerprint: Cisco Nexus 7010 switch (NX-OS 5.1(2))
+Class: Cisco | NX-OS | 5.X | switch
+CPE: cpe:/o:cisco:nexus_7010
+CPE: cpe:/o:cisco:nx_os:5.1 auto
+seq(sp=103-10d%gcd=1-6%isr=102-110%ti=i%ii=ri%ss=s%ts=3%ci=)
+ops(o1=m5b4nnt11%o2=m578nnt11%o3=m280nnt11%o4=m5b4nnt11%o5=m218nnt11%o6=m109nnt11)
+win(w1=a758|acec|b280|b814|bda8%w2=a814|ad80|b2ec|b858|bdc4%w3=a944|ae2c|b314|ba70|bf58%w4=a9e4|b008|b420|bc50|c068%w5=a9e4|b008|b420|bc50|c068%w6=a9fc|b0e7|b4db|bcc3|c0b7)
+ecn(r=y%df=n%t=3b-45%tg=40%w=acec|b280|b814|bda8|c33c%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=n)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Cisco Nexus 7010 switch (NX-OS 5.1(2)) (97%), FreeBSD 6.2-RELEASE (89%), Cisco Nexus switch (NX-OS 5.1(3)) (88%), Cisco Nexus 7010 switch (NX-OS 5) (87%)
+Class: Cisco NX-OS 5.X (97%), FreeBSD 6.X (89%)
+CPE: cpe:/o:cisco:nexus_7010 cpe:/o:cisco:nx_os:5.1 cpe:/o:freebsd:freebsd:6.2
+seq(sp=f9%gcd=1%isr=f0%ii=ri)
+ops(o1=m5b4nnt11%o2=m578nnt11%o3=m280nnt11%o4=m5b4nnt11%o5=m218nnt11%o6=m109nnt11)
+win(w1=a758%w2=a814%w3=a944%w4=a9e4%w5=a9e4%w6=a9fc)
+ecn(r=y%df=n%t=40%w=acec%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=y%dfi=s%t=fa%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=ri)
+FingerAB:ops(o1=m5b4nnt11%o2=m578nnt11%o3=m280nnt11%o4=m5b4nnt11%o5=m218nnt11%o6=m109nnt11)
+FingerAB:ecn(r=y%df=n%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=103-10d%gcd=1-6%isr=102-110%ti=i%ss=s%ts=3%ci=)
+FingerB:seq(sp=f9%gcd=1%isr=f0)
+
+FingerA:win(w1=a758|acec|b280|b814|bda8%w2=a814|ad80|b2ec|b858|bdc4%w3=a944|ae2c|b314|ba70|bf58%w4=a9e4|b008|b420|bc50|c068%w5=a9e4|b008|b420|bc50|c068%w6=a9fc|b0e7|b4db|bcc3|c0b7)
+FingerB:win(w1=a758%w2=a814%w3=a944%w4=a9e4%w5=a9e4%w6=a9fc)
+
+FingerA:ecn(t=3b-45%tg=40%w=acec|b280|b814|bda8|c33c)
+FingerB:ecn(t=40%w=acec)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=fa%r=y)
+
+FingerA:t5(r=n)
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

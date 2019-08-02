@@ -1,0 +1,75 @@
+Fingerprint: Adtran NetVanta 3200 or Total Access 908 ADSL router
+Class: Adtran | embedded || router
+seq(sp=e1-f1%gcd=1-6%isr=e4-f8%ti=i|rd%ii=i%ss=o|s%ts=u%ci=)
+ops(o1=%o2=%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=dac%w2=dac%w3=dac%w4=dac%w5=dac%w6=dac)
+ecn(r=n)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=o|s+%f=a|as%rd=0%q=)
+t2(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t7(r=n)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=z)
+********************************************************
+Fingerprint: Adtran NetVanta 3200 or Total Access 908 ADSL router (98%), Adtran NetVanta switch (AOS 10.4 - 10.9) (97%), Cisco IP Phone 7912-series (96%), Adtran AOS 18.02.01.00.E (93%), Linksys PAP2T VoIP router (92%), Cisco ATA 188 VoIP adapter (92%), ESI ESI-100 VoIP adapter (92%), Cisco 5300 router (IOS 12.1) (91%), Apple Time Capsule NAS device (90%), NEC UNIVERGE SV8100 PBX (90%)
+Class: Adtran embedded (98%), Adtran AOS 10.X|18.X (97%), Cisco embedded (96%), Linksys embedded (92%), ESI embedded (92%), Cisco IOS 12.X (91%), Apple embedded (90%), NEC embedded (90%)
+CPE: cpe:/o:adtran:aos:10 cpe:/h:cisco:unified_ip_phone_7912 cpe:/o:adtran:aos:18.02.01.00.e cpe:/h:cisco:ata_188_voip_gateway cpe:/h:esi:esi-100 cpe:/h:cisco:5300_router cpe:/o:cisco:ios:12.1 cpe:/h:nec:sv8100
+seq(sp=f6%gcd=1%isr=ec%ci=i%ts=u)
+ops(o1=%o2=m5b4%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+win(w1=dac%w2=dac%w3=dac%w4=dac%w5=dac%w6=dac)
+ecn(r=n)
+t1(r=y%df=n%t=ff%s=o%a=o%f=as%rd=0%q=)
+t2(r=y%df=n%t=ff%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+t3(r=n)
+t4(r=y%df=n%t=ff%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=%o3=m5b4%o4=m5b4%o5=m5b4%o6=m5b4)
+FingerAB:win(w1=dac%w2=dac%w3=dac%w4=dac%w5=dac%w6=dac)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=y%df=n%s=o%rd=0%q=)
+FingerAB:t2(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=s%f=r%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=e1-f1%gcd=1-6%isr=e4-f8%ti=i|rd%ii=i%ss=o|s%ci=)
+FingerB:seq(sp=f6%gcd=1%isr=ec%ci=i)
+
+FingerA:ops(o2=)
+FingerB:ops(o2=m5b4)
+
+FingerA:t1(t=fa-104%tg=ff%a=o|s+%f=a|as)
+FingerB:t1(t=ff%a=o%f=as)
+
+FingerA:t2(t=fa-104%tg=ff)
+FingerB:t2(t=ff)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=fa-104%tg=ff%cd=z)
+FingerB:ie(r=n)
+
+FingerA:t7(r=n)
+
+

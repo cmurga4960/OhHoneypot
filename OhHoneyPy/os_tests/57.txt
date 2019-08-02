@@ -1,0 +1,67 @@
+Fingerprint: Aastra 480i IP Phone or Sun Remote System Control (RSC)
+Class: Aastra | embedded || VoIP phone
+Class: Sun | embedded || remote management
+seq(ci=i%ii=i%ti=)
+ops(r=n)
+win(r=n)
+ecn(r=n)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=3b-45%tg=40%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(df=n%t=3b-45%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(dfi=s%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Netgear SC101 Storage Central NAS device (99%), Aastra 480i IP Phone or Sun Remote System Control (RSC) (99%), Konica Minolta bizhub 250 printer (98%), ShoreTel ShoreGear-T1 VoIP switch (96%), Cisco AP340 WAP (VxWorks 5.4) (94%), HP LaserJet 3600 printer, HP ProCurve 2650 switch, or Motorola SURFboard SB5100E cable modem (94%), Hirschmann L2E Rail switch (93%), SMC SMC8014WG WAP (93%), Netgear HE102 WAP (VxWorks) (93%), Dell PowerVault MD3000i NAS appliance or TP-LINK TL-WR340GD WAP (90%)
+Class: Netgear embedded (99%), Aastra embedded (99%), Sun embedded (99%), Konica Minolta embedded (98%), ShoreTel embedded (96%), Wind River VxWorks 5.X (94%), Cisco embedded (94%), HP embedded (94%)
+CPE: cpe:/h:konicaminolta:bizhub_250 cpe:/h:shoretel:shoregear-t1 cpe:/o:windriver:vxworks:5.4 cpe:/h:cisco:ap340 cpe:/o:windriver:vxworks cpe:/h:hp:laserjet_3600 cpe:/h:hp:procurve_2650
+seq(ci=i)
+ecn(r=n)
+t1(r=n)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=40%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i)
+FingerAB:ecn(r=n)
+FingerAB:t1(r=n)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=2000%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=z%ruck=0%rud=g)
+--- Diff Values ---
+FingerA:seq(ii=i%ti=)
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:ops(r=n)
+FingerA:win(r=n)
+
+

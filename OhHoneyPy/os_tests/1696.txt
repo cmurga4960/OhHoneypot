@@ -1,0 +1,83 @@
+Fingerprint: HP LaserJet 1017 printer
+Class: HP | embedded || printer
+CPE: cpe:/h:hp:laserjet_1017 auto
+seq(r=n%ii=%ti=%ci=)
+ops(o1=nnt11|m5b4nw0nnsnnt11%o2=nnt11|m578nw0nnsnnt11%o3=nnt11|m280nw0nnt11%o4=%o5=%o6=)
+win(w1=21f0%w2=2088%w3=2258%w4=0%w5=0%w6=0)
+ecn(r=y%df=n%t=3b-45%tg=40%w=0%o=%cc=n%q=)
+t1(r=y%df=n%t=3b-45%tg=40%s=o%a=o|s+%f=a|as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=o%f=ar%o=%rd=0%q=)
+t4(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=3b-45%tg=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: HP LaserJet 1017 printer (98%), HP LaserJet 2600n printer (96%), APC Smart-UPS 3000 RM UPS (94%), Schweitzer Engineering SEL-2701 Ethernet processor (92%), HP LaserJet P2015 printer (92%), HP LaserJet CM1017 or P2015 printer (90%), Nintendo Wii game console (90%), Bay Networks BayStack 450 switch (software version 4.2.0.16) (89%), Scientific Atlanta WebSTAR EPC2203 cable modem (89%), IBM BladeCenter management module, IBM System Storage TS3100/TS3200 Express Model tape library, or HP StorageWorks MSL2024 tape library (89%)
+Class: HP embedded (98%), APC embedded (94%), Schweitzer Engineering embedded (92%), Nintendo embedded (90%), Bay Networks embedded (89%), Scientific Atlanta embedded (89%), IBM embedded (89%), Ricoh embedded (89%)
+CPE: cpe:/h:hp:laserjet_1017 cpe:/h:schweitzerengineering:sel-2701 cpe:/h:nintendo:wii cpe:/h:baynetworks:baystack_450 cpe:/h:scientificatlanta:webstar_epc2203 cpe:/h:ibm:ts3200 cpe:/h:hp:storageworks_msl2024 cpe:/h:ricoh:aficio_mp_c4501
+seq(sp=106%gcd=1%isr=fd%ci=i%ii=i%ts=u)
+ops(o1=nnt11%o2=nnt11%o3=nnt11%o4=%o5=%o6=)
+win(w1=21f0%w2=2088%w3=2258%w4=0%w5=0%w6=0)
+ecn(r=y%df=n%t=40%w=0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=40%s=o%a=o%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=40%w=0%s=z%a=o%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=40%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o4=%o5=%o6=)
+FingerAB:win(w1=21f0%w2=2088%w3=2258%w4=0%w5=0%w6=0)
+FingerAB:ecn(r=y%df=n%w=0%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=0%s=z%a=o%f=ar%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(r=n%ii=%ti=%ci=)
+FingerB:seq(ii=i%ci=i%sp=106%gcd=1%isr=fd%ts=u)
+
+FingerA:ops(o1=nnt11|m5b4nw0nnsnnt11%o2=nnt11|m578nw0nnsnnt11%o3=nnt11|m280nw0nnt11)
+FingerB:ops(o1=nnt11%o2=nnt11%o3=nnt11)
+
+FingerA:ecn(t=3b-45%tg=40%o=)
+FingerB:ecn(t=40%o=m5b4)
+
+FingerA:t1(t=3b-45%tg=40%a=o|s+%f=a|as)
+FingerB:t1(t=40%a=o%f=as)
+
+FingerA:t3(t=3b-45%tg=40%o=)
+FingerB:t3(t=40%o=m5b4)
+
+FingerA:t4(t=3b-45%tg=40)
+FingerB:t4(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:t6(t=3b-45%tg=40)
+FingerB:t6(t=40)
+
+FingerA:t7(t=3b-45%tg=40)
+FingerB:t7(t=40)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=fa-104%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

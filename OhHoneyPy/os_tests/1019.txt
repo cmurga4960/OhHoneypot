@@ -1,0 +1,64 @@
+Fingerprint: Cymphonix EX550 firewall
+Class: Cymphonix | embedded || firewall
+CPE: cpe:/h:cymphonix:ex550 auto
+seq(sp=c9-d3%gcd=1-6%isr=d1-db%ti=z%ii=i%ts=u%ci=)
+ops(o1=m5b4nns%o2=m5b4nns%o3=m5b4%o4=m5b4nns%o5=m5b4nns%o6=m5b4nns)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%t=3b-45%tg=40%w=16d0%o=m5b4nns%cc=n%q=)
+t1(r=y%df=y%t=3b-45%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=3b-45%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3b-45%tg=40%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=3b-45%tg=40%cd=s)
+********************************************************
+Fingerprint: Cymphonix EX550 firewall (97%), Netgear Prosafe UTM9S (97%), NSFOCUS WAF (97%), Juniper SA4000 SSL VPN gateway (IVE OS 7.0) (93%), Linux 2.6.18 - 2.6.22 (92%), Linux 2.6.18 (92%), Microsoft Windows Server 2008 SP1 or Windows Server 2008 R2 (92%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (92%), OpenWrt (Linux 2.4.32) (91%), Endian 2.3 or IPCop firewall 1.4.10 - 1.4.21 (Linux 2.4.31 - 2.6.22) (91%)
+seq(sp=108%gcd=1%isr=ff%ts=u)
+ops(o1=m5b4nns%o2=m5b4nns%o3=m5b4%o4=m5b4nns%o5=m5b4nns%o6=m5b4nns)
+win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+ecn(r=y%df=y%t=40%w=16d0%o=m5b4nns%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4nns%o2=m5b4nns%o3=m5b4%o4=m5b4nns%o5=m5b4nns%o6=m5b4nns)
+FingerAB:win(w1=16d0%w2=16d0%w3=16d0%w4=16d0%w5=16d0%w6=16d0)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nns%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=c9-d3%gcd=1-6%isr=d1-db%ti=z%ii=i%ci=)
+FingerB:seq(sp=108%gcd=1%isr=ff)
+
+FingerA:ecn(t=3b-45%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3b-45%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t5(t=3b-45%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3b-45%tg=40)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=n%t=3b-45%tg=40%cd=s)
+FingerB:ie(r=n)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

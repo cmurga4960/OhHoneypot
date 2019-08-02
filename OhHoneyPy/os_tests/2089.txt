@@ -1,0 +1,77 @@
+Fingerprint: Novatel MiFi 2200 3G WAP or iDirect Evolution X1 satellite router
+Class: iDirect | embedded || WAP
+Class: Novatel | embedded || WAP
+CPE: cpe:/h:novatel:mifi_2200_3g auto
+seq(sp=c1-eb%gcd=1-6%isr=d9-e9%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4w0l%o2=m5b4w0l%o3=m5b4w0l%o4=m5b4w0l%o5=m5b4w0l%o6=m5b4)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=6f-79%tg=80%w=2000%o=m5b4w0l%cc=n%q=)
+t1(r=y%df=n%t=6f-79%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=6f-79%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=6f-79%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=6f-79%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=6f-79%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=6f-79%tg=80%ipl=38%un=0%ripl=g%rid=g%ripck=g%rud=g)
+ie(dfi=n%t=6f-79%tg=80%cd=z)
+********************************************************
+Fingerprint: Novatel MiFi 2200 3G WAP or iDirect Evolution X1 satellite router (95%), Canon imageCLASS MF4500-, MF4700-, or MF4800-series printer (94%), TechniSat Digicorder HD S2 satellite receiver (91%), Brother HL-5070N printer (90%), Brother MFC-7820N printer (90%), Tripp Lite SMART1500SLT UPS, or PDUMV30HVNET or PDUMH15AT power distribution unit (89%), Digi NET+OS 7 (88%), Kapsch electronic toll collection system (88%), MGE EX 7 RT or Evolution 850 UPS (88%), Westermo EDW-100 Ethernet-to-serial bridge (88%)
+seq(sp=f0%gcd=1%isr=e6%ts=u)
+ops(o1=m5b4w0l%o2=m5b4w0l%o3=m5b4w0l%o4=m5b4w0l%o5=m5b4w0l%o6=m5b4)
+win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+ecn(r=y%df=n%t=80%w=2000%o=m5b4w0l%cc=n%q=)
+t1(r=y%df=n%t=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=n)
+t4(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4w0l%o2=m5b4w0l%o3=m5b4w0l%o4=m5b4w0l%o5=m5b4w0l%o6=m5b4)
+FingerAB:win(w1=2000%w2=2000%w3=2000%w4=2000%w5=2000%w6=2000)
+FingerAB:ecn(r=y%df=n%w=2000%o=m5b4w0l%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=n)
+FingerAB:t4(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%rud=g)
+FingerAB:ie(dfi=n%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=c1-eb%gcd=1-6%isr=d9-e9%ti=i%ci=i%ii=i%ss=s)
+FingerB:seq(sp=f0%gcd=1%isr=e6)
+
+FingerA:ecn(t=6f-79%tg=80)
+FingerB:ecn(t=80)
+
+FingerA:t1(t=6f-79%tg=80)
+FingerB:t1(t=80)
+
+FingerA:t4(t=6f-79%tg=80)
+FingerB:t4(t=80)
+
+FingerA:t5(t=6f-79%tg=80)
+FingerB:t5(t=80)
+
+FingerA:t6(t=6f-79%tg=80)
+FingerB:t6(t=80)
+
+FingerA:t7(t=6f-79%tg=80)
+FingerB:t7(t=80)
+
+FingerA:u1(t=6f-79%tg=80)
+FingerB:u1(t=3b%r=y%ruck=g)
+
+FingerA:ie(t=6f-79%tg=80)
+FingerB:ie(t=3b%r=y)
+
+
+

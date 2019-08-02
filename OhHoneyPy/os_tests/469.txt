@@ -1,0 +1,65 @@
+Fingerprint: AXIS 5550 print server
+Class: AXIS | embedded || print server
+CPE: cpe:/h:axis:5550 auto
+seq(sp=104-10e%gcd=1-6%isr=106-110%ti=i%ci=i%ii=i%ss=s%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m100%o5=m218%o6=m109)
+win(w1=100%w2=100%w3=100%w4=100%w5=100%w6=100)
+ecn(r=y%df=n%t=7b-85%tg=80%w=0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=7b-85%tg=80%w=100%s=o%a=o%f=a%o=%rd=0%q=)
+t4(r=y%df=n%t=7b-85%tg=80%w=100%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%t=7b-85%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=7b-85%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%t=7b-85%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=n%t=7b-85%tg=80%cd=s)
+********************************************************
+Fingerprint: AXIS 5550 print server (97%), Brother HL-2070N printer (90%), Brother MFC-7820N printer (90%), Toshiba e-STUDIO 280 printer (90%), Toshiba e-STUDIO 4511 printer (90%), APC AOS 5 (88%), Brother HL-2070N or MFC-5460CN printer (88%), Brother MFC-9420CN printer (88%), Ricoh Aficio SP C210SF printer (88%), APC AP9606 Network Management Card (AOS 2.5.4 - 3.2.6) (88%)
+Class: AXIS embedded (97%), Brother embedded (90%), Toshiba embedded (90%), APC AOS 5.X|2.X|3.X (88%), Ricoh embedded (88%), Siemens embedded (87%)
+CPE: cpe:/h:axis:5550 cpe:/h:brother:hl-2070n cpe:/h:toshibatec:e-studio-280 cpe:/o:apc:aos:5 cpe:/h:ricoh:aficio_sp_c210sf cpe:/o:apc:aos:2 cpe:/o:apc:aos:3.0.3 cpe:/h:siemens:simatic_300
+seq(sp=fc%gcd=1%isr=f2%ci=i%ts=u)
+ops(o1=m5b4%o2=m578%o3=m280%o4=m100%o5=m218%o6=m109)
+win(w1=100%w2=100%w3=100%w4=100%w5=100%w6=100)
+ecn(r=y%df=n%tg=80%w=0%o=m5b4%cc=n%q=)
+t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%tg=80%w=100%s=o%a=o%f=a%o=m5b4%rd=0%q=)
+t4(r=y%df=n%tg=80%w=100%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5b4%o2=m578%o3=m280%o4=m100%o5=m218%o6=m109)
+FingerAB:win(w1=100%w2=100%w3=100%w4=100%w5=100%w6=100)
+FingerAB:ecn(r=y%df=n%tg=80%w=0%o=m5b4%cc=n%q=)
+FingerAB:t1(r=y%df=n%tg=80%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%tg=80%w=100%s=o%a=o%f=a%rd=0%q=)
+FingerAB:t4(r=y%df=n%tg=80%w=100%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%tg=80%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%tg=80%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+--- Diff Values ---
+FingerA:seq(sp=104-10e%gcd=1-6%isr=106-110%ti=i%ii=i%ss=s)
+FingerB:seq(sp=fc%gcd=1%isr=f2)
+
+FingerA:ecn(t=7b-85)
+FingerA:t1(t=7b-85)
+FingerA:t3(t=7b-85%o=)
+FingerB:t3(o=m5b4)
+
+FingerA:t4(t=7b-85)
+FingerA:t5(t=7b-85)
+FingerA:t6(t=7b-85)
+FingerA:t7(t=7b-85)
+FingerA:ie(dfi=n%t=7b-85%tg=80%cd=s)
+FingerB:ie(r=n)
+
+
+

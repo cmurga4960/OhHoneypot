@@ -1,0 +1,80 @@
+Fingerprint: IBM WebSphere DataPower XI50 proxy server
+Class: IBM | embedded || proxy server
+CPE: cpe:/h:ibm:websphere_datapower_xi50
+seq(sp=c1-cb%gcd=1-6%isr=c9-d5%ti=z%ci=z%ii=i%ts=8)
+ops(o1=m5b4st11nw8%o2=m5b4st11nw8%o3=m5b4nnt11nw8%o4=m5b4st11nw8%o5=m5b4st11nw8%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=c3%tg=ff%w=16d0%o=m5b4nnsnw8%cc=y%q=)
+t1(r=y%df=y%t=c3%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=c3%tg=ff%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw8%rd=0%q=)
+t4(r=y%df=y%t=c3%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=c3%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=c3%tg=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=c3%tg=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=c3%tg=ff%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=n%t=c3%tg=ff%cd=s)
+********************************************************
+Fingerprint: Linux 2.6.32 - 2.6.35 (96%), Linux 2.6.19 - 2.6.36 (95%), Linux 2.6.32 (94%), IBM WebSphere DataPower XI50 proxy server (94%), Linux 2.6.18 - 2.6.32 (93%), Infoblox Trinzic network control appliance (92%), Linux 2.6.32 - 3.5 (92%), Linux 2.6.13 - 2.6.32 (92%), Linux 2.6.9 - 2.6.30 (92%), Linux 2.6.9 - 2.6.33 (92%)
+Class: Linux 2.6.X|3.X (96%), IBM embedded (94%), Infoblox embedded (92%), Motorola embedded (92%), Symantec embedded (92%), Comtrend embedded (91%), Gemtek embedded (91%)
+CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/h:ibm:websphere_datapower_xi50 cpe:/h:infoblox:trinzic cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:2.6.32 cpe:/a:symantec:web_gateway:5.2 cpe:/h:comtrend:ct536 cpe:/h:gemtek:p360
+seq(sp=108%gcd=1%isr=fe)
+ops(o1=m5b4st11nw8%o2=m5b4st11nw8%o3=m5b4nnt11nw8%o4=m5b4st11nw8%o5=m5b4st11nw8%o6=m5b4st11)
+win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+ecn(r=y%df=y%t=ff%w=16d0%o=m5b4nnsnw8%cc=y%q=)
+t1(r=y%df=y%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=ff%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw8%rd=0%q=)
+t4(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t5(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=ff%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+t7(r=y%df=y%t=ff%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=y%dfi=n%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:ops(o1=m5b4st11nw8%o2=m5b4st11nw8%o3=m5b4nnt11nw8%o4=m5b4st11nw8%o5=m5b4st11nw8%o6=m5b4st11)
+FingerAB:win(w1=16a0%w2=16a0%w3=16a0%w4=16a0%w5=16a0%w6=16a0)
+FingerAB:ecn(r=y%df=y%w=16d0%o=m5b4nnsnw8%cc=y%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=16a0%s=o%a=s+%f=as%o=m5b4st11nw8%rd=0%q=)
+FingerAB:t4(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%w=0%s=a%a=z%f=r%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=164%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+FingerAB:ie(dfi=n%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=c1-cb%gcd=1-6%isr=c9-d5%ti=z%ci=z%ii=i%ts=8)
+FingerB:seq(sp=108%gcd=1%isr=fe)
+
+FingerA:ecn(t=c3%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=c3%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t3(t=c3%tg=ff)
+FingerB:t3(t=ff)
+
+FingerA:t4(t=c3%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=c3%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=c3%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=c3%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=c3%tg=ff)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=c3%tg=ff)
+FingerB:ie(t=3b%r=y)
+
+
+

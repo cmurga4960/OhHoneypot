@@ -1,0 +1,66 @@
+Fingerprint: Generex CS121 L BUDGET SNMP adapter
+Class: Generex | embedded || power-device
+seq(sp=0-15%gcd=f4240|1e8480|2dc6c0|3d0900|4c4b40%isr=b6-c0%ti=bi%ii=ri%ss=o|s%ts=u%ci=)
+ops(o1=m5b4nnnn%o2=m578nnnn%o3=m218nnnn%o4=m218nnnn%o5=m218nnnn%o6=m128nnnn)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=y%t=7b-85%tg=80%w=1000%o=m5b4nnnn%cc=n%q=)
+t1(r=y%df=y%t=7b-85%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%t=7b-85%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%t=7b-85%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t4(r=y%df=y%t=7b-85%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%t=7b-85%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%t=7b-85%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%t=7b-85%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(dfi=s%t=3b-45%tg=40%cd=z)
+********************************************************
+Fingerprint: Generex CS121 L BUDGET SNMP adapter (91%), RF-Space SDR-IP software radio or WIZnet W5200 TCP/IP Ethernet chip (90%)
+Class: Generex embedded (91%), RF-Space embedded (90%), WIZnet embedded (90%)
+CPE: cpe:/h:wiznet:w5200
+seq(sp=107%gcd=1%isr=fe%ii=i%ts=u)
+ops(o1=m5b4nnnn%o2=m578nnnn%o3=m218nnnn%o4=m218nnnn%o5=m218nnnn%o6=m128nnnn)
+win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+ecn(r=y%df=y%tg=80%w=1000%o=m5b4nnnn%cc=n%q=)
+t1(r=y%df=y%tg=80%s=o%a=s+%f=as%rd=0%q=)
+t2(r=y%df=y%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t3(r=y%df=y%tg=80%w=0%s=a%a=s+%f=ar%o=m5b4%rd=0%q=)
+t4(r=y%df=y%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t5(r=y%df=y%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=y%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+t7(r=y%df=y%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=n)
+ie(r=y%dfi=s%tg=40%cd=z)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ts=u)
+FingerAB:ops(o1=m5b4nnnn%o2=m578nnnn%o3=m218nnnn%o4=m218nnnn%o5=m218nnnn%o6=m128nnnn)
+FingerAB:win(w1=1000%w2=1000%w3=1000%w4=1000%w5=1000%w6=1000)
+FingerAB:ecn(r=y%df=y%tg=80%w=1000%o=m5b4nnnn%cc=n%q=)
+FingerAB:t1(r=y%df=y%tg=80%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=y%df=y%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t3(r=y%df=y%tg=80%w=0%s=a%a=s+%f=ar%rd=0%q=)
+FingerAB:t4(r=y%df=y%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=y%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=y%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=y%tg=80%w=0%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(r=n)
+FingerAB:ie(dfi=s%tg=40%cd=z)
+--- Diff Values ---
+FingerA:seq(sp=0-15%gcd=f4240|1e8480|2dc6c0|3d0900|4c4b40%isr=b6-c0%ti=bi%ii=ri%ss=o|s%ci=)
+FingerB:seq(sp=107%gcd=1%isr=fe%ii=i)
+
+FingerA:ecn(t=7b-85)
+FingerA:t1(t=7b-85)
+FingerA:t2(t=7b-85)
+FingerA:t3(t=7b-85%o=)
+FingerB:t3(o=m5b4)
+
+FingerA:t4(t=7b-85)
+FingerA:t5(t=7b-85)
+FingerA:t6(t=7b-85)
+FingerA:t7(t=7b-85)
+FingerA:ie(t=3b-45)
+FingerB:ie(r=y)
+
+
+

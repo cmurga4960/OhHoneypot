@@ -1,0 +1,70 @@
+Fingerprint: IronPort C150 email security appliance (AsyncOS 6.5.3)
+Class: IronPort | AsyncOS | 6.X | firewall
+CPE: cpe:/o:ironport:asyncos:6.5.3 auto
+seq(sp=102-10c%gcd=1-6%isr=102-110%ti=i%ii=i%ss=o|s%ts=u%ci=)
+ops(o1=m5b4sll%o2=m5b4sll%o3=m5b4%o4=m5b4sll%o5=m5b4sll%o6=m5b4sll)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=y%t=3a-44%tg=40%w=4000%o=m5b4sll%cc=n%q=)
+t1(r=y%df=y%t=3a-44%tg=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=3a-44%tg=40%w=4000%s=o%a=s+%f=as%o=m5b4sll%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=3a-44%tg=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+t6(r=n)
+t7(r=n)
+u1(df=n%t=3a-44%tg=40%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(dfi=s%t=3a-44%tg=40%cd=s)
+********************************************************
+Fingerprint: IronPort C150 email security appliance (AsyncOS 6.5.3) (99%), IronPort C100 or C650 email security appliance (AsyncOS 6.01 - 6.3) (95%), IronPort C150 email security appliance (AsyncOS 6.5.2) (92%), FreeBSD 6.1-STABLE (90%)
+Class: IronPort AsyncOS 6.X (99%), FreeBSD 6.X (90%)
+CPE: cpe:/o:ironport:asyncos:6.5.3 cpe:/o:freebsd:freebsd:6.1
+seq(sp=108%gcd=1%isr=ff%ii=i%ts=u)
+ops(o1=m5b4sll%o2=m5b4sll%o3=m5b4%o4=m5b4sll%o5=m5b4sll%o6=m5b4sll)
+win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+ecn(r=y%df=y%t=40%w=4000%o=m5b4sll%cc=n%q=)
+t1(r=y%df=y%t=40%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=y%t=40%w=4000%s=o%a=s+%f=as%o=m5b4sll%rd=0%q=)
+t4(r=n)
+t5(r=y%df=y%t=40%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=3b%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+ie(r=y%dfi=s%t=3b%cd=s)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ii=i%ts=u)
+FingerAB:ops(o1=m5b4sll%o2=m5b4sll%o3=m5b4%o4=m5b4sll%o5=m5b4sll%o6=m5b4sll)
+FingerAB:win(w1=4000%w2=4000%w3=4000%w4=4000%w5=4000%w6=4000)
+FingerAB:ecn(r=y%df=y%w=4000%o=m5b4sll%cc=n%q=)
+FingerAB:t1(r=y%df=y%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=y%w=4000%s=o%a=s+%f=as%o=m5b4sll%rd=0%q=)
+FingerAB:t4(r=n)
+FingerAB:t5(r=y%df=y%w=0%s=z%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=0%rud=g)
+FingerAB:ie(dfi=s%cd=s)
+--- Diff Values ---
+FingerA:seq(sp=102-10c%gcd=1-6%isr=102-110%ti=i%ss=o|s%ci=)
+FingerB:seq(sp=108%gcd=1%isr=ff)
+
+FingerA:ecn(t=3a-44%tg=40)
+FingerB:ecn(t=40)
+
+FingerA:t1(t=3a-44%tg=40)
+FingerB:t1(t=40)
+
+FingerA:t3(t=3a-44%tg=40)
+FingerB:t3(t=40)
+
+FingerA:t5(t=3a-44%tg=40)
+FingerB:t5(t=40)
+
+FingerA:u1(t=3a-44%tg=40)
+FingerB:u1(t=3b%r=y)
+
+FingerA:ie(t=3a-44%tg=40)
+FingerB:ie(t=3b%r=y)
+
+FingerA:t6(r=n)
+FingerA:t7(r=n)
+
+

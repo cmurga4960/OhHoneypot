@@ -1,0 +1,80 @@
+Fingerprint: Daysequerra M4.2SI radio
+Class: Daysequerra | embedded || media device
+CPE: cpe:/h:daysequerra:m4.2si
+seq(sp=11-1b%gcd=1-6%isr=78-82%ti=i%ci=i%ii=ri%ss=o%ts=u)
+ops(o1=m5dc%o2=m5dc%o3=m5dc%o4=m5dc%o5=m5dc%o6=m5dc)
+win(w1=5dc%w2=5dc%w3=5dc%w4=5dc%w5=5dc%w6=5dc)
+ecn(r=y%df=n%t=fa-104%tg=ff%w=5dc%o=m5dc%cc=n%q=)
+t1(r=y%df=n%t=fa-104%tg=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=fa-104%tg=ff%w=5dc%s=o%a=s+%f=as%o=m5dc%rd=0%q=)
+t4(r=y%df=n%t=fa-104%tg=ff%w=5dc%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=fa-104%tg=ff%w=5dc%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=fa-104%tg=ff%w=5dc%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=fa-104%tg=ff%w=5dc%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(df=n%t=fa-104%tg=ff%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(dfi=s%t=fa-104%tg=ff%cd=s)
+********************************************************
+Fingerprint: Daysequerra M4.2SI radio (98%), Anova Precision Cooker (High-Flying WLAN module) (93%), Milight WiFi Receiver bridge (93%), AudioControl D3400 network amplifier (92%), Fatek FBs-CBEH PLC Ethernet communication board (91%), Luminary Micro ARM Evaluation Kit (91%), Satel ETHM-2 intruder alarm (88%), Denver Electronics AC-5000W MK2 camera (88%)
+Class: Daysequerra embedded (98%), High-Flying embedded (93%), Milight embedded (93%), AudioControl embedded (92%), Fatek embedded (91%), Luminary Micro embedded (91%), Satel embedded (88%), Denver Electronics embedded (88%)
+CPE: cpe:/h:daysequerra:m4.2si cpe:/h:audiocontrol:d3400 cpe:/h:fatek:fbs-cbeh cpe:/h:satel:ethm-2 cpe:/h:denver_electronics:ac-5000w
+seq(sp=e7%gcd=1%isr=de%ci=i%ts=u)
+ops(o1=m5dc%o2=m5dc%o3=m5dc%o4=m5dc%o5=m5dc%o6=m5dc)
+win(w1=5dc%w2=5dc%w3=5dc%w4=5dc%w5=5dc%w6=5dc)
+ecn(r=y%df=n%t=ff%w=5dc%o=m5dc%cc=n%q=)
+t1(r=y%df=n%t=ff%s=o%a=s+%f=as%rd=0%q=)
+t2(r=n)
+t3(r=y%df=n%t=ff%w=5dc%s=o%a=s+%f=as%o=m5dc%rd=0%q=)
+t4(r=y%df=n%t=ff%w=5dc%s=a+%a=s%f=ar%o=%rd=0%q=)
+t5(r=y%df=n%t=ff%w=5dc%s=a%a=s+%f=ar%o=%rd=0%q=)
+t6(r=y%df=n%t=ff%w=5dc%s=a%a=s%f=ar%o=%rd=0%q=)
+t7(r=y%df=n%t=ff%w=5dc%s=a%a=s+%f=ar%o=%rd=0%q=)
+u1(r=y%df=n%t=fa%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+ie(r=n)
+********************************************************
+--- Same Values ---
+FingerAB:seq(ci=i%ts=u)
+FingerAB:ops(o1=m5dc%o2=m5dc%o3=m5dc%o4=m5dc%o5=m5dc%o6=m5dc)
+FingerAB:win(w1=5dc%w2=5dc%w3=5dc%w4=5dc%w5=5dc%w6=5dc)
+FingerAB:ecn(r=y%df=n%w=5dc%o=m5dc%cc=n%q=)
+FingerAB:t1(r=y%df=n%s=o%a=s+%f=as%rd=0%q=)
+FingerAB:t2(r=n)
+FingerAB:t3(r=y%df=n%w=5dc%s=o%a=s+%f=as%o=m5dc%rd=0%q=)
+FingerAB:t4(r=y%df=n%w=5dc%s=a+%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t5(r=y%df=n%w=5dc%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:t6(r=y%df=n%w=5dc%s=a%a=s%f=ar%o=%rd=0%q=)
+FingerAB:t7(r=y%df=n%w=5dc%s=a%a=s+%f=ar%o=%rd=0%q=)
+FingerAB:u1(df=n%ipl=38%un=0%ripl=g%rid=g%ripck=g%ruck=g%rud=g)
+--- Diff Values ---
+FingerA:seq(sp=11-1b%gcd=1-6%isr=78-82%ti=i%ii=ri%ss=o)
+FingerB:seq(sp=e7%gcd=1%isr=de)
+
+FingerA:ecn(t=fa-104%tg=ff)
+FingerB:ecn(t=ff)
+
+FingerA:t1(t=fa-104%tg=ff)
+FingerB:t1(t=ff)
+
+FingerA:t3(t=fa-104%tg=ff)
+FingerB:t3(t=ff)
+
+FingerA:t4(t=fa-104%tg=ff)
+FingerB:t4(t=ff)
+
+FingerA:t5(t=fa-104%tg=ff)
+FingerB:t5(t=ff)
+
+FingerA:t6(t=fa-104%tg=ff)
+FingerB:t6(t=ff)
+
+FingerA:t7(t=fa-104%tg=ff)
+FingerB:t7(t=ff)
+
+FingerA:u1(t=fa-104%tg=ff)
+FingerB:u1(t=fa%r=y)
+
+FingerA:ie(dfi=s%t=fa-104%tg=ff%cd=s)
+FingerB:ie(r=n)
+
+
+
