@@ -2,6 +2,7 @@ import os
 import rstr
 import time
 import threading
+import traceback
 from scapy.all import *
 from ScapyServer import ScapyServer
 from SessionManager import SessionManager
@@ -164,67 +165,75 @@ class ServiceSpoofer(ScapyServer):
 		print(udp_color + 'udp server stopped' + reset_color, end="")
 
 	def answerTCP(self, packet):
-		#print(tcp_color + 'New tcp client:')
-		#packet.summary()
-		#print(reset_color, end="")
+		try:
+			print(tcp_color + 'New tcp client:')
+			packet.show()
+			print(reset_color, end="")
 
-		dport = packet.sport
-		sport = packet.dport
-		SeqNr = packet.seq
-		AckNr = packet.seq+1
-		victim_ip = packet['IP'].src
-		my_ip = packet['IP'].dst
-		service = self.port_mapper[str(sport)+"True"]
+			dport = packet.sport
+			sport = packet.dport
+			SeqNr = packet.seq
+			AckNr = packet.seq+1
+			my_mac = packet['Ether'].dst
+			victim_mac = packet['Ether'].src
+			victim_ip = packet['IP'].src
+			my_ip = packet['IP'].dst
+			service = self.port_mapper[str(sport)+"True"]
 
-		# send syn ack
-		ip = IP(src=my_ip, dst=victim_ip)
-		tcp_synack = TCP(sport=sport, dport=dport, flags="SA", seq=SeqNr, ack=AckNr, options=[('MSS', 1460)])
-		handshake = ip/tcp_synack
-		#print(tcp_color, end="")
-		if self.os_spoofer:
-			handshake = self.os_spoofer.handleTCP(packet, handshake)
-			if not handshake:
-				return
-		ANSWER = sr1(handshake, timeout=8, verbose=0)
-		#print(reset_color, end="")
-		if not ANSWER:
-			#print(red + "TIMEOUT on syn ack" + reset_color)
-			return ""
+			# send syn ack
+			ip = IP(src=my_ip, dst=victim_ip)
+			ether = Ether(src=my_mac, dst=victim_mac, type=0x800)
+			tcp_synack = TCP(sport=sport, dport=dport, flags="SA", seq=SeqNr, ack=AckNr, options=[('MSS', 1460)])
+			handshake = ether/ip/tcp_synack
+			print(tcp_color+"sending synack", end="")
+			if self.os_spoofer:
+				handshake = self.os_spoofer.handleTCP(packet, handshake)
+				if not handshake:
+					return
+			handshake.show2()
+			ANSWER = srp1(handshake, timeout=8, iface=self.interfaces[0])
+			print("\ngot it"+reset_color)
+			if not ANSWER:
+				print(red + "TIMEOUT on syn ack" + reset_color)
+				return ""
 
-		# Capture next TCP packet if the client talks first
-		#GEThttp = sniff(filter="tcp and src host "+str(victim_ip)+" and port "+str(server_port),count=1)
-		#GEThttp = GEThttp[0]
-		#AckNr = AckNr+len(GEThttp['Raw'].load)
+			# Capture next TCP packet if the client talks first
+			#GEThttp = sniff(filter="tcp and src host "+str(victim_ip)+" and port "+str(server_port),count=1)
+			#GEThttp = GEThttp[0]
+			#AckNr = AckNr+len(GEThttp['Raw'].load)
 
-		# send psh ack (main tcp packet)
-		SeqNr += 1
-		#payload="HTTP/1.1 200 OK\x0d\x0aDate: Wed, 29 Sep 2010 20:19:05 GMT\x0d\x0aServer: Testserver\x0d\x0aConnection: Keep-Alive\x0d\x0aContent-Type: text/html; charset=UTF-8\x0d\x0aContent-Length: 291\x0d\x0a\x0d\x0a<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\"><html><head><title>Testserver</title></head><body bgcolor=\"black\" text=\"white\" link=\"blue\" vlink=\"purple\" alink=\"red\"><p><font face=\"Courier\" color=\"blue\">-Welcome to test server-------------------------------</font></p></body></html>"
-		payload = service.genRegexString()
-		tcp_pshack = TCP(sport=sport, dport=dport, flags="PA", seq=SeqNr, ack=AckNr, options=[('MSS', 1460)])
-		tcp_main = ip/tcp_pshack/payload
-		#print(tcp_color, end="")
+			# send psh ack (main tcp packet)
+			SeqNr += 1
+			#payload="HTTP/1.1 200 OK\x0d\x0aDate: Wed, 29 Sep 2010 20:19:05 GMT\x0d\x0aServer: Testserver\x0d\x0aConnection: Keep-Alive\x0d\x0aContent-Type: text/html; charset=UTF-8\x0d\x0aContent-Length: 291\x0d\x0a\x0d\x0a<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\"><html><head><title>Testserver</title></head><body bgcolor=\"black\" text=\"white\" link=\"blue\" vlink=\"purple\" alink=\"red\"><p><font face=\"Courier\" color=\"blue\">-Welcome to test server-------------------------------</font></p></body></html>"
+			payload = service.genRegexString()
+			tcp_pshack = TCP(sport=sport, dport=dport, flags="PA", seq=SeqNr, ack=AckNr, options=[('MSS', 1460)])
+			tcp_main = ether/ip/tcp_pshack/payload
+			print(tcp_color, end="")
 
-		#if self.os_spoofer:
-		#	tcp_main = self.os_spoofer.handleTCP(packet, tcp_main)
-		#	if not tcp_main:
-		#		return
-		ACKDATA = sr1(tcp_main, timeout=5, verbose=0)
-		#print(reset_color, end="")
-		if not ACKDATA:
-			#print(red + "TIMEOUT on syn ack" + reset_color)
-			return ""
+			#if self.os_spoofer:
+			#	tcp_main = self.os_spoofer.handleTCP(packet, tcp_main)
+			#	if not tcp_main:
+			#		return
+			ACKDATA = srp1(tcp_main, timeout=5, iface=self.interfaces[0])
+			print(reset_color, end="")
+			if not ACKDATA:
+				print(red + "TIMEOUT on ack data" + reset_color)
+				return ""
 
-		# send fin
-		SeqNr = ACKDATA.ack
-		tcp_fin_ack = TCP(sport=sport, dport=dport, flags="FA", seq=SeqNr, ack=AckNr, options=[('MSS', 1460)])
-		#print(tcp_color, end="")
-		goodbye = ip/tcp_fin_ack
-		#if self.os_spoofer:
-		#	goodbye = self.os_spoofer.handleTCP(packet, goodbye)
-		#	if not goodbye:
-		#		return
-		send(goodbye, verbose=0)
-		print(tcp_color+'tcp client done' + reset_color)
+			# send fin
+			SeqNr = ACKDATA.ack
+			tcp_fin_ack = TCP(sport=sport, dport=dport, flags="FA", seq=SeqNr, ack=AckNr, options=[('MSS', 1460)])
+			print(tcp_color, end="")
+			goodbye = ether/ip/tcp_fin_ack
+			#if self.os_spoofer:
+			#	goodbye = self.os_spoofer.handleTCP(packet, goodbye)
+			#	if not goodbye:
+			#		return
+			sendp(goodbye, iface=self.interfaces[0])
+			print(tcp_color+'tcp client done' + reset_color)
+		except Exception as e:
+			print("TCP ERR",e)
+			traceback.print_exec()
 		return ""
 
 	def answerUDP(self, packet):

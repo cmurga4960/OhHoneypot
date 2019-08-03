@@ -314,7 +314,8 @@ class OsSpoofer(ScapyServer):
             print(ee)
             traceback.print_exc()
         #print("SENDING ICMP RESPONSE:", response.summary())
-        send(response, verbose=False)
+        ether = Ether(src=packet['Ether'].dst, dst=packet['Ether'].src, type=0x800)
+        sendp(ether/response, iface=self.interfaces[0])
 
     def handleTCP(self, packet, server_packet=None):
         # Ello beasty
@@ -618,7 +619,8 @@ class OsSpoofer(ScapyServer):
                         response = response/crc32'''
 
             # print("SENDING TCP RESPONSE:", response.summary())
-            send(response)
+            ether = Ether(src=packet['Ether'].dst, dst=packet['Ether'].src, type=0x800)
+            sendp(ether/response, iface=self.interfaces[0])
             return None
         except Exception as ee:
             print(ee)
@@ -742,7 +744,8 @@ class OsSpoofer(ScapyServer):
             if str(packet['IP'].id) == str(0x1042):
                 #print("OUT UDP:", response.summary())
                 response.show2(dump=True)
-            send(response,verbose=0)
+            ether = Ether(src=packet['Ether'].dst, dst=packet['Ether'].src, type=0x800)
+            sendp(ether/response, iface=self.interfaces[0])
         except Exception as ee:
             print(ee)
             traceback.print_exc()
