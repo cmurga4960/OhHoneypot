@@ -122,7 +122,7 @@ class ServiceSpoofer(ScapyServer):
 				set_iptable = '/system/bin/iptables -I OUTPUT -p tcp --tcp-flags RST RST --sport ' + str(service.port) + ' -j DROP'
 			elif service.udp:
 				set_iptable = '/system/bin/iptables -I OUTPUT -p icmp --icmp-type destination-unreachable -j DROP'
-			if not set_iptable[12:] in os.popen('iptables-save').read():
+			if not set_iptable[12:] in os.popen('/system/bin/iptables-save').read():
 				os.system(set_iptable)
 
 	def _stopIpTables(self):

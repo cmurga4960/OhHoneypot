@@ -155,7 +155,7 @@ class OsSpoofer(ScapyServer):
 
     def _stopIpTables(self):
         for rule in self.rules:
-            if rule in os.popen('iptables-save').read():  # Need this?
+            if rule in os.popen('/system/bin/iptables-save').read():  # Need this?
                 os.system("/system/bin/iptables -D " + rule)
         #os.system("iptables -F")
 
