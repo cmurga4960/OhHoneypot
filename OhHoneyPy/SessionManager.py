@@ -38,7 +38,7 @@ class SessionManager:
 
 
 class Fingerprint(Mapping):
-    NMAP_PATH = '/usr/share/nmap/'
+    NMAP_PATH = ''
     NMAP_FINGERPRINT_FILE = 'nmap-os-db'
 
     def __init__(self, fingerprint_id=-1, scan_text=""):

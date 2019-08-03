@@ -119,18 +119,18 @@ class ServiceSpoofer(ScapyServer):
 	def _startIpTables(self):
 		for service in self.services:
 			if service.tcp:
-				set_iptable = 'iptables -I OUTPUT -p tcp --tcp-flags RST RST --sport ' + str(service.port) + ' -j DROP'
+				set_iptable = '/system/bin/iptables -I OUTPUT -p tcp --tcp-flags RST RST --sport ' + str(service.port) + ' -j DROP'
 			elif service.udp:
-				set_iptable = 'iptables -I OUTPUT -p icmp --icmp-type destination-unreachable -j DROP'
+				set_iptable = '/system/bin/iptables -I OUTPUT -p icmp --icmp-type destination-unreachable -j DROP'
 			if not set_iptable[12:] in os.popen('iptables-save').read():
 				os.system(set_iptable)
 
 	def _stopIpTables(self):
 		for service in self.services:
 			if service.tcp:
-				set_iptable = 'iptables -D OUTPUT -p tcp --tcp-flags RST RST --sport ' + str(service.port) + ' -j DROP'
+				set_iptable = '/system/bin/iptables -D OUTPUT -p tcp --tcp-flags RST RST --sport ' + str(service.port) + ' -j DROP'
 			elif service.udp:
-				set_iptable = 'iptables -D OUTPUT -p icmp --icmp-type destination-unreachable -j DROP'
+				set_iptable = '/system/bin/iptables -D OUTPUT -p icmp --icmp-type destination-unreachable -j DROP'
 			os.system(set_iptable)
 
 	def _endCondition(self, packet):

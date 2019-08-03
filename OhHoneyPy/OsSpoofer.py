@@ -151,12 +151,12 @@ class OsSpoofer(ScapyServer):
     def _startIpTables(self):
         for rule in self.rules:
             if rule not in os.popen('iptables-save').read():
-                os.system("iptables -A " + rule)
+                os.system("/system/bin/iptables -A " + rule)
 
     def _stopIpTables(self):
         for rule in self.rules:
             if rule in os.popen('iptables-save').read():  # Need this?
-                os.system("iptables -D " + rule)
+                os.system("/system/bin/iptables -D " + rule)
         #os.system("iptables -F")
 
     def _startSniffing(self):
