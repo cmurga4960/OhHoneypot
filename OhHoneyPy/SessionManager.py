@@ -3,6 +3,7 @@ from collections import Mapping
 import socket
 import fcntl
 import struct
+import os
 
 
 # Singleton
@@ -21,9 +22,10 @@ class SessionManager:
         if SessionManager.__instance:
             raise Exception("This class is a singleton!")
         else:
-            SessionManager.__instance = self
             self.fingerprint = fingerprint
             self.ip_to_session = {}
+            self.is_android = "android" in os.popen('uname -a').read().lower()
+            SessionManager.__instance = self
 
     def getValue(self, ip, test, attribute, value=None):
         if ip not in self.ip_to_session:

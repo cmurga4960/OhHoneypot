@@ -118,20 +118,28 @@ class ServiceSpoofer(ScapyServer):
 			return ""
 
 	def _startIpTables(self):
+		if SessionManager.getInstance().is_android:
+			iptables = '/system/bin/iptables'
+		else:
+			iptables = 'iptables'
 		for service in self.services:
 			if service.tcp:
-				set_iptable = '/system/bin/iptables -I OUTPUT -p tcp --tcp-flags RST RST --sport ' + str(service.port) + ' -j DROP'
+				set_iptable = iptables+' -I OUTPUT -p tcp --tcp-flags RST RST --sport ' + str(service.port) + ' -j DROP'
 			elif service.udp:
-				set_iptable = '/system/bin/iptables -I OUTPUT -p icmp --icmp-type destination-unreachable -j DROP'
-			if not set_iptable[12:] in os.popen('/system/bin/iptables-save').read():
+				set_iptable = iptables+' -I OUTPUT -p icmp --icmp-type destination-unreachable -j DROP'
+			if not set_iptable[12:] in os.popen(iptables+'-save').read():
 				os.system(set_iptable)
 
 	def _stopIpTables(self):
+		if SessionManager.getInstance().is_android:
+			iptables = '/system/bin/iptables'
+		else:
+			iptables = 'iptables'
 		for service in self.services:
 			if service.tcp:
-				set_iptable = '/system/bin/iptables -D OUTPUT -p tcp --tcp-flags RST RST --sport ' + str(service.port) + ' -j DROP'
+				set_iptable = iptables+' -D OUTPUT -p tcp --tcp-flags RST RST --sport ' + str(service.port) + ' -j DROP'
 			elif service.udp:
-				set_iptable = '/system/bin/iptables -D OUTPUT -p icmp --icmp-type destination-unreachable -j DROP'
+				set_iptable = iptables+' -D OUTPUT -p icmp --icmp-type destination-unreachable -j DROP'
 			os.system(set_iptable)
 
 	def _endCondition(self, packet):
@@ -166,9 +174,9 @@ class ServiceSpoofer(ScapyServer):
 
 	def answerTCP(self, packet):
 		try:
-			print(tcp_color + 'New tcp client:')
-			packet.show()
-			print(reset_color, end="")
+			#print(tcp_color + 'New tcp client:')
+			#packet.show()
+			#print(reset_color, end="")
 
 			dport = packet.sport
 			sport = packet.dport
@@ -184,17 +192,21 @@ class ServiceSpoofer(ScapyServer):
 			ip = IP(src=my_ip, dst=victim_ip)
 			ether = Ether(src=my_mac, dst=victim_mac, type=0x800)
 			tcp_synack = TCP(sport=sport, dport=dport, flags="SA", seq=SeqNr, ack=AckNr, options=[('MSS', 1460)])
-			handshake = ether/ip/tcp_synack
-			print(tcp_color+"sending synack", end="")
+			handshake = ip/tcp_synack
+			if SessionManager.getInstance().is_android:
+				handshake = ether/handshake
+			#print(tcp_color+"sending synack", end="")
 			if self.os_spoofer:
 				handshake = self.os_spoofer.handleTCP(packet, handshake)
 				if not handshake:
 					return
-			handshake.show2()
-			ANSWER = srp1(handshake, timeout=8, iface=self.interfaces[0])
-			print("\ngot it"+reset_color)
+			if SessionManager.getInstance().is_android:
+				ANSWER = srp1(handshake, timeout=8, iface=self.interfaces[0])
+			else:
+				ANSWER = sr1(handshake, timeout=8, verbose=0)
+			#print("\ngot it"+reset_color)
 			if not ANSWER:
-				print(red + "TIMEOUT on syn ack" + reset_color)
+				#print(red + "TIMEOUT on syn ack" + reset_color)
 				return ""
 
 			# Capture next TCP packet if the client talks first
@@ -207,30 +219,30 @@ class ServiceSpoofer(ScapyServer):
 			#payload="HTTP/1.1 200 OK\x0d\x0aDate: Wed, 29 Sep 2010 20:19:05 GMT\x0d\x0aServer: Testserver\x0d\x0aConnection: Keep-Alive\x0d\x0aContent-Type: text/html; charset=UTF-8\x0d\x0aContent-Length: 291\x0d\x0a\x0d\x0a<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\"><html><head><title>Testserver</title></head><body bgcolor=\"black\" text=\"white\" link=\"blue\" vlink=\"purple\" alink=\"red\"><p><font face=\"Courier\" color=\"blue\">-Welcome to test server-------------------------------</font></p></body></html>"
 			payload = service.genRegexString()
 			tcp_pshack = TCP(sport=sport, dport=dport, flags="PA", seq=SeqNr, ack=AckNr, options=[('MSS', 1460)])
-			tcp_main = ether/ip/tcp_pshack/payload
-			print(tcp_color, end="")
+			tcp_main = ip/tcp_pshack/payload
+			if SessionManager.getInstance().is_android:
+				tcp_main = ether/tcp_main
+			#print(tcp_color, end="")
 
-			#if self.os_spoofer:
-			#	tcp_main = self.os_spoofer.handleTCP(packet, tcp_main)
-			#	if not tcp_main:
-			#		return
-			ACKDATA = srp1(tcp_main, timeout=5, iface=self.interfaces[0])
-			print(reset_color, end="")
+			if SessionManager.getInstance().is_android:
+				ACKDATA = srp1(tcp_main, timeout=5, iface=self.interfaces[0])
+			else:
+				ACKDATA = sr1(tcp_main, timeout=5, verbose=0)
+			#print(reset_color, end="")
 			if not ACKDATA:
-				print(red + "TIMEOUT on ack data" + reset_color)
+				#print(red + "TIMEOUT on ack data" + reset_color)
 				return ""
 
 			# send fin
 			SeqNr = ACKDATA.ack
 			tcp_fin_ack = TCP(sport=sport, dport=dport, flags="FA", seq=SeqNr, ack=AckNr, options=[('MSS', 1460)])
-			print(tcp_color, end="")
+			#print(tcp_color, end="")
 			goodbye = ether/ip/tcp_fin_ack
-			#if self.os_spoofer:
-			#	goodbye = self.os_spoofer.handleTCP(packet, goodbye)
-			#	if not goodbye:
-			#		return
-			sendp(goodbye, iface=self.interfaces[0])
-			print(tcp_color+'tcp client done' + reset_color)
+			if SessionManager.getInstance().is_android:
+				sendp(goodbye, iface=self.interfaces[0])
+			else:
+				send(goodbye, verbose=0)
+			#print(tcp_color+'tcp client done' + reset_color)
 		except Exception as e:
 			print("TCP ERR",e)
 			traceback.print_exec()
@@ -238,7 +250,7 @@ class ServiceSpoofer(ScapyServer):
 
 	def answerUDP(self, packet):
 		#print(udp_color + 'New udp client:')
-		packet.summary()
+		#packet.summary()
 		#print(reset_color, end="")
 
 		dst_port = packet.sport
@@ -252,7 +264,11 @@ class ServiceSpoofer(ScapyServer):
 		payload = service.genRegexString()
 		udp_main = ip/udp/payload
 		#print(udp_color, end="")
-		send(udp_main)
+		if SessionManager.getInstance().is_android:
+			ether = Ether(src=packet['Ether'].dst, dst=packet['Ether'].src, type=0x800)
+			sendo(ether/udp_main, iface=self.interfaces[0])
+		else:
+			send(udp_main)
 		#print(udp_color + 'udp client done' + reset_color)
 		return ""
 

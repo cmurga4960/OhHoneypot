@@ -149,15 +149,22 @@ class OsSpoofer(ScapyServer):
         return self.stopper
 
     def _startIpTables(self):
+        if SessionManager.getInstance().is_android:
+            iptables = '/system/bin/iptables'
+        else:
+            iptables = 'iptables'
         for rule in self.rules:
-            if rule not in os.popen('/system/bin/iptables-save').read():
-                os.system("/system/bin/iptables -A " + rule)
+            if rule not in os.popen(iptables+'-save').read():
+                os.system(iptables+" -A " + rule)
 
     def _stopIpTables(self):
+        if SessionManager.getInstance().is_android:
+            iptables = '/system/bin/iptables'
+        else:
+            iptables = 'iptables'
         for rule in self.rules:
-            if rule in os.popen('/system/bin/iptables-save').read():  # Need this?
-                os.system("/system/bin/iptables -D " + rule)
-        #os.system("iptables -F")
+            if rule in os.popen(iptables+'-save').read():  # Need this?
+                os.system(iptables+" -D " + rule)
 
     def _startSniffing(self):
         icmp_filter = "icmp"
@@ -314,8 +321,11 @@ class OsSpoofer(ScapyServer):
             print(ee)
             traceback.print_exc()
         #print("SENDING ICMP RESPONSE:", response.summary())
-        ether = Ether(src=packet['Ether'].dst, dst=packet['Ether'].src, type=0x800)
-        sendp(ether/response, iface=self.interfaces[0])
+        if SessionManager.getInstance().is_android:
+            ether = Ether(src=packet['Ether'].dst, dst=packet['Ether'].src, type=0x800)
+            sendp(ether/response, iface=self.interfaces[0])
+        else:
+            send(response, verbose=0)
 
     def handleTCP(self, packet, server_packet=None):
         # Ello beasty
@@ -619,8 +629,12 @@ class OsSpoofer(ScapyServer):
                         response = response/crc32'''
 
             # print("SENDING TCP RESPONSE:", response.summary())
-            ether = Ether(src=packet['Ether'].dst, dst=packet['Ether'].src, type=0x800)
-            sendp(ether/response, iface=self.interfaces[0])
+
+            if SessionManager.getInstance().is_android:
+                ether = Ether(src=packet['Ether'].dst, dst=packet['Ether'].src, type=0x800)
+                sendp(ether/response, iface=self.interfaces[0])
+            else:
+                send(response, verbose=0)
             return None
         except Exception as ee:
             print(ee)
@@ -744,8 +758,12 @@ class OsSpoofer(ScapyServer):
             if str(packet['IP'].id) == str(0x1042):
                 #print("OUT UDP:", response.summary())
                 response.show2(dump=True)
-            ether = Ether(src=packet['Ether'].dst, dst=packet['Ether'].src, type=0x800)
-            sendp(ether/response, iface=self.interfaces[0])
+
+            if SessionManager.getInstance().is_android:
+                ether = Ether(src=packet['Ether'].dst, dst=packet['Ether'].src, type=0x800)
+                sendp(ether/response, iface=self.interfaces[0])
+            else:
+                send(response, verbose=0)
         except Exception as ee:
             print(ee)
             traceback.print_exc()
