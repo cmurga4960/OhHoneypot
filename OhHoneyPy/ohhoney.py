@@ -43,6 +43,10 @@ class OhHoney:
         self.ignore = ignore.split(',') if ignore else []
         self.log_file = log_file
         self.kill_file = kill_file
+        if self.kill_file:
+            w = open(self.kill_file + ".good", "w+")
+            w.write("nothing gold can stay")
+            w.close()
         if not self.interface_list[-1]:
             self.interface_list = self.interface_list[:-1]
 
@@ -73,9 +77,8 @@ class OhHoney:
                 break
         if self.kill_file:
             os.remove(self.kill_file)
-            w = open(self.kill_file+".good", "w+")
-            w.write("nothing gold can stay")
-            w.close()
+            os.remove(self.kill_file+".good")
+
         # '''
 
         '''

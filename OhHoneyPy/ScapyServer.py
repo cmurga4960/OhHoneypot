@@ -1,7 +1,6 @@
 import abc
 
 class ScapyServer(abc.ABC):
-    NMAP_PATH = ""
     # self.thread = Thread(target=self._startService, daemon=True)
     # self._stopper = True
 
