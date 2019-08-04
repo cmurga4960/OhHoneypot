@@ -73,6 +73,9 @@ class OhHoney:
                 break
         if self.kill_file:
             os.remove(self.kill_file)
+            w = open(self.kill_file+".good", "w+")
+            w.write("nothing gold can stay")
+            w.close()
         # '''
 
         '''
