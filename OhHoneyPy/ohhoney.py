@@ -70,7 +70,7 @@ class OhHoney:
 
         #'''
         # Normal mode
-        while True if not self.kill_file else os.path.exists(self.kill_file):
+        while True if not self.kill_file else os.path.isfile(self.kill_file):
             try:
                 time.sleep(5)
             except:
