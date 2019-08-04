@@ -21,12 +21,12 @@ from ServiceSpoofer import ServiceSpoofer
 from colorama import Fore, Back, Style
 import sys
 import time
-
+import os
 
 class OhHoney:
     description = "OhHoney is a python based honeypot designed to fool nmap -O -sV scans."
 
-    def __init__(self, interface_list, os_id='', service_list='', ignore='', log_file=''):
+    def __init__(self, interface_list, os_id='', service_list='', ignore='', log_file='', kill_file=''):
         if os_id == None:
             os_id = ''
         if service_list == None:
@@ -35,11 +35,14 @@ class OhHoney:
             ignore = ''
         if log_file == None:
             log_file = ''
+        if kill_file == None:
+            log_file = ''
         self.interface_list = interface_list.split(',')
         self.os_id = os_id
         self.service_list = service_list
         self.ignore = ignore.split(',') if ignore else []
         self.log_file = log_file
+        self.kill_file = kill_file
         if not self.interface_list[-1]:
             self.interface_list = self.interface_list[:-1]
 
@@ -63,11 +66,13 @@ class OhHoney:
 
         #'''
         # Normal mode
-        while True:
+        while True if not self.kill_file else os.path.exists(self.kill_file):
             try:
                 time.sleep(5)
             except:
                 break
+        if self.kill_file:
+            os.remove(self.kill_file)
         # '''
 
         '''
@@ -175,6 +180,7 @@ if __name__ == "__main__":
     parser.add_argument('-i', metavar="network_interface_list", help="network interface list"
                                                                      " Usage: [iface] or [iface],[iface2],...")
     parser.add_argument('-l', metavar="log_file", help="file to output logs to")
+    parser.add_argument('-k', metavar="kill_file", help="when the file is created, the honeypot ends.")
     parser.add_argument('--ignore', metavar="ignored_ports",
                         help="ports the honeypot will not handle (usually those running a real service) "
                              "Usage: [port] or [port1],[port2],...")
@@ -189,4 +195,4 @@ if __name__ == "__main__":
         print("Please provide -i")
         sys.exit(0)
     OhHoney.printArt()
-    honeypot = OhHoney(args.i, args.o, args.s, args.ignore, args.l)
+    honeypot = OhHoney(args.i, args.o, args.s, args.ignore, args.l, args.k)
