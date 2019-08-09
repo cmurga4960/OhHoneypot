@@ -18,50 +18,76 @@ its in our name.
 import argparse
 from OsSpoofer import OsSpoofer
 from ServiceSpoofer import ServiceSpoofer
+from IDS import IDS
 from colorama import Fore, Back, Style
 import sys
 import time
 import os
 
+
 class OhHoney:
     description = "OhHoney is a python based honeypot designed to fool nmap -O -sV scans."
 
-    def __init__(self, interface_list, os_id='', service_list='', ignore='', log_file='', kill_file=''):
+    def __init__(self, interface_list, os_id='', service_list='', ignore='', security_level=1,
+                 log_dir='logs', kill_file='', white_list='', black_list=''):
         if os_id == None:
             os_id = ''
         if service_list == None:
             service_list = ''
         if ignore == None:
             ignore = ''
-        if log_file == None:
-            log_file = ''
+        if log_dir == None:
+            log_dir = 'logs'
         if kill_file == None:
-            log_file = ''
+            kill_file = ''
+        if security_level == None:
+            security_level = 1
+        if white_list == None:
+            white_list = ''
+        if black_list == None:
+            black_list = ''
         self.interface_list = interface_list.split(',')
         self.os_id = os_id
         self.service_list = service_list
-        self.ignore = ignore.split(',') if ignore else []
-        self.log_file = log_file
+        self.services = self.service_list.split(';')
+        self.ignore = ignore.split(',')
         self.kill_file = kill_file
+        self.log_dir = log_dir
+        self.security_level = int(security_level)
+        self.white_list = white_list.split(',')
+        self.black_list = black_list.split(',')
+        # TODO V&V inputs
+
         if self.kill_file:
             w = open(self.kill_file + ".good", "w+")
             w.write("nothing gold can stay")
             w.close()
+
         if not self.interface_list[-1]:
             self.interface_list = self.interface_list[:-1]
-
-        self.services = self.service_list.split(';')
+        if not self.white_list[-1]:
+            self.white_list = self.white_list[:-1]
+        if not self.black_list[-1]:
+            self.black_list = self.black_list[:-1]
         if not self.services[-1]:
             self.services = self.services[:-1]
+        if not self.ignore[-1]:
+            self.ignore = self.ignore[:-1]
 
         self.os_spoofer = None
         self.service_spoofer = None
 
+        if self.security_level:
+            self.ids = IDS(self.log_dir, self.security_level, self.white_list, self.black_list)
         if self.os_id:
             self.os_spoofer = OsSpoofer(self.interface_list, self.os_id, self.ignore, self.services)
+            if self.security_level:
+                self.os_spoofer.addSubscriber(self.ids)
             print(str(self.os_spoofer))
         if self.service_list:
             self.service_spoofer = ServiceSpoofer(self.interface_list, self.services, self.os_spoofer)
+            if self.security_level:
+                self.service_spoofer.addSubscriber(self.ids)
 
         if self.os_spoofer:
             self.os_spoofer.start()
@@ -178,27 +204,53 @@ if __name__ == "__main__":
                                                          "If name is provided, it will find and use the first match. "
                                                          "ID is the index of the OS in the nmap OS db.")
     parser.add_argument('-s', metavar="service_list",
-                        help="services to spoof.\n"
-                             "usage: -s [service] or [service];[service2];...\n"
-                             "service format: [port#],[tcp/udp],[id/name] "
+                        help="services to spoof. "
+                             "Usage: -s [service] or [service];[service2];...\n"
+                             "Service format: [port#],[tcp/udp],[id/name] "
                              "If name is provided, it will find and use the first match. "
                              "ID is the index of the service in the whitelisted services")
     parser.add_argument('-i', metavar="network_interface_list", help="network interface list"
                                                                      " Usage: [iface] or [iface],[iface2],...")
-    parser.add_argument('-l', metavar="log_file", help="file to output logs to")
+    parser.add_argument('-l', metavar="log_dir", help="directory to output logs to")
     parser.add_argument('-k', metavar="kill_file", help="when the file is created, the honeypot ends.")
     parser.add_argument('--ignore', metavar="ignored_ports",
                         help="ports the honeypot will not handle (usually those running a real service) "
                              "Usage: [port] or [port1],[port2],...")
-    # -c console version
-    # --config input settings file
+    parser.add_argument('--level', metavar="security_level",
+                        help="IDS security level. Default = 1.  "
+                             "0: off, "
+                             "1: log only, "
+                             "2: low, "
+                             "3: medium, "
+                             "4: high")
+    parser.add_argument('-w', metavar="whitelist_ips",
+                        help="IP adresses for the honeypot to ignore. "
+                             "Usage: [IP] or [IP1],[IP2],...")
+    parser.add_argument('-b', metavar="blocklist_ips",
+                        help="IP adresses for the honeypot to stop all connections to. "
+                             "Usage: [IP] or [IP1],[IP2],...")
+    # TODO
+    # -c interactive console version
+    # --config settings file (e.g. saved honeypot arguments)
     # -g GUI version
     args = parser.parse_args()
-    if not args.o and not args.s:
-        print('Please at provide -o and/or -s')
-        sys.exit(0)
+    # TODO V&V args
     if not args.i:
         print("Please provide -i")
         sys.exit(0)
+    if not args.o and not args.s:
+        print('Please at provide -o and/or -s')
+        sys.exit(0)
+    if args.level:
+        try:
+            test = int(args.level)
+            if test < 0 or test > 4:
+                print('Please at provide an integer for --level (between 0-4)')
+                sys.exit(0)
+        except:
+            print('Please at provide an integer for --level (between 0-4)')
+            sys.exit(0)
     OhHoney.printArt()
-    honeypot = OhHoney(args.i, args.o, args.s, args.ignore, args.l, args.k)
+    honeypot = OhHoney(args.i, args.o, args.s, args.ignore, args.level, args.l, args.k, args.w, args.b)
+    # self, interface_list, os_id='', service_list='', ignore='', security_level=1,
+    #             log_dir='logs', kill_file='', white_list='', black_list=''):

@@ -4,8 +4,10 @@ import time
 import threading
 import traceback
 from scapy.all import *
-from ScapyServer import ScapyServer
+from Abstract.ScapyServer import ScapyServer
+from Abstract.Publisher import Publisher
 from SessionManager import SessionManager
+from Event import *
 from colorama import Fore, Back, Style
 
 # Interacts with a client by going through the three-way handshake.
@@ -44,9 +46,10 @@ green = Fore.GREEN if color else ''
 #EXTRAS
 
 
-class ServiceSpoofer(ScapyServer):
+class ServiceSpoofer(ScapyServer, Publisher):
 
 	def __init__(self, interfaces, service_list, os_spoofer=None):
+		super(ServiceSpoofer, self).__init__()
 		if type(service_list) == str:
 			service_list = [service_list]
 		# service_list = [ "port,tcp/udp,id", "", ... ]
@@ -58,7 +61,7 @@ class ServiceSpoofer(ScapyServer):
 		self.tcp_port_list = []
 		self.udp_port_list = []
 		self.services = []
-		self.port_mapper = {}
+		self.port_mapper = {}  # self.port_mapper[port+True] = mapped tcp service  #False for udp
 		for service_data in service_list:
 			data = service_data.split(',')
 			s = Service(data[0], data[2], True if data[1].lower() == 'tcp' else False)
@@ -188,6 +191,14 @@ class ServiceSpoofer(ScapyServer):
 			my_ip = packet['IP'].dst
 			service = self.port_mapper[str(sport)+"True"]
 
+			#TODO identify nmap syn packet (classify packet)
+			self.publish(Event(EventTypes.TCPHit, victim_ip))
+			is_nmap = False
+			is_sv = False
+			if not self.os_spoofer and is_nmap:
+				self.publish(Event(EventTypes.GenericNmapScan, victim_ip))
+			#self.publish(Event(EventTypes.ServiceVersionScan, victim_ip))
+
 			# send syn ack
 			ip = IP(src=my_ip, dst=victim_ip)
 			ether = Ether(src=my_mac, dst=victim_mac, type=0x800)
@@ -242,7 +253,7 @@ class ServiceSpoofer(ScapyServer):
 				sendp(goodbye, iface=self.interfaces[0])
 			else:
 				send(goodbye, verbose=0)
-			#print(tcp_color+'tcp client done' + reset_color)
+			print(tcp_color+'tcp client done' + reset_color)
 		except Exception as e:
 			print("TCP ERR",e)
 			traceback.print_exec()
@@ -258,6 +269,9 @@ class ServiceSpoofer(ScapyServer):
 		victim_ip = packet['IP'].src
 		my_ip = packet['IP'].dst
 		service = self.port_mapper(str(src_port)+"False")
+		self.publish(Event(EventTypes.UDPHit, victim_ip))
+
+		#TODO identify UDP -sV packet
 
 		ip = IP(src=my_ip, dst=victim_ip)
 		udp = UDP(sport=src_port, dport=dst_port)

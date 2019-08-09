@@ -4,29 +4,32 @@ import threading
 import time
 import os
 import traceback
-from collections.abc import Mapping
-from ScapyServer import ScapyServer
+from Abstract.ScapyServer import ScapyServer
+from Abstract.Publisher import Publisher
 from SessionManager import SessionManager, Fingerprint
+from Event import *
 from colorama import Fore, Back, Style
 
 # Should only need on instance
-from scapy.layers.inet import ICMP, IP, UDP, IPerror, UDPerror
+from scapy.layers.inet import ICMP, IP, UDP, IPerror, UDPerror, TCP, Ether
 
 
-class OsSpoofer(ScapyServer):
+class OsSpoofer(ScapyServer, Publisher):
     def __init__(self, interfaces, os_fingerprint_number_or_number, ignore_ports=[], services=[]):
+        super(OsSpoofer, self).__init__()
         if type(services) == str:
             services = [services]
         self.interfaces = interfaces
         self.ignore_ports = ignore_ports
         self.cache = {}
+
         # self.os_fingerprint_number = os_fingerprint_number
         self.personality_fingerprint = Fingerprint(fingerprint_id=os_fingerprint_number_or_number)
         SessionManager.getInstance(self.personality_fingerprint)
         self.stopper = True
         self.thread = threading.Thread(target=self._start, daemon=True)
         self.nmap_session = {}
-
+        self.services_string = services
         self.ip_addrs = []
         self.ip_filter = ""
         for interface in self.interfaces:
@@ -35,7 +38,6 @@ class OsSpoofer(ScapyServer):
             if self.ip_filter:
                 self.ip_filter += " or "
             self.ip_filter += "dst host " + addr
-
 
         self.rules = ['OUTPUT -p icmp -m icmp --icmp-type 0 -j DROP',
                       'OUTPUT -p icmp -m icmp --icmp-type 14 -j DROP',
@@ -61,7 +63,6 @@ class OsSpoofer(ScapyServer):
         for attribute in ["ii","ti","ci"]:
             if attribute not in self.personality_fingerprint['seq']:
                 self.personality_fingerprint['seq'][attribute] = ""
-
 
     def calculateCache(self):
         o_list = []
@@ -170,16 +171,11 @@ class OsSpoofer(ScapyServer):
         icmp_filter = "icmp"
         tcp_filter = "tcp"
         udp_filter = "udp"
-        # main_filter = icmp_filter + " or " + tcp_filter + " or " + udp_filter
-        main_filter = "(" + tcp_filter + " or " + udp_filter + " or " + icmp_filter + ") and ("+self.ip_filter+")"  # + icmp_filter + " or " +
-        print(Fore.YELLOW+"OS spoofing start"+Style.RESET_ALL)
+        main_filter = "(" + tcp_filter + " or " + udp_filter + " or " + icmp_filter + ") and ("+self.ip_filter+")"
         print(Fore.YELLOW + main_filter + Style.RESET_ALL)
         sniff(filter=main_filter, prn=self._handleIncoming, stop_filter=self._endCondition, iface=self.interfaces)
 
     def _handleIncoming(self, packet):
-        # packet.show()
-        # TODO add packet to nmap session (based on time/order?)
-        # Send response - refactor somewhere else?
         try:
             packet['ICMP']
             self._handleICMP(packet)
@@ -242,12 +238,12 @@ class OsSpoofer(ScapyServer):
             if packet['ICMP'].type == 8:
                 if packet['ICMP'].seq == 0:
                     #print('case: icmp seq 0')
-                    pass
                     # is this if -Pn not set?
+                    pass
 
                 elif packet['ICMP'].seq == 295:
                     #print('FIRST ICMP PACKET')
-
+                    self.publish(Event(EventTypes.ICMPScan, dst_ip))
                     if 'dfi' in self.personality_fingerprint.ie:
                         if self.personality_fingerprint.ie['dfi'] == 's':
                             response['IP'].flags = packet['IP'].flags
@@ -297,7 +293,8 @@ class OsSpoofer(ScapyServer):
                             response['ICMP'].code = int(self.personality_fingerprint.ie['cd'],16)
                 else:
                     # a real ping
-                    pass
+                    self.publish(Event(EventTypes.ICMPHit, dst_ip))
+                    # TODO respond?
             # timestamp req
             elif packet['ICMP'].type == 13:
                 #print('case: timestamp req')
@@ -306,7 +303,10 @@ class OsSpoofer(ScapyServer):
 
             if 't' in self.personality_fingerprint.ie:
                 session_val = SessionManager.getInstance().getValue(dst_ip, "ie", "t")
-                ttl = int(session_val, 16)
+                try:
+                    ttl = int(session_val, 16)
+                except:
+                    ttl = session_val
                 # TODO nmap expects some values over 0x100, so needs fixing
                 # this is to patch an error
                 response['IP'].ttl = ttl if ttl <= 255 else 255
@@ -397,7 +397,7 @@ class OsSpoofer(ScapyServer):
             t2.q  =
 
         '''
-        print("IN-TCP:",packet.summary())
+        print("IN-TCP:", packet.summary())
         dst_ip = packet['IP'].src
         my_ip = packet['IP'].dst
         dport = packet['TCP'].sport
@@ -459,6 +459,9 @@ class OsSpoofer(ScapyServer):
                         (('WScale', 10) == options[0]) and \
                         (('NOP', None) == options[1]):
                     print('packet1', bool(server_packet))
+                    if bool(server_packet):
+                        # I get this twice for one normal -O scan (no -p option) with one open spoofed service
+                        self.publish(Event(EventTypes.OSScan, dst_ip))
                     pac_num = "1"
                     t_num = "t1"
                 elif packet['TCP'].window == 63 and \
@@ -515,6 +518,7 @@ class OsSpoofer(ScapyServer):
             if t_num:
                 if 'r' in self.personality_fingerprint[t_num] and self.personality_fingerprint[t_num]['r'] == 'n':
                     # Do not respond trololol
+                    self.publish(Event(EventTypes.TCPScan, dst_ip))
                     return
                 if 'df' in self.personality_fingerprint[t_num]:
                     response['IP'].flags = 2 if self.personality_fingerprint[t_num]['df'] == 'y' else 0
@@ -612,7 +616,11 @@ class OsSpoofer(ScapyServer):
             if not (pac_num or t_num):
                 #this is a legit request, let session manager call w/ it if it wants
                 print('Dont care...')
+                # TODO if im getting traffic from one ip to many different ports... publish
+
                 return server_packet
+
+            self.publish(Event(EventTypes.TCPScan, dst_ip))
             try:
                 if o:
                     response['TCP'].options = self.cache[o]
@@ -673,7 +681,10 @@ class OsSpoofer(ScapyServer):
 
         # if we want an open port...
         # Let service spoofer it handle it and call us if needed...
-        # TODO ignore ServiceSpoofer ports (get from ohhoney object)
+        # TODO ignore ServiceSpoofer ports (get from ohhoney object) - test
+        for service in self.services_string:
+            if 'udp' in service and port_src in service:
+                return
 
         # if we want an closed port...
         icmp = ICMP(type=3, code=3)
@@ -705,7 +716,10 @@ class OsSpoofer(ScapyServer):
             if 't' in self.personality_fingerprint.u1:
                 session_val = SessionManager.getInstance().getValue(dst_ip, "u1", "t")
                 print('TTL session val:', session_val, type(session_val))
-                ttl = int(session_val, 16)
+                try:
+                    ttl = int(session_val, 16)
+                except TypeError:
+                    ttl = session_val
                 # TODO nmap expects some values over 0x100, so needs fixing
                 # this is to patch an error
                 response['IP'].ttl = ttl if ttl <= 255 else 255
@@ -767,6 +781,7 @@ class OsSpoofer(ScapyServer):
         except Exception as ee:
             print(ee)
             traceback.print_exc()
+        self.publish(Event(EventTypes.UDPScan, dst_ip))
         #print('done UDP handle')
 
     def __str__(self):
