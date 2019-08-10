@@ -123,6 +123,8 @@ class OhHoney:
             self.os_spoofer.stop()
         if self.service_spoofer:
             self.service_spoofer.stop()
+        if self.ids:
+            self.ids.clearIptables()
         print('ALL DONE')
 
     @staticmethod

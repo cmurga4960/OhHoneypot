@@ -1,6 +1,6 @@
 import os
 from Abstract.Subscriber import Subscriber
-from Event import EventTypes
+from Event import *
 from SessionManager import SessionManager
 from datetime import datetime
 
@@ -16,10 +16,13 @@ class IDS(Subscriber):
         self.log_dir = log_dir
         self.security_level = security_level
         if self.security_level > 1:
-            self.security_threshold = (self.security_level-1) * 10  # TODO play with this value - find a good range
+            self.security_threshold = (self.security_level-1) * Event.scale_difference * 10  # TODO play with this value - find a good range
         else:
             self.security_threshold = None
         self.ip_map = {}  # IP to security_level
+        # e.g. self.ip_map[ip] = dictionary with EventTypes names as key
+        #      self.ip_map[ip]['TCPHit'] = [2,2] # an array with two values,
+        #      the first being the occurrences of the event and the second being the sum of its weight
         self.white_list = white_list
         self.black_list = black_list
         if not self.log_dir[-1] == '/':
@@ -40,19 +43,25 @@ class IDS(Subscriber):
         self.rules.clear()
 
     def tryBlackList(self, ip):
-        if self.ip_map[ip] > self.security_threshold:
+        if ip in self.black_list:
+            return
+        total = 0
+        for key in self.ip_map[ip]:
+            total += self.ip_map[ip][key][1] * Event.scale_difference
+        if total > self.security_threshold:
             self.black_list.append(ip)
             print('BLACK_LIST: '+ip)
-            base = self.iptables + " -I "
-            commands = ["INPUT -s "+ip+("" if "/" not in ip else "/32")+" -j DROP",
-                        "OUTPUT -d "+ip+("" if "/" not in ip else "/32")+" -j DROP"]
-            for command in commands:
-                if command not in os.popen(self.iptables+"-save").read():
-                    self.rules.append(command)
-                    os.system(base+command)
+            #base = self.iptables + " -I "
+            #commands = ["INPUT -s "+ip+("" if "/" not in ip else "/32")+" -j DROP",
+            #            "OUTPUT -d "+ip+("" if "/" not in ip else "/32")+" -j DROP"]
+            #for command in commands:
+            #    if command not in os.popen(self.iptables+"-save").read():
+            #        self.rules.append(command)
+            #        os.system(base+command)
 
     def tryWhiteList(self, ip):
         # Would this ever happen?
+        # A host cant/should be able to send traffic to make you trust them again...
         pass
 
     def updateIpMap(self, event):
@@ -60,8 +69,11 @@ class IDS(Subscriber):
         if ip in self.white_list:
             return
         if ip not in self.ip_map:
-            self.ip_map[ip] = 0
-        self.ip_map[ip] += event.weight
+            self.ip_map[ip] = {}
+            for e_type in EventTypes:
+                self.ip_map[ip][e_type.name] = [0, 0]
+        self.ip_map[ip][event.event_type] = [self.ip_map[ip][event.event_type][0]+1,
+                                             self.ip_map[ip][event.event_type][1]+event.weight]
         print("NEW WEIGHT:", ip, self.ip_map[ip])
         # Update ip rules (white/black list)
 
@@ -84,9 +96,29 @@ class IDS(Subscriber):
 
 '''
 Notes:
-- OSScan triggers twice for one open spoofed service and a regular -O scan (no -p option)
-- Normal scan with OS and Service spoofer 1 port open yeilds in weight of 12 or 14
- -  weight 16 for -sV but gets a tbd packet (once from servicespoofer) in OSSpoofer - TODO use this
+These test were done with port 90 spoofed with tcp and with OS spoofer id 4000
+- nmap    (interesting how noisy nmap is) 
+  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [0, 0], 'OSScan': [0, 0], 'UDPScan': [0, 0], 'TCPScan': [0, 0], 'ICMPScan': [0, 0], 'UDPHit': [0, 0], 'TCPHit': [7, 7], 'ICMPHit': [0, 0]}
+- nmap -p 90,91 
+  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [0, 0], 'OSScan': [0, 0], 'UDPScan': [0, 0], 'TCPScan': [0, 0], 'ICMPScan': [0, 0], 'UDPHit': [0, 0], 'TCPHit': [1, 1], 'ICMPHit': [0, 0]}
+- nmap -sV 
+  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [1, 3], 'OSScan': [0, 0], 'UDPScan': [0, 0], 'TCPScan': [0, 0], 'ICMPScan': [0, 0], 'UDPHit': [0, 0], 'TCPHit': [10, 10], 'ICMPHit': [0, 0]}
+- nmap -sV -p 90,91 
+  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [1, 3], 'OSScan': [0, 0], 'UDPScan': [0, 0], 'TCPScan': [0, 0], 'ICMPScan': [0, 0], 'UDPHit': [0, 0], 'TCPHit': [2, 2], 'ICMPHit': [0, 0]}
+- nmap -O
+  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [0, 0], 'OSScan': [2, 6], 'UDPScan': [7, 21], 'TCPScan': [0, 0], 'ICMPScan': [2, 6], 'UDPHit': [0, 0], 'TCPHit': [30, 30], 'ICMPHit': [0, 0]}
+- nmap -O -p 90,91
+  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [0, 0], 'OSScan': [2, 6], 'UDPScan': [6, 18], 'TCPScan': [0, 0], 'ICMPScan': [5, 15], 'UDPHit': [0, 0], 'TCPHit': [25, 25], 'ICMPHit': [0, 0]}
+- nmap -O -sU
+  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [0, 0], 'OSScan': [0, 0], 'UDPScan': [1007, 3021], 'TCPScan': [0, 0], 'ICMPScan': [2, 6], 'UDPHit': [0, 0], 'TCPHit': [0, 0], 'ICMPHit': [0, 0]}
+- nmap -O -sV
+  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [1, 3], 'OSScan': [2, 6], 'UDPScan': [8, 24], 'TCPScan': [0, 0], 'ICMPScan': [2, 6], 'UDPHit': [0, 0], 'TCPHit': [31, 31], 'ICMPHit': [0, 0]}
+- nmap -O -sV -p 90,91
+  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [1, 3], 'OSScan': [2, 6], 'UDPScan': [8, 24], 'TCPScan': [0, 0], 'ICMPScan': [5, 15], 'UDPHit': [0, 0], 'TCPHit': [26, 26], 'ICMPHit': [0, 0]}
+
+
+
+-sV unique packet
 ###[ Ethernet ]### 
   dst       = 94:de:80:7a:63:bf
   src       = 94:65:2d:2c:81:01

@@ -191,13 +191,28 @@ class ServiceSpoofer(ScapyServer, Publisher):
 			my_ip = packet['IP'].dst
 			service = self.port_mapper[str(sport)+"True"]
 
-			#TODO identify nmap syn packet (classify packet)
-			self.publish(Event(EventTypes.TCPHit, victim_ip))
-			is_nmap = False
-			is_sv = False
-			if not self.os_spoofer and is_nmap:
-				self.publish(Event(EventTypes.GenericNmapScan, victim_ip))
-			#self.publish(Event(EventTypes.ServiceVersionScan, victim_ip))
+			# Let os_spoofer handle publishing if able to
+			if not self.os_spoofer:
+				is_nmap = False
+				is_sv = False
+				try:
+					if packet['TCP'].window == 64240 and \
+							(('MSS', 1460) == packet['TCP'].options[0]) and \
+							(('WScale', 8) == packet['TCP'].options[-1]):
+						self.publish(Event(EventTypes.ServiceVersionScan, victim_ip))
+						is_sv = True
+				except:
+					pass
+				try:
+					if packet['TCP'].window == 1024 and \
+							packet['TCP'].options == [('MSS', 1460)] and \
+							packet['IP'].flags == 0:
+						self.publish(Event(EventTypes.TCPScan, victim_ip))
+						is_nmap = True
+				except:
+					pass
+				if not is_nmap and not is_sv:
+					self.publish(Event(EventTypes.TCPOpenHit, victim_ip))
 
 			# send syn ack
 			ip = IP(src=my_ip, dst=victim_ip)
@@ -269,9 +284,10 @@ class ServiceSpoofer(ScapyServer, Publisher):
 		victim_ip = packet['IP'].src
 		my_ip = packet['IP'].dst
 		service = self.port_mapper(str(src_port)+"False")
-		self.publish(Event(EventTypes.UDPHit, victim_ip))
 
 		#TODO identify UDP -sV packet
+		if not self.os_spoofer:
+			self.publish(Event(EventTypes.UDPOpenHit, victim_ip))
 
 		ip = IP(src=my_ip, dst=victim_ip)
 		udp = UDP(sport=src_port, dport=dst_port)

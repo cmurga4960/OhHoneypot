@@ -174,6 +174,8 @@ class OsSpoofer(ScapyServer, Publisher):
         main_filter = "(" + tcp_filter + " or " + udp_filter + " or " + icmp_filter + ") and ("+self.ip_filter+")"
         print(Fore.YELLOW + main_filter + Style.RESET_ALL)
         sniff(filter=main_filter, prn=self._handleIncoming, stop_filter=self._endCondition, iface=self.interfaces)
+        # NOTE: sniffing listens for all traffic concerning the host minus any ignore ports
+        #       packets from ServiceSpoofer ports are received twice, but handled in the logic
 
     def _handleIncoming(self, packet):
         try:
@@ -424,6 +426,8 @@ class OsSpoofer(ScapyServer, Publisher):
 
             t_num = ""
             pac_num = ""
+            is_nmap = False
+            is_sv = False
 
             # First define which probe it is
             if packet['TCP'].flags == 0x0:  # null
@@ -497,14 +501,37 @@ class OsSpoofer(ScapyServer, Publisher):
                         (('NOP', None) == options[1]):
                     print("TCP - T5 probe", bool(server_packet))
                     t_num = "t5"
+                elif packet['TCP'].window == 64240 and \
+                        (('MSS', 1460) == packet['TCP'].options[0]) and \
+                        (('WScale', 8) == packet['TCP'].options[-1]):
+                    is_sv = True
                 else:
                     print("tbd", bool(server_packet))
                     packet.show()
 
+            # Publish once
+            if not bool(server_packet):
+                try:
+                    if is_sv:
+                        self.publish(Event(EventTypes.ServiceVersionScan, dst_ip))
+                except:
+                    pass
+                try:
+                    # TODO test if this works when nmap on windows - this one was eyeballed not from docs
+                    # and on other ports
+                    # May have false positives
+                    if packet['TCP'].window == 1024 and \
+                            packet['TCP'].options == [('MSS', 1460)] and \
+                            packet['IP'].flags == 0:
+                        self.publish(Event(EventTypes.TCPScan, dst_ip))
+                        is_nmap = True
+                except:
+                    pass
+
             # Now start responding/spoofing
             if packet['TCP'].ack == 0 and packet['TCP'].window == 3:
                 print('ecn packet', bool(server_packet))
-                #packet.show()
+                # packet.show()
                 if 'cc' in self.personality_fingerprint.ecn:
                     if 'y' == self.personality_fingerprint.ecn['cc']:
                         response['TCP'].flags = int(response['TCP'].flags) + int('1000000', 2)  # only ecn
@@ -518,7 +545,7 @@ class OsSpoofer(ScapyServer, Publisher):
             if t_num:
                 if 'r' in self.personality_fingerprint[t_num] and self.personality_fingerprint[t_num]['r'] == 'n':
                     # Do not respond trololol
-                    self.publish(Event(EventTypes.TCPScan, dst_ip))
+                    #self.publish(Event(EventTypes.TCPScan, dst_ip))
                     return
                 if 'df' in self.personality_fingerprint[t_num]:
                     response['IP'].flags = 2 if self.personality_fingerprint[t_num]['df'] == 'y' else 0
@@ -613,14 +640,24 @@ class OsSpoofer(ScapyServer, Publisher):
                 if "o"+pac_num in self.personality_fingerprint.ops:
                     o = self.personality_fingerprint.ops["o"+pac_num]
 
+            # Publish once
+            if not (is_nmap or is_sv or pac_num or t_num) and not bool(server_packet):
+                is_open_port = False
+                for service_data in self.services_string:
+                    if str(sport)+",tcp," in service_data:
+                        is_open_port = True
+                        break
+                if is_open_port:
+                    self.publish(Event(EventTypes.TCPOpenHit, dst_ip))
+                else:
+                    self.publish(Event(EventTypes.TCPHit, dst_ip))
+
             if not (pac_num or t_num):
                 #this is a legit request, let session manager call w/ it if it wants
                 print('Dont care...')
                 # TODO if im getting traffic from one ip to many different ports... publish
-
                 return server_packet
 
-            self.publish(Event(EventTypes.TCPScan, dst_ip))
             try:
                 if o:
                     response['TCP'].options = self.cache[o]
@@ -668,23 +705,22 @@ class OsSpoofer(ScapyServer, Publisher):
         '''
 
         #print("IN UDP :", packet.summary())
-
-        if 'r' in self.personality_fingerprint.u1 and self.personality_fingerprint.u1['r'] == 'n':
-            # Do not respond trololol
-            return
-
         response = None
         dst_ip = packet['IP'].src
         my_ip = packet['IP'].dst
         port_dst = packet['UDP'].sport
         port_src = packet['UDP'].dport
 
-        # if we want an open port...
-        # Let service spoofer it handle it and call us if needed...
-        # TODO ignore ServiceSpoofer ports (get from ohhoney object) - test
-        for service in self.services_string:
-            if 'udp' in service and port_src in service:
+        # if we want the port open...
+        # Let service spoofer it handle it
+        # ServiceSpoofer should not call us (as done for tcp) cuz nmap -O only cares about closed udp ports
+        for service_data in self.services_string:
+            if str(port_src) + ",udp," in service_data:
                 return
+
+        if 'r' in self.personality_fingerprint.u1 and self.personality_fingerprint.u1['r'] == 'n':
+            # Do not respond trololol
+            return
 
         # if we want an closed port...
         icmp = ICMP(type=3, code=3)
@@ -704,18 +740,43 @@ class OsSpoofer(ScapyServer, Publisher):
                 UDPerror(dport=udp.dport, sport=udp.sport, len=udp.len, chksum=udp.chksum)
             try:
                 response = response / Raw(load=packet['Raw'].load)
-            except IndexError:
+            except:
                 pass
-            #if str(packet['IP'].id) == str(0x1042):
-                #print('GOT u1 PROBE')
-                #print("INIT RESPONSE")
-                #response.show2()
+
+            # Publish
+
+            if str(packet['IP'].id) == str(0x1042): #u1 probe
+                self.publish(Event(EventTypes.UDPScan, dst_ip))
+
+            # TODO this does not work for all ports (eg RIP) - the IDS will report some as Hits instead of Scans
+            # TODO use nmap-payloads to identify all UDP packets
+            # UDP doesnt have many attributes like tcp, so it makes it harder to identify
+            # not a super priority, but important.  Attackers could theoretically get away w/ a -sU scan if
+            # they stick to the specific ports.  But that action on its own is super fishy
+            elif packet['UDP'].len == 8 and packet['IP'].flags == 0:
+                print('packet UDP len == 8')
+                try:
+                    if packet.load == b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00':
+                        print('packet load 8 0s')
+                        self.publish(Event(EventTypes.UDPScan, dst_ip))
+                    else:
+                        #print('err1')
+                        self.publish(Event(EventTypes.UDPHit, dst_ip))
+                        #packet.show()
+                except:
+                    #print('err2')
+                    self.publish(Event(EventTypes.UDPHit, dst_ip))
+                    #packet.show()
+            else:
+                #print('err3')
+                self.publish(Event(EventTypes.UDPHit, dst_ip))
+                #packet.show()
 
             # APPLY FINGERPRINT
 
             if 't' in self.personality_fingerprint.u1:
                 session_val = SessionManager.getInstance().getValue(dst_ip, "u1", "t")
-                print('TTL session val:', session_val, type(session_val))
+                #print('TTL session val:', session_val, type(session_val))
                 try:
                     ttl = int(session_val, 16)
                 except TypeError:
