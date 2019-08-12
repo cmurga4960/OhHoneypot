@@ -22,7 +22,8 @@ class EventTypes(enum.Enum):
     # A scan is a packet unique to nmap - can be on an open or closed port
     # This shows clear intent
     # GenericNmapScan = 2.1
-    ServiceVersionScan = 3.1
+    ServiceVersionScanTCP = 3.1
+    ServiceVersionScanUDP = 3.11  # This makes a ton of noise... maybe upgrade to 4
     OSScan = 3.2
     UDPScan = 3.3
     TCPScan = 2.2

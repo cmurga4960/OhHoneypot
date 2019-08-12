@@ -117,6 +117,7 @@ These test were done with port 90 spoofed with tcp and with OS spoofer id 4000
   {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [1, 3], 'OSScan': [2, 6], 'UDPScan': [8, 24], 'TCPScan': [0, 0], 'ICMPScan': [5, 15], 'UDPHit': [0, 0], 'TCPHit': [26, 26], 'ICMPHit': [0, 0]}
 
 
+Service scan tcp packet doesnt seem to send if it does not find an open port
 
 -sV unique packet
 ###[ Ethernet ]### 

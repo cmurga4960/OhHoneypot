@@ -54,9 +54,15 @@ class OsSpoofer(ScapyServer, Publisher):
             self.ip_filter = self.ip_filter[:-4] + ")"
         self.rules.append('OUTPUT -p tcp -j DROP')  # TODO scope down tcp
 
-        self.open_ports = []
+        self.open_ports = []  # TODO delete and use open_tcp/udp
+        self.open_tcp = []
+        self.open_udp = []
         for service in services:
             self.open_ports.append(service.split(",")[0])
+            if ',tcp,' in service:
+                self.open_tcp.append(self.open_ports[-1])
+            else:
+                self.open_udp.append(self.open_ports[-1])
 
         self.calculateCache()
 
@@ -75,7 +81,7 @@ class OsSpoofer(ScapyServer, Publisher):
         current_payload = ""
         for line in lines:
             line = line.strip()
-            if not line or line.startswith("#"):
+            if not line or line.startswith("#") or line.startswith("source "):
                 continue
             if line.startswith("udp "):
                 # submit last udp port
@@ -555,7 +561,7 @@ class OsSpoofer(ScapyServer, Publisher):
             if not bool(server_packet):
                 try:
                     if is_sv:
-                        self.publish(Event(EventTypes.ServiceVersionScan, dst_ip))
+                        self.publish(Event(EventTypes.ServiceVersionScanTCP, dst_ip))
                 except:
                     pass
                 try:
@@ -764,7 +770,12 @@ class OsSpoofer(ScapyServer, Publisher):
         else:
             found = False
             try:
-                if port_src in self.udp_payloads:
+                if str(packet.load)[2:-1].startswith(r"help\r\n\r\n") or \
+                        str(packet.load)[2:-1].lower() == r'\x80\xf0\x00\x10\x00\x01\x00\x00\x00\x00\x00\x00 ckaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\x00\x00!\x00\x01':
+                    # TODO I could read all the udp packets from the service-probe file...
+                    self.publish(Event(EventTypes.ServiceVersionScanUDP, dst_ip))
+                    found = True
+                elif port_src in self.udp_payloads:
                     str_payload = str(packet[3:])[2:-1].lower()
                     if str_payload in self.udp_payloads[port_src]:
                         self.publish(Event(EventTypes.UDPScan, dst_ip+",payload:"+str_payload))
@@ -787,15 +798,8 @@ class OsSpoofer(ScapyServer, Publisher):
                                     self.publish(Event(EventTypes.UDPScan, dst_ip + ",Padded_payload:" + str_payload))
                                     found = True
 
-                            #my_str = dummy_packet.load
-                            #print("COMPARE:",str(packet.load))
-                            #print("COMPARE:",my_str)
-                            #if packet.load == load.encode() or str(packet.load) == my_str:
-                            #    self.publish(Event(EventTypes.UDPScan, dst_ip+",BYTES_payload:"+str_payload))
-                            #    found = True
                 elif packet['UDP'].len == 8 and packet['IP'].flags == 0:
                     if packet.load == b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00':
-                        print('packet load 8 0s')
                         self.publish(Event(EventTypes.UDPScan, dst_ip+",NORMAL_payload:"+str(packet.load)))
                         found = True
             except AttributeError:
@@ -807,16 +811,12 @@ class OsSpoofer(ScapyServer, Publisher):
                 for service_data in self.services_string:
                     if str(port_src) + ",udp," in service_data:
                         self.publish(Event(EventTypes.UDPOpenHit, dst_ip))
+                        # TODO catch -sV probes?
+                        #if dst_ip == "192.168.1.215":
+                        #    packet.show()
                         # Let Service Spoofer handle it
                         return
                 self.publish(Event(EventTypes.UDPHit, dst_ip))
-                if dst_ip == "192.168.1.215":
-                    packet.show()
-                    #try:
-                        #print('UPD_PAYLOADS:',packet.sport,self.udp_payloads[port_src][0])
-                        #print('UPD_PAYLOADS:',packet.sport,str(self.udp_payloads[port_src][0].encode())[2:-1])
-                    #except:
-                    #    pass
 
         if 'r' in self.personality_fingerprint.u1 and self.personality_fingerprint.u1['r'] == 'n':
             # Do not respond trololol
