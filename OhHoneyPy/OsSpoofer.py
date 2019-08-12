@@ -9,6 +9,7 @@ from Abstract.Publisher import Publisher
 from SessionManager import SessionManager, Fingerprint
 from Event import *
 from colorama import Fore, Back, Style
+import codecs
 
 # Should only need on instance
 from scapy.layers.inet import ICMP, IP, UDP, IPerror, UDPerror, TCP, Ether
@@ -60,9 +61,50 @@ class OsSpoofer(ScapyServer, Publisher):
         self.calculateCache()
 
         # adding to fingerprint to handle seq ommited values
-        for attribute in ["ii","ti","ci"]:
+        for attribute in ["ii", "ti", "ci"]:
             if attribute not in self.personality_fingerprint['seq']:
                 self.personality_fingerprint['seq'][attribute] = ""
+
+        self.udp_payloads = {}
+        # self.udp_payloads[port] = array of potential payloads
+        self.initUDPPayloads()
+
+    def initUDPPayloads(self):
+        lines = open('nmap-payloads', 'r').read().split('\n')
+        current_ports = []
+        current_payload = ""
+        for line in lines:
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if line.startswith("udp "):
+                # submit last udp port
+                if current_ports:
+                    for port in current_ports:
+                        port_num = int(port)
+                        if port_num not in self.udp_payloads:
+                            self.udp_payloads[port_num] = []
+                        self.udp_payloads[port_num].append(current_payload.lower())
+                    current_payload = ""
+                # start new port
+                data = line.split()
+                current_ports = data[1].split(",")
+                if len(data) > 2:
+                    temp_payload = " ".join(data[2:])
+                    current_payload += temp_payload[temp_payload.index('"')+1:temp_payload.rindex('"')]
+            if line.startswith('"') and current_ports:
+                current_payload += line[line.index('"')+1:line.rindex('"')]
+
+        if current_ports:
+            for port in current_ports:
+                port_num = int(port)
+                if port_num not in self.udp_payloads:
+                    self.udp_payloads[port_num] = []
+                self.udp_payloads[port_num].append(current_payload)
+
+        # for port in self.udp_payloads:
+        #    print(port, type(port), self.udp_payloads[port])
+
 
     def calculateCache(self):
         o_list = []
@@ -711,12 +753,70 @@ class OsSpoofer(ScapyServer, Publisher):
         port_dst = packet['UDP'].sport
         port_src = packet['UDP'].dport
 
-        # if we want the port open...
-        # Let service spoofer it handle it
-        # ServiceSpoofer should not call us (as done for tcp) cuz nmap -O only cares about closed udp ports
-        for service_data in self.services_string:
-            if str(port_src) + ",udp," in service_data:
-                return
+        # Publish
+
+        if str(packet['IP'].id) == str(0x1042):  # u1 probe
+            print('UDP U1 PROBE')
+            self.publish(Event(EventTypes.UDPScan, dst_ip))
+
+        # UDP doesnt have many attributes like tcp, so it makes it harder to identify
+        # Using nmap-payloads to help identify
+        else:
+            found = False
+            try:
+                if port_src in self.udp_payloads:
+                    str_payload = str(packet[3:])[2:-1].lower()
+                    if str_payload in self.udp_payloads[port_src]:
+                        self.publish(Event(EventTypes.UDPScan, dst_ip+",payload:"+str_payload))
+                        found = True
+                    else:  # Try as bytes/paresed
+                        for load in self.udp_payloads[port_src]:
+                            load_decode = codecs.decode(load, 'unicode_escape')
+                            latin = str(load_decode.encode("latin"))[2:-1].lower()
+                            print("COMPARE1:",latin)
+                            print("COMPARE2:",str_payload)
+                            dummy_packet = Ether()/IP()/UDP()/latin
+                            if str_payload == latin or dummy_packet[3:] == packet[3:]:
+                                self.publish(Event(EventTypes.UDPScan, dst_ip+",PARSED_payload:"+str_payload))
+                                found = True
+                            else:
+                                # Check if padding is problem
+                                remove_normal_load = str_payload[len(latin):].replace(r"\x00","")
+                                if not len(remove_normal_load):
+                                    print("SOLVED!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!", remove_normal_load)
+                                    self.publish(Event(EventTypes.UDPScan, dst_ip + ",Padded_payload:" + str_payload))
+                                    found = True
+
+                            #my_str = dummy_packet.load
+                            #print("COMPARE:",str(packet.load))
+                            #print("COMPARE:",my_str)
+                            #if packet.load == load.encode() or str(packet.load) == my_str:
+                            #    self.publish(Event(EventTypes.UDPScan, dst_ip+",BYTES_payload:"+str_payload))
+                            #    found = True
+                elif packet['UDP'].len == 8 and packet['IP'].flags == 0:
+                    if packet.load == b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00':
+                        print('packet load 8 0s')
+                        self.publish(Event(EventTypes.UDPScan, dst_ip+",NORMAL_payload:"+str(packet.load)))
+                        found = True
+            except AttributeError:
+                pass
+            except Exception as e:
+                print("PAYLOAD_EXCEPTION:",e)
+                traceback.print_exc()
+            if not found:
+                for service_data in self.services_string:
+                    if str(port_src) + ",udp," in service_data:
+                        self.publish(Event(EventTypes.UDPOpenHit, dst_ip))
+                        # Let Service Spoofer handle it
+                        return
+                self.publish(Event(EventTypes.UDPHit, dst_ip))
+                if dst_ip == "192.168.1.215":
+                    packet.show()
+                    #try:
+                        #print('UPD_PAYLOADS:',packet.sport,self.udp_payloads[port_src][0])
+                        #print('UPD_PAYLOADS:',packet.sport,str(self.udp_payloads[port_src][0].encode())[2:-1])
+                    #except:
+                    #    pass
 
         if 'r' in self.personality_fingerprint.u1 and self.personality_fingerprint.u1['r'] == 'n':
             # Do not respond trololol
@@ -743,34 +843,6 @@ class OsSpoofer(ScapyServer, Publisher):
             except:
                 pass
 
-            # Publish
-
-            if str(packet['IP'].id) == str(0x1042): #u1 probe
-                self.publish(Event(EventTypes.UDPScan, dst_ip))
-
-            # TODO this does not work for all ports (eg RIP) - the IDS will report some as Hits instead of Scans
-            # TODO use nmap-payloads to identify all UDP packets
-            # UDP doesnt have many attributes like tcp, so it makes it harder to identify
-            # not a super priority, but important.  Attackers could theoretically get away w/ a -sU scan if
-            # they stick to the specific ports.  But that action on its own is super fishy
-            elif packet['UDP'].len == 8 and packet['IP'].flags == 0:
-                print('packet UDP len == 8')
-                try:
-                    if packet.load == b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00':
-                        print('packet load 8 0s')
-                        self.publish(Event(EventTypes.UDPScan, dst_ip))
-                    else:
-                        #print('err1')
-                        self.publish(Event(EventTypes.UDPHit, dst_ip))
-                        #packet.show()
-                except:
-                    #print('err2')
-                    self.publish(Event(EventTypes.UDPHit, dst_ip))
-                    #packet.show()
-            else:
-                #print('err3')
-                self.publish(Event(EventTypes.UDPHit, dst_ip))
-                #packet.show()
 
             # APPLY FINGERPRINT
 
@@ -792,7 +864,7 @@ class OsSpoofer(ScapyServer, Publisher):
                         response['Raw'].load = response['Raw'].load[:-len(response)-ipl]
                     elif len(response) < ipl:
                         # eg Novatel MiFi 4620L WAP hahaha (learning this at 3am on a Sun morning / Sat night lmao)
-                        print("Need to add bytes:", )
+                        #print("Need to add bytes:", )
                         response['Raw'].load = response['Raw'].load + response['Raw'].load[:(ipl-len(response))]
                     # YASSSSSSS :D first confirmable success xD
                     # An other bites one the dust
@@ -842,7 +914,6 @@ class OsSpoofer(ScapyServer, Publisher):
         except Exception as ee:
             print(ee)
             traceback.print_exc()
-        self.publish(Event(EventTypes.UDPScan, dst_ip))
         #print('done UDP handle')
 
     def __str__(self):

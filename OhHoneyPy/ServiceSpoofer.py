@@ -283,7 +283,7 @@ class ServiceSpoofer(ScapyServer, Publisher):
 		src_port = packet.dport
 		victim_ip = packet['IP'].src
 		my_ip = packet['IP'].dst
-		service = self.port_mapper(str(src_port)+"False")
+		service = self.port_mapper[str(src_port)+"False"]
 
 		#TODO identify UDP -sV packet
 		if not self.os_spoofer:
@@ -296,9 +296,9 @@ class ServiceSpoofer(ScapyServer, Publisher):
 		#print(udp_color, end="")
 		if SessionManager.getInstance().is_android:
 			ether = Ether(src=packet['Ether'].dst, dst=packet['Ether'].src, type=0x800)
-			sendo(ether/udp_main, iface=self.interfaces[0])
+			sendp(ether/udp_main, iface=self.interfaces[0])
 		else:
-			send(udp_main)
+			send(udp_main, verbose=False)
 		#print(udp_color + 'udp client done' + reset_color)
 		return ""
 
