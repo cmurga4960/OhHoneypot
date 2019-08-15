@@ -14,6 +14,8 @@ import codecs
 # Should only need on instance
 from scapy.layers.inet import ICMP, IP, UDP, IPerror, UDPerror, TCP, Ether
 
+# TODO add way for OsSpoofer to run just enough for IDS to run
+# maybe put if's around self.personality_fingerprint
 
 class OsSpoofer(ScapyServer, Publisher):
     def __init__(self, interfaces, os_fingerprint_number_or_number, ignore_ports=[], services=[]):
