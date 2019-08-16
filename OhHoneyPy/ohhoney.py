@@ -30,7 +30,7 @@ class OhHoney:
     path = ""
 
     def __init__(self, interface_list, os_id='', service_list='', ignore='', security_level=1,
-                 log_dir=path+'/logs', kill_file='', white_list='', black_list=''):
+                 log_dir=None, kill_file='', white_list='', black_list=''):
         if os_id == None:
             os_id = ''
         if service_list == None:
@@ -38,7 +38,7 @@ class OhHoney:
         if ignore == None:
             ignore = ''
         if log_dir == None:
-            log_dir = path+'/logs'
+            log_dir = sys.argv[0]+'/logs'
         if kill_file == None:
             kill_file = ''
         if security_level == None:
