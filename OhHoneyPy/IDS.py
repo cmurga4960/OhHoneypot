@@ -99,6 +99,9 @@ class IDS(Subscriber):
         w = open(self.log_dir + event.event_type+'.log', 'a+')
         w.write(str(datetime.now())+"="+event.data+"\n")
         w.close()
+        w = open(event.event_type + " - " + self.log_dir + 'all.log', 'a+')
+        w.write(str(datetime.now())+"="+event.data+"\n")
+        w.close()
         #TODO FOR TESTING
         self.updateIpMap(event)
         #TODO FOR TESTING
