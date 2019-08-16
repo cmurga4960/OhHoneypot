@@ -17,6 +17,7 @@ from scapy.layers.inet import ICMP, IP, UDP, IPerror, UDPerror, TCP, Ether
 # TODO add way for OsSpoofer to run just enough for IDS to run
 # maybe put if's around self.personality_fingerprint
 
+
 class OsSpoofer(ScapyServer, Publisher):
     def __init__(self, interfaces, os_fingerprint_number_or_number, ignore_ports=[], services=[]):
         super(OsSpoofer, self).__init__()
@@ -78,7 +79,7 @@ class OsSpoofer(ScapyServer, Publisher):
         self.initUDPPayloads()
 
     def initUDPPayloads(self):
-        lines = open('nmap-payloads', 'r').read().split('\n')
+        lines = open(os.path.dirname(sys.argv[0])+'/nmap-payloads', 'r').read().split('\n')
         current_ports = []
         current_payload = ""
         for line in lines:

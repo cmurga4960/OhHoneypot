@@ -27,6 +27,7 @@ import os
 
 class OhHoney:
     description = "OhHoney is a python based honeypot designed to fool nmap -O -sV scans."
+    path = ""
 
     def __init__(self, interface_list, os_id='', service_list='', ignore='', security_level=1,
                  log_dir='logs', kill_file='', white_list='', black_list=''):
@@ -253,6 +254,7 @@ if __name__ == "__main__":
             print('Please at provide an integer for --level (between 0-4)')
             sys.exit(0)
     OhHoney.printArt()
+    OhHoney.path = sys.argv[0]
     honeypot = OhHoney(args.i, args.o, args.s, args.ignore, args.level, args.l, args.k, args.w, args.b)
     # self, interface_list, os_id='', service_list='', ignore='', security_level=1,
     #             log_dir='logs', kill_file='', white_list='', black_list=''):

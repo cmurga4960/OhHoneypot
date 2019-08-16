@@ -35,6 +35,26 @@ class IDS(Subscriber):
             self.iptables = 'iptables'
         # TODO abstract/centralize iptables command path to SessionManger
         self.rules = []
+        self.setIpTables()
+
+    def setIpTables(self):
+        for ip in self.black_list:
+            base = self.iptables + " -I "
+            commands = ["INPUT -s " + ip + ("" if "/" not in ip else "/32") + " -j DROP",
+                        "OUTPUT -d " + ip + ("" if "/" not in ip else "/32") + " -j DROP"]
+            for command in commands:
+                if command not in os.popen(self.iptables + "-save").read():
+                    self.rules.append(command)
+                    os.system(base + command)
+
+        for ip in self.white_list:
+            base = self.iptables + " -I "
+            commands = ["INPUT -s " + ip + ("" if "/" not in ip else "/32") + " -j ACCEPT",
+                        "OUTPUT -d " + ip + ("" if "/" not in ip else "/32") + " -j ACCEPT"]
+            for command in commands:
+                if command not in os.popen(self.iptables + "-save").read():
+                    self.rules.append(command)
+                    os.system(base + command)
 
     def clearIptables(self):
         base = self.iptables + " -D "
@@ -51,18 +71,12 @@ class IDS(Subscriber):
         if total > self.security_threshold:
             self.black_list.append(ip)
             print('BLACK_LIST: '+ip)
-            #base = self.iptables + " -I "
-            #commands = ["INPUT -s "+ip+("" if "/" not in ip else "/32")+" -j DROP",
-            #            "OUTPUT -d "+ip+("" if "/" not in ip else "/32")+" -j DROP"]
-            #for command in commands:
-            #    if command not in os.popen(self.iptables+"-save").read():
-            #        self.rules.append(command)
-            #        os.system(base+command)
+            self.setIpTables()
 
-    def tryWhiteList(self, ip):
+    #def tryWhiteList(self, ip):
         # Would this ever happen?
         # A host cant/should be able to send traffic to make you trust them again...
-        pass
+        #pass
 
     def updateIpMap(self, event):
         ip = event.data.split(',')[0]
@@ -91,7 +105,7 @@ class IDS(Subscriber):
         if self.security_threshold:
             self.updateIpMap(event)
             self.tryBlackList(ip)
-            self.tryWhiteList(ip)
+            #self.tryWhiteList(ip)
 
 
 '''

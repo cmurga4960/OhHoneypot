@@ -333,8 +333,9 @@ class Service:
 		except:
 			service_name = service_id
 
-		path = "OhHoneypot/OhHoneyPy/" if SessionManager.getInstance().is_android else ''
-		good_services = open(path+'nmap_results_good_lines.txt', 'r').read().split('\n')
+		#path = "OhHoneypot/OhHoneyPy/" if SessionManager.getInstance().is_android else ''
+		path = os.path.dirname(sys.argv[0])
+		good_services = open(path+'/nmap_results_good_lines.txt', 'r').read().split('\n')
 		if service_name:
 			for service in good_services:
 				if service:

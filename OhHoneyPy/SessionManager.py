@@ -4,6 +4,7 @@ import socket
 import fcntl
 import struct
 import os
+import sys
 
 
 # Singleton
@@ -40,7 +41,8 @@ class SessionManager:
 
 
 class Fingerprint(Mapping):
-    NMAP_PATH = "OhHoneypot/OhHoneyPy/" if SessionManager.getInstance().is_android else ''
+    #NMAP_PATH = "OhHoneypot/OhHoneyPy/" if SessionManager.getInstance().is_android else ''
+    NMAP_PATH = os.path.dirname(sys.argv[0])+"/"
     NMAP_FINGERPRINT_FILE = 'nmap-os-db'
 
     def __init__(self, fingerprint_id=-1, scan_text=""):
