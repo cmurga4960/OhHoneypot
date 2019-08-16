@@ -38,7 +38,7 @@ class OhHoney:
         if ignore == None:
             ignore = ''
         if log_dir == None:
-            log_dir = sys.argv[0]+'/logs'
+            log_dir = os.path.dirname(sys.argv[0])+'/logs'
         if kill_file == None:
             kill_file = ''
         if security_level == None:
