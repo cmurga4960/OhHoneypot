@@ -13,6 +13,10 @@ from datetime import datetime
 
 class IDS(Subscriber):
     def __init__(self, log_dir, security_level, white_list=[], black_list=[]):
+        if not white_list:
+            white_list = []
+        if not black_list:
+            black_list = []
         self.log_dir = log_dir
         self.security_level = security_level
         if self.security_level > 1:
@@ -62,15 +66,35 @@ class IDS(Subscriber):
         self.rules.clear()
 
     def tryBlackList(self, ip):
-        if ip in self.black_list:
+        if ip in self.black_list or ip in self.white_list:
             return
+        dew_it = False
+        if self.security_level >= 2:
+            dew_it = bool(self.ip_map[ip][EventTypes.OSScan.name][1]) or \
+                     bool(self.ip_map[ip][EventTypes.ServiceVersionScanTCP.name][1]) or \
+                     bool(self.ip_map[ip][EventTypes.ServiceVersionScanUDP.name][1])
+        if self.security_level >= 3:
+            dew_it = dew_it or bool(self.ip_map[ip][EventTypes.TCPScan.name][1]) or \
+                     bool(self.ip_map[ip][EventTypes.UDPScan.name][1]) or \
+                     bool(self.ip_map[ip][EventTypes.ICMPScan.name][1])
+        if self.security_level >= 4:
+            dew_it = dew_it or bool(self.ip_map[ip][EventTypes.UDPOpenHit.name][1]) or \
+                     bool(self.ip_map[ip][EventTypes.TCPOpenHit.name][1])
+        if dew_it:
+            print('BLACK_LIST: '+ip)
+            self.black_list.append(ip)
+            self.setIpTables()
+
+        '''
+        # Weight based method
         total = 0
         for key in self.ip_map[ip]:
             total += self.ip_map[ip][key][1] * Event.scale_difference
         if total > self.security_threshold:
-            self.black_list.append(ip)
             print('BLACK_LIST: '+ip)
+            self.black_list.append(ip)
             self.setIpTables()
+        '''
 
     #def tryWhiteList(self, ip):
         # Would this ever happen?

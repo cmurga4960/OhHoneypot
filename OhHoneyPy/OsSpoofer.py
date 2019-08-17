@@ -290,6 +290,10 @@ class OsSpoofer(ScapyServer, Publisher):
         my_ip = packet['IP'].dst
         response = IP(src=my_ip, dst=dst_ip)/ \
                    ICMP(type=0, id=packet['ICMP'].id, seq=packet['ICMP'].seq)
+
+        if self.subscribers and dst_ip in self.subscribers[0].white_list or dst_ip in self.subscribers[0].black_list:
+            return
+
         try:
             response = response /Raw(load=packet['Raw'].load)
         except IndexError:
@@ -479,6 +483,9 @@ class OsSpoofer(ScapyServer, Publisher):
         ack_rst = 0x14
         rst = 0x4
 
+        if self.subscribers and dst_ip in self.subscribers[0].white_list  or dst_ip in self.subscribers[0].black_list:
+            return
+
         try:
             # if 'ss' in self.personality_fingerprint.seq:
             # ip_id = SessionManager.getInstance().getValue(dst_ip, 'seq', 'ss')
@@ -605,7 +612,7 @@ class OsSpoofer(ScapyServer, Publisher):
                     if str(sport) in self.open_tcp:
                         self.publish(Event(EventTypes.TCPOpenHit, dst_ip))
                     else:
-                        self.publish(Event(EventTypes.TCPHit, dst_ip))
+                        self.publish(Event(EventTypes.TCPHit, dst_ip))  # TODO, this is triggering upon scans i think...
 
             if not self.personality_fingerprint:
                 return
@@ -778,8 +785,10 @@ class OsSpoofer(ScapyServer, Publisher):
         port_dst = packet['UDP'].sport
         port_src = packet['UDP'].dport
 
-        # Publish
+        if self.subscribers and dst_ip in self.subscribers[0].white_list or dst_ip in self.subscribers[0].black_list:
+            return
 
+        # Publish
         if str(packet['IP'].id) == str(0x1042):  # u1 probe
             print('UDP U1 PROBE')
             self.publish(Event(EventTypes.UDPScan, dst_ip))

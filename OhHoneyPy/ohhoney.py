@@ -19,6 +19,7 @@ import argparse
 from OsSpoofer import OsSpoofer
 from ServiceSpoofer import ServiceSpoofer
 from IDS import IDS
+from SessionManager import SessionManager
 from colorama import Fore, Back, Style
 import sys
 import time
@@ -124,7 +125,7 @@ class OhHoney:
             self.os_spoofer.stop()
         if self.service_spoofer:
             self.service_spoofer.stop()
-        if self.ids:
+        if self.ids and not SessionManager.getInstance().is_android:
             self.ids.clearIptables()
         print('ALL DONE')
 
@@ -254,9 +255,6 @@ if __name__ == "__main__":
         if args.level == 0 and not (args.o or args.s):
             print('OhHoney will do nothing in the config... shutting down.')
             sys.exit(0)
-    elif not (args.o or args.s):
-        print('OhHoney will do nothing in the config... shutting down.')
-        sys.exit(0)
     OhHoney.printArt()
     OhHoney.path = sys.argv[0]
     honeypot = OhHoney(args.i, args.o, args.s, args.ignore, args.level, args.l, args.k, args.w, args.b)

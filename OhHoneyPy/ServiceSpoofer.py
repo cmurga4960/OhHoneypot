@@ -191,6 +191,9 @@ class ServiceSpoofer(ScapyServer, Publisher):
 			my_ip = packet['IP'].dst
 			service = self.port_mapper[str(sport)+"True"]
 
+			if self.subscribers and victim_ip in self.subscribers[0].white_list or victim_ip in self.subscribers[0].black_list:
+				return
+
 			# Let os_spoofer handle publishing if able to
 			'''
 			if not self.os_spoofer:
@@ -286,6 +289,9 @@ class ServiceSpoofer(ScapyServer, Publisher):
 		victim_ip = packet['IP'].src
 		my_ip = packet['IP'].dst
 		service = self.port_mapper[str(src_port)+"False"]
+
+		if self.subscribers and victim_ip in self.subscribers[0].white_list or victim_ip in self.subscribers[0].black_list:
+			return
 
 		#TODO identify UDP -sV packet
 		#if not self.os_spoofer and self.os_spoofer.personality_fingerprint:
