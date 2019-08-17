@@ -80,11 +80,11 @@ class OhHoney:
 
         if self.security_level:
             self.ids = IDS(self.log_dir, self.security_level, self.white_list, self.black_list)
-        if self.os_id:
-            self.os_spoofer = OsSpoofer(self.interface_list, self.os_id, self.ignore, self.services)
-            if self.security_level:
-                self.os_spoofer.addSubscriber(self.ids)
-            print(str(self.os_spoofer))
+        #if self.os_id:
+        self.os_spoofer = OsSpoofer(self.interface_list, self.os_id, self.ignore, self.services)
+        if self.security_level:
+            self.os_spoofer.addSubscriber(self.ids)
+        print(str(self.os_spoofer))
         if self.service_list:
             self.service_spoofer = ServiceSpoofer(self.interface_list, self.services, self.os_spoofer)
             if self.security_level:
@@ -236,13 +236,11 @@ if __name__ == "__main__":
     # -c interactive console version
     # --config settings file (e.g. saved honeypot arguments)
     # -g GUI version
+    # TODO check root permissions
     args = parser.parse_args()
     # TODO V&V args
     if not args.i:
         print("Please provide -i")
-        sys.exit(0)
-    if not args.o and not args.s:
-        print('Please at provide -o and/or -s')
         sys.exit(0)
     if args.level:
         try:

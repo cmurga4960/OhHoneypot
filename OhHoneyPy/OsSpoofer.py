@@ -20,21 +20,33 @@ from scapy.layers.inet import ICMP, IP, UDP, IPerror, UDPerror, TCP, Ether
 
 class OsSpoofer(ScapyServer, Publisher):
     def __init__(self, interfaces, os_fingerprint_number_or_number, ignore_ports=[], services=[]):
+        '''
+
+        :param interfaces: string array of network interfaces
+        :param os_fingerprint_number_or_number: if '' or None, OsSpoofer only sniffs for IDS
+        :param ignore_ports: int or string array of ports
+        :param services: string array of (port #,tcp/udp,service id or name)
+        '''
         super(OsSpoofer, self).__init__()
         if type(services) == str:
             services = [services]
         self.interfaces = interfaces
         self.ignore_ports = ignore_ports
         self.cache = {}
-
-        # self.os_fingerprint_number = os_fingerprint_number
-        self.personality_fingerprint = Fingerprint(fingerprint_id=os_fingerprint_number_or_number)
+        self.personality_fingerprint = Fingerprint(fingerprint_id=os_fingerprint_number_or_number) if \
+            os_fingerprint_number_or_number else None
         SessionManager.getInstance(self.personality_fingerprint)
         self.stopper = True
         self.thread = threading.Thread(target=self._start, daemon=True)
         self.nmap_session = {}
-        self.services_string = services
         self.ip_addrs = []
+        self.rules = ['OUTPUT -p icmp -m icmp --icmp-type 0 -j DROP',
+                      'OUTPUT -p icmp -m icmp --icmp-type 14 -j DROP',
+                      'OUTPUT -p icmp -m icmp --icmp-type 3 -j DROP']
+
+        # Setup scapy filter and iptables
+        # TODO improve filter logic
+        # the goal is not to interfere with normal traffic
         self.ip_filter = ""
         for interface in self.interfaces:
             addr = SessionManager.getIpAddress(interface)
@@ -43,11 +55,6 @@ class OsSpoofer(ScapyServer, Publisher):
                 self.ip_filter += " or "
             self.ip_filter += "dst host " + addr
 
-        self.rules = ['OUTPUT -p icmp -m icmp --icmp-type 0 -j DROP',
-                      'OUTPUT -p icmp -m icmp --icmp-type 14 -j DROP',
-                      'OUTPUT -p icmp -m icmp --icmp-type 3 -j DROP']
-
-        # TODO improve port filter logic
         if self.ignore_ports:
             self.ip_filter = "("+self.ip_filter+") and ("
             for port in self.ignore_ports:
@@ -55,28 +62,29 @@ class OsSpoofer(ScapyServer, Publisher):
                 self.rules.append('OUTPUT -p tcp -m tcp --dport '+str(port)+' -j ACCEPT')
                 self.rules.append('OUTPUT -p tcp -m tcp --sport '+str(port)+' -j ACCEPT')
             self.ip_filter = self.ip_filter[:-4] + ")"
-        self.rules.append('OUTPUT -p tcp -j DROP')  # TODO scope down tcp
+        self.rules.append('OUTPUT -p tcp -j DROP')  # TODO scope down tcp if possible
 
-        self.open_ports = []  # TODO delete and use open_tcp/udp
+        # ports used by ServiceSpoofer
         self.open_tcp = []
         self.open_udp = []
         for service in services:
-            self.open_ports.append(service.split(",")[0])
+            open_port = service.split(",")[0]
             if ',tcp,' in service:
-                self.open_tcp.append(self.open_ports[-1])
+                self.open_tcp.append(open_port)
             else:
-                self.open_udp.append(self.open_ports[-1])
+                self.open_udp.append(open_port)
 
-        self.calculateCache()
-
-        # adding to fingerprint to handle seq ommited values
-        for attribute in ["ii", "ti", "ci"]:
-            if attribute not in self.personality_fingerprint['seq']:
-                self.personality_fingerprint['seq'][attribute] = ""
-
-        self.udp_payloads = {}
-        # self.udp_payloads[port] = array of potential payloads
+        # Used to recognize nmap UDP scans
+        self.udp_payloads = {}  # self.udp_payloads[port] = array of potential payloads
         self.initUDPPayloads()
+
+        if self.personality_fingerprint:
+            # Used to increase response speed of OsSpoofer
+            self.calculateCache()
+            # adding to fingerprint to handle seq ommited values
+            for attribute in ["ii", "ti", "ci"]:
+                if attribute not in self.personality_fingerprint['seq']:
+                    self.personality_fingerprint['seq'][attribute] = ""
 
     def initUDPPayloads(self):
         lines = open(os.path.dirname(sys.argv[0])+'/nmap-payloads', 'r').read().split('\n')
@@ -113,7 +121,6 @@ class OsSpoofer(ScapyServer, Publisher):
 
         # for port in self.udp_payloads:
         #    print(port, type(port), self.udp_payloads[port])
-
 
     def calculateCache(self):
         o_list = []
@@ -205,18 +212,20 @@ class OsSpoofer(ScapyServer, Publisher):
             iptables = '/system/bin/iptables'
         else:
             iptables = 'iptables'
-        for rule in self.rules:
-            if rule not in os.popen(iptables+'-save').read():
-                os.system(iptables+" -A " + rule)
+        if self.personality_fingerprint:
+            for rule in self.rules:
+                if rule not in os.popen(iptables+'-save').read():
+                    os.system(iptables+" -A " + rule)
 
     def _stopIpTables(self):
         if SessionManager.getInstance().is_android:
             iptables = '/system/bin/iptables'
         else:
             iptables = 'iptables'
-        for rule in self.rules:
-            if rule in os.popen(iptables+'-save').read():  # Need this?
-                os.system(iptables+" -D " + rule)
+        if self.personality_fingerprint:
+            for rule in self.rules:
+                if rule in os.popen(iptables+'-save').read():  # Need this?
+                    os.system(iptables+" -D " + rule)
 
     def _startSniffing(self):
         icmp_filter = "icmp"
@@ -272,7 +281,8 @@ class OsSpoofer(ScapyServer, Publisher):
         '''
         #print("RECIVED ICMP:", packet.summary())
 
-        if 'r' in self.personality_fingerprint.ie and self.personality_fingerprint.ie['r'] == 'n':
+        if self.personality_fingerprint and \
+                'r' in self.personality_fingerprint.ie and self.personality_fingerprint.ie['r'] == 'n':
             # Do not respond trololol
             return
 
@@ -297,53 +307,54 @@ class OsSpoofer(ScapyServer, Publisher):
                 elif packet['ICMP'].seq == 295:
                     #print('FIRST ICMP PACKET')
                     self.publish(Event(EventTypes.ICMPScan, dst_ip))
-                    if 'dfi' in self.personality_fingerprint.ie:
-                        if self.personality_fingerprint.ie['dfi'] == 's':
-                            response['IP'].flags = packet['IP'].flags
-                        elif self.personality_fingerprint.ie['dfi'] == 'y':
-                            response['IP'].flags = 2
-                        elif self.personality_fingerprint.ie['dfi'] == 'o':
-                            response['IP'].flags = 0  # bit toggled from probe
-                        else:  # == N
-                            response['IP'].flags = 0
+                    if self.personality_fingerprint:
+                        if 'dfi' in self.personality_fingerprint.ie:
+                            if self.personality_fingerprint.ie['dfi'] == 's':
+                                response['IP'].flags = packet['IP'].flags
+                            elif self.personality_fingerprint.ie['dfi'] == 'y':
+                                response['IP'].flags = 2
+                            elif self.personality_fingerprint.ie['dfi'] == 'o':
+                                response['IP'].flags = 0  # bit toggled from probe
+                            else:  # == N
+                                response['IP'].flags = 0
 
-                    if 'cd' in self.personality_fingerprint.ie:
-                        if self.personality_fingerprint.ie['cd'] == 'z':
-                            response['ICMP'].code = 0
-                        elif self.personality_fingerprint.ie['cd'] == 's':
-                            response['ICMP'].code = packet['ICMP'].code
-                        elif self.personality_fingerprint.ie['cd'] == 'o':
-                            # TODO test, this may never happen... not in db?
-                            response['ICMP'].code = packet['ICMP'].code+1
-                        else:  # == N
-                            # TODO test, this may never happen... not in db?
-                            response['ICMP'].code = int(self.personality_fingerprint.ie['cd'], 16)
+                        if 'cd' in self.personality_fingerprint.ie:
+                            if self.personality_fingerprint.ie['cd'] == 'z':
+                                response['ICMP'].code = 0
+                            elif self.personality_fingerprint.ie['cd'] == 's':
+                                response['ICMP'].code = packet['ICMP'].code
+                            elif self.personality_fingerprint.ie['cd'] == 'o':
+                                # TODO test, this may never happen... not in db?
+                                response['ICMP'].code = packet['ICMP'].code+1
+                            else:  # == N
+                                # TODO test, this may never happen... not in db?
+                                response['ICMP'].code = int(self.personality_fingerprint.ie['cd'], 16)
 
                 elif packet['ICMP'].seq == 296:
                     #print('SECOND ICMP PACKET')
+                    if self.personality_fingerprint:
+                        if 'dfi' in self.personality_fingerprint.ie:
+                            if self.personality_fingerprint.ie['dfi'] == 's':
+                                response['IP'].flags = packet['IP'].flags
+                            elif self.personality_fingerprint.ie['dfi'] == 'y':
+                                response['IP'].flags = 2
+                            elif self.personality_fingerprint.ie['dfi'] == 'o':
+                                response['IP'].flags = 2  # bit toggled from probe
+                            else:  # == N
+                                response['IP'].flags = 0
 
-                    if 'dfi' in self.personality_fingerprint.ie:
-                        if self.personality_fingerprint.ie['dfi'] == 's':
-                            response['IP'].flags = packet['IP'].flags
-                        elif self.personality_fingerprint.ie['dfi'] == 'y':
-                            response['IP'].flags = 2
-                        elif self.personality_fingerprint.ie['dfi'] == 'o':
-                            response['IP'].flags = 2  # bit toggled from probe
-                        else:  # == N
-                            response['IP'].flags = 0
-
-                    # Abstract out? for now no
-                    if 'cd' in self.personality_fingerprint.ie:
-                        if self.personality_fingerprint.ie['cd'] == 'z':
-                            response['ICMP'].code = 0
-                        elif self.personality_fingerprint.ie['cd'] == 's':
-                            response['ICMP'].code = packet['ICMP'].code
-                        elif self.personality_fingerprint.ie['cd'] == 'o':
-                            #TODO test
-                            response['ICMP'].code = packet['ICMP'].code+1
-                        else:  # == N
-                            # this may never happen...
-                            response['ICMP'].code = int(self.personality_fingerprint.ie['cd'],16)
+                        # Abstract out? for now no
+                        if 'cd' in self.personality_fingerprint.ie:
+                            if self.personality_fingerprint.ie['cd'] == 'z':
+                                response['ICMP'].code = 0
+                            elif self.personality_fingerprint.ie['cd'] == 's':
+                                response['ICMP'].code = packet['ICMP'].code
+                            elif self.personality_fingerprint.ie['cd'] == 'o':
+                                #TODO test
+                                response['ICMP'].code = packet['ICMP'].code+1
+                            else:  # == N
+                                # this may never happen...
+                                response['ICMP'].code = int(self.personality_fingerprint.ie['cd'],16)
                 else:
                     # a real ping
                     self.publish(Event(EventTypes.ICMPHit, dst_ip))
@@ -353,6 +364,9 @@ class OsSpoofer(ScapyServer, Publisher):
                 #print('case: timestamp req')
                 response = IP(src=my_ip, dst=dst_ip) /\
                            ICMP(type=14, data=packet['ICMP'].data)  # ts_ori=0, ts_rx=0, ts_tx=0
+
+            if not self.personality_fingerprint:
+                return
 
             if 't' in self.personality_fingerprint.ie:
                 session_val = SessionManager.getInstance().getValue(dst_ip, "ie", "t")
@@ -469,7 +483,7 @@ class OsSpoofer(ScapyServer, Publisher):
             # if 'ss' in self.personality_fingerprint.seq:
             # ip_id = SessionManager.getInstance().getValue(dst_ip, 'seq', 'ss')
 
-            response_flag = syn_ack if sport in self.open_ports else ack_rst
+            response_flag = syn_ack if sport in self.open_tcp else ack_rst
             response = IP(src=my_ip, dst=dst_ip, id=ip_id) / \
                        TCP(sport=sport, dport=dport, flags=response_flag, seq=SeqNr, ack=AckNr)
             if server_packet:
@@ -479,8 +493,9 @@ class OsSpoofer(ScapyServer, Publisher):
             pac_num = ""
             is_nmap = False
             is_sv = False
+            is_os = False
 
-            # First define which probe it is
+            # Define which probe the packet is (if any)
             if packet['TCP'].flags == 0x0:  # null
                 print('TCP - T2 probe', bool(server_packet))
                 t_num = "t2"
@@ -497,12 +512,13 @@ class OsSpoofer(ScapyServer, Publisher):
                 elif packet['TCP'].window == 32768:
                     # should be sent to a closed port
                     print('TCP - T6 probe', bool(server_packet))
+                    # recived 4-6 times...
+                    is_os = True
                     t_num = "t6"
-                else:
-                    pass  # ignore???
 
             if packet['TCP'].flags == 0x29:  # fin,psh,urg
                 print('TCP - T7 probe', bool(server_packet))
+                # Also triggered by -sX (x-mas scan)
                 t_num = "t7"
 
             if packet['TCP'].flags == syn and len(packet['TCP'].options) >= 3:
@@ -516,7 +532,9 @@ class OsSpoofer(ScapyServer, Publisher):
                     print('packet1', bool(server_packet))
                     if bool(server_packet):
                         # I get this twice for one normal -O scan (no -p option) with one open spoofed service
-                        self.publish(Event(EventTypes.OSScan, dst_ip))
+                        # this method requires a port to be open to detect OS Scan
+                        # self.publish(Event(EventTypes.OSScan, dst_ip))
+                        pass
                     pac_num = "1"
                     t_num = "t1"
                 elif packet['TCP'].window == 63 and \
@@ -559,15 +577,16 @@ class OsSpoofer(ScapyServer, Publisher):
                 else:
                     print("tbd", bool(server_packet))
                     packet.show()
+            if packet['TCP'].ack == 0 and packet['TCP'].window == 3:
+                t_num = "ecn"
 
             # Publish once
             if not bool(server_packet):
+                if is_sv:
+                    # TODO this only works if a ServiceSpoofer port is open
+                    self.publish(Event(EventTypes.ServiceVersionScanTCP, dst_ip))
                 try:
-                    if is_sv:
-                        self.publish(Event(EventTypes.ServiceVersionScanTCP, dst_ip))
-                except:
-                    pass
-                try:
+                    # Check for normal nmap scan (no special options)
                     # TODO test if this works when nmap on windows - this one was eyeballed not from docs
                     # and on other ports
                     # May have false positives
@@ -578,130 +597,127 @@ class OsSpoofer(ScapyServer, Publisher):
                         is_nmap = True
                 except:
                     pass
+                if is_os:
+                    self.publish(Event(EventTypes.OSScan, dst_ip))
+                elif not is_nmap and (t_num or pac_num):
+                    self.publish(Event(EventTypes.TCPScan, dst_ip))
+                elif not (is_nmap or is_sv or pac_num or t_num):
+                    if str(sport) in self.open_tcp:
+                        self.publish(Event(EventTypes.TCPOpenHit, dst_ip))
+                    else:
+                        self.publish(Event(EventTypes.TCPHit, dst_ip))
 
-            # Now start responding/spoofing
-            if packet['TCP'].ack == 0 and packet['TCP'].window == 3:
-                print('ecn packet', bool(server_packet))
-                # packet.show()
-                if 'cc' in self.personality_fingerprint.ecn:
-                    if 'y' == self.personality_fingerprint.ecn['cc']:
-                        response['TCP'].flags = int(response['TCP'].flags) + int('1000000', 2)  # only ecn
-                    elif 'n' == self.personality_fingerprint.ecn['cc']:
-                        pass  # dont set either bit
-                    elif 's' == self.personality_fingerprint.ecn['cc']:
-                        response['TCP'].flags = int(response['TCP'].flags) + int('11000000', 2)  # both cwr and ecn
-                    elif 'o' == self.personality_fingerprint.ecn['cc']:
-                        response['TCP'].flags = int(response['TCP'].flags) + int('10000000', 2)  # only cwr
-                t_num = "ecn"
-            if t_num:
-                if 'r' in self.personality_fingerprint[t_num] and self.personality_fingerprint[t_num]['r'] == 'n':
-                    # Do not respond trololol
-                    #self.publish(Event(EventTypes.TCPScan, dst_ip))
-                    return
-                if 'df' in self.personality_fingerprint[t_num]:
-                    response['IP'].flags = 2 if self.personality_fingerprint[t_num]['df'] == 'y' else 0
-                if 'tg' in self.personality_fingerprint[t_num]:
-                    response['IP'].ttl = int(self.personality_fingerprint[t_num]['tg'], 16)
-                if 'w' in self.personality_fingerprint[t_num]:  # TODO check
-                    #TODO account for 0|fff - start at os 200
-                    win_size = self.personality_fingerprint[t_num]['w'].split("|")[0]
-                    response['TCP'].window = int(win_size, 16)
-                if 's' in self.personality_fingerprint[t_num]:
-                    if self.personality_fingerprint[t_num]['s'] == 'z':
-                        response['TCP'].seq = 0
-                    elif self.personality_fingerprint[t_num]['s'] == 'a':
-                        response['TCP'].seq = packet['TCP'].ack
-                    elif self.personality_fingerprint[t_num]['s'] == 'a+':
-                        response['TCP'].seq = packet['TCP'].ack + 1
-                    else:  # other
-                        # TODO test
-                        response['TCP'].seq = packet['TCP'].ack - 2
-                if 'a' in self.personality_fingerprint[t_num]:
-                    if self.personality_fingerprint[t_num]['a'] == 'z':
-                        response['TCP'].ack = 0
-                    elif self.personality_fingerprint[t_num]['a'] == 's':
-                        response['TCP'].ack = packet['TCP'].seq
-                    elif self.personality_fingerprint[t_num]['a'] == 's+':
-                        response['TCP'].ack = packet['TCP'].seq + 1
-                    else:  # other
-                        # TODO test
-                        response['TCP'].ack = packet['TCP'].seq - 2
-                if 'f' in self.personality_fingerprint[t_num]:
-                    flags = 0
-                    if "e" in self.personality_fingerprint[t_num]['f']:
-                        flags += 64
-                    if "u" in self.personality_fingerprint[t_num]['f']:
-                        flags += 32
-                    if "a" in self.personality_fingerprint[t_num]['f']:
-                        flags += 16
-                    if "p" in self.personality_fingerprint[t_num]['f']:
-                        flags += 8
-                    if "r" in self.personality_fingerprint[t_num]['f']:
-                        flags += 4
-                    if "s" in self.personality_fingerprint[t_num]['f']:
-                        flags += 2
-                    if "f" in self.personality_fingerprint[t_num]['f']:
-                        flags += 1
-                    response['TCP'].flags = flags
-                if 'o' in self.personality_fingerprint[t_num]:
-                    o = self.personality_fingerprint[t_num]['o']
+            if not self.personality_fingerprint:
+                return
 
-                if 'q' in self.personality_fingerprint[t_num]:
-                    # quirk test haha they sure go 'beyond plus ultra' :D lmao
-                    if 'r' in self.personality_fingerprint[t_num]['q']:
-                        response['TCP'].reserved = 1
-                    if 'u' in self.personality_fingerprint[t_num]['q']:
-                        # TODO only if URG flag not set
-                        response['TCP'].urgptr = 1
+            if self.personality_fingerprint:
+                # Now start responding/spoofing
+                if t_num == "ecn":
+                    print('ecn packet', bool(server_packet))
+                    # packet.show()
+                    if 'cc' in self.personality_fingerprint.ecn:
+                        if 'y' == self.personality_fingerprint.ecn['cc']:
+                            response['TCP'].flags = int(response['TCP'].flags) + int('1000000', 2)  # only ecn
+                        elif 'n' == self.personality_fingerprint.ecn['cc']:
+                            pass  # dont set either bit
+                        elif 's' == self.personality_fingerprint.ecn['cc']:
+                            response['TCP'].flags = int(response['TCP'].flags) + int('11000000', 2)  # both cwr and ecn
+                        elif 'o' == self.personality_fingerprint.ecn['cc']:
+                            response['TCP'].flags = int(response['TCP'].flags) + int('10000000', 2)  # only cwr
+                if t_num:
+                    if 'r' in self.personality_fingerprint[t_num] and self.personality_fingerprint[t_num]['r'] == 'n':
+                        # Do not respond trololol
+                        return
+                    if 'df' in self.personality_fingerprint[t_num]:
+                        response['IP'].flags = 2 if self.personality_fingerprint[t_num]['df'] == 'y' else 0
+                    if 'tg' in self.personality_fingerprint[t_num]:
+                        response['IP'].ttl = int(self.personality_fingerprint[t_num]['tg'], 16)
+                    if 'w' in self.personality_fingerprint[t_num]:  # TODO check
+                        #TODO account for 0|fff - start at os 200
+                        win_size = self.personality_fingerprint[t_num]['w'].split("|")[0]
+                        response['TCP'].window = int(win_size, 16)
+                    if 's' in self.personality_fingerprint[t_num]:
+                        if self.personality_fingerprint[t_num]['s'] == 'z':
+                            response['TCP'].seq = 0
+                        elif self.personality_fingerprint[t_num]['s'] == 'a':
+                            response['TCP'].seq = packet['TCP'].ack
+                        elif self.personality_fingerprint[t_num]['s'] == 'a+':
+                            response['TCP'].seq = packet['TCP'].ack + 1
+                        else:  # other
+                            # TODO test
+                            response['TCP'].seq = packet['TCP'].ack - 2
+                    if 'a' in self.personality_fingerprint[t_num]:
+                        if self.personality_fingerprint[t_num]['a'] == 'z':
+                            response['TCP'].ack = 0
+                        elif self.personality_fingerprint[t_num]['a'] == 's':
+                            response['TCP'].ack = packet['TCP'].seq
+                        elif self.personality_fingerprint[t_num]['a'] == 's+':
+                            response['TCP'].ack = packet['TCP'].seq + 1
+                        else:  # other
+                            # TODO test
+                            response['TCP'].ack = packet['TCP'].seq - 2
+                    if 'f' in self.personality_fingerprint[t_num]:
+                        flags = 0
+                        if "e" in self.personality_fingerprint[t_num]['f']:
+                            flags += 64
+                        if "u" in self.personality_fingerprint[t_num]['f']:
+                            flags += 32
+                        if "a" in self.personality_fingerprint[t_num]['f']:
+                            flags += 16
+                        if "p" in self.personality_fingerprint[t_num]['f']:
+                            flags += 8
+                        if "r" in self.personality_fingerprint[t_num]['f']:
+                            flags += 4
+                        if "s" in self.personality_fingerprint[t_num]['f']:
+                            flags += 2
+                        if "f" in self.personality_fingerprint[t_num]['f']:
+                            flags += 1
+                        response['TCP'].flags = flags
+                    if 'o' in self.personality_fingerprint[t_num]:
+                        o = self.personality_fingerprint[t_num]['o']
+                    if 'q' in self.personality_fingerprint[t_num]:
+                        # quirk test haha they sure go 'beyond plus ultra' :D lmao
+                        if 'r' in self.personality_fingerprint[t_num]['q']:
+                            response['TCP'].reserved = 1
+                        if 'u' in self.personality_fingerprint[t_num]['q']:
+                            # TODO only if URG flag not set
+                            response['TCP'].urgptr = 1
 
-                if t_num == "t5" or t_num == "t6" or t_num == "t7":
-                    # all sent to closed ports
-                    if 'ci' in self.personality_fingerprint.seq:
-                        ci = SessionManager.getInstance().getValue(dst_ip, 'seq', 'ci')
-                        response['IP'].id = ci
+                    if t_num == "t5" or t_num == "t6" or t_num == "t7":
+                        # all sent to closed ports
+                        if 'ci' in self.personality_fingerprint.seq:
+                            ci = SessionManager.getInstance().getValue(dst_ip, 'seq', 'ci')
+                            response['IP'].id = ci
+                if pac_num:
+                    # seq test
+                    if "1" not in pac_num and 'r' in self.personality_fingerprint.win and \
+                            'n' == self.personality_fingerprint.win['r']:
+                        return
+                    if 'ti' in self.personality_fingerprint.seq:
+                        # TODO TEST, ti isnt poping up in fingerprint
+                        ti = SessionManager.getInstance().getValue(dst_ip, 'seq', 'ti')
+                        response['IP'].id = ti
+                    if 'sp' in self.personality_fingerprint.seq:
+                        # TODO conflict w/ t1.s
+                        if not t_num:
+                            pass
+                            #sp = SessionManager.getInstance().getValue(dst_ip, 'seq', 'sp')
+                            #response['IP'].id = sp
 
-            if pac_num:
-                # seq test
-                if "1" not in pac_num and 'r' in self.personality_fingerprint.win and \
-                        'n' == self.personality_fingerprint.win['r']:
-                    return
-                if 'ti' in self.personality_fingerprint.seq:
-                    # TODO TEST, ti isnt poping up in fingerprint
-                    ti = SessionManager.getInstance().getValue(dst_ip, 'seq', 'ti')
-                    response['IP'].id = ti
-                if 'sp' in self.personality_fingerprint.seq:
-                    # TODO conflict w/ t1.s
-                    if not t_num:
-                        pass
-                        #sp = SessionManager.getInstance().getValue(dst_ip, 'seq', 'sp')
-                        #response['IP'].id = sp
-
-                '''
-                if 'ss' in self.personality_fingerprint.seq:
-                    ss = SessionManager.getInstance().getValue(dst_ip, 'seq', 'ss')
-                    response['IP'].id = ss
-                '''
-                #very few prints dont have w or o (e.g. 3Com SuperStack 3 Switch 3870)
-                # win test
-                if "w"+pac_num in self.personality_fingerprint.win:
-                    # account 0|ffff
-                    win_size = self.personality_fingerprint.win["w"+pac_num].split('|')[0]
-                    response['TCP'].window = int(win_size, 16)
-                # ops test
-                if "o"+pac_num in self.personality_fingerprint.ops:
-                    o = self.personality_fingerprint.ops["o"+pac_num]
-
-            # Publish once
-            if not (is_nmap or is_sv or pac_num or t_num) and not bool(server_packet):
-                is_open_port = False
-                for service_data in self.services_string:
-                    if str(sport)+",tcp," in service_data:
-                        is_open_port = True
-                        break
-                if is_open_port:
-                    self.publish(Event(EventTypes.TCPOpenHit, dst_ip))
-                else:
-                    self.publish(Event(EventTypes.TCPHit, dst_ip))
+                    '''
+                    if 'ss' in self.personality_fingerprint.seq:
+                        ss = SessionManager.getInstance().getValue(dst_ip, 'seq', 'ss')
+                        response['IP'].id = ss
+                    '''
+                    #very few prints dont have w or o (e.g. 3Com SuperStack 3 Switch 3870)
+                    # win test
+                    if "w"+pac_num in self.personality_fingerprint.win:
+                        # account 0|ffff
+                        win_size = self.personality_fingerprint.win["w"+pac_num].split('|')[0]
+                        response['TCP'].window = int(win_size, 16)
+                    # ops test
+                    if "o"+pac_num in self.personality_fingerprint.ops:
+                        o = self.personality_fingerprint.ops["o"+pac_num]
 
             if not (pac_num or t_num):
                 #this is a legit request, let session manager call w/ it if it wants
@@ -775,7 +791,8 @@ class OsSpoofer(ScapyServer, Publisher):
             try:
                 if str(packet.load)[2:-1].startswith(r"help\r\n\r\n") or \
                         str(packet.load)[2:-1].lower() == r'\x80\xf0\x00\x10\x00\x01\x00\x00\x00\x00\x00\x00 ckaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\x00\x00!\x00\x01':
-                    # TODO I could read all the udp packets from the service-probe file...
+                    # TODO I could read all the udp packets from the service-probe file... doing this
+                    # would also catch -sV from -sU scans
                     self.publish(Event(EventTypes.ServiceVersionScanUDP, dst_ip))
                     found = True
                 elif port_src in self.udp_payloads:
@@ -787,8 +804,8 @@ class OsSpoofer(ScapyServer, Publisher):
                         for load in self.udp_payloads[port_src]:
                             load_decode = codecs.decode(load, 'unicode_escape')
                             latin = str(load_decode.encode("latin"))[2:-1].lower()
-                            print("COMPARE1:",latin)
-                            print("COMPARE2:",str_payload)
+                            #print("COMPARE1:",latin)
+                            #print("COMPARE2:",str_payload)
                             dummy_packet = Ether()/IP()/UDP()/latin
                             if str_payload == latin or dummy_packet[3:] == packet[3:]:
                                 self.publish(Event(EventTypes.UDPScan, dst_ip+",PARSED_payload:"+str_payload))
@@ -797,13 +814,13 @@ class OsSpoofer(ScapyServer, Publisher):
                                 # Check if padding is problem
                                 remove_normal_load = str_payload[len(latin):].replace(r"\x00","")
                                 if not len(remove_normal_load):
-                                    print("SOLVED!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!", remove_normal_load)
+                                    #print("SOLVED!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!", remove_normal_load)
                                     self.publish(Event(EventTypes.UDPScan, dst_ip + ",Padded_payload:" + str_payload))
                                     found = True
 
                 elif packet['UDP'].len == 8 and packet['IP'].flags == 0:
                     if packet.load == b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00':
-                        self.publish(Event(EventTypes.UDPScan, dst_ip+",NORMAL_payload:"+str(packet.load)))
+                        #self.publish(Event(EventTypes.UDPScan, dst_ip+",NORMAL_payload:"+str(packet.load)))
                         found = True
             except AttributeError:
                 pass
@@ -811,16 +828,17 @@ class OsSpoofer(ScapyServer, Publisher):
                 print("PAYLOAD_EXCEPTION:",e)
                 traceback.print_exc()
             if not found:
-                for service_data in self.services_string:
-                    if str(port_src) + ",udp," in service_data:
-                        self.publish(Event(EventTypes.UDPOpenHit, dst_ip))
-                        # TODO catch -sV probes?
-                        #if dst_ip == "192.168.1.215":
-                        #    packet.show()
-                        # Let Service Spoofer handle it
-                        return
+                if str(port_src) in self.open_udp:
+                    self.publish(Event(EventTypes.UDPOpenHit, dst_ip))
+                    # TODO catch -sV probes?
+                    #if dst_ip == "192.168.1.215":
+                    #    packet.show()
+                    # Let Service Spoofer handle it
+                    return
                 self.publish(Event(EventTypes.UDPHit, dst_ip))
 
+        if not self.personality_fingerprint:
+            return
         if 'r' in self.personality_fingerprint.u1 and self.personality_fingerprint.u1['r'] == 'n':
             # Do not respond trololol
             return

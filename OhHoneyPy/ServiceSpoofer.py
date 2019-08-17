@@ -192,6 +192,7 @@ class ServiceSpoofer(ScapyServer, Publisher):
 			service = self.port_mapper[str(sport)+"True"]
 
 			# Let os_spoofer handle publishing if able to
+			'''
 			if not self.os_spoofer:
 				is_nmap = False
 				is_sv = False
@@ -213,6 +214,7 @@ class ServiceSpoofer(ScapyServer, Publisher):
 					pass
 				if not is_nmap and not is_sv:
 					self.publish(Event(EventTypes.TCPOpenHit, victim_ip))
+			'''
 
 			# send syn ack
 			ip = IP(src=my_ip, dst=victim_ip)
@@ -222,7 +224,7 @@ class ServiceSpoofer(ScapyServer, Publisher):
 			if SessionManager.getInstance().is_android:
 				handshake = ether/handshake
 			#print(tcp_color+"sending synack", end="")
-			if self.os_spoofer:
+			if self.os_spoofer and self.os_spoofer.personality_fingerprint:
 				handshake = self.os_spoofer.handleTCP(packet, handshake)
 				if not handshake:
 					return
@@ -286,8 +288,8 @@ class ServiceSpoofer(ScapyServer, Publisher):
 		service = self.port_mapper[str(src_port)+"False"]
 
 		#TODO identify UDP -sV packet
-		if not self.os_spoofer:
-			self.publish(Event(EventTypes.UDPOpenHit, victim_ip))
+		#if not self.os_spoofer and self.os_spoofer.personality_fingerprint:
+		#	self.publish(Event(EventTypes.UDPOpenHit, victim_ip))
 
 		ip = IP(src=my_ip, dst=victim_ip)
 		udp = UDP(sport=src_port, dport=dst_port)

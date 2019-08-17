@@ -38,8 +38,8 @@ class IDS(Subscriber):
         self.setIpTables()
 
     def setIpTables(self):
+        base = self.iptables + " -I "
         for ip in self.black_list:
-            base = self.iptables + " -I "
             commands = ["INPUT -s " + ip + ("" if "/" not in ip else "/32") + " -j DROP",
                         "OUTPUT -d " + ip + ("" if "/" not in ip else "/32") + " -j DROP"]
             for command in commands:
@@ -48,7 +48,6 @@ class IDS(Subscriber):
                     os.system(base + command)
 
         for ip in self.white_list:
-            base = self.iptables + " -I "
             commands = ["INPUT -s " + ip + ("" if "/" not in ip else "/32") + " -j ACCEPT",
                         "OUTPUT -d " + ip + ("" if "/" not in ip else "/32") + " -j ACCEPT"]
             for command in commands:
@@ -113,27 +112,6 @@ class IDS(Subscriber):
 
 '''
 Notes:
-These test were done with port 90 spoofed with tcp and with OS spoofer id 4000
-- nmap    (interesting how noisy nmap is) 
-  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [0, 0], 'OSScan': [0, 0], 'UDPScan': [0, 0], 'TCPScan': [0, 0], 'ICMPScan': [0, 0], 'UDPHit': [0, 0], 'TCPHit': [7, 7], 'ICMPHit': [0, 0]}
-- nmap -p 90,91 
-  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [0, 0], 'OSScan': [0, 0], 'UDPScan': [0, 0], 'TCPScan': [0, 0], 'ICMPScan': [0, 0], 'UDPHit': [0, 0], 'TCPHit': [1, 1], 'ICMPHit': [0, 0]}
-- nmap -sV 
-  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [1, 3], 'OSScan': [0, 0], 'UDPScan': [0, 0], 'TCPScan': [0, 0], 'ICMPScan': [0, 0], 'UDPHit': [0, 0], 'TCPHit': [10, 10], 'ICMPHit': [0, 0]}
-- nmap -sV -p 90,91 
-  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [1, 3], 'OSScan': [0, 0], 'UDPScan': [0, 0], 'TCPScan': [0, 0], 'ICMPScan': [0, 0], 'UDPHit': [0, 0], 'TCPHit': [2, 2], 'ICMPHit': [0, 0]}
-- nmap -O
-  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [0, 0], 'OSScan': [2, 6], 'UDPScan': [7, 21], 'TCPScan': [0, 0], 'ICMPScan': [2, 6], 'UDPHit': [0, 0], 'TCPHit': [30, 30], 'ICMPHit': [0, 0]}
-- nmap -O -p 90,91
-  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [0, 0], 'OSScan': [2, 6], 'UDPScan': [6, 18], 'TCPScan': [0, 0], 'ICMPScan': [5, 15], 'UDPHit': [0, 0], 'TCPHit': [25, 25], 'ICMPHit': [0, 0]}
-- nmap -O -sU
-  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [0, 0], 'OSScan': [0, 0], 'UDPScan': [1007, 3021], 'TCPScan': [0, 0], 'ICMPScan': [2, 6], 'UDPHit': [0, 0], 'TCPHit': [0, 0], 'ICMPHit': [0, 0]}
-- nmap -O -sV
-  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [1, 3], 'OSScan': [2, 6], 'UDPScan': [8, 24], 'TCPScan': [0, 0], 'ICMPScan': [2, 6], 'UDPHit': [0, 0], 'TCPHit': [31, 31], 'ICMPHit': [0, 0]}
-- nmap -O -sV -p 90,91
-  {'GenericNmapScan': [0, 0], 'ServiceVersionScan': [1, 3], 'OSScan': [2, 6], 'UDPScan': [8, 24], 'TCPScan': [0, 0], 'ICMPScan': [5, 15], 'UDPHit': [0, 0], 'TCPHit': [26, 26], 'ICMPHit': [0, 0]}
-
-
 Service scan tcp packet doesnt seem to send if it does not find an open port
 
 -sV unique packet
