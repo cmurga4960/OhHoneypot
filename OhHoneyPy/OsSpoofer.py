@@ -791,8 +791,9 @@ class OsSpoofer(ScapyServer, Publisher):
             try:
                 if str(packet.load)[2:-1].startswith(r"help\r\n\r\n") or \
                         str(packet.load)[2:-1].lower() == r'\x80\xf0\x00\x10\x00\x01\x00\x00\x00\x00\x00\x00 ckaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\x00\x00!\x00\x01':
-                    # TODO I could read all the udp packets from the service-probe file... doing this
-                    # would also catch -sV from -sU scans
+                    # TODO I could read all the udp packets from the service-probe file...
+                    # this would really only help if they pass nmap a low rarity number ... TODO test that...
+                    # or if a firewall blocks these two specific packets
                     self.publish(Event(EventTypes.ServiceVersionScanUDP, dst_ip))
                     found = True
                 elif port_src in self.udp_payloads:

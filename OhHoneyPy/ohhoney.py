@@ -251,6 +251,12 @@ if __name__ == "__main__":
         except:
             print('Please at provide an integer for --level (between 0-4)')
             sys.exit(0)
+        if args.level == 0 and not (args.o or args.s):
+            print('OhHoney will do nothing in the config... shutting down.')
+            sys.exit(0)
+    elif not (args.o or args.s):
+        print('OhHoney will do nothing in the config... shutting down.')
+        sys.exit(0)
     OhHoney.printArt()
     OhHoney.path = sys.argv[0]
     honeypot = OhHoney(args.i, args.o, args.s, args.ignore, args.level, args.l, args.k, args.w, args.b)
