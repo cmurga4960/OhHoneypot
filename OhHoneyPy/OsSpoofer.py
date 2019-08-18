@@ -87,7 +87,10 @@ class OsSpoofer(ScapyServer, Publisher):
                     self.personality_fingerprint['seq'][attribute] = ""
 
     def initUDPPayloads(self):
-        lines = open(os.path.dirname(sys.argv[0])+'/nmap-payloads', 'r').read().split('\n')
+        print(os.path.dirname(sys.argv[0]))
+        path = os.path.dirname(sys.argv[0])
+        path = path if path else "."
+        lines = open(path+'/nmap-payloads', 'r').read().split('\n')
         current_ports = []
         current_payload = ""
         for line in lines:
