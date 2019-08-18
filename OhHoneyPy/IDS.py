@@ -82,6 +82,10 @@ class IDS(Subscriber):
                      bool(self.ip_map[ip][EventTypes.TCPOpenHit.name][1])
         if dew_it:
             print('BLACK_LIST: '+ip)
+
+            w = open(self.log_dir + 'black.log', 'a+')
+            w.write(str(datetime.now()) + "=" + ip + "\n")
+            w.close()
             self.black_list.append(ip)
             self.setIpTables()
 
