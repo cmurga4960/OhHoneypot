@@ -127,7 +127,8 @@ class IDS(Subscriber):
         w.write(str(datetime.now())+"="+event.data+"\n")
         w.close()
         w = open(self.log_dir + 'all.log', 'a+')
-        w.write(event.event_type + " - " + str(datetime.now()) + "=" + event.data + "\n")
+        event_name = event.event_type + (" "*(10-len(event.event_type)))
+        w.write(event_name + " - " + str(datetime.now()) + "=" + event.data + "\n")
         w.close()
         #TODO FOR TESTING
         self.updateIpMap(event)
@@ -136,7 +137,6 @@ class IDS(Subscriber):
             self.updateIpMap(event)
             self.tryBlackList(ip)
             #self.tryWhiteList(ip)
-
 
 '''
 Notes:
