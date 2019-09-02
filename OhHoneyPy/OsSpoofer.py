@@ -19,7 +19,7 @@ from scapy.layers.inet import ICMP, IP, UDP, IPerror, UDPerror, TCP, Ether
 
 
 class OsSpoofer(ScapyServer, Publisher):
-    def __init__(self, interfaces, os_fingerprint_number_or_number, ignore_ports=[], services=[]):
+    def __init__(self, interfaces, os_fingerprint_number_or_number, ignore_ports=[], services=[], trusted_file_name=""):
         '''
 
         :param interfaces: string array of network interfaces
@@ -44,25 +44,16 @@ class OsSpoofer(ScapyServer, Publisher):
                       'OUTPUT -p icmp -m icmp --icmp-type 14 -j DROP',
                       'OUTPUT -p icmp -m icmp --icmp-type 3 -j DROP']
 
-        # Setup scapy filter and iptables
-        # TODO improve filter logic
-        # the goal is not to interfere with normal traffic
-        self.ip_filter = ""
-        for interface in self.interfaces:
-            addr = SessionManager.getIpAddress(interface)
-            self.ip_addrs.append(addr)
-            if self.ip_filter:
-                self.ip_filter += " or "
-            self.ip_filter += "dst host " + addr
+        self.trusted = []
+        self.trusted_file_name = trusted_file_name
+        #self._initTrusted() #called on start
+        self.trust_thread = threading.Thread(target=self._startTrust, daemon=True)
 
-        if self.ignore_ports:
-            self.ip_filter = "("+self.ip_filter+") and ("
-            for port in self.ignore_ports:
-                self.ip_filter += "not (dst port "+str(port)+" or src port "+str(port)+") and "
-                self.rules.append('OUTPUT -p tcp -m tcp --dport '+str(port)+' -j ACCEPT')
-                self.rules.append('OUTPUT -p tcp -m tcp --sport '+str(port)+' -j ACCEPT')
-            self.ip_filter = self.ip_filter[:-4] + ")"
-        self.rules.append('OUTPUT -p tcp -j DROP')  # TODO scope down tcp if possible
+        # Setup scapy filter and iptables
+        # for each interface in use, listen using scapy (tcpdump)
+        self.ip_filter = ""
+        self.trusted_filter = ""
+        self._initIpFilter()
 
         # ports used by ServiceSpoofer
         self.open_tcp = []
@@ -76,8 +67,9 @@ class OsSpoofer(ScapyServer, Publisher):
 
         # Used to recognize nmap UDP scans
         self.udp_payloads = {}  # self.udp_payloads[port] = array of potential payloads
-        self.initUDPPayloads()
+        self._initUDPPayloads()
 
+        # Calc cache
         if self.personality_fingerprint:
             # Used to increase response speed of OsSpoofer
             self.calculateCache()
@@ -86,7 +78,61 @@ class OsSpoofer(ScapyServer, Publisher):
                 if attribute not in self.personality_fingerprint['seq']:
                     self.personality_fingerprint['seq'][attribute] = ""
 
-    def initUDPPayloads(self):
+    def _initTrusted(self):
+        # Trusted mode - if host starts the connection, then trust the IP for that port+protocol
+        self.trusted = []
+        if not self.trusted_file_name:
+            return
+        reader = open(self.trusted_file_name, 'r+')
+        lines = reader.read().split("\n")
+        reader.close()
+        for line in lines:
+            if line:
+                ip, proto, port = line.split(",")
+                ip += "/32"
+                if proto == "icmp":
+                    self.trusted.append("OUTPUT -d "+ip+" -p icmp -m icmp --icmp-type 8 -j ACCEPT")
+                elif proto == "tcp" or proto == "udp":
+                    self.trusted.append("OUTPUT -d "+ip+" -p "+proto+" -m "+proto+" --dport "+port+" -j ACCEPT")
+        if SessionManager.getInstance().is_android:
+            iptables = '/system/bin/iptables'
+        else:
+            iptables = 'iptables'
+        for rule in self.trusted:
+            if rule not in os.popen(iptables + '-save').read():
+                os.system(iptables + " -I " + rule)
+
+    def _initIpFilter(self):
+        # TODO improve filter logic
+        # the goal is not to interfere with normal traffic
+        # handles interfaces and ignore ports
+        for interface in self.interfaces:
+            addr = SessionManager.getIpAddress(interface)
+            self.ip_addrs.append(addr)
+            if self.ip_filter:
+                self.ip_filter += " or "
+            self.ip_filter += "dst host " + addr
+            if self.trusted_filter:
+                self.trusted_filter += " or "
+            self.trusted_filter += "src host " + addr
+
+        # each port we want to ignore, dont listen to them
+        if self.ignore_ports:
+            self.ip_filter = "("+self.ip_filter+") and ("
+            self.trusted_filter = "("+self.trusted_filter+") and ("
+            for port in self.ignore_ports:
+                self.ip_filter += "not (dst port "+str(port)+" or src port "+str(port)+") and "
+                self.trusted += "not (dst port "+str(port)+" or src port "+str(port)+") and "
+                self.rules.append('OUTPUT -p tcp -m tcp --dport '+str(port)+' -j ACCEPT')  # TODO this is unsafe if attacker knows which port we trust/ignore - they can set their src port to it and perform a normal scan
+                self.rules.append('OUTPUT -p tcp -m tcp --sport '+str(port)+' -j ACCEPT')
+            self.ip_filter = self.ip_filter[:-4] + ")"
+            self.trusted_filter = self.trusted_filter[:-4] + ")"
+        self.rules.append('OUTPUT -p tcp -m tcp --tcp-flags SYN SYN -j ACCEPT')  # TODO scope down tcp if possible
+        self.rules.append('OUTPUT -p tcp -m tcp -j DROP')  # TODO scope down tcp if possible
+        # we drop on iptables so we can respond manually with scapy
+        # we dont drop udp because nmap OS scan does not care about open UDP ports - this can be done w/ service spoofer
+
+    def _initUDPPayloads(self):
         print(os.path.dirname(sys.argv[0]))
         path = os.path.dirname(sys.argv[0])
         path = path if path else "."
@@ -190,7 +236,10 @@ class OsSpoofer(ScapyServer, Publisher):
     def start(self):
         self.stopper = False
         self._startIpTables()
+        self._initTrusted()
         self.thread.start()
+        if self.trusted_file_name:
+            self.trust_thread.start()
 
     def stop(self):
         self.stopper = True
@@ -206,6 +255,17 @@ class OsSpoofer(ScapyServer, Publisher):
                 print('_start loop err', e)
                 break
         print('OsSpoofer thread stopped')
+
+    # Called as daemon
+    def _startTrust(self):
+        self._startSniffingTrusted()
+        while not self.stopper:
+            try:
+                time.sleep(1)
+            except Exception as e:
+                print('_start loop err', e)
+                break
+        print('OsSpoofer trust thread stopped')
 
     def _endCondition(self, packet):
         return self.stopper
@@ -229,16 +289,56 @@ class OsSpoofer(ScapyServer, Publisher):
             for rule in self.rules:
                 if rule in os.popen(iptables+'-save').read():  # Need this?
                     os.system(iptables+" -D " + rule)
+        for rule in self.trusted:
+            if rule in os.popen(iptables+'-save').read():  # Need this?
+                os.system(iptables+" -D " + rule)
+
+    def _addTruested(self, ip, proto, port=-1):
+        print("ADDING TUSTED:", ip, proto, port)
+        save_string = ip+","+proto+","+str(port)
+        reader = open(self.trusted_file_name, "r+")
+        lines = reader.read().split("\n")
+        if save_string not in lines:
+            writer = open(self.trusted_file_name, "a+")
+            writer.write(save_string+"\n")
+            writer.close()
+        # add to ip tables
+        self._initTrusted()
 
     def _startSniffing(self):
-        icmp_filter = "icmp"
-        tcp_filter = "tcp"
-        udp_filter = "udp"
-        main_filter = "(" + tcp_filter + " or " + udp_filter + " or " + icmp_filter + ") and ("+self.ip_filter+")"
+        main_filter = "( tcp or udp or icmp ) and ("+self.ip_filter+")"
         print(Fore.YELLOW + main_filter + Style.RESET_ALL)
         sniff(filter=main_filter, prn=self._handleIncoming, stop_filter=self._endCondition, iface=self.interfaces)
         # NOTE: sniffing listens for all traffic concerning the host minus any ignore ports
         #       packets from ServiceSpoofer ports are received twice, but handled in the logic
+
+    def _startSniffingTrusted(self):
+        main_filter = "( tcp or udp or icmp ) and (" + self.trusted_filter + ")"
+        print(Fore.YELLOW + "Trusted: " + main_filter + Style.RESET_ALL)
+        sniff(filter=main_filter, prn=self._handleOutgoingTrusted, stop_filter=self._endCondition, iface=self.interfaces)
+        # NOTE: sniffing listens for all traffic concerning the host minus any ignore ports
+        #       packets from ServiceSpoofer ports are received twice, but handled in the logic
+
+    def _handleOutgoingTrusted(self, packet):
+        try:
+            packet['ICMP']
+            if packet['ICMP'].type == 8:
+                self._addTruested(packet['IP'].dst, "icmp", -1)
+        except:
+            pass
+        try:
+            packet['TCP']
+
+            print("WANT TO BREAK FREE: ", packet.summary())
+            if packet['TCP'].flags == 0x2:
+                self._addTruested(packet['IP'].dst, "tcp", packet['TCP'].dport)
+        except:
+            pass
+        try:
+            packet['UDP']
+            # dont know how to do this so I dont respond to nmap
+        except:
+            pass
 
     def _handleIncoming(self, packet):
         try:
@@ -620,8 +720,15 @@ class OsSpoofer(ScapyServer, Publisher):
             if not self.personality_fingerprint:
                 return
 
+            if not (pac_num or t_num):
+                #this is a legit request, let session manager call w/ it if it wants
+                print('Dont care...')
+                # TODO if im getting traffic from one ip to many different ports... publish
+                return server_packet
+
             if self.personality_fingerprint:
                 # Now start responding/spoofing
+                # TODO finish SEQ test
                 if t_num == "ecn":
                     print('ecn packet', bool(server_packet))
                     # packet.show()
@@ -704,7 +811,7 @@ class OsSpoofer(ScapyServer, Publisher):
                             'n' == self.personality_fingerprint.win['r']:
                         return
                     if 'ti' in self.personality_fingerprint.seq:
-                        # TODO TEST, ti isnt poping up in fingerprint
+                        # TODO TEST, ti isnt poping up in fingerprint as range value as in os db; might be fine
                         ti = SessionManager.getInstance().getValue(dst_ip, 'seq', 'ti')
                         response['IP'].id = ti
                     if 'sp' in self.personality_fingerprint.seq:
@@ -728,12 +835,6 @@ class OsSpoofer(ScapyServer, Publisher):
                     # ops test
                     if "o"+pac_num in self.personality_fingerprint.ops:
                         o = self.personality_fingerprint.ops["o"+pac_num]
-
-            if not (pac_num or t_num):
-                #this is a legit request, let session manager call w/ it if it wants
-                print('Dont care...')
-                # TODO if im getting traffic from one ip to many different ports... publish
-                return server_packet
 
             try:
                 if o:

@@ -31,7 +31,7 @@ class OhHoney:
     path = ""
 
     def __init__(self, interface_list, os_id='', service_list='', ignore='', security_level=1,
-                 log_dir=None, kill_file='', white_list='', black_list=''):
+                 log_dir=None, kill_file='', white_list='', black_list='', trusted=False, trusted_file=''):
         if os_id == None:
             os_id = ''
         if service_list == None:
@@ -48,6 +48,11 @@ class OhHoney:
             white_list = ''
         if black_list == None:
             black_list = ''
+        if trusted == None:
+            trusted = False
+        if trusted_file == None:
+            trusted_file = ''
+
         self.interface_list = interface_list.split(',')
         self.os_id = os_id
         self.service_list = service_list
@@ -58,6 +63,10 @@ class OhHoney:
         self.security_level = int(security_level)
         self.white_list = white_list.split(',')
         self.black_list = black_list.split(',')
+        if trusted and not trusted_file:
+            trusted_file = os.path.dirname(sys.argv[0])+'/settings/Default/trusted.csv'
+        if trusted_file:
+            open(trusted_file, 'a+').close()
         # TODO V&V inputs
 
         if self.kill_file:
@@ -82,7 +91,7 @@ class OhHoney:
         if self.security_level:
             self.ids = IDS(self.log_dir, self.security_level, self.white_list, self.black_list)
         #if self.os_id:
-        self.os_spoofer = OsSpoofer(self.interface_list, self.os_id, self.ignore, self.services)
+        self.os_spoofer = OsSpoofer(self.interface_list, self.os_id, self.ignore, self.services, trusted_file)
         if self.security_level:
             self.os_spoofer.addSubscriber(self.ids)
         print(str(self.os_spoofer))
@@ -233,6 +242,12 @@ if __name__ == "__main__":
     parser.add_argument('-b', metavar="blocklist_ips",
                         help="IP adresses for the honeypot to stop all connections to. "
                              "Usage: [IP] or [IP1],[IP2],...")
+    parser.add_argument('-t',
+                        help="Trust connections to IPs that I start.", action='store_true')
+    parser.add_argument('--trusted', metavar="trusted_mode_file",
+                        help="Trust connections to IPs that I start. Use custom config file. "
+                             "usage:  [trusted.csv]")
+
     # TODO
     # -c interactive console version
     # --config settings file (e.g. saved honeypot arguments)
@@ -257,6 +272,6 @@ if __name__ == "__main__":
             sys.exit(0)
     OhHoney.printArt()
     OhHoney.path = sys.argv[0]
-    honeypot = OhHoney(args.i, args.o, args.s, args.ignore, args.level, args.l, args.k, args.w, args.b)
+    honeypot = OhHoney(args.i, args.o, args.s, args.ignore, args.level, args.l, args.k, args.w, args.b, args.t, args.trusted)
     # self, interface_list, os_id='', service_list='', ignore='', security_level=1,
     #             log_dir='logs', kill_file='', white_list='', black_list=''):
