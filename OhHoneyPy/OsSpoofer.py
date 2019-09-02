@@ -336,7 +336,8 @@ class OsSpoofer(ScapyServer, Publisher):
             pass
         try:
             packet['UDP']
-            # dont know how to do this so I dont respond to nmap
+            # TODO test... I think I can trust anyone I send a UDP packet to - needs research (e.g. DNS)
+            self._addTruested(packet['IP'].dst, "udp", packet['UDP'].dport)
         except:
             pass
 
