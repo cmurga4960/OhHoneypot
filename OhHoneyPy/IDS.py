@@ -71,8 +71,8 @@ class IDS(Subscriber):
         dew_it = False
         if self.security_level >= 2:
             dew_it = bool(self.ip_map[ip][EventTypes.OSScan.name][1]) or \
-                     bool(self.ip_map[ip][EventTypes.ServiceVersionScanTCP.name][1]) or \
-                     bool(self.ip_map[ip][EventTypes.ServiceVersionScanUDP.name][1])
+                     bool(self.ip_map[ip][EventTypes.SVScanTCP.name][1]) or \
+                     bool(self.ip_map[ip][EventTypes.SVScanUDP.name][1])
         if self.security_level >= 3:
             dew_it = dew_it or bool(self.ip_map[ip][EventTypes.TCPScan.name][1]) or \
                      bool(self.ip_map[ip][EventTypes.UDPScan.name][1]) or \
