@@ -229,7 +229,7 @@ if __name__ == "__main__":
     parser.add_argument('--ignore', metavar="ignored_ports",
                         help="ports the honeypot will not handle (usually those running a real service) "
                              "Usage: [port] or [port1],[port2],...")
-    parser.add_argument('--level', metavar="security_level",
+    parser.add_argument('--level', metavar="ids_security_level",
                         help="IDS security level. Default = 1.  "
                              "0: off, "
                              "1: log only, "
